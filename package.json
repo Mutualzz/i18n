@@ -1,0 +1,22 @@
+{
+    "devDependencies": {
+        "bunchee": "^6.10.0"
+    },
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "name": "@mutualzz/i18n",
+    "private": true,
+    "scripts": {
+        "build": "pnpm typecheck && bunchee",
+        "dev": "bunchee --watch",
+        "typecheck": "tsc --noEmit"
+    },
+    "types": "./dist/index.d.ts"
+}
