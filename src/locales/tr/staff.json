@@ -1,0 +1,286 @@
+{
+  "title": "Personel paneli",
+  "exit": "Çıkış",
+  "working": "İşleniyor...",
+  "nav": {
+    "reports": "Bildirimler",
+    "activity": "Etkinlik",
+    "appeals": "İtirazlar",
+    "support": "Destek"
+  },
+  "pages": {
+    "activity": "Personel etkinliği",
+    "reportDetails": "Bildirim ayrıntıları"
+  },
+  "home": {
+    "findUser": "Kullanıcı bul",
+    "findUserDescription": "Bir hesabı ve kullanılabilir personel eylemlerini görmek için kullanıcı adına göre ara veya bayrağa göre filtrele.",
+    "searchPlaceholder": "Kullanıcı adına göre ara veya kullanıcı kimliği yapıştır",
+    "anyFlag": "Herhangi bir bayrak",
+    "searching": "Aranıyor...",
+    "noUsers": "Kullanıcı bulunamadı",
+    "goToUserId": "Kullanıcı kimliğine git {{id}}",
+    "exactIdLookup": "Tam kimlik araması",
+    "loadMore": "Daha fazla yükle",
+    "loading": "Yükleniyor..."
+  },
+  "sections": {
+    "info": "Bilgi",
+    "flags": "Bayraklar",
+    "actions": "Eylemler",
+    "sessions": "Aktif oturumlar",
+    "notes": "Personel notları",
+    "audit": "Denetim günlüğü"
+  },
+  "user": {
+    "info": {
+      "username": "Kullanıcı adı",
+      "displayName": "Görünen ad",
+      "noDisplayName": "Görünen ad ayarlanmamış",
+      "saveChanges": "Değişiklikleri kaydet",
+      "accountDetails": "Hesap ayrıntıları",
+      "email": "E-posta",
+      "emailVerified": "E-posta doğrulandı",
+      "yes": "Evet",
+      "no": "Hayır",
+      "sendReminder": "Hatırlatma gönder",
+      "verifyReminderSent": "Doğrulama hatırlatması gönderildi",
+      "userId": "Kullanıcı kimliği",
+      "dateOfBirth": "Doğum tarihi",
+      "created": "Oluşturulma",
+      "restrictedUntil": "Kısıtlama bitişi"
+    },
+    "flags": {
+      "current": "Mevcut bayraklar",
+      "manage": "Bayrakları yönet",
+      "none": "Bayrak ayarlanmamış"
+    },
+    "actions": {
+      "enableAccount": "Hesabı etkinleştir",
+      "disableAccount": "Hesabı devre dışı bırak",
+      "forceLogout": "Zorla çıkış yaptır",
+      "warnUser": "Kullanıcıyı uyar",
+      "restrictUser": "Kullanıcıyı kısıtla",
+      "liftRestriction": "Kısıtlamayı kaldır",
+      "softDeleteAccount": "Hesabı yumuşak sil",
+      "hardDeleteAccount": "Hesabı kalıcı sil",
+      "softDeletedBanner": "Bu hesap yumuşak silindi. Kullanıcı giriş yapamaz ancak verileri saklanır.",
+      "errors": {
+        "liftRestriction": "Kısıtlama kaldırılamadı",
+        "updateUser": "Kullanıcı güncellenemedi",
+        "forceLogout": "Kullanıcıya zorla çıkış yaptırılamadı",
+        "warnUser": "Kullanıcı uyarılamadı",
+        "deleteAccount": "Hesap silinemedi",
+        "restrictUser": "Kullanıcı kısıtlanamadı"
+      }
+    },
+    "modals": {
+      "reasonRequired": "Neden (zorunlu)",
+      "reasonOptional": "Neden (isteğe bağlı)",
+      "placeholderAudit": "Denetim günlüğü için bağlam ekle",
+      "disable": {
+        "title": "Hesabı devre dışı bırak",
+        "enableTitle": "Hesabı etkinleştir",
+        "bodyDisable": "@{{username}} hesabını devre dışı bırakmak istediğinden emin misin? Oturumu kapatılacak ve yeniden etkinleştirilene kadar giriş yapamayacak.",
+        "bodyEnable": "@{{username}} hesabını yeniden etkinleştirmek istediğinden emin misin?",
+        "placeholder": "Bu hesabın neden devre dışı bırakıldığını açıkla"
+      },
+      "forceLogout": {
+        "title": "Zorla çıkış yaptır",
+        "body": "@{{username}} kullanıcısını tüm oturumlardan çıkarmak istediğinden emin misin? Yeniden giriş yapması gerekir ancak hesap etkin kalır."
+      },
+      "warn": {
+        "title": "Kullanıcıyı uyar",
+        "body": "Bu, @{{username}} kullanıcısına bir uyarı e-postası gönderir ve denetim kaydına yazar. Hesap durumunu değiştirmez.",
+        "placeholder": "Uyarının ne için olduğunu açıkla",
+        "submit": "Uyarı gönder",
+        "toastSent": "Uyarı gönderildi ve kullanıcıya e-postalandı",
+        "toastEmailFailed": "Uyarı kaydedildi ancak e-posta gönderilemedi"
+      },
+      "restrict": {
+        "title": "Kullanıcıyı kısıtla",
+        "body": "Kısıtlanan kullanıcılar kısıtlama bitene kadar mesaj gönderemez veya gönderi oluşturamaz.",
+        "duration": "Süre",
+        "submit": "Kısıtla",
+        "placeholder": "Kısıtlamanın ne için olduğunu açıkla",
+        "durations": {
+          "1h": "1 saat",
+          "6h": "6 saat",
+          "1d": "1 gün",
+          "3d": "3 gün",
+          "7d": "7 gün",
+          "30d": "30 gün"
+        }
+      },
+      "delete": {
+        "softTitle": "Hesabı yumuşak sil",
+        "hardTitle": "Hesabı kalıcı sil",
+        "softBody": "Bu, @{{username}} hesabını yumuşak siler. Oturumu kapatılır ve giriş yapamaz ancak verileri moderasyon ve denetim için saklanır.",
+        "hardBody": "Bu, @{{username}} hesabını ve ilişkili verileri veritabanından kalıcı olarak kaldırır. Sahip olduğu alanlar da silinir. Bu geri alınamaz.",
+        "type": "Silme türü",
+        "softOption": "Yumuşak silme (önerilen)",
+        "hardOption": "Kalıcı silme (geri alınamaz)",
+        "confirmUsername": "Onaylamak için @{{username}} yaz",
+        "placeholderSoft": "Bu hesabın neden yumuşak silindiğini açıkla",
+        "placeholderHard": "Bu hesabın neden kalıcı olarak kaldırılması gerektiğini açıkla"
+      }
+    },
+    "sessions": {
+      "empty": "Aktif oturum yok",
+      "created": "{{relative}} oluşturuldu",
+      "lastUsed": "Son kullanım {{relative}}",
+      "revoke": "İptal et",
+      "errorRevoke": "Oturum iptal edilemedi"
+    },
+    "notes": {
+      "placeholder": "Diğer personel için not bırak — kullanıcıya görünmez",
+      "add": "Not ekle",
+      "adding": "Ekleniyor...",
+      "empty": "Henüz personel notu yok",
+      "errorAdd": "Not eklenemedi"
+    },
+    "audit": {
+      "empty": "Henüz personel eylemi yok"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "Beklemede",
+      "reviewed": "İncelendi",
+      "dismissed": "Reddedildi",
+      "actioned": "İşlem yapıldı"
+    },
+    "actions": {
+      "shutDownSpace": "Alanı kapat",
+      "takeDownContent": "İçeriği kaldır",
+      "lockDownSpace": "Alanı kilitle"
+    },
+    "detailsTitle": "Bildirim ayrıntıları",
+    "backToReports": "Bildirimlere dön",
+    "anyStatus": "Herhangi bir durum",
+    "anyType": "Herhangi bir tür",
+    "targetTypes": {
+      "message": "Mesaj",
+      "post": "Gönderi",
+      "comment": "Yorum",
+      "user": "Kullanıcı",
+      "space": "Alan"
+    },
+    "reportedBy": "{{name}} tarafından bildirildi",
+    "reporterNotes": "Bildiren notları",
+    "reportedContent": "Bildirilen içerik",
+    "viewDetails": "Ayrıntıları görüntüle",
+    "openUserPanel": "Personel kullanıcı panelini aç",
+    "markReviewed": "İncelendi olarak işaretle",
+    "markActioned": "İşlem yapıldı olarak işaretle",
+    "dismiss": "Reddet",
+    "reviewedShort": "İncelendi",
+    "actionedShort": "İşlem yapıldı",
+    "reviewedBy": "{{name}} tarafından {{status}}",
+    "empty": "Bildirim bulunamadı",
+    "loadingReport": "Bildirim yükleniyor…",
+    "loadFailed": "Bildirim yüklenemedi",
+    "toasts": {
+      "actionCompleted": "Eylem tamamlandı",
+      "actionCompletedMarked": "Eylem tamamlandı ve bildirim işlem yapıldı olarak işaretlendi",
+      "alreadyRemoved": "Hedef zaten kaldırılmış",
+      "lockdownSuccess": "Alan kilitlendi ve sahip bilgilendirildi"
+    },
+    "errors": {
+      "update": "Bildirim güncellenemedi",
+      "action": "Eylem tamamlanamadı",
+      "lockdown": "Alan kilitlenemedi"
+    },
+    "content": {
+      "dmContext": "Doğrudan mesaj bağlamı",
+      "messageContext": "Mesaj bağlamı",
+      "dmContextHint": "Gizlilik için sınırlı çevresel mesajlar gösterilir.",
+      "reported": "BİLDİRİLDİ",
+      "noText": "(metin içeriği yok)",
+      "unknown": "Bilinmiyor",
+      "membersOwnedBy_one": "{{count}} üye · sahibi {{owner}}",
+      "membersOwnedBy_other": "{{count}} üye · sahibi {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "Herhangi bir durum",
+    "status": {
+      "pending": "Beklemede",
+      "accepted": "Kabul edildi",
+      "rejected": "Reddedildi"
+    },
+    "spaceLockdownAppeal": "Alan kilitleme itirazı",
+    "responsePlaceholder": "Kullanıcıya yanıt (isteğe bağlı)",
+    "accept": "Kabul et",
+    "reject": "Reddet",
+    "viewAccount": "Hesabı görüntüle",
+    "viewUser": "Kullanıcıyı görüntüle",
+    "staffResponse": "Personel yanıtı: {{text}}",
+    "empty": "İtiraz bulunamadı",
+    "errorUpdate": "İtiraz güncellenemedi",
+    "decidedBy": "{{name}} tarafından {{status}}"
+  },
+  "support": {
+    "anyStatus": "Herhangi bir durum",
+    "status": {
+      "open": "Açık",
+      "awaiting_reply": "Yanıt bekleniyor",
+      "resolved": "Çözüldü",
+      "closed": "Kapalı"
+    },
+    "empty": "Bilet bulunamadı",
+    "selectTicket": "Bir bilet seç",
+    "loadingTicket": "Bilet yükleniyor…",
+    "resolve": "Çöz",
+    "close": "Kapat",
+    "staff": "Personel",
+    "replyPlaceholder": "Kullanıcıya yanıtla",
+    "sendReply": "Yanıt gönder",
+    "sending": "Gönderiliyor…",
+    "errors": {
+      "send": "Yanıt gönderilemedi",
+      "update": "Bilet güncellenemedi"
+    }
+  },
+  "activity": {
+    "empty": "Henüz personel eylemi yok",
+    "removedUser": "kaldırılmış bir kullanıcı",
+    "removedUserNamed": "@{{name}} (kaldırıldı)"
+  },
+  "auditActions": {
+    "disabledAccount": "bu hesabı devre dışı bıraktı",
+    "enabledAccount": "bu hesabı etkinleştirdi",
+    "softDeletedAccount": "bu hesabı yumuşak sildi",
+    "hardDeletedAccount": "bu hesabı kalıcı sildi",
+    "forcedLogout": "bu hesap için zorla çıkış yaptırdı",
+    "warnedUser": "bu kullanıcıyı uyardı",
+    "restrictedUser": "bu kullanıcıyı kısıtladı",
+    "liftedRestriction": "bu kullanıcının kısıtlamasını kaldırdı",
+    "grantedFlag": "{{flag}} bayrağını verdi",
+    "revokedFlag": "{{flag}} bayrağını geri aldı",
+    "updatedProfile": "bu kullanıcının profilini güncelledi",
+    "addedNote": "bir personel notu ekledi",
+    "revokedSession": "bir oturumu iptal etti",
+    "tookDownContent": "bildirilen bir {{type}} kaldırdı",
+    "lockedDownSpace": "bir alanı kilitledi",
+    "shutDownSpace": "bildirilen bir alanı kapattı",
+    "global": {
+      "disabled": "{{actor}}, {{target}} hesabını devre dışı bıraktı",
+      "enabled": "{{actor}}, {{target}} hesabını etkinleştirdi",
+      "softDeleted": "{{actor}}, {{target}} hesabını yumuşak sildi",
+      "hardDeleted": "{{actor}}, {{target}} hesabını kalıcı sildi",
+      "forcedLogout": "{{actor}}, {{target}} için zorla çıkış yaptırdı",
+      "warned": "{{actor}}, {{target}} kullanıcısını uyardı",
+      "restricted": "{{actor}}, {{target}} kullanıcısını kısıtladı",
+      "liftedRestriction": "{{actor}}, {{target}} üzerindeki kısıtlamayı kaldırdı",
+      "grantedFlag": "{{actor}}, {{target}} kullanıcısına {{flag}} bayrağını verdi",
+      "revokedFlag": "{{actor}}, {{target}} kullanıcısından {{flag}} bayrağını geri aldı",
+      "updatedProfile": "{{actor}}, {{target}} kullanıcısının profilini güncelledi",
+      "addedNote": "{{actor}}, {{target}} hakkında personel notu ekledi",
+      "revokedSession": "{{actor}}, {{target}} için bir oturumu iptal etti",
+      "tookDownContent": "{{actor}}, bildirilen bir {{type}} kaldırdı",
+      "lockedDownSpace": "{{actor}} bir alanı kilitledi",
+      "shutDownSpace": "{{actor}} bildirilen bir alanı kapattı"
+    }
+  }
+}

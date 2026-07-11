@@ -1,0 +1,537 @@
+{
+  "unknownUser": "未知使用者",
+  "unknown": "未知",
+  "deletedUser": "已刪除的使用者",
+  "blocked": "已封鎖",
+  "privateSpace": "私人空間",
+  "someone": "某人",
+  "you": "你",
+  "unknownSpace": "未知空間",
+  "owner": "擁有者",
+  "loading": "載入中…",
+  "loadingMembers": "正在載入成員…",
+  "loadingMembersEllipsis": "正在載入成員...",
+  "noMembersToShow": "沒有可顯示的成員。",
+  "loadingMoreMembers": "載入更多…",
+  "loadingChannel": "正在載入頻道...",
+  "downloading": "下載中...",
+  "home": "首頁",
+  "selectConversation": "選擇一個對話開始聊天",
+  "selectChannel": "選擇一個頻道開始聊天",
+  "messageTooLong": "訊息不能超過 2000 個字元",
+  "cannotMessagePerson": "你無法向此人傳送訊息",
+  "unknownError": "未知錯誤",
+  "online": "線上",
+  "offline": "離線",
+  "composer": {
+    "placeholder": {
+      "channel": "傳送訊息到 #{{channel}}",
+      "channelFallback": "在此頻道傳送訊息",
+      "dm": "給 {{name}} 傳訊息",
+      "dmFallback": "在此對話中傳訊息",
+      "groupFallback": "給群組傳訊息",
+      "edit": "編輯訊息",
+      "blocked": "你無法向此人傳送訊息，因為你已封鎖對方",
+      "noPermission": "你無權在此頻道傳送訊息。"
+    },
+    "attachFiles": "附加檔案",
+    "addAttachment": "新增附件",
+    "remove": "移除",
+    "removeSticker": "移除貼圖",
+    "removeAttachment": "移除附件",
+    "openExpressionPicker": "開啟表情選擇器",
+    "emojiPicker": "表情選擇器",
+    "gifPicker": "GIF 選擇器",
+    "stickerPicker": "貼圖選擇器",
+    "openEmojiPicker": "開啟表情選擇器",
+    "openGifPicker": "開啟 GIF 選擇器",
+    "openStickerPicker": "開啟貼圖選擇器",
+    "mentionOn": "@ 開",
+    "mentionOff": "@ 關",
+    "editHint": "escape 取消 • enter 儲存",
+    "editHintCancel": "取消",
+    "editHintSave": "儲存",
+    "editHintEscapeTo": "escape 以",
+    "editHintEnterTo": "enter 以"
+  },
+  "reply": {
+    "banner": "回覆 {{name}}",
+    "replyPreviewMissing": "找不到被回覆的訊息"
+  },
+  "edit": {
+    "banner": "正在編輯訊息",
+    "cancelA11y": "取消編輯",
+    "cancelReplyA11y": "取消回覆"
+  },
+  "typing": {
+    "one": "{{name}} 正在輸入...",
+    "two": "{{name1}} 和 {{name2}} 正在輸入...",
+    "many": "{{name1}}、{{name2}} 和其他人正在輸入..."
+  },
+  "actions": {
+    "reply": "回覆",
+    "edit": "編輯",
+    "delete": "刪除",
+    "copyText": "複製文字",
+    "editMessage": "編輯訊息",
+    "deleteMessage": "刪除訊息",
+    "reportMessage": "檢舉訊息",
+    "addReaction": "新增反應",
+    "reactWith": "用 {{emoji}} 反應"
+  },
+  "report": {
+    "thisMessage": "此訊息"
+  },
+  "message": {
+    "edited": "（已編輯）",
+    "scrollToLatestA11y": "捲動到最新訊息"
+  },
+  "system": {
+    "ephemeralOnlyYou": "僅你可見 •",
+    "dismissMessage": "關閉訊息"
+  },
+  "empty": {
+    "channel": {
+      "welcome": "歡迎來到 #{{channel}}！",
+      "start": "這是 #{{channel}} 頻道的開始。",
+      "noHistory": "你沒有權限閱讀訊息紀錄"
+    },
+    "dm": {
+      "firstMessage": "向 {{name}} 傳送第一則訊息",
+      "beginning": "歡迎來到 {{conversation}} 的開始"
+    }
+  },
+  "dm": {
+    "title": "私人訊息",
+    "newMessage": "新訊息",
+    "empty": "你還沒有私人訊息。在使用者個人檔案上點擊「訊息」，或建立新的群組私人訊息來開始對話！",
+    "createTitle": "新訊息",
+    "addFriendsHint_one": "還可以再新增 {{count}} 位好友。",
+    "addFriendsHint_other": "還可以再新增 {{count}} 位好友。",
+    "createMessage": "建立訊息",
+    "createGroupMessage": "建立群組訊息",
+    "searchPeople": "搜尋使用者",
+    "groupNameOptional": "群組名稱（選填）",
+    "selected": "已選",
+    "createFailed": "建立私人訊息失敗",
+    "createGroupA11y": "建立群組私人訊息",
+    "rotate90": "旋轉 90°"
+  },
+  "picker": {
+    "tabs": {
+      "emoji": "表情",
+      "gifs": "GIF",
+      "stickers": "貼圖"
+    },
+    "searchEmojis": "搜尋表情…",
+    "searchStickers": "搜尋貼圖…",
+    "searchKlipy": "搜尋 KLIPY",
+    "favorites": "收藏",
+    "recentlyUsed": "最近使用",
+    "recent": "最近",
+    "yourEmojis": "你的表情",
+    "yours": "你的",
+    "yourStickers": "你的貼圖",
+    "custom": "自訂",
+    "standard": "標準",
+    "noResults": "無結果",
+    "results_one": "{{count}} 個結果",
+    "results_other": "{{count}} 個結果",
+    "skinTone": "膚色",
+    "skinToneDefault": "預設",
+    "emptyStickers": "尚無貼圖。請在使用者或空間設定中上傳。",
+    "loadingMore": "載入更多…",
+    "noGifsFor": "找不到「{{query}}」的 GIF",
+    "gifA11y": "GIF",
+    "addFavorite": "新增收藏",
+    "removeFavorite": "取消收藏",
+    "categories": {
+      "smileys": "表情與情感",
+      "people": "人物與身體",
+      "animals": "動物與自然",
+      "food": "食物與飲品",
+      "travel": "旅行與地點",
+      "activities": "活動",
+      "objects": "物品",
+      "symbols": "符號",
+      "flags": "旗幟"
+    }
+  },
+  "header": {
+    "memberList": {
+      "show": "顯示成員列表",
+      "hide": "隱藏成員列表"
+    },
+    "dm": {
+      "addToGroup": "新增到群組",
+      "groupFull": "群組已滿"
+    },
+    "voice": {
+      "closeChatA11y": "關閉聊天"
+    }
+  },
+  "mentions": {
+    "members": "成員",
+    "membersMatching": "符合「{{query}}」的成員",
+    "role": "角色",
+    "notifyRole": "通知擁有此角色且有權檢視此頻道的使用者",
+    "notifyEveryone": "通知所有有權檢視此頻道的人",
+    "notifyHere": "通知所有線上且有權檢視此頻道的人"
+  },
+  "voice": {
+    "noOneInVoice": "目前無人在語音中",
+    "noOneConnectedYet": "尚無人連線。",
+    "title": "語音",
+    "peopleInVoice_one": "{{count}} 人在語音中。",
+    "peopleInVoice_other": "{{count}} 人在語音中。",
+    "joinVoice": "加入語音",
+    "openChat": "開啟聊天",
+    "invite": "邀請",
+    "startingScreenShare": "正在開始螢幕分享...",
+    "sharingScreen": "{{name}} 正在分享螢幕",
+    "watchStream": "觀看直播",
+    "stopWatching": "停止觀看",
+    "screenLabel": "{{name}} 的螢幕",
+    "connection": {
+      "connecting": "正在連線語音...",
+      "connected": "已連線語音",
+      "rtcConnecting": "RTC 連線中",
+      "voiceConnected": "語音已連線",
+      "failed": "連線失敗",
+      "failedFallback": "語音連線失敗",
+      "unableToConnect": "無法連線",
+      "disconnect": "中斷連線",
+      "disconnectA11y": "中斷語音連線"
+    },
+    "errors": {
+      "notConfigured": "語音伺服器未設定",
+      "unableToJoin": "無法加入語音頻道",
+      "credentialsMissing": "未提供語音伺服器憑證",
+      "timedOut": "語音連線逾時",
+      "micPermissionRequired": "語音頻道需要麥克風權限",
+      "closed": "語音連線已關閉",
+      "disconnected": "已中斷",
+      "disconnectedFrom": "已中斷語音：{{reason}}",
+      "differentDevice": "已從其他裝置連線",
+      "movedChannel": "已移至其他語音頻道",
+      "enumerateDevices": "列舉裝置失敗"
+    },
+    "controls": {
+      "mute": "靜音",
+      "unmute": "取消靜音",
+      "muted": "已靜音",
+      "deafen": "拒聽",
+      "undeafen": "取消拒聽",
+      "deafened": "已拒聽",
+      "spaceMuted": "空間靜音",
+      "spaceDeafened": "空間拒聽",
+      "enableCamera": "開啟攝影機",
+      "disableCamera": "關閉攝影機",
+      "shareScreen": "分享螢幕",
+      "stopSharing": "停止分享",
+      "muteStreamAudio": "靜音直播音訊",
+      "unmuteStreamAudio": "取消靜音直播音訊",
+      "settings": "設定",
+      "holdToTalk": "按住說話",
+      "talking": "說話中…",
+      "holdToTalkA11y": "按住說話",
+      "volume": "音量",
+      "volumePercent": "音量 {{value}}%",
+      "userVolume": "使用者音量",
+      "streamVolume": "直播音量",
+      "muteUser": "靜音使用者",
+      "muteUserLocally": "本機靜音此使用者",
+      "unmuteUserLocally": "取消本機靜音此使用者",
+      "muteStream": "靜音直播",
+      "live": "直播中",
+      "video": "視訊"
+    },
+    "participant": {
+      "you": "（你）",
+      "speaking": "正在說話",
+      "serverMuted": "伺服器靜音",
+      "serverDeafened": "伺服器拒聽"
+    },
+    "moderation": {
+      "title": "語音審核",
+      "spaceMute": "空間靜音",
+      "removeSpaceMute": "取消空間靜音",
+      "spaceDeafen": "空間拒聽",
+      "removeSpaceDeafen": "取消空間拒聽",
+      "disconnect": "中斷",
+      "spaceMuteToggle": "空間靜音",
+      "spaceDeafenToggle": "空間拒聽"
+    },
+    "spaceModerated": {
+      "mutedTitle": "空間靜音",
+      "deafenedTitle": "空間拒聽",
+      "mutedBody": "此頻道有特殊權限。要在其中發言，需要空間版主或管理員取消你的靜音",
+      "deafenedBody": "此頻道有特殊權限。要在其中收聽，需要空間版主或管理員取消你的拒聽",
+      "dismiss": "好的！",
+      "dismissMobile": "知道了"
+    },
+    "screenShare": {
+      "title": "分享螢幕",
+      "entireScreen_one": "整個螢幕（{{count}}）",
+      "entireScreen_other": "整個螢幕（{{count}}）",
+      "applicationWindow_one": "應用程式視窗（{{count}}）",
+      "applicationWindow_other": "應用程式視窗（{{count}}）",
+      "noScreens": "沒有可用螢幕。",
+      "noWindows": "沒有可用視窗。",
+      "permissionHint": "請在系統設定中為 {{appName}} 啟用螢幕錄製。",
+      "permissionDevHint": "開發環境下通常顯示為 Electron。",
+      "openSystemSettings": "開啟系統設定",
+      "browserPickerHint": "點擊「開始直播」時，瀏覽器會詢問要分享哪個螢幕或視窗。",
+      "streamSettings": "直播設定",
+      "streamQuality": "直播品質",
+      "shareAudio": "分享音訊",
+      "shareAudioDescription": "傳輸分享螢幕或視窗的聲音",
+      "devBuildHint": "開發版：請在 macOS 系統設定中為 {{appName}}（通常為 Electron）授予螢幕錄製權限。",
+      "goLive": "開始直播",
+      "quality": {
+        "720p15": "720p 15幀",
+        "720p30": "720p 30幀",
+        "1080p30": "1080p 30幀",
+        "1080p60": "1080p 60幀",
+        "source": "原始"
+      }
+    }
+  },
+  "feed": {
+    "title": "動態",
+    "tabs": {
+      "forYou": "推薦",
+      "friends": "好友",
+      "saved": "已儲存",
+      "scheduled": "已排程"
+    },
+    "sidebar": {
+      "explore": "探索 / 發現",
+      "friends": "好友",
+      "saves": "收藏",
+      "myProfile": "我的個人檔案",
+      "customizeProfile": "自訂個人檔案",
+      "switchMode": "切換到 {{mode}}"
+    },
+    "header": {
+      "createPost": "發佈貼文",
+      "createPostSheetTitle": "發佈貼文",
+      "myProfile": "我的個人檔案",
+      "customizeProfile": "自訂個人檔案"
+    },
+    "composer": {
+      "placeholder": "在想什麼？",
+      "post": "發佈",
+      "schedule": "排程",
+      "addMedia": "新增媒體",
+      "addEmojiOrSticker": "新增表情或貼圖",
+      "schedulePost": "排程發佈",
+      "viewScheduled": "查看已排程貼文",
+      "clearScheduledTime": "清除排程時間",
+      "pickDateTime": "選擇日期和時間",
+      "clearSchedule": "清除排程"
+    },
+    "empty": {
+      "posts": "尚無貼文。",
+      "saved": "尚無已儲存的貼文。",
+      "scheduled": "你沒有已排程的貼文。",
+      "comments": "尚無留言。",
+      "postUnavailable": "此貼文不存在或已不可用。",
+      "shareTargets": "你還沒有任何可分享的對話或好友。"
+    },
+    "scheduled": {
+      "title": "已排程貼文",
+      "reschedule": "重新排程",
+      "saveTime": "儲存時間",
+      "publishNow": "立即發佈",
+      "scheduledFor": "排程於 {{datetime}}",
+      "scheduledForUnknown": "排程時間未知"
+    },
+    "comments": {
+      "title": "留言",
+      "loading": "正在載入留言…",
+      "placeholder": "寫留言…",
+      "replyPlaceholder": "回覆 {{name}}…",
+      "replyFallback": "留言",
+      "reply": "回覆",
+      "sendReply": "傳送回覆"
+    },
+    "actions": {
+      "deletePost": "刪除貼文",
+      "reportPost": "檢舉貼文",
+      "deleteComment": "刪除留言",
+      "reportComment": "檢舉留言",
+      "openPost": "開啟貼文",
+      "savePost": "儲存貼文",
+      "unsavePost": "取消儲存"
+    },
+    "report": {
+      "thisPost": "此貼文",
+      "thisComment": "此留言"
+    },
+    "share": {
+      "title": "分享貼文",
+      "send": "傳送",
+      "sending": "傳送中…",
+      "done": "完成"
+    },
+    "embed": {
+      "loadingPost": "正在載入貼文…",
+      "attachments_one": "{{count}} 個附件",
+      "attachments_other": "{{count}} 個附件"
+    },
+    "media": {
+      "goToMediaA11y": "前往媒體 {{index}}",
+      "volume": "音量"
+    }
+  },
+  "contextMenu": {
+    "markAsRead": "標為已讀",
+    "viewProfile": "查看個人檔案",
+    "editProfile": "編輯個人檔案",
+    "message": "傳訊息",
+    "closeDm": "關閉私人訊息",
+    "removeFromGroup": "移出群組",
+    "acceptFriendRequest": "接受好友請求",
+    "declineFriendRequest": "拒絕好友請求",
+    "cancelFriendRequest": "取消好友請求",
+    "removeFriend": "刪除好友",
+    "block": "封鎖",
+    "unblock": "取消封鎖",
+    "reportUser": "檢舉使用者",
+    "reportAccount": "此帳戶",
+    "roles": "角色",
+    "noRolesToAssign": "沒有可指派的角色",
+    "createRole": "建立角色",
+    "noRolesAssigned": "未指派角色",
+    "kickMember": "踢出 {{username}}",
+    "banMember": "封鎖 {{username}}",
+    "openInStaffPanel": "在員工面板中開啟",
+    "inviteToChannel": "邀請到頻道",
+    "editChannel": "編輯頻道",
+    "editCategory": "編輯分類",
+    "deleteChannel": "刪除頻道",
+    "deleteCategory": "刪除分類",
+    "reportSpace": "檢舉空間",
+    "reportSpaceLabel": "此空間",
+    "leaveSpace": "離開空間",
+    "createChannel": "建立頻道",
+    "createCategory": "建立分類",
+    "inviteToSpace": "邀請到空間",
+    "editGroup": "編輯群組",
+    "manageGroup": "管理群組",
+    "leaveGroup": "離開群組",
+    "deleteGroup": "刪除群組",
+    "deleteRole": "刪除角色",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "channelSettings": "頻道設定",
+    "addFriend": "新增好友"
+  },
+  "a11y": {
+    "embedImage": "嵌入圖片",
+    "embedTitle": "嵌入標題",
+    "youtubePlayer": "YouTube 影片播放器",
+    "toggleReaction": "切換反應，數量 {{value}}",
+    "mentionsCount": "{{value}} 則提及",
+    "unread": "未讀"
+  },
+  "expressionPreview": {
+    "emojiFromSpaceBelong": "此表情來自你所屬的某個空間",
+    "emojiFromYou": "此表情來自你，可在任何聊天中使用",
+    "emojiFromUser": "此表情來自使用者",
+    "emojiFromSpace": "此表情來自空間",
+    "stickerFromSpaceBelong": "此貼圖來自你所屬的某個空間",
+    "stickerFromYou": "此貼圖來自你，可在任何聊天中使用",
+    "stickerFromUser": "此貼圖來自使用者",
+    "stickerFromSpace": "此貼圖來自空間",
+    "defaultEmoji": "這是預設表情。可在 Mutualzz 任意位置使用",
+    "emojiMatching": "表情符合"
+  },
+  "toast": {
+    "onlyMentioned": "你僅在此訊息中被提及",
+    "openChannel": "開啟頻道"
+  },
+  "favorites": {
+    "add": "新增到收藏",
+    "remove": "從收藏中移除"
+  },
+  "stickers": {
+    "animated": "動態貼圖",
+    "sticker": "貼圖"
+  },
+  "groupDm": {
+    "title": "群組私人訊息",
+    "edit": "編輯群組",
+    "leave": "離開群組",
+    "delete": "刪除群組",
+    "groupFullCount": "此群組已滿（{{current}}/{{max}}）。",
+    "spotsRemaining_one": "剩餘 {{count}} 個名額",
+    "spotsRemaining_other": "剩餘 {{count}} 個名額",
+    "noFriendsToAdd": "沒有可新增的好友。",
+    "namePlaceholder": "例如：遊戲之夜",
+    "conversationOptionsA11y": "對話選項",
+    "saveFailed": "儲存群組失敗",
+    "leaveFailed": "離開群組失敗",
+    "deleteFailed": "刪除群組失敗",
+    "removeMemberFailed": "移除成員失敗",
+    "addRecipientFailed": "新增收件人失敗",
+    "maxRecipients": "群組私人訊息不能超過 9 名收件人（含你共 10 人）",
+    "membersCount": "成員 — {{value}}",
+    "manage": {
+      "title": "管理群組",
+      "icon": "圖示",
+      "removeIcon": "移除圖示",
+      "changeIcon": "變更圖示",
+      "groupName": "群組名稱",
+      "members": "成員",
+      "you": "（你）",
+      "remove": "移除",
+      "removing": "移除中…",
+      "saveChanges": "儲存變更",
+      "leaveGroup": "離開群組",
+      "deleteGroup": "刪除群組",
+      "round": "圓形"
+    }
+  },
+  "friends": {
+    "title": "好友",
+    "tabs": {
+      "online": "線上",
+      "all": "全部",
+      "pending": "待處理",
+      "addFriend": "新增好友"
+    },
+    "onlineCount_one": "線上 — {{count}}",
+    "onlineCount_other": "線上 — {{count}}",
+    "allCount_one": "全部 — {{count}}",
+    "allCount_other": "全部 — {{count}}",
+    "receivedCount_one": "已收到 — {{count}}",
+    "receivedCount_other": "已收到 — {{count}}",
+    "sentCount_one": "已傳送 — {{count}}",
+    "sentCount_other": "已傳送 — {{count}}",
+    "emptyOnline": "沒有好友在線上。點擊「新增好友」傳送好友請求。",
+    "emptyAll": "你還沒有好友。點擊「新增好友」傳送好友請求。",
+    "emptyPending": "沒有待處理的好友請求。點擊「新增好友」傳送好友請求。",
+    "emptyYet": "尚無好友。",
+    "incomingCount": "收到 — {{value}}",
+    "pendingSectionCount": "待處理 — {{value}}",
+    "friendsSectionCount": "好友 — {{value}}",
+    "sendFailed": "無法傳送請求",
+    "blockedBeforeRequest": "你已封鎖此使用者。請先取消封鎖再傳送請求。",
+    "addTitle": "新增好友",
+    "addDescription": "你可以用 Mutualzz 使用者名稱新增好友。",
+    "usernamePlaceholder": "輸入使用者名稱",
+    "sendRequest": "傳送請求",
+    "alreadyFriends": "已是好友",
+    "alreadySent": "已傳送請求",
+    "unknownUsername": "未知使用者名稱，請確認使用者名稱正確",
+    "friendLinkTitle": "你的好友連結",
+    "friendLinkDescription": "分享此連結，讓他人向你傳送好友請求。他們會在聊天中看到「新增好友」按鈕。",
+    "creatingLink": "正在建立你的好友連結...",
+    "copy": "複製",
+    "copied": "已複製",
+    "message": "傳訊息",
+    "remove": "移除"
+  }
+}

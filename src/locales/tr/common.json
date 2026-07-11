@@ -1,0 +1,280 @@
+{
+  "cancel": "İptal",
+  "save": "Kaydet",
+  "saveChanges": "Değişiklikleri kaydet",
+  "close": "Kapat",
+  "create": "Oluştur",
+  "delete": "Sil",
+  "add": "Ekle",
+  "remove": "Kaldır",
+  "reset": "Sıfırla",
+  "back": "Geri",
+  "clear": "Temizle",
+  "finish": "Bitir",
+  "retry": "Yeniden dene",
+  "apply": "Uygula",
+  "undo": "Geri al",
+  "redo": "Yinele",
+  "open": "Aç",
+  "proceed": "Devam et",
+  "gotIt": "Anladım",
+  "seo": {
+    "defaultTitle": "Mutualzz (Erken Erişim)",
+    "defaultDescription": "İlgi alanlarını paylaşan insanlarla bağlantı kur. Şu anda yoğun geliştirme altında"
+  },
+  "reload": "Uygulamayı yenile",
+  "download": "Mutualzz'ı indir",
+  "accept": "Kabul et",
+  "decline": "Reddet",
+  "restore": "Geri yükle",
+  "uploadCustomFont": "Özel yazı tipi yükle",
+  "language": {
+    "title": "Dil",
+    "description": "Mutualzz genelinde kullanılacak dili seç.",
+    "systemDefault": "Cihaz dili"
+  },
+  "calendar": {
+    "sameDay": "[Bugün saat] HH:mm",
+    "nextDay": "[Yarın saat] HH:mm",
+    "lastDay": "[Dün saat] HH:mm",
+    "lastWeek": "[Geçen] dddd [saat] HH:mm",
+    "sameElse": "DD.MM.YYYY HH:mm"
+  },
+  "duration": {
+    "clearOnDateAt": "{{date}} tarihinde saat {{time}} temizle",
+    "clearTodayAt": "Bugün saat {{time}} temizle",
+    "clearTomorrowAt": "Yarın saat {{time}} temizle",
+    "days_one": "{{count}} gün",
+    "days_other": "{{count}} gün",
+    "dontClear": "Temizleme",
+    "forever": "Sonsuza kadar",
+    "hours_one": "{{count}} saat",
+    "hours_other": "{{count}} saat",
+    "minutes_one": "{{count}} dakika",
+    "minutes_other": "{{count}} dakika"
+  },
+  "status": {
+    "clearCustomAfter": "Özel durumu şundan sonra temizle",
+    "clearOnlineAfter": "Çevrimiçi durumu şundan sonra temizle",
+    "dnd": "Rahatsız Etme",
+    "dndDescription": "Bildirim almazsın",
+    "idle": "Boşta",
+    "idleDescription": "Klavyeden uzakta",
+    "invisible": "Görünmez",
+    "invisibleDescription": "Çevrimdışı görün",
+    "offline": "Çevrimdışı",
+    "online": "Çevrimiçi",
+    "saveCustom": "Özel durumu kaydet"
+  },
+  "report": {
+    "title": "{{label}} bildir",
+    "description": "Bildirimler ekip tarafından incelenir. En uygun nedeni seç.",
+    "detailsPlaceholder": "Daha fazla ayrıntı ekle (isteğe bağlı)",
+    "submit": "Bildirimi gönder",
+    "submitting": "Gönderiliyor...",
+    "success": "Bildirim gönderildi. Ortamı güvenli tutmaya yardımcı olduğun için teşekkürler.",
+    "action": "Bildir",
+    "reasons": {
+      "spam": "Spam",
+      "harassment": "Taciz veya kötüye kullanım",
+      "hate_speech": "Nefret söylemi",
+      "nsfw": "NSFW / Uygunsuz içerik",
+      "self_harm": "Kendine zarar veya intihar",
+      "impersonation": "Kimliğe bürünme",
+      "misinformation": "Yanlış bilgi",
+      "other": "Diğer"
+    }
+  },
+  "editable": {
+    "addToDictionary": "Sözlüğe ekle",
+    "spellcheck": "Yazım denetimi",
+    "cut": "Kes",
+    "copy": "Kopyala",
+    "paste": "Yapıştır"
+  },
+  "customStatus": {
+    "title": "Durumunu ayarla",
+    "heading": "Özel durum",
+    "label": "Durum",
+    "placeholder": "Durumunu gir...",
+    "setPlaceholder": "Özel durum ayarla...",
+    "setShort": "Özel durum ayarla...",
+    "editA11y": "Özel durumu düzenle",
+    "clearA11y": "Özel durumu temizle",
+    "changeEmoji": "Durum emojisini değiştir",
+    "addEmoji": "Durum emojisi ekle",
+    "chooseEmoji": "Durum emojisi seç",
+    "pickEmoji": "Bir emoji seç",
+    "removeEmoji": "Emojiyi kaldır",
+    "changeStatus": "Durumu değiştir",
+    "whatsOnYourMind": "Aklından neler geçiyor?"
+  },
+  "externalLink": {
+    "proceed": "Devam et",
+    "close": "Kapat",
+    "title": "Harici bağlantı aç",
+    "aboutToOpen": "Harici bir bağlantı açmak üzeresin:",
+    "unsafeTitle": "Bu bağlantı güvensiz görünüyor",
+    "unsafeHttpBody": "Açmaya çalıştığın bağlantı güvensiz bir HTTP bağlantısı kullanıyor. Bu, verilerini üçüncü taraflara açabilir.",
+    "confirmProceed": "Devam etmek istediğinden emin misin?",
+    "blockedInApp": "Güvenliğin için güvensiz bağlantıların uygulamada doğrudan açılmasına izin vermiyoruz. Lütfen bağlantıyı kopyalayıp web tarayıcında aç."
+  },
+  "connection": {
+    "reconnect": "Yeniden bağlan",
+    "enableAudio": "Sesi etkinleştirmek için tıkla",
+    "offlineBanner": "Şu anda çevrimdışısın",
+    "audioBlocked": "Tarayıcın ses oynatmayı engelledi"
+  },
+  "nav": {
+    "goBack": "Geri git",
+    "goForward": "İleri git"
+  },
+  "updater": {
+    "pleaseWait": "Güncelleniyor… lütfen bekle"
+  },
+  "crash": {
+    "title": "Bir şeyler ters gitti",
+    "bodyDesktop": "Mutualzz beklenmeyen bir hatayla karşılaştı. Yeniden denemek için uygulamayı yenile.",
+    "orPressShortcut": "Veya {{shortcut}} tuşuna bas",
+    "bodyMobile": "Mutualzz beklenmeyen bir hatayla karşılaştı. Uygulamayı tamamen kapatıp yeniden aç.",
+    "hintIos": "Uygulama değiştiriciyi açmak için ekranın altından yukarı kaydır, ardından Mutualzz'ı kaydırarak kapat.",
+    "hintAndroid": "Son uygulamalar özetini aç, ardından uygulama kapanana kadar Mutualzz'ı kaydır."
+  },
+  "a11y": {
+    "closeProfile": "Profili kapat",
+    "settings": "Ayarlar",
+    "deleteInvite": "Daveti sil",
+    "deleteNamed": "{{name}} öğesini sil",
+    "deleteExpression": ":{{name}}: sil",
+    "removeMemberFromRole": "{{member}} kullanıcısını {{role}} rolünden kaldır",
+    "allowPermission": "{{label}} iznini ver",
+    "neutralPermission": "{{label}} nötr",
+    "denyPermission": "{{label}} iznini reddet",
+    "expandWidget": "{{type}} widget'ını genişlet",
+    "expandWidgetHint": "Widget içeriğinin tamamını açar",
+    "editWidgetHint": "Widget düzenleyicisini açar. Widget'ları yeniden düzenlemek için basılı tut.",
+    "playVideo": "Videoyu oynat",
+    "pauseVideo": "Videoyu duraklat",
+    "tapToOpen": "Açmak için dokun",
+    "sent": "Gönderildi",
+    "createChannelInCategory": "Kategoride kanal oluştur",
+    "reorder": "Yeniden sırala",
+    "time": "Zaman",
+    "closeModal": "Pencereyi kapat",
+    "increment": "Artır",
+    "decrement": "Azalt",
+    "openColorPicker": "Renk seçiciyi aç",
+    "randomColor": "Rastgele renk",
+    "randomColorHint": "Rastgele bir renk seçer",
+    "removeColorStop": "Renk durağını kaldır",
+    "rangeSliderHint": "Aralık kaydırıcısı. Sürükleyerek ayarla."
+  },
+  "errors": {
+    "unknown": "Bilinmeyen hata"
+  },
+  "select": {
+    "placeholder": "Bir seçenek seç"
+  },
+  "media": {
+    "play": "Oynat",
+    "pause": "Duraklat",
+    "download": "İndir",
+    "volume": "Ses"
+  },
+  "notifications": {
+    "unreads": "Okunmamışlar",
+    "mentions": "Bahsetmeler",
+    "requests": "İstekler",
+    "markAllAsRead": "Tümünü okundu işaretle",
+    "acceptedFriend": "{{name}} arkadaşlık isteğini kabul etti",
+    "sentAttachment": "Bir ek gönderdi",
+    "noMessagesYet": "Henüz mesaj yok",
+    "youWereMentioned": "Senden bahsedildi",
+    "noUnreads": "Okunmamış mesaj yok",
+    "noMentions": "Yeni bahsetme yok",
+    "recentlyAccepted": "Yakınlarda kabul edilenler",
+    "groupDmChannel": "Grup DM kanalı",
+    "messagesChannel": "Mesajlar",
+    "reply": "Yanıtla",
+    "messagePlaceholder": "Mesaj",
+    "send": "Gönder"
+  },
+  "markdown": {
+    "bold": "Kalın",
+    "italic": "İtalik",
+    "underline": "Altı çizili",
+    "strikethrough": "Üstü çizili",
+    "blockquote": "Alıntı",
+    "code": "Kod",
+    "spoiler": "Spoiler"
+  },
+  "support": {
+    "myTickets": "Biletlerim",
+    "contactSupport": "Destekle iletişime geç",
+    "loginToContact": "Destekle iletişime geçmek için giriş yap",
+    "privacyPolicy": "Gizlilik Politikası",
+    "faq": "Sıkça sorulan sorular",
+    "quickLinks": "Hızlı bağlantılar",
+    "contactUs": "Bize ulaş",
+    "openHelpCenter": "Yardım merkezini aç",
+    "describeIssue": "Sorununu açıkla",
+    "newTicket": "Yeni bilet",
+    "writeReply": "Yanıt yaz",
+    "loading": "Yükleniyor...",
+    "loadingTickets": "Biletler yükleniyor...",
+    "loadMore": "Daha fazla yükle",
+    "sendReply": "Yanıt gönder",
+    "sendReplyFailed": "Yanıt gönderilemedi",
+    "staffLabel": "Destek",
+    "ticketClosed": "Bu bilet kapalı.",
+    "ticketClosedHint": "Bu bilet kapalı. Hâlâ yardıma ihtiyacın varsa yeni bir bilet aç.",
+    "updatedAt": "{{date}} güncellendi",
+    "pageIntro": "Mutualzz konusunda yardıma mı ihtiyacın var? Aşağıdaki yaygın yanıtlara göz at veya ekibimizle iletişime geç.",
+    "mobileIntro": "Yardımı mutualzz.com/support adresinde incele veya aşağıdan bize ulaş.",
+    "subjectPlaceholder": "Konu",
+    "submitTicket": "Bilet gönder",
+    "createFailed": "Bilet oluşturulamadı",
+    "noTickets": "Henüz bilet yok",
+    "contactEmailLoggedIn": "{{email}} adresine e-posta gönder veya bu sayfadan destek bileti aç.",
+    "contactEmailGuest": "{{email}} adresine e-posta gönder.",
+    "categories": {
+      "account": "Hesap ve giriş",
+      "bug": "Hata veya çökme",
+      "donations": "Bağışlar",
+      "feature": "Özellik isteği",
+      "other": "Diğer"
+    },
+    "faqItems": {
+      "report": {
+        "q": "Bir kullanıcıyı veya içeriği nasıl bildiririm?",
+        "a": "Kullanıcı profilini veya içerik menüsünü açıp Bildir'i seç. Ekibimiz inceleyecek."
+      },
+      "appeal": {
+        "q": "Yasağı nasıl itiraz ederim?",
+        "a": "Yasak e-postası aldıysan, o mesajdaki itiraz bağlantısını kullan. Ekip itirazını inceleyecek."
+      },
+      "delete": {
+        "q": "Hesabımı nasıl silerim?",
+        "a": "Ayarlar → Hesabım → Hesabı Sil'e git."
+      },
+      "block": {
+        "q": "Birini nasıl engellerim?",
+        "a": "Profilini açıp Engelle'yi seç. Daha sonra ayarlardan engeli kaldırabilirsin."
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "İçerik veya kullanıcı bildir",
+        "hint": "Profil menülerinden ve içerik eylemlerinden kullanılabilir"
+      },
+      "appeals": {
+        "label": "Yasak itirazları",
+        "hint": "Yasak e-postandaki itiraz bağlantısını kullan"
+      },
+      "delete": {
+        "label": "Hesabını sil",
+        "hint": "Ayarlar → Hesabım → Hesabı Sil"
+      }
+    }
+  }
+}

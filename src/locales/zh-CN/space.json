@@ -1,0 +1,479 @@
+{
+  "title": "空间设置",
+  "titleShort": "空间设置",
+  "overviewDescription": "管理角色、邀请、表情与贴纸以及审核。",
+  "nav": {
+    "categories": {
+      "general": "常规",
+      "people": "成员",
+      "moderation": "审核"
+    },
+    "pages": {
+      "profile": "资料",
+      "roles": "角色",
+      "channels": "频道",
+      "invites": "邀请",
+      "expressions": "表情与贴纸",
+      "bans": "封禁"
+    }
+  },
+  "actions": {
+    "deleteSpace": "删除空间",
+    "leaveSpace": "离开空间",
+    "createRole": "创建角色",
+    "deleteRole": "删除角色",
+    "createInvite": "创建邀请",
+    "createInviteLink": "创建邀请链接",
+    "deleteAllInvites": "删除全部邀请",
+    "editInviteLink": "编辑邀请链接",
+    "revokeBan": "撤销封禁",
+    "unbanMember": "解除成员封禁",
+    "unbanning": "正在解封...",
+    "kick": "踢出",
+    "ban": "封禁",
+    "addMembers": "添加成员",
+    "addMembersCount_one": "添加（{{count}}）",
+    "addMembersCount_other": "添加（{{count}}）",
+    "markAllAsRead": "全部标为已读",
+    "clearPermissions": "清除权限",
+    "working": "处理中...",
+    "creating": "创建中..."
+  },
+  "profile": {
+    "spaceIcon": "空间图标",
+    "name": "名称",
+    "description": "描述",
+    "descriptionPlaceholder": "写点关于你的空间的内容...",
+    "updatedSuccess": "空间已成功更新。",
+    "genericError": "发生错误"
+  },
+  "invites": {
+    "activeLinks": "有效邀请链接",
+    "createTitle": "创建邀请链接",
+    "createDescriptionChannel": "创建指向 #{{channel}} 的链接。",
+    "createDescriptionDefault": "创建指向此空间默认文字频道的链接。",
+    "createFailed": "创建邀请失败",
+    "empty": "此空间尚未创建任何邀请。",
+    "columns": {
+      "inviter": "邀请人",
+      "inviteCode": "邀请码",
+      "uses": "使用次数",
+      "expires": "过期时间"
+    },
+    "usesLabel": "使用次数：{{uses}}{{max}}",
+    "usesMax": " / {{max}}",
+    "neverExpires": "永不过期",
+    "expired": "已过期",
+    "copyInviteUrl": "复制邀请 URL",
+    "copiedToClipboard": "已复制到剪贴板",
+    "tapToCopy": "点按链接以复制",
+    "modal": {
+      "title": "邀请好友加入 {{spaceName}}",
+      "landingChannel": "接收者将进入 #{{channelName}}",
+      "searchFriends": "搜索好友",
+      "noResults": "无结果。",
+      "noFriends": "没有可邀请的好友。请改用下方链接分享。",
+      "inviteLink": "邀请链接",
+      "expiresPrefix": "此链接将于 ",
+      "expiresNever": "永不过期",
+      "expiresAfterUses_one": " 或使用 {{count}} 次后过期",
+      "expiresAfterUses_other": " 或使用 {{count}} 次后过期",
+      "editTitle": "编辑当前邀请链接",
+      "expireAfter": "过期时间",
+      "maxUses": "最大使用次数"
+    },
+    "expiry": {
+      "30minutes": "30 分钟",
+      "1hour": "1 小时",
+      "6hours": "6 小时",
+      "12hours": "12 小时",
+      "1day": "1 天",
+      "7days": "7 天",
+      "never": "永不"
+    },
+    "maxUses": {
+      "noLimit": "无限制",
+      "1use": "1 次",
+      "5uses": "5 次",
+      "10uses": "10 次",
+      "25uses": "25 次",
+      "50uses": "50 次",
+      "100uses": "100 次"
+    }
+  },
+  "roles": {
+    "defaultPermissions": "默认权限",
+    "everyoneSubtitle": "@everyone — 适用于所有空间成员",
+    "everyoneSuffix": " (@everyone)",
+    "searchPlaceholder": "搜索角色",
+    "listTitle_one": "角色 — {{count}}",
+    "listTitle_other": "角色 — {{count}}",
+    "membersColumn": "成员",
+    "actionsColumn": "操作",
+    "hierarchyHint": "列表中越靠上的角色权限越高。拖动角色可更改层级。",
+    "empty": "此空间尚未创建任何角色。",
+    "emptySearch": "没有符合搜索的角色。",
+    "memberCount_one": "{{count}} 名成员",
+    "memberCount_other": "{{count}} 名成员",
+    "editTitle": "编辑角色 — {{name}}",
+    "tabs": {
+      "display": "显示",
+      "permissions": "权限",
+      "manageMembers": "管理成员",
+      "members": "成员"
+    },
+    "unsavedChanges": "你有未保存的更改！",
+    "saveFailed": "保存角色失败",
+    "display": {
+      "roleName": "角色名称",
+      "roleColor": "角色颜色",
+      "hoist": "将角色成员与在线成员分开显示",
+      "mentionable": "允许任何人 @提及此角色",
+      "mentionableHint": "拥有「提及 @everyone、@here 和所有角色」权限的成员仍可提及此角色，不受此设置影响。",
+      "mentionableHintShort": "拥有提及所有人权限的成员仍可提及此角色。"
+    },
+    "members": {
+      "title": "角色成员",
+      "description": "查看并管理已分配此角色的成员。",
+      "searchPlaceholder": "搜索成员",
+      "emptyAssigned": "尚未有成员被分配此角色。",
+      "emptySearch": "没有符合搜索的成员。",
+      "addTitle": "添加成员",
+      "addDescription": "向 {{roleName}} 添加最多 {{max}} 名成员",
+      "selectedCount": "已选 {{selected}}/{{max}}",
+      "noEligible": "没有可添加到此角色的成员。",
+      "addSuccess_one": "已向 {{roleName}} 添加 {{count}} 名成员",
+      "addSuccess_other": "已向 {{roleName}} 添加 {{count}} 名成员",
+      "addFailed": "向角色添加成员失败"
+    },
+    "hierarchy": {
+      "cantReorder": "你无法重新排序等于或高于你最高角色的角色",
+      "cantAssign": "你无法分配或移除此角色",
+      "cantEditRole": "你无法编辑此角色，因为它等于或高于你的最高角色。",
+      "cantManageMembers": "你无法从此角色分配或移除成员。",
+      "dragToReorder": "拖动以重新排序",
+      "dragToReorderHierarchy": "拖动以调整层级",
+      "failedReorder": "重新排序角色失败",
+      "failedUpdateRole": "更新角色失败",
+      "cantManageMember": "你没有权限管理此成员"
+    },
+    "delete": {
+      "title": "删除角色",
+      "confirm": "确定要删除角色 {{name}} 吗？此操作无法撤销。"
+    },
+    "permissions": {
+      "searchPlaceholder": "搜索权限...",
+      "jumpToCategory": "跳转到分类…",
+      "emptySearch": "没有符合搜索的权限",
+      "clear": "清除权限",
+      "groups": {
+        "general": "常规空间权限",
+        "membership": "成员权限",
+        "text": "文字频道权限",
+        "voice": "语音频道权限",
+        "advanced": "高级权限"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "查看频道",
+          "description": "默认允许成员查看频道"
+        },
+        "ManageChannels": {
+          "label": "管理频道",
+          "description": "允许成员创建、编辑或删除频道"
+        },
+        "ManageRoles": {
+          "label": "管理角色",
+          "description": "允许成员创建新角色，以及编辑或删除低于其最高角色的角色"
+        },
+        "CreateExpressions": {
+          "label": "创建表情与贴纸",
+          "description": "允许成员在此空间创建表情和贴纸。"
+        },
+        "ManageExpressions": {
+          "label": "管理表情与贴纸",
+          "description": "允许成员编辑或删除此空间的表情和贴纸。"
+        },
+        "ManageSpace": {
+          "label": "管理空间",
+          "description": "允许成员更改此空间"
+        },
+        "CreateInvites": {
+          "label": "创建邀请",
+          "description": "允许成员邀请新人加入此空间"
+        },
+        "KickMembers": {
+          "label": "踢出成员",
+          "description": "踢出将把成员移出此空间。被踢出的成员若有其他邀请可重新加入。"
+        },
+        "BanMembers": {
+          "label": "封禁成员",
+          "description": "封禁将把成员移出此空间，并在解封前阻止其重新加入。"
+        },
+        "SendMessages": {
+          "label": "发送消息",
+          "description": "允许成员在文字频道发送消息"
+        },
+        "EmbedLinks": {
+          "label": "嵌入链接",
+          "description": "允许成员在消息中嵌入链接"
+        },
+        "AttachFiles": {
+          "label": "附加文件",
+          "description": "允许成员在消息中附加文件"
+        },
+        "MentionEveryone": {
+          "label": "提及所有人",
+          "description": "允许成员在消息中提及 @everyone 和 @here"
+        },
+        "UseExternalEmojis": {
+          "label": "使用外部表情",
+          "description": "允许成员在消息中使用其他空间或自己的表情"
+        },
+        "ManageMessages": {
+          "label": "管理消息",
+          "description": "允许成员删除其他成员的消息"
+        },
+        "ReadMessageHistory": {
+          "label": "阅读消息历史",
+          "description": "允许成员阅读消息历史"
+        },
+        "Connect": {
+          "label": "连接",
+          "description": "允许成员连接语音频道"
+        },
+        "Speak": {
+          "label": "发言",
+          "description": "允许成员在语音频道发言"
+        },
+        "Administrator": {
+          "label": "管理员",
+          "description": "拥有此权限的成员将拥有全部权限。授予此权限需谨慎。",
+          "descriptionBefore": "拥有此权限的成员将拥有全部权限。",
+          "descriptionDanger": "授予此权限需谨慎"
+        }
+      }
+    }
+  },
+  "expressions": {
+    "pageTitle": "空间表情与贴纸",
+    "pageDescription": "为此空间上传并管理自定义表情和贴纸。",
+    "emojiLimit": "很抱歉，目前每个账户最多可上传 100 个表情，因为应用仍在测试阶段且存储有限",
+    "stickerLimit": "很抱歉，目前每个账户最多可上传 100 个贴纸，因为应用仍在测试阶段且存储有限",
+    "stickerLimitMobile": "测试版限制：每个空间 {{limit}} 个贴纸。",
+    "emptyEmojis": "尚无空间表情",
+    "emptyStickers": "尚无空间贴纸"
+  },
+  "bans": {
+    "title": "空间封禁列表",
+    "description": "查看并管理此空间中被封禁的用户。目前封禁基于账户，我们之后会引入 IP 封禁。",
+    "descriptionShort": "查看并管理此空间中被封禁的用户。",
+    "searchPlaceholder": "按用户 ID、用户名或显示名称搜索封禁",
+    "searchPlaceholderShort": "按用户名或用户 ID 搜索",
+    "empty": "尚未有人被封禁",
+    "reason": "原因",
+    "noReason": "未提供原因",
+    "bannedBy": "封禁者",
+    "bannedAt": "封禁时间",
+    "unbanSuccess": "已成功解封 {{name}}",
+    "unbanTitle": "解封 {{name}}？"
+  },
+  "moderation": {
+    "banTitle": "封禁 {{name}}？",
+    "kickTitle": "踢出 {{name}}？",
+    "kickFromSpaceTitle": "将 {{name}} 踢出空间",
+    "kickBody": "确定要将 @{{name}} 踢出空间吗？对方需要邀请才能重新加入。",
+    "kickSuccess": "已将 {{name}} 踢出空间",
+    "reason": "原因",
+    "reasonOptional": "原因（可选）",
+    "reasonForKick": "踢出原因",
+    "reasonForBan": "封禁原因 *",
+    "deleteRecentMessages": "删除最近消息",
+    "banReasons": {
+      "suspicious": "可疑或垃圾账户",
+      "compromised": "被盗或被入侵的账户",
+      "breakingRules": "违反空间规则",
+      "other": "其他"
+    },
+    "deleteMessages": {
+      "dontDelete": "不删除",
+      "dontDeleteMessages": "不删除消息",
+      "previousHour": "过去一小时",
+      "lastHour": "最近一小时",
+      "previousDay": "过去一天",
+      "last24Hours": "最近 24 小时",
+      "previousWeek": "过去一周",
+      "last7Days": "最近 7 天",
+      "allMessages": "全部消息",
+      "deleteAllMessages": "删除全部消息"
+    },
+    "youWereBanned": "你已被 {{name}} 封禁",
+    "youWereKicked": "你已被踢出 {{name}}"
+  },
+  "channels": {
+    "noCategory": "无分类",
+    "empty": "没有可重新排序的频道。",
+    "reorderHint": "拖动频道以重新排序。将频道放在分类正下方可加入该分组。拖到分类上方可移出分组。",
+    "overwrites": "覆盖",
+    "searchTargets": "搜索角色或成员…",
+    "topic": "频道主题",
+    "topicHint": "显示在频道顶部供成员查看。",
+    "topicPlaceholder": "主题",
+    "settingsTitle": "频道设置",
+    "namePlaceholder": "频道名称",
+    "permissionOverwrites": "权限覆盖",
+    "channelInvites": "频道邀请",
+    "noChannelInvites": "#{{channel}} 尚未创建任何邀请。",
+    "selectOverwriteTarget": "选择覆盖目标以编辑频道专属权限。",
+    "nameEmpty": "频道名称不能为空。",
+    "failedMoveMember": "移动成员失败",
+    "create": {
+      "title": "创建频道",
+      "name": "频道名称",
+      "namePlaceholder": "新频道",
+      "type": "频道类型",
+      "text": "文字频道",
+      "textDescription": "发送消息、图片等",
+      "voice": "语音频道",
+      "voiceDescription": "通过语音和视频一起聊天",
+      "submit": "创建频道",
+      "icon": "频道图标",
+      "upload": "上传",
+      "rounded": "圆角",
+      "rotate": "旋转",
+      "clear": "清除"
+    },
+    "createCategory": {
+      "title": "创建分类",
+      "name": "分类名称",
+      "namePlaceholder": "新分类",
+      "submit": "创建分类"
+    },
+    "delete": {
+      "title": "删除频道",
+      "body": "确定要删除 {{name}} 吗？此操作无法撤销。",
+      "confirm": "删除频道"
+    },
+    "deleteCategory": {
+      "title": "删除分类「{{name}}」？",
+      "body": "要删除此分类吗？",
+      "categoryOnly": "仅分类",
+      "categoryAndChannels": "分类及所有相关频道",
+      "confirm": "删除分类"
+    },
+    "saveOverwrite": "保存覆盖",
+    "deleteChannelAction": "删除频道",
+    "createInvite": "创建邀请",
+    "createInviteLink": "创建邀请链接",
+    "removeIcon": "移除图标",
+    "restoreIcon": "恢复图标",
+    "uploadEmoji": "上传表情",
+    "uploadSticker": "上传贴纸",
+    "noSpaceEmojis": "尚无空间表情",
+    "pages": {
+      "overview": "概览",
+      "permissions": "权限",
+      "invites": "邀请"
+    },
+    "permissions": {
+      "addOverwrite": "添加权限覆盖",
+      "roles": "角色",
+      "members": "成员",
+      "noResults": "无结果",
+      "noOverwritesYet": "尚无覆盖",
+      "selectTargetHint": "选择角色或成员以配置频道专属权限。",
+      "selectTargetHintLeft": "在左侧选择角色或成员以编辑其对此频道的权限，或点击 + 添加。",
+      "groups": {
+        "general": "常规频道权限",
+        "text": "文字频道权限",
+        "voice": "语音频道权限"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "查看频道",
+          "description": "允许成员查看此频道"
+        },
+        "ManageChannels": {
+          "label": "管理频道",
+          "description": "允许成员编辑或删除此频道"
+        },
+        "ManageRoles": {
+          "label": "管理权限",
+          "description": "允许成员编辑此频道的权限覆盖"
+        },
+        "SendMessages": {
+          "label": "发送消息",
+          "description": "允许成员在此频道发送消息"
+        },
+        "EmbedLinks": {
+          "label": "嵌入链接",
+          "description": "允许成员嵌入链接"
+        },
+        "AttachFiles": {
+          "label": "附加文件",
+          "description": "允许成员附加文件"
+        },
+        "MentionEveryone": {
+          "label": "提及所有人",
+          "description": "允许成员 @提及 @everyone 和 @here"
+        },
+        "UseExternalEmojis": {
+          "label": "使用外部表情",
+          "description": "允许成员使用其他空间的表情"
+        },
+        "ManageMessages": {
+          "label": "管理消息",
+          "description": "允许成员删除他人的消息"
+        },
+        "ReadMessageHistory": {
+          "label": "阅读消息历史",
+          "description": "允许成员阅读过往消息"
+        },
+        "Connect": {
+          "label": "连接",
+          "description": "允许成员连接此语音频道"
+        },
+        "Speak": {
+          "label": "发言",
+          "description": "允许成员在此语音频道发言"
+        }
+      }
+    }
+  },
+  "confirm": {
+    "deleteSpaceTitle": "删除「{{name}}」？",
+    "leaveSpaceTitle": "离开「{{name}}」？",
+    "deleteSpaceBody": "确定要删除 {{name}} 吗？此操作无法撤销。",
+    "leaveSpaceBody": "确定要离开 {{name}} 吗？此操作无法撤销。",
+    "cannotUndo": "此操作无法撤销。"
+  },
+  "menu": {
+    "spaceSettings": "空间设置",
+    "reportSpace": "举报空间",
+    "leaveSpace": "离开空间",
+    "deleteSpace": "删除空间"
+  },
+  "chrome": {
+    "spaceSettings": "空间设置",
+    "inviteToSpace": "邀请加入空间",
+    "createInviteA11y": "创建邀请",
+    "createCategoryA11y": "创建分类",
+    "spaceMenuA11y": "空间菜单"
+  },
+  "sidebar": {
+    "createSpace": "创建空间",
+    "switchToSpaces": "切换到空间",
+    "switchToDirectMessages": "切换到私信",
+    "switchToFeed": "切换到动态",
+    "switchTo": "切换到",
+    "directMessages": "私信",
+    "friends": "好友",
+    "spaces": "空间"
+  },
+  "lockdown": {
+    "title": "此空间处于封锁状态",
+    "ownerMessage": "消息和更改已禁用。若你认为这是误判，请查收邮件中的申诉链接。",
+    "memberMessage": "在工作人员审核此空间期间，消息和更改已禁用。",
+    "toast": "此空间处于封锁状态。消息和更改已禁用。"
+  }
+}

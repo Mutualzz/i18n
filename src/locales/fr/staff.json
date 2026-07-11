@@ -1,0 +1,286 @@
+{
+  "title": "Panneau staff",
+  "exit": "Quitter",
+  "working": "Traitement...",
+  "nav": {
+    "reports": "Signalements",
+    "activity": "Activité",
+    "appeals": "Appels",
+    "support": "Support"
+  },
+  "pages": {
+    "activity": "Activité du staff",
+    "reportDetails": "Détails du signalement"
+  },
+  "home": {
+    "findUser": "Trouver un utilisateur",
+    "findUserDescription": "Recherchez par nom d'utilisateur ou filtrez par flag pour consulter un compte et les actions staff disponibles.",
+    "searchPlaceholder": "Recherchez par nom d'utilisateur ou collez un ID utilisateur",
+    "anyFlag": "N'importe quel flag",
+    "searching": "Recherche...",
+    "noUsers": "Aucun utilisateur trouvé",
+    "goToUserId": "Aller à l'ID utilisateur {{id}}",
+    "exactIdLookup": "Recherche exacte par ID",
+    "loadMore": "Charger plus",
+    "loading": "Chargement..."
+  },
+  "sections": {
+    "info": "Infos",
+    "flags": "Flags",
+    "actions": "Actions",
+    "sessions": "Sessions actives",
+    "notes": "Notes du staff",
+    "audit": "Journal d'audit"
+  },
+  "user": {
+    "info": {
+      "username": "Nom d'utilisateur",
+      "displayName": "Nom d'affichage",
+      "noDisplayName": "Aucun nom d'affichage défini",
+      "saveChanges": "Enregistrer les modifications",
+      "accountDetails": "Détails du compte",
+      "email": "E-mail",
+      "emailVerified": "E-mail vérifié",
+      "yes": "Oui",
+      "no": "Non",
+      "sendReminder": "Envoyer un rappel",
+      "verifyReminderSent": "Rappel de vérification envoyé",
+      "userId": "ID utilisateur",
+      "dateOfBirth": "Date de naissance",
+      "created": "Créé",
+      "restrictedUntil": "Restreint jusqu'au"
+    },
+    "flags": {
+      "current": "Flags actuels",
+      "manage": "Gérer les flags",
+      "none": "Aucun flag défini"
+    },
+    "actions": {
+      "enableAccount": "Activer le compte",
+      "disableAccount": "Désactiver le compte",
+      "forceLogout": "Forcer la déconnexion",
+      "warnUser": "Avertir l'utilisateur",
+      "restrictUser": "Restreindre l'utilisateur",
+      "liftRestriction": "Lever la restriction",
+      "softDeleteAccount": "Suppression douce du compte",
+      "hardDeleteAccount": "Suppression définitive du compte",
+      "softDeletedBanner": "Ce compte est en suppression douce. L'utilisateur ne peut pas se connecter, mais ses données sont conservées.",
+      "errors": {
+        "liftRestriction": "Échec de la levée de la restriction",
+        "updateUser": "Échec de la mise à jour de l'utilisateur",
+        "forceLogout": "Échec de la déconnexion forcée",
+        "warnUser": "Échec de l'avertissement de l'utilisateur",
+        "deleteAccount": "Échec de la suppression du compte",
+        "restrictUser": "Échec de la restriction de l'utilisateur"
+      }
+    },
+    "modals": {
+      "reasonRequired": "Motif (obligatoire)",
+      "reasonOptional": "Motif (facultatif)",
+      "placeholderAudit": "Ajoutez du contexte pour le journal d'audit",
+      "disable": {
+        "title": "Désactiver le compte",
+        "enableTitle": "Activer le compte",
+        "bodyDisable": "Voulez-vous vraiment désactiver le compte de @{{username}} ? La personne sera déconnectée et ne pourra pas se reconnecter tant que le compte n'aura pas été réactivé.",
+        "bodyEnable": "Voulez-vous vraiment réactiver le compte de @{{username}} ?",
+        "placeholder": "Expliquez pourquoi ce compte est désactivé"
+      },
+      "forceLogout": {
+        "title": "Forcer la déconnexion",
+        "body": "Voulez-vous vraiment déconnecter @{{username}} de toutes ses sessions ? Une reconnexion sera nécessaire, mais le compte reste activé."
+      },
+      "warn": {
+        "title": "Avertir l'utilisateur",
+        "body": "Cela envoie à @{{username}} un e-mail d'avertissement et l'enregistre dans son historique d'audit. Cela ne modifie pas l'état du compte.",
+        "placeholder": "Expliquez le motif de l'avertissement",
+        "submit": "Envoyer l'avertissement",
+        "toastSent": "Avertissement envoyé et transmis par e-mail à l'utilisateur",
+        "toastEmailFailed": "Avertissement enregistré, mais l'e-mail n'a pas pu être envoyé"
+      },
+      "restrict": {
+        "title": "Restreindre l'utilisateur",
+        "body": "Les utilisateurs restreints ne peuvent pas envoyer de messages ni créer de publications tant que la restriction n'est pas terminée.",
+        "duration": "Durée",
+        "submit": "Restreindre",
+        "placeholder": "Expliquez le motif de la restriction",
+        "durations": {
+          "1h": "1 heure",
+          "6h": "6 heures",
+          "1d": "1 jour",
+          "3d": "3 jours",
+          "7d": "7 jours",
+          "30d": "30 jours"
+        }
+      },
+      "delete": {
+        "softTitle": "Suppression douce du compte",
+        "hardTitle": "Suppression définitive du compte",
+        "softBody": "Cela effectue une suppression douce du compte de @{{username}}. La personne sera déconnectée et ne pourra pas se reconnecter, mais ses données sont conservées pour la modération et l'audit.",
+        "hardBody": "Cela supprime définitivement le compte de @{{username}} et les données associées de la base de données. Tous les espaces qu'il possède seront également supprimés. Cette action est irréversible.",
+        "type": "Type de suppression",
+        "softOption": "Suppression douce (recommandée)",
+        "hardOption": "Suppression définitive (irréversible)",
+        "confirmUsername": "Tapez @{{username}} pour confirmer",
+        "placeholderSoft": "Expliquez pourquoi ce compte fait l'objet d'une suppression douce",
+        "placeholderHard": "Expliquez pourquoi ce compte doit être définitivement supprimé"
+      }
+    },
+    "sessions": {
+      "empty": "Aucune session active",
+      "created": "Créée {{relative}}",
+      "lastUsed": "Dernière utilisation {{relative}}",
+      "revoke": "Révoquer",
+      "errorRevoke": "Échec de la révocation de la session"
+    },
+    "notes": {
+      "placeholder": "Laissez une note pour le staff — non visible par l'utilisateur",
+      "add": "Ajouter une note",
+      "adding": "Ajout...",
+      "empty": "Aucune note du staff pour le moment",
+      "errorAdd": "Échec de l'ajout de la note"
+    },
+    "audit": {
+      "empty": "Aucune action du staff pour le moment"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "En attente",
+      "reviewed": "Examiné",
+      "dismissed": "Rejeté",
+      "actioned": "Traité"
+    },
+    "actions": {
+      "shutDownSpace": "Fermer l'espace",
+      "takeDownContent": "Retirer le contenu",
+      "lockDownSpace": "Verrouiller l'espace"
+    },
+    "detailsTitle": "Détails du signalement",
+    "backToReports": "Retour aux signalements",
+    "anyStatus": "N'importe quel statut",
+    "anyType": "N'importe quel type",
+    "targetTypes": {
+      "message": "Message",
+      "post": "Publication",
+      "comment": "Commentaire",
+      "user": "Utilisateur",
+      "space": "Espace"
+    },
+    "reportedBy": "Signalé par {{name}}",
+    "reporterNotes": "Notes du signalant",
+    "reportedContent": "Contenu signalé",
+    "viewDetails": "Voir les détails",
+    "openUserPanel": "Ouvrir le panneau utilisateur staff",
+    "markReviewed": "Marquer comme examiné",
+    "markActioned": "Marquer comme traité",
+    "dismiss": "Rejeter",
+    "reviewedShort": "Examiné",
+    "actionedShort": "Traité",
+    "reviewedBy": "{{status}} par {{name}}",
+    "empty": "Aucun signalement trouvé",
+    "loadingReport": "Chargement du signalement…",
+    "loadFailed": "Échec du chargement du signalement",
+    "toasts": {
+      "actionCompleted": "Action terminée",
+      "actionCompletedMarked": "Action terminée et signalement marqué comme traité",
+      "alreadyRemoved": "La cible avait déjà été retirée",
+      "lockdownSuccess": "Espace verrouillé et propriétaire notifié"
+    },
+    "errors": {
+      "update": "Échec de la mise à jour du signalement",
+      "action": "Échec de l'action",
+      "lockdown": "Échec du verrouillage de l'espace"
+    },
+    "content": {
+      "dmContext": "Contexte du message privé",
+      "messageContext": "Contexte du message",
+      "dmContextHint": "Des messages environnants limités sont affichés pour la confidentialité.",
+      "reported": "SIGNALÉ",
+      "noText": "(aucun contenu textuel)",
+      "unknown": "Inconnu",
+      "membersOwnedBy_one": "{{count}} membre · appartenant à {{owner}}",
+      "membersOwnedBy_other": "{{count}} membres · appartenant à {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "N'importe quel statut",
+    "status": {
+      "pending": "En attente",
+      "accepted": "Accepté",
+      "rejected": "Refusé"
+    },
+    "spaceLockdownAppeal": "Appel de verrouillage d'espace",
+    "responsePlaceholder": "Réponse à l'utilisateur (facultatif)",
+    "accept": "Accepter",
+    "reject": "Refuser",
+    "viewAccount": "Voir le compte",
+    "viewUser": "Voir l'utilisateur",
+    "staffResponse": "Réponse du staff : {{text}}",
+    "empty": "Aucun appel trouvé",
+    "errorUpdate": "Échec de la mise à jour de l'appel",
+    "decidedBy": "{{status}} par {{name}}"
+  },
+  "support": {
+    "anyStatus": "N'importe quel statut",
+    "status": {
+      "open": "Ouvert",
+      "awaiting_reply": "En attente de réponse",
+      "resolved": "Résolu",
+      "closed": "Fermé"
+    },
+    "empty": "Aucun ticket trouvé",
+    "selectTicket": "Sélectionnez un ticket",
+    "loadingTicket": "Chargement du ticket…",
+    "resolve": "Résoudre",
+    "close": "Fermer",
+    "staff": "Staff",
+    "replyPlaceholder": "Répondre à l'utilisateur",
+    "sendReply": "Envoyer la réponse",
+    "sending": "Envoi…",
+    "errors": {
+      "send": "Échec de l'envoi de la réponse",
+      "update": "Échec de la mise à jour du ticket"
+    }
+  },
+  "activity": {
+    "empty": "Aucune action du staff pour le moment",
+    "removedUser": "un utilisateur supprimé",
+    "removedUserNamed": "@{{name}} (supprimé)"
+  },
+  "auditActions": {
+    "disabledAccount": "a désactivé ce compte",
+    "enabledAccount": "a activé ce compte",
+    "softDeletedAccount": "a effectué une suppression douce de ce compte",
+    "hardDeletedAccount": "a définitivement supprimé ce compte",
+    "forcedLogout": "a forcé la déconnexion de ce compte",
+    "warnedUser": "a averti cet utilisateur",
+    "restrictedUser": "a restreint cet utilisateur",
+    "liftedRestriction": "a levé la restriction de cet utilisateur",
+    "grantedFlag": "a accordé le flag {{flag}}",
+    "revokedFlag": "a révoqué le flag {{flag}}",
+    "updatedProfile": "a mis à jour le profil de cet utilisateur",
+    "addedNote": "a ajouté une note du staff",
+    "revokedSession": "a révoqué une session",
+    "tookDownContent": "a retiré un {{type}} signalé",
+    "lockedDownSpace": "a verrouillé un espace",
+    "shutDownSpace": "a fermé un espace signalé",
+    "global": {
+      "disabled": "{{actor}} a désactivé {{target}}",
+      "enabled": "{{actor}} a activé {{target}}",
+      "softDeleted": "{{actor}} a effectué une suppression douce de {{target}}",
+      "hardDeleted": "{{actor}} a définitivement supprimé {{target}}",
+      "forcedLogout": "{{actor}} a forcé la déconnexion de {{target}}",
+      "warned": "{{actor}} a averti {{target}}",
+      "restricted": "{{actor}} a restreint {{target}}",
+      "liftedRestriction": "{{actor}} a levé la restriction de {{target}}",
+      "grantedFlag": "{{actor}} a accordé le flag {{flag}} à {{target}}",
+      "revokedFlag": "{{actor}} a révoqué le flag {{flag}} de {{target}}",
+      "updatedProfile": "{{actor}} a mis à jour le profil de {{target}}",
+      "addedNote": "{{actor}} a ajouté une note du staff sur {{target}}",
+      "revokedSession": "{{actor}} a révoqué une session de {{target}}",
+      "tookDownContent": "{{actor}} a retiré un {{type}} signalé",
+      "lockedDownSpace": "{{actor}} a verrouillé un espace",
+      "shutDownSpace": "{{actor}} a fermé un espace signalé"
+    }
+  }
+}

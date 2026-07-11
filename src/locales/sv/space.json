@@ -1,0 +1,479 @@
+{
+  "title": "Utrymmesinställningar",
+  "titleShort": "Utrymmesinställningar",
+  "overviewDescription": "Hantera roller, inbjudningar, uttryck och moderering.",
+  "nav": {
+    "categories": {
+      "general": "Allmänt",
+      "people": "Personer",
+      "moderation": "Moderering"
+    },
+    "pages": {
+      "profile": "Profil",
+      "roles": "Roller",
+      "channels": "Kanaler",
+      "invites": "Inbjudningar",
+      "expressions": "Uttryck",
+      "bans": "Bannlysningar"
+    }
+  },
+  "actions": {
+    "deleteSpace": "Ta bort utrymme",
+    "leaveSpace": "Lämna utrymme",
+    "createRole": "Skapa roll",
+    "deleteRole": "Ta bort roll",
+    "createInvite": "Skapa inbjudan",
+    "createInviteLink": "Skapa inbjudningslänk",
+    "deleteAllInvites": "Ta bort alla inbjudningar",
+    "editInviteLink": "Redigera inbjudningslänk",
+    "revokeBan": "Återkalla bannlysning",
+    "unbanMember": "Häv bannlysning",
+    "unbanning": "Häver bannlysning...",
+    "kick": "Kicka",
+    "ban": "Bannlys",
+    "addMembers": "Lägg till medlemmar",
+    "addMembersCount_one": "Lägg till ({{count}})",
+    "addMembersCount_other": "Lägg till ({{count}})",
+    "markAllAsRead": "Markera alla som lästa",
+    "clearPermissions": "Rensa behörigheter",
+    "working": "Arbetar...",
+    "creating": "Skapar..."
+  },
+  "profile": {
+    "spaceIcon": "Utrymmesikon",
+    "name": "Namn",
+    "description": "Beskrivning",
+    "descriptionPlaceholder": "Skriv något om ditt utrymme...",
+    "updatedSuccess": "Utrymmet har uppdaterats.",
+    "genericError": "Ett fel uppstod"
+  },
+  "invites": {
+    "activeLinks": "Aktiva inbjudningslänkar",
+    "createTitle": "Skapa inbjudningslänk",
+    "createDescriptionChannel": "Skapar en länk till #{{channel}}.",
+    "createDescriptionDefault": "Skapar en länk till standardtextkanalen för detta utrymme.",
+    "createFailed": "Kunde inte skapa inbjudan",
+    "empty": "Inga inbjudningar har skapats för detta utrymme ännu.",
+    "columns": {
+      "inviter": "Inbjudare",
+      "inviteCode": "Inbjudningskod",
+      "uses": "Användningar",
+      "expires": "Går ut"
+    },
+    "usesLabel": "Användningar: {{uses}}{{max}}",
+    "usesMax": " / {{max}}",
+    "neverExpires": "Går aldrig ut",
+    "expired": "Utgången",
+    "copyInviteUrl": "Kopiera inbjudnings-URL",
+    "copiedToClipboard": "Kopierat till urklipp",
+    "tapToCopy": "Tryck på länken för att kopiera",
+    "modal": {
+      "title": "Bjud in vänner till {{spaceName}}",
+      "landingChannel": "Mottagare landar i #{{channelName}}",
+      "searchFriends": "Sök vänner",
+      "noResults": "Inga resultat.",
+      "noFriends": "Inga vänner att bjuda in. Dela länken nedan istället.",
+      "inviteLink": "Inbjudningslänk",
+      "expiresPrefix": "Denna länk går ut ",
+      "expiresNever": "aldrig",
+      "expiresAfterUses_one": " eller efter {{count}} användning",
+      "expiresAfterUses_other": " eller efter {{count}} användningar",
+      "editTitle": "Redigerar den aktuella inbjudningslänken",
+      "expireAfter": "Gå ut efter",
+      "maxUses": "Max användningar"
+    },
+    "expiry": {
+      "30minutes": "30 minuter",
+      "1hour": "1 timme",
+      "6hours": "6 timmar",
+      "12hours": "12 timmar",
+      "1day": "1 dag",
+      "7days": "7 dagar",
+      "never": "Aldrig"
+    },
+    "maxUses": {
+      "noLimit": "Ingen gräns",
+      "1use": "1 användning",
+      "5uses": "5 användningar",
+      "10uses": "10 användningar",
+      "25uses": "25 användningar",
+      "50uses": "50 användningar",
+      "100uses": "100 användningar"
+    }
+  },
+  "roles": {
+    "defaultPermissions": "Standardbehörigheter",
+    "everyoneSubtitle": "@everyone – gäller alla utrymmesmedlemmar",
+    "everyoneSuffix": " (@everyone)",
+    "searchPlaceholder": "Sök roller",
+    "listTitle_one": "Roller – {{count}}",
+    "listTitle_other": "Roller – {{count}}",
+    "membersColumn": "Medlemmar",
+    "actionsColumn": "Åtgärder",
+    "hierarchyHint": "Roller högre upp i listan har mer auktoritet. Dra roller för att ändra hierarkin.",
+    "empty": "Inga roller har skapats för detta utrymme ännu.",
+    "emptySearch": "Inga roller matchar din sökning.",
+    "memberCount_one": "{{count}} medlem",
+    "memberCount_other": "{{count}} medlemmar",
+    "editTitle": "Redigera roll – {{name}}",
+    "tabs": {
+      "display": "Visning",
+      "permissions": "Behörigheter",
+      "manageMembers": "Hantera medlemmar",
+      "members": "Medlemmar"
+    },
+    "unsavedChanges": "Du har osparade ändringar!",
+    "saveFailed": "Kunde inte spara rollen",
+    "display": {
+      "roleName": "Rollnamn",
+      "roleColor": "Rollfärg",
+      "hoist": "Visa rollmedlemmar separat från online-medlemmar",
+      "mentionable": "Tillåt alla att @mention denna roll",
+      "mentionableHint": "Medlemmar med behörigheten \"Nämn @everyone, @here och alla roller\" kan nämna denna roll oavsett denna inställning.",
+      "mentionableHintShort": "Medlemmar med behörigheten att nämna alla kan fortfarande nämna denna roll."
+    },
+    "members": {
+      "title": "Rollmedlemmar",
+      "description": "Visa och hantera medlemmar som tilldelats denna roll.",
+      "searchPlaceholder": "Sök medlemmar",
+      "emptyAssigned": "Inga medlemmar har tilldelats denna roll.",
+      "emptySearch": "Inga medlemmar matchar din sökning.",
+      "addTitle": "Lägg till medlemmar",
+      "addDescription": "Lägg till upp till {{max}} medlemmar i {{roleName}}",
+      "selectedCount": "{{selected}}/{{max}} valda",
+      "noEligible": "Inga medlemmar tillgängliga att lägga till i denna roll.",
+      "addSuccess_one": "Lade till {{count}} medlem i {{roleName}}",
+      "addSuccess_other": "Lade till {{count}} medlemmar i {{roleName}}",
+      "addFailed": "Kunde inte lägga till medlemmar i rollen"
+    },
+    "hierarchy": {
+      "cantReorder": "Du kan inte ändra ordningen på roller på eller över din högsta roll",
+      "cantAssign": "Du kan inte tilldela eller ta bort denna roll",
+      "cantEditRole": "Du kan inte redigera denna roll eftersom den är på eller över din högsta roll.",
+      "cantManageMembers": "Du kan inte tilldela eller ta bort medlemmar från denna roll.",
+      "dragToReorder": "Dra för att ändra ordning",
+      "dragToReorderHierarchy": "Dra för att ändra hierarki",
+      "failedReorder": "Kunde inte ändra ordningen på roller",
+      "failedUpdateRole": "Kunde inte uppdatera rollen",
+      "cantManageMember": "Du har inte behörighet att hantera denna medlem"
+    },
+    "delete": {
+      "title": "Ta bort roll",
+      "confirm": "Är du säker på att du vill ta bort rollen {{name}}? Denna åtgärd kan inte ångras."
+    },
+    "permissions": {
+      "searchPlaceholder": "Sök behörigheter...",
+      "jumpToCategory": "Hoppa till kategori…",
+      "emptySearch": "Inga behörigheter matchar din sökning",
+      "clear": "Rensa behörigheter",
+      "groups": {
+        "general": "Allmänna utrymmesbehörigheter",
+        "membership": "Medlemskapsbehörigheter",
+        "text": "Behörigheter för textkanaler",
+        "voice": "Behörigheter för röstkanaler",
+        "advanced": "Avancerade behörigheter"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "Visa kanaler",
+          "description": "Tillåt medlemmar att visa kanaler som standard"
+        },
+        "ManageChannels": {
+          "label": "Hantera kanaler",
+          "description": "Tillåt medlemmar att skapa, redigera eller ta bort kanaler"
+        },
+        "ManageRoles": {
+          "label": "Hantera roller",
+          "description": "Tillåter medlemmar att skapa nya roller och redigera eller ta bort roller lägre än deras högsta roll"
+        },
+        "CreateExpressions": {
+          "label": "Skapa uttryck",
+          "description": "Tillåt medlemmar att skapa emoji och dekaler i detta utrymme."
+        },
+        "ManageExpressions": {
+          "label": "Hantera uttryck",
+          "description": "Tillåt medlemmar att redigera eller ta bort emoji och dekaler i detta utrymme."
+        },
+        "ManageSpace": {
+          "label": "Hantera utrymme",
+          "description": "Tillåt medlemmar att ändra detta utrymme"
+        },
+        "CreateInvites": {
+          "label": "Skapa inbjudningar",
+          "description": "Tillåt medlemmar att bjuda in nya personer till detta utrymme"
+        },
+        "KickMembers": {
+          "label": "Kicka medlemmar",
+          "description": "Kicka tar bort andra medlemmar från detta utrymme. Kickade medlemmar kan gå med igen om de har en annan inbjudan."
+        },
+        "BanMembers": {
+          "label": "Bannlys medlemmar",
+          "description": "Bannlysning tar bort medlemmar från detta utrymme och förhindrar dem från att gå med igen tills bannlysningen hävs."
+        },
+        "SendMessages": {
+          "label": "Skicka meddelanden",
+          "description": "Tillåt medlemmar att skicka meddelanden i textkanaler"
+        },
+        "EmbedLinks": {
+          "label": "Bädda in länkar",
+          "description": "Tillåt medlemmar att bädda in länkar i meddelanden"
+        },
+        "AttachFiles": {
+          "label": "Bifoga filer",
+          "description": "Tillåt medlemmar att bifoga filer i meddelanden"
+        },
+        "MentionEveryone": {
+          "label": "Nämn alla",
+          "description": "Tillåt medlemmar att nämna @everyone och @here i meddelanden"
+        },
+        "UseExternalEmojis": {
+          "label": "Använd externa emojis",
+          "description": "Tillåt medlemmar att använda emojis från andra utrymmen eller egna i sina meddelanden"
+        },
+        "ManageMessages": {
+          "label": "Hantera meddelanden",
+          "description": "Tillåt medlemmar att ta bort andra medlemmars meddelanden"
+        },
+        "ReadMessageHistory": {
+          "label": "Läs meddelandehistorik",
+          "description": "Tillåt medlemmar att läsa meddelandehistorik"
+        },
+        "Connect": {
+          "label": "Anslut",
+          "description": "Tillåt medlemmar att ansluta till röstkanaler"
+        },
+        "Speak": {
+          "label": "Tala",
+          "description": "Tillåt medlemmar att tala i röstkanaler"
+        },
+        "Administrator": {
+          "label": "Administratör",
+          "description": "Medlemmar med denna behörighet har alla behörigheter. Detta är en farlig behörighet att ge.",
+          "descriptionBefore": "Medlemmar med denna behörighet har alla behörigheter.",
+          "descriptionDanger": "Detta är en farlig behörighet att ge"
+        }
+      }
+    }
+  },
+  "expressions": {
+    "pageTitle": "Utrymmesuttryck",
+    "pageDescription": "Ladda upp och hantera anpassade emojis och dekaler för detta utrymme.",
+    "emojiLimit": "Tyvärr är den nuvarande gränsen för emojis du kan ladda upp 100, eftersom appen är i beta och lagring är ett problem just nu",
+    "stickerLimit": "Tyvärr är den nuvarande gränsen för dekaler du kan ladda upp 100, eftersom appen är i beta och lagring är ett problem just nu",
+    "stickerLimitMobile": "Betagräns: {{limit}} dekaler per utrymme.",
+    "emptyEmojis": "Inga utrymmesemojis ännu",
+    "emptyStickers": "Inga utrymmesdekaler ännu"
+  },
+  "bans": {
+    "title": "Bannlysningslista för utrymme",
+    "description": "Visa och hantera listan över bannlysta användare i detta utrymme. Just nu är bannlysningen kontbaserad; vi kommer att införa IP-bannlysningar i framtiden.",
+    "descriptionShort": "Visa och hantera bannlysta användare i detta utrymme.",
+    "searchPlaceholder": "Sök bannlysningar efter användar-ID, användarnamn eller visningsnamn",
+    "searchPlaceholderShort": "Sök efter användarnamn eller användar-ID",
+    "empty": "Ingen har bannlysts ännu",
+    "reason": "Anledning",
+    "noReason": "Ingen anledning angiven",
+    "bannedBy": "Bannlyst av",
+    "bannedAt": "Bannlyst den",
+    "unbanSuccess": "Hävde bannlysningen för {{name}}",
+    "unbanTitle": "Häv bannlysning för {{name}}?"
+  },
+  "moderation": {
+    "banTitle": "Bannlys {{name}}?",
+    "kickTitle": "Kicka {{name}}?",
+    "kickFromSpaceTitle": "Kicka {{name}} från utrymmet",
+    "kickBody": "Är du säker på att du vill kicka @{{name}} från utrymmet? De behöver en inbjudan för att gå med igen.",
+    "kickSuccess": "Kickade {{name}} från utrymmet",
+    "reason": "Anledning",
+    "reasonOptional": "Anledning (valfritt)",
+    "reasonForKick": "Anledning till kick",
+    "reasonForBan": "Anledning till bannlysning *",
+    "deleteRecentMessages": "Ta bort senaste meddelanden",
+    "banReasons": {
+      "suspicious": "Misstänkt eller spamkonto",
+      "compromised": "Komprometterat eller hackat konto",
+      "breakingRules": "Bryter mot utrymmets regler",
+      "other": "Annat"
+    },
+    "deleteMessages": {
+      "dontDelete": "Ta inte bort",
+      "dontDeleteMessages": "Ta inte bort meddelanden",
+      "previousHour": "Föregående timme",
+      "lastHour": "Senaste timmen",
+      "previousDay": "Föregående dag",
+      "last24Hours": "Senaste 24 timmarna",
+      "previousWeek": "Föregående vecka",
+      "last7Days": "Senaste 7 dagarna",
+      "allMessages": "Alla meddelanden",
+      "deleteAllMessages": "Ta bort alla meddelanden"
+    },
+    "youWereBanned": "Du har bannlysts från {{name}}",
+    "youWereKicked": "Du har kickats från {{name}}"
+  },
+  "channels": {
+    "noCategory": "Ingen kategori",
+    "empty": "Inga kanaler att ordna om.",
+    "reorderHint": "Dra kanaler för att ändra ordning. Placera en kanal direkt under en kategori för att lägga till den i den gruppen. Dra ovanför en kategori för att ta bort den från gruppen.",
+    "overwrites": "Överskrivningar",
+    "searchTargets": "Sök roller eller medlemmar…",
+    "topic": "Kanalämne",
+    "topicHint": "Visas för medlemmar högst upp i kanalen.",
+    "topicPlaceholder": "Ämne",
+    "settingsTitle": "Kanalinställningar",
+    "namePlaceholder": "Kanalnamn",
+    "permissionOverwrites": "Behörighetsöverskrivningar",
+    "channelInvites": "Kanalinbjudningar",
+    "noChannelInvites": "Inga inbjudningar har skapats för #{{channel}} ännu.",
+    "selectOverwriteTarget": "Välj ett överskrivningsmål för att redigera kanalspecifika behörigheter.",
+    "nameEmpty": "Kanalnamnet får inte vara tomt.",
+    "failedMoveMember": "Kunde inte flytta medlem",
+    "create": {
+      "title": "Skapa kanal",
+      "name": "Kanalnamn",
+      "namePlaceholder": "ny-kanal",
+      "type": "Kanaltyp",
+      "text": "Textkanal",
+      "textDescription": "Skicka meddelanden, bilder och mer",
+      "voice": "Röstkanal",
+      "voiceDescription": "Häng med röst och video",
+      "submit": "Skapa kanal",
+      "icon": "Kanalikon",
+      "upload": "Ladda upp",
+      "rounded": "Rundad",
+      "rotate": "Rotera",
+      "clear": "Rensa"
+    },
+    "createCategory": {
+      "title": "Skapa kategori",
+      "name": "Kategorinamn",
+      "namePlaceholder": "Ny kategori",
+      "submit": "Skapa kategori"
+    },
+    "delete": {
+      "title": "Ta bort kanal",
+      "body": "Är du säker på att du vill ta bort {{name}}? Denna åtgärd kan inte ångras.",
+      "confirm": "Ta bort kanal"
+    },
+    "deleteCategory": {
+      "title": "Ta bort kategorin \"{{name}}\"?",
+      "body": "Vill du ta bort denna kategori?",
+      "categoryOnly": "Bara kategorin",
+      "categoryAndChannels": "Kategori och alla relaterade kanaler",
+      "confirm": "Ta bort kategori"
+    },
+    "saveOverwrite": "Spara överskrivning",
+    "deleteChannelAction": "Ta bort kanal",
+    "createInvite": "Skapa inbjudan",
+    "createInviteLink": "Skapa inbjudningslänk",
+    "removeIcon": "Ta bort ikon",
+    "restoreIcon": "Återställ ikon",
+    "uploadEmoji": "Ladda upp emoji",
+    "uploadSticker": "Ladda upp dekal",
+    "noSpaceEmojis": "Inga utrymmesemojis ännu",
+    "pages": {
+      "overview": "Översikt",
+      "permissions": "Behörigheter",
+      "invites": "Inbjudningar"
+    },
+    "permissions": {
+      "addOverwrite": "Lägg till behörighetsöverskrivning",
+      "roles": "ROLLER",
+      "members": "MEDLEMMAR",
+      "noResults": "Inga resultat",
+      "noOverwritesYet": "Inga överskrivningar ännu",
+      "selectTargetHint": "Välj en roll eller medlem för att konfigurera kanalspecifika behörigheter.",
+      "selectTargetHintLeft": "Välj en roll eller medlem till vänster för att redigera deras behörigheter för denna kanal, eller klicka på + för att lägga till en.",
+      "groups": {
+        "general": "Allmänna kanalbehörigheter",
+        "text": "Behörigheter för textkanal",
+        "voice": "Behörigheter för röstkanal"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "Visa kanal",
+          "description": "Tillåt medlemmar att visa denna kanal"
+        },
+        "ManageChannels": {
+          "label": "Hantera kanal",
+          "description": "Tillåt medlemmar att redigera eller ta bort denna kanal"
+        },
+        "ManageRoles": {
+          "label": "Hantera behörigheter",
+          "description": "Tillåt medlemmar att redigera denna kanals behörighetsöverskrivningar"
+        },
+        "SendMessages": {
+          "label": "Skicka meddelanden",
+          "description": "Tillåt medlemmar att skicka meddelanden i denna kanal"
+        },
+        "EmbedLinks": {
+          "label": "Bädda in länkar",
+          "description": "Tillåt medlemmar att bädda in länkar"
+        },
+        "AttachFiles": {
+          "label": "Bifoga filer",
+          "description": "Tillåt medlemmar att bifoga filer"
+        },
+        "MentionEveryone": {
+          "label": "Nämn alla",
+          "description": "Tillåt medlemmar att @mention @everyone och @here"
+        },
+        "UseExternalEmojis": {
+          "label": "Använd externa emojis",
+          "description": "Tillåt medlemmar att använda emojis från andra utrymmen"
+        },
+        "ManageMessages": {
+          "label": "Hantera meddelanden",
+          "description": "Tillåt medlemmar att ta bort andras meddelanden"
+        },
+        "ReadMessageHistory": {
+          "label": "Läs meddelandehistorik",
+          "description": "Tillåt medlemmar att läsa tidigare meddelanden"
+        },
+        "Connect": {
+          "label": "Anslut",
+          "description": "Tillåt medlemmar att ansluta till denna röstkanal"
+        },
+        "Speak": {
+          "label": "Tala",
+          "description": "Tillåt medlemmar att tala i denna röstkanal"
+        }
+      }
+    }
+  },
+  "confirm": {
+    "deleteSpaceTitle": "Ta bort \"{{name}}\"?",
+    "leaveSpaceTitle": "Lämna \"{{name}}\"?",
+    "deleteSpaceBody": "Är du säker på att du vill ta bort {{name}}? Denna åtgärd kan inte ångras.",
+    "leaveSpaceBody": "Är du säker på att du vill lämna {{name}}? Denna åtgärd kan inte ångras.",
+    "cannotUndo": "Denna åtgärd kan inte ångras."
+  },
+  "menu": {
+    "spaceSettings": "Utrymmesinställningar",
+    "reportSpace": "Rapportera utrymme",
+    "leaveSpace": "Lämna utrymme",
+    "deleteSpace": "Ta bort utrymme"
+  },
+  "chrome": {
+    "spaceSettings": "Utrymmesinställningar",
+    "inviteToSpace": "Bjud in till utrymme",
+    "createInviteA11y": "Skapa inbjudan",
+    "createCategoryA11y": "Skapa kategori",
+    "spaceMenuA11y": "Utrymmesmeny"
+  },
+  "sidebar": {
+    "createSpace": "Skapa ett utrymme",
+    "switchToSpaces": "Växla till utrymmen",
+    "switchToDirectMessages": "Växla till direktmeddelanden",
+    "switchToFeed": "Växla till flöde",
+    "switchTo": "Växla till",
+    "directMessages": "Direktmeddelanden",
+    "friends": "Vänner",
+    "spaces": "Utrymmen"
+  },
+  "lockdown": {
+    "title": "Detta utrymme är i lockdown",
+    "ownerMessage": "Meddelanden och ändringar är inaktiverade. Kontrollera din e-post för en överklagandelänk om du tror att detta var ett misstag.",
+    "memberMessage": "Meddelanden och ändringar är inaktiverade medan personal granskar detta utrymme.",
+    "toast": "Detta utrymme är i lockdown. Meddelanden och ändringar är inaktiverade."
+  }
+}

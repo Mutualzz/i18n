@@ -1,0 +1,286 @@
+{
+  "title": "Staff Panel",
+  "exit": "Exit",
+  "working": "Working...",
+  "nav": {
+    "reports": "Reports",
+    "activity": "Activity",
+    "appeals": "Appeals",
+    "support": "Support"
+  },
+  "pages": {
+    "activity": "Staff Activity",
+    "reportDetails": "Report Details"
+  },
+  "home": {
+    "findUser": "Find a user",
+    "findUserDescription": "Search by username, or filter by flag, to view an account and its available staff actions.",
+    "searchPlaceholder": "Search by username, or paste a user ID",
+    "anyFlag": "Any flag",
+    "searching": "Searching...",
+    "noUsers": "No users found",
+    "goToUserId": "Go to user ID {{id}}",
+    "exactIdLookup": "Exact ID lookup",
+    "loadMore": "Load more",
+    "loading": "Loading..."
+  },
+  "sections": {
+    "info": "Info",
+    "flags": "Flags",
+    "actions": "Actions",
+    "sessions": "Active Sessions",
+    "notes": "Staff Notes",
+    "audit": "Audit Log"
+  },
+  "user": {
+    "info": {
+      "username": "Username",
+      "displayName": "Display Name",
+      "noDisplayName": "No display name set",
+      "saveChanges": "Save Changes",
+      "accountDetails": "Account Details",
+      "email": "Email",
+      "emailVerified": "Email Verified",
+      "yes": "Yes",
+      "no": "No",
+      "sendReminder": "Send Reminder",
+      "verifyReminderSent": "Verification reminder sent",
+      "userId": "User ID",
+      "dateOfBirth": "Date of Birth",
+      "created": "Created",
+      "restrictedUntil": "Restricted Until"
+    },
+    "flags": {
+      "current": "Current Flags",
+      "manage": "Manage Flags",
+      "none": "No flags set"
+    },
+    "actions": {
+      "enableAccount": "Enable Account",
+      "disableAccount": "Disable Account",
+      "forceLogout": "Force Logout",
+      "warnUser": "Warn User",
+      "restrictUser": "Restrict User",
+      "liftRestriction": "Lift Restriction",
+      "softDeleteAccount": "Soft Delete Account",
+      "hardDeleteAccount": "Hard Delete Account",
+      "softDeletedBanner": "This account is soft deleted. The user cannot log in, but their data is retained.",
+      "errors": {
+        "liftRestriction": "Failed to lift restriction",
+        "updateUser": "Failed to update user",
+        "forceLogout": "Failed to force logout user",
+        "warnUser": "Failed to warn user",
+        "deleteAccount": "Failed to delete account",
+        "restrictUser": "Failed to restrict user"
+      }
+    },
+    "modals": {
+      "reasonRequired": "Reason (required)",
+      "reasonOptional": "Reason (optional)",
+      "placeholderAudit": "Add context for the audit log",
+      "disable": {
+        "title": "Disable Account",
+        "enableTitle": "Enable Account",
+        "bodyDisable": "Are you sure you want to disable @{{username}}'s account? They will be signed out and unable to log back in until re-enabled.",
+        "bodyEnable": "Are you sure you want to re-enable @{{username}}'s account?",
+        "placeholder": "Explain why this account is being disabled"
+      },
+      "forceLogout": {
+        "title": "Force Logout",
+        "body": "Are you sure you want to sign @{{username}} out of every session? They will need to log back in, but the account stays enabled."
+      },
+      "warn": {
+        "title": "Warn User",
+        "body": "This sends @{{username}} a warning email and logs it to their audit trail. It doesn't change their account state.",
+        "placeholder": "Explain what the warning is for",
+        "submit": "Send Warning",
+        "toastSent": "Warning sent and emailed to the user",
+        "toastEmailFailed": "Warning recorded, but the email failed to send"
+      },
+      "restrict": {
+        "title": "Restrict User",
+        "body": "Restricted users can't send messages or create posts until the restriction ends.",
+        "duration": "Duration",
+        "submit": "Restrict",
+        "placeholder": "Explain what the restriction is for",
+        "durations": {
+          "1h": "1 hour",
+          "6h": "6 hours",
+          "1d": "1 day",
+          "3d": "3 days",
+          "7d": "7 days",
+          "30d": "30 days"
+        }
+      },
+      "delete": {
+        "softTitle": "Soft Delete Account",
+        "hardTitle": "Hard Delete Account",
+        "softBody": "This soft deletes @{{username}}'s account. They will be signed out and unable to log back in, but their data is retained for moderation and audit purposes.",
+        "hardBody": "This permanently removes @{{username}}'s account and associated data from the database. Any spaces they own will also be deleted. This cannot be undone.",
+        "type": "Deletion type",
+        "softOption": "Soft delete (recommended)",
+        "hardOption": "Hard delete (irreversible)",
+        "confirmUsername": "Type @{{username}} to confirm",
+        "placeholderSoft": "Explain why this account is being soft deleted",
+        "placeholderHard": "Explain why this account must be permanently removed"
+      }
+    },
+    "sessions": {
+      "empty": "No active sessions",
+      "created": "Created {{relative}}",
+      "lastUsed": "Last used {{relative}}",
+      "revoke": "Revoke",
+      "errorRevoke": "Failed to revoke session"
+    },
+    "notes": {
+      "placeholder": "Leave a note for other staff — not visible to the user",
+      "add": "Add Note",
+      "adding": "Adding...",
+      "empty": "No staff notes yet",
+      "errorAdd": "Failed to add note"
+    },
+    "audit": {
+      "empty": "No staff actions yet"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "Pending",
+      "reviewed": "Reviewed",
+      "dismissed": "Dismissed",
+      "actioned": "Actioned"
+    },
+    "actions": {
+      "shutDownSpace": "Shut Down Space",
+      "takeDownContent": "Take Down Content",
+      "lockDownSpace": "Lock Down Space"
+    },
+    "detailsTitle": "Report Details",
+    "backToReports": "Back to reports",
+    "anyStatus": "Any status",
+    "anyType": "Any type",
+    "targetTypes": {
+      "message": "Message",
+      "post": "Post",
+      "comment": "Comment",
+      "user": "User",
+      "space": "Space"
+    },
+    "reportedBy": "Reported by {{name}}",
+    "reporterNotes": "Reporter notes",
+    "reportedContent": "Reported content",
+    "viewDetails": "View Details",
+    "openUserPanel": "Open staff user panel",
+    "markReviewed": "Mark Reviewed",
+    "markActioned": "Mark Actioned",
+    "dismiss": "Dismiss",
+    "reviewedShort": "Reviewed",
+    "actionedShort": "Actioned",
+    "reviewedBy": "{{status}} by {{name}}",
+    "empty": "No reports found",
+    "loadingReport": "Loading report…",
+    "loadFailed": "Failed to load report",
+    "toasts": {
+      "actionCompleted": "Action completed",
+      "actionCompletedMarked": "Action completed and report marked actioned",
+      "alreadyRemoved": "Target was already removed",
+      "lockdownSuccess": "Space locked down and owner notified"
+    },
+    "errors": {
+      "update": "Failed to update report",
+      "action": "Failed to complete action",
+      "lockdown": "Failed to lock down space"
+    },
+    "content": {
+      "dmContext": "Direct message context",
+      "messageContext": "Message context",
+      "dmContextHint": "Limited surrounding messages are shown for privacy.",
+      "reported": "REPORTED",
+      "noText": "(no text content)",
+      "unknown": "Unknown",
+      "membersOwnedBy_one": "{{count}} member · owned by {{owner}}",
+      "membersOwnedBy_other": "{{count}} members · owned by {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "Any status",
+    "status": {
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "rejected": "Rejected"
+    },
+    "spaceLockdownAppeal": "Space lockdown appeal",
+    "responsePlaceholder": "Response to the user (optional)",
+    "accept": "Accept",
+    "reject": "Reject",
+    "viewAccount": "View Account",
+    "viewUser": "View user",
+    "staffResponse": "Staff response: {{text}}",
+    "empty": "No appeals found",
+    "errorUpdate": "Failed to update appeal",
+    "decidedBy": "{{status}} by {{name}}"
+  },
+  "support": {
+    "anyStatus": "Any status",
+    "status": {
+      "open": "Open",
+      "awaiting_reply": "Awaiting reply",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "empty": "No tickets found",
+    "selectTicket": "Select a ticket",
+    "loadingTicket": "Loading ticket…",
+    "resolve": "Resolve",
+    "close": "Close",
+    "staff": "Staff",
+    "replyPlaceholder": "Reply to user",
+    "sendReply": "Send reply",
+    "sending": "Sending…",
+    "errors": {
+      "send": "Failed to send reply",
+      "update": "Failed to update ticket"
+    }
+  },
+  "activity": {
+    "empty": "No staff actions yet",
+    "removedUser": "a removed user",
+    "removedUserNamed": "@{{name}} (removed)"
+  },
+  "auditActions": {
+    "disabledAccount": "disabled this account",
+    "enabledAccount": "enabled this account",
+    "softDeletedAccount": "soft deleted this account",
+    "hardDeletedAccount": "hard deleted this account",
+    "forcedLogout": "forced a logout for this account",
+    "warnedUser": "warned this user",
+    "restrictedUser": "restricted this user",
+    "liftedRestriction": "lifted the restriction on this user",
+    "grantedFlag": "granted the {{flag}} flag",
+    "revokedFlag": "revoked the {{flag}} flag",
+    "updatedProfile": "updated this user's profile",
+    "addedNote": "added a staff note",
+    "revokedSession": "revoked a session",
+    "tookDownContent": "took down a reported {{type}}",
+    "lockedDownSpace": "locked down a space",
+    "shutDownSpace": "shut down a reported space",
+    "global": {
+      "disabled": "{{actor}} disabled {{target}}",
+      "enabled": "{{actor}} enabled {{target}}",
+      "softDeleted": "{{actor}} soft deleted {{target}}",
+      "hardDeleted": "{{actor}} hard deleted {{target}}",
+      "forcedLogout": "{{actor}} forced a logout for {{target}}",
+      "warned": "{{actor}} warned {{target}}",
+      "restricted": "{{actor}} restricted {{target}}",
+      "liftedRestriction": "{{actor}} lifted the restriction on {{target}}",
+      "grantedFlag": "{{actor}} granted the {{flag}} flag to {{target}}",
+      "revokedFlag": "{{actor}} revoked the {{flag}} flag from {{target}}",
+      "updatedProfile": "{{actor}} updated {{target}}'s profile",
+      "addedNote": "{{actor}} added a staff note on {{target}}",
+      "revokedSession": "{{actor}} revoked a session for {{target}}",
+      "tookDownContent": "{{actor}} took down a reported {{type}}",
+      "lockedDownSpace": "{{actor}} locked down a space",
+      "shutDownSpace": "{{actor}} shut down a reported space"
+    }
+  }
+}

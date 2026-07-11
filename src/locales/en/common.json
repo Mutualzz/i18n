@@ -1,5 +1,280 @@
 {
-    "cancel": "Cancel",
-    "Save": "Save",
-    "online": "Online"
+  "cancel": "Cancel",
+  "save": "Save",
+  "saveChanges": "Save Changes",
+  "close": "Close",
+  "create": "Create",
+  "delete": "Delete",
+  "add": "Add",
+  "remove": "Remove",
+  "reset": "Reset",
+  "back": "Back",
+  "clear": "Clear",
+  "finish": "Finish",
+  "retry": "Retry",
+  "apply": "Apply",
+  "undo": "Undo",
+  "redo": "Redo",
+  "open": "Open",
+  "proceed": "Proceed",
+  "gotIt": "Got it",
+  "seo": {
+    "defaultTitle": "Mutualzz (Early Access)",
+    "defaultDescription": "Connect with other people who share your interests. Currently under heavy development"
+  },
+  "reload": "Reload app",
+  "download": "Download Mutualzz",
+  "accept": "Accept",
+  "decline": "Decline",
+  "restore": "Restore",
+  "uploadCustomFont": "Upload custom font",
+  "language": {
+    "title": "Language",
+    "description": "Choose the language used across Mutualzz.",
+    "systemDefault": "Device language"
+  },
+  "calendar": {
+    "sameDay": "[Today at] h:mm A",
+    "nextDay": "[Tomorrow at] h:mm A",
+    "lastDay": "[Yesterday at] h:mm A",
+    "lastWeek": "[Last] dddd [at] h:mm A",
+    "sameElse": "MM/DD/YYYY h:mm A"
+  },
+  "duration": {
+    "clearOnDateAt": "Clear {{date}} at {{time}}",
+    "clearTodayAt": "Clear today at {{time}}",
+    "clearTomorrowAt": "Clear tomorrow at {{time}}",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days",
+    "dontClear": "Don't clear",
+    "forever": "Forever",
+    "hours_one": "{{count}} hour",
+    "hours_other": "{{count}} hours",
+    "minutes_one": "{{count}} minute",
+    "minutes_other": "{{count}} minutes"
+  },
+  "status": {
+    "clearCustomAfter": "Clear custom status after",
+    "clearOnlineAfter": "Clear online status after",
+    "dnd": "Do Not Disturb",
+    "dndDescription": "You won't receive notifications",
+    "idle": "Idle",
+    "idleDescription": "Away from keyboard",
+    "invisible": "Invisible",
+    "invisibleDescription": "Appear offline",
+    "offline": "Offline",
+    "online": "Online",
+    "saveCustom": "Save custom status"
+  },
+  "report": {
+    "title": "Report {{label}}",
+    "description": "Reports are reviewed by staff. Choose the reason that best fits.",
+    "detailsPlaceholder": "Add more detail (optional)",
+    "submit": "Submit Report",
+    "submitting": "Submitting...",
+    "success": "Report submitted. Thank you for helping keep things safe.",
+    "action": "Report",
+    "reasons": {
+      "spam": "Spam",
+      "harassment": "Harassment or Abuse",
+      "hate_speech": "Hate Speech",
+      "nsfw": "NSFW / Inappropriate Content",
+      "self_harm": "Self-Harm or Suicide",
+      "impersonation": "Impersonation",
+      "misinformation": "Misinformation",
+      "other": "Other"
+    }
+  },
+  "editable": {
+    "addToDictionary": "Add to Dictionary",
+    "spellcheck": "Spellcheck",
+    "cut": "Cut",
+    "copy": "Copy",
+    "paste": "Paste"
+  },
+  "customStatus": {
+    "title": "Set your status",
+    "heading": "Custom status",
+    "label": "Status",
+    "placeholder": "Enter your status...",
+    "setPlaceholder": "Set Custom Status...",
+    "setShort": "Set a custom status...",
+    "editA11y": "Edit custom status",
+    "clearA11y": "Clear custom status",
+    "changeEmoji": "Change status emoji",
+    "addEmoji": "Add status emoji",
+    "chooseEmoji": "Choose status emoji",
+    "pickEmoji": "Pick an emoji",
+    "removeEmoji": "Remove emoji",
+    "changeStatus": "Change Status",
+    "whatsOnYourMind": "What's on your mind?"
+  },
+  "externalLink": {
+    "proceed": "Proceed",
+    "close": "Close",
+    "title": "Open External Link",
+    "aboutToOpen": "You are about to open an external link:",
+    "unsafeTitle": "This link seems to be unsafe",
+    "unsafeHttpBody": "The link you are trying to open uses an insecure HTTP connection. This could potentially expose your data to third parties.",
+    "confirmProceed": "Are you sure you want to proceed?",
+    "blockedInApp": "We do not allow opening unsafe links directly in the app for your security. Please copy the link and open it in your web browser."
+  },
+  "connection": {
+    "reconnect": "Reconnect",
+    "enableAudio": "Click to enable audio",
+    "offlineBanner": "You are currently offline",
+    "audioBlocked": "Your browser blocked voice audio playback"
+  },
+  "nav": {
+    "goBack": "Go Back",
+    "goForward": "Go Forward"
+  },
+  "updater": {
+    "pleaseWait": "Updating… please wait"
+  },
+  "crash": {
+    "title": "Something went wrong",
+    "bodyDesktop": "Mutualzz ran into an unexpected error. Reload the app to try again.",
+    "orPressShortcut": "Or press {{shortcut}}",
+    "bodyMobile": "Mutualzz ran into an unexpected error. Close the app completely, then open it again.",
+    "hintIos": "Swipe up from the bottom of the screen to open the app switcher, then swipe Mutualzz away.",
+    "hintAndroid": "Open your recent apps overview, then swipe Mutualzz away until the app closes."
+  },
+  "a11y": {
+    "closeProfile": "Close profile",
+    "settings": "Settings",
+    "deleteInvite": "Delete invite",
+    "deleteNamed": "Delete {{name}}",
+    "deleteExpression": "Delete :{{name}}:",
+    "removeMemberFromRole": "Remove {{member}} from {{role}}",
+    "allowPermission": "Allow {{label}}",
+    "neutralPermission": "Neutral {{label}}",
+    "denyPermission": "Deny {{label}}",
+    "expandWidget": "Expand {{type}} widget",
+    "expandWidgetHint": "Opens the full widget content",
+    "editWidgetHint": "Opens the widget editor. Long press to rearrange widgets.",
+    "playVideo": "Play video",
+    "pauseVideo": "Pause video",
+    "tapToOpen": "Tap to open",
+    "sent": "Sent",
+    "createChannelInCategory": "Create channel in category",
+    "reorder": "Reorder",
+    "time": "Time",
+    "closeModal": "Close modal",
+    "increment": "Increment",
+    "decrement": "Decrement",
+    "openColorPicker": "Open color picker",
+    "randomColor": "Random color",
+    "randomColorHint": "Picks a random color",
+    "removeColorStop": "Remove color stop",
+    "rangeSliderHint": "Range slider. Adjust by dragging."
+  },
+  "errors": {
+    "unknown": "Unknown error"
+  },
+  "select": {
+    "placeholder": "Select an option"
+  },
+  "media": {
+    "play": "Play",
+    "pause": "Pause",
+    "download": "Download",
+    "volume": "Volume"
+  },
+  "notifications": {
+    "unreads": "Unreads",
+    "mentions": "Mentions",
+    "requests": "Requests",
+    "markAllAsRead": "Mark all as read",
+    "acceptedFriend": "{{name}} accepted your friend request",
+    "sentAttachment": "Sent an attachment",
+    "noMessagesYet": "No messages yet",
+    "youWereMentioned": "You were mentioned",
+    "noUnreads": "No unread messages",
+    "noMentions": "No new mentions",
+    "recentlyAccepted": "Recently Accepted",
+    "groupDmChannel": "Group DM Channel",
+    "messagesChannel": "Messages",
+    "reply": "Reply",
+    "messagePlaceholder": "Message",
+    "send": "Send"
+  },
+  "markdown": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Underline",
+    "strikethrough": "Strikethrough",
+    "blockquote": "Blockquote",
+    "code": "Code",
+    "spoiler": "Spoiler"
+  },
+  "support": {
+    "myTickets": "My tickets",
+    "contactSupport": "Contact support",
+    "loginToContact": "Log in to contact support",
+    "privacyPolicy": "Privacy Policy",
+    "faq": "Frequently asked questions",
+    "quickLinks": "Quick links",
+    "contactUs": "Contact us",
+    "openHelpCenter": "Open help center",
+    "describeIssue": "Describe your issue",
+    "newTicket": "New ticket",
+    "writeReply": "Write a reply",
+    "loading": "Loading...",
+    "loadingTickets": "Loading tickets...",
+    "loadMore": "Load more",
+    "sendReply": "Send reply",
+    "sendReplyFailed": "Failed to send reply",
+    "staffLabel": "Support",
+    "ticketClosed": "This ticket is closed.",
+    "ticketClosedHint": "This ticket is closed. Open a new ticket if you still need help.",
+    "updatedAt": "updated {{date}}",
+    "pageIntro": "Need help with Mutualzz? Browse common answers below or contact our team.",
+    "mobileIntro": "Browse help at mutualzz.com/support or contact us below.",
+    "subjectPlaceholder": "Subject",
+    "submitTicket": "Submit ticket",
+    "createFailed": "Failed to create ticket",
+    "noTickets": "No tickets yet",
+    "contactEmailLoggedIn": "Email us at {{email}} or open a support ticket from this page.",
+    "contactEmailGuest": "Email us at {{email}}.",
+    "categories": {
+      "account": "Account & login",
+      "bug": "Bug or crash",
+      "donations": "Donations",
+      "feature": "Feature request",
+      "other": "Other"
+    },
+    "faqItems": {
+      "report": {
+        "q": "How do I report a user or content?",
+        "a": "Open a user profile or the content menu and choose Report. Our staff will review it."
+      },
+      "appeal": {
+        "q": "How do I appeal a ban?",
+        "a": "If you received a ban email, use the appeal link in that message. Staff will review your appeal."
+      },
+      "delete": {
+        "q": "How do I delete my account?",
+        "a": "Go to Settings → My Account → Delete Account."
+      },
+      "block": {
+        "q": "How do I block someone?",
+        "a": "Open their profile and choose Block. You can unblock them later from settings."
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "Report content or a user",
+        "hint": "Available from profile menus and content actions"
+      },
+      "appeals": {
+        "label": "Ban appeals",
+        "hint": "Use the appeal link from your ban email"
+      },
+      "delete": {
+        "label": "Delete your account",
+        "hint": "Settings → My Account → Delete Account"
+      }
+    }
+  }
 }

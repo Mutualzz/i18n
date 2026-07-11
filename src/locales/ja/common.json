@@ -1,0 +1,280 @@
+{
+  "cancel": "キャンセル",
+  "save": "保存",
+  "language": {
+    "title": "言語",
+    "description": "Mutualzz で使用する言語を選択します。",
+    "systemDefault": "端末の言語"
+  },
+  "calendar": {
+    "sameDay": "[今日] A h:mm",
+    "nextDay": "[明日] A h:mm",
+    "lastDay": "[昨日] A h:mm",
+    "lastWeek": "[先週] dddd A h:mm",
+    "sameElse": "YYYY/MM/DD A h:mm"
+  },
+  "duration": {
+    "clearOnDateAt": "{{date}} {{time}} にクリア",
+    "clearTodayAt": "今日 {{time}} にクリア",
+    "clearTomorrowAt": "明日 {{time}} にクリア",
+    "days_one": "{{count}} 日",
+    "days_other": "{{count}} 日",
+    "dontClear": "クリアしない",
+    "forever": "無期限",
+    "hours_one": "{{count}} 時間",
+    "hours_other": "{{count}} 時間",
+    "minutes_one": "{{count}} 分",
+    "minutes_other": "{{count}} 分"
+  },
+  "status": {
+    "clearCustomAfter": "カスタムステータスの解除",
+    "clearOnlineAfter": "オンラインステータスの解除",
+    "dnd": "取り込み中",
+    "dndDescription": "通知を受け取りません",
+    "idle": "退席中",
+    "idleDescription": "キーボードから離れている",
+    "invisible": "オフライン表示",
+    "invisibleDescription": "オフラインに見せる",
+    "offline": "オフライン",
+    "online": "オンライン",
+    "saveCustom": "カスタムステータスを保存"
+  },
+  "report": {
+    "title": "{{label}} を通報",
+    "description": "通報はスタッフが確認します。最も当てはまる理由を選んでください。",
+    "detailsPlaceholder": "詳細を追加（任意）",
+    "submit": "通報を送信",
+    "submitting": "送信中...",
+    "success": "通報を送信しました。安全の維持にご協力いただきありがとうございます。",
+    "reasons": {
+      "spam": "スパム",
+      "harassment": "嫌がらせまたは虐待",
+      "hate_speech": "ヘイトスピーチ",
+      "nsfw": "NSFW / 不適切なコンテンツ",
+      "self_harm": "自傷行為または自殺",
+      "impersonation": "なりすまし",
+      "misinformation": "誤情報",
+      "other": "その他"
+    },
+    "action": "通報"
+  },
+  "close": "閉じる",
+  "create": "作成",
+  "delete": "削除",
+  "editable": {
+    "addToDictionary": "辞書に追加",
+    "spellcheck": "スペルチェック",
+    "cut": "切り取り",
+    "copy": "コピー",
+    "paste": "貼り付け"
+  },
+  "customStatus": {
+    "title": "ステータスを設定",
+    "label": "ステータス",
+    "placeholder": "ステータスを入力...",
+    "setPlaceholder": "カスタムステータスを設定...",
+    "setShort": "カスタムステータスを設定...",
+    "editA11y": "カスタムステータスを編集",
+    "clearA11y": "カスタムステータスをクリア",
+    "changeEmoji": "ステータス絵文字を変更",
+    "addEmoji": "ステータス絵文字を追加",
+    "chooseEmoji": "ステータス絵文字を選択",
+    "pickEmoji": "絵文字を選ぶ",
+    "removeEmoji": "絵文字を削除",
+    "changeStatus": "ステータスを変更",
+    "whatsOnYourMind": "いま何を考えてる？",
+    "heading": "カスタムステータス"
+  },
+  "saveChanges": "変更を保存",
+  "add": "追加",
+  "remove": "削除",
+  "reset": "リセット",
+  "back": "戻る",
+  "clear": "クリア",
+  "finish": "完了",
+  "retry": "再試行",
+  "apply": "適用",
+  "undo": "元に戻す",
+  "redo": "やり直す",
+  "open": "開く",
+  "proceed": "続行",
+  "gotIt": "了解",
+  "reload": "アプリを再読み込み",
+  "download": "Mutualzzをダウンロード",
+  "accept": "承認",
+  "decline": "拒否",
+  "restore": "復元",
+  "uploadCustomFont": "カスタムフォントをアップロード",
+  "externalLink": {
+    "proceed": "続行",
+    "close": "閉じる",
+    "title": "外部リンクを開く",
+    "aboutToOpen": "外部リンクを開こうとしています：",
+    "unsafeTitle": "このリンクは安全ではない可能性があります",
+    "unsafeHttpBody": "開こうとしているリンクは安全でないHTTP接続を使用しています。データが第三者に漏洩する可能性があります。",
+    "confirmProceed": "本当に続行しますか？",
+    "blockedInApp": "セキュリティのため、安全でないリンクをアプリ内で直接開くことはできません。リンクをコピーしてウェブブラウザで開いてください。"
+  },
+  "connection": {
+    "reconnect": "再接続",
+    "enableAudio": "クリックして音声を有効にする",
+    "offlineBanner": "現在オフラインです",
+    "audioBlocked": "ブラウザがボイス音声の再生をブロックしました"
+  },
+  "notifications": {
+    "unreads": "未読",
+    "mentions": "メンション",
+    "requests": "リクエスト",
+    "markAllAsRead": "すべて既読にする",
+    "acceptedFriend": "{{name}}がフレンド申請を承認しました",
+    "sentAttachment": "添付ファイルを送信しました",
+    "noMessagesYet": "まだメッセージはありません",
+    "youWereMentioned": "メンションされました",
+    "noUnreads": "未読メッセージはありません",
+    "noMentions": "新しいメンションはありません",
+    "recentlyAccepted": "最近承認された申請",
+    "groupDmChannel": "グループDMチャンネル",
+    "messagesChannel": "メッセージ",
+    "reply": "返信",
+    "messagePlaceholder": "メッセージ",
+    "send": "送信"
+  },
+  "markdown": {
+    "bold": "太字",
+    "italic": "斜体",
+    "underline": "下線",
+    "strikethrough": "取り消し線",
+    "blockquote": "引用",
+    "code": "コード",
+    "spoiler": "スポイラー"
+  },
+  "support": {
+    "myTickets": "自分のチケット",
+    "contactSupport": "サポートに連絡",
+    "loginToContact": "ログインしてサポートに連絡",
+    "privacyPolicy": "プライバシーポリシー",
+    "faq": "よくある質問",
+    "quickLinks": "クイックリンク",
+    "contactUs": "お問い合わせ",
+    "openHelpCenter": "ヘルプセンターを開く",
+    "describeIssue": "問題を説明してください",
+    "newTicket": "新しいチケット",
+    "writeReply": "返信を書く",
+    "pageIntro": "Mutualzzでお困りですか？下のよくある回答を見るか、チームにお問い合わせください。",
+    "mobileIntro": "mutualzz.com/support でヘルプを確認するか、下からお問い合わせください。",
+    "subjectPlaceholder": "件名",
+    "submitTicket": "チケットを送信",
+    "createFailed": "チケットの作成に失敗しました",
+    "noTickets": "まだチケットはありません",
+    "contactEmailLoggedIn": "{{email}} にメールを送るか、このページからサポートチケットを開いてください。",
+    "contactEmailGuest": "{{email}} にメールを送ってください。",
+    "categories": {
+      "account": "アカウントとログイン",
+      "bug": "バグまたはクラッシュ",
+      "donations": "寄付",
+      "feature": "機能リクエスト",
+      "other": "その他"
+    },
+    "faqItems": {
+      "report": {
+        "q": "ユーザーやコンテンツを報告するには？",
+        "a": "ユーザーのプロフィールまたはコンテンツのメニューを開き、「報告」を選択してください。スタッフが確認します。"
+      },
+      "appeal": {
+        "q": "BANの異議申し立てをするには？",
+        "a": "BANのメールを受け取った場合は、そのメッセージ内の異議申し立てリンクを使用してください。スタッフが確認します。"
+      },
+      "delete": {
+        "q": "アカウントを削除するには？",
+        "a": "設定 → マイアカウント → アカウント削除 に進んでください。"
+      },
+      "block": {
+        "q": "誰かをブロックするには？",
+        "a": "相手のプロフィールを開き、「ブロック」を選択してください。後から設定で解除できます。"
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "コンテンツまたはユーザーを報告",
+        "hint": "プロフィールメニューやコンテンツ操作から利用できます"
+      },
+      "appeals": {
+        "label": "BANの異議申し立て",
+        "hint": "BANメール内の異議申し立てリンクを使用してください"
+      },
+      "delete": {
+        "label": "アカウントを削除",
+        "hint": "設定 → マイアカウント → アカウント削除"
+      }
+    },
+    "loading": "読み込み中...",
+    "loadingTickets": "チケットを読み込み中...",
+    "loadMore": "さらに読み込む",
+    "sendReply": "返信を送信",
+    "sendReplyFailed": "返信の送信に失敗しました",
+    "staffLabel": "サポート",
+    "ticketClosed": "このチケットはクローズされています。",
+    "ticketClosedHint": "このチケットはクローズされています。引き続きサポートが必要な場合は、新しいチケットを開いてください。",
+    "updatedAt": "{{date}} に更新"
+  },
+  "nav": {
+    "goBack": "戻る",
+    "goForward": "進む"
+  },
+  "updater": {
+    "pleaseWait": "更新中…しばらくお待ちください"
+  },
+  "crash": {
+    "title": "問題が発生しました",
+    "bodyDesktop": "Mutualzzで予期しないエラーが発生しました。アプリを再読み込みして再試行してください。",
+    "orPressShortcut": "または {{shortcut}} を押してください",
+    "bodyMobile": "Mutualzzで予期しないエラーが発生しました。アプリを完全に閉じてから、もう一度開いてください。",
+    "hintIos": "画面下から上にスワイプしてアプリスイッチャーを開き、Mutualzzをスワイプして閉じてください。",
+    "hintAndroid": "最近使ったアプリの一覧を開き、Mutualzzをスワイプしてアプリを閉じてください。"
+  },
+  "media": {
+    "play": "再生",
+    "pause": "一時停止",
+    "download": "ダウンロード",
+    "volume": "音量"
+  },
+  "a11y": {
+    "closeProfile": "プロフィールを閉じる",
+    "settings": "設定",
+    "deleteInvite": "招待を削除",
+    "deleteNamed": "{{name}}を削除",
+    "deleteExpression": ":{{name}}:を削除",
+    "removeMemberFromRole": "{{member}}を{{role}}から削除",
+    "allowPermission": "{{label}}を許可",
+    "neutralPermission": "{{label}}を中立",
+    "denyPermission": "{{label}}を拒否",
+    "expandWidget": "{{type}}ウィジェットを展開",
+    "expandWidgetHint": "ウィジェットの全内容を開きます",
+    "editWidgetHint": "ウィジェット編集を開きます。長押しで並べ替え。",
+    "playVideo": "動画を再生",
+    "pauseVideo": "動画を一時停止",
+    "tapToOpen": "タップして開く",
+    "sent": "送信済み",
+    "createChannelInCategory": "カテゴリにチャンネルを作成",
+    "reorder": "並べ替え",
+    "time": "時間",
+    "closeModal": "モーダルを閉じる",
+    "increment": "増やす",
+    "decrement": "減らす",
+    "openColorPicker": "カラーピッカーを開く",
+    "randomColor": "ランダムな色",
+    "randomColorHint": "ランダムな色を選びます",
+    "removeColorStop": "カラーストップを削除",
+    "rangeSliderHint": "レンジスライダー。ドラッグして調整。"
+  },
+  "seo": {
+    "defaultTitle": "Mutualzz（早期アクセス）",
+    "defaultDescription": "同じ興味を持つ人とつながろう。現在、精力的に開発中です"
+  },
+  "errors": {
+    "unknown": "不明なエラー"
+  },
+  "select": {
+    "placeholder": "オプションを選択"
+  }
+}

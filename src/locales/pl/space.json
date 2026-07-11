@@ -1,0 +1,489 @@
+{
+  "title": "Ustawienia przestrzeni",
+  "titleShort": "Ustawienia przestrzeni",
+  "overviewDescription": "Zarządzaj rolami, zaproszeniami, wyrażeniami i moderacją.",
+  "nav": {
+    "categories": {
+      "general": "Ogólne",
+      "people": "Ludzie",
+      "moderation": "Moderacja"
+    },
+    "pages": {
+      "profile": "Profil",
+      "roles": "Role",
+      "channels": "Kanały",
+      "invites": "Zaproszenia",
+      "expressions": "Wyrażenia",
+      "bans": "Bany"
+    }
+  },
+  "actions": {
+    "deleteSpace": "Usuń przestrzeń",
+    "leaveSpace": "Opuść przestrzeń",
+    "createRole": "Utwórz rolę",
+    "deleteRole": "Usuń rolę",
+    "createInvite": "Utwórz zaproszenie",
+    "createInviteLink": "Utwórz link z zaproszeniem",
+    "deleteAllInvites": "Usuń wszystkie zaproszenia",
+    "editInviteLink": "Edytuj link z zaproszeniem",
+    "revokeBan": "Cofnij zakaz",
+    "unbanMember": "Odblokuj członka",
+    "unbanning": "Odbanowanie...",
+    "kick": "Wyrzuć",
+    "ban": "Zbanuj",
+    "addMembers": "Dodaj członków",
+    "addMembersCount_one": "Dodaj ({{count}})",
+    "addMembersCount_other": "Dodaj ({{count}})",
+    "markAllAsRead": "Oznacz wszystko jako przeczytane",
+    "clearPermissions": "Wyczyść uprawnienia",
+    "working": "Przetwarzanie...",
+    "creating": "Tworzenie...",
+    "addMembersCount_few": "Dodaj ({{count}})",
+    "addMembersCount_many": "Dodaj ({{count}})"
+  },
+  "profile": {
+    "spaceIcon": "Ikona przestrzeni",
+    "name": "Nazwa",
+    "description": "Opis",
+    "descriptionPlaceholder": "Napisz coś o swojej przestrzeni...",
+    "updatedSuccess": "Przestrzeń została pomyślnie zaktualizowana.",
+    "genericError": "Wystąpił błąd"
+  },
+  "invites": {
+    "activeLinks": "Aktywne linki zaproszeń",
+    "createTitle": "Utwórz link z zaproszeniem",
+    "createDescriptionChannel": "Tworzy łącze do #{{channel}}.",
+    "createDescriptionDefault": "Tworzy łącze do domyślnego kanału tekstowego dla tego obszaru.",
+    "createFailed": "Nie udało się utworzyć zaproszenia",
+    "empty": "Do tej przestrzeni nie utworzono jeszcze żadnych zaproszeń.",
+    "columns": {
+      "inviter": "Zapraszający",
+      "inviteCode": "Kod zaproszenia",
+      "uses": "Używa",
+      "expires": "Wygasa"
+    },
+    "usesLabel": "Zastosowanie: {{uses}}{{max}}",
+    "usesMax": " / {{max}}",
+    "neverExpires": "Nigdy nie wygasa",
+    "expired": "Wygasły",
+    "copyInviteUrl": "Skopiuj adres URL zaproszenia",
+    "copiedToClipboard": "Skopiowano do schowka",
+    "tapToCopy": "Kliknij link, który chcesz skopiować",
+    "modal": {
+      "title": "Zaproś znajomych do {{spaceName}}",
+      "landingChannel": "Odbiorcy wylądują w #{{channelName}}",
+      "searchFriends": "Szukaj znajomych",
+      "noResults": "Brak wyników.",
+      "noFriends": "Brak znajomych, których można zaprosić. Zamiast tego udostępnij poniższy link.",
+      "inviteLink": "Link zaproszenia",
+      "expiresPrefix": "Ten link wygaśnie",
+      "expiresNever": "nigdy",
+      "expiresAfterUses_one": "lub po użyciu {{count}}",
+      "expiresAfterUses_other": "lub po użyciu {{count}}",
+      "editTitle": "Edytowanie bieżącego linku zaproszenia",
+      "expireAfter": "Wygasa po",
+      "maxUses": "Maksymalne wykorzystanie",
+      "expiresAfterUses_few": "lub po użyciu {{count}}",
+      "expiresAfterUses_many": "lub po użyciu {{count}}"
+    },
+    "expiry": {
+      "30minutes": "30 minut",
+      "1hour": "1 godzina",
+      "6hours": "6 godzin",
+      "12hours": "12 godzin",
+      "1day": "1 dzień",
+      "7days": "7 dni",
+      "never": "Nigdy"
+    },
+    "maxUses": {
+      "noLimit": "Bez limitu",
+      "1use": "1 użycie",
+      "5uses": "5 zastosowań",
+      "10uses": "10 zastosowań",
+      "25uses": "25 zastosowań",
+      "50uses": "50 zastosowań",
+      "100uses": "100 zastosowań"
+    }
+  },
+  "roles": {
+    "defaultPermissions": "Domyślne uprawnienia",
+    "everyoneSubtitle": "@everyone — dotyczy wszystkich członków przestrzeni",
+    "everyoneSuffix": " (@everyone)",
+    "searchPlaceholder": "Wyszukaj role",
+    "listTitle_one": "Role - {{count}}",
+    "listTitle_other": "Role - {{count}}",
+    "membersColumn": "Członkowie",
+    "actionsColumn": "Akcje",
+    "hierarchyHint": "Role znajdujące się wyżej na liście mają większą władzę. Przeciągnij role, aby zmienić ich hierarchię.",
+    "empty": "Dla tego pokoju nie utworzono jeszcze żadnych ról.",
+    "emptySearch": "Żadne role nie pasują do Twojego wyszukiwania.",
+    "memberCount_one": "Członek {{count}}",
+    "memberCount_other": "Członkowie {{count}}",
+    "editTitle": "Edytuj rolę — {{name}}",
+    "tabs": {
+      "display": "Wyświetlacz",
+      "permissions": "Uprawnienia",
+      "manageMembers": "Zarządzaj członkami",
+      "members": "Członkowie"
+    },
+    "unsavedChanges": "Masz niezapisane zmiany!",
+    "saveFailed": "Nie udało się zapisać roli",
+    "display": {
+      "roleName": "Nazwa roli",
+      "roleColor": "Kolor roli",
+      "hoist": "Wyświetlaj członków roli oddzielnie od członków online",
+      "mentionable": "Zezwalaj każdemu na @mention tę rolę",
+      "mentionableHint": "Członkowie z uprawnieniem „Wspomnij o @everyone, @here i wszystkich rolach” mogą wspomnieć o tej roli niezależnie od tego ustawienia.",
+      "mentionableHintShort": "Członkowie z uprawnieniem do wspominania wszystkich mogą nadal wspominać o tej roli."
+    },
+    "members": {
+      "title": "Członkowie roli",
+      "description": "Przeglądaj członków przypisanych do tej roli i zarządzaj nimi.",
+      "searchPlaceholder": "Wyszukaj członków",
+      "emptyAssigned": "Żadnemu członkowi nie przypisano tej roli.",
+      "emptySearch": "Żaden członek nie pasuje do Twojego wyszukiwania.",
+      "addTitle": "Dodaj członków",
+      "addDescription": "Dodaj maksymalnie członków {{max}} do {{roleName}}",
+      "selectedCount": "Wybrano {{selected}}/{{max}}",
+      "noEligible": "Brak członków, których można dodać do tej roli.",
+      "addSuccess_one": "Dodano członka {{count}} do {{roleName}}",
+      "addSuccess_other": "Dodano członków {{count}} do {{roleName}}",
+      "addFailed": "Nie udało się dodać członków do roli",
+      "addSuccess_few": "Dodano członków {{count}} do {{roleName}}",
+      "addSuccess_many": "Dodano członków {{count}} do {{roleName}}"
+    },
+    "hierarchy": {
+      "cantReorder": "Nie możesz zmienić kolejności ról na poziomie najwyższej lub wyższej roli",
+      "cantAssign": "Nie możesz przypisać ani usunąć tej roli",
+      "cantEditRole": "Nie możesz edytować tej roli, ponieważ jest ona równa lub wyższa od Twojej najwyższej roli.",
+      "cantManageMembers": "Nie możesz przypisywać ani usuwać członków z tej roli.",
+      "dragToReorder": "Przeciągnij, aby zmienić kolejność",
+      "dragToReorderHierarchy": "Przeciągnij, aby zmienić kolejność hierarchii",
+      "failedReorder": "Nie udało się zmienić kolejności ról",
+      "failedUpdateRole": "Nie udało się zaktualizować roli",
+      "cantManageMember": "Nie masz uprawnień do zarządzania tym członkiem"
+    },
+    "delete": {
+      "title": "Usuń rolę",
+      "confirm": "Czy na pewno chcesz usunąć rolę {{name}}? Tej akcji nie można cofnąć."
+    },
+    "permissions": {
+      "searchPlaceholder": "Wyszukaj uprawnienia...",
+      "jumpToCategory": "Przejdź do kategorii…",
+      "emptySearch": "Żadne uprawnienia nie pasują do Twojego wyszukiwania",
+      "clear": "Wyczyść uprawnienia",
+      "groups": {
+        "general": "Ogólne pozwolenia na przestrzeń",
+        "membership": "Uprawnienia członkowskie",
+        "text": "Uprawnienia kanału tekstowego",
+        "voice": "Uprawnienia kanału głosowego",
+        "advanced": "Zaawansowane uprawnienia"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "Wyświetl kanały",
+          "description": "Domyślnie zezwalaj członkom na oglądanie kanałów"
+        },
+        "ManageChannels": {
+          "label": "Zarządzaj kanałami",
+          "description": "Zezwalaj członkom na tworzenie, edytowanie i usuwanie kanałów"
+        },
+        "ManageRoles": {
+          "label": "Zarządzaj rolami",
+          "description": "Umożliwia członkom tworzenie nowych ról oraz edytowanie lub usuwanie ról niższych niż ich najwyższa rola"
+        },
+        "CreateExpressions": {
+          "label": "Twórz wyrażenia",
+          "description": "Zezwalaj członkom na tworzenie emoji i naklejek w tym miejscu."
+        },
+        "ManageExpressions": {
+          "label": "Zarządzaj wyrażeniami",
+          "description": "Zezwalaj członkom na edytowanie lub usuwanie emoji i naklejek w tym obszarze."
+        },
+        "ManageSpace": {
+          "label": "Zarządzaj przestrzenią",
+          "description": "Zezwalaj członkom na zmianę tego obszaru"
+        },
+        "CreateInvites": {
+          "label": "Utwórz zaproszenia",
+          "description": "Zezwalaj członkom na zapraszanie nowych osób do tej przestrzeni"
+        },
+        "KickMembers": {
+          "label": "Wyrzuć członków",
+          "description": "Kick usunie innych członków z tego pokoju. Wyrzuceni członkowie mogą dołączyć ponownie, jeśli otrzymają kolejne zaproszenie."
+        },
+        "BanMembers": {
+          "label": "Zablokuj członków",
+          "description": "Zablokowanie usunie członków z tego obszaru i uniemożliwi im ponowne dołączenie, dopóki nie zostaną odbanowani."
+        },
+        "SendMessages": {
+          "label": "Wysyłaj wiadomości",
+          "description": "Zezwalaj członkom na wysyłanie wiadomości kanałami tekstowymi"
+        },
+        "EmbedLinks": {
+          "label": "Osadź linki",
+          "description": "Zezwalaj członkom na osadzanie linków w wiadomościach"
+        },
+        "AttachFiles": {
+          "label": "Dołącz pliki",
+          "description": "Zezwalaj członkom na dołączanie plików do wiadomości"
+        },
+        "MentionEveryone": {
+          "label": "Wspomnij wszystkich",
+          "description": "Pozwól członkom wspominać o @everyone i @here w wiadomościach"
+        },
+        "UseExternalEmojis": {
+          "label": "Użyj zewnętrznych emotikonów",
+          "description": "Zezwalaj członkom na używanie w wiadomościach emotikonów z innych przestrzeni lub własnych"
+        },
+        "ManageMessages": {
+          "label": "Zarządzaj wiadomościami",
+          "description": "Zezwalaj członkom na usuwanie wiadomości innych członków"
+        },
+        "ReadMessageHistory": {
+          "label": "Przeczytaj historię wiadomości",
+          "description": "Zezwalaj członkom na czytanie historii wiadomości"
+        },
+        "Connect": {
+          "label": "Łączyć",
+          "description": "Zezwalaj członkom na łączenie się z kanałami głosowymi"
+        },
+        "Speak": {
+          "label": "Mówić",
+          "description": "Zezwalaj członkom na mówienie kanałami głosowymi"
+        },
+        "Administrator": {
+          "label": "Administrator",
+          "description": "Członkowie posiadający to uprawnienie będą mieli wszelkie uprawnienia. Udzielenie tego pozwolenia jest niebezpieczne.",
+          "descriptionBefore": "Członkowie posiadający to uprawnienie będą mieli wszelkie uprawnienia.",
+          "descriptionDanger": "Udzielenie tego pozwolenia jest niebezpieczne"
+        }
+      }
+    },
+    "listTitle_few": "Role - {{count}}",
+    "listTitle_many": "Role - {{count}}",
+    "memberCount_few": "Członkowie {{count}}",
+    "memberCount_many": "Członkowie {{count}}"
+  },
+  "expressions": {
+    "pageTitle": "Wyrażenia kosmiczne",
+    "pageDescription": "Przesyłaj niestandardowe emoji i naklejki dla tej przestrzeni oraz zarządzaj nimi.",
+    "emojiLimit": "Niestety obecny limit emotikonów, które można przesłać, wynosi 100, ponieważ aplikacja jest w wersji beta i na razie problemem jest miejsce na dane",
+    "stickerLimit": "Niestety obecny limit naklejek, które można przesłać, wynosi 100, ponieważ aplikacja jest w wersji beta i na razie problemem jest miejsce na dane",
+    "stickerLimitMobile": "Limit wersji beta: naklejki {{limit}} na miejsce.",
+    "emptyEmojis": "Nie ma jeszcze kosmicznych emoji",
+    "emptyStickers": "Nie ma jeszcze naklejek kosmicznych"
+  },
+  "bans": {
+    "title": "Lista zakazów kosmicznych",
+    "description": "Przeglądaj i zarządzaj listą zbanowanych użytkowników w tym obszarze. W tej chwili blokada dotyczy konta, w przyszłości będziemy wprowadzać blokady IP.",
+    "descriptionShort": "Przeglądaj i zarządzaj zablokowanymi użytkownikami w tym obszarze.",
+    "searchPlaceholder": "Wyszukaj zakazy według identyfikatora użytkownika, nazwy użytkownika lub nazwy wyświetlanej",
+    "searchPlaceholderShort": "Szukaj według nazwy użytkownika lub identyfikatora użytkownika",
+    "empty": "Nikt jeszcze nie został zbanowany",
+    "reason": "Powód",
+    "noReason": "Nie podano powodu",
+    "bannedBy": "Zakazany przez",
+    "bannedAt": "Zakazany o godz",
+    "unbanSuccess": "Pomyślnie odblokowano {{name}}",
+    "unbanTitle": "Odbanować {{name}}?"
+  },
+  "moderation": {
+    "banTitle": "Zakazać {{name}}?",
+    "kickTitle": "Kopnąć {{name}}?",
+    "kickFromSpaceTitle": "Wykop {{name}} z kosmosu",
+    "kickBody": "Czy na pewno chcesz wyrzucić @{{name}} z przestrzeni? Aby ponownie dołączyć, będą potrzebować zaproszenia.",
+    "kickSuccess": "Wykopano {{name}} z kosmosu",
+    "reason": "Powód",
+    "reasonOptional": "Powód (opcjonalny)",
+    "reasonForKick": "Powód kopnięcia",
+    "reasonForBan": "Powód bana *",
+    "deleteRecentMessages": "Usuń ostatnie wiadomości",
+    "banReasons": {
+      "suspicious": "Konto podejrzane lub zawierające spam",
+      "compromised": "Konto przejęte lub zhakowane",
+      "breakingRules": "Łamanie zasad kosmosu",
+      "other": "Inne"
+    },
+    "deleteMessages": {
+      "dontDelete": "Nie usuwaj",
+      "dontDeleteMessages": "Nie usuwaj wiadomości",
+      "previousHour": "Poprzednia godzina",
+      "lastHour": "Ostatnia godzina",
+      "previousDay": "Poprzedni dzień",
+      "last24Hours": "Ostatnie 24 godziny",
+      "previousWeek": "Poprzedni tydzień",
+      "last7Days": "Ostatnie 7 dni",
+      "allMessages": "Wszystkie wiadomości",
+      "deleteAllMessages": "Usuń wszystkie wiadomości"
+    },
+    "youWereBanned": "Zostałeś zablokowany w {{name}}",
+    "youWereKicked": "Zostałeś wyrzucony z {{name}}"
+  },
+  "channels": {
+    "noCategory": "Brak kategorii",
+    "empty": "Brak kanałów do zmiany kolejności.",
+    "reorderHint": "Przeciągnij kanały, aby zmienić ich kolejność. Umieść kanał bezpośrednio pod kategorią, aby dodać go do tej grupy. Przeciągnij nad kategorię, aby usunąć ją z grupy.",
+    "overwrites": "Zastępuje",
+    "searchTargets": "Wyszukaj role lub członków…",
+    "topic": "Temat kanału",
+    "topicHint": "Wyświetlany wspierającym na górze kanału.",
+    "topicPlaceholder": "Temat",
+    "settingsTitle": "Ustawienia kanału",
+    "namePlaceholder": "Nazwa kanału",
+    "permissionOverwrites": "Uprawnienia nadpisują",
+    "channelInvites": "Kanał zaprasza",
+    "noChannelInvites": "Nie utworzono jeszcze żadnych zaproszeń na #{{channel}}.",
+    "selectOverwriteTarget": "Wybierz cel zastępowania, aby edytować uprawnienia specyficzne dla kanału.",
+    "nameEmpty": "Nazwa kanału nie może być pusta.",
+    "failedMoveMember": "Nie udało się przenieść członka",
+    "create": {
+      "title": "Utwórz kanał",
+      "name": "Nazwa kanału",
+      "namePlaceholder": "new-channel",
+      "type": "Typ kanału",
+      "text": "Kanał tekstowy",
+      "textDescription": "Wysyłaj wiadomości, obrazy i nie tylko",
+      "voice": "Kanał głosowy",
+      "voiceDescription": "Spędzaj czas, korzystając z głosu i obrazu",
+      "submit": "Utwórz kanał",
+      "icon": "Ikona kanału",
+      "upload": "Prześlij",
+      "rounded": "Bułczasty",
+      "rotate": "Obracać",
+      "clear": "Wyczyść"
+    },
+    "createCategory": {
+      "title": "Utwórz kategorię",
+      "name": "Nazwa kategorii",
+      "namePlaceholder": "Nowa kategoria",
+      "submit": "Utwórz kategorię"
+    },
+    "delete": {
+      "title": "Usuń kanał",
+      "body": "Czy na pewno chcesz usunąć {{name}}? Tej akcji nie można cofnąć.",
+      "confirm": "Usuń kanał"
+    },
+    "deleteCategory": {
+      "title": "Usunąć kategorię „{{name}}”?",
+      "body": "Czy chcesz usunąć tę kategorię?",
+      "categoryOnly": "Tylko kategoria",
+      "categoryAndChannels": "Kategoria i wszystkie powiązane kanały",
+      "confirm": "Usuń kategorię"
+    },
+    "saveOverwrite": "Zapisz nadpisz",
+    "deleteChannelAction": "Usuń kanał",
+    "createInvite": "Utwórz zaproszenie",
+    "createInviteLink": "Utwórz link z zaproszeniem",
+    "removeIcon": "Usuń ikonę",
+    "restoreIcon": "Przywróć ikonę",
+    "uploadEmoji": "Prześlij emotikony",
+    "uploadSticker": "Prześlij naklejkę",
+    "noSpaceEmojis": "Nie ma jeszcze kosmicznych emoji",
+    "pages": {
+      "overview": "Przegląd",
+      "permissions": "Uprawnienia",
+      "invites": "Zaproszenia"
+    },
+    "permissions": {
+      "addOverwrite": "Dodaj nadpisanie uprawnień",
+      "roles": "ROLE",
+      "members": "CZŁONKOWIE",
+      "noResults": "Brak wyników",
+      "noOverwritesYet": "Nie ma jeszcze nadpisań",
+      "selectTargetHint": "Wybierz rolę lub członka, aby skonfigurować uprawnienia specyficzne dla kanału.",
+      "selectTargetHintLeft": "Wybierz rolę lub członka po lewej stronie, aby edytować jego uprawnienia do tego kanału, lub kliknij +, aby je dodać.",
+      "groups": {
+        "general": "Ogólne uprawnienia kanału",
+        "text": "Uprawnienia kanału tekstowego",
+        "voice": "Uprawnienia kanału głosowego"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "Zobacz kanał",
+          "description": "Zezwalaj członkom na oglądanie tego kanału"
+        },
+        "ManageChannels": {
+          "label": "Zarządzaj kanałem",
+          "description": "Zezwalaj członkom na edytowanie lub usuwanie tego kanału"
+        },
+        "ManageRoles": {
+          "label": "Zarządzaj uprawnieniami",
+          "description": "Zezwalaj członkom na edytowanie nadpisań uprawnień tego kanału"
+        },
+        "SendMessages": {
+          "label": "Wysyłaj wiadomości",
+          "description": "Zezwalaj członkom na wysyłanie wiadomości na tym kanale"
+        },
+        "EmbedLinks": {
+          "label": "Osadź linki",
+          "description": "Zezwalaj członkom na osadzanie linków"
+        },
+        "AttachFiles": {
+          "label": "Dołącz pliki",
+          "description": "Zezwalaj członkom na dołączanie plików"
+        },
+        "MentionEveryone": {
+          "label": "Wspomnij wszystkich",
+          "description": "Zezwalaj członkom na @mention @everyone i @here"
+        },
+        "UseExternalEmojis": {
+          "label": "Użyj zewnętrznych emotikonów",
+          "description": "Zezwalaj członkom na używanie emotikonów z innych przestrzeni"
+        },
+        "ManageMessages": {
+          "label": "Zarządzaj wiadomościami",
+          "description": "Zezwalaj członkom na usuwanie wiadomości innych osób"
+        },
+        "ReadMessageHistory": {
+          "label": "Przeczytaj historię wiadomości",
+          "description": "Zezwalaj członkom na czytanie wcześniejszych wiadomości"
+        },
+        "Connect": {
+          "label": "Łączyć",
+          "description": "Zezwalaj członkom na łączenie się z tym kanałem głosowym"
+        },
+        "Speak": {
+          "label": "Mówić",
+          "description": "Zezwalaj członkom na mówienie w tym kanale głosowym"
+        }
+      }
+    }
+  },
+  "confirm": {
+    "deleteSpaceTitle": "Usunąć „{{name}}”?",
+    "leaveSpaceTitle": "Opuścić „{{name}}”?",
+    "deleteSpaceBody": "Czy na pewno chcesz usunąć {{name}}? Tej akcji nie można cofnąć.",
+    "leaveSpaceBody": "Czy na pewno chcesz opuścić {{name}}? Tej akcji nie można cofnąć.",
+    "cannotUndo": "Tej akcji nie można cofnąć."
+  },
+  "menu": {
+    "spaceSettings": "Ustawienia przestrzeni",
+    "reportSpace": "Zgłoś miejsce",
+    "leaveSpace": "Zostaw miejsce",
+    "deleteSpace": "Usuń spację"
+  },
+  "chrome": {
+    "spaceSettings": "Ustawienia przestrzeni",
+    "inviteToSpace": "Zaproś do przestrzeni",
+    "createInviteA11y": "Utwórz zaproszenie",
+    "createCategoryA11y": "Utwórz kategorię",
+    "spaceMenuA11y": "Menu kosmiczne"
+  },
+  "sidebar": {
+    "createSpace": "Utwórz przestrzeń",
+    "switchToSpaces": "Przełącz się na Spaces",
+    "switchToDirectMessages": "Przełącz na wiadomości bezpośrednie",
+    "switchToFeed": "Przełącz na kanał",
+    "switchTo": "Przełącz na",
+    "directMessages": "Wiadomości bezpośrednie",
+    "friends": "Znajomi",
+    "spaces": "Przestrzenie"
+  },
+  "lockdown": {
+    "title": "Ta przestrzeń jest zamknięta",
+    "ownerMessage": "Przesyłanie wiadomości i zmiany są wyłączone. Jeśli uważasz, że to pomyłka, sprawdź pocztę e-mail, gdzie znajduje się link do odwołania.",
+    "memberMessage": "Dopóki pracownicy przeglądają to miejsce, wysyłanie wiadomości i zmiany są wyłączone.",
+    "toast": "Ta przestrzeń jest zamknięta. Przesyłanie wiadomości i zmiany są wyłączone."
+  }
+}

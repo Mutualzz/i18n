@@ -1,0 +1,280 @@
+{
+  "cancel": "取消",
+  "save": "儲存",
+  "saveChanges": "儲存變更",
+  "close": "關閉",
+  "create": "建立",
+  "delete": "刪除",
+  "add": "新增",
+  "remove": "移除",
+  "reset": "重設",
+  "back": "返回",
+  "clear": "清除",
+  "finish": "完成",
+  "retry": "重試",
+  "apply": "套用",
+  "undo": "復原",
+  "redo": "重做",
+  "open": "開啟",
+  "proceed": "繼續",
+  "gotIt": "知道了",
+  "seo": {
+    "defaultTitle": "Mutualzz（搶先體驗）",
+    "defaultDescription": "與志同道合的人建立聯繫。目前正在積極開發中"
+  },
+  "reload": "重新載入應用程式",
+  "download": "下載 Mutualzz",
+  "accept": "接受",
+  "decline": "拒絕",
+  "restore": "還原",
+  "uploadCustomFont": "上傳自訂字型",
+  "language": {
+    "title": "語言",
+    "description": "選擇 Mutualzz 使用的語言。",
+    "systemDefault": "裝置語言"
+  },
+  "calendar": {
+    "sameDay": "[今天] A h:mm",
+    "nextDay": "[明天] A h:mm",
+    "lastDay": "[昨天] A h:mm",
+    "lastWeek": "[上週] dddd A h:mm",
+    "sameElse": "YYYY/MM/DD A h:mm"
+  },
+  "duration": {
+    "clearOnDateAt": "{{date}} {{time}} 清除",
+    "clearTodayAt": "今天 {{time}} 清除",
+    "clearTomorrowAt": "明天 {{time}} 清除",
+    "days_one": "{{count}} 天",
+    "days_other": "{{count}} 天",
+    "dontClear": "不清除",
+    "forever": "永久",
+    "hours_one": "{{count}} 小時",
+    "hours_other": "{{count}} 小時",
+    "minutes_one": "{{count}} 分鐘",
+    "minutes_other": "{{count}} 分鐘"
+  },
+  "status": {
+    "clearCustomAfter": "自訂狀態清除時間",
+    "clearOnlineAfter": "線上狀態清除時間",
+    "dnd": "請勿打擾",
+    "dndDescription": "你不會收到通知",
+    "idle": "離開",
+    "idleDescription": "暫時離開鍵盤",
+    "invisible": "隱身",
+    "invisibleDescription": "顯示為離線",
+    "offline": "離線",
+    "online": "線上",
+    "saveCustom": "儲存自訂狀態"
+  },
+  "report": {
+    "title": "檢舉 {{label}}",
+    "description": "檢舉由工作人員審核。請選擇最符合的原因。",
+    "detailsPlaceholder": "補充更多詳情（選填）",
+    "submit": "提交檢舉",
+    "submitting": "提交中...",
+    "success": "檢舉已提交。感謝你協助維護安全。",
+    "action": "檢舉",
+    "reasons": {
+      "spam": "垃圾訊息",
+      "harassment": "騷擾或虐待",
+      "hate_speech": "仇恨言論",
+      "nsfw": "NSFW / 不當內容",
+      "self_harm": "自殘或自殺",
+      "impersonation": "冒充他人",
+      "misinformation": "不實資訊",
+      "other": "其他"
+    }
+  },
+  "editable": {
+    "addToDictionary": "加入辭典",
+    "spellcheck": "拼字檢查",
+    "cut": "剪下",
+    "copy": "複製",
+    "paste": "貼上"
+  },
+  "customStatus": {
+    "title": "設定狀態",
+    "heading": "自訂狀態",
+    "label": "狀態",
+    "placeholder": "輸入你的狀態...",
+    "setPlaceholder": "設定自訂狀態...",
+    "setShort": "設定自訂狀態...",
+    "editA11y": "編輯自訂狀態",
+    "clearA11y": "清除自訂狀態",
+    "changeEmoji": "變更狀態表情符號",
+    "addEmoji": "新增狀態表情符號",
+    "chooseEmoji": "選擇狀態表情符號",
+    "pickEmoji": "選擇表情符號",
+    "removeEmoji": "移除表情符號",
+    "changeStatus": "變更狀態",
+    "whatsOnYourMind": "在想什麼？"
+  },
+  "externalLink": {
+    "proceed": "繼續",
+    "close": "關閉",
+    "title": "開啟外部連結",
+    "aboutToOpen": "你即將開啟外部連結：",
+    "unsafeTitle": "此連結似乎不安全",
+    "unsafeHttpBody": "你嘗試開啟的連結使用不安全的 HTTP 連線，可能將你的資料暴露給第三方。",
+    "confirmProceed": "確定要繼續嗎？",
+    "blockedInApp": "為保障安全，我們不允許在應用程式內直接開啟不安全連結。請複製連結並在瀏覽器中開啟。"
+  },
+  "connection": {
+    "reconnect": "重新連線",
+    "enableAudio": "點擊以啟用音訊",
+    "offlineBanner": "你目前處於離線狀態",
+    "audioBlocked": "瀏覽器封鎖了語音音訊播放"
+  },
+  "nav": {
+    "goBack": "上一頁",
+    "goForward": "下一頁"
+  },
+  "updater": {
+    "pleaseWait": "正在更新…請稍候"
+  },
+  "crash": {
+    "title": "出了點問題",
+    "bodyDesktop": "Mutualzz 遇到意外錯誤。重新載入應用程式後再試。",
+    "orPressShortcut": "或按 {{shortcut}}",
+    "bodyMobile": "Mutualzz 遇到意外錯誤。請完全關閉應用程式後重新開啟。",
+    "hintIos": "從螢幕底部向上滑動開啟應用程式切換器，然後滑走 Mutualzz。",
+    "hintAndroid": "開啟最近使用的應用程式總覽，然後滑走 Mutualzz 直到應用程式關閉。"
+  },
+  "a11y": {
+    "closeProfile": "關閉個人檔案",
+    "settings": "設定",
+    "deleteInvite": "刪除邀請",
+    "deleteNamed": "刪除 {{name}}",
+    "deleteExpression": "刪除 :{{name}}:",
+    "removeMemberFromRole": "將 {{member}} 從 {{role}} 移除",
+    "allowPermission": "允許 {{label}}",
+    "neutralPermission": "中立 {{label}}",
+    "denyPermission": "拒絕 {{label}}",
+    "expandWidget": "展開 {{type}} 小工具",
+    "expandWidgetHint": "開啟完整小工具內容",
+    "editWidgetHint": "開啟小工具編輯器。長按可重新排列小工具。",
+    "playVideo": "播放影片",
+    "pauseVideo": "暫停影片",
+    "tapToOpen": "點一下開啟",
+    "sent": "已傳送",
+    "createChannelInCategory": "在分類中建立頻道",
+    "reorder": "重新排序",
+    "time": "時間",
+    "closeModal": "關閉對話框",
+    "increment": "增加",
+    "decrement": "減少",
+    "openColorPicker": "開啟顏色選擇器",
+    "randomColor": "隨機顏色",
+    "randomColorHint": "選擇隨機顏色",
+    "removeColorStop": "移除色標",
+    "rangeSliderHint": "範圍滑桿。拖曳以調整。"
+  },
+  "errors": {
+    "unknown": "未知錯誤"
+  },
+  "select": {
+    "placeholder": "選擇一個選項"
+  },
+  "media": {
+    "play": "播放",
+    "pause": "暫停",
+    "download": "下載",
+    "volume": "音量"
+  },
+  "notifications": {
+    "unreads": "未讀",
+    "mentions": "提及",
+    "requests": "請求",
+    "markAllAsRead": "全部標為已讀",
+    "acceptedFriend": "{{name}} 接受了你的好友請求",
+    "sentAttachment": "傳送了附件",
+    "noMessagesYet": "尚無訊息",
+    "youWereMentioned": "有人提到了你",
+    "noUnreads": "沒有未讀訊息",
+    "noMentions": "沒有新提及",
+    "recentlyAccepted": "最近接受",
+    "groupDmChannel": "群組私人訊息頻道",
+    "messagesChannel": "訊息",
+    "reply": "回覆",
+    "messagePlaceholder": "訊息",
+    "send": "傳送"
+  },
+  "markdown": {
+    "bold": "粗體",
+    "italic": "斜體",
+    "underline": "底線",
+    "strikethrough": "刪除線",
+    "blockquote": "引用",
+    "code": "程式碼",
+    "spoiler": "劇透"
+  },
+  "support": {
+    "myTickets": "我的工單",
+    "contactSupport": "聯絡支援",
+    "loginToContact": "登入以聯絡支援",
+    "privacyPolicy": "隱私權政策",
+    "faq": "常見問題",
+    "quickLinks": "快速連結",
+    "contactUs": "聯絡我們",
+    "openHelpCenter": "開啟說明中心",
+    "describeIssue": "描述你的問題",
+    "newTicket": "新建工單",
+    "writeReply": "撰寫回覆",
+    "loading": "載入中...",
+    "loadingTickets": "正在載入工單...",
+    "loadMore": "載入更多",
+    "sendReply": "傳送回覆",
+    "sendReplyFailed": "傳送回覆失敗",
+    "staffLabel": "支援",
+    "ticketClosed": "此工單已關閉。",
+    "ticketClosedHint": "此工單已關閉。如仍需協助，請新建工單。",
+    "updatedAt": "更新於 {{date}}",
+    "pageIntro": "需要 Mutualzz 方面的協助？瀏覽下方常見解答或聯絡我們的團隊。",
+    "mobileIntro": "在 mutualzz.com/support 瀏覽說明，或在下方聯絡我們。",
+    "subjectPlaceholder": "主旨",
+    "submitTicket": "提交工單",
+    "createFailed": "建立工單失敗",
+    "noTickets": "尚無工單",
+    "contactEmailLoggedIn": "傳送電子郵件至 {{email}}，或從此頁面提交支援工單。",
+    "contactEmailGuest": "傳送電子郵件至 {{email}}。",
+    "categories": {
+      "account": "帳戶與登入",
+      "bug": "錯誤或當機",
+      "donations": "捐款",
+      "feature": "功能建議",
+      "other": "其他"
+    },
+    "faqItems": {
+      "report": {
+        "q": "如何檢舉使用者或內容？",
+        "a": "開啟使用者個人檔案或內容選單，選擇「檢舉」。我們的工作人員會進行審核。"
+      },
+      "appeal": {
+        "q": "如何申訴封鎖？",
+        "a": "如果你收到了封鎖郵件，請使用其中的申訴連結。工作人員會審核你的申訴。"
+      },
+      "delete": {
+        "q": "如何刪除帳戶？",
+        "a": "前往 設定 → 我的帳戶 → 刪除帳戶。"
+      },
+      "block": {
+        "q": "如何封鎖某人？",
+        "a": "開啟其個人檔案並選擇「封鎖」。之後可在設定中取消封鎖。"
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "檢舉內容或使用者",
+        "hint": "可從個人檔案選單和內容操作中使用"
+      },
+      "appeals": {
+        "label": "封鎖申訴",
+        "hint": "使用封鎖郵件中的申訴連結"
+      },
+      "delete": {
+        "label": "刪除帳戶",
+        "hint": "設定 → 我的帳戶 → 刪除帳戶"
+      }
+    }
+  }
+}

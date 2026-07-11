@@ -1,0 +1,537 @@
+{
+  "unknownUser": "未知用户",
+  "unknown": "未知",
+  "deletedUser": "已删除的用户",
+  "blocked": "已屏蔽",
+  "privateSpace": "私密空间",
+  "someone": "某人",
+  "you": "你",
+  "unknownSpace": "未知空间",
+  "owner": "所有者",
+  "loading": "加载中…",
+  "loadingMembers": "正在加载成员…",
+  "loadingMembersEllipsis": "正在加载成员...",
+  "noMembersToShow": "没有可显示的成员。",
+  "loadingMoreMembers": "加载更多…",
+  "loadingChannel": "正在加载频道...",
+  "downloading": "下载中...",
+  "home": "首页",
+  "selectConversation": "选择一个对话开始聊天",
+  "selectChannel": "选择一个频道开始聊天",
+  "messageTooLong": "消息不能超过 2000 个字符",
+  "cannotMessagePerson": "你无法向此人发送消息",
+  "unknownError": "未知错误",
+  "online": "在线",
+  "offline": "离线",
+  "composer": {
+    "placeholder": {
+      "channel": "发送消息到 #{{channel}}",
+      "channelFallback": "在此频道发送消息",
+      "dm": "给 {{name}} 发消息",
+      "dmFallback": "在此对话中发消息",
+      "groupFallback": "给群组发消息",
+      "edit": "编辑消息",
+      "blocked": "你无法向此人发送消息，因为你已屏蔽对方",
+      "noPermission": "你无权在此频道发送消息。"
+    },
+    "attachFiles": "附加文件",
+    "addAttachment": "添加附件",
+    "remove": "移除",
+    "removeSticker": "移除贴纸",
+    "removeAttachment": "移除附件",
+    "openExpressionPicker": "打开表情选择器",
+    "emojiPicker": "表情选择器",
+    "gifPicker": "GIF 选择器",
+    "stickerPicker": "贴纸选择器",
+    "openEmojiPicker": "打开表情选择器",
+    "openGifPicker": "打开 GIF 选择器",
+    "openStickerPicker": "打开贴纸选择器",
+    "mentionOn": "@ 开",
+    "mentionOff": "@ 关",
+    "editHint": "escape 取消 • enter 保存",
+    "editHintCancel": "取消",
+    "editHintSave": "保存",
+    "editHintEscapeTo": "escape 以",
+    "editHintEnterTo": "enter 以"
+  },
+  "reply": {
+    "banner": "回复 {{name}}",
+    "replyPreviewMissing": "找不到被回复的消息"
+  },
+  "edit": {
+    "banner": "正在编辑消息",
+    "cancelA11y": "取消编辑",
+    "cancelReplyA11y": "取消回复"
+  },
+  "typing": {
+    "one": "{{name}} 正在输入...",
+    "two": "{{name1}} 和 {{name2}} 正在输入...",
+    "many": "{{name1}}、{{name2}} 和其他人正在输入..."
+  },
+  "actions": {
+    "reply": "回复",
+    "edit": "编辑",
+    "delete": "删除",
+    "copyText": "复制文本",
+    "editMessage": "编辑消息",
+    "deleteMessage": "删除消息",
+    "reportMessage": "举报消息",
+    "addReaction": "添加反应",
+    "reactWith": "用 {{emoji}} 反应"
+  },
+  "report": {
+    "thisMessage": "此消息"
+  },
+  "message": {
+    "edited": "（已编辑）",
+    "scrollToLatestA11y": "滚动到最新消息"
+  },
+  "system": {
+    "ephemeralOnlyYou": "仅你可见 •",
+    "dismissMessage": "关闭消息"
+  },
+  "empty": {
+    "channel": {
+      "welcome": "欢迎来到 #{{channel}}！",
+      "start": "这是 #{{channel}} 频道的开始。",
+      "noHistory": "你没有权限阅读消息历史"
+    },
+    "dm": {
+      "firstMessage": "向 {{name}} 发送第一条消息",
+      "beginning": "欢迎来到 {{conversation}} 的开始"
+    }
+  },
+  "dm": {
+    "title": "私信",
+    "newMessage": "新消息",
+    "empty": "你还没有私信。在用户资料上点击「消息」，或创建新的群组私信来开始对话！",
+    "createTitle": "新消息",
+    "addFriendsHint_one": "还可以再添加 {{count}} 位好友。",
+    "addFriendsHint_other": "还可以再添加 {{count}} 位好友。",
+    "createMessage": "创建消息",
+    "createGroupMessage": "创建群组消息",
+    "searchPeople": "搜索用户",
+    "groupNameOptional": "群组名称（可选）",
+    "selected": "已选",
+    "createFailed": "创建私信失败",
+    "createGroupA11y": "创建群组私信",
+    "rotate90": "旋转 90°"
+  },
+  "picker": {
+    "tabs": {
+      "emoji": "表情",
+      "gifs": "GIF",
+      "stickers": "贴纸"
+    },
+    "searchEmojis": "搜索表情…",
+    "searchStickers": "搜索贴纸…",
+    "searchKlipy": "搜索 KLIPY",
+    "favorites": "收藏",
+    "recentlyUsed": "最近使用",
+    "recent": "最近",
+    "yourEmojis": "你的表情",
+    "yours": "你的",
+    "yourStickers": "你的贴纸",
+    "custom": "自定义",
+    "standard": "标准",
+    "noResults": "无结果",
+    "results_one": "{{count}} 个结果",
+    "results_other": "{{count}} 个结果",
+    "skinTone": "肤色",
+    "skinToneDefault": "默认",
+    "emptyStickers": "尚无贴纸。请在用户或空间设置中上传。",
+    "loadingMore": "加载更多…",
+    "noGifsFor": "未找到「{{query}}」的 GIF",
+    "gifA11y": "GIF",
+    "addFavorite": "添加收藏",
+    "removeFavorite": "取消收藏",
+    "categories": {
+      "smileys": "表情与情感",
+      "people": "人物与身体",
+      "animals": "动物与自然",
+      "food": "食物与饮品",
+      "travel": "旅行与地点",
+      "activities": "活动",
+      "objects": "物品",
+      "symbols": "符号",
+      "flags": "旗帜"
+    }
+  },
+  "header": {
+    "memberList": {
+      "show": "显示成员列表",
+      "hide": "隐藏成员列表"
+    },
+    "dm": {
+      "addToGroup": "添加到群组",
+      "groupFull": "群组已满"
+    },
+    "voice": {
+      "closeChatA11y": "关闭聊天"
+    }
+  },
+  "mentions": {
+    "members": "成员",
+    "membersMatching": "匹配「{{query}}」的成员",
+    "role": "角色",
+    "notifyRole": "通知拥有此角色且有权查看此频道的用户",
+    "notifyEveryone": "通知所有有权查看此频道的人",
+    "notifyHere": "通知所有在线且有权查看此频道的人"
+  },
+  "voice": {
+    "noOneInVoice": "目前无人在语音中",
+    "noOneConnectedYet": "尚无人连接。",
+    "title": "语音",
+    "peopleInVoice_one": "{{count}} 人在语音中。",
+    "peopleInVoice_other": "{{count}} 人在语音中。",
+    "joinVoice": "加入语音",
+    "openChat": "打开聊天",
+    "invite": "邀请",
+    "startingScreenShare": "正在开始屏幕共享...",
+    "sharingScreen": "{{name}} 正在共享屏幕",
+    "watchStream": "观看直播",
+    "stopWatching": "停止观看",
+    "screenLabel": "{{name}} 的屏幕",
+    "connection": {
+      "connecting": "正在连接语音...",
+      "connected": "已连接语音",
+      "rtcConnecting": "RTC 连接中",
+      "voiceConnected": "语音已连接",
+      "failed": "连接失败",
+      "failedFallback": "语音连接失败",
+      "unableToConnect": "无法连接",
+      "disconnect": "断开连接",
+      "disconnectA11y": "断开语音连接"
+    },
+    "errors": {
+      "notConfigured": "语音服务器未配置",
+      "unableToJoin": "无法加入语音频道",
+      "credentialsMissing": "未提供语音服务器凭据",
+      "timedOut": "语音连接超时",
+      "micPermissionRequired": "语音频道需要麦克风权限",
+      "closed": "语音连接已关闭",
+      "disconnected": "已断开",
+      "disconnectedFrom": "已断开语音：{{reason}}",
+      "differentDevice": "已从其他设备连接",
+      "movedChannel": "已移至其他语音频道",
+      "enumerateDevices": "枚举设备失败"
+    },
+    "controls": {
+      "mute": "静音",
+      "unmute": "取消静音",
+      "muted": "已静音",
+      "deafen": "闭麦听",
+      "undeafen": "取消闭麦听",
+      "deafened": "已闭麦听",
+      "spaceMuted": "空间静音",
+      "spaceDeafened": "空间闭麦听",
+      "enableCamera": "开启摄像头",
+      "disableCamera": "关闭摄像头",
+      "shareScreen": "共享屏幕",
+      "stopSharing": "停止共享",
+      "muteStreamAudio": "静音直播音频",
+      "unmuteStreamAudio": "取消静音直播音频",
+      "settings": "设置",
+      "holdToTalk": "按住说话",
+      "talking": "说话中…",
+      "holdToTalkA11y": "按住说话",
+      "volume": "音量",
+      "volumePercent": "音量 {{value}}%",
+      "userVolume": "用户音量",
+      "streamVolume": "直播音量",
+      "muteUser": "静音用户",
+      "muteUserLocally": "本地静音此用户",
+      "unmuteUserLocally": "取消本地静音此用户",
+      "muteStream": "静音直播",
+      "live": "直播中",
+      "video": "视频"
+    },
+    "participant": {
+      "you": "（你）",
+      "speaking": "正在说话",
+      "serverMuted": "服务器静音",
+      "serverDeafened": "服务器闭麦听"
+    },
+    "moderation": {
+      "title": "语音审核",
+      "spaceMute": "空间静音",
+      "removeSpaceMute": "取消空间静音",
+      "spaceDeafen": "空间闭麦听",
+      "removeSpaceDeafen": "取消空间闭麦听",
+      "disconnect": "断开",
+      "spaceMuteToggle": "空间静音",
+      "spaceDeafenToggle": "空间闭麦听"
+    },
+    "spaceModerated": {
+      "mutedTitle": "空间静音",
+      "deafenedTitle": "空间闭麦听",
+      "mutedBody": "此频道有特殊权限。要在其中发言，需要空间版主或管理员取消你的静音",
+      "deafenedBody": "此频道有特殊权限。要在其中收听，需要空间版主或管理员取消你的闭麦听",
+      "dismiss": "好的！",
+      "dismissMobile": "知道了"
+    },
+    "screenShare": {
+      "title": "共享屏幕",
+      "entireScreen_one": "整个屏幕（{{count}}）",
+      "entireScreen_other": "整个屏幕（{{count}}）",
+      "applicationWindow_one": "应用窗口（{{count}}）",
+      "applicationWindow_other": "应用窗口（{{count}}）",
+      "noScreens": "没有可用屏幕。",
+      "noWindows": "没有可用窗口。",
+      "permissionHint": "请在系统设置中为 {{appName}} 启用屏幕录制。",
+      "permissionDevHint": "开发环境下通常显示为 Electron。",
+      "openSystemSettings": "打开系统设置",
+      "browserPickerHint": "点击「开始直播」时，浏览器会询问要共享哪个屏幕或窗口。",
+      "streamSettings": "直播设置",
+      "streamQuality": "直播质量",
+      "shareAudio": "共享音频",
+      "shareAudioDescription": "传输共享屏幕或窗口的声音",
+      "devBuildHint": "开发版：请在 macOS 系统设置中为 {{appName}}（通常为 Electron）授予屏幕录制权限。",
+      "goLive": "开始直播",
+      "quality": {
+        "720p15": "720p 15帧",
+        "720p30": "720p 30帧",
+        "1080p30": "1080p 30帧",
+        "1080p60": "1080p 60帧",
+        "source": "原始"
+      }
+    }
+  },
+  "feed": {
+    "title": "动态",
+    "tabs": {
+      "forYou": "推荐",
+      "friends": "好友",
+      "saved": "已保存",
+      "scheduled": "已排程"
+    },
+    "sidebar": {
+      "explore": "探索 / 发现",
+      "friends": "好友",
+      "saves": "收藏",
+      "myProfile": "我的资料",
+      "customizeProfile": "自定义资料",
+      "switchMode": "切换到 {{mode}}"
+    },
+    "header": {
+      "createPost": "发帖",
+      "createPostSheetTitle": "发帖",
+      "myProfile": "我的资料",
+      "customizeProfile": "自定义资料"
+    },
+    "composer": {
+      "placeholder": "在想什么？",
+      "post": "发布",
+      "schedule": "排程",
+      "addMedia": "添加媒体",
+      "addEmojiOrSticker": "添加表情或贴纸",
+      "schedulePost": "排程发帖",
+      "viewScheduled": "查看已排程帖子",
+      "clearScheduledTime": "清除排程时间",
+      "pickDateTime": "选择日期和时间",
+      "clearSchedule": "清除排程"
+    },
+    "empty": {
+      "posts": "尚无帖子。",
+      "saved": "尚无已保存的帖子。",
+      "scheduled": "你没有已排程的帖子。",
+      "comments": "尚无评论。",
+      "postUnavailable": "此帖子不存在或已不可用。",
+      "shareTargets": "你还没有任何可分享的对话或好友。"
+    },
+    "scheduled": {
+      "title": "已排程帖子",
+      "reschedule": "重新排程",
+      "saveTime": "保存时间",
+      "publishNow": "立即发布",
+      "scheduledFor": "排程于 {{datetime}}",
+      "scheduledForUnknown": "排程时间未知"
+    },
+    "comments": {
+      "title": "评论",
+      "loading": "正在加载评论…",
+      "placeholder": "写评论…",
+      "replyPlaceholder": "回复 {{name}}…",
+      "replyFallback": "评论",
+      "reply": "回复",
+      "sendReply": "发送回复"
+    },
+    "actions": {
+      "deletePost": "删除帖子",
+      "reportPost": "举报帖子",
+      "deleteComment": "删除评论",
+      "reportComment": "举报评论",
+      "openPost": "打开帖子",
+      "savePost": "保存帖子",
+      "unsavePost": "取消保存"
+    },
+    "report": {
+      "thisPost": "此帖子",
+      "thisComment": "此评论"
+    },
+    "share": {
+      "title": "分享帖子",
+      "send": "发送",
+      "sending": "发送中…",
+      "done": "完成"
+    },
+    "embed": {
+      "loadingPost": "正在加载帖子…",
+      "attachments_one": "{{count}} 个附件",
+      "attachments_other": "{{count}} 个附件"
+    },
+    "media": {
+      "goToMediaA11y": "前往媒体 {{index}}",
+      "volume": "音量"
+    }
+  },
+  "contextMenu": {
+    "markAsRead": "标为已读",
+    "viewProfile": "查看资料",
+    "editProfile": "编辑资料",
+    "message": "发消息",
+    "closeDm": "关闭私信",
+    "removeFromGroup": "移出群组",
+    "acceptFriendRequest": "接受好友请求",
+    "declineFriendRequest": "拒绝好友请求",
+    "cancelFriendRequest": "取消好友请求",
+    "removeFriend": "删除好友",
+    "block": "屏蔽",
+    "unblock": "取消屏蔽",
+    "reportUser": "举报用户",
+    "reportAccount": "此账户",
+    "roles": "角色",
+    "noRolesToAssign": "没有可分配的角色",
+    "createRole": "创建角色",
+    "noRolesAssigned": "未分配角色",
+    "kickMember": "踢出 {{username}}",
+    "banMember": "封禁 {{username}}",
+    "openInStaffPanel": "在员工面板中打开",
+    "inviteToChannel": "邀请到频道",
+    "editChannel": "编辑频道",
+    "editCategory": "编辑分类",
+    "deleteChannel": "删除频道",
+    "deleteCategory": "删除分类",
+    "reportSpace": "举报空间",
+    "reportSpaceLabel": "此空间",
+    "leaveSpace": "离开空间",
+    "createChannel": "创建频道",
+    "createCategory": "创建分类",
+    "inviteToSpace": "邀请到空间",
+    "editGroup": "编辑群组",
+    "manageGroup": "管理群组",
+    "leaveGroup": "离开群组",
+    "deleteGroup": "删除群组",
+    "deleteRole": "删除角色",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "channelSettings": "频道设置",
+    "addFriend": "添加好友"
+  },
+  "a11y": {
+    "embedImage": "嵌入图片",
+    "embedTitle": "嵌入标题",
+    "youtubePlayer": "YouTube 视频播放器",
+    "toggleReaction": "切换反应，数量 {{value}}",
+    "mentionsCount": "{{value}} 条提及",
+    "unread": "未读"
+  },
+  "expressionPreview": {
+    "emojiFromSpaceBelong": "此表情来自你所属的某个空间",
+    "emojiFromYou": "此表情来自你，可在任何聊天中使用",
+    "emojiFromUser": "此表情来自用户",
+    "emojiFromSpace": "此表情来自空间",
+    "stickerFromSpaceBelong": "此贴纸来自你所属的某个空间",
+    "stickerFromYou": "此贴纸来自你，可在任何聊天中使用",
+    "stickerFromUser": "此贴纸来自用户",
+    "stickerFromSpace": "此贴纸来自空间",
+    "defaultEmoji": "这是默认表情。可在 Mutualzz 任意位置使用",
+    "emojiMatching": "表情匹配"
+  },
+  "toast": {
+    "onlyMentioned": "你仅在此消息中被提及",
+    "openChannel": "打开频道"
+  },
+  "favorites": {
+    "add": "添加到收藏",
+    "remove": "从收藏中移除"
+  },
+  "stickers": {
+    "animated": "动态贴纸",
+    "sticker": "贴纸"
+  },
+  "groupDm": {
+    "title": "群组私信",
+    "edit": "编辑群组",
+    "leave": "离开群组",
+    "delete": "删除群组",
+    "groupFullCount": "此群组已满（{{current}}/{{max}}）。",
+    "spotsRemaining_one": "剩余 {{count}} 个名额",
+    "spotsRemaining_other": "剩余 {{count}} 个名额",
+    "noFriendsToAdd": "没有可添加的好友。",
+    "namePlaceholder": "例如：游戏之夜",
+    "conversationOptionsA11y": "对话选项",
+    "saveFailed": "保存群组失败",
+    "leaveFailed": "离开群组失败",
+    "deleteFailed": "删除群组失败",
+    "removeMemberFailed": "移除成员失败",
+    "addRecipientFailed": "添加收件人失败",
+    "maxRecipients": "群组私信不能超过 9 名收件人（含你共 10 人）",
+    "membersCount": "成员 — {{value}}",
+    "manage": {
+      "title": "管理群组",
+      "icon": "图标",
+      "removeIcon": "移除图标",
+      "changeIcon": "更改图标",
+      "groupName": "群组名称",
+      "members": "成员",
+      "you": "（你）",
+      "remove": "移除",
+      "removing": "移除中…",
+      "saveChanges": "保存更改",
+      "leaveGroup": "离开群组",
+      "deleteGroup": "删除群组",
+      "round": "圆形"
+    }
+  },
+  "friends": {
+    "title": "好友",
+    "tabs": {
+      "online": "在线",
+      "all": "全部",
+      "pending": "待处理",
+      "addFriend": "添加好友"
+    },
+    "onlineCount_one": "在线 — {{count}}",
+    "onlineCount_other": "在线 — {{count}}",
+    "allCount_one": "全部 — {{count}}",
+    "allCount_other": "全部 — {{count}}",
+    "receivedCount_one": "已收到 — {{count}}",
+    "receivedCount_other": "已收到 — {{count}}",
+    "sentCount_one": "已发送 — {{count}}",
+    "sentCount_other": "已发送 — {{count}}",
+    "emptyOnline": "没有好友在线。点击「添加好友」发送好友请求。",
+    "emptyAll": "你还没有好友。点击「添加好友」发送好友请求。",
+    "emptyPending": "没有待处理的好友请求。点击「添加好友」发送好友请求。",
+    "emptyYet": "尚无好友。",
+    "incomingCount": "收到 — {{value}}",
+    "pendingSectionCount": "待处理 — {{value}}",
+    "friendsSectionCount": "好友 — {{value}}",
+    "sendFailed": "无法发送请求",
+    "blockedBeforeRequest": "你已屏蔽此用户。请先取消屏蔽再发送请求。",
+    "addTitle": "添加好友",
+    "addDescription": "你可以用 Mutualzz 用户名添加好友。",
+    "usernamePlaceholder": "输入用户名",
+    "sendRequest": "发送请求",
+    "alreadyFriends": "已是好友",
+    "alreadySent": "已发送请求",
+    "unknownUsername": "未知用户名，请确认用户名正确",
+    "friendLinkTitle": "你的好友链接",
+    "friendLinkDescription": "分享此链接，让他人向你发送好友请求。他们会在聊天中看到「添加好友」按钮。",
+    "creatingLink": "正在创建你的好友链接...",
+    "copy": "复制",
+    "copied": "已复制",
+    "message": "发消息",
+    "remove": "移除"
+  }
+}

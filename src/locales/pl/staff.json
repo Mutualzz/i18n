@@ -1,0 +1,288 @@
+{
+  "title": "Panel personelu",
+  "exit": "Wyjdź",
+  "working": "Przetwarzanie...",
+  "nav": {
+    "reports": "Zgłoszenia",
+    "activity": "Aktywność",
+    "appeals": "Odwołania",
+    "support": "Wsparcie"
+  },
+  "pages": {
+    "activity": "Aktywność personelu",
+    "reportDetails": "Szczegóły raportu"
+  },
+  "home": {
+    "findUser": "Znajdź użytkownika",
+    "findUserDescription": "Wyszukaj według nazwy użytkownika lub filtruj według flagi, aby wyświetlić konto i dostępne na nim działania personelu.",
+    "searchPlaceholder": "Wyszukaj według nazwy użytkownika lub wklej identyfikator użytkownika",
+    "anyFlag": "Dowolna flaga",
+    "searching": "Wyszukiwanie...",
+    "noUsers": "Nie znaleziono żadnych użytkowników",
+    "goToUserId": "Przejdź do identyfikatora użytkownika {{id}}",
+    "exactIdLookup": "Dokładne wyszukiwanie identyfikatora",
+    "loadMore": "Załaduj więcej",
+    "loading": "Ładowanie..."
+  },
+  "sections": {
+    "info": "Info",
+    "flags": "Flagi",
+    "actions": "Akcje",
+    "sessions": "Aktywne sesje",
+    "notes": "Notatki personelu",
+    "audit": "Dziennik audytu"
+  },
+  "user": {
+    "info": {
+      "username": "Nazwa użytkownika",
+      "displayName": "Nazwa wyświetlana",
+      "noDisplayName": "Nie ustawiono nazwy wyświetlanej",
+      "saveChanges": "Zapisz zmiany",
+      "accountDetails": "Szczegóły konta",
+      "email": "E-mail",
+      "emailVerified": "Adres e-mail zweryfikowany",
+      "yes": "Tak",
+      "no": "Nie",
+      "sendReminder": "Wyślij przypomnienie",
+      "verifyReminderSent": "Wysłano przypomnienie o weryfikacji",
+      "userId": "Identyfikator użytkownika",
+      "dateOfBirth": "Data urodzenia",
+      "created": "Stworzony",
+      "restrictedUntil": "Ograniczone do"
+    },
+    "flags": {
+      "current": "Aktualne flagi",
+      "manage": "Zarządzaj flagami",
+      "none": "Nie ustawiono żadnych flag"
+    },
+    "actions": {
+      "enableAccount": "Włącz konto",
+      "disableAccount": "Wyłącz konto",
+      "forceLogout": "Wymuś wylogowanie",
+      "warnUser": "Ostrzeż użytkownika",
+      "restrictUser": "Ogranicz użytkownika",
+      "liftRestriction": "Ograniczenie podnoszenia",
+      "softDeleteAccount": "Miękkie usunięcie konta",
+      "hardDeleteAccount": "Twarde usunięcie konta",
+      "softDeletedBanner": "To konto zostało usunięte. Użytkownik nie może się zalogować, ale jego dane zostają zachowane.",
+      "errors": {
+        "liftRestriction": "Nie udało się znieść ograniczenia",
+        "updateUser": "Nie udało się zaktualizować użytkownika",
+        "forceLogout": "Nie udało się wymusić wylogowania użytkownika",
+        "warnUser": "Nie udało się ostrzec użytkownika",
+        "deleteAccount": "Nie udało się usunąć konta",
+        "restrictUser": "Nie udało się ograniczyć użytkownika"
+      }
+    },
+    "modals": {
+      "reasonRequired": "Powód (wymagany)",
+      "reasonOptional": "Powód (opcjonalny)",
+      "placeholderAudit": "Dodaj kontekst dziennika kontroli",
+      "disable": {
+        "title": "Wyłącz konto",
+        "enableTitle": "Włącz konto",
+        "bodyDisable": "Czy na pewno chcesz wyłączyć konto @{{username}}? Zostaną wylogowani i nie będą mogli zalogować się ponownie, dopóki nie zostaną ponownie włączeni.",
+        "bodyEnable": "Czy na pewno chcesz ponownie włączyć konto @{{username}}?",
+        "placeholder": "Wyjaśnij, dlaczego to konto zostało wyłączone"
+      },
+      "forceLogout": {
+        "title": "Wymuś wylogowanie",
+        "body": "Czy na pewno chcesz wylogowywać @{{username}} z każdej sesji? Będą musieli zalogować się ponownie, ale konto pozostanie włączone."
+      },
+      "warn": {
+        "title": "Ostrzeż użytkownika",
+        "body": "Spowoduje to wysłanie do @{{username}} e-maila z ostrzeżeniem i zarejestrowanie go w ścieżce audytu. Nie zmienia to stanu konta.",
+        "placeholder": "Wyjaśnij, do czego służy ostrzeżenie",
+        "submit": "Wyślij ostrzeżenie",
+        "toastSent": "Ostrzeżenie zostało wysłane i przesłane e-mailem do użytkownika",
+        "toastEmailFailed": "Ostrzeżenie zostało zarejestrowane, ale wiadomość e-mail nie została wysłana"
+      },
+      "restrict": {
+        "title": "Ogranicz użytkownika",
+        "body": "Użytkownicy z ograniczeniami nie mogą wysyłać wiadomości ani tworzyć postów, dopóki ograniczenie nie wygaśnie.",
+        "duration": "Czas trwania",
+        "submit": "Ograniczać",
+        "placeholder": "Wyjaśnij, czemu służy to ograniczenie",
+        "durations": {
+          "1h": "1 godzina",
+          "6h": "6 godzin",
+          "1d": "1 dzień",
+          "3d": "3 dni",
+          "7d": "7 dni",
+          "30d": "30 dni"
+        }
+      },
+      "delete": {
+        "softTitle": "Miękkie usunięcie konta",
+        "hardTitle": "Twarde usunięcie konta",
+        "softBody": "To oprogramowanie usuwa konto @{{username}}. Zostaną wylogowani i nie będą mogli zalogować się ponownie, ale ich dane zostaną zachowane do celów moderacji i audytu.",
+        "hardBody": "Spowoduje to trwałe usunięcie konta @{{username}} i powiązanych z nim danych z bazy danych. Wszystkie należące do nich przestrzenie również zostaną usunięte. Tego nie można cofnąć.",
+        "type": "Typ usunięcia",
+        "softOption": "Miękkie usuwanie (zalecane)",
+        "hardOption": "Twarde usunięcie (nieodwracalne)",
+        "confirmUsername": "Wpisz @{{username}}, aby potwierdzić",
+        "placeholderSoft": "Wyjaśnij, dlaczego to konto jest trwale usuwane",
+        "placeholderHard": "Wyjaśnij, dlaczego to konto musi zostać trwale usunięte"
+      }
+    },
+    "sessions": {
+      "empty": "Brak aktywnych sesji",
+      "created": "Utworzono {{relative}}",
+      "lastUsed": "Ostatnio używany {{relative}}",
+      "revoke": "Unieważnić",
+      "errorRevoke": "Nie udało się odwołać sesji"
+    },
+    "notes": {
+      "placeholder": "Zostaw notatkę dla innych pracowników – niewidoczną dla użytkownika",
+      "add": "Dodaj notatkę",
+      "adding": "Dodawanie...",
+      "empty": "Nie ma jeszcze żadnych notatek personelu",
+      "errorAdd": "Nie udało się dodać notatki"
+    },
+    "audit": {
+      "empty": "Nie ma jeszcze żadnych działań personelu"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "Oczekujące",
+      "reviewed": "Recenzję",
+      "dismissed": "Zwolniony",
+      "actioned": "Akcja"
+    },
+    "actions": {
+      "shutDownSpace": "Zamknij przestrzeń",
+      "takeDownContent": "Usuń zawartość",
+      "lockDownSpace": "Zablokuj przestrzeń"
+    },
+    "detailsTitle": "Szczegóły raportu",
+    "backToReports": "Wracając do raportów",
+    "anyStatus": "Dowolny stan",
+    "anyType": "Dowolny typ",
+    "targetTypes": {
+      "message": "Wiadomość",
+      "post": "Opublikuj",
+      "comment": "Komentarz",
+      "user": "Użytkownik",
+      "space": "Przestrzeń"
+    },
+    "reportedBy": "Zgłoszone przez {{name}}",
+    "reporterNotes": "Notatki reportera",
+    "reportedContent": "Zgłoszona treść",
+    "viewDetails": "Zobacz szczegóły",
+    "openUserPanel": "Otwórz panel użytkownika personelu",
+    "markReviewed": "Marka zrecenzowano",
+    "markActioned": "Marek podjął działania",
+    "dismiss": "Odrzuć",
+    "reviewedShort": "Recenzję",
+    "actionedShort": "Akcja",
+    "reviewedBy": "{{status}} przez {{name}}",
+    "empty": "Nie znaleziono żadnych raportów",
+    "loadingReport": "Ładowanie raportu…",
+    "loadFailed": "Nie udało się załadować raportu",
+    "toasts": {
+      "actionCompleted": "Akcja zakończona",
+      "actionCompletedMarked": "Działanie zakończone i raport oznaczony jako wykonany",
+      "alreadyRemoved": "Cel został już usunięty",
+      "lockdownSuccess": "Miejsce zamknięte, właściciel powiadomiony"
+    },
+    "errors": {
+      "update": "Nie udało się zaktualizować raportu",
+      "action": "Nie udało się ukończyć działania",
+      "lockdown": "Nie udało się zablokować miejsca"
+    },
+    "content": {
+      "dmContext": "Kontekst wiadomości bezpośredniej",
+      "messageContext": "Kontekst wiadomości",
+      "dmContextHint": "Ze względu na prywatność wyświetlana jest ograniczona liczba komunikatów otaczających.",
+      "reported": "ZGŁOSZONE",
+      "noText": "(bez treści tekstowej)",
+      "unknown": "Nieznany",
+      "membersOwnedBy_one": "Członek {{count}} · własność {{owner}}",
+      "membersOwnedBy_other": "Członkowie {{count}} · należący do {{owner}}",
+      "membersOwnedBy_few": "Członkowie {{count}} · należący do {{owner}}",
+      "membersOwnedBy_many": "Członkowie {{count}} · należący do {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "Dowolny stan",
+    "status": {
+      "pending": "Oczekujące",
+      "accepted": "Przyjęty",
+      "rejected": "Odrzucony"
+    },
+    "spaceLockdownAppeal": "Apel o blokadę przestrzeni kosmicznej",
+    "responsePlaceholder": "Odpowiedź dla użytkownika (opcjonalnie)",
+    "accept": "Zaakceptuj",
+    "reject": "Odrzuć",
+    "viewAccount": "Zobacz konto",
+    "viewUser": "Wyświetl użytkownika",
+    "staffResponse": "Odpowiedź personelu: {{text}}",
+    "empty": "Nie znaleziono odwołań",
+    "errorUpdate": "Nie udało się zaktualizować odwołania",
+    "decidedBy": "{{status}} przez {{name}}"
+  },
+  "support": {
+    "anyStatus": "Dowolny stan",
+    "status": {
+      "open": "Otwarte",
+      "awaiting_reply": "Oczekiwanie na odpowiedź",
+      "resolved": "Rozwiązany",
+      "closed": "Zamknięte"
+    },
+    "empty": "Nie znaleziono biletów",
+    "selectTicket": "Wybierz bilet",
+    "loadingTicket": "Ładowanie biletu…",
+    "resolve": "Rozwiąż",
+    "close": "Zamknij",
+    "staff": "Personel",
+    "replyPlaceholder": "Odpowiedz użytkownikowi",
+    "sendReply": "Wyślij odpowiedź",
+    "sending": "Wysyłanie…",
+    "errors": {
+      "send": "Nie udało się wysłać odpowiedzi",
+      "update": "Nie udało się zaktualizować biletu"
+    }
+  },
+  "activity": {
+    "empty": "Nie ma jeszcze żadnych działań personelu",
+    "removedUser": "usuniętego użytkownika",
+    "removedUserNamed": "@{{name}} (usunięty)"
+  },
+  "auditActions": {
+    "disabledAccount": "wyłączyłem to konto",
+    "enabledAccount": "włączył to konto",
+    "softDeletedAccount": "soft usunął to konto",
+    "hardDeletedAccount": "mocno usunąłem to konto",
+    "forcedLogout": "wymuszone wylogowanie z tego konta",
+    "warnedUser": "ostrzegł tego użytkownika",
+    "restrictedUser": "ograniczył tego użytkownika",
+    "liftedRestriction": "zniósł ograniczenie nałożone na tego użytkownika",
+    "grantedFlag": "przyznano flagę {{flag}}",
+    "revokedFlag": "unieważnił flagę {{flag}}",
+    "updatedProfile": "zaktualizował profil tego użytkownika",
+    "addedNote": "dodał notatkę pracowniczą",
+    "revokedSession": "odwołał sesję",
+    "tookDownContent": "zdjął zgłoszony {{type}}",
+    "lockedDownSpace": "zablokował przestrzeń",
+    "shutDownSpace": "zamknąć zgłoszoną przestrzeń",
+    "global": {
+      "disabled": "{{actor}} wyłączony {{target}}",
+      "enabled": "{{actor}} włączył {{target}}",
+      "softDeleted": "Soft {{actor}} usunięty {{target}}",
+      "hardDeleted": "{{actor}} trwale usunięte {{target}}",
+      "forcedLogout": "{{actor}} wymusił wylogowanie z {{target}}",
+      "warned": "{{actor}} ostrzegł {{target}}",
+      "restricted": "{{actor}} ograniczony {{target}}",
+      "liftedRestriction": "{{actor}} zniósł ograniczenie na {{target}}",
+      "grantedFlag": "{{actor}} przyznał flagę {{flag}} {{target}}",
+      "revokedFlag": "{{actor}} unieważnił flagę {{flag}} z {{target}}",
+      "updatedProfile": "{{actor}} zaktualizował profil {{target}}",
+      "addedNote": "{{actor}} dodał notatkę dla personelu na temat {{target}}",
+      "revokedSession": "{{actor}} odwołał sesję dla {{target}}",
+      "tookDownContent": "{{actor}} zdjął zgłoszony {{type}}",
+      "lockedDownSpace": "{{actor}} zablokował spację",
+      "shutDownSpace": "{{actor}} zamknął zgłoszoną przestrzeń"
+    }
+  }
+}

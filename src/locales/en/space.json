@@ -1,0 +1,479 @@
+{
+  "title": "Space Settings",
+  "titleShort": "Space settings",
+  "overviewDescription": "Manage roles, invites, expressions, and moderation.",
+  "nav": {
+    "categories": {
+      "general": "General",
+      "people": "People",
+      "moderation": "Moderation"
+    },
+    "pages": {
+      "profile": "Profile",
+      "roles": "Roles",
+      "channels": "Channels",
+      "invites": "Invites",
+      "expressions": "Expressions",
+      "bans": "Bans"
+    }
+  },
+  "actions": {
+    "deleteSpace": "Delete Space",
+    "leaveSpace": "Leave Space",
+    "createRole": "Create Role",
+    "deleteRole": "Delete Role",
+    "createInvite": "Create invite",
+    "createInviteLink": "Create invite link",
+    "deleteAllInvites": "Delete all invites",
+    "editInviteLink": "Edit invite link",
+    "revokeBan": "Revoke Ban",
+    "unbanMember": "Unban member",
+    "unbanning": "Unbanning...",
+    "kick": "Kick",
+    "ban": "Ban",
+    "addMembers": "Add Members",
+    "addMembersCount_one": "Add ({{count}})",
+    "addMembersCount_other": "Add ({{count}})",
+    "markAllAsRead": "Mark all as read",
+    "clearPermissions": "Clear permissions",
+    "working": "Working...",
+    "creating": "Creating..."
+  },
+  "profile": {
+    "spaceIcon": "Space Icon",
+    "name": "Name",
+    "description": "Description",
+    "descriptionPlaceholder": "Write something about your space...",
+    "updatedSuccess": "Space updated successfully.",
+    "genericError": "An error occurred"
+  },
+  "invites": {
+    "activeLinks": "Active Invite Links",
+    "createTitle": "Create invite link",
+    "createDescriptionChannel": "Creates a link to #{{channel}}.",
+    "createDescriptionDefault": "Creates a link to the default text channel for this space.",
+    "createFailed": "Failed to create invite",
+    "empty": "No invites have been created for this space yet.",
+    "columns": {
+      "inviter": "Inviter",
+      "inviteCode": "Invite Code",
+      "uses": "Uses",
+      "expires": "Expires"
+    },
+    "usesLabel": "Uses: {{uses}}{{max}}",
+    "usesMax": " / {{max}}",
+    "neverExpires": "Never expires",
+    "expired": "Expired",
+    "copyInviteUrl": "Copy Invite URL",
+    "copiedToClipboard": "Copied to clipboard",
+    "tapToCopy": "Tap the link to copy",
+    "modal": {
+      "title": "Invite friends to {{spaceName}}",
+      "landingChannel": "Recipients will land in #{{channelName}}",
+      "searchFriends": "Search friends",
+      "noResults": "No results.",
+      "noFriends": "No friends to invite. Share the link below instead.",
+      "inviteLink": "Invite Link",
+      "expiresPrefix": "This link will expire ",
+      "expiresNever": "never",
+      "expiresAfterUses_one": " or after {{count}} use",
+      "expiresAfterUses_other": " or after {{count}} uses",
+      "editTitle": "Editing the current invite link",
+      "expireAfter": "Expire After",
+      "maxUses": "Max Uses"
+    },
+    "expiry": {
+      "30minutes": "30 minutes",
+      "1hour": "1 hour",
+      "6hours": "6 hours",
+      "12hours": "12 hours",
+      "1day": "1 day",
+      "7days": "7 days",
+      "never": "Never"
+    },
+    "maxUses": {
+      "noLimit": "No limit",
+      "1use": "1 use",
+      "5uses": "5 uses",
+      "10uses": "10 uses",
+      "25uses": "25 uses",
+      "50uses": "50 uses",
+      "100uses": "100 uses"
+    }
+  },
+  "roles": {
+    "defaultPermissions": "Default Permissions",
+    "everyoneSubtitle": "@everyone - applies to all space members",
+    "everyoneSuffix": " (@everyone)",
+    "searchPlaceholder": "Search Roles",
+    "listTitle_one": "Roles - {{count}}",
+    "listTitle_other": "Roles - {{count}}",
+    "membersColumn": "Members",
+    "actionsColumn": "Actions",
+    "hierarchyHint": "Roles higher in the list have more authority. Drag roles to change their hierarchy.",
+    "empty": "No roles have been created for this space yet.",
+    "emptySearch": "No roles match your search.",
+    "memberCount_one": "{{count}} member",
+    "memberCount_other": "{{count}} members",
+    "editTitle": "Edit Role - {{name}}",
+    "tabs": {
+      "display": "Display",
+      "permissions": "Permissions",
+      "manageMembers": "Manage Members",
+      "members": "Members"
+    },
+    "unsavedChanges": "You have unsaved changes!",
+    "saveFailed": "Failed to save role",
+    "display": {
+      "roleName": "Role name",
+      "roleColor": "Role color",
+      "hoist": "Display role members separately from online members",
+      "mentionable": "Allow anyone to @mention this role",
+      "mentionableHint": "Members with the \"Mention @everyone, @here, and All Roles\" permission can mention this role regardless of this setting.",
+      "mentionableHintShort": "Members with the mention-everyone permission can still mention this role."
+    },
+    "members": {
+      "title": "Role members",
+      "description": "View and manage members assigned to this role.",
+      "searchPlaceholder": "Search Members",
+      "emptyAssigned": "No members have been assigned this role.",
+      "emptySearch": "No members match your search.",
+      "addTitle": "Add Members",
+      "addDescription": "Add up to {{max}} members to {{roleName}}",
+      "selectedCount": "{{selected}}/{{max}} selected",
+      "noEligible": "No members available to add to this role.",
+      "addSuccess_one": "Added {{count}} member to {{roleName}}",
+      "addSuccess_other": "Added {{count}} members to {{roleName}}",
+      "addFailed": "Failed to add members to role"
+    },
+    "hierarchy": {
+      "cantReorder": "You can't reorder roles at or above your highest role",
+      "cantAssign": "You can't assign or remove this role",
+      "cantEditRole": "You can't edit this role because it's at or above your highest role.",
+      "cantManageMembers": "You can't assign or remove members from this role.",
+      "dragToReorder": "Drag to reorder",
+      "dragToReorderHierarchy": "Drag to reorder hierarchy",
+      "failedReorder": "Failed to reorder roles",
+      "failedUpdateRole": "Failed to update role",
+      "cantManageMember": "You don't have permission to manage this member"
+    },
+    "delete": {
+      "title": "Delete Role",
+      "confirm": "Are you sure you want to delete {{name}} role? This Action cannot be undone."
+    },
+    "permissions": {
+      "searchPlaceholder": "Search permissions...",
+      "jumpToCategory": "Jump to category…",
+      "emptySearch": "No permissions match your search",
+      "clear": "Clear permissions",
+      "groups": {
+        "general": "General Space Permissions",
+        "membership": "Membership Permissions",
+        "text": "Text Channel Permissions",
+        "voice": "Voice Channel Permissions",
+        "advanced": "Advanced Permissions"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "View Channels",
+          "description": "Allow members to view channels by default"
+        },
+        "ManageChannels": {
+          "label": "Manage Channels",
+          "description": "Allow members to create, edit or delete channels"
+        },
+        "ManageRoles": {
+          "label": "Manage Roles",
+          "description": "Allows members to create new roles and edit or delete roles lower than their highest role"
+        },
+        "CreateExpressions": {
+          "label": "Create Expressions",
+          "description": "Allow members to create emoji and stickers in this space."
+        },
+        "ManageExpressions": {
+          "label": "Manage Expressions",
+          "description": "Allow members to edit or delete emoji and stickers in this space."
+        },
+        "ManageSpace": {
+          "label": "Manage Space",
+          "description": "Allow members to change this space"
+        },
+        "CreateInvites": {
+          "label": "Create Invites",
+          "description": "Allow members to invite new people to this space"
+        },
+        "KickMembers": {
+          "label": "Kick Members",
+          "description": "Kick will remove other members from this space. Kicked members can rejoin if they have another invite."
+        },
+        "BanMembers": {
+          "label": "Ban Members",
+          "description": "Ban will remove members from this space and prevent them from rejoining until they are unbanned."
+        },
+        "SendMessages": {
+          "label": "Send Messages",
+          "description": "Allow members to send messages in text channels"
+        },
+        "EmbedLinks": {
+          "label": "Embed Links",
+          "description": "Allow members to embed links in messages"
+        },
+        "AttachFiles": {
+          "label": "Attach Files",
+          "description": "Allow members to attach files in messages"
+        },
+        "MentionEveryone": {
+          "label": "Mention Everyone",
+          "description": "Allow members to mention @everyone and @here in messages"
+        },
+        "UseExternalEmojis": {
+          "label": "Use External Emojis",
+          "description": "Allow members to use emojis from other spaces or their own in their messages"
+        },
+        "ManageMessages": {
+          "label": "Manage Messages",
+          "description": "Allow members to delete other members messages"
+        },
+        "ReadMessageHistory": {
+          "label": "Read Message History",
+          "description": "Allow members to read message history"
+        },
+        "Connect": {
+          "label": "Connect",
+          "description": "Allow members to connect to voice channels"
+        },
+        "Speak": {
+          "label": "Speak",
+          "description": "Allow members to speak in voice channels"
+        },
+        "Administrator": {
+          "label": "Administrator",
+          "description": "Members with this permission will have every permission. This is a dangerous permission to grant.",
+          "descriptionBefore": "Members with this permission will have every permission.",
+          "descriptionDanger": "This is a dangerous permission to grant"
+        }
+      }
+    }
+  },
+  "expressions": {
+    "pageTitle": "Space expressions",
+    "pageDescription": "Upload and manage custom emoji and stickers for this space.",
+    "emojiLimit": "Sadly current limit of emojis you can upload are 100, since the app is in beta and storage is an issue for now",
+    "stickerLimit": "Sadly current limit of stickers you can upload are 100, since the app is in beta and storage is an issue for now",
+    "stickerLimitMobile": "Beta limit: {{limit}} stickers per space.",
+    "emptyEmojis": "No space emojis yet",
+    "emptyStickers": "No space stickers yet"
+  },
+  "bans": {
+    "title": "Space Ban List",
+    "description": "View and manage the list of banned users in this space. As of right now the ban is account based, we will be introducing IP bans in the future.",
+    "descriptionShort": "View and manage banned users in this space.",
+    "searchPlaceholder": "Search Bans by User ID or Username or Display Name",
+    "searchPlaceholderShort": "Search by username or user ID",
+    "empty": "No one has been banned yet",
+    "reason": "Reason",
+    "noReason": "No reason provided",
+    "bannedBy": "Banned by",
+    "bannedAt": "Banned at",
+    "unbanSuccess": "Successfully unbanned {{name}}",
+    "unbanTitle": "Unban {{name}}?"
+  },
+  "moderation": {
+    "banTitle": "Ban {{name}}?",
+    "kickTitle": "Kick {{name}}?",
+    "kickFromSpaceTitle": "Kick {{name}} from space",
+    "kickBody": "Are you sure you want to kick @{{name}} from the space? They will need an invite to rejoin.",
+    "kickSuccess": "Kicked {{name}} from space",
+    "reason": "Reason",
+    "reasonOptional": "Reason (optional)",
+    "reasonForKick": "Reason for Kick",
+    "reasonForBan": "Reason for ban *",
+    "deleteRecentMessages": "Delete recent messages",
+    "banReasons": {
+      "suspicious": "Suspicious or spam account",
+      "compromised": "Compromised or hacked account",
+      "breakingRules": "Breaking space rules",
+      "other": "Other"
+    },
+    "deleteMessages": {
+      "dontDelete": "Don't delete",
+      "dontDeleteMessages": "Don't delete messages",
+      "previousHour": "Previous hour",
+      "lastHour": "Last hour",
+      "previousDay": "Previous day",
+      "last24Hours": "Last 24 hours",
+      "previousWeek": "Previous week",
+      "last7Days": "Last 7 days",
+      "allMessages": "All messages",
+      "deleteAllMessages": "Delete all messages"
+    },
+    "youWereBanned": "You were banned from {{name}}",
+    "youWereKicked": "You were kicked from {{name}}"
+  },
+  "channels": {
+    "noCategory": "No category",
+    "empty": "No channels to reorder.",
+    "reorderHint": "Drag channels to reorder them. Place a channel directly under a category to add it to that group. Drag above a category to remove it from the group.",
+    "overwrites": "Overwrites",
+    "searchTargets": "Search roles or members…",
+    "topic": "Channel Topic",
+    "topicHint": "Shown to members at the top of the channel.",
+    "topicPlaceholder": "Topic",
+    "settingsTitle": "Channel Settings",
+    "namePlaceholder": "Channel name",
+    "permissionOverwrites": "Permission overwrites",
+    "channelInvites": "Channel invites",
+    "noChannelInvites": "No invites have been created for #{{channel}} yet.",
+    "selectOverwriteTarget": "Select an overwrite target to edit channel-specific permissions.",
+    "nameEmpty": "Channel name cannot be empty.",
+    "failedMoveMember": "Failed to move member",
+    "create": {
+      "title": "Create Channel",
+      "name": "Channel Name",
+      "namePlaceholder": "new-channel",
+      "type": "Channel Type",
+      "text": "Text Channel",
+      "textDescription": "Send messages, images, and more",
+      "voice": "Voice Channel",
+      "voiceDescription": "Hang out with voice and video",
+      "submit": "Create Channel",
+      "icon": "Channel Icon",
+      "upload": "Upload",
+      "rounded": "Rounded",
+      "rotate": "Rotate",
+      "clear": "Clear"
+    },
+    "createCategory": {
+      "title": "Create Category",
+      "name": "Category Name",
+      "namePlaceholder": "New Category",
+      "submit": "Create Category"
+    },
+    "delete": {
+      "title": "Delete Channel",
+      "body": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+      "confirm": "Delete Channel"
+    },
+    "deleteCategory": {
+      "title": "Delete category \"{{name}}\"?",
+      "body": "Would you like to delete this category?",
+      "categoryOnly": "Just the category",
+      "categoryAndChannels": "Category and all channels related",
+      "confirm": "Delete Category"
+    },
+    "saveOverwrite": "Save overwrite",
+    "deleteChannelAction": "Delete channel",
+    "createInvite": "Create invite",
+    "createInviteLink": "Create invite link",
+    "removeIcon": "Remove Icon",
+    "restoreIcon": "Restore Icon",
+    "uploadEmoji": "Upload emoji",
+    "uploadSticker": "Upload sticker",
+    "noSpaceEmojis": "No space emojis yet",
+    "pages": {
+      "overview": "Overview",
+      "permissions": "Permissions",
+      "invites": "Invites"
+    },
+    "permissions": {
+      "addOverwrite": "Add Permission Overwrite",
+      "roles": "ROLES",
+      "members": "MEMBERS",
+      "noResults": "No results",
+      "noOverwritesYet": "No overwrites yet",
+      "selectTargetHint": "Select a role or member to configure channel-specific permissions.",
+      "selectTargetHintLeft": "Select a role or member on the left to edit their permissions for this channel, or click + to add one.",
+      "groups": {
+        "general": "General Channel Permissions",
+        "text": "Text Channel Permissions",
+        "voice": "Voice Channel Permissions"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "View Channel",
+          "description": "Allow members to view this channel"
+        },
+        "ManageChannels": {
+          "label": "Manage Channel",
+          "description": "Allow members to edit or delete this channel"
+        },
+        "ManageRoles": {
+          "label": "Manage Permissions",
+          "description": "Allow members to edit this channel's permission overwrites"
+        },
+        "SendMessages": {
+          "label": "Send Messages",
+          "description": "Allow members to send messages in this channel"
+        },
+        "EmbedLinks": {
+          "label": "Embed Links",
+          "description": "Allow members to embed links"
+        },
+        "AttachFiles": {
+          "label": "Attach Files",
+          "description": "Allow members to attach files"
+        },
+        "MentionEveryone": {
+          "label": "Mention Everyone",
+          "description": "Allow members to @mention @everyone and @here"
+        },
+        "UseExternalEmojis": {
+          "label": "Use External Emojis",
+          "description": "Allow members to use emojis from other spaces"
+        },
+        "ManageMessages": {
+          "label": "Manage Messages",
+          "description": "Allow members to delete others' messages"
+        },
+        "ReadMessageHistory": {
+          "label": "Read Message History",
+          "description": "Allow members to read past messages"
+        },
+        "Connect": {
+          "label": "Connect",
+          "description": "Allow members to connect to this voice channel"
+        },
+        "Speak": {
+          "label": "Speak",
+          "description": "Allow members to speak in this voice channel"
+        }
+      }
+    }
+  },
+  "confirm": {
+    "deleteSpaceTitle": "Delete \"{{name}}\"?",
+    "leaveSpaceTitle": "Leave \"{{name}}\"?",
+    "deleteSpaceBody": "Are you sure you want to delete {{name}}? This Action cannot be undone.",
+    "leaveSpaceBody": "Are you sure you want to leave {{name}}? This Action cannot be undone.",
+    "cannotUndo": "This action cannot be undone."
+  },
+  "menu": {
+    "spaceSettings": "Space settings",
+    "reportSpace": "Report space",
+    "leaveSpace": "Leave space",
+    "deleteSpace": "Delete space"
+  },
+  "chrome": {
+    "spaceSettings": "Space Settings",
+    "inviteToSpace": "Invite to Space",
+    "createInviteA11y": "Create invite",
+    "createCategoryA11y": "Create category",
+    "spaceMenuA11y": "Space menu"
+  },
+  "sidebar": {
+    "createSpace": "Create a space",
+    "switchToSpaces": "Switch to Spaces",
+    "switchToDirectMessages": "Switch to Direct Messages",
+    "switchToFeed": "Switch to Feed",
+    "switchTo": "Switch to",
+    "directMessages": "Direct Messages",
+    "friends": "Friends",
+    "spaces": "Spaces"
+  },
+  "lockdown": {
+    "title": "This space is in lockdown",
+    "ownerMessage": "Messaging and changes are disabled. Check your email for an appeal link if you believe this was a mistake.",
+    "memberMessage": "Messaging and changes are disabled while staff review this space.",
+    "toast": "This space is in lockdown. Messaging and changes are disabled."
+  }
+}

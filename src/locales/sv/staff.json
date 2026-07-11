@@ -1,0 +1,286 @@
+{
+  "title": "Personalpanel",
+  "exit": "Avsluta",
+  "working": "Arbetar...",
+  "nav": {
+    "reports": "Anmälningar",
+    "activity": "Aktivitet",
+    "appeals": "Överklaganden",
+    "support": "Support"
+  },
+  "pages": {
+    "activity": "Personalaktivitet",
+    "reportDetails": "Anmälningsdetaljer"
+  },
+  "home": {
+    "findUser": "Hitta en användare",
+    "findUserDescription": "Sök efter användarnamn eller filtrera efter flagga för att visa ett konto och tillgängliga personalåtgärder.",
+    "searchPlaceholder": "Sök efter användarnamn eller klistra in ett användar-ID",
+    "anyFlag": "Valfri flagga",
+    "searching": "Söker...",
+    "noUsers": "Inga användare hittades",
+    "goToUserId": "Gå till användar-ID {{id}}",
+    "exactIdLookup": "Exakt ID-sökning",
+    "loadMore": "Ladda mer",
+    "loading": "Laddar..."
+  },
+  "sections": {
+    "info": "Info",
+    "flags": "Flaggor",
+    "actions": "Åtgärder",
+    "sessions": "Aktiva sessioner",
+    "notes": "Personalanteckningar",
+    "audit": "Granskningslogg"
+  },
+  "user": {
+    "info": {
+      "username": "Användarnamn",
+      "displayName": "Visningsnamn",
+      "noDisplayName": "Inget visningsnamn angivet",
+      "saveChanges": "Spara ändringar",
+      "accountDetails": "Kontouppgifter",
+      "email": "E-post",
+      "emailVerified": "E-post verifierad",
+      "yes": "Ja",
+      "no": "Nej",
+      "sendReminder": "Skicka påminnelse",
+      "verifyReminderSent": "Verifieringspåminnelse skickad",
+      "userId": "Användar-ID",
+      "dateOfBirth": "Födelsedatum",
+      "created": "Skapad",
+      "restrictedUntil": "Begränsad till"
+    },
+    "flags": {
+      "current": "Aktuella flaggor",
+      "manage": "Hantera flaggor",
+      "none": "Inga flaggor angivna"
+    },
+    "actions": {
+      "enableAccount": "Aktivera konto",
+      "disableAccount": "Inaktivera konto",
+      "forceLogout": "Tvinga utloggning",
+      "warnUser": "Varna användare",
+      "restrictUser": "Begränsa användare",
+      "liftRestriction": "Häva begränsning",
+      "softDeleteAccount": "Mjukradera konto",
+      "hardDeleteAccount": "Hårdradera konto",
+      "softDeletedBanner": "Det här kontot är mjukraderat. Användaren kan inte logga in, men deras data behålls.",
+      "errors": {
+        "liftRestriction": "Kunde inte häva begränsning",
+        "updateUser": "Kunde inte uppdatera användare",
+        "forceLogout": "Kunde inte tvinga utloggning",
+        "warnUser": "Kunde inte varna användare",
+        "deleteAccount": "Kunde inte ta bort konto",
+        "restrictUser": "Kunde inte begränsa användare"
+      }
+    },
+    "modals": {
+      "reasonRequired": "Orsak (obligatorisk)",
+      "reasonOptional": "Orsak (valfri)",
+      "placeholderAudit": "Lägg till kontext för granskningsloggen",
+      "disable": {
+        "title": "Inaktivera konto",
+        "enableTitle": "Aktivera konto",
+        "bodyDisable": "Är du säker på att du vill inaktivera @{{username}}s konto? De loggas ut och kan inte logga in igen förrän kontot återaktiveras.",
+        "bodyEnable": "Är du säker på att du vill återaktivera @{{username}}s konto?",
+        "placeholder": "Förklara varför det här kontot inaktiveras"
+      },
+      "forceLogout": {
+        "title": "Tvinga utloggning",
+        "body": "Är du säker på att du vill logga ut @{{username}} från alla sessioner? De måste logga in igen, men kontot förblir aktiverat."
+      },
+      "warn": {
+        "title": "Varna användare",
+        "body": "Detta skickar @{{username}} ett varningsmejl och loggar det i deras granskningsspår. Det ändrar inte kontots tillstånd.",
+        "placeholder": "Förklara vad varningen gäller",
+        "submit": "Skicka varning",
+        "toastSent": "Varning skickad och mejlad till användaren",
+        "toastEmailFailed": "Varning registrerad, men mejlet kunde inte skickas"
+      },
+      "restrict": {
+        "title": "Begränsa användare",
+        "body": "Begränsade användare kan inte skicka meddelanden eller skapa inlägg förrän begränsningen upphör.",
+        "duration": "Varaktighet",
+        "submit": "Begränsa",
+        "placeholder": "Förklara vad begränsningen gäller",
+        "durations": {
+          "1h": "1 timme",
+          "6h": "6 timmar",
+          "1d": "1 dag",
+          "3d": "3 dagar",
+          "7d": "7 dagar",
+          "30d": "30 dagar"
+        }
+      },
+      "delete": {
+        "softTitle": "Mjukradera konto",
+        "hardTitle": "Hårdradera konto",
+        "softBody": "Detta mjukraderar @{{username}}s konto. De loggas ut och kan inte logga in, men deras data behålls för moderering och granskning.",
+        "hardBody": "Detta tar permanent bort @{{username}}s konto och tillhörande data från databasen. Eventuella utrymmen de äger raderas också. Detta kan inte ångras.",
+        "type": "Raderingstyp",
+        "softOption": "Mjukradering (rekommenderas)",
+        "hardOption": "Hårdradering (oåterkallelig)",
+        "confirmUsername": "Skriv @{{username}} för att bekräfta",
+        "placeholderSoft": "Förklara varför det här kontot mjukraderas",
+        "placeholderHard": "Förklara varför det här kontot måste tas bort permanent"
+      }
+    },
+    "sessions": {
+      "empty": "Inga aktiva sessioner",
+      "created": "Skapad {{relative}}",
+      "lastUsed": "Senast använd {{relative}}",
+      "revoke": "Återkalla",
+      "errorRevoke": "Kunde inte återkalla session"
+    },
+    "notes": {
+      "placeholder": "Lämna en anteckning till annan personal — syns inte för användaren",
+      "add": "Lägg till anteckning",
+      "adding": "Lägger till...",
+      "empty": "Inga personalanteckningar ännu",
+      "errorAdd": "Kunde inte lägga till anteckning"
+    },
+    "audit": {
+      "empty": "Inga personalåtgärder ännu"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "Väntande",
+      "reviewed": "Granskad",
+      "dismissed": "Avvisad",
+      "actioned": "Åtgärdad"
+    },
+    "actions": {
+      "shutDownSpace": "Stäng ner utrymme",
+      "takeDownContent": "Ta ner innehåll",
+      "lockDownSpace": "Lås ner utrymme"
+    },
+    "detailsTitle": "Anmälningsdetaljer",
+    "backToReports": "Tillbaka till anmälningar",
+    "anyStatus": "Valfri status",
+    "anyType": "Valfri typ",
+    "targetTypes": {
+      "message": "Meddelande",
+      "post": "Inlägg",
+      "comment": "Kommentar",
+      "user": "Användare",
+      "space": "Utrymme"
+    },
+    "reportedBy": "Anmäld av {{name}}",
+    "reporterNotes": "Anmälarens anteckningar",
+    "reportedContent": "Anmält innehåll",
+    "viewDetails": "Visa detaljer",
+    "openUserPanel": "Öppna personalens användarpanel",
+    "markReviewed": "Markera som granskad",
+    "markActioned": "Markera som åtgärdad",
+    "dismiss": "Avvisa",
+    "reviewedShort": "Granskad",
+    "actionedShort": "Åtgärdad",
+    "reviewedBy": "{{status}} av {{name}}",
+    "empty": "Inga anmälningar hittades",
+    "loadingReport": "Laddar anmälan…",
+    "loadFailed": "Kunde inte ladda anmälan",
+    "toasts": {
+      "actionCompleted": "Åtgärd slutförd",
+      "actionCompletedMarked": "Åtgärd slutförd och anmälan markerad som åtgärdad",
+      "alreadyRemoved": "Målet var redan borttaget",
+      "lockdownSuccess": "Utrymmet låstes ner och ägaren meddelades"
+    },
+    "errors": {
+      "update": "Kunde inte uppdatera anmälan",
+      "action": "Kunde inte slutföra åtgärd",
+      "lockdown": "Kunde inte låsa ner utrymme"
+    },
+    "content": {
+      "dmContext": "Kontext för direktmeddelande",
+      "messageContext": "Meddelandekontext",
+      "dmContextHint": "Begränsade omgivande meddelanden visas av integritetsskäl.",
+      "reported": "ANMÄLD",
+      "noText": "(inget textinnehåll)",
+      "unknown": "Okänd",
+      "membersOwnedBy_one": "{{count}} medlem · ägs av {{owner}}",
+      "membersOwnedBy_other": "{{count}} medlemmar · ägs av {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "Valfri status",
+    "status": {
+      "pending": "Väntande",
+      "accepted": "Accepterad",
+      "rejected": "Avslagen"
+    },
+    "spaceLockdownAppeal": "Överklagan av utrymmesnedstängning",
+    "responsePlaceholder": "Svar till användaren (valfritt)",
+    "accept": "Acceptera",
+    "reject": "Avslå",
+    "viewAccount": "Visa konto",
+    "viewUser": "Visa användare",
+    "staffResponse": "Personalsvar: {{text}}",
+    "empty": "Inga överklaganden hittades",
+    "errorUpdate": "Kunde inte uppdatera överklagan",
+    "decidedBy": "{{status}} av {{name}}"
+  },
+  "support": {
+    "anyStatus": "Valfri status",
+    "status": {
+      "open": "Öppen",
+      "awaiting_reply": "Väntar på svar",
+      "resolved": "Löst",
+      "closed": "Stängd"
+    },
+    "empty": "Inga ärenden hittades",
+    "selectTicket": "Välj ett ärende",
+    "loadingTicket": "Laddar ärende…",
+    "resolve": "Lös",
+    "close": "Stäng",
+    "staff": "Personal",
+    "replyPlaceholder": "Svara användaren",
+    "sendReply": "Skicka svar",
+    "sending": "Skickar…",
+    "errors": {
+      "send": "Kunde inte skicka svar",
+      "update": "Kunde inte uppdatera ärende"
+    }
+  },
+  "activity": {
+    "empty": "Inga personalåtgärder ännu",
+    "removedUser": "en borttagen användare",
+    "removedUserNamed": "@{{name}} (borttagen)"
+  },
+  "auditActions": {
+    "disabledAccount": "inaktiverade det här kontot",
+    "enabledAccount": "aktiverade det här kontot",
+    "softDeletedAccount": "mjukraderade det här kontot",
+    "hardDeletedAccount": "hårdraderade det här kontot",
+    "forcedLogout": "tvingade en utloggning för det här kontot",
+    "warnedUser": "varnade den här användaren",
+    "restrictedUser": "begränsade den här användaren",
+    "liftedRestriction": "hävde begränsningen för den här användaren",
+    "grantedFlag": "tilldelade flaggan {{flag}}",
+    "revokedFlag": "återkallade flaggan {{flag}}",
+    "updatedProfile": "uppdaterade den här användarens profil",
+    "addedNote": "lade till en personalanteckning",
+    "revokedSession": "återkallade en session",
+    "tookDownContent": "tog ner en anmäld {{type}}",
+    "lockedDownSpace": "läste ner ett utrymme",
+    "shutDownSpace": "stängde ner ett anmält utrymme",
+    "global": {
+      "disabled": "{{actor}} inaktiverade {{target}}",
+      "enabled": "{{actor}} aktiverade {{target}}",
+      "softDeleted": "{{actor}} mjukraderade {{target}}",
+      "hardDeleted": "{{actor}} hårdraderade {{target}}",
+      "forcedLogout": "{{actor}} tvingade en utloggning för {{target}}",
+      "warned": "{{actor}} varnade {{target}}",
+      "restricted": "{{actor}} begränsade {{target}}",
+      "liftedRestriction": "{{actor}} hävde begränsningen för {{target}}",
+      "grantedFlag": "{{actor}} tilldelade flaggan {{flag}} till {{target}}",
+      "revokedFlag": "{{actor}} återkallade flaggan {{flag}} från {{target}}",
+      "updatedProfile": "{{actor}} uppdaterade {{target}}s profil",
+      "addedNote": "{{actor}} lade till en personalanteckning om {{target}}",
+      "revokedSession": "{{actor}} återkallade en session för {{target}}",
+      "tookDownContent": "{{actor}} tog ner en anmäld {{type}}",
+      "lockedDownSpace": "{{actor}} läste ner ett utrymme",
+      "shutDownSpace": "{{actor}} stängde ner ett anmält utrymme"
+    }
+  }
+}

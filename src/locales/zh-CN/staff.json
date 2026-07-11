@@ -1,0 +1,286 @@
+{
+  "title": "员工面板",
+  "exit": "退出",
+  "working": "处理中...",
+  "nav": {
+    "reports": "举报",
+    "activity": "活动",
+    "appeals": "申诉",
+    "support": "支持"
+  },
+  "pages": {
+    "activity": "员工活动",
+    "reportDetails": "举报详情"
+  },
+  "home": {
+    "findUser": "查找用户",
+    "findUserDescription": "按用户名搜索，或按标志筛选，以查看账户及可用的员工操作。",
+    "searchPlaceholder": "按用户名搜索，或粘贴用户 ID",
+    "anyFlag": "任意标志",
+    "searching": "搜索中...",
+    "noUsers": "未找到用户",
+    "goToUserId": "前往用户 ID {{id}}",
+    "exactIdLookup": "精确 ID 查找",
+    "loadMore": "加载更多",
+    "loading": "加载中..."
+  },
+  "sections": {
+    "info": "信息",
+    "flags": "标志",
+    "actions": "操作",
+    "sessions": "活跃会话",
+    "notes": "员工备注",
+    "audit": "审计日志"
+  },
+  "user": {
+    "info": {
+      "username": "用户名",
+      "displayName": "显示名称",
+      "noDisplayName": "未设置显示名称",
+      "saveChanges": "保存更改",
+      "accountDetails": "账户详情",
+      "email": "邮箱",
+      "emailVerified": "邮箱已验证",
+      "yes": "是",
+      "no": "否",
+      "sendReminder": "发送提醒",
+      "verifyReminderSent": "验证提醒已发送",
+      "userId": "用户 ID",
+      "dateOfBirth": "出生日期",
+      "created": "创建时间",
+      "restrictedUntil": "限制至"
+    },
+    "flags": {
+      "current": "当前标志",
+      "manage": "管理标志",
+      "none": "未设置标志"
+    },
+    "actions": {
+      "enableAccount": "启用账户",
+      "disableAccount": "停用账户",
+      "forceLogout": "强制登出",
+      "warnUser": "警告用户",
+      "restrictUser": "限制用户",
+      "liftRestriction": "解除限制",
+      "softDeleteAccount": "软删除账户",
+      "hardDeleteAccount": "硬删除账户",
+      "softDeletedBanner": "此账户已软删除。用户无法登录，但其数据仍保留。",
+      "errors": {
+        "liftRestriction": "解除限制失败",
+        "updateUser": "更新用户失败",
+        "forceLogout": "强制登出失败",
+        "warnUser": "警告用户失败",
+        "deleteAccount": "删除账户失败",
+        "restrictUser": "限制用户失败"
+      }
+    },
+    "modals": {
+      "reasonRequired": "原因（必填）",
+      "reasonOptional": "原因（可选）",
+      "placeholderAudit": "为审计日志添加说明",
+      "disable": {
+        "title": "停用账户",
+        "enableTitle": "启用账户",
+        "bodyDisable": "确定要停用 @{{username}} 的账户吗？对方将被登出，在重新启用前无法登录。",
+        "bodyEnable": "确定要重新启用 @{{username}} 的账户吗？",
+        "placeholder": "说明停用此账户的原因"
+      },
+      "forceLogout": {
+        "title": "强制登出",
+        "body": "确定要将 @{{username}} 从所有会话登出吗？对方需要重新登录，但账户仍保持启用。"
+      },
+      "warn": {
+        "title": "警告用户",
+        "body": "这将向 @{{username}} 发送警告邮件并记入审计记录。不会改变其账户状态。",
+        "placeholder": "说明警告原因",
+        "submit": "发送警告",
+        "toastSent": "警告已发送并已邮件通知用户",
+        "toastEmailFailed": "警告已记录，但邮件发送失败"
+      },
+      "restrict": {
+        "title": "限制用户",
+        "body": "被限制的用户在限制结束前无法发送消息或创建帖子。",
+        "duration": "时长",
+        "submit": "限制",
+        "placeholder": "说明限制原因",
+        "durations": {
+          "1h": "1 小时",
+          "6h": "6 小时",
+          "1d": "1 天",
+          "3d": "3 天",
+          "7d": "7 天",
+          "30d": "30 天"
+        }
+      },
+      "delete": {
+        "softTitle": "软删除账户",
+        "hardTitle": "硬删除账户",
+        "softBody": "这将软删除 @{{username}} 的账户。对方将被登出且无法登录，但其数据会保留以供审核与审计。",
+        "hardBody": "这将永久从数据库中移除 @{{username}} 的账户及相关数据。其拥有的空间也会被删除。此操作无法撤销。",
+        "type": "删除类型",
+        "softOption": "软删除（推荐）",
+        "hardOption": "硬删除（不可逆）",
+        "confirmUsername": "输入 @{{username}} 以确认",
+        "placeholderSoft": "说明软删除此账户的原因",
+        "placeholderHard": "说明必须永久删除此账户的原因"
+      }
+    },
+    "sessions": {
+      "empty": "无活跃会话",
+      "created": "创建于 {{relative}}",
+      "lastUsed": "上次使用 {{relative}}",
+      "revoke": "撤销",
+      "errorRevoke": "撤销会话失败"
+    },
+    "notes": {
+      "placeholder": "给其他员工留言 — 用户不可见",
+      "add": "添加备注",
+      "adding": "添加中...",
+      "empty": "暂无员工备注",
+      "errorAdd": "添加备注失败"
+    },
+    "audit": {
+      "empty": "暂无员工操作"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "待处理",
+      "reviewed": "已审核",
+      "dismissed": "已驳回",
+      "actioned": "已处理"
+    },
+    "actions": {
+      "shutDownSpace": "关闭空间",
+      "takeDownContent": "下架内容",
+      "lockDownSpace": "封锁空间"
+    },
+    "detailsTitle": "举报详情",
+    "backToReports": "返回举报列表",
+    "anyStatus": "任意状态",
+    "anyType": "任意类型",
+    "targetTypes": {
+      "message": "消息",
+      "post": "帖子",
+      "comment": "评论",
+      "user": "用户",
+      "space": "空间"
+    },
+    "reportedBy": "由 {{name}} 举报",
+    "reporterNotes": "举报人备注",
+    "reportedContent": "被举报内容",
+    "viewDetails": "查看详情",
+    "openUserPanel": "打开员工用户面板",
+    "markReviewed": "标为已审核",
+    "markActioned": "标为已处理",
+    "dismiss": "驳回",
+    "reviewedShort": "已审核",
+    "actionedShort": "已处理",
+    "reviewedBy": "{{status}} · {{name}}",
+    "empty": "未找到举报",
+    "loadingReport": "正在加载举报…",
+    "loadFailed": "加载举报失败",
+    "toasts": {
+      "actionCompleted": "操作已完成",
+      "actionCompletedMarked": "操作已完成，举报已标为已处理",
+      "alreadyRemoved": "目标已被移除",
+      "lockdownSuccess": "空间已封锁并已通知所有者"
+    },
+    "errors": {
+      "update": "更新举报失败",
+      "action": "完成操作失败",
+      "lockdown": "封锁空间失败"
+    },
+    "content": {
+      "dmContext": "私信上下文",
+      "messageContext": "消息上下文",
+      "dmContextHint": "出于隐私考虑，仅显示有限的相邻消息。",
+      "reported": "已举报",
+      "noText": "（无文字内容）",
+      "unknown": "未知",
+      "membersOwnedBy_one": "{{count}} 名成员 · 所有者 {{owner}}",
+      "membersOwnedBy_other": "{{count}} 名成员 · 所有者 {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "任意状态",
+    "status": {
+      "pending": "待处理",
+      "accepted": "已接受",
+      "rejected": "已拒绝"
+    },
+    "spaceLockdownAppeal": "空间封锁申诉",
+    "responsePlaceholder": "给用户的回复（可选）",
+    "accept": "接受",
+    "reject": "拒绝",
+    "viewAccount": "查看账户",
+    "viewUser": "查看用户",
+    "staffResponse": "员工回复：{{text}}",
+    "empty": "未找到申诉",
+    "errorUpdate": "更新申诉失败",
+    "decidedBy": "{{status}} · {{name}}"
+  },
+  "support": {
+    "anyStatus": "任意状态",
+    "status": {
+      "open": "开放",
+      "awaiting_reply": "等待回复",
+      "resolved": "已解决",
+      "closed": "已关闭"
+    },
+    "empty": "未找到工单",
+    "selectTicket": "选择工单",
+    "loadingTicket": "正在加载工单…",
+    "resolve": "解决",
+    "close": "关闭",
+    "staff": "员工",
+    "replyPlaceholder": "回复用户",
+    "sendReply": "发送回复",
+    "sending": "发送中…",
+    "errors": {
+      "send": "发送回复失败",
+      "update": "更新工单失败"
+    }
+  },
+  "activity": {
+    "empty": "暂无员工操作",
+    "removedUser": "已移除的用户",
+    "removedUserNamed": "@{{name}}（已移除）"
+  },
+  "auditActions": {
+    "disabledAccount": "停用了此账户",
+    "enabledAccount": "启用了此账户",
+    "softDeletedAccount": "软删除了此账户",
+    "hardDeletedAccount": "硬删除了此账户",
+    "forcedLogout": "强制登出了此账户",
+    "warnedUser": "警告了此用户",
+    "restrictedUser": "限制了此用户",
+    "liftedRestriction": "解除了此用户的限制",
+    "grantedFlag": "授予了 {{flag}} 标志",
+    "revokedFlag": "撤销了 {{flag}} 标志",
+    "updatedProfile": "更新了此用户的资料",
+    "addedNote": "添加了员工备注",
+    "revokedSession": "撤销了会话",
+    "tookDownContent": "下架了被举报的{{type}}",
+    "lockedDownSpace": "封锁了空间",
+    "shutDownSpace": "关闭了被举报的空间",
+    "global": {
+      "disabled": "{{actor}} 停用了 {{target}}",
+      "enabled": "{{actor}} 启用了 {{target}}",
+      "softDeleted": "{{actor}} 软删除了 {{target}}",
+      "hardDeleted": "{{actor}} 硬删除了 {{target}}",
+      "forcedLogout": "{{actor}} 强制登出了 {{target}}",
+      "warned": "{{actor}} 警告了 {{target}}",
+      "restricted": "{{actor}} 限制了 {{target}}",
+      "liftedRestriction": "{{actor}} 解除了 {{target}} 的限制",
+      "grantedFlag": "{{actor}} 向 {{target}} 授予了 {{flag}} 标志",
+      "revokedFlag": "{{actor}} 从 {{target}} 撤销了 {{flag}} 标志",
+      "updatedProfile": "{{actor}} 更新了 {{target}} 的资料",
+      "addedNote": "{{actor}} 为 {{target}} 添加了员工备注",
+      "revokedSession": "{{actor}} 撤销了 {{target}} 的会话",
+      "tookDownContent": "{{actor}} 下架了被举报的{{type}}",
+      "lockedDownSpace": "{{actor}} 封锁了空间",
+      "shutDownSpace": "{{actor}} 关闭了被举报的空间"
+    }
+  }
+}

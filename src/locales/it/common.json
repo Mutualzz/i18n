@@ -1,0 +1,280 @@
+{
+  "cancel": "Annulla",
+  "save": "Salva",
+  "saveChanges": "Salva modifiche",
+  "close": "Chiudi",
+  "create": "Crea",
+  "delete": "Elimina",
+  "add": "Aggiungi",
+  "remove": "Rimuovi",
+  "reset": "Reimposta",
+  "back": "Indietro",
+  "clear": "Cancella",
+  "finish": "Fine",
+  "retry": "Riprova",
+  "apply": "Applica",
+  "undo": "Annulla",
+  "redo": "Ripeti",
+  "open": "Apri",
+  "proceed": "Procedi",
+  "gotIt": "Ho capito",
+  "seo": {
+    "defaultTitle": "Mutualzz (Accesso anticipato)",
+    "defaultDescription": "Connettiti con altre persone che condividono i tuoi interessi. Attualmente in fase di intenso sviluppo"
+  },
+  "reload": "Ricarica l'app",
+  "download": "Scarica Mutualzz",
+  "accept": "Accetta",
+  "decline": "Rifiuta",
+  "restore": "Ripristina",
+  "uploadCustomFont": "Carica carattere personalizzato",
+  "language": {
+    "title": "Lingua",
+    "description": "Scegli la lingua usata in Mutualzz.",
+    "systemDefault": "Lingua del dispositivo"
+  },
+  "calendar": {
+    "sameDay": "[Oggi alle] HH:mm",
+    "nextDay": "[Domani alle] HH:mm",
+    "lastDay": "[Ieri alle] HH:mm",
+    "lastWeek": "[Lo scorso] dddd [alle] HH:mm",
+    "sameElse": "DD/MM/YYYY HH:mm"
+  },
+  "duration": {
+    "clearOnDateAt": "Cancella {{date}} a {{time}}",
+    "clearTodayAt": "Cancella oggi alle {{time}}",
+    "clearTomorrowAt": "Cancella domani alle {{time}}",
+    "days_one": "{{count}} giorno",
+    "days_other": "{{count}} giorni",
+    "dontClear": "Non cancellare",
+    "forever": "Per sempre",
+    "hours_one": "{{count}} ora",
+    "hours_other": "{{count}} ore",
+    "minutes_one": "{{count}} minuto",
+    "minutes_other": "{{count}} minuti"
+  },
+  "status": {
+    "clearCustomAfter": "Cancella lo stato personalizzato dopo",
+    "clearOnlineAfter": "Cancella lo stato online dopo",
+    "dnd": "Non disturbare",
+    "dndDescription": "Non riceverai notifiche",
+    "idle": "Inattivo",
+    "idleDescription": "Lontano dalla tastiera",
+    "invisible": "Invisibile",
+    "invisibleDescription": "Appare offline",
+    "offline": "Offline",
+    "online": "Online",
+    "saveCustom": "Salva lo stato personalizzato"
+  },
+  "report": {
+    "title": "Segnala {{label}}",
+    "description": "I rapporti vengono esaminati dal personale. Scegli il motivo che meglio si adatta.",
+    "detailsPlaceholder": "Aggiungi ulteriori dettagli (facoltativo)",
+    "submit": "Invia segnalazione",
+    "submitting": "Invio...",
+    "success": "Rapporto inviato. Grazie per aver contribuito a mantenere le cose al sicuro.",
+    "action": "Segnala",
+    "reasons": {
+      "spam": "Spam",
+      "harassment": "Molestie o abusi",
+      "hate_speech": "Incitamento all'odio",
+      "nsfw": "NSFW / Contenuti inappropriati",
+      "self_harm": "Autolesionismo o suicidio",
+      "impersonation": "Impersonificazione",
+      "misinformation": "Disinformazione",
+      "other": "Altro"
+    }
+  },
+  "editable": {
+    "addToDictionary": "Aggiungi al dizionario",
+    "spellcheck": "Controllo ortografico",
+    "cut": "Taglia",
+    "copy": "Copia",
+    "paste": "Incolla"
+  },
+  "customStatus": {
+    "title": "Imposta il tuo stato",
+    "heading": "Stato personalizzato",
+    "label": "Stato",
+    "placeholder": "Inserisci il tuo stato...",
+    "setPlaceholder": "Imposta stato personalizzato...",
+    "setShort": "Imposta uno stato personalizzato...",
+    "editA11y": "Modifica stato personalizzato",
+    "clearA11y": "Cancella stato personalizzato",
+    "changeEmoji": "Cambia emoji di stato",
+    "addEmoji": "Aggiungi emoji di stato",
+    "chooseEmoji": "Scegli l'emoji di stato",
+    "pickEmoji": "Scegli un'emoji",
+    "removeEmoji": "Rimuovi le emoji",
+    "changeStatus": "Cambia stato",
+    "whatsOnYourMind": "Cos'hai in mente?"
+  },
+  "externalLink": {
+    "proceed": "Procedi",
+    "close": "Chiudi",
+    "title": "Apri collegamento esterno",
+    "aboutToOpen": "Stai per aprire un collegamento esterno:",
+    "unsafeTitle": "Questo collegamento sembra non essere sicuro",
+    "unsafeHttpBody": "Il collegamento che stai tentando di aprire utilizza una connessione HTTP non sicura. Ciò potrebbe potenzialmente esporre i tuoi dati a terzi.",
+    "confirmProceed": "Sei sicuro di voler procedere?",
+    "blockedInApp": "Non consentiamo l'apertura di collegamenti non sicuri direttamente nell'app per la tua sicurezza. Copia il collegamento e aprilo nel tuo browser web."
+  },
+  "connection": {
+    "reconnect": "Riconnettiti",
+    "enableAudio": "Fare clic per abilitare l'audio",
+    "offlineBanner": "Attualmente sei offline",
+    "audioBlocked": "Il tuo browser ha bloccato la riproduzione audio vocale"
+  },
+  "nav": {
+    "goBack": "Torna indietro",
+    "goForward": "Vai avanti"
+  },
+  "updater": {
+    "pleaseWait": "Aggiornamento in corso... attendere"
+  },
+  "crash": {
+    "title": "Qualcosa è andato storto",
+    "bodyDesktop": "Mutualzz si è verificato un errore imprevisto. Ricarica l'app per riprovare.",
+    "orPressShortcut": "Oppure premi {{shortcut}}",
+    "bodyMobile": "Mutualzz si è verificato un errore imprevisto. Chiudi completamente l'app, quindi riaprila.",
+    "hintIos": "Scorri verso l'alto dalla parte inferiore dello schermo per aprire il commutatore di app, quindi scorri Mutualzz lontano.",
+    "hintAndroid": "Apri la panoramica delle app recenti, quindi scorri Mutualzz fino alla chiusura dell'app."
+  },
+  "a11y": {
+    "closeProfile": "Chiudi profilo",
+    "settings": "Impostazioni",
+    "deleteInvite": "Elimina invito",
+    "deleteNamed": "Elimina {{name}}",
+    "deleteExpression": "Elimina :{{name}}:",
+    "removeMemberFromRole": "Rimuovi {{member}} da {{role}}",
+    "allowPermission": "Consenti {{label}}",
+    "neutralPermission": "Neutro {{label}}",
+    "denyPermission": "Nega {{label}}",
+    "expandWidget": "Espandi il widget {{type}}",
+    "expandWidgetHint": "Apre il contenuto completo del widget",
+    "editWidgetHint": "Apre l'editor dei widget. Premi a lungo per riorganizzare i widget.",
+    "playVideo": "Riproduci video",
+    "pauseVideo": "Metti in pausa il video",
+    "tapToOpen": "Tocca per aprire",
+    "sent": "Inviato",
+    "createChannelInCategory": "Crea canale nella categoria",
+    "reorder": "Riordina",
+    "time": "Tempo",
+    "closeModal": "Chiudi modale",
+    "increment": "Incremento",
+    "decrement": "Decremento",
+    "openColorPicker": "Apri il selettore colori",
+    "randomColor": "Colore casuale",
+    "randomColorHint": "Scegli un colore casuale",
+    "removeColorStop": "Rimuovere l'interruzione del colore",
+    "rangeSliderHint": "Dispositivo di scorrimento dell'intervallo. Regola trascinando."
+  },
+  "errors": {
+    "unknown": "Errore sconosciuto"
+  },
+  "select": {
+    "placeholder": "Seleziona un'opzione"
+  },
+  "media": {
+    "play": "Riproduci",
+    "pause": "Pausa",
+    "download": "Scarica",
+    "volume": "Volume"
+  },
+  "notifications": {
+    "unreads": "Non letti",
+    "mentions": "Menzioni",
+    "requests": "Richieste",
+    "markAllAsRead": "Segna tutto come letto",
+    "acceptedFriend": "{{name}} ha accettato la tua richiesta di amicizia",
+    "sentAttachment": "Inviato un allegato",
+    "noMessagesYet": "Nessun messaggio ancora",
+    "youWereMentioned": "Sei stato menzionato",
+    "noUnreads": "Nessun messaggio non letto",
+    "noMentions": "Nessuna nuova menzione",
+    "recentlyAccepted": "Accettato di recente",
+    "groupDmChannel": "Canale DM di gruppo",
+    "messagesChannel": "Messaggi",
+    "reply": "Rispondi",
+    "messagePlaceholder": "Messaggio",
+    "send": "Invia"
+  },
+  "markdown": {
+    "bold": "Grassetto",
+    "italic": "Corsivo",
+    "underline": "Sottolineato",
+    "strikethrough": "Barrato",
+    "blockquote": "Citazione",
+    "code": "Codice",
+    "spoiler": "Spoiler"
+  },
+  "support": {
+    "myTickets": "I miei biglietti",
+    "contactSupport": "Contatta l'assistenza",
+    "loginToContact": "Accedi per contattare l'assistenza",
+    "privacyPolicy": "Informativa sulla privacy",
+    "faq": "Domande frequenti",
+    "quickLinks": "Collegamenti rapidi",
+    "contactUs": "Contattaci",
+    "openHelpCenter": "Apri il centro assistenza",
+    "describeIssue": "Descrivi il tuo problema",
+    "newTicket": "Nuovo biglietto",
+    "writeReply": "Scrivi una risposta",
+    "loading": "Caricamento...",
+    "loadingTickets": "Caricamento biglietti...",
+    "loadMore": "Carica altro",
+    "sendReply": "Invia risposta",
+    "sendReplyFailed": "Impossibile inviare la risposta",
+    "staffLabel": "Supporto",
+    "ticketClosed": "Questo ticket è chiuso.",
+    "ticketClosedHint": "Questo ticket è chiuso. Apri un nuovo ticket se hai ancora bisogno di aiuto.",
+    "updatedAt": "aggiornato {{date}}",
+    "pageIntro": "Hai bisogno di aiuto con Mutualzz? Sfoglia le risposte comuni di seguito o contatta il nostro team.",
+    "mobileIntro": "Sfoglia la guida su mutualzz.com/support o contattaci di seguito.",
+    "subjectPlaceholder": "Soggetto",
+    "submitTicket": "Invia ticket",
+    "createFailed": "Impossibile creare il biglietto",
+    "noTickets": "Nessun biglietto ancora",
+    "contactEmailLoggedIn": "Inviaci un'e-mail a {{email}} o apri un ticket di supporto da questa pagina.",
+    "contactEmailGuest": "Inviaci un'e-mail a {{email}}.",
+    "categories": {
+      "account": "Account e accesso",
+      "bug": "Bug o crash",
+      "donations": "Donazioni",
+      "feature": "Richiesta di funzionalità",
+      "other": "Altro"
+    },
+    "faqItems": {
+      "report": {
+        "q": "Come faccio a segnalare un utente o un contenuto?",
+        "a": "Apri un profilo utente o il menu dei contenuti e scegli Segnala. Il nostro staff lo esaminerà."
+      },
+      "appeal": {
+        "q": "Come posso presentare ricorso contro un divieto?",
+        "a": "Se hai ricevuto un'e-mail di ban, utilizza il collegamento di ricorso presente nel messaggio. Il personale esaminerà il tuo ricorso."
+      },
+      "delete": {
+        "q": "Come posso eliminare il mio account?",
+        "a": "Vai su Impostazioni → Il mio account → Elimina account."
+      },
+      "block": {
+        "q": "Come posso bloccare qualcuno?",
+        "a": "Apri il loro profilo e scegli Blocca. Puoi sbloccarli in seguito dalle impostazioni."
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "Segnala un contenuto o un utente",
+        "hint": "Disponibile dai menu del profilo e dalle azioni sui contenuti"
+      },
+      "appeals": {
+        "label": "Appelli al divieto",
+        "hint": "Utilizza il collegamento per il ricorso contenuto nell'e-mail di ban"
+      },
+      "delete": {
+        "label": "Elimina il tuo account",
+        "hint": "Impostazioni → Il mio account → Elimina account"
+      }
+    }
+  }
+}

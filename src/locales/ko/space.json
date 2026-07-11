@@ -1,0 +1,479 @@
+{
+  "title": "스페이스 설정",
+  "titleShort": "스페이스 설정",
+  "overviewDescription": "역할, 초대, 표현식, 운영을 관리합니다.",
+  "nav": {
+    "categories": {
+      "general": "일반",
+      "people": "사람",
+      "moderation": "운영"
+    },
+    "pages": {
+      "profile": "프로필",
+      "roles": "역할",
+      "channels": "채널",
+      "invites": "초대",
+      "expressions": "표현식",
+      "bans": "차단"
+    }
+  },
+  "actions": {
+    "deleteSpace": "스페이스 삭제",
+    "leaveSpace": "스페이스 나가기",
+    "createRole": "역할 만들기",
+    "deleteRole": "역할 삭제",
+    "createInvite": "초대 만들기",
+    "createInviteLink": "초대 링크 만들기",
+    "deleteAllInvites": "모든 초대 삭제",
+    "editInviteLink": "초대 링크 편집",
+    "revokeBan": "차단 해제",
+    "unbanMember": "멤버 차단 해제",
+    "unbanning": "차단 해제 중...",
+    "kick": "추방",
+    "ban": "차단",
+    "addMembers": "멤버 추가",
+    "markAllAsRead": "모두 읽음으로 표시",
+    "clearPermissions": "권한 지우기",
+    "working": "작업 중...",
+    "creating": "만드는 중...",
+    "addMembersCount_one": "추가 ({{count}})",
+    "addMembersCount_other": "추가 ({{count}})"
+  },
+  "profile": {
+    "spaceIcon": "스페이스 아이콘",
+    "name": "이름",
+    "description": "설명",
+    "descriptionPlaceholder": "스페이스에 대해 무언가 적어보세요...",
+    "updatedSuccess": "스페이스가 성공적으로 업데이트되었습니다.",
+    "genericError": "오류가 발생했습니다"
+  },
+  "invites": {
+    "activeLinks": "활성 초대 링크",
+    "createTitle": "초대 링크 만들기",
+    "createDescriptionChannel": "#{{channel}} 링크를 만듭니다.",
+    "createDescriptionDefault": "이 스페이스의 기본 텍스트 채널 링크를 만듭니다.",
+    "createFailed": "초대 만들기에 실패했습니다",
+    "empty": "이 스페이스에 아직 생성된 초대가 없습니다.",
+    "columns": {
+      "inviter": "초대한 사람",
+      "inviteCode": "초대 코드",
+      "uses": "사용 횟수",
+      "expires": "만료"
+    },
+    "usesLabel": "사용 횟수: {{uses}}{{max}}",
+    "usesMax": " / {{max}}",
+    "neverExpires": "만료 없음",
+    "expired": "만료됨",
+    "copyInviteUrl": "초대 URL 복사",
+    "copiedToClipboard": "클립보드에 복사됨",
+    "tapToCopy": "링크를 탭하여 복사",
+    "modal": {
+      "title": "{{spaceName}}에 친구 초대",
+      "landingChannel": "받는 사람은 #{{channelName}}에 입장합니다",
+      "searchFriends": "친구 검색",
+      "noResults": "결과가 없습니다.",
+      "noFriends": "초대할 친구가 없습니다. 아래 링크를 공유하세요.",
+      "inviteLink": "초대 링크",
+      "expiresPrefix": "이 링크는 ",
+      "expiresNever": "만료되지 않습니다",
+      "editTitle": "현재 초대 링크 편집",
+      "expireAfter": "만료 시점",
+      "maxUses": "최대 사용 횟수",
+      "expiresAfterUses_one": " 또는 {{count}}회 사용 후",
+      "expiresAfterUses_other": " 또는 {{count}}회 사용 후"
+    },
+    "expiry": {
+      "30minutes": "30분",
+      "1hour": "1시간",
+      "6hours": "6시간",
+      "12hours": "12시간",
+      "1day": "1일",
+      "7days": "7일",
+      "never": "없음"
+    },
+    "maxUses": {
+      "noLimit": "제한 없음",
+      "1use": "1회",
+      "5uses": "5회",
+      "10uses": "10회",
+      "25uses": "25회",
+      "50uses": "50회",
+      "100uses": "100회"
+    }
+  },
+  "roles": {
+    "defaultPermissions": "기본 권한",
+    "everyoneSubtitle": "@everyone - 모든 스페이스 멤버에 적용",
+    "searchPlaceholder": "역할 검색",
+    "membersColumn": "멤버",
+    "actionsColumn": "작업",
+    "hierarchyHint": "목록에서 위에 있는 역할일수록 권한이 높습니다. 역할을 드래그하여 계층을 변경하세요.",
+    "empty": "이 스페이스에 아직 생성된 역할이 없습니다.",
+    "emptySearch": "검색과 일치하는 역할이 없습니다.",
+    "memberCount_one": "멤버 {{count}}명",
+    "memberCount_other": "멤버 {{count}}명",
+    "editTitle": "역할 편집 - {{name}}",
+    "tabs": {
+      "display": "표시",
+      "permissions": "권한",
+      "manageMembers": "멤버 관리",
+      "members": "멤버"
+    },
+    "unsavedChanges": "저장되지 않은 변경 사항이 있습니다!",
+    "saveFailed": "역할 저장에 실패했습니다",
+    "display": {
+      "roleName": "역할 이름",
+      "roleColor": "역할 색상",
+      "hoist": "역할 멤버를 온라인 멤버와 별도로 표시",
+      "mentionable": "누구나 이 역할을 @멘션할 수 있도록 허용",
+      "mentionableHint": "\"@everyone, @here 및 모든 역할 멘션\" 권한이 있는 멤버는 이 설정과 관계없이 이 역할을 멘션할 수 있습니다.",
+      "mentionableHintShort": "전체 멘션 권한이 있는 멤버는 이 역할을 멘션할 수 있습니다."
+    },
+    "members": {
+      "title": "역할 멤버",
+      "description": "이 역할에 할당된 멤버를 보고 관리합니다.",
+      "searchPlaceholder": "멤버 검색",
+      "emptyAssigned": "이 역할에 할당된 멤버가 없습니다.",
+      "emptySearch": "검색과 일치하는 멤버가 없습니다.",
+      "addTitle": "멤버 추가",
+      "addDescription": "{{roleName}}에 최대 {{max}}명의 멤버 추가",
+      "selectedCount": "{{selected}}/{{max}} 선택됨",
+      "noEligible": "이 역할에 추가할 수 있는 멤버가 없습니다.",
+      "addSuccess_one": "{{roleName}}에 멤버 {{count}}명을 추가했습니다",
+      "addSuccess_other": "{{roleName}}에 멤버 {{count}}명을 추가했습니다",
+      "addFailed": "역할에 멤버 추가에 실패했습니다"
+    },
+    "hierarchy": {
+      "cantReorder": "자신의 최고 역할과 같거나 그 이상의 역할은 순서를 변경할 수 없습니다",
+      "cantAssign": "이 역할을 할당하거나 제거할 수 없습니다",
+      "cantEditRole": "이 역할은 자신의 최고 역할과 같거나 그 이상에 있어 편집할 수 없습니다.",
+      "cantManageMembers": "이 역할의 멤버를 할당하거나 제거할 수 없습니다.",
+      "dragToReorder": "드래그하여 순서 변경",
+      "dragToReorderHierarchy": "드래그하여 계층 순서 변경",
+      "failedReorder": "역할 순서 변경에 실패했습니다",
+      "failedUpdateRole": "역할 업데이트에 실패했습니다",
+      "cantManageMember": "이 멤버를 관리할 권한이 없습니다"
+    },
+    "delete": {
+      "title": "역할 삭제",
+      "confirm": "{{name}} 역할을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+    },
+    "permissions": {
+      "searchPlaceholder": "권한 검색...",
+      "jumpToCategory": "카테고리로 이동…",
+      "emptySearch": "검색과 일치하는 권한이 없습니다",
+      "clear": "권한 지우기",
+      "groups": {
+        "general": "일반 스페이스 권한",
+        "membership": "멤버십 권한",
+        "text": "텍스트 채널 권한",
+        "voice": "음성 채널 권한",
+        "advanced": "고급 권한"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "채널 보기",
+          "description": "멤버가 기본적으로 채널을 볼 수 있도록 허용합니다"
+        },
+        "ManageChannels": {
+          "label": "채널 관리",
+          "description": "멤버가 채널을 만들거나 편집하거나 삭제할 수 있도록 허용합니다"
+        },
+        "ManageRoles": {
+          "label": "역할 관리",
+          "description": "멤버가 새 역할을 만들고 자신의 최상위 역할보다 낮은 역할을 편집하거나 삭제할 수 있도록 허용합니다"
+        },
+        "CreateExpressions": {
+          "label": "표현식 만들기",
+          "description": "멤버가 이 스페이스에서 이모지와 스티커를 만들 수 있도록 허용합니다."
+        },
+        "ManageExpressions": {
+          "label": "표현식 관리",
+          "description": "멤버가 이 스페이스의 이모지와 스티커를 편집하거나 삭제할 수 있도록 허용합니다."
+        },
+        "ManageSpace": {
+          "label": "스페이스 관리",
+          "description": "멤버가 이 스페이스를 변경할 수 있도록 허용합니다"
+        },
+        "CreateInvites": {
+          "label": "초대 만들기",
+          "description": "멤버가 이 스페이스에 새 사람을 초대할 수 있도록 허용합니다"
+        },
+        "KickMembers": {
+          "label": "멤버 추방",
+          "description": "추방은 다른 멤버를 이 스페이스에서 제거합니다. 추방된 멤버는 다른 초대가 있으면 다시 참여할 수 있습니다."
+        },
+        "BanMembers": {
+          "label": "멤버 차단",
+          "description": "차단은 멤버를 이 스페이스에서 제거하고 차단이 해제될 때까지 다시 참여하지 못하게 합니다."
+        },
+        "SendMessages": {
+          "label": "메시지 보내기",
+          "description": "멤버가 텍스트 채널에서 메시지를 보낼 수 있도록 허용합니다"
+        },
+        "EmbedLinks": {
+          "label": "링크 임베드",
+          "description": "멤버가 메시지에 링크를 임베드할 수 있도록 허용합니다"
+        },
+        "AttachFiles": {
+          "label": "파일 첨부",
+          "description": "멤버가 메시지에 파일을 첨부할 수 있도록 허용합니다"
+        },
+        "MentionEveryone": {
+          "label": "Everyone 멘션",
+          "description": "멤버가 메시지에서 @everyone과 @here를 멘션할 수 있도록 허용합니다"
+        },
+        "UseExternalEmojis": {
+          "label": "외부 이모지 사용",
+          "description": "멤버가 다른 스페이스나 자신의 이모지를 메시지에서 사용할 수 있도록 허용합니다"
+        },
+        "ManageMessages": {
+          "label": "메시지 관리",
+          "description": "멤버가 다른 멤버의 메시지를 삭제할 수 있도록 허용합니다"
+        },
+        "ReadMessageHistory": {
+          "label": "메시지 기록 읽기",
+          "description": "멤버가 메시지 기록을 읽을 수 있도록 허용합니다"
+        },
+        "Connect": {
+          "label": "연결",
+          "description": "멤버가 음성 채널에 연결할 수 있도록 허용합니다"
+        },
+        "Speak": {
+          "label": "말하기",
+          "description": "멤버가 음성 채널에서 말할 수 있도록 허용합니다"
+        },
+        "Administrator": {
+          "label": "관리자",
+          "description": "이 권한이 있는 멤버는 모든 권한을 가집니다. 부여하기에 위험한 권한입니다.",
+          "descriptionBefore": "이 권한이 있는 멤버는 모든 권한을 가집니다.",
+          "descriptionDanger": "부여하기에 위험한 권한입니다"
+        }
+      }
+    },
+    "listTitle_one": "역할 - {{count}}",
+    "listTitle_other": "역할 - {{count}}",
+    "everyoneSuffix": " (@everyone)"
+  },
+  "expressions": {
+    "pageTitle": "스페이스 표현식",
+    "pageDescription": "이 스페이스용 사용자 지정 이모지와 스티커를 업로드하고 관리합니다.",
+    "emojiLimit": "안타깝게도 현재 업로드할 수 있는 이모지 한도는 100개입니다. 앱이 베타 중이라 저장 공간이 아직 문제입니다",
+    "stickerLimit": "안타깝게도 현재 업로드할 수 있는 스티커 한도는 100개입니다. 앱이 베타 중이라 저장 공간이 아직 문제입니다",
+    "stickerLimitMobile": "베타 한도: 스페이스당 스티커 {{limit}}개.",
+    "emptyEmojis": "아직 스페이스 이모지가 없습니다",
+    "emptyStickers": "아직 스페이스 스티커가 없습니다"
+  },
+  "bans": {
+    "title": "스페이스 차단 목록",
+    "description": "이 스페이스에서 차단된 사용자 목록을 보고 관리합니다. 현재 차단은 계정 기반이며, 향후 IP 차단을 도입할 예정입니다.",
+    "descriptionShort": "이 스페이스에서 차단된 사용자를 보고 관리합니다.",
+    "searchPlaceholder": "사용자 ID, 사용자 이름 또는 표시 이름으로 차단 검색",
+    "searchPlaceholderShort": "사용자 이름 또는 사용자 ID로 검색",
+    "empty": "아직 차단된 사용자가 없습니다",
+    "reason": "사유",
+    "noReason": "사유가 제공되지 않았습니다",
+    "bannedBy": "차단한 사람",
+    "bannedAt": "차단 일시",
+    "unbanSuccess": "{{name}} 차단 해제 완료",
+    "unbanTitle": "{{name}} 차단을 해제하시겠습니까?"
+  },
+  "moderation": {
+    "banTitle": "{{name}}을(를) 차단하시겠습니까?",
+    "kickTitle": "{{name}}을(를) 추방하시겠습니까?",
+    "kickFromSpaceTitle": "{{name}}을(를) 스페이스에서 추방",
+    "kickBody": "@{{name}}을(를) 스페이스에서 추방하시겠습니까? 다시 참여하려면 초대가 필요합니다.",
+    "kickSuccess": "{{name}}을(를) 스페이스에서 추방했습니다",
+    "reason": "사유",
+    "reasonOptional": "사유 (선택 사항)",
+    "reasonForKick": "추방 사유",
+    "reasonForBan": "차단 사유 *",
+    "deleteRecentMessages": "최근 메시지 삭제",
+    "banReasons": {
+      "suspicious": "의심스럽거나 스팸 계정",
+      "compromised": "도용되었거나 해킹된 계정",
+      "breakingRules": "스페이스 규칙 위반",
+      "other": "기타"
+    },
+    "deleteMessages": {
+      "dontDelete": "삭제하지 않음",
+      "dontDeleteMessages": "메시지를 삭제하지 않음",
+      "previousHour": "지난 1시간",
+      "lastHour": "지난 1시간",
+      "previousDay": "지난 1일",
+      "last24Hours": "지난 24시간",
+      "previousWeek": "지난 1주",
+      "last7Days": "지난 7일",
+      "allMessages": "모든 메시지",
+      "deleteAllMessages": "모든 메시지 삭제"
+    },
+    "youWereBanned": "{{name}}에서 차단되었습니다",
+    "youWereKicked": "{{name}}에서 추방되었습니다"
+  },
+  "channels": {
+    "noCategory": "카테고리 없음",
+    "empty": "순서를 변경할 채널이 없습니다.",
+    "reorderHint": "채널을 드래그하여 순서를 변경하세요. 카테고리 바로 아래에 채널을 놓으면 해당 그룹에 추가됩니다. 카테고리 위로 드래그하면 그룹에서 제거됩니다.",
+    "overwrites": "덮어쓰기",
+    "searchTargets": "역할 또는 멤버 검색…",
+    "permissions": {
+      "groups": {
+        "general": "일반 채널 권한",
+        "text": "텍스트 채널 권한",
+        "voice": "음성 채널 권한"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "채널 보기",
+          "description": "멤버가 이 채널을 볼 수 있도록 허용합니다"
+        },
+        "ManageChannels": {
+          "label": "채널 관리",
+          "description": "멤버가 이 채널을 편집하거나 삭제할 수 있도록 허용합니다"
+        },
+        "ManageRoles": {
+          "label": "권한 관리",
+          "description": "멤버가 이 채널의 권한 덮어쓰기를 편집할 수 있도록 허용합니다"
+        },
+        "SendMessages": {
+          "label": "메시지 보내기",
+          "description": "멤버가 이 채널에서 메시지를 보낼 수 있도록 허용합니다"
+        },
+        "EmbedLinks": {
+          "label": "링크 임베드",
+          "description": "멤버가 링크를 임베드할 수 있도록 허용합니다"
+        },
+        "AttachFiles": {
+          "label": "파일 첨부",
+          "description": "멤버가 파일을 첨부할 수 있도록 허용합니다"
+        },
+        "MentionEveryone": {
+          "label": "Everyone 멘션",
+          "description": "멤버가 @everyone과 @here를 멘션할 수 있도록 허용합니다"
+        },
+        "UseExternalEmojis": {
+          "label": "외부 이모지 사용",
+          "description": "멤버가 다른 스페이스의 이모지를 사용할 수 있도록 허용합니다"
+        },
+        "ManageMessages": {
+          "label": "메시지 관리",
+          "description": "멤버가 다른 사람의 메시지를 삭제할 수 있도록 허용합니다"
+        },
+        "ReadMessageHistory": {
+          "label": "메시지 기록 읽기",
+          "description": "멤버가 이전 메시지를 읽을 수 있도록 허용합니다"
+        },
+        "Connect": {
+          "label": "연결",
+          "description": "멤버가 이 음성 채널에 연결할 수 있도록 허용합니다"
+        },
+        "Speak": {
+          "label": "말하기",
+          "description": "멤버가 이 음성 채널에서 말할 수 있도록 허용합니다"
+        }
+      },
+      "addOverwrite": "권한 덮어쓰기 추가",
+      "roles": "역할",
+      "members": "멤버",
+      "noResults": "결과 없음",
+      "selectTargetHint": "역할 또는 멤버를 선택하여 채널별 권한을 구성하세요.",
+      "selectTargetHintLeft": "왼쪽에서 역할 또는 멤버를 선택해 이 채널의 권한을 편집하거나 +를 클릭해 추가하세요.",
+      "noOverwritesYet": "아직 덮어쓰기가 없습니다"
+    },
+    "create": {
+      "title": "채널 만들기",
+      "name": "채널 이름",
+      "namePlaceholder": "new-channel",
+      "type": "채널 유형",
+      "text": "텍스트 채널",
+      "textDescription": "메시지, 이미지 등을 보내세요",
+      "voice": "음성 채널",
+      "voiceDescription": "음성과 영상으로 함께하세요",
+      "submit": "채널 만들기",
+      "icon": "채널 아이콘",
+      "upload": "업로드",
+      "rounded": "둥글게",
+      "rotate": "회전",
+      "clear": "지우기"
+    },
+    "createCategory": {
+      "title": "카테고리 만들기",
+      "name": "카테고리 이름",
+      "namePlaceholder": "새 카테고리",
+      "submit": "카테고리 만들기"
+    },
+    "delete": {
+      "title": "채널 삭제",
+      "body": "{{name}}을(를) 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+      "confirm": "채널 삭제"
+    },
+    "deleteCategory": {
+      "title": "카테고리 \"{{name}}\"을(를) 삭제할까요?",
+      "body": "이 카테고리를 삭제하시겠습니까?",
+      "categoryOnly": "카테고리만",
+      "categoryAndChannels": "카테고리와 관련 채널 모두",
+      "confirm": "카테고리 삭제"
+    },
+    "saveOverwrite": "덮어쓰기 저장",
+    "deleteChannelAction": "채널 삭제",
+    "createInvite": "초대 만들기",
+    "createInviteLink": "초대 링크 만들기",
+    "removeIcon": "아이콘 제거",
+    "restoreIcon": "아이콘 복원",
+    "uploadEmoji": "이모지 업로드",
+    "uploadSticker": "스티커 업로드",
+    "topic": "채널 주제",
+    "topicHint": "채널 상단에 멤버에게 표시됩니다.",
+    "topicPlaceholder": "주제",
+    "settingsTitle": "채널 설정",
+    "namePlaceholder": "채널 이름",
+    "permissionOverwrites": "권한 덮어쓰기",
+    "channelInvites": "채널 초대",
+    "noChannelInvites": "#{{channel}}에 아직 생성된 초대가 없습니다.",
+    "selectOverwriteTarget": "덮어쓰기 대상을 선택하여 채널별 권한을 편집하세요.",
+    "nameEmpty": "채널 이름은 비워 둘 수 없습니다.",
+    "failedMoveMember": "멤버 이동에 실패했습니다",
+    "noSpaceEmojis": "아직 스페이스 이모지가 없습니다",
+    "pages": {
+      "overview": "개요",
+      "permissions": "권한",
+      "invites": "초대"
+    }
+  },
+  "confirm": {
+    "deleteSpaceTitle": "\"{{name}}\"을(를) 삭제하시겠습니까?",
+    "leaveSpaceTitle": "\"{{name}}\"에서 나가시겠습니까?",
+    "deleteSpaceBody": "{{name}}을(를) 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+    "leaveSpaceBody": "{{name}}에서 나가시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+    "cannotUndo": "이 작업은 되돌릴 수 없습니다."
+  },
+  "menu": {
+    "spaceSettings": "스페이스 설정",
+    "reportSpace": "스페이스 신고",
+    "leaveSpace": "스페이스 나가기",
+    "deleteSpace": "스페이스 삭제"
+  },
+  "sidebar": {
+    "createSpace": "스페이스 만들기",
+    "switchToSpaces": "스페이스로 전환",
+    "switchToDirectMessages": "다이렉트 메시지로 전환",
+    "switchTo": "전환",
+    "directMessages": "다이렉트 메시지",
+    "friends": "친구",
+    "spaces": "스페이스",
+    "switchToFeed": "피드로 전환"
+  },
+  "lockdown": {
+    "title": "이 스페이스는 잠금 상태입니다",
+    "ownerMessage": "메시지와 변경이 비활성화되었습니다. 실수라고 생각되면 이메일에서 이의 제기 링크를 확인하세요.",
+    "memberMessage": "스태프가 이 스페이스를 검토하는 동안 메시지와 변경이 비활성화되었습니다.",
+    "toast": "이 스페이스는 잠금 상태입니다. 메시지와 변경이 비활성화되었습니다."
+  },
+  "chrome": {
+    "spaceSettings": "스페이스 설정",
+    "inviteToSpace": "스페이스에 초대",
+    "createInviteA11y": "초대 만들기",
+    "createCategoryA11y": "카테고리 만들기",
+    "spaceMenuA11y": "스페이스 메뉴"
+  }
+}

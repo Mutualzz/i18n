@@ -1,0 +1,286 @@
+{
+  "title": "Staff-Panel",
+  "exit": "Beenden",
+  "working": "Wird bearbeitet...",
+  "nav": {
+    "reports": "Meldungen",
+    "activity": "Aktivität",
+    "appeals": "Einsprüche",
+    "support": "Support"
+  },
+  "pages": {
+    "activity": "Staff-Aktivität",
+    "reportDetails": "Meldungsdetails"
+  },
+  "home": {
+    "findUser": "Benutzer finden",
+    "findUserDescription": "Suche nach Benutzername oder filtere nach Flag, um ein Konto und die verfügbaren Staff-Aktionen anzuzeigen.",
+    "searchPlaceholder": "Nach Benutzername suchen oder eine Benutzer-ID einfügen",
+    "anyFlag": "Beliebiges Flag",
+    "searching": "Suche...",
+    "noUsers": "Keine Benutzer gefunden",
+    "goToUserId": "Zur Benutzer-ID {{id}}",
+    "exactIdLookup": "Exakte ID-Suche",
+    "loadMore": "Mehr laden",
+    "loading": "Wird geladen..."
+  },
+  "sections": {
+    "info": "Info",
+    "flags": "Flags",
+    "actions": "Aktionen",
+    "sessions": "Aktive Sitzungen",
+    "notes": "Staff-Notizen",
+    "audit": "Audit-Protokoll"
+  },
+  "user": {
+    "info": {
+      "username": "Benutzername",
+      "displayName": "Anzeigename",
+      "noDisplayName": "Kein Anzeigename festgelegt",
+      "saveChanges": "Änderungen speichern",
+      "accountDetails": "Kontodetails",
+      "email": "E-Mail",
+      "emailVerified": "E-Mail verifiziert",
+      "yes": "Ja",
+      "no": "Nein",
+      "sendReminder": "Erinnerung senden",
+      "verifyReminderSent": "Verifizierungserinnerung gesendet",
+      "userId": "Benutzer-ID",
+      "dateOfBirth": "Geburtsdatum",
+      "created": "Erstellt",
+      "restrictedUntil": "Eingeschränkt bis"
+    },
+    "flags": {
+      "current": "Aktuelle Flags",
+      "manage": "Flags verwalten",
+      "none": "Keine Flags gesetzt"
+    },
+    "actions": {
+      "enableAccount": "Konto aktivieren",
+      "disableAccount": "Konto deaktivieren",
+      "forceLogout": "Abmeldung erzwingen",
+      "warnUser": "Benutzer verwarnen",
+      "restrictUser": "Benutzer einschränken",
+      "liftRestriction": "Einschränkung aufheben",
+      "softDeleteAccount": "Konto soft löschen",
+      "hardDeleteAccount": "Konto endgültig löschen",
+      "softDeletedBanner": "Dieses Konto ist soft gelöscht. Der Benutzer kann sich nicht anmelden, aber die Daten bleiben erhalten.",
+      "errors": {
+        "liftRestriction": "Einschränkung konnte nicht aufgehoben werden",
+        "updateUser": "Benutzer konnte nicht aktualisiert werden",
+        "forceLogout": "Abmeldung konnte nicht erzwungen werden",
+        "warnUser": "Benutzer konnte nicht verwarnt werden",
+        "deleteAccount": "Konto konnte nicht gelöscht werden",
+        "restrictUser": "Benutzer konnte nicht eingeschränkt werden"
+      }
+    },
+    "modals": {
+      "reasonRequired": "Grund (erforderlich)",
+      "reasonOptional": "Grund (optional)",
+      "placeholderAudit": "Kontext für das Audit-Protokoll hinzufügen",
+      "disable": {
+        "title": "Konto deaktivieren",
+        "enableTitle": "Konto aktivieren",
+        "bodyDisable": "Möchtest du das Konto von @{{username}} wirklich deaktivieren? Die Person wird abgemeldet und kann sich erst wieder anmelden, wenn das Konto reaktiviert wird.",
+        "bodyEnable": "Möchtest du das Konto von @{{username}} wirklich wieder aktivieren?",
+        "placeholder": "Erkläre, warum dieses Konto deaktiviert wird"
+      },
+      "forceLogout": {
+        "title": "Abmeldung erzwingen",
+        "body": "Möchtest du @{{username}} wirklich aus allen Sitzungen abmelden? Eine erneute Anmeldung ist nötig, aber das Konto bleibt aktiviert."
+      },
+      "warn": {
+        "title": "Benutzer verwarnen",
+        "body": "Dadurch erhält @{{username}} eine Warn-E-Mail, und der Vorgang wird im Audit-Protokoll vermerkt. Der Kontostatus ändert sich nicht.",
+        "placeholder": "Erkläre, wofür die Verwarnung gilt",
+        "submit": "Verwarnung senden",
+        "toastSent": "Verwarnung gesendet und per E-Mail an den Benutzer übermittelt",
+        "toastEmailFailed": "Verwarnung erfasst, aber die E-Mail konnte nicht gesendet werden"
+      },
+      "restrict": {
+        "title": "Benutzer einschränken",
+        "body": "Eingeschränkte Benutzer können keine Nachrichten senden oder Beiträge erstellen, bis die Einschränkung endet.",
+        "duration": "Dauer",
+        "submit": "Einschränken",
+        "placeholder": "Erkläre, wofür die Einschränkung gilt",
+        "durations": {
+          "1h": "1 Stunde",
+          "6h": "6 Stunden",
+          "1d": "1 Tag",
+          "3d": "3 Tage",
+          "7d": "7 Tage",
+          "30d": "30 Tage"
+        }
+      },
+      "delete": {
+        "softTitle": "Konto soft löschen",
+        "hardTitle": "Konto endgültig löschen",
+        "softBody": "Dadurch wird das Konto von @{{username}} soft gelöscht. Die Person wird abgemeldet und kann sich nicht erneut anmelden, aber die Daten bleiben für Moderation und Audit erhalten.",
+        "hardBody": "Dadurch werden das Konto von @{{username}} und zugehörige Daten dauerhaft aus der Datenbank entfernt. Alle Spaces, die die Person besitzt, werden ebenfalls gelöscht. Dies kann nicht rückgängig gemacht werden.",
+        "type": "Löschtyp",
+        "softOption": "Soft-Löschung (empfohlen)",
+        "hardOption": "Endgültige Löschung (unwiderruflich)",
+        "confirmUsername": "Tippe @{{username}} zur Bestätigung",
+        "placeholderSoft": "Erkläre, warum dieses Konto soft gelöscht wird",
+        "placeholderHard": "Erkläre, warum dieses Konto dauerhaft entfernt werden muss"
+      }
+    },
+    "sessions": {
+      "empty": "Keine aktiven Sitzungen",
+      "created": "Erstellt {{relative}}",
+      "lastUsed": "Zuletzt verwendet {{relative}}",
+      "revoke": "Widerrufen",
+      "errorRevoke": "Sitzung konnte nicht widerrufen werden"
+    },
+    "notes": {
+      "placeholder": "Hinterlasse eine Notiz für anderes Staff — für den Benutzer nicht sichtbar",
+      "add": "Notiz hinzufügen",
+      "adding": "Wird hinzugefügt...",
+      "empty": "Noch keine Staff-Notizen",
+      "errorAdd": "Notiz konnte nicht hinzugefügt werden"
+    },
+    "audit": {
+      "empty": "Noch keine Staff-Aktionen"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "Ausstehend",
+      "reviewed": "Geprüft",
+      "dismissed": "Abgewiesen",
+      "actioned": "Bearbeitet"
+    },
+    "actions": {
+      "shutDownSpace": "Space schließen",
+      "takeDownContent": "Inhalt entfernen",
+      "lockDownSpace": "Space sperren"
+    },
+    "detailsTitle": "Meldungsdetails",
+    "backToReports": "Zurück zu Meldungen",
+    "anyStatus": "Beliebiger Status",
+    "anyType": "Beliebiger Typ",
+    "targetTypes": {
+      "message": "Nachricht",
+      "post": "Beitrag",
+      "comment": "Kommentar",
+      "user": "Benutzer",
+      "space": "Space"
+    },
+    "reportedBy": "Gemeldet von {{name}}",
+    "reporterNotes": "Notizen des Meldenden",
+    "reportedContent": "Gemeldeter Inhalt",
+    "viewDetails": "Details anzeigen",
+    "openUserPanel": "Staff-Benutzerpanel öffnen",
+    "markReviewed": "Als geprüft markieren",
+    "markActioned": "Als bearbeitet markieren",
+    "dismiss": "Abweisen",
+    "reviewedShort": "Geprüft",
+    "actionedShort": "Bearbeitet",
+    "reviewedBy": "{{status}} von {{name}}",
+    "empty": "Keine Meldungen gefunden",
+    "loadingReport": "Meldung wird geladen…",
+    "loadFailed": "Meldung konnte nicht geladen werden",
+    "toasts": {
+      "actionCompleted": "Aktion abgeschlossen",
+      "actionCompletedMarked": "Aktion abgeschlossen und Meldung als bearbeitet markiert",
+      "alreadyRemoved": "Ziel war bereits entfernt",
+      "lockdownSuccess": "Space gesperrt und Eigentümer benachrichtigt"
+    },
+    "errors": {
+      "update": "Meldung konnte nicht aktualisiert werden",
+      "action": "Aktion konnte nicht abgeschlossen werden",
+      "lockdown": "Space konnte nicht gesperrt werden"
+    },
+    "content": {
+      "dmContext": "Direktnachrichten-Kontext",
+      "messageContext": "Nachrichtenkontext",
+      "dmContextHint": "Aus Datenschutzgründen werden nur begrenzte umliegende Nachrichten angezeigt.",
+      "reported": "GEMELDET",
+      "noText": "(kein Textinhalt)",
+      "unknown": "Unbekannt",
+      "membersOwnedBy_one": "{{count}} Mitglied · im Besitz von {{owner}}",
+      "membersOwnedBy_other": "{{count}} Mitglieder · im Besitz von {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "Beliebiger Status",
+    "status": {
+      "pending": "Ausstehend",
+      "accepted": "Angenommen",
+      "rejected": "Abgelehnt"
+    },
+    "spaceLockdownAppeal": "Einspruch gegen Space-Sperre",
+    "responsePlaceholder": "Antwort an den Benutzer (optional)",
+    "accept": "Annehmen",
+    "reject": "Ablehnen",
+    "viewAccount": "Konto anzeigen",
+    "viewUser": "Benutzer anzeigen",
+    "staffResponse": "Staff-Antwort: {{text}}",
+    "empty": "Keine Einsprüche gefunden",
+    "errorUpdate": "Einspruch konnte nicht aktualisiert werden",
+    "decidedBy": "{{status}} von {{name}}"
+  },
+  "support": {
+    "anyStatus": "Beliebiger Status",
+    "status": {
+      "open": "Offen",
+      "awaiting_reply": "Wartet auf Antwort",
+      "resolved": "Gelöst",
+      "closed": "Geschlossen"
+    },
+    "empty": "Keine Tickets gefunden",
+    "selectTicket": "Ticket auswählen",
+    "loadingTicket": "Ticket wird geladen…",
+    "resolve": "Lösen",
+    "close": "Schließen",
+    "staff": "Staff",
+    "replyPlaceholder": "Dem Benutzer antworten",
+    "sendReply": "Antwort senden",
+    "sending": "Wird gesendet…",
+    "errors": {
+      "send": "Antwort konnte nicht gesendet werden",
+      "update": "Ticket konnte nicht aktualisiert werden"
+    }
+  },
+  "activity": {
+    "empty": "Noch keine Staff-Aktionen",
+    "removedUser": "ein entfernter Benutzer",
+    "removedUserNamed": "@{{name}} (entfernt)"
+  },
+  "auditActions": {
+    "disabledAccount": "hat dieses Konto deaktiviert",
+    "enabledAccount": "hat dieses Konto aktiviert",
+    "softDeletedAccount": "hat dieses Konto soft gelöscht",
+    "hardDeletedAccount": "hat dieses Konto endgültig gelöscht",
+    "forcedLogout": "hat eine Abmeldung für dieses Konto erzwungen",
+    "warnedUser": "hat diesen Benutzer verwarnt",
+    "restrictedUser": "hat diesen Benutzer eingeschränkt",
+    "liftedRestriction": "hat die Einschränkung dieses Benutzers aufgehoben",
+    "grantedFlag": "hat das Flag {{flag}} vergeben",
+    "revokedFlag": "hat das Flag {{flag}} entzogen",
+    "updatedProfile": "hat das Profil dieses Benutzers aktualisiert",
+    "addedNote": "hat eine Staff-Notiz hinzugefügt",
+    "revokedSession": "hat eine Sitzung widerrufen",
+    "tookDownContent": "hat einen gemeldeten {{type}} entfernt",
+    "lockedDownSpace": "hat einen Space gesperrt",
+    "shutDownSpace": "hat einen gemeldeten Space geschlossen",
+    "global": {
+      "disabled": "{{actor}} hat {{target}} deaktiviert",
+      "enabled": "{{actor}} hat {{target}} aktiviert",
+      "softDeleted": "{{actor}} hat {{target}} soft gelöscht",
+      "hardDeleted": "{{actor}} hat {{target}} endgültig gelöscht",
+      "forcedLogout": "{{actor}} hat eine Abmeldung für {{target}} erzwungen",
+      "warned": "{{actor}} hat {{target}} verwarnt",
+      "restricted": "{{actor}} hat {{target}} eingeschränkt",
+      "liftedRestriction": "{{actor}} hat die Einschränkung von {{target}} aufgehoben",
+      "grantedFlag": "{{actor}} hat {{target}} das Flag {{flag}} vergeben",
+      "revokedFlag": "{{actor}} hat {{target}} das Flag {{flag}} entzogen",
+      "updatedProfile": "{{actor}} hat das Profil von {{target}} aktualisiert",
+      "addedNote": "{{actor}} hat eine Staff-Notiz zu {{target}} hinzugefügt",
+      "revokedSession": "{{actor}} hat eine Sitzung von {{target}} widerrufen",
+      "tookDownContent": "{{actor}} hat einen gemeldeten {{type}} entfernt",
+      "lockedDownSpace": "{{actor}} hat einen Space gesperrt",
+      "shutDownSpace": "{{actor}} hat einen gemeldeten Space geschlossen"
+    }
+  }
+}

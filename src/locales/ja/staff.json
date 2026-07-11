@@ -1,0 +1,286 @@
+{
+  "title": "スタッフパネル",
+  "exit": "終了",
+  "working": "処理中...",
+  "nav": {
+    "reports": "通報",
+    "activity": "アクティビティ",
+    "appeals": "異議申し立て",
+    "support": "サポート"
+  },
+  "pages": {
+    "activity": "スタッフアクティビティ",
+    "reportDetails": "通報の詳細"
+  },
+  "home": {
+    "findUser": "ユーザーを探す",
+    "findUserDescription": "ユーザー名で検索するか、フラグで絞り込んで、アカウントと利用可能なスタッフアクションを表示します。",
+    "searchPlaceholder": "ユーザー名で検索、またはユーザーIDを貼り付け",
+    "anyFlag": "すべてのフラグ",
+    "searching": "検索中...",
+    "noUsers": "ユーザーが見つかりません",
+    "goToUserId": "ユーザーID {{id}} へ",
+    "exactIdLookup": "IDの完全一致検索",
+    "loadMore": "さらに読み込む",
+    "loading": "読み込み中..."
+  },
+  "sections": {
+    "info": "情報",
+    "flags": "フラグ",
+    "actions": "アクション",
+    "sessions": "アクティブなセッション",
+    "notes": "スタッフメモ",
+    "audit": "監査ログ"
+  },
+  "user": {
+    "info": {
+      "username": "ユーザー名",
+      "displayName": "表示名",
+      "noDisplayName": "表示名が設定されていません",
+      "saveChanges": "変更を保存",
+      "accountDetails": "アカウント詳細",
+      "email": "メール",
+      "emailVerified": "メール確認済み",
+      "yes": "はい",
+      "no": "いいえ",
+      "sendReminder": "リマインダーを送信",
+      "verifyReminderSent": "確認リマインダーを送信しました",
+      "userId": "ユーザーID",
+      "dateOfBirth": "生年月日",
+      "created": "作成日",
+      "restrictedUntil": "制限解除日時"
+    },
+    "flags": {
+      "current": "現在のフラグ",
+      "manage": "フラグを管理",
+      "none": "フラグは設定されていません"
+    },
+    "actions": {
+      "enableAccount": "アカウントを有効化",
+      "disableAccount": "アカウントを無効化",
+      "forceLogout": "強制ログアウト",
+      "warnUser": "ユーザーに警告",
+      "restrictUser": "ユーザーを制限",
+      "liftRestriction": "制限を解除",
+      "softDeleteAccount": "アカウントをソフト削除",
+      "hardDeleteAccount": "アカウントを完全削除",
+      "softDeletedBanner": "このアカウントはソフト削除されています。ユーザーはログインできませんが、データは保持されます。",
+      "errors": {
+        "liftRestriction": "制限の解除に失敗しました",
+        "updateUser": "ユーザーの更新に失敗しました",
+        "forceLogout": "強制ログアウトに失敗しました",
+        "warnUser": "ユーザーへの警告に失敗しました",
+        "deleteAccount": "アカウントの削除に失敗しました",
+        "restrictUser": "ユーザーの制限に失敗しました"
+      }
+    },
+    "modals": {
+      "reasonRequired": "理由（必須）",
+      "reasonOptional": "理由（任意）",
+      "placeholderAudit": "監査ログ用のコンテキストを追加",
+      "disable": {
+        "title": "アカウントを無効化",
+        "enableTitle": "アカウントを有効化",
+        "bodyDisable": "@{{username}} のアカウントを無効化しますか？ログアウトされ、再有効化されるまでログインできなくなります。",
+        "bodyEnable": "@{{username}} のアカウントを再有効化しますか？",
+        "placeholder": "このアカウントを無効化する理由を説明してください"
+      },
+      "forceLogout": {
+        "title": "強制ログアウト",
+        "body": "@{{username}} をすべてのセッションからログアウトしますか？再ログインが必要になりますが、アカウントは有効のままです。"
+      },
+      "warn": {
+        "title": "ユーザーに警告",
+        "body": "@{{username}} に警告メールを送信し、監査ログに記録します。アカウントの状態は変わりません。",
+        "placeholder": "警告の理由を説明してください",
+        "submit": "警告を送信",
+        "toastSent": "警告を送信し、ユーザーにメールしました",
+        "toastEmailFailed": "警告は記録されましたが、メールの送信に失敗しました"
+      },
+      "restrict": {
+        "title": "ユーザーを制限",
+        "body": "制限されたユーザーは、制限が終わるまでメッセージの送信や投稿の作成ができません。",
+        "duration": "期間",
+        "submit": "制限する",
+        "placeholder": "制限の理由を説明してください",
+        "durations": {
+          "1h": "1時間",
+          "6h": "6時間",
+          "1d": "1日",
+          "3d": "3日",
+          "7d": "7日",
+          "30d": "30日"
+        }
+      },
+      "delete": {
+        "softTitle": "アカウントをソフト削除",
+        "hardTitle": "アカウントを完全削除",
+        "softBody": "@{{username}} のアカウントをソフト削除します。ログアウトされ、再ログインできなくなりますが、モデレーションと監査のためデータは保持されます。",
+        "hardBody": "@{{username}} のアカウントと関連データをデータベースから完全に削除します。所有するスペースも削除されます。この操作は元に戻せません。",
+        "type": "削除タイプ",
+        "softOption": "ソフト削除（推奨）",
+        "hardOption": "完全削除（取り消し不可）",
+        "confirmUsername": "確認のため @{{username}} と入力",
+        "placeholderSoft": "このアカウントをソフト削除する理由を説明してください",
+        "placeholderHard": "このアカウントを完全に削除する必要がある理由を説明してください"
+      }
+    },
+    "sessions": {
+      "empty": "アクティブなセッションはありません",
+      "created": "作成 {{relative}}",
+      "lastUsed": "最終使用 {{relative}}",
+      "revoke": "取り消す",
+      "errorRevoke": "セッションの取り消しに失敗しました"
+    },
+    "notes": {
+      "placeholder": "他のスタッフ向けのメモを残す — ユーザーには表示されません",
+      "add": "メモを追加",
+      "adding": "追加中...",
+      "empty": "スタッフメモはまだありません",
+      "errorAdd": "メモの追加に失敗しました"
+    },
+    "audit": {
+      "empty": "スタッフアクションはまだありません"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "保留中",
+      "reviewed": "確認済み",
+      "dismissed": "却下",
+      "actioned": "対応済み"
+    },
+    "actions": {
+      "shutDownSpace": "スペースを閉鎖",
+      "takeDownContent": "コンテンツを削除",
+      "lockDownSpace": "スペースをロックダウン"
+    },
+    "detailsTitle": "通報の詳細",
+    "backToReports": "通報一覧に戻る",
+    "anyStatus": "すべてのステータス",
+    "anyType": "すべての種類",
+    "targetTypes": {
+      "message": "メッセージ",
+      "post": "投稿",
+      "comment": "コメント",
+      "user": "ユーザー",
+      "space": "スペース"
+    },
+    "reportedBy": "{{name}} による通報",
+    "reporterNotes": "通報者のメモ",
+    "reportedContent": "通報されたコンテンツ",
+    "viewDetails": "詳細を表示",
+    "openUserPanel": "スタッフユーザーパネルを開く",
+    "markReviewed": "確認済みにする",
+    "markActioned": "対応済みにする",
+    "dismiss": "却下",
+    "reviewedShort": "確認済み",
+    "actionedShort": "対応済み",
+    "reviewedBy": "{{name}} により{{status}}",
+    "empty": "通報が見つかりません",
+    "loadingReport": "通報を読み込み中…",
+    "loadFailed": "通報の読み込みに失敗しました",
+    "toasts": {
+      "actionCompleted": "アクションが完了しました",
+      "actionCompletedMarked": "アクションが完了し、通報を対応済みにしました",
+      "alreadyRemoved": "対象はすでに削除されていました",
+      "lockdownSuccess": "スペースをロックダウンし、オーナーに通知しました"
+    },
+    "errors": {
+      "update": "通報の更新に失敗しました",
+      "action": "アクションの完了に失敗しました",
+      "lockdown": "スペースのロックダウンに失敗しました"
+    },
+    "content": {
+      "dmContext": "ダイレクトメッセージのコンテキスト",
+      "messageContext": "メッセージのコンテキスト",
+      "dmContextHint": "プライバシーのため、周囲のメッセージは限定的に表示されます。",
+      "reported": "通報対象",
+      "noText": "（テキストコンテンツなし）",
+      "unknown": "不明",
+      "membersOwnedBy_one": "{{count}} 人のメンバー · オーナー: {{owner}}",
+      "membersOwnedBy_other": "{{count}} 人のメンバー · オーナー: {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "すべてのステータス",
+    "status": {
+      "pending": "保留中",
+      "accepted": "承認",
+      "rejected": "却下"
+    },
+    "spaceLockdownAppeal": "スペースロックダウンの異議申し立て",
+    "responsePlaceholder": "ユーザーへの返信（任意）",
+    "accept": "承認",
+    "reject": "却下",
+    "viewAccount": "アカウントを表示",
+    "viewUser": "ユーザーを表示",
+    "staffResponse": "スタッフの返信: {{text}}",
+    "empty": "異議申し立てが見つかりません",
+    "errorUpdate": "異議申し立ての更新に失敗しました",
+    "decidedBy": "{{name}} により{{status}}"
+  },
+  "support": {
+    "anyStatus": "すべてのステータス",
+    "status": {
+      "open": "オープン",
+      "awaiting_reply": "返信待ち",
+      "resolved": "解決済み",
+      "closed": "クローズ"
+    },
+    "empty": "チケットが見つかりません",
+    "selectTicket": "チケットを選択",
+    "loadingTicket": "チケットを読み込み中…",
+    "resolve": "解決する",
+    "close": "クローズ",
+    "staff": "スタッフ",
+    "replyPlaceholder": "ユーザーに返信",
+    "sendReply": "返信を送信",
+    "sending": "送信中…",
+    "errors": {
+      "send": "返信の送信に失敗しました",
+      "update": "チケットの更新に失敗しました"
+    }
+  },
+  "activity": {
+    "empty": "スタッフアクションはまだありません",
+    "removedUser": "削除されたユーザー",
+    "removedUserNamed": "@{{name}}（削除済み）"
+  },
+  "auditActions": {
+    "disabledAccount": "このアカウントを無効化しました",
+    "enabledAccount": "このアカウントを有効化しました",
+    "softDeletedAccount": "このアカウントをソフト削除しました",
+    "hardDeletedAccount": "このアカウントを完全削除しました",
+    "forcedLogout": "このアカウントを強制ログアウトしました",
+    "warnedUser": "このユーザーに警告しました",
+    "restrictedUser": "このユーザーを制限しました",
+    "liftedRestriction": "このユーザーの制限を解除しました",
+    "grantedFlag": "{{flag}} フラグを付与しました",
+    "revokedFlag": "{{flag}} フラグを取り消しました",
+    "updatedProfile": "このユーザーのプロフィールを更新しました",
+    "addedNote": "スタッフメモを追加しました",
+    "revokedSession": "セッションを取り消しました",
+    "tookDownContent": "通報された{{type}}を削除しました",
+    "lockedDownSpace": "スペースをロックダウンしました",
+    "shutDownSpace": "通報されたスペースを閉鎖しました",
+    "global": {
+      "disabled": "{{actor}} が {{target}} を無効化しました",
+      "enabled": "{{actor}} が {{target}} を有効化しました",
+      "softDeleted": "{{actor}} が {{target}} をソフト削除しました",
+      "hardDeleted": "{{actor}} が {{target}} を完全削除しました",
+      "forcedLogout": "{{actor}} が {{target}} を強制ログアウトしました",
+      "warned": "{{actor}} が {{target}} に警告しました",
+      "restricted": "{{actor}} が {{target}} を制限しました",
+      "liftedRestriction": "{{actor}} が {{target}} の制限を解除しました",
+      "grantedFlag": "{{actor}} が {{target}} に {{flag}} フラグを付与しました",
+      "revokedFlag": "{{actor}} が {{target}} から {{flag}} フラグを取り消しました",
+      "updatedProfile": "{{actor}} が {{target}} のプロフィールを更新しました",
+      "addedNote": "{{actor}} が {{target}} にスタッフメモを追加しました",
+      "revokedSession": "{{actor}} が {{target}} のセッションを取り消しました",
+      "tookDownContent": "{{actor}} が通報された{{type}}を削除しました",
+      "lockedDownSpace": "{{actor}} がスペースをロックダウンしました",
+      "shutDownSpace": "{{actor}} が通報されたスペースを閉鎖しました"
+    }
+  }
+}

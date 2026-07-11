@@ -1,0 +1,286 @@
+{
+  "title": "Staffpaneel",
+  "exit": "Afsluiten",
+  "working": "Bezig...",
+  "nav": {
+    "reports": "Rapporten",
+    "activity": "Activiteit",
+    "appeals": "Beroepen",
+    "support": "Ondersteuning"
+  },
+  "pages": {
+    "activity": "Personeelsactiviteit",
+    "reportDetails": "Rapportdetails"
+  },
+  "home": {
+    "findUser": "Zoek een gebruiker",
+    "findUserDescription": "Zoek op gebruikersnaam of filter op vlag om een ​​account en de beschikbare personeelsacties te bekijken.",
+    "searchPlaceholder": "Zoek op gebruikersnaam of plak een gebruikers-ID",
+    "anyFlag": "Welke vlag dan ook",
+    "searching": "Zoeken...",
+    "noUsers": "Geen gebruikers gevonden",
+    "goToUserId": "Ga naar gebruikers-ID {{id}}",
+    "exactIdLookup": "Exacte ID opzoeken",
+    "loadMore": "Laad meer",
+    "loading": "Laden..."
+  },
+  "sections": {
+    "info": "Info",
+    "flags": "Vlaggen",
+    "actions": "Acties",
+    "sessions": "Actieve sessies",
+    "notes": "Notities van het personeel",
+    "audit": "Auditlogboek"
+  },
+  "user": {
+    "info": {
+      "username": "Gebruikersnaam",
+      "displayName": "Weergavenaam",
+      "noDisplayName": "Geen weergavenaam ingesteld",
+      "saveChanges": "Wijzigingen opslaan",
+      "accountDetails": "Accountgegevens",
+      "email": "E-mail",
+      "emailVerified": "E-mail geverifieerd",
+      "yes": "Ja",
+      "no": "Nee",
+      "sendReminder": "Herinnering verzenden",
+      "verifyReminderSent": "Verificatieherinnering verzonden",
+      "userId": "Gebruikers-ID",
+      "dateOfBirth": "Geboortedatum",
+      "created": "Gemaakt",
+      "restrictedUntil": "Beperkt tot"
+    },
+    "flags": {
+      "current": "Huidige vlaggen",
+      "manage": "Beheer vlaggen",
+      "none": "Geen vlaggen ingesteld"
+    },
+    "actions": {
+      "enableAccount": "Account inschakelen",
+      "disableAccount": "Schakel account uit",
+      "forceLogout": "Forceer uitloggen",
+      "warnUser": "Waarschuw gebruiker",
+      "restrictUser": "Gebruiker beperken",
+      "liftRestriction": "Beperking opheffen",
+      "softDeleteAccount": "Account zacht verwijderen",
+      "hardDeleteAccount": "Account moeilijk verwijderen",
+      "softDeletedBanner": "Dit account is voorlopig verwijderd. De gebruiker kan niet inloggen, maar zijn gegevens blijven behouden.",
+      "errors": {
+        "liftRestriction": "Kan de beperking niet opheffen",
+        "updateUser": "Kan gebruiker niet updaten",
+        "forceLogout": "Het is niet gelukt om de gebruiker af te melden",
+        "warnUser": "Kan gebruiker niet waarschuwen",
+        "deleteAccount": "Kan account niet verwijderen",
+        "restrictUser": "Kan gebruiker niet beperken"
+      }
+    },
+    "modals": {
+      "reasonRequired": "Reden (verplicht)",
+      "reasonOptional": "Reden (optioneel)",
+      "placeholderAudit": "Voeg context toe voor het auditlogboek",
+      "disable": {
+        "title": "Schakel account uit",
+        "enableTitle": "Account inschakelen",
+        "bodyDisable": "Weet u zeker dat u het account van @{{username}} wilt uitschakelen? Ze worden afgemeld en kunnen pas opnieuw inloggen als ze opnieuw worden ingeschakeld.",
+        "bodyEnable": "Weet u zeker dat u het account van @{{username}} opnieuw wilt inschakelen?",
+        "placeholder": "Leg uit waarom dit account wordt uitgeschakeld"
+      },
+      "forceLogout": {
+        "title": "Forceer uitloggen",
+        "body": "Weet u zeker dat u @{{username}} wilt afmelden voor elke sessie? Ze moeten opnieuw inloggen, maar het account blijft ingeschakeld."
+      },
+      "warn": {
+        "title": "Waarschuw gebruiker",
+        "body": "Hierdoor wordt @{{username}} een waarschuwings-e-mail gestuurd en vastgelegd in hun audittrail. Het verandert niets aan hun accountstatus.",
+        "placeholder": "Leg uit waar de waarschuwing voor is",
+        "submit": "Waarschuwing verzenden",
+        "toastSent": "Waarschuwing verzonden en gemaild naar de gebruiker",
+        "toastEmailFailed": "Waarschuwing opgenomen, maar de e-mail kan niet worden verzonden"
+      },
+      "restrict": {
+        "title": "Gebruiker beperken",
+        "body": "Beperkte gebruikers kunnen geen berichten verzenden of berichten maken totdat de beperking eindigt.",
+        "duration": "Duur",
+        "submit": "Beperken",
+        "placeholder": "Leg uit waar de beperking voor dient",
+        "durations": {
+          "1h": "1 uur",
+          "6h": "6 uur",
+          "1d": "1 dag",
+          "3d": "3 dagen",
+          "7d": "7 dagen",
+          "30d": "30 dagen"
+        }
+      },
+      "delete": {
+        "softTitle": "Account zacht verwijderen",
+        "hardTitle": "Account moeilijk verwijderen",
+        "softBody": "Hiermee wordt het account van @{{username}} zacht verwijderd. Ze worden uitgelogd en kunnen niet meer inloggen, maar hun gegevens worden bewaard voor moderatie- en auditdoeleinden.",
+        "hardBody": "Hierdoor worden het account van @{{username}} en de bijbehorende gegevens permanent uit de database verwijderd. Eventuele spaties waarvan zij eigenaar zijn, worden ook verwijderd. Dit kan niet ongedaan worden gemaakt.",
+        "type": "Verwijderingstype",
+        "softOption": "Zacht verwijderen (aanbevolen)",
+        "hardOption": "Harde verwijdering (onomkeerbaar)",
+        "confirmUsername": "Typ @{{username}} om te bevestigen",
+        "placeholderSoft": "Leg uit waarom dit account voorlopig wordt verwijderd",
+        "placeholderHard": "Leg uit waarom dit account definitief moet worden verwijderd"
+      }
+    },
+    "sessions": {
+      "empty": "Geen actieve sessies",
+      "created": "{{relative}} gemaakt",
+      "lastUsed": "Laatst gebruikte {{relative}}",
+      "revoke": "Herroepen",
+      "errorRevoke": "Kan de sessie niet intrekken"
+    },
+    "notes": {
+      "placeholder": "Laat een notitie achter voor ander personeel – niet zichtbaar voor de gebruiker",
+      "add": "Notitie toevoegen",
+      "adding": "Toevoegen...",
+      "empty": "Nog geen personeelsaantekeningen",
+      "errorAdd": "Kan notitie niet toevoegen"
+    },
+    "audit": {
+      "empty": "Nog geen personeelsacties"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "In behandeling",
+      "reviewed": "Beoordeeld",
+      "dismissed": "Afgewezen",
+      "actioned": "Actie ondernomen"
+    },
+    "actions": {
+      "shutDownSpace": "Sluit de ruimte af",
+      "takeDownContent": "Inhoud verwijderen",
+      "lockDownSpace": "Vergrendel de ruimte"
+    },
+    "detailsTitle": "Rapportdetails",
+    "backToReports": "Terug naar rapporten",
+    "anyStatus": "Elke status",
+    "anyType": "Elk type",
+    "targetTypes": {
+      "message": "Bericht",
+      "post": "Plaatsen",
+      "comment": "Opmerking",
+      "user": "Gebruiker",
+      "space": "Ruimte"
+    },
+    "reportedBy": "Gerapporteerd door {{name}}",
+    "reporterNotes": "Verslaggever merkt op",
+    "reportedContent": "Gerapporteerde inhoud",
+    "viewDetails": "Details bekijken",
+    "openUserPanel": "Open het personeelsgebruikerspaneel",
+    "markReviewed": "Markeer beoordeeld",
+    "markActioned": "Markeer actie",
+    "dismiss": "Afwijzen",
+    "reviewedShort": "Beoordeeld",
+    "actionedShort": "Actie ondernomen",
+    "reviewedBy": "{{status}} door {{name}}",
+    "empty": "Geen rapporten gevonden",
+    "loadingReport": "Rapport laden…",
+    "loadFailed": "Kan rapport niet laden",
+    "toasts": {
+      "actionCompleted": "Actie voltooid",
+      "actionCompletedMarked": "Actie voltooid en rapport gemarkeerd als actie",
+      "alreadyRemoved": "Doel was al verwijderd",
+      "lockdownSuccess": "Ruimte afgesloten en eigenaar op de hoogte gebracht"
+    },
+    "errors": {
+      "update": "Kan het rapport niet updaten",
+      "action": "Kan actie niet voltooien",
+      "lockdown": "Kan de ruimte niet vergrendelen"
+    },
+    "content": {
+      "dmContext": "Context van directe berichten",
+      "messageContext": "Berichtcontext",
+      "dmContextHint": "Om privacyredenen worden er beperkte omringende berichten weergegeven.",
+      "reported": "GEMELD",
+      "noText": "(geen tekstinhoud)",
+      "unknown": "Onbekend",
+      "membersOwnedBy_one": "{{count}}-lid · eigendom van {{owner}}",
+      "membersOwnedBy_other": "{{count}}-leden · eigendom van {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "Elke status",
+    "status": {
+      "pending": "In behandeling",
+      "accepted": "Geaccepteerd",
+      "rejected": "Afgewezen"
+    },
+    "spaceLockdownAppeal": "Oproep voor ruimteafsluiting",
+    "responsePlaceholder": "Reactie aan de gebruiker (optioneel)",
+    "accept": "Accepteren",
+    "reject": "Afwijzen",
+    "viewAccount": "Bekijk account",
+    "viewUser": "Bekijk gebruiker",
+    "staffResponse": "Reactie van het personeel: {{text}}",
+    "empty": "Geen bezwaren gevonden",
+    "errorUpdate": "Kan bezwaar niet updaten",
+    "decidedBy": "{{status}} door {{name}}"
+  },
+  "support": {
+    "anyStatus": "Elke status",
+    "status": {
+      "open": "Open",
+      "awaiting_reply": "In afwachting van antwoord",
+      "resolved": "Opgelost",
+      "closed": "Gesloten"
+    },
+    "empty": "Geen kaartjes gevonden",
+    "selectTicket": "Selecteer een kaartje",
+    "loadingTicket": "Ticket laden…",
+    "resolve": "Oplossen",
+    "close": "Sluiten",
+    "staff": "Personeel",
+    "replyPlaceholder": "Antwoord aan gebruiker",
+    "sendReply": "Antwoord verzenden",
+    "sending": "Verzenden…",
+    "errors": {
+      "send": "Kan antwoord niet verzenden",
+      "update": "Kan ticket niet updaten"
+    }
+  },
+  "activity": {
+    "empty": "Nog geen personeelsacties",
+    "removedUser": "een verwijderde gebruiker",
+    "removedUserNamed": "@{{name}} (verwijderd)"
+  },
+  "auditActions": {
+    "disabledAccount": "heb dit account uitgeschakeld",
+    "enabledAccount": "heeft dit account ingeschakeld",
+    "softDeletedAccount": "dit account zacht verwijderd",
+    "hardDeletedAccount": "heb dit account hard verwijderd",
+    "forcedLogout": "gedwongen uitloggen voor dit account",
+    "warnedUser": "waarschuwde deze gebruiker",
+    "restrictedUser": "heeft deze gebruiker beperkt",
+    "liftedRestriction": "heeft de beperking voor deze gebruiker opgeheven",
+    "grantedFlag": "verleende de {{flag}}-vlag",
+    "revokedFlag": "heeft de {{flag}}-vlag ingetrokken",
+    "updatedProfile": "heeft het profiel van deze gebruiker bijgewerkt",
+    "addedNote": "een personeelsnotitie toegevoegd",
+    "revokedSession": "een sessie ingetrokken",
+    "tookDownContent": "heeft een gerapporteerde {{type}} verwijderd",
+    "lockedDownSpace": "een ruimte afgesloten",
+    "shutDownSpace": "een gerapporteerde ruimte afsluiten",
+    "global": {
+      "disabled": "{{actor}} uitgeschakeld {{target}}",
+      "enabled": "{{actor}} ingeschakeld {{target}}",
+      "softDeleted": "{{actor}} zacht verwijderd {{target}}",
+      "hardDeleted": "{{actor}} hard verwijderd {{target}}",
+      "forcedLogout": "{{actor}} dwong uitloggen voor {{target}} af",
+      "warned": "{{actor}} waarschuwde {{target}}",
+      "restricted": "{{actor}} beperkte {{target}}",
+      "liftedRestriction": "{{actor}} heeft de beperking voor {{target}} opgeheven",
+      "grantedFlag": "{{actor}} kende de {{flag}}-vlag toe aan {{target}}",
+      "revokedFlag": "{{actor}} heeft de {{flag}}-vlag van {{target}} ingetrokken",
+      "updatedProfile": "{{actor}} heeft het profiel van {{target}} bijgewerkt",
+      "addedNote": "{{actor}} heeft een notenbalk toegevoegd over {{target}}",
+      "revokedSession": "{{actor}} heeft een sessie voor {{target}} ingetrokken",
+      "tookDownContent": "{{actor}} heeft een gemelde {{type}} uitgeschakeld",
+      "lockedDownSpace": "{{actor}} heeft een spatie vergrendeld",
+      "shutDownSpace": "{{actor}} heeft een gerapporteerde ruimte afgesloten"
+    }
+  }
+}

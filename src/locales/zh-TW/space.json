@@ -1,0 +1,479 @@
+{
+  "title": "空間設定",
+  "titleShort": "空間設定",
+  "overviewDescription": "管理角色、邀請、表情與貼圖以及審核。",
+  "nav": {
+    "categories": {
+      "general": "一般",
+      "people": "成員",
+      "moderation": "審核"
+    },
+    "pages": {
+      "profile": "個人檔案",
+      "roles": "角色",
+      "channels": "頻道",
+      "invites": "邀請",
+      "expressions": "表情與貼圖",
+      "bans": "封鎖"
+    }
+  },
+  "actions": {
+    "deleteSpace": "刪除空間",
+    "leaveSpace": "離開空間",
+    "createRole": "建立角色",
+    "deleteRole": "刪除角色",
+    "createInvite": "建立邀請",
+    "createInviteLink": "建立邀請連結",
+    "deleteAllInvites": "刪除全部邀請",
+    "editInviteLink": "編輯邀請連結",
+    "revokeBan": "撤銷封鎖",
+    "unbanMember": "解除成員封鎖",
+    "unbanning": "正在解除封鎖...",
+    "kick": "踢出",
+    "ban": "封鎖",
+    "addMembers": "新增成員",
+    "addMembersCount_one": "新增（{{count}}）",
+    "addMembersCount_other": "新增（{{count}}）",
+    "markAllAsRead": "全部標為已讀",
+    "clearPermissions": "清除權限",
+    "working": "處理中...",
+    "creating": "建立中..."
+  },
+  "profile": {
+    "spaceIcon": "空間圖示",
+    "name": "名稱",
+    "description": "描述",
+    "descriptionPlaceholder": "寫點關於你的空間的內容...",
+    "updatedSuccess": "空間已成功更新。",
+    "genericError": "發生錯誤"
+  },
+  "invites": {
+    "activeLinks": "有效邀請連結",
+    "createTitle": "建立邀請連結",
+    "createDescriptionChannel": "建立指向 #{{channel}} 的連結。",
+    "createDescriptionDefault": "建立指向此空間預設文字頻道的連結。",
+    "createFailed": "建立邀請失敗",
+    "empty": "此空間尚未建立任何邀請。",
+    "columns": {
+      "inviter": "邀請人",
+      "inviteCode": "邀請碼",
+      "uses": "使用次數",
+      "expires": "過期時間"
+    },
+    "usesLabel": "使用次數：{{uses}}{{max}}",
+    "usesMax": " / {{max}}",
+    "neverExpires": "永不過期",
+    "expired": "已過期",
+    "copyInviteUrl": "複製邀請 URL",
+    "copiedToClipboard": "已複製到剪貼簿",
+    "tapToCopy": "點一下連結以複製",
+    "modal": {
+      "title": "邀請好友加入 {{spaceName}}",
+      "landingChannel": "接收者將進入 #{{channelName}}",
+      "searchFriends": "搜尋好友",
+      "noResults": "無結果。",
+      "noFriends": "沒有可邀請的好友。請改用下方連結分享。",
+      "inviteLink": "邀請連結",
+      "expiresPrefix": "此連結將於 ",
+      "expiresNever": "永不過期",
+      "expiresAfterUses_one": " 或使用 {{count}} 次後過期",
+      "expiresAfterUses_other": " 或使用 {{count}} 次後過期",
+      "editTitle": "編輯目前邀請連結",
+      "expireAfter": "過期時間",
+      "maxUses": "最大使用次數"
+    },
+    "expiry": {
+      "30minutes": "30 分鐘",
+      "1hour": "1 小時",
+      "6hours": "6 小時",
+      "12hours": "12 小時",
+      "1day": "1 天",
+      "7days": "7 天",
+      "never": "永不"
+    },
+    "maxUses": {
+      "noLimit": "無限制",
+      "1use": "1 次",
+      "5uses": "5 次",
+      "10uses": "10 次",
+      "25uses": "25 次",
+      "50uses": "50 次",
+      "100uses": "100 次"
+    }
+  },
+  "roles": {
+    "defaultPermissions": "預設權限",
+    "everyoneSubtitle": "@everyone — 適用於所有空間成員",
+    "everyoneSuffix": " (@everyone)",
+    "searchPlaceholder": "搜尋角色",
+    "listTitle_one": "角色 — {{count}}",
+    "listTitle_other": "角色 — {{count}}",
+    "membersColumn": "成員",
+    "actionsColumn": "操作",
+    "hierarchyHint": "列表中越靠上的角色權限越高。拖曳角色可變更層級。",
+    "empty": "此空間尚未建立任何角色。",
+    "emptySearch": "沒有符合搜尋的角色。",
+    "memberCount_one": "{{count}} 位成員",
+    "memberCount_other": "{{count}} 位成員",
+    "editTitle": "編輯角色 — {{name}}",
+    "tabs": {
+      "display": "顯示",
+      "permissions": "權限",
+      "manageMembers": "管理成員",
+      "members": "成員"
+    },
+    "unsavedChanges": "你有未儲存的變更！",
+    "saveFailed": "儲存角色失敗",
+    "display": {
+      "roleName": "角色名稱",
+      "roleColor": "角色顏色",
+      "hoist": "將角色成員與線上成員分開顯示",
+      "mentionable": "允許任何人 @提及此角色",
+      "mentionableHint": "擁有「提及 @everyone、@here 和所有角色」權限的成員仍可提及此角色，不受此設定影響。",
+      "mentionableHintShort": "擁有提及所有人權限的成員仍可提及此角色。"
+    },
+    "members": {
+      "title": "角色成員",
+      "description": "查看並管理已指派此角色的成員。",
+      "searchPlaceholder": "搜尋成員",
+      "emptyAssigned": "尚未有成員被指派此角色。",
+      "emptySearch": "沒有符合搜尋的成員。",
+      "addTitle": "新增成員",
+      "addDescription": "向 {{roleName}} 新增最多 {{max}} 位成員",
+      "selectedCount": "已選 {{selected}}/{{max}}",
+      "noEligible": "沒有可新增至此角色的成員。",
+      "addSuccess_one": "已向 {{roleName}} 新增 {{count}} 位成員",
+      "addSuccess_other": "已向 {{roleName}} 新增 {{count}} 位成員",
+      "addFailed": "向角色新增成員失敗"
+    },
+    "hierarchy": {
+      "cantReorder": "你無法重新排序等於或高於你最高角色的角色",
+      "cantAssign": "你無法指派或移除此角色",
+      "cantEditRole": "你無法編輯此角色，因為它等於或高於你的最高角色。",
+      "cantManageMembers": "你無法從此角色指派或移除成員。",
+      "dragToReorder": "拖曳以重新排序",
+      "dragToReorderHierarchy": "拖曳以調整層級",
+      "failedReorder": "重新排序角色失敗",
+      "failedUpdateRole": "更新角色失敗",
+      "cantManageMember": "你沒有權限管理此成員"
+    },
+    "delete": {
+      "title": "刪除角色",
+      "confirm": "確定要刪除角色 {{name}} 嗎？此操作無法復原。"
+    },
+    "permissions": {
+      "searchPlaceholder": "搜尋權限...",
+      "jumpToCategory": "跳至分類…",
+      "emptySearch": "沒有符合搜尋的權限",
+      "clear": "清除權限",
+      "groups": {
+        "general": "一般空間權限",
+        "membership": "成員權限",
+        "text": "文字頻道權限",
+        "voice": "語音頻道權限",
+        "advanced": "進階權限"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "檢視頻道",
+          "description": "預設允許成員檢視頻道"
+        },
+        "ManageChannels": {
+          "label": "管理頻道",
+          "description": "允許成員建立、編輯或刪除頻道"
+        },
+        "ManageRoles": {
+          "label": "管理角色",
+          "description": "允許成員建立新角色，以及編輯或刪除低於其最高角色的角色"
+        },
+        "CreateExpressions": {
+          "label": "建立表情與貼圖",
+          "description": "允許成員在此空間建立表情和貼圖。"
+        },
+        "ManageExpressions": {
+          "label": "管理表情與貼圖",
+          "description": "允許成員編輯或刪除此空間的表情和貼圖。"
+        },
+        "ManageSpace": {
+          "label": "管理空間",
+          "description": "允許成員變更此空間"
+        },
+        "CreateInvites": {
+          "label": "建立邀請",
+          "description": "允許成員邀請新人加入此空間"
+        },
+        "KickMembers": {
+          "label": "踢出成員",
+          "description": "踢出會將成員移出此空間。被踢出的成員若有其他邀請可重新加入。"
+        },
+        "BanMembers": {
+          "label": "封鎖成員",
+          "description": "封鎖會將成員移出此空間，並在解除封鎖前阻止其重新加入。"
+        },
+        "SendMessages": {
+          "label": "傳送訊息",
+          "description": "允許成員在文字頻道傳送訊息"
+        },
+        "EmbedLinks": {
+          "label": "嵌入連結",
+          "description": "允許成員在訊息中嵌入連結"
+        },
+        "AttachFiles": {
+          "label": "附加檔案",
+          "description": "允許成員在訊息中附加檔案"
+        },
+        "MentionEveryone": {
+          "label": "提及所有人",
+          "description": "允許成員在訊息中提及 @everyone 和 @here"
+        },
+        "UseExternalEmojis": {
+          "label": "使用外部表情",
+          "description": "允許成員在訊息中使用其他空間或自己的表情"
+        },
+        "ManageMessages": {
+          "label": "管理訊息",
+          "description": "允許成員刪除其他成員的訊息"
+        },
+        "ReadMessageHistory": {
+          "label": "閱讀訊息紀錄",
+          "description": "允許成員閱讀訊息紀錄"
+        },
+        "Connect": {
+          "label": "連線",
+          "description": "允許成員連線語音頻道"
+        },
+        "Speak": {
+          "label": "發言",
+          "description": "允許成員在語音頻道發言"
+        },
+        "Administrator": {
+          "label": "管理員",
+          "description": "擁有此權限的成員將擁有全部權限。授予此權限需謹慎。",
+          "descriptionBefore": "擁有此權限的成員將擁有全部權限。",
+          "descriptionDanger": "授予此權限需謹慎"
+        }
+      }
+    }
+  },
+  "expressions": {
+    "pageTitle": "空間表情與貼圖",
+    "pageDescription": "為此空間上傳並管理自訂表情和貼圖。",
+    "emojiLimit": "很抱歉，目前每個帳戶最多可上傳 100 個表情，因為應用程式仍在測試階段且儲存空間有限",
+    "stickerLimit": "很抱歉，目前每個帳戶最多可上傳 100 個貼圖，因為應用程式仍在測試階段且儲存空間有限",
+    "stickerLimitMobile": "測試版限制：每個空間 {{limit}} 個貼圖。",
+    "emptyEmojis": "尚無空間表情",
+    "emptyStickers": "尚無空間貼圖"
+  },
+  "bans": {
+    "title": "空間封鎖列表",
+    "description": "查看並管理此空間中被封鎖的使用者。目前封鎖基於帳戶，我們之後會引入 IP 封鎖。",
+    "descriptionShort": "查看並管理此空間中被封鎖的使用者。",
+    "searchPlaceholder": "依使用者 ID、使用者名稱或顯示名稱搜尋封鎖",
+    "searchPlaceholderShort": "依使用者名稱或使用者 ID 搜尋",
+    "empty": "尚未有人被封鎖",
+    "reason": "原因",
+    "noReason": "未提供原因",
+    "bannedBy": "封鎖者",
+    "bannedAt": "封鎖時間",
+    "unbanSuccess": "已成功解除封鎖 {{name}}",
+    "unbanTitle": "解除封鎖 {{name}}？"
+  },
+  "moderation": {
+    "banTitle": "封鎖 {{name}}？",
+    "kickTitle": "踢出 {{name}}？",
+    "kickFromSpaceTitle": "將 {{name}} 踢出空間",
+    "kickBody": "確定要將 @{{name}} 踢出空間嗎？對方需要邀請才能重新加入。",
+    "kickSuccess": "已將 {{name}} 踢出空間",
+    "reason": "原因",
+    "reasonOptional": "原因（選填）",
+    "reasonForKick": "踢出原因",
+    "reasonForBan": "封鎖原因 *",
+    "deleteRecentMessages": "刪除最近訊息",
+    "banReasons": {
+      "suspicious": "可疑或垃圾帳戶",
+      "compromised": "被盜或被入侵的帳戶",
+      "breakingRules": "違反空間規則",
+      "other": "其他"
+    },
+    "deleteMessages": {
+      "dontDelete": "不刪除",
+      "dontDeleteMessages": "不刪除訊息",
+      "previousHour": "過去一小時",
+      "lastHour": "最近一小時",
+      "previousDay": "過去一天",
+      "last24Hours": "最近 24 小時",
+      "previousWeek": "過去一週",
+      "last7Days": "最近 7 天",
+      "allMessages": "全部訊息",
+      "deleteAllMessages": "刪除全部訊息"
+    },
+    "youWereBanned": "你已被 {{name}} 封鎖",
+    "youWereKicked": "你已被踢出 {{name}}"
+  },
+  "channels": {
+    "noCategory": "無分類",
+    "empty": "沒有可重新排序的頻道。",
+    "reorderHint": "拖曳頻道以重新排序。將頻道放在分類正下方可加入該分組。拖到分類上方可移出分組。",
+    "overwrites": "覆寫",
+    "searchTargets": "搜尋角色或成員…",
+    "topic": "頻道主題",
+    "topicHint": "顯示在頻道頂部供成員查看。",
+    "topicPlaceholder": "主題",
+    "settingsTitle": "頻道設定",
+    "namePlaceholder": "頻道名稱",
+    "permissionOverwrites": "權限覆寫",
+    "channelInvites": "頻道邀請",
+    "noChannelInvites": "#{{channel}} 尚未建立任何邀請。",
+    "selectOverwriteTarget": "選擇覆寫目標以編輯頻道專屬權限。",
+    "nameEmpty": "頻道名稱不能為空。",
+    "failedMoveMember": "移動成員失敗",
+    "create": {
+      "title": "建立頻道",
+      "name": "頻道名稱",
+      "namePlaceholder": "新頻道",
+      "type": "頻道類型",
+      "text": "文字頻道",
+      "textDescription": "傳送訊息、圖片等",
+      "voice": "語音頻道",
+      "voiceDescription": "透過語音和視訊一起聊天",
+      "submit": "建立頻道",
+      "icon": "頻道圖示",
+      "upload": "上傳",
+      "rounded": "圓角",
+      "rotate": "旋轉",
+      "clear": "清除"
+    },
+    "createCategory": {
+      "title": "建立分類",
+      "name": "分類名稱",
+      "namePlaceholder": "新分類",
+      "submit": "建立分類"
+    },
+    "delete": {
+      "title": "刪除頻道",
+      "body": "確定要刪除 {{name}} 嗎？此操作無法復原。",
+      "confirm": "刪除頻道"
+    },
+    "deleteCategory": {
+      "title": "刪除分類「{{name}}」？",
+      "body": "要刪除此分類嗎？",
+      "categoryOnly": "僅分類",
+      "categoryAndChannels": "分類及所有相關頻道",
+      "confirm": "刪除分類"
+    },
+    "saveOverwrite": "儲存覆寫",
+    "deleteChannelAction": "刪除頻道",
+    "createInvite": "建立邀請",
+    "createInviteLink": "建立邀請連結",
+    "removeIcon": "移除圖示",
+    "restoreIcon": "還原圖示",
+    "uploadEmoji": "上傳表情",
+    "uploadSticker": "上傳貼圖",
+    "noSpaceEmojis": "尚無空間表情",
+    "pages": {
+      "overview": "概覽",
+      "permissions": "權限",
+      "invites": "邀請"
+    },
+    "permissions": {
+      "addOverwrite": "新增權限覆寫",
+      "roles": "角色",
+      "members": "成員",
+      "noResults": "無結果",
+      "noOverwritesYet": "尚無覆寫",
+      "selectTargetHint": "選擇角色或成員以設定頻道專屬權限。",
+      "selectTargetHintLeft": "在左側選擇角色或成員以編輯其對此頻道的權限，或點擊 + 新增。",
+      "groups": {
+        "general": "一般頻道權限",
+        "text": "文字頻道權限",
+        "voice": "語音頻道權限"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "檢視頻道",
+          "description": "允許成員檢視此頻道"
+        },
+        "ManageChannels": {
+          "label": "管理頻道",
+          "description": "允許成員編輯或刪除此頻道"
+        },
+        "ManageRoles": {
+          "label": "管理權限",
+          "description": "允許成員編輯此頻道的權限覆寫"
+        },
+        "SendMessages": {
+          "label": "傳送訊息",
+          "description": "允許成員在此頻道傳送訊息"
+        },
+        "EmbedLinks": {
+          "label": "嵌入連結",
+          "description": "允許成員嵌入連結"
+        },
+        "AttachFiles": {
+          "label": "附加檔案",
+          "description": "允許成員附加檔案"
+        },
+        "MentionEveryone": {
+          "label": "提及所有人",
+          "description": "允許成員 @提及 @everyone 和 @here"
+        },
+        "UseExternalEmojis": {
+          "label": "使用外部表情",
+          "description": "允許成員使用其他空間的表情"
+        },
+        "ManageMessages": {
+          "label": "管理訊息",
+          "description": "允許成員刪除他人的訊息"
+        },
+        "ReadMessageHistory": {
+          "label": "閱讀訊息紀錄",
+          "description": "允許成員閱讀過往訊息"
+        },
+        "Connect": {
+          "label": "連線",
+          "description": "允許成員連線此語音頻道"
+        },
+        "Speak": {
+          "label": "發言",
+          "description": "允許成員在此語音頻道發言"
+        }
+      }
+    }
+  },
+  "confirm": {
+    "deleteSpaceTitle": "刪除「{{name}}」？",
+    "leaveSpaceTitle": "離開「{{name}}」？",
+    "deleteSpaceBody": "確定要刪除 {{name}} 嗎？此操作無法復原。",
+    "leaveSpaceBody": "確定要離開 {{name}} 嗎？此操作無法復原。",
+    "cannotUndo": "此操作無法復原。"
+  },
+  "menu": {
+    "spaceSettings": "空間設定",
+    "reportSpace": "檢舉空間",
+    "leaveSpace": "離開空間",
+    "deleteSpace": "刪除空間"
+  },
+  "chrome": {
+    "spaceSettings": "空間設定",
+    "inviteToSpace": "邀請加入空間",
+    "createInviteA11y": "建立邀請",
+    "createCategoryA11y": "建立分類",
+    "spaceMenuA11y": "空間選單"
+  },
+  "sidebar": {
+    "createSpace": "建立空間",
+    "switchToSpaces": "切換到空間",
+    "switchToDirectMessages": "切換到私人訊息",
+    "switchToFeed": "切換到動態",
+    "switchTo": "切換到",
+    "directMessages": "私人訊息",
+    "friends": "好友",
+    "spaces": "空間"
+  },
+  "lockdown": {
+    "title": "此空間處於封鎖狀態",
+    "ownerMessage": "訊息和變更已停用。若你認為這是誤判，請查收郵件中的申訴連結。",
+    "memberMessage": "在工作人員審核此空間期間，訊息和變更已停用。",
+    "toast": "此空間處於封鎖狀態。訊息和變更已停用。"
+  }
+}

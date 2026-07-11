@@ -1,0 +1,537 @@
+{
+  "unknownUser": "不明なユーザー",
+  "unknown": "不明",
+  "deletedUser": "削除されたユーザー",
+  "loading": "読み込み中…",
+  "composer": {
+    "placeholder": {
+      "channel": "#{{channel}} にメッセージを送信",
+      "channelFallback": "#このチャンネル にメッセージを送信",
+      "dm": "{{name}} にメッセージを送信",
+      "dmFallback": "この会話にメッセージを送信",
+      "groupFallback": "グループにメッセージを送信",
+      "edit": "メッセージを編集",
+      "blocked": "このユーザーをブロックしているため、メッセージを送信できません",
+      "noPermission": "このチャンネルでメッセージを送信する権限がありません。"
+    },
+    "attachFiles": "ファイルを添付",
+    "addAttachment": "添付ファイルを追加",
+    "remove": "削除",
+    "removeSticker": "ステッカーを削除",
+    "removeAttachment": "添付ファイルを削除",
+    "openExpressionPicker": "エクスプレッションピッカーを開く",
+    "mentionOn": "@ オン",
+    "mentionOff": "@ オフ",
+    "editHint": "Escape でキャンセル • Enter で保存",
+    "editHintCancel": "キャンセル",
+    "editHintSave": "保存",
+    "emojiPicker": "絵文字ピッカー",
+    "gifPicker": "GIFピッカー",
+    "stickerPicker": "スタンプピッカー",
+    "openEmojiPicker": "絵文字ピッカーを開く",
+    "openGifPicker": "GIFピッカーを開く",
+    "openStickerPicker": "スタンプピッカーを開く",
+    "editHintEscapeTo": "Escape で",
+    "editHintEnterTo": "Enter で"
+  },
+  "reply": {
+    "banner": "{{name}} に返信中",
+    "replyPreviewMissing": "返信先のメッセージが見つかりませんでした"
+  },
+  "edit": {
+    "banner": "メッセージを編集中",
+    "cancelA11y": "編集をキャンセル",
+    "cancelReplyA11y": "返信をキャンセル"
+  },
+  "typing": {
+    "one": "{{name}} が入力中...",
+    "two": "{{name1}} と {{name2}} が入力中...",
+    "many": "{{name1}}、{{name2}} などが入力中..."
+  },
+  "actions": {
+    "reply": "返信",
+    "edit": "編集",
+    "delete": "削除",
+    "copyText": "テキストをコピー",
+    "editMessage": "メッセージを編集",
+    "deleteMessage": "メッセージを削除",
+    "reportMessage": "メッセージを報告",
+    "addReaction": "リアクションを追加",
+    "reactWith": "{{emoji}} でリアクション"
+  },
+  "report": {
+    "thisMessage": "このメッセージ"
+  },
+  "message": {
+    "edited": "(編集済み)",
+    "scrollToLatestA11y": "最新のメッセージへスクロール"
+  },
+  "system": {
+    "ephemeralOnlyYou": "あなただけがこれを見ることができます •",
+    "dismissMessage": "メッセージを閉じる"
+  },
+  "empty": {
+    "channel": {
+      "welcome": "#{{channel}} へようこそ！",
+      "start": "これが #{{channel}} チャンネルの始まりです。",
+      "noHistory": "メッセージ履歴を読む権限がありません"
+    },
+    "dm": {
+      "firstMessage": "{{name}} に最初のメッセージを送信しましょう",
+      "beginning": "{{conversation}} の始まりへようこそ"
+    }
+  },
+  "header": {
+    "memberList": {
+      "show": "メンバーリストを表示",
+      "hide": "メンバーリストを非表示"
+    },
+    "dm": {
+      "addToGroup": "グループに追加",
+      "groupFull": "グループが満員です"
+    },
+    "voice": {
+      "closeChatA11y": "チャットを閉じる"
+    }
+  },
+  "voice": {
+    "title": "ボイス",
+    "noOneInVoice": "現在ボイスチャンネルに誰もいません",
+    "noOneConnectedYet": "まだ誰も接続していません。",
+    "peopleInVoice_one": "{{count}} 人がボイスチャンネルにいます。",
+    "peopleInVoice_other": "{{count}} 人がボイスチャンネルにいます。",
+    "joinVoice": "ボイスに参加",
+    "openChat": "チャットを開く",
+    "invite": "招待",
+    "startingScreenShare": "画面共有を開始しています...",
+    "sharingScreen": "{{name}} が画面を共有しています",
+    "watchStream": "ストリームを視聴",
+    "stopWatching": "視聴を停止",
+    "screenLabel": "{{name}} の画面",
+    "connection": {
+      "connecting": "ボイスに接続中...",
+      "connected": "ボイスに接続しました",
+      "rtcConnecting": "RTC 接続中",
+      "voiceConnected": "ボイス接続済み",
+      "failed": "接続に失敗しました",
+      "failedFallback": "ボイス接続に失敗しました",
+      "unableToConnect": "接続できません",
+      "disconnect": "切断",
+      "disconnectA11y": "ボイスから切断"
+    },
+    "controls": {
+      "mute": "ミュート",
+      "unmute": "ミュート解除",
+      "muted": "ミュート中",
+      "deafen": "スピーカーミュート",
+      "undeafen": "スピーカーミュート解除",
+      "deafened": "スピーカーミュート中",
+      "spaceMuted": "スペースミュート",
+      "spaceDeafened": "スペーススピーカーミュート",
+      "enableCamera": "カメラを有効化",
+      "disableCamera": "カメラを無効化",
+      "shareScreen": "画面を共有",
+      "stopSharing": "共有を停止",
+      "muteStreamAudio": "ストリーム音声をミュート",
+      "unmuteStreamAudio": "ストリーム音声のミュート解除",
+      "settings": "設定",
+      "holdToTalk": "押し続けて話す",
+      "talking": "話し中…",
+      "holdToTalkA11y": "押し続けて話す",
+      "volume": "音量",
+      "volumePercent": "音量 {{value}}%",
+      "userVolume": "ユーザーの音量",
+      "streamVolume": "ストリームの音量",
+      "muteUser": "ユーザーをミュート",
+      "muteUserLocally": "このユーザーをローカルでミュート",
+      "unmuteUserLocally": "このユーザーのローカルミュートを解除",
+      "muteStream": "ストリームをミュート",
+      "live": "ライブ",
+      "video": "ビデオ"
+    },
+    "participant": {
+      "you": "（あなた）",
+      "speaking": "発話中",
+      "serverMuted": "サーバーでミュート",
+      "serverDeafened": "サーバーでスピーカーミュート"
+    },
+    "moderation": {
+      "title": "ボイスモデレーション",
+      "spaceMute": "スペースミュート",
+      "removeSpaceMute": "スペースミュートを解除",
+      "spaceDeafen": "スペーススピーカーミュート",
+      "removeSpaceDeafen": "スペーススピーカーミュートを解除",
+      "disconnect": "切断",
+      "spaceMuteToggle": "スペースミュート",
+      "spaceDeafenToggle": "スペーススピーカーミュート"
+    },
+    "spaceModerated": {
+      "mutedTitle": "スペースミュート",
+      "deafenedTitle": "スペーススピーカーミュート",
+      "mutedBody": "このチャンネルには特別な権限があります。話すには、スペースモデレーターや管理者などがミュートを解除する必要があります",
+      "deafenedBody": "このチャンネルには特別な権限があります。聞くには、スペースモデレーターや管理者などがスピーカーミュートを解除する必要があります",
+      "dismiss": "了解！",
+      "dismissMobile": "わかりました"
+    },
+    "screenShare": {
+      "title": "画面を共有",
+      "noScreens": "利用可能な画面がありません。",
+      "noWindows": "利用可能なウィンドウがありません。",
+      "permissionHint": "システム設定で {{appName}} の画面収録を有効にしてください。",
+      "permissionDevHint": "開発環境では通常 Electron として表示されます。",
+      "openSystemSettings": "システム設定を開く",
+      "browserPickerHint": "ライブ配信をクリックすると、ブラウザが共有する画面またはウィンドウを尋ねます。",
+      "streamSettings": "ストリーム設定",
+      "streamQuality": "ストリーム品質",
+      "shareAudio": "音声を共有",
+      "shareAudioDescription": "共有した画面またはウィンドウの音声を送信",
+      "devBuildHint": "開発ビルド：macOS のシステム設定で {{appName}}（多くの場合 Electron）に画面収録を許可してください。",
+      "goLive": "ライブ配信",
+      "quality": {
+        "720p15": "720p 15fps",
+        "720p30": "720p 30fps",
+        "1080p30": "1080p 30fps",
+        "1080p60": "1080p 60fps",
+        "source": "ソース"
+      },
+      "entireScreen_one": "画面全体 ({{count}})",
+      "entireScreen_other": "画面全体 ({{count}})",
+      "applicationWindow_one": "アプリケーションウィンドウ ({{count}})",
+      "applicationWindow_other": "アプリケーションウィンドウ ({{count}})"
+    },
+    "errors": {
+      "notConfigured": "ボイスサーバーが設定されていません",
+      "unableToJoin": "ボイスチャンネルに参加できません",
+      "credentialsMissing": "ボイスサーバーの認証情報が提供されませんでした",
+      "timedOut": "ボイス接続がタイムアウトしました",
+      "micPermissionRequired": "ボイスチャンネルにはマイクの許可が必要です",
+      "closed": "ボイス接続が閉じられました",
+      "disconnected": "切断されました",
+      "disconnectedFrom": "ボイスから切断されました: {{reason}}",
+      "differentDevice": "別のデバイスから接続されました",
+      "movedChannel": "別のボイスチャンネルに移動しました",
+      "enumerateDevices": "デバイスの列挙に失敗しました"
+    }
+  },
+  "feed": {
+    "title": "フィード",
+    "tabs": {
+      "forYou": "おすすめ",
+      "friends": "フレンド",
+      "saved": "保存済み",
+      "scheduled": "予約投稿"
+    },
+    "sidebar": {
+      "explore": "探索 / 発見",
+      "friends": "フレンド",
+      "saves": "保存済み",
+      "myProfile": "マイプロフィール",
+      "customizeProfile": "プロフィールをカスタマイズ",
+      "switchMode": "{{mode}} に切り替え"
+    },
+    "header": {
+      "createPost": "投稿を作成",
+      "createPostSheetTitle": "投稿を作成",
+      "myProfile": "マイプロフィール",
+      "customizeProfile": "プロフィールをカスタマイズ"
+    },
+    "composer": {
+      "placeholder": "今何を考えていますか？",
+      "post": "投稿",
+      "schedule": "予約",
+      "addMedia": "メディアを追加",
+      "addEmojiOrSticker": "絵文字またはステッカーを追加",
+      "schedulePost": "投稿を予約",
+      "viewScheduled": "予約投稿を表示",
+      "clearScheduledTime": "予約時刻をクリア",
+      "pickDateTime": "日時を選択",
+      "clearSchedule": "予約をクリア"
+    },
+    "empty": {
+      "posts": "まだ投稿がありません。",
+      "saved": "まだ保存した投稿がありません。",
+      "scheduled": "予約投稿はありません。",
+      "comments": "まだコメントがありません。",
+      "postUnavailable": "この投稿は存在しないか、利用できなくなりました。",
+      "shareTargets": "共有できる会話やフレンドがまだありません。"
+    },
+    "scheduled": {
+      "title": "予約投稿",
+      "reschedule": "予約を変更",
+      "saveTime": "時刻を保存",
+      "publishNow": "今すぐ公開",
+      "scheduledFor": "{{datetime}} に予約済み",
+      "scheduledForUnknown": "予約日時不明"
+    },
+    "comments": {
+      "title": "コメント",
+      "loading": "コメントを読み込み中…",
+      "placeholder": "コメントを書く…",
+      "replyPlaceholder": "{{name}} に返信…",
+      "replyFallback": "コメント",
+      "reply": "返信",
+      "sendReply": "返信を送信"
+    },
+    "actions": {
+      "deletePost": "投稿を削除",
+      "reportPost": "投稿を報告",
+      "deleteComment": "コメントを削除",
+      "reportComment": "コメントを報告",
+      "openPost": "投稿を開く",
+      "savePost": "投稿を保存",
+      "unsavePost": "保存を解除"
+    },
+    "report": {
+      "thisPost": "この投稿",
+      "thisComment": "このコメント"
+    },
+    "share": {
+      "title": "投稿を共有",
+      "send": "送信",
+      "sending": "送信中…",
+      "done": "完了"
+    },
+    "embed": {
+      "loadingPost": "投稿を読み込み中…",
+      "attachments_one": "添付ファイル {{count}} 件",
+      "attachments_other": "添付ファイル {{count}} 件"
+    },
+    "media": {
+      "goToMediaA11y": "メディア {{index}} に移動",
+      "volume": "音量"
+    }
+  },
+  "contextMenu": {
+    "markAsRead": "既読にする",
+    "viewProfile": "プロフィールを表示",
+    "editProfile": "プロフィールを編集",
+    "message": "メッセージ",
+    "closeDm": "DM を閉じる",
+    "removeFromGroup": "グループから削除",
+    "acceptFriendRequest": "フレンドリクエストを承認",
+    "declineFriendRequest": "フレンドリクエストを拒否",
+    "cancelFriendRequest": "フレンドリクエストをキャンセル",
+    "removeFriend": "フレンドを削除",
+    "block": "ブロック",
+    "unblock": "ブロック解除",
+    "reportUser": "ユーザーを報告",
+    "reportAccount": "このアカウント",
+    "roles": "ロール",
+    "noRolesToAssign": "割り当て可能なロールがありません",
+    "createRole": "ロールを作成",
+    "noRolesAssigned": "ロールが割り当てられていません",
+    "kickMember": "{{username}} をキック",
+    "banMember": "{{username}} をBAN",
+    "openInStaffPanel": "スタッフパネルで開く",
+    "inviteToChannel": "チャンネルに招待",
+    "editChannel": "チャンネルを編集",
+    "editCategory": "カテゴリを編集",
+    "deleteChannel": "チャンネルを削除",
+    "deleteCategory": "カテゴリを削除",
+    "reportSpace": "スペースを報告",
+    "reportSpaceLabel": "このスペース",
+    "leaveSpace": "スペースを退出",
+    "createChannel": "チャンネルを作成",
+    "createCategory": "カテゴリを作成",
+    "inviteToSpace": "スペースに招待",
+    "editGroup": "グループを編集",
+    "manageGroup": "グループを管理",
+    "leaveGroup": "グループを退出",
+    "deleteGroup": "グループを削除",
+    "deleteRole": "ロールを削除",
+    "moveUp": "上に移動",
+    "moveDown": "下に移動",
+    "channelSettings": "チャンネル設定",
+    "addFriend": "フレンドを追加"
+  },
+  "favorites": {
+    "add": "お気に入りに追加",
+    "remove": "お気に入りから削除"
+  },
+  "stickers": {
+    "animated": "アニメーションスタンプ",
+    "sticker": "スタンプ"
+  },
+  "groupDm": {
+    "title": "グループDM",
+    "edit": "グループを編集",
+    "leave": "グループを退出",
+    "delete": "グループを削除",
+    "manage": {
+      "title": "グループを管理",
+      "icon": "アイコン",
+      "removeIcon": "アイコンを削除",
+      "changeIcon": "アイコンを変更",
+      "groupName": "グループ名",
+      "members": "メンバー",
+      "you": "（あなた）",
+      "remove": "削除",
+      "removing": "削除中…",
+      "saveChanges": "変更を保存",
+      "leaveGroup": "グループを退出",
+      "deleteGroup": "グループを削除",
+      "round": "丸くする"
+    },
+    "groupFullCount": "このグループは満員です（{{current}}/{{max}}）。",
+    "spotsRemaining_one": "残り{{count}}枠",
+    "spotsRemaining_other": "残り{{count}}枠",
+    "noFriendsToAdd": "追加できるフレンドがいません。",
+    "namePlaceholder": "例: ゲームナイト",
+    "conversationOptionsA11y": "会話のオプション",
+    "saveFailed": "グループの保存に失敗しました",
+    "leaveFailed": "グループの退出に失敗しました",
+    "deleteFailed": "グループの削除に失敗しました",
+    "removeMemberFailed": "メンバーの削除に失敗しました",
+    "addRecipientFailed": "受信者の追加に失敗しました",
+    "maxRecipients": "グループDMの受信者は9人までです（自分を含めて10人）",
+    "membersCount": "メンバー - {{value}}"
+  },
+  "friends": {
+    "title": "フレンド",
+    "tabs": {
+      "online": "オンライン",
+      "all": "すべて",
+      "pending": "保留中",
+      "addFriend": "フレンドを追加"
+    },
+    "emptyOnline": "オンラインのフレンドはいません。「フレンドを追加」ボタンをクリックしてフレンドリクエストを送信しましょう。",
+    "emptyAll": "フレンドがいません。「フレンドを追加」ボタンをクリックしてフレンドリクエストを送信しましょう。",
+    "emptyPending": "保留中のフレンドリクエストはありません。「フレンドを追加」ボタンをクリックしてフレンドリクエストを送信しましょう。",
+    "addTitle": "フレンドを追加",
+    "addDescription": "Mutualzzのユーザー名でフレンドを追加できます。",
+    "usernamePlaceholder": "ユーザー名を入力",
+    "sendRequest": "リクエストを送信",
+    "alreadyFriends": "すでにフレンドです",
+    "alreadySent": "すでにリクエストを送信済みです",
+    "unknownUsername": "不明なユーザー名です。ユーザー名が正しいか確認してください",
+    "friendLinkTitle": "あなたのフレンドリンク",
+    "friendLinkDescription": "このリンクを共有すると、相手からフレンドリクエストを送れます。チャットに「フレンドを追加」ボタンが表示されます。",
+    "creatingLink": "フレンドリンクを作成中...",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "message": "メッセージ",
+    "remove": "削除",
+    "onlineCount_one": "オンライン - {{count}}",
+    "onlineCount_other": "オンライン - {{count}}",
+    "allCount_one": "すべて - {{count}}",
+    "allCount_other": "すべて - {{count}}",
+    "receivedCount_one": "受信 - {{count}}",
+    "receivedCount_other": "受信 - {{count}}",
+    "sentCount_one": "送信済み - {{count}}",
+    "sentCount_other": "送信済み - {{count}}",
+    "emptyYet": "まだフレンドがいません。",
+    "incomingCount": "受信 — {{value}}",
+    "pendingSectionCount": "保留中 — {{value}}",
+    "friendsSectionCount": "フレンド — {{value}}",
+    "sendFailed": "リクエストを送信できませんでした",
+    "blockedBeforeRequest": "このユーザーをブロックしています。リクエストを送信する前にブロックを解除してください。"
+  },
+  "dm": {
+    "title": "ダイレクトメッセージ",
+    "newMessage": "新しいメッセージ",
+    "empty": "まだダイレクトメッセージはありません。ユーザーのプロフィールで「メッセージ」をクリックするか、新しいグループDMを作成して会話を始めましょう！",
+    "createTitle": "新しいメッセージ",
+    "createMessage": "メッセージを作成",
+    "createGroupMessage": "グループメッセージを作成",
+    "searchPeople": "ユーザーを検索",
+    "groupNameOptional": "グループ名（任意）",
+    "selected": "選択済み",
+    "createFailed": "DMの作成に失敗しました",
+    "createGroupA11y": "グループDMを作成",
+    "rotate90": "90°回転",
+    "addFriendsHint_one": "あと{{count}}人のフレンドを追加できます。",
+    "addFriendsHint_other": "あと{{count}}人のフレンドを追加できます。"
+  },
+  "picker": {
+    "tabs": {
+      "emoji": "絵文字",
+      "gifs": "GIF",
+      "stickers": "スタンプ"
+    },
+    "searchEmojis": "絵文字を検索…",
+    "searchStickers": "スタンプを検索…",
+    "searchKlipy": "KLIPYを検索",
+    "favorites": "お気に入り",
+    "recentlyUsed": "最近使ったもの",
+    "recent": "最近",
+    "yourEmojis": "あなたの絵文字",
+    "yours": "あなたのもの",
+    "yourStickers": "あなたのスタンプ",
+    "custom": "カスタム",
+    "standard": "標準",
+    "noResults": "結果なし",
+    "results_one": "{{count}}件の結果",
+    "results_other": "{{count}}件の結果",
+    "skinTone": "肌の色",
+    "skinToneDefault": "デフォルト",
+    "emptyStickers": "まだスタンプがありません。ユーザーまたはスペースの設定でアップロードしてください。",
+    "loadingMore": "読み込み中…",
+    "noGifsFor": "「{{query}}」のGIFは見つかりませんでした",
+    "gifA11y": "GIF",
+    "addFavorite": "お気に入りに追加",
+    "removeFavorite": "お気に入りから削除",
+    "categories": {
+      "smileys": "笑顔と感情",
+      "people": "人と体",
+      "animals": "動物と自然",
+      "food": "食べ物と飲み物",
+      "travel": "旅行と場所",
+      "activities": "アクティビティ",
+      "objects": "オブジェクト",
+      "symbols": "記号",
+      "flags": "旗"
+    }
+  },
+  "blocked": "ブロック済み",
+  "privateSpace": "プライベートスペース",
+  "mentions": {
+    "members": "メンバー",
+    "membersMatching": "「{{query}}」に一致するメンバー",
+    "notifyRole": "このチャンネルを表示する権限を持つ、このロールのユーザーに通知します",
+    "notifyEveryone": "このチャンネルを表示する権限を持つ全員に通知します",
+    "notifyHere": "このチャンネルを表示する権限を持つオンラインの全員に通知します",
+    "role": "ロール"
+  },
+  "expressionPreview": {
+    "emojiFromSpaceBelong": "この絵文字は、あなたが所属しているスペースのものです",
+    "emojiFromYou": "この絵文字はあなたのもので、どのチャットでも使えます",
+    "emojiFromUser": "この絵文字はユーザーのものです",
+    "emojiFromSpace": "この絵文字はスペースのものです",
+    "stickerFromSpaceBelong": "このステッカーは、あなたが所属しているスペースのものです",
+    "stickerFromYou": "このステッカーはあなたのもので、どのチャットでも使えます",
+    "stickerFromUser": "このステッカーはユーザーのものです",
+    "stickerFromSpace": "このステッカーはスペースのものです",
+    "defaultEmoji": "これはデフォルトの絵文字です。Mutualzzのどこでも使えます",
+    "emojiMatching": "一致する絵文字"
+  },
+  "someone": "誰か",
+  "you": "あなた",
+  "unknownSpace": "不明なスペース",
+  "owner": "オーナー",
+  "loadingMembers": "メンバーを読み込み中…",
+  "loadingMembersEllipsis": "メンバーを読み込み中...",
+  "noMembersToShow": "表示するメンバーがいません。",
+  "loadingMoreMembers": "読み込み中…",
+  "loadingChannel": "チャンネルを読み込み中...",
+  "downloading": "ダウンロード中...",
+  "home": "ホーム",
+  "selectConversation": "会話を選択してチャットを始めましょう",
+  "selectChannel": "チャンネルを選択してチャットを始めましょう",
+  "messageTooLong": "メッセージは2000文字を超えることはできません",
+  "cannotMessagePerson": "このユーザーにはメッセージを送信できません",
+  "unknownError": "不明なエラー",
+  "online": "オンライン",
+  "offline": "オフライン",
+  "toast": {
+    "onlyMentioned": "このメッセージではメンションされただけです",
+    "openChannel": "チャンネルを開く"
+  },
+  "a11y": {
+    "embedImage": "埋め込み画像",
+    "embedTitle": "埋め込みタイトル",
+    "youtubePlayer": "YouTube動画プレーヤー",
+    "toggleReaction": "リアクションを切り替え、件数 {{value}}",
+    "mentionsCount": "{{value}}件のメンション",
+    "unread": "未読"
+  }
+}

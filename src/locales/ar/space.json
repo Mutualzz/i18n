@@ -1,0 +1,499 @@
+{
+  "title": "إعدادات المساحة",
+  "titleShort": "إعدادات المساحة",
+  "overviewDescription": "إدارة الأدوار والدعوات والتعبيرات والإشراف.",
+  "nav": {
+    "categories": {
+      "general": "عام",
+      "people": "الأشخاص",
+      "moderation": "الإشراف"
+    },
+    "pages": {
+      "profile": "الملف",
+      "roles": "الأدوار",
+      "channels": "القنوات",
+      "invites": "الدعوات",
+      "expressions": "التعبيرات",
+      "bans": "الحظر"
+    }
+  },
+  "actions": {
+    "deleteSpace": "حذف المساحة",
+    "leaveSpace": "مغادرة المساحة",
+    "createRole": "إنشاء دور",
+    "deleteRole": "حذف الدور",
+    "createInvite": "إنشاء دعوة",
+    "createInviteLink": "إنشاء رابط دعوة",
+    "deleteAllInvites": "حذف كل الدعوات",
+    "editInviteLink": "تعديل رابط الدعوة",
+    "revokeBan": "إلغاء الحظر",
+    "unbanMember": "إلغاء حظر العضو",
+    "unbanning": "جارٍ إلغاء الحظر...",
+    "kick": "طرد",
+    "ban": "حظر",
+    "addMembers": "إضافة أعضاء",
+    "addMembersCount_one": "إضافة ({{count}})",
+    "addMembersCount_other": "إضافة ({{count}})",
+    "markAllAsRead": "تعليم الكل كمقروء",
+    "clearPermissions": "مسح الصلاحيات",
+    "working": "جارٍ العمل...",
+    "creating": "جارٍ الإنشاء...",
+    "addMembersCount_zero": "إضافة ({{count}})",
+    "addMembersCount_two": "إضافة ({{count}})",
+    "addMembersCount_few": "إضافة ({{count}})",
+    "addMembersCount_many": "إضافة ({{count}})"
+  },
+  "profile": {
+    "spaceIcon": "أيقونة المساحة",
+    "name": "الاسم",
+    "description": "الوصف",
+    "descriptionPlaceholder": "اكتب شيئًا عن مساحتك...",
+    "updatedSuccess": "تم تحديث المساحة بنجاح.",
+    "genericError": "حدث خطأ"
+  },
+  "invites": {
+    "activeLinks": "روابط الدعوة النشطة",
+    "createTitle": "إنشاء رابط دعوة",
+    "createDescriptionChannel": "ينشئ رابطًا إلى #{{channel}}.",
+    "createDescriptionDefault": "ينشئ رابطًا إلى قناة النص الافتراضية لهذه المساحة.",
+    "createFailed": "فشل إنشاء الدعوة",
+    "empty": "لم تُنشأ أي دعوات لهذه المساحة بعد.",
+    "columns": {
+      "inviter": "الداعي",
+      "inviteCode": "رمز الدعوة",
+      "uses": "الاستخدامات",
+      "expires": "تنتهي"
+    },
+    "usesLabel": "الاستخدامات: {{uses}}{{max}}",
+    "usesMax": " / {{max}}",
+    "neverExpires": "لا تنتهي أبدًا",
+    "expired": "منتهية",
+    "copyInviteUrl": "نسخ رابط الدعوة",
+    "copiedToClipboard": "تم النسخ إلى الحافظة",
+    "tapToCopy": "انقر على الرابط للنسخ",
+    "modal": {
+      "title": "دعوة أصدقاء إلى {{spaceName}}",
+      "landingChannel": "سيصل المستلمون إلى #{{channelName}}",
+      "searchFriends": "البحث عن أصدقاء",
+      "noResults": "لا نتائج.",
+      "noFriends": "لا أصدقاء للدعوة. شارك الرابط أدناه بدلًا من ذلك.",
+      "inviteLink": "رابط الدعوة",
+      "expiresPrefix": "سينتهي هذا الرابط ",
+      "expiresNever": "أبدًا",
+      "expiresAfterUses_one": " أو بعد استخدام {{count}}",
+      "expiresAfterUses_other": " أو بعد {{count}} استخدامات",
+      "editTitle": "تعديل رابط الدعوة الحالي",
+      "expireAfter": "تنتهي بعد",
+      "maxUses": "الحد الأقصى للاستخدامات",
+      "expiresAfterUses_zero": " أو بعد استخدام {{count}}",
+      "expiresAfterUses_two": " أو بعد استخدام {{count}}",
+      "expiresAfterUses_few": " أو بعد {{count}} استخدامات",
+      "expiresAfterUses_many": " أو بعد {{count}} استخدامات"
+    },
+    "expiry": {
+      "30minutes": "30 دقيقة",
+      "1hour": "ساعة واحدة",
+      "6hours": "6 ساعات",
+      "12hours": "12 ساعة",
+      "1day": "يوم واحد",
+      "7days": "7 أيام",
+      "never": "أبدًا"
+    },
+    "maxUses": {
+      "noLimit": "بلا حد",
+      "1use": "استخدام واحد",
+      "5uses": "5 استخدامات",
+      "10uses": "10 استخدامات",
+      "25uses": "25 استخدامًا",
+      "50uses": "50 استخدامًا",
+      "100uses": "100 استخدام"
+    }
+  },
+  "roles": {
+    "defaultPermissions": "الصلاحيات الافتراضية",
+    "everyoneSubtitle": "@everyone - تنطبق على جميع أعضاء المساحة",
+    "everyoneSuffix": " (@everyone)",
+    "searchPlaceholder": "البحث في الأدوار",
+    "listTitle_one": "الأدوار - {{count}}",
+    "listTitle_other": "الأدوار - {{count}}",
+    "membersColumn": "الأعضاء",
+    "actionsColumn": "الإجراءات",
+    "hierarchyHint": "الأدوار الأعلى في القائمة لها سلطة أكبر. اسحب الأدوار لتغيير ترتيبها.",
+    "empty": "لم تُنشأ أي أدوار لهذه المساحة بعد.",
+    "emptySearch": "لا أدوار تطابق بحثك.",
+    "memberCount_one": "عضو {{count}}",
+    "memberCount_other": "{{count}} أعضاء",
+    "editTitle": "تعديل الدور - {{name}}",
+    "tabs": {
+      "display": "العرض",
+      "permissions": "الصلاحيات",
+      "manageMembers": "إدارة الأعضاء",
+      "members": "الأعضاء"
+    },
+    "unsavedChanges": "لديك تغييرات غير محفوظة!",
+    "saveFailed": "فشل حفظ الدور",
+    "display": {
+      "roleName": "اسم الدور",
+      "roleColor": "لون الدور",
+      "hoist": "عرض أعضاء الدور منفصلين عن الأعضاء المتصلين",
+      "mentionable": "السماح لأي شخص بـ @mention لهذا الدور",
+      "mentionableHint": "الأعضاء الذين لديهم صلاحية \"الإشارة إلى @everyone و@here وجميع الأدوار\" يمكنهم الإشارة إلى هذا الدور بغض النظر عن هذا الإعداد.",
+      "mentionableHintShort": "الأعضاء الذين لديهم صلاحية الإشارة للجميع يمكنهم الإشارة إلى هذا الدور."
+    },
+    "members": {
+      "title": "أعضاء الدور",
+      "description": "عرض وإدارة الأعضاء المعيَّنين لهذا الدور.",
+      "searchPlaceholder": "البحث عن أعضاء",
+      "emptyAssigned": "لم يُعيَّن أي أعضاء لهذا الدور.",
+      "emptySearch": "لا أعضاء يطابقون بحثك.",
+      "addTitle": "إضافة أعضاء",
+      "addDescription": "أضف حتى {{max}} أعضاء إلى {{roleName}}",
+      "selectedCount": "{{selected}}/{{max}} محددون",
+      "noEligible": "لا أعضاء متاحون للإضافة إلى هذا الدور.",
+      "addSuccess_one": "أُضيف عضو {{count}} إلى {{roleName}}",
+      "addSuccess_other": "أُضيف {{count}} أعضاء إلى {{roleName}}",
+      "addFailed": "فشل إضافة الأعضاء إلى الدور",
+      "addSuccess_zero": "أُضيف عضو {{count}} إلى {{roleName}}",
+      "addSuccess_two": "أُضيف عضو {{count}} إلى {{roleName}}",
+      "addSuccess_few": "أُضيف {{count}} أعضاء إلى {{roleName}}",
+      "addSuccess_many": "أُضيف {{count}} أعضاء إلى {{roleName}}"
+    },
+    "hierarchy": {
+      "cantReorder": "لا يمكنك إعادة ترتيب أدوار عند أو فوق أعلى دور لديك",
+      "cantAssign": "لا يمكنك تعيين أو إزالة هذا الدور",
+      "cantEditRole": "لا يمكنك تعديل هذا الدور لأنه عند أو فوق أعلى دور لديك.",
+      "cantManageMembers": "لا يمكنك تعيين أو إزالة أعضاء من هذا الدور.",
+      "dragToReorder": "اسحب لإعادة الترتيب",
+      "dragToReorderHierarchy": "اسحب لإعادة ترتيب التسلسل",
+      "failedReorder": "فشل إعادة ترتيب الأدوار",
+      "failedUpdateRole": "فشل تحديث الدور",
+      "cantManageMember": "ليس لديك صلاحية إدارة هذا العضو"
+    },
+    "delete": {
+      "title": "حذف الدور",
+      "confirm": "هل أنت متأكد أنك تريد حذف دور {{name}}؟ لا يمكن التراجع عن هذا الإجراء."
+    },
+    "permissions": {
+      "searchPlaceholder": "البحث في الصلاحيات...",
+      "jumpToCategory": "الانتقال إلى فئة…",
+      "emptySearch": "لا صلاحيات تطابق بحثك",
+      "clear": "مسح الصلاحيات",
+      "groups": {
+        "general": "صلاحيات المساحة العامة",
+        "membership": "صلاحيات العضوية",
+        "text": "صلاحيات قنوات النص",
+        "voice": "صلاحيات قنوات الصوت",
+        "advanced": "صلاحيات متقدمة"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "عرض القنوات",
+          "description": "السماح للأعضاء بعرض القنوات افتراضيًا"
+        },
+        "ManageChannels": {
+          "label": "إدارة القنوات",
+          "description": "السماح للأعضاء بإنشاء أو تعديل أو حذف القنوات"
+        },
+        "ManageRoles": {
+          "label": "إدارة الأدوار",
+          "description": "يسمح للأعضاء بإنشاء أدوار جديدة وتعديل أو حذف أدوار أدنى من أعلى دور لديهم"
+        },
+        "CreateExpressions": {
+          "label": "إنشاء تعبيرات",
+          "description": "السماح للأعضاء بإنشاء رموز تعبيرية وملصقات في هذه المساحة."
+        },
+        "ManageExpressions": {
+          "label": "إدارة التعبيرات",
+          "description": "السماح للأعضاء بتعديل أو حذف الرموز التعبيرية والملصقات في هذه المساحة."
+        },
+        "ManageSpace": {
+          "label": "إدارة المساحة",
+          "description": "السماح للأعضاء بتغيير هذه المساحة"
+        },
+        "CreateInvites": {
+          "label": "إنشاء دعوات",
+          "description": "السماح للأعضاء بدعوة أشخاص جدد إلى هذه المساحة"
+        },
+        "KickMembers": {
+          "label": "طرد الأعضاء",
+          "description": "الطرد يزيل أعضاء آخرين من هذه المساحة. يمكن للمطرودين الانضمام مجددًا إذا كانت لديهم دعوة أخرى."
+        },
+        "BanMembers": {
+          "label": "حظر الأعضاء",
+          "description": "الحظر يزيل الأعضاء من هذه المساحة ويمنعهم من الانضمام مجددًا حتى يُلغى حظرهم."
+        },
+        "SendMessages": {
+          "label": "إرسال الرسائل",
+          "description": "السماح للأعضاء بإرسال رسائل في قنوات النص"
+        },
+        "EmbedLinks": {
+          "label": "تضمين الروابط",
+          "description": "السماح للأعضاء بتضمين روابط في الرسائل"
+        },
+        "AttachFiles": {
+          "label": "إرفاق ملفات",
+          "description": "السماح للأعضاء بإرفاق ملفات في الرسائل"
+        },
+        "MentionEveryone": {
+          "label": "الإشارة للجميع",
+          "description": "السماح للأعضاء بالإشارة إلى @everyone و@here في الرسائل"
+        },
+        "UseExternalEmojis": {
+          "label": "استخدام رموز خارجية",
+          "description": "السماح للأعضاء باستخدام رموز من مساحات أخرى أو رموزهم الخاصة في رسائلهم"
+        },
+        "ManageMessages": {
+          "label": "إدارة الرسائل",
+          "description": "السماح للأعضاء بحذف رسائل أعضاء آخرين"
+        },
+        "ReadMessageHistory": {
+          "label": "قراءة سجل الرسائل",
+          "description": "السماح للأعضاء بقراءة سجل الرسائل"
+        },
+        "Connect": {
+          "label": "الاتصال",
+          "description": "السماح للأعضاء بالاتصال بقنوات الصوت"
+        },
+        "Speak": {
+          "label": "التحدث",
+          "description": "السماح للأعضاء بالتحدث في قنوات الصوت"
+        },
+        "Administrator": {
+          "label": "مسؤول",
+          "description": "الأعضاء بهذه الصلاحية سيحصلون على كل الصلاحيات. هذه صلاحية خطيرة لمنحها.",
+          "descriptionBefore": "الأعضاء بهذه الصلاحية سيحصلون على كل الصلاحيات.",
+          "descriptionDanger": "هذه صلاحية خطيرة لمنحها"
+        }
+      }
+    },
+    "listTitle_zero": "الأدوار - {{count}}",
+    "listTitle_two": "الأدوار - {{count}}",
+    "listTitle_few": "الأدوار - {{count}}",
+    "listTitle_many": "الأدوار - {{count}}",
+    "memberCount_zero": "عضو {{count}}",
+    "memberCount_two": "عضو {{count}}",
+    "memberCount_few": "{{count}} أعضاء",
+    "memberCount_many": "{{count}} أعضاء"
+  },
+  "expressions": {
+    "pageTitle": "تعبيرات المساحة",
+    "pageDescription": "ارفع وأدر رموزًا تعبيرية وملصقات مخصصة لهذه المساحة.",
+    "emojiLimit": "للأسف الحد الحالي للرموز التي يمكنك رفعها هو 100، لأن التطبيق في مرحلة تجريبية والتخزين مشكلة حاليًا",
+    "stickerLimit": "للأسف الحد الحالي للملصقات التي يمكنك رفعها هو 100، لأن التطبيق في مرحلة تجريبية والتخزين مشكلة حاليًا",
+    "stickerLimitMobile": "حد تجريبي: {{limit}} ملصقًا لكل مساحة.",
+    "emptyEmojis": "لا رموز مساحة بعد",
+    "emptyStickers": "لا ملصقات مساحة بعد"
+  },
+  "bans": {
+    "title": "قائمة حظر المساحة",
+    "description": "عرض وإدارة قائمة المستخدمين المحظورين في هذه المساحة. الحظر حاليًا قائم على الحساب، وسنقدّم حظر IP في المستقبل.",
+    "descriptionShort": "عرض وإدارة المستخدمين المحظورين في هذه المساحة.",
+    "searchPlaceholder": "البحث في الحظر بمعرّف المستخدم أو اسم المستخدم أو الاسم المعروض",
+    "searchPlaceholderShort": "البحث باسم المستخدم أو معرّف المستخدم",
+    "empty": "لم يُحظر أحد بعد",
+    "reason": "السبب",
+    "noReason": "لم يُقدَّم سبب",
+    "bannedBy": "حظره",
+    "bannedAt": "تاريخ الحظر",
+    "unbanSuccess": "أُلغي حظر {{name}} بنجاح",
+    "unbanTitle": "إلغاء حظر {{name}}؟"
+  },
+  "moderation": {
+    "banTitle": "حظر {{name}}؟",
+    "kickTitle": "طرد {{name}}؟",
+    "kickFromSpaceTitle": "طرد {{name}} من المساحة",
+    "kickBody": "هل أنت متأكد أنك تريد طرد @{{name}} من المساحة؟ سيحتاج إلى دعوة للانضمام مجددًا.",
+    "kickSuccess": "طُرد {{name}} من المساحة",
+    "reason": "السبب",
+    "reasonOptional": "السبب (اختياري)",
+    "reasonForKick": "سبب الطرد",
+    "reasonForBan": "سبب الحظر *",
+    "deleteRecentMessages": "حذف الرسائل الأخيرة",
+    "banReasons": {
+      "suspicious": "حساب مشبوه أو مزعج",
+      "compromised": "حساب مخترق أو مُخترَق",
+      "breakingRules": "خرق قواعد المساحة",
+      "other": "أخرى"
+    },
+    "deleteMessages": {
+      "dontDelete": "عدم الحذف",
+      "dontDeleteMessages": "عدم حذف الرسائل",
+      "previousHour": "الساعة السابقة",
+      "lastHour": "آخر ساعة",
+      "previousDay": "اليوم السابق",
+      "last24Hours": "آخر 24 ساعة",
+      "previousWeek": "الأسبوع السابق",
+      "last7Days": "آخر 7 أيام",
+      "allMessages": "كل الرسائل",
+      "deleteAllMessages": "حذف كل الرسائل"
+    },
+    "youWereBanned": "تم حظرك من {{name}}",
+    "youWereKicked": "تم طردك من {{name}}"
+  },
+  "channels": {
+    "noCategory": "بلا فئة",
+    "empty": "لا قنوات لإعادة ترتيبها.",
+    "reorderHint": "اسحب القنوات لإعادة ترتيبها. ضع قناة مباشرة تحت فئة لإضافتها إلى تلك المجموعة. اسحب فوق فئة لإزالتها من المجموعة.",
+    "overwrites": "التجاوزات",
+    "searchTargets": "البحث عن أدوار أو أعضاء…",
+    "topic": "موضوع القناة",
+    "topicHint": "يُعرض للأعضاء في أعلى القناة.",
+    "topicPlaceholder": "الموضوع",
+    "settingsTitle": "إعدادات القناة",
+    "namePlaceholder": "اسم القناة",
+    "permissionOverwrites": "تجاوزات الصلاحيات",
+    "channelInvites": "دعوات القناة",
+    "noChannelInvites": "لم تُنشأ دعوات لـ #{{channel}} بعد.",
+    "selectOverwriteTarget": "اختر هدف تجاوز لتعديل صلاحيات خاصة بالقناة.",
+    "nameEmpty": "لا يمكن أن يكون اسم القناة فارغًا.",
+    "failedMoveMember": "فشل نقل العضو",
+    "create": {
+      "title": "إنشاء قناة",
+      "name": "اسم القناة",
+      "namePlaceholder": "قناة-جديدة",
+      "type": "نوع القناة",
+      "text": "قناة نصية",
+      "textDescription": "أرسل رسائل وصورًا والمزيد",
+      "voice": "قناة صوتية",
+      "voiceDescription": "تواصل بالصوت والفيديو",
+      "submit": "إنشاء قناة",
+      "icon": "أيقونة القناة",
+      "upload": "رفع",
+      "rounded": "مستديرة",
+      "rotate": "تدوير",
+      "clear": "مسح"
+    },
+    "createCategory": {
+      "title": "إنشاء فئة",
+      "name": "اسم الفئة",
+      "namePlaceholder": "فئة جديدة",
+      "submit": "إنشاء فئة"
+    },
+    "delete": {
+      "title": "حذف القناة",
+      "body": "هل أنت متأكد أنك تريد حذف {{name}}؟ لا يمكن التراجع عن هذا الإجراء.",
+      "confirm": "حذف القناة"
+    },
+    "deleteCategory": {
+      "title": "حذف الفئة \"{{name}}\"؟",
+      "body": "هل تريد حذف هذه الفئة؟",
+      "categoryOnly": "الفئة فقط",
+      "categoryAndChannels": "الفئة وجميع القنوات المرتبطة",
+      "confirm": "حذف الفئة"
+    },
+    "saveOverwrite": "حفظ التجاوز",
+    "deleteChannelAction": "حذف القناة",
+    "createInvite": "إنشاء دعوة",
+    "createInviteLink": "إنشاء رابط دعوة",
+    "removeIcon": "إزالة الأيقونة",
+    "restoreIcon": "استعادة الأيقونة",
+    "uploadEmoji": "رفع رمز تعبيري",
+    "uploadSticker": "رفع ملصق",
+    "noSpaceEmojis": "لا رموز مساحة بعد",
+    "pages": {
+      "overview": "نظرة عامة",
+      "permissions": "الصلاحيات",
+      "invites": "الدعوات"
+    },
+    "permissions": {
+      "addOverwrite": "إضافة تجاوز صلاحية",
+      "roles": "الأدوار",
+      "members": "الأعضاء",
+      "noResults": "لا نتائج",
+      "noOverwritesYet": "لا تجاوزات بعد",
+      "selectTargetHint": "اختر دورًا أو عضوًا لتكوين صلاحيات خاصة بالقناة.",
+      "selectTargetHintLeft": "اختر دورًا أو عضوًا على اليسار لتعديل صلاحياتهم لهذه القناة، أو انقر + لإضافة واحد.",
+      "groups": {
+        "general": "صلاحيات القناة العامة",
+        "text": "صلاحيات قناة النص",
+        "voice": "صلاحيات قناة الصوت"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "عرض القناة",
+          "description": "السماح للأعضاء بعرض هذه القناة"
+        },
+        "ManageChannels": {
+          "label": "إدارة القناة",
+          "description": "السماح للأعضاء بتعديل أو حذف هذه القناة"
+        },
+        "ManageRoles": {
+          "label": "إدارة الصلاحيات",
+          "description": "السماح للأعضاء بتعديل تجاوزات صلاحيات هذه القناة"
+        },
+        "SendMessages": {
+          "label": "إرسال الرسائل",
+          "description": "السماح للأعضاء بإرسال رسائل في هذه القناة"
+        },
+        "EmbedLinks": {
+          "label": "تضمين الروابط",
+          "description": "السماح للأعضاء بتضمين روابط"
+        },
+        "AttachFiles": {
+          "label": "إرفاق ملفات",
+          "description": "السماح للأعضاء بإرفاق ملفات"
+        },
+        "MentionEveryone": {
+          "label": "الإشارة للجميع",
+          "description": "السماح للأعضاء بـ @mention لـ @everyone و@here"
+        },
+        "UseExternalEmojis": {
+          "label": "استخدام رموز خارجية",
+          "description": "السماح للأعضاء باستخدام رموز من مساحات أخرى"
+        },
+        "ManageMessages": {
+          "label": "إدارة الرسائل",
+          "description": "السماح للأعضاء بحذف رسائل الآخرين"
+        },
+        "ReadMessageHistory": {
+          "label": "قراءة سجل الرسائل",
+          "description": "السماح للأعضاء بقراءة الرسائل السابقة"
+        },
+        "Connect": {
+          "label": "الاتصال",
+          "description": "السماح للأعضاء بالاتصال بهذه القناة الصوتية"
+        },
+        "Speak": {
+          "label": "التحدث",
+          "description": "السماح للأعضاء بالتحدث في هذه القناة الصوتية"
+        }
+      }
+    }
+  },
+  "confirm": {
+    "deleteSpaceTitle": "حذف \"{{name}}\"؟",
+    "leaveSpaceTitle": "مغادرة \"{{name}}\"؟",
+    "deleteSpaceBody": "هل أنت متأكد أنك تريد حذف {{name}}؟ لا يمكن التراجع عن هذا الإجراء.",
+    "leaveSpaceBody": "هل أنت متأكد أنك تريد مغادرة {{name}}؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cannotUndo": "لا يمكن التراجع عن هذا الإجراء."
+  },
+  "menu": {
+    "spaceSettings": "إعدادات المساحة",
+    "reportSpace": "الإبلاغ عن المساحة",
+    "leaveSpace": "مغادرة المساحة",
+    "deleteSpace": "حذف المساحة"
+  },
+  "chrome": {
+    "spaceSettings": "إعدادات المساحة",
+    "inviteToSpace": "دعوة إلى المساحة",
+    "createInviteA11y": "إنشاء دعوة",
+    "createCategoryA11y": "إنشاء فئة",
+    "spaceMenuA11y": "قائمة المساحة"
+  },
+  "sidebar": {
+    "createSpace": "إنشاء مساحة",
+    "switchToSpaces": "التبديل إلى المساحات",
+    "switchToDirectMessages": "التبديل إلى الرسائل المباشرة",
+    "switchToFeed": "التبديل إلى الخلاصة",
+    "switchTo": "التبديل إلى",
+    "directMessages": "الرسائل المباشرة",
+    "friends": "الأصدقاء",
+    "spaces": "المساحات"
+  },
+  "lockdown": {
+    "title": "هذه المساحة في حالة إغلاق",
+    "ownerMessage": "الرسائل والتغييرات معطّلة. تحقق من بريدك لرابط استئناف إذا كنت تعتقد أن هذا خطأ.",
+    "memberMessage": "الرسائل والتغييرات معطّلة بينما يراجع الفريق هذه المساحة.",
+    "toast": "هذه المساحة في حالة إغلاق. الرسائل والتغييرات معطّلة."
+  }
+}

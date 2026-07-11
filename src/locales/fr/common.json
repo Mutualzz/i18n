@@ -1,0 +1,280 @@
+{
+  "cancel": "Annuler",
+  "save": "Enregistrer",
+  "language": {
+    "title": "Langue",
+    "description": "Choisissez la langue utilisée dans Mutualzz.",
+    "systemDefault": "Langue de l'appareil"
+  },
+  "calendar": {
+    "sameDay": "[Aujourd'hui à] HH:mm",
+    "nextDay": "[Demain à] HH:mm",
+    "lastDay": "[Hier à] HH:mm",
+    "lastWeek": "dddd [dernier à] HH:mm",
+    "sameElse": "DD/MM/YYYY HH:mm"
+  },
+  "duration": {
+    "clearOnDateAt": "Effacer le {{date}} à {{time}}",
+    "clearTodayAt": "Effacer aujourd'hui à {{time}}",
+    "clearTomorrowAt": "Effacer demain à {{time}}",
+    "days_one": "{{count}} jour",
+    "days_other": "{{count}} jours",
+    "dontClear": "Ne pas effacer",
+    "forever": "Pour toujours",
+    "hours_one": "{{count}} heure",
+    "hours_other": "{{count}} heures",
+    "minutes_one": "{{count}} minute",
+    "minutes_other": "{{count}} minutes"
+  },
+  "status": {
+    "clearCustomAfter": "Effacer le statut personnalisé après",
+    "clearOnlineAfter": "Effacer le statut en ligne après",
+    "dnd": "Ne pas déranger",
+    "dndDescription": "Vous ne recevrez pas de notifications",
+    "idle": "Absent",
+    "idleDescription": "Loin du clavier",
+    "invisible": "Invisible",
+    "invisibleDescription": "Apparaître hors ligne",
+    "offline": "Hors ligne",
+    "online": "En ligne",
+    "saveCustom": "Enregistrer le statut personnalisé"
+  },
+  "report": {
+    "title": "Signaler {{label}}",
+    "description": "Les signalements sont examinés par le personnel. Choisissez le motif le plus approprié.",
+    "detailsPlaceholder": "Ajoutez plus de détails (facultatif)",
+    "submit": "Envoyer le signalement",
+    "submitting": "Envoi...",
+    "success": "Signalement envoyé. Merci de contribuer à la sécurité.",
+    "reasons": {
+      "spam": "Spam",
+      "harassment": "Harcèlement ou abus",
+      "hate_speech": "Discours haineux",
+      "nsfw": "NSFW / Contenu inapproprié",
+      "self_harm": "Automutilation ou suicide",
+      "impersonation": "Usurpation d'identité",
+      "misinformation": "Désinformation",
+      "other": "Autre"
+    },
+    "action": "Signaler"
+  },
+  "close": "Fermer",
+  "create": "Créer",
+  "delete": "Supprimer",
+  "editable": {
+    "addToDictionary": "Ajouter au dictionnaire",
+    "spellcheck": "Vérification orthographique",
+    "cut": "Couper",
+    "copy": "Copier",
+    "paste": "Coller"
+  },
+  "customStatus": {
+    "title": "Définir votre statut",
+    "label": "Statut",
+    "placeholder": "Saisissez votre statut...",
+    "setPlaceholder": "Définir un statut personnalisé...",
+    "setShort": "Définir un statut personnalisé...",
+    "editA11y": "Modifier le statut personnalisé",
+    "clearA11y": "Effacer le statut personnalisé",
+    "changeEmoji": "Changer l'emoji du statut",
+    "addEmoji": "Ajouter un emoji de statut",
+    "chooseEmoji": "Choisir un emoji de statut",
+    "pickEmoji": "Choisir un emoji",
+    "removeEmoji": "Supprimer l'emoji",
+    "changeStatus": "Changer de statut",
+    "whatsOnYourMind": "À quoi pensez-vous ?",
+    "heading": "Statut personnalisé"
+  },
+  "saveChanges": "Enregistrer les modifications",
+  "add": "Ajouter",
+  "remove": "Retirer",
+  "reset": "Réinitialiser",
+  "back": "Retour",
+  "clear": "Effacer",
+  "finish": "Terminer",
+  "retry": "Réessayer",
+  "apply": "Appliquer",
+  "undo": "Annuler",
+  "redo": "Rétablir",
+  "open": "Ouvrir",
+  "proceed": "Continuer",
+  "gotIt": "Compris",
+  "reload": "Recharger l'app",
+  "download": "Télécharger Mutualzz",
+  "accept": "Accepter",
+  "decline": "Refuser",
+  "restore": "Restaurer",
+  "uploadCustomFont": "Importer une police personnalisée",
+  "externalLink": {
+    "proceed": "Continuer",
+    "close": "Fermer",
+    "title": "Ouvrir un lien externe",
+    "aboutToOpen": "Vous êtes sur le point d'ouvrir un lien externe :",
+    "unsafeTitle": "Ce lien semble non sécurisé",
+    "unsafeHttpBody": "Le lien que vous essayez d'ouvrir utilise une connexion HTTP non sécurisée. Cela pourrait exposer vos données à des tiers.",
+    "confirmProceed": "Voulez-vous vraiment continuer ?",
+    "blockedInApp": "Pour votre sécurité, nous n'autorisons pas l'ouverture de liens non sécurisés directement dans l'application. Veuillez copier le lien et l'ouvrir dans votre navigateur web."
+  },
+  "connection": {
+    "reconnect": "Reconnecter",
+    "enableAudio": "Cliquez pour activer l'audio",
+    "offlineBanner": "Vous êtes actuellement hors ligne",
+    "audioBlocked": "Votre navigateur a bloqué la lecture audio vocale"
+  },
+  "notifications": {
+    "unreads": "Non lus",
+    "mentions": "Mentions",
+    "requests": "Demandes",
+    "markAllAsRead": "Tout marquer comme lu",
+    "acceptedFriend": "{{name}} a accepté votre demande d'ami",
+    "sentAttachment": "A envoyé une pièce jointe",
+    "noMessagesYet": "Aucun message pour le moment",
+    "youWereMentioned": "Vous avez été mentionné",
+    "noUnreads": "Aucun message non lu",
+    "noMentions": "Aucune nouvelle mention",
+    "recentlyAccepted": "Acceptés récemment",
+    "groupDmChannel": "Canal de MD de groupe",
+    "messagesChannel": "Messages",
+    "reply": "Répondre",
+    "messagePlaceholder": "Message",
+    "send": "Envoyer"
+  },
+  "markdown": {
+    "bold": "Gras",
+    "italic": "Italique",
+    "underline": "Souligné",
+    "strikethrough": "Barré",
+    "blockquote": "Citation",
+    "code": "Code",
+    "spoiler": "Spoiler"
+  },
+  "support": {
+    "myTickets": "Mes tickets",
+    "contactSupport": "Contacter l'assistance",
+    "loginToContact": "Connectez-vous pour contacter l'assistance",
+    "privacyPolicy": "Politique de confidentialité",
+    "faq": "Questions fréquentes",
+    "quickLinks": "Liens rapides",
+    "contactUs": "Nous contacter",
+    "openHelpCenter": "Ouvrir le centre d'aide",
+    "describeIssue": "Décrivez votre problème",
+    "newTicket": "Nouveau ticket",
+    "writeReply": "Écrire une réponse",
+    "pageIntro": "Besoin d'aide avec Mutualzz ? Consultez les réponses courantes ci-dessous ou contactez notre équipe.",
+    "mobileIntro": "Consultez l'aide sur mutualzz.com/support ou contactez-nous ci-dessous.",
+    "subjectPlaceholder": "Objet",
+    "submitTicket": "Envoyer le ticket",
+    "createFailed": "Échec de la création du ticket",
+    "noTickets": "Aucun ticket pour le moment",
+    "contactEmailLoggedIn": "Écrivez-nous à {{email}} ou ouvrez un ticket d'assistance depuis cette page.",
+    "contactEmailGuest": "Écrivez-nous à {{email}}.",
+    "categories": {
+      "account": "Compte et connexion",
+      "bug": "Bug ou plantage",
+      "donations": "Dons",
+      "feature": "Demande de fonctionnalité",
+      "other": "Autre"
+    },
+    "faqItems": {
+      "report": {
+        "q": "Comment signaler un utilisateur ou un contenu ?",
+        "a": "Ouvrez le profil d'un utilisateur ou le menu du contenu et choisissez Signaler. Notre équipe l'examinera."
+      },
+      "appeal": {
+        "q": "Comment faire appel d'un bannissement ?",
+        "a": "Si vous avez reçu un e-mail de bannissement, utilisez le lien d'appel dans ce message. L'équipe examinera votre demande."
+      },
+      "delete": {
+        "q": "Comment supprimer mon compte ?",
+        "a": "Allez dans Paramètres → Mon compte → Supprimer le compte."
+      },
+      "block": {
+        "q": "Comment bloquer quelqu'un ?",
+        "a": "Ouvrez son profil et choisissez Bloquer. Vous pourrez le débloquer plus tard dans les paramètres."
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "Signaler un contenu ou un utilisateur",
+        "hint": "Disponible dans les menus de profil et les actions de contenu"
+      },
+      "appeals": {
+        "label": "Appels de bannissement",
+        "hint": "Utilisez le lien d'appel de votre e-mail de bannissement"
+      },
+      "delete": {
+        "label": "Supprimer votre compte",
+        "hint": "Paramètres → Mon compte → Supprimer le compte"
+      }
+    },
+    "loading": "Chargement...",
+    "loadingTickets": "Chargement des tickets...",
+    "loadMore": "Charger plus",
+    "sendReply": "Envoyer la réponse",
+    "sendReplyFailed": "Échec de l'envoi de la réponse",
+    "staffLabel": "Assistance",
+    "ticketClosed": "Ce ticket est fermé.",
+    "ticketClosedHint": "Ce ticket est fermé. Ouvrez un nouveau ticket si vous avez encore besoin d'aide.",
+    "updatedAt": "mis à jour {{date}}"
+  },
+  "nav": {
+    "goBack": "Retour",
+    "goForward": "Avancer"
+  },
+  "updater": {
+    "pleaseWait": "Mise à jour… veuillez patienter"
+  },
+  "crash": {
+    "title": "Une erreur s'est produite",
+    "bodyDesktop": "Mutualzz a rencontré une erreur inattendue. Rechargez l'application pour réessayer.",
+    "orPressShortcut": "Ou appuyez sur {{shortcut}}",
+    "bodyMobile": "Mutualzz a rencontré une erreur inattendue. Fermez complètement l'application, puis rouvrez-la.",
+    "hintIos": "Balayez vers le haut depuis le bas de l'écran pour ouvrir le sélecteur d'apps, puis balayez Mutualzz pour la fermer.",
+    "hintAndroid": "Ouvrez l'aperçu des applications récentes, puis balayez Mutualzz jusqu'à la fermeture de l'app."
+  },
+  "media": {
+    "play": "Lecture",
+    "pause": "Pause",
+    "download": "Télécharger",
+    "volume": "Volume"
+  },
+  "a11y": {
+    "closeProfile": "Fermer le profil",
+    "settings": "Paramètres",
+    "deleteInvite": "Supprimer l'invitation",
+    "deleteNamed": "Supprimer {{name}}",
+    "deleteExpression": "Supprimer :{{name}}:",
+    "removeMemberFromRole": "Retirer {{member}} de {{role}}",
+    "allowPermission": "Autoriser {{label}}",
+    "neutralPermission": "Neutre {{label}}",
+    "denyPermission": "Refuser {{label}}",
+    "expandWidget": "Développer le widget {{type}}",
+    "expandWidgetHint": "Ouvre le contenu complet du widget",
+    "editWidgetHint": "Ouvre l'éditeur de widgets. Appui long pour réorganiser.",
+    "playVideo": "Lire la vidéo",
+    "pauseVideo": "Mettre la vidéo en pause",
+    "tapToOpen": "Appuyer pour ouvrir",
+    "sent": "Envoyé",
+    "createChannelInCategory": "Créer un salon dans la catégorie",
+    "reorder": "Réorganiser",
+    "time": "Heure",
+    "closeModal": "Fermer la fenêtre",
+    "increment": "Augmenter",
+    "decrement": "Diminuer",
+    "openColorPicker": "Ouvrir le sélecteur de couleur",
+    "randomColor": "Couleur aléatoire",
+    "randomColorHint": "Choisit une couleur aléatoire",
+    "removeColorStop": "Supprimer le point de couleur",
+    "rangeSliderHint": "Curseur. Faites glisser pour ajuster."
+  },
+  "seo": {
+    "defaultTitle": "Mutualzz (accès anticipé)",
+    "defaultDescription": "Connectez-vous avec d’autres personnes qui partagent vos centres d’intérêt. Actuellement en développement intensif"
+  },
+  "errors": {
+    "unknown": "Erreur inconnue"
+  },
+  "select": {
+    "placeholder": "Sélectionnez une option"
+  }
+}

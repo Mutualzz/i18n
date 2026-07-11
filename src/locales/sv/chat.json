@@ -1,0 +1,537 @@
+{
+  "unknownUser": "Okänd användare",
+  "unknown": "Okänd",
+  "deletedUser": "Borttagen användare",
+  "blocked": "Blockerad",
+  "privateSpace": "Privat utrymme",
+  "someone": "Någon",
+  "you": "Du",
+  "unknownSpace": "Okänt utrymme",
+  "owner": "Ägare",
+  "loading": "Laddar…",
+  "loadingMembers": "Laddar medlemmar…",
+  "loadingMembersEllipsis": "Laddar medlemmar...",
+  "noMembersToShow": "Inga medlemmar att visa.",
+  "loadingMoreMembers": "Laddar fler…",
+  "loadingChannel": "Laddar kanal...",
+  "downloading": "Laddar ner...",
+  "home": "Hem",
+  "selectConversation": "Välj en konversation för att börja chatta",
+  "selectChannel": "Välj en kanal för att börja chatta",
+  "messageTooLong": "Meddelandet får inte överstiga 2000 tecken",
+  "cannotMessagePerson": "Du kan inte skicka meddelanden till den här personen",
+  "unknownError": "Okänt fel",
+  "online": "Online",
+  "offline": "Offline",
+  "composer": {
+    "placeholder": {
+      "channel": "Meddela #{{channel}}",
+      "channelFallback": "Meddela #i den här kanalen",
+      "dm": "Meddela {{name}}",
+      "dmFallback": "Meddela i den här konversationen",
+      "groupFallback": "Meddela gruppen",
+      "edit": "Redigera meddelande",
+      "blocked": "Du kan inte skicka meddelanden till den här personen eftersom du har blockerat dem",
+      "noPermission": "Du får inte skicka meddelanden i den här kanalen."
+    },
+    "attachFiles": "Bifoga filer",
+    "addAttachment": "Lägg till bilaga",
+    "remove": "Ta bort",
+    "removeSticker": "Ta bort klistermärke",
+    "removeAttachment": "Ta bort bilaga",
+    "openExpressionPicker": "Öppna uttrycksväljare",
+    "emojiPicker": "Emoji-väljare",
+    "gifPicker": "GIF-väljare",
+    "stickerPicker": "Klistermärkesväljare",
+    "openEmojiPicker": "Öppna emoji-väljare",
+    "openGifPicker": "Öppna GIF-väljare",
+    "openStickerPicker": "Öppna klistermärkesväljare",
+    "mentionOn": "@ ON",
+    "mentionOff": "@ OFF",
+    "editHint": "escape för att avbryta • enter för att spara",
+    "editHintCancel": "avbryt",
+    "editHintSave": "spara",
+    "editHintEscapeTo": "escape för att",
+    "editHintEnterTo": "enter för att"
+  },
+  "reply": {
+    "banner": "Svarar {{name}}",
+    "replyPreviewMissing": "Kunde inte hitta det besvarade meddelandet"
+  },
+  "edit": {
+    "banner": "Redigerar meddelande",
+    "cancelA11y": "Avbryt redigering",
+    "cancelReplyA11y": "Avbryt svar"
+  },
+  "typing": {
+    "one": "{{name}} skriver...",
+    "two": "{{name1}} och {{name2}} skriver...",
+    "many": "{{name1}}, {{name2}} och andra skriver..."
+  },
+  "actions": {
+    "reply": "Svara",
+    "edit": "Redigera",
+    "delete": "Ta bort",
+    "copyText": "Kopiera text",
+    "editMessage": "Redigera meddelande",
+    "deleteMessage": "Ta bort meddelande",
+    "reportMessage": "Anmäl meddelande",
+    "addReaction": "Lägg till reaktion",
+    "reactWith": "Reagera med {{emoji}}"
+  },
+  "report": {
+    "thisMessage": "det här meddelandet"
+  },
+  "message": {
+    "edited": "(redigerat)",
+    "scrollToLatestA11y": "Scrolla till senaste meddelanden"
+  },
+  "system": {
+    "ephemeralOnlyYou": "Bara du kan se detta •",
+    "dismissMessage": "Stäng meddelande"
+  },
+  "empty": {
+    "channel": {
+      "welcome": "Välkommen till #{{channel}}!",
+      "start": "Detta är början på kanalen #{{channel}}.",
+      "noHistory": "Du har inte behörighet att läsa meddelandehistorik"
+    },
+    "dm": {
+      "firstMessage": "Skicka ditt första meddelande till {{name}}",
+      "beginning": "Välkommen till början av {{conversation}}"
+    }
+  },
+  "dm": {
+    "title": "Direktmeddelanden",
+    "newMessage": "Nytt meddelande",
+    "empty": "Du har inga direktmeddelanden ännu. Starta en konversation genom att klicka på \"Meddela\" på en användares profil eller genom att skapa en ny grupp-DM!",
+    "createTitle": "Nytt meddelande",
+    "addFriendsHint_one": "Du kan lägga till {{count}} vän till.",
+    "addFriendsHint_other": "Du kan lägga till {{count}} vänner till.",
+    "createMessage": "Skapa meddelande",
+    "createGroupMessage": "Skapa gruppmeddelande",
+    "searchPeople": "Sök personer",
+    "groupNameOptional": "Gruppnamn (valfritt)",
+    "selected": "Valda",
+    "createFailed": "Kunde inte skapa DM",
+    "createGroupA11y": "Skapa grupp-DM",
+    "rotate90": "Rotera 90°"
+  },
+  "picker": {
+    "tabs": {
+      "emoji": "Emoji",
+      "gifs": "GIF:ar",
+      "stickers": "Klistermärken"
+    },
+    "searchEmojis": "Sök emojis…",
+    "searchStickers": "Sök klistermärken…",
+    "searchKlipy": "Sök KLIPY",
+    "favorites": "Favoriter",
+    "recentlyUsed": "Nyligen använda",
+    "recent": "Senaste",
+    "yourEmojis": "Dina emojis",
+    "yours": "Dina",
+    "yourStickers": "Dina klistermärken",
+    "custom": "Anpassade",
+    "standard": "Standard",
+    "noResults": "Inga resultat",
+    "results_one": "{{count}} resultat",
+    "results_other": "{{count}} resultat",
+    "skinTone": "Hudton",
+    "skinToneDefault": "Standard",
+    "emptyStickers": "Inga klistermärken ännu. Ladda upp några i användar- eller utrymmesinställningar.",
+    "loadingMore": "Laddar fler…",
+    "noGifsFor": "Inga GIF:ar hittades för \"{{query}}\"",
+    "gifA11y": "GIF",
+    "addFavorite": "Lägg till favorit",
+    "removeFavorite": "Ta bort favorit",
+    "categories": {
+      "smileys": "Smileys och känslor",
+      "people": "Personer och kropp",
+      "animals": "Djur och natur",
+      "food": "Mat och dryck",
+      "travel": "Resor och platser",
+      "activities": "Aktiviteter",
+      "objects": "Föremål",
+      "symbols": "Symboler",
+      "flags": "Flaggor"
+    }
+  },
+  "header": {
+    "memberList": {
+      "show": "Visa medlemslista",
+      "hide": "Dölj medlemslista"
+    },
+    "dm": {
+      "addToGroup": "Lägg till i grupp",
+      "groupFull": "Gruppen är full"
+    },
+    "voice": {
+      "closeChatA11y": "Stäng chatt"
+    }
+  },
+  "mentions": {
+    "members": "Medlemmar",
+    "membersMatching": "Medlemmar som matchar \"{{query}}\"",
+    "role": "Roll",
+    "notifyRole": "Meddela användare med den här rollen som har behörighet att se den här kanalen",
+    "notifyEveryone": "Meddela alla som har behörighet att se den här kanalen",
+    "notifyHere": "Meddela alla online som har behörighet att se den här kanalen"
+  },
+  "voice": {
+    "noOneInVoice": "Ingen är i röst just nu",
+    "noOneConnectedYet": "Ingen är ansluten ännu.",
+    "title": "Röst",
+    "peopleInVoice_one": "{{count}} person är i röst.",
+    "peopleInVoice_other": "{{count}} personer är i röst.",
+    "joinVoice": "Gå med i röst",
+    "openChat": "Öppna chatt",
+    "invite": "Bjud in",
+    "startingScreenShare": "Startar din skärmdelning...",
+    "sharingScreen": "{{name}} delar sin skärm",
+    "watchStream": "Titta på stream",
+    "stopWatching": "Sluta titta",
+    "screenLabel": "{{name}}s skärm",
+    "connection": {
+      "connecting": "Ansluter till röst...",
+      "connected": "Ansluten till röst",
+      "rtcConnecting": "RTC ansluter",
+      "voiceConnected": "Röst ansluten",
+      "failed": "Anslutning misslyckades",
+      "failedFallback": "Röstandslutning misslyckades",
+      "unableToConnect": "Kunde inte ansluta",
+      "disconnect": "Koppla från",
+      "disconnectA11y": "Koppla från röst"
+    },
+    "errors": {
+      "notConfigured": "Röstservern är inte konfigurerad",
+      "unableToJoin": "Kunde inte gå med i röstkanalen",
+      "credentialsMissing": "Inloggningsuppgifter för röstservern saknades",
+      "timedOut": "Röstandslutningen tog för lång tid",
+      "micPermissionRequired": "Mikrofonbehörighet krävs för röstkanaler",
+      "closed": "Röstandslutningen stängdes",
+      "disconnected": "Frånkopplad",
+      "disconnectedFrom": "Frånkopplad från röst: {{reason}}",
+      "differentDevice": "Ansluten från en annan enhet",
+      "movedChannel": "Flyttad till en annan röstkanal",
+      "enumerateDevices": "Kunde inte lista enheter"
+    },
+    "controls": {
+      "mute": "Stäng av mikrofon",
+      "unmute": "Slå på mikrofon",
+      "muted": "Mikrofon av",
+      "deafen": "Stäng av ljud",
+      "undeafen": "Slå på ljud",
+      "deafened": "Ljud av",
+      "spaceMuted": "Utrymmesmikrofon av",
+      "spaceDeafened": "Utrymmesljud av",
+      "enableCamera": "Aktivera kamera",
+      "disableCamera": "Inaktivera kamera",
+      "shareScreen": "Dela din skärm",
+      "stopSharing": "Sluta dela",
+      "muteStreamAudio": "Stäng av streamljud",
+      "unmuteStreamAudio": "Slå på streamljud",
+      "settings": "Inställningar",
+      "holdToTalk": "Håll för att prata",
+      "talking": "Pratar…",
+      "holdToTalkA11y": "Håll för att prata",
+      "volume": "Volym",
+      "volumePercent": "Volym {{value}}%",
+      "userVolume": "Användarvolym",
+      "streamVolume": "Streamvolym",
+      "muteUser": "Stäng av användare",
+      "muteUserLocally": "Stäng av den här användaren lokalt",
+      "unmuteUserLocally": "Slå på den här användaren lokalt",
+      "muteStream": "Stäng av stream",
+      "live": "LIVE",
+      "video": "Video"
+    },
+    "participant": {
+      "you": "(Du)",
+      "speaking": "Pratar",
+      "serverMuted": "Servermikrofon av",
+      "serverDeafened": "Serverljud av"
+    },
+    "moderation": {
+      "title": "Röstmoderering",
+      "spaceMute": "Utrymmesmikrofon av",
+      "removeSpaceMute": "Ta bort utrymmesmikrofon av",
+      "spaceDeafen": "Utrymmesljud av",
+      "removeSpaceDeafen": "Ta bort utrymmesljud av",
+      "disconnect": "Koppla från",
+      "spaceMuteToggle": "Utrymmesmikrofon av",
+      "spaceDeafenToggle": "Utrymmesljud av"
+    },
+    "spaceModerated": {
+      "mutedTitle": "Utrymmesmikrofon av",
+      "deafenedTitle": "Utrymmesljud av",
+      "mutedBody": "Den här kanalen har särskilda behörigheter. För att prata behöver någon, till exempel en utrymmesmoderator eller admin, slå på din mikrofon",
+      "deafenedBody": "Den här kanalen har särskilda behörigheter. För att lyssna behöver någon, till exempel en utrymmesmoderator eller admin, slå på ditt ljud",
+      "dismiss": "Okej!",
+      "dismissMobile": "Uppfattat"
+    },
+    "screenShare": {
+      "title": "Dela din skärm",
+      "entireScreen_one": "Hela skärmen ({{count}})",
+      "entireScreen_other": "Hela skärmen ({{count}})",
+      "applicationWindow_one": "Programfönster ({{count}})",
+      "applicationWindow_other": "Programfönster ({{count}})",
+      "noScreens": "Inga skärmar tillgängliga.",
+      "noWindows": "Inga fönster tillgängliga.",
+      "permissionHint": "Aktivera skärminspelning för {{appName}} i Systeminställningar.",
+      "permissionDevHint": "Under utveckling listas detta vanligtvis som Electron.",
+      "openSystemSettings": "Öppna systeminställningar",
+      "browserPickerHint": "Din webbläsare frågar vilken skärm eller vilket fönster du vill dela när du klickar på Go Live.",
+      "streamSettings": "Streaminställningar",
+      "streamQuality": "Streamkvalitet",
+      "shareAudio": "Dela ljud",
+      "shareAudioDescription": "Överför ljud från den delade skärmen eller fönstret",
+      "devBuildHint": "Utvecklingsbygge: ge skärminspelning till {{appName}} (ofta Electron) i macOS Systeminställningar.",
+      "goLive": "Go Live",
+      "quality": {
+        "720p15": "720p 15fps",
+        "720p30": "720p 30fps",
+        "1080p30": "1080p 30fps",
+        "1080p60": "1080p 60fps",
+        "source": "Källa"
+      }
+    }
+  },
+  "feed": {
+    "title": "Flöde",
+    "tabs": {
+      "forYou": "För dig",
+      "friends": "Vänner",
+      "saved": "Sparat",
+      "scheduled": "Schemalagt"
+    },
+    "sidebar": {
+      "explore": "Utforska / Upptäck",
+      "friends": "Vänner",
+      "saves": "Sparat",
+      "myProfile": "Min profil",
+      "customizeProfile": "Anpassa profil",
+      "switchMode": "Byt till {{mode}}"
+    },
+    "header": {
+      "createPost": "Skapa inlägg",
+      "createPostSheetTitle": "Skapa inlägg",
+      "myProfile": "Min profil",
+      "customizeProfile": "Anpassa profil"
+    },
+    "composer": {
+      "placeholder": "Vad tänker du på?",
+      "post": "Publicera",
+      "schedule": "Schemalägg",
+      "addMedia": "Lägg till media",
+      "addEmojiOrSticker": "Lägg till emoji eller klistermärke",
+      "schedulePost": "Schemalägg inlägg",
+      "viewScheduled": "Visa schemalagda inlägg",
+      "clearScheduledTime": "Rensa schemalagd tid",
+      "pickDateTime": "Välj datum och tid",
+      "clearSchedule": "Rensa schema"
+    },
+    "empty": {
+      "posts": "Inga inlägg ännu.",
+      "saved": "Inga sparade inlägg ännu.",
+      "scheduled": "Du har inga schemalagda inlägg.",
+      "comments": "Inga kommentarer ännu.",
+      "postUnavailable": "Det här inlägget finns inte eller är inte längre tillgängligt.",
+      "shareTargets": "Du har inga konversationer eller vänner att dela med ännu."
+    },
+    "scheduled": {
+      "title": "Schemalagda inlägg",
+      "reschedule": "Omplanera",
+      "saveTime": "Spara tid",
+      "publishNow": "Publicera nu",
+      "scheduledFor": "Schemalagt till {{datetime}}",
+      "scheduledForUnknown": "Schemalagt till okänd tid"
+    },
+    "comments": {
+      "title": "Kommentarer",
+      "loading": "Laddar kommentarer…",
+      "placeholder": "Skriv en kommentar…",
+      "replyPlaceholder": "Svara {{name}}…",
+      "replyFallback": "kommentar",
+      "reply": "Svara",
+      "sendReply": "Skicka svar"
+    },
+    "actions": {
+      "deletePost": "Ta bort inlägg",
+      "reportPost": "Anmäl inlägg",
+      "deleteComment": "Ta bort kommentar",
+      "reportComment": "Anmäl kommentar",
+      "openPost": "Öppna inlägg",
+      "savePost": "Spara inlägg",
+      "unsavePost": "Ta bort sparat inlägg"
+    },
+    "report": {
+      "thisPost": "det här inlägget",
+      "thisComment": "den här kommentaren"
+    },
+    "share": {
+      "title": "Dela inlägg",
+      "send": "Skicka",
+      "sending": "Skickar…",
+      "done": "Klar"
+    },
+    "embed": {
+      "loadingPost": "Laddar inlägg…",
+      "attachments_one": "{{count}} bilaga",
+      "attachments_other": "{{count}} bilagor"
+    },
+    "media": {
+      "goToMediaA11y": "Gå till media {{index}}",
+      "volume": "Volym"
+    }
+  },
+  "contextMenu": {
+    "markAsRead": "Markera som läst",
+    "viewProfile": "Visa profil",
+    "editProfile": "Redigera profil",
+    "message": "Meddela",
+    "closeDm": "Stäng DM",
+    "removeFromGroup": "Ta bort från grupp",
+    "acceptFriendRequest": "Acceptera vänförfrågan",
+    "declineFriendRequest": "Avböj vänförfrågan",
+    "cancelFriendRequest": "Avbryt vänförfrågan",
+    "removeFriend": "Ta bort vän",
+    "block": "Blockera",
+    "unblock": "Häv blockering",
+    "reportUser": "Anmäl användare",
+    "reportAccount": "det här kontot",
+    "roles": "Roller",
+    "noRolesToAssign": "Inga roller att tilldela",
+    "createRole": "Skapa roll",
+    "noRolesAssigned": "Inga roller tilldelade",
+    "kickMember": "Sparka {{username}}",
+    "banMember": "Bannlys {{username}}",
+    "openInStaffPanel": "Öppna i personalpanelen",
+    "inviteToChannel": "Bjud in till kanal",
+    "editChannel": "Redigera kanal",
+    "editCategory": "Redigera kategori",
+    "deleteChannel": "Ta bort kanal",
+    "deleteCategory": "Ta bort kategori",
+    "reportSpace": "Anmäl utrymme",
+    "reportSpaceLabel": "det här utrymmet",
+    "leaveSpace": "Lämna utrymme",
+    "createChannel": "Skapa kanal",
+    "createCategory": "Skapa kategori",
+    "inviteToSpace": "Bjud in till utrymme",
+    "editGroup": "Redigera grupp",
+    "manageGroup": "Hantera grupp",
+    "leaveGroup": "Lämna grupp",
+    "deleteGroup": "Ta bort grupp",
+    "deleteRole": "Ta bort roll",
+    "moveUp": "Flytta upp",
+    "moveDown": "Flytta ner",
+    "channelSettings": "Kanalinställningar",
+    "addFriend": "Lägg till vän"
+  },
+  "a11y": {
+    "embedImage": "Inbäddad bild",
+    "embedTitle": "Inbäddad titel",
+    "youtubePlayer": "YouTube-videospelare",
+    "toggleReaction": "Växla reaktion, antal {{value}}",
+    "mentionsCount": "{{value}} omnämnanden",
+    "unread": "oläst"
+  },
+  "expressionPreview": {
+    "emojiFromSpaceBelong": "Den här emojin kommer från ett av utrymmena du tillhör",
+    "emojiFromYou": "Den här emojin är din, du kan använda den i alla chattar",
+    "emojiFromUser": "Den här emojin kommer från en användare",
+    "emojiFromSpace": "Den här emojin kommer från ett utrymme",
+    "stickerFromSpaceBelong": "Det här klistermärket kommer från ett av utrymmena du tillhör",
+    "stickerFromYou": "Det här klistermärket är ditt, du kan använda det i alla chattar",
+    "stickerFromUser": "Det här klistermärket kommer från en användare",
+    "stickerFromSpace": "Det här klistermärket kommer från ett utrymme",
+    "defaultEmoji": "Detta är en standardemoji. Du kan använda den överallt på Mutualzz",
+    "emojiMatching": "Matchande emoji"
+  },
+  "toast": {
+    "onlyMentioned": "Du nämndes bara i det här meddelandet",
+    "openChannel": "Öppna kanal"
+  },
+  "favorites": {
+    "add": "Lägg till i favoriter",
+    "remove": "Ta bort från favoriter"
+  },
+  "stickers": {
+    "animated": "Animerat klistermärke",
+    "sticker": "Klistermärke"
+  },
+  "groupDm": {
+    "title": "Grupp-DM",
+    "edit": "Redigera grupp",
+    "leave": "Lämna grupp",
+    "delete": "Ta bort grupp",
+    "groupFullCount": "Den här gruppen är full ({{current}}/{{max}}).",
+    "spotsRemaining_one": "{{count}} plats kvar",
+    "spotsRemaining_other": "{{count}} platser kvar",
+    "noFriendsToAdd": "Inga vänner att lägga till.",
+    "namePlaceholder": "t.ex. Spelkväll",
+    "conversationOptionsA11y": "Konversationsalternativ",
+    "saveFailed": "Kunde inte spara gruppen",
+    "leaveFailed": "Kunde inte lämna gruppen",
+    "deleteFailed": "Kunde inte ta bort gruppen",
+    "removeMemberFailed": "Kunde inte ta bort medlem",
+    "addRecipientFailed": "Kunde inte lägga till mottagare",
+    "maxRecipients": "Grupp-DM:ar får inte ha fler än 9 mottagare (10 inklusive dig)",
+    "membersCount": "Medlemmar - {{value}}",
+    "manage": {
+      "title": "Hantera grupp",
+      "icon": "Ikon",
+      "removeIcon": "Ta bort ikon",
+      "changeIcon": "Byt ikon",
+      "groupName": "Gruppnamn",
+      "members": "Medlemmar",
+      "you": "(du)",
+      "remove": "Ta bort",
+      "removing": "Tar bort…",
+      "saveChanges": "Spara ändringar",
+      "leaveGroup": "Lämna grupp",
+      "deleteGroup": "Ta bort grupp",
+      "round": "Rund"
+    }
+  },
+  "friends": {
+    "title": "Vänner",
+    "tabs": {
+      "online": "Online",
+      "all": "Alla",
+      "pending": "Väntande",
+      "addFriend": "Lägg till vän"
+    },
+    "onlineCount_one": "Online - {{count}}",
+    "onlineCount_other": "Online - {{count}}",
+    "allCount_one": "Alla - {{count}}",
+    "allCount_other": "Alla - {{count}}",
+    "receivedCount_one": "Mottagna - {{count}}",
+    "receivedCount_other": "Mottagna - {{count}}",
+    "sentCount_one": "Skickade - {{count}}",
+    "sentCount_other": "Skickade - {{count}}",
+    "emptyOnline": "Inga av dina vänner är online. Klicka på knappen \"Lägg till vän\" för att skicka vänförfrågningar.",
+    "emptyAll": "Du har inga vänner. Klicka på knappen \"Lägg till vän\" för att skicka vänförfrågningar.",
+    "emptyPending": "Det finns inga väntande vänförfrågningar. Klicka på knappen \"Lägg till vän\" för att skicka vänförfrågningar.",
+    "emptyYet": "Inga vänner ännu.",
+    "incomingCount": "Inkommande — {{value}}",
+    "pendingSectionCount": "Väntande — {{value}}",
+    "friendsSectionCount": "Vänner — {{value}}",
+    "sendFailed": "Kunde inte skicka förfrågan",
+    "blockedBeforeRequest": "Du har blockerat den här användaren. Häv blockeringen innan du skickar en förfrågan.",
+    "addTitle": "Lägg till vän",
+    "addDescription": "Du kan lägga till vänner med deras Mutualzz-användarnamn.",
+    "usernamePlaceholder": "Ange användarnamn",
+    "sendRequest": "Skicka förfrågan",
+    "alreadyFriends": "Redan vänner",
+    "alreadySent": "Förfrågan redan skickad",
+    "unknownUsername": "Okänt användarnamn, kontrollera att användarnamnet stämmer",
+    "friendLinkTitle": "Din vänlänk",
+    "friendLinkDescription": "Dela den här länken så att andra kan skicka dig en vänförfrågan. De ser en knapp för Lägg till vän i chatten.",
+    "creatingLink": "Skapar din vänlänk...",
+    "copy": "Kopiera",
+    "copied": "Kopierat",
+    "message": "Meddela",
+    "remove": "Ta bort"
+  }
+}

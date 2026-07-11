@@ -1,0 +1,280 @@
+{
+  "cancel": "취소",
+  "save": "저장",
+  "language": {
+    "title": "언어",
+    "description": "Mutualzz에서 사용할 언어를 선택하세요.",
+    "systemDefault": "기기 언어"
+  },
+  "calendar": {
+    "sameDay": "[오늘] A h:mm",
+    "nextDay": "[내일] A h:mm",
+    "lastDay": "[어제] A h:mm",
+    "lastWeek": "[지난] dddd A h:mm",
+    "sameElse": "YYYY.MM.DD A h:mm"
+  },
+  "duration": {
+    "clearOnDateAt": "{{date}} {{time}}에 지우기",
+    "clearTodayAt": "오늘 {{time}}에 지우기",
+    "clearTomorrowAt": "내일 {{time}}에 지우기",
+    "days_one": "{{count}}일",
+    "days_other": "{{count}}일",
+    "dontClear": "지우지 않음",
+    "forever": "계속",
+    "hours_one": "{{count}}시간",
+    "hours_other": "{{count}}시간",
+    "minutes_one": "{{count}}분",
+    "minutes_other": "{{count}}분"
+  },
+  "status": {
+    "clearCustomAfter": "사용자 지정 상태 지우기",
+    "clearOnlineAfter": "온라인 상태 지우기",
+    "dnd": "방해 금지",
+    "dndDescription": "알림을 받지 않습니다",
+    "idle": "자리 비움",
+    "idleDescription": "키보드에서 떨어져 있음",
+    "invisible": "숨김",
+    "invisibleDescription": "오프라인으로 표시",
+    "offline": "오프라인",
+    "online": "온라인",
+    "saveCustom": "사용자 지정 상태 저장"
+  },
+  "report": {
+    "title": "{{label}} 신고",
+    "description": "신고는 스태프가 검토합니다. 가장 적합한 사유를 선택하세요.",
+    "detailsPlaceholder": "자세한 내용 추가 (선택 사항)",
+    "submit": "신고 제출",
+    "submitting": "제출 중...",
+    "success": "신고가 제출되었습니다. 안전한 환경을 유지하는 데 도움을 주셔서 감사합니다.",
+    "reasons": {
+      "spam": "스팸",
+      "harassment": "괴롭힘 또는 학대",
+      "hate_speech": "혐오 발언",
+      "nsfw": "NSFW / 부적절한 콘텐츠",
+      "self_harm": "자해 또는 자살",
+      "impersonation": "사칭",
+      "misinformation": "허위 정보",
+      "other": "기타"
+    },
+    "action": "신고"
+  },
+  "close": "닫기",
+  "create": "만들기",
+  "delete": "삭제",
+  "editable": {
+    "addToDictionary": "사전에 추가",
+    "spellcheck": "맞춤법 검사",
+    "cut": "잘라내기",
+    "copy": "복사",
+    "paste": "붙여넣기"
+  },
+  "customStatus": {
+    "title": "상태 설정",
+    "label": "상태",
+    "placeholder": "상태를 입력하세요...",
+    "setPlaceholder": "사용자 지정 상태 설정...",
+    "setShort": "사용자 지정 상태 설정...",
+    "editA11y": "사용자 지정 상태 편집",
+    "clearA11y": "사용자 지정 상태 지우기",
+    "changeEmoji": "상태 이모지 변경",
+    "addEmoji": "상태 이모지 추가",
+    "chooseEmoji": "상태 이모지 선택",
+    "pickEmoji": "이모지 선택",
+    "removeEmoji": "이모지 제거",
+    "changeStatus": "상태 변경",
+    "whatsOnYourMind": "무슨 생각을 하고 있나요?",
+    "heading": "사용자 지정 상태"
+  },
+  "saveChanges": "변경 사항 저장",
+  "add": "추가",
+  "remove": "제거",
+  "reset": "초기화",
+  "back": "뒤로",
+  "clear": "지우기",
+  "finish": "완료",
+  "retry": "다시 시도",
+  "apply": "적용",
+  "undo": "실행 취소",
+  "redo": "다시 실행",
+  "open": "열기",
+  "proceed": "계속",
+  "gotIt": "확인",
+  "reload": "앱 새로고침",
+  "download": "Mutualzz 다운로드",
+  "accept": "수락",
+  "decline": "거절",
+  "restore": "복원",
+  "uploadCustomFont": "사용자 지정 글꼴 업로드",
+  "externalLink": {
+    "proceed": "계속",
+    "close": "닫기",
+    "title": "외부 링크 열기",
+    "aboutToOpen": "외부 링크를 열려고 합니다:",
+    "unsafeTitle": "이 링크는 안전하지 않은 것 같습니다",
+    "unsafeHttpBody": "열려는 링크가 안전하지 않은 HTTP 연결을 사용합니다. 데이터가 제3자에게 노출될 수 있습니다.",
+    "confirmProceed": "계속하시겠습니까?",
+    "blockedInApp": "보안을 위해 앱에서 안전하지 않은 링크를 직접 여는 것을 허용하지 않습니다. 링크를 복사하여 웹 브라우저에서 열어 주세요."
+  },
+  "connection": {
+    "reconnect": "다시 연결",
+    "enableAudio": "클릭하여 오디오 사용",
+    "offlineBanner": "현재 오프라인 상태입니다",
+    "audioBlocked": "브라우저가 음성 오디오 재생을 차단했습니다"
+  },
+  "notifications": {
+    "unreads": "읽지 않음",
+    "mentions": "멘션",
+    "requests": "요청",
+    "markAllAsRead": "모두 읽음으로 표시",
+    "acceptedFriend": "{{name}}님이 친구 요청을 수락했습니다",
+    "sentAttachment": "첨부 파일을 보냈습니다",
+    "noMessagesYet": "아직 메시지가 없습니다",
+    "youWereMentioned": "멘션되었습니다",
+    "noUnreads": "읽지 않은 메시지가 없습니다",
+    "noMentions": "새 멘션이 없습니다",
+    "recentlyAccepted": "최근 수락됨",
+    "groupDmChannel": "그룹 DM 채널",
+    "messagesChannel": "메시지",
+    "reply": "답장",
+    "messagePlaceholder": "메시지",
+    "send": "보내기"
+  },
+  "markdown": {
+    "bold": "굵게",
+    "italic": "기울임꼴",
+    "underline": "밑줄",
+    "strikethrough": "취소선",
+    "blockquote": "인용",
+    "code": "코드",
+    "spoiler": "스포일러"
+  },
+  "support": {
+    "myTickets": "내 티켓",
+    "contactSupport": "지원팀에 문의",
+    "loginToContact": "로그인하여 지원팀에 문의",
+    "privacyPolicy": "개인정보 처리방침",
+    "faq": "자주 묻는 질문",
+    "quickLinks": "빠른 링크",
+    "contactUs": "문의하기",
+    "openHelpCenter": "도움말 센터 열기",
+    "describeIssue": "문제를 설명해 주세요",
+    "newTicket": "새 티켓",
+    "writeReply": "답변 작성",
+    "pageIntro": "Mutualzz 도움이 필요하신가요? 아래의 자주 묻는 답변을 확인하거나 팀에 문의하세요.",
+    "mobileIntro": "mutualzz.com/support에서 도움말을 확인하거나 아래에서 문의하세요.",
+    "subjectPlaceholder": "제목",
+    "submitTicket": "티켓 제출",
+    "createFailed": "티켓 생성에 실패했습니다",
+    "noTickets": "아직 티켓이 없습니다",
+    "contactEmailLoggedIn": "{{email}}로 이메일을 보내거나 이 페이지에서 지원 티켓을 여세요.",
+    "contactEmailGuest": "{{email}}로 이메일을 보내 주세요.",
+    "categories": {
+      "account": "계정 및 로그인",
+      "bug": "버그 또는 충돌",
+      "donations": "기부",
+      "feature": "기능 요청",
+      "other": "기타"
+    },
+    "faqItems": {
+      "report": {
+        "q": "사용자나 콘텐츠를 신고하려면 어떻게 하나요?",
+        "a": "사용자 프로필 또는 콘텐츠 메뉴를 열고 신고를 선택하세요. 스태프가 검토합니다."
+      },
+      "appeal": {
+        "q": "차단에 대해 이의 신청하려면 어떻게 하나요?",
+        "a": "차단 이메일을 받으셨다면 해당 메시지의 이의 신청 링크를 사용하세요. 스태프가 검토합니다."
+      },
+      "delete": {
+        "q": "계정을 삭제하려면 어떻게 하나요?",
+        "a": "설정 → 내 계정 → 계정 삭제로 이동하세요."
+      },
+      "block": {
+        "q": "누군가를 차단하려면 어떻게 하나요?",
+        "a": "상대방 프로필을 열고 차단을 선택하세요. 나중에 설정에서 차단을 해제할 수 있습니다."
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "콘텐츠 또는 사용자 신고",
+        "hint": "프로필 메뉴와 콘텐츠 작업에서 사용할 수 있습니다"
+      },
+      "appeals": {
+        "label": "차단 이의 신청",
+        "hint": "차단 이메일의 이의 신청 링크를 사용하세요"
+      },
+      "delete": {
+        "label": "계정 삭제",
+        "hint": "설정 → 내 계정 → 계정 삭제"
+      }
+    },
+    "loading": "로딩 중...",
+    "loadingTickets": "티켓 로딩 중...",
+    "loadMore": "더 보기",
+    "sendReply": "답장 보내기",
+    "sendReplyFailed": "답장 전송에 실패했습니다",
+    "staffLabel": "지원",
+    "ticketClosed": "이 티켓은 종료되었습니다.",
+    "ticketClosedHint": "이 티켓은 종료되었습니다. 도움이 더 필요하면 새 티켓을 열어 주세요.",
+    "updatedAt": "{{date}}에 업데이트됨"
+  },
+  "nav": {
+    "goBack": "뒤로",
+    "goForward": "앞으로"
+  },
+  "updater": {
+    "pleaseWait": "업데이트 중… 잠시만 기다려 주세요"
+  },
+  "crash": {
+    "title": "문제가 발생했습니다",
+    "bodyDesktop": "Mutualzz에서 예기치 않은 오류가 발생했습니다. 앱을 다시 로드하여 다시 시도하세요.",
+    "orPressShortcut": "또는 {{shortcut}}을(를) 누르세요",
+    "bodyMobile": "Mutualzz에서 예기치 않은 오류가 발생했습니다. 앱을 완전히 종료한 다음 다시 여세요.",
+    "hintIos": "화면 하단에서 위로 쓸어올려 앱 전환기를 연 다음 Mutualzz를 쓸어올려 닫으세요.",
+    "hintAndroid": "최근 앱 개요를 연 다음 Mutualzz를 쓸어올려 앱이 닫힐 때까지 닫으세요."
+  },
+  "media": {
+    "play": "재생",
+    "pause": "일시정지",
+    "download": "다운로드",
+    "volume": "볼륨"
+  },
+  "a11y": {
+    "closeProfile": "프로필 닫기",
+    "settings": "설정",
+    "deleteInvite": "초대 삭제",
+    "deleteNamed": "{{name}} 삭제",
+    "deleteExpression": ":{{name}}: 삭제",
+    "removeMemberFromRole": "{{role}}에서 {{member}} 제거",
+    "allowPermission": "{{label}} 허용",
+    "neutralPermission": "{{label}} 중립",
+    "denyPermission": "{{label}} 거부",
+    "expandWidget": "{{type}} 위젯 펼치기",
+    "expandWidgetHint": "위젯 전체 내용을 엽니다",
+    "editWidgetHint": "위젯 편집기를 엽니다. 길게 눌러 순서를 바꿉니다.",
+    "playVideo": "동영상 재생",
+    "pauseVideo": "동영상 일시정지",
+    "tapToOpen": "탭하여 열기",
+    "sent": "보냄",
+    "createChannelInCategory": "카테고리에 채널 만들기",
+    "reorder": "순서 변경",
+    "time": "시간",
+    "closeModal": "모달 닫기",
+    "increment": "증가",
+    "decrement": "감소",
+    "openColorPicker": "색상 선택기 열기",
+    "randomColor": "무작위 색상",
+    "randomColorHint": "무작위 색상을 고릅니다",
+    "removeColorStop": "색상 정지점 제거",
+    "rangeSliderHint": "범위 슬라이더. 드래그하여 조절하세요."
+  },
+  "seo": {
+    "defaultTitle": "Mutualzz (얼리 액세스)",
+    "defaultDescription": "관심사가 비슷한 사람들과 연결하세요. 현재 활발히 개발 중입니다"
+  },
+  "errors": {
+    "unknown": "알 수 없는 오류"
+  },
+  "select": {
+    "placeholder": "옵션 선택"
+  }
+}

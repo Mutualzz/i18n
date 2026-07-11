@@ -1,0 +1,280 @@
+{
+  "cancel": "Annuleren",
+  "save": "Opslaan",
+  "saveChanges": "Wijzigingen opslaan",
+  "close": "Sluiten",
+  "create": "Creëren",
+  "delete": "Verwijderen",
+  "add": "Toevoegen",
+  "remove": "Verwijderen",
+  "reset": "Resetten",
+  "back": "Terug",
+  "clear": "Wissen",
+  "finish": "Voltooien",
+  "retry": "Opnieuw",
+  "apply": "Toepassen",
+  "undo": "Ongedaan maken",
+  "redo": "Opnieuw doen",
+  "open": "Openen",
+  "proceed": "Doorgaan",
+  "gotIt": "Begrepen",
+  "seo": {
+    "defaultTitle": "Mutualzz (vroege toegang)",
+    "defaultDescription": "Maak contact met andere mensen die uw interesses delen. Momenteel volop in ontwikkeling"
+  },
+  "reload": "App opnieuw laden",
+  "download": "Mutualzz downloaden",
+  "accept": "Accepteren",
+  "decline": "Weigeren",
+  "restore": "Herstellen",
+  "uploadCustomFont": "Upload een aangepast lettertype",
+  "language": {
+    "title": "Taal",
+    "description": "Kies de taal die in Mutualzz wordt gebruikt.",
+    "systemDefault": "Apparaattaal"
+  },
+  "calendar": {
+    "sameDay": "[Vandaag om] HH:mm",
+    "nextDay": "[Morgen om] HH:mm",
+    "lastDay": "[Gisteren om] HH:mm",
+    "lastWeek": "[Afgelopen] dddd [om] HH:mm",
+    "sameElse": "DD-MM-YYYY HH:mm"
+  },
+  "duration": {
+    "clearOnDateAt": "Wis {{date}} bij {{time}}",
+    "clearTodayAt": "Vandaag helder bij {{time}}",
+    "clearTomorrowAt": "Morgen vrij bij {{time}}",
+    "days_one": "{{count}} dag",
+    "days_other": "{{count}} dagen",
+    "dontClear": "Niet wissen",
+    "forever": "Voor altijd",
+    "hours_one": "{{count}} uur",
+    "hours_other": "{{count}} uur",
+    "minutes_one": "{{count}} minuut",
+    "minutes_other": "{{count}} minuten"
+  },
+  "status": {
+    "clearCustomAfter": "Aangepaste status wissen daarna",
+    "clearOnlineAfter": "Wis de online status daarna",
+    "dnd": "Niet storen",
+    "dndDescription": "Je ontvangt geen meldingen",
+    "idle": "Inactief",
+    "idleDescription": "Weg van het toetsenbord",
+    "invisible": "Onzichtbaar",
+    "invisibleDescription": "Offline verschijnen",
+    "offline": "Offline",
+    "online": "Online",
+    "saveCustom": "Aangepaste status opslaan"
+  },
+  "report": {
+    "title": "Rapporteer {{label}}",
+    "description": "De meldingen worden beoordeeld door het personeel. Kies de reden die het beste past.",
+    "detailsPlaceholder": "Voeg meer details toe (optioneel)",
+    "submit": "Rapport indienen",
+    "submitting": "Verzenden...",
+    "success": "Rapport ingediend. Bedankt dat je helpt de zaken veilig te houden.",
+    "action": "Rapporteren",
+    "reasons": {
+      "spam": "Spam",
+      "harassment": "Intimidatie of misbruik",
+      "hate_speech": "Haatzaaien",
+      "nsfw": "NSFW / Ongepaste inhoud",
+      "self_harm": "Zelfbeschadiging of zelfmoord",
+      "impersonation": "Impersonatie",
+      "misinformation": "Desinformatie",
+      "other": "Overig"
+    }
+  },
+  "editable": {
+    "addToDictionary": "Toevoegen aan woordenboek",
+    "spellcheck": "Spellingcontrole",
+    "cut": "Knippen",
+    "copy": "Kopiëren",
+    "paste": "Plakken"
+  },
+  "customStatus": {
+    "title": "Stel uw status in",
+    "heading": "Aangepaste status",
+    "label": "Status",
+    "placeholder": "Voer uw status in...",
+    "setPlaceholder": "Aangepaste status instellen...",
+    "setShort": "Een aangepaste status instellen...",
+    "editA11y": "Aangepaste status bewerken",
+    "clearA11y": "Aangepaste status wissen",
+    "changeEmoji": "Status-emoji wijzigen",
+    "addEmoji": "Status-emoji toevoegen",
+    "chooseEmoji": "Kies status-emoji",
+    "pickEmoji": "Kies een emoji",
+    "removeEmoji": "Emoji verwijderen",
+    "changeStatus": "Wijzig status",
+    "whatsOnYourMind": "Waar denk je aan?"
+  },
+  "externalLink": {
+    "proceed": "Doorgaan",
+    "close": "Sluiten",
+    "title": "Externe link openen",
+    "aboutToOpen": "U staat op het punt een externe link te openen:",
+    "unsafeTitle": "Deze link lijkt onveilig",
+    "unsafeHttpBody": "De link die u probeert te openen maakt gebruik van een onveilige HTTP-verbinding. Hierdoor kunnen uw gegevens mogelijk aan derden worden blootgesteld.",
+    "confirmProceed": "Weet u zeker dat u verder wilt gaan?",
+    "blockedInApp": "Voor uw veiligheid staan ​​wij niet toe dat onveilige links rechtstreeks in de app worden geopend. Kopieer de link en open deze in uw webbrowser."
+  },
+  "connection": {
+    "reconnect": "Maak opnieuw verbinding",
+    "enableAudio": "Klik om audio in te schakelen",
+    "offlineBanner": "Je bent momenteel offline",
+    "audioBlocked": "Uw browser heeft het afspelen van gesproken audio geblokkeerd"
+  },
+  "nav": {
+    "goBack": "Ga terug",
+    "goForward": "Ga vooruit"
+  },
+  "updater": {
+    "pleaseWait": "Bijwerken... even geduld a.u.b"
+  },
+  "crash": {
+    "title": "Er is iets misgegaan",
+    "bodyDesktop": "Mutualzz is een onverwachte fout tegengekomen. Laad de app opnieuw om het opnieuw te proberen.",
+    "orPressShortcut": "Of druk op {{shortcut}}",
+    "bodyMobile": "Mutualzz is een onverwachte fout tegengekomen. Sluit de app volledig en open hem vervolgens opnieuw.",
+    "hintIos": "Veeg omhoog vanaf de onderkant van het scherm om de app-switcher te openen en veeg vervolgens Mutualzz weg.",
+    "hintAndroid": "Open je recente apps-overzicht en veeg Mutualzz weg totdat de app sluit."
+  },
+  "a11y": {
+    "closeProfile": "Sluit profiel",
+    "settings": "Instellingen",
+    "deleteInvite": "Uitnodiging verwijderen",
+    "deleteNamed": "{{name}} verwijderen",
+    "deleteExpression": "Verwijder :{{name}}:",
+    "removeMemberFromRole": "Verwijder {{member}} uit {{role}}",
+    "allowPermission": "{{label}} toestaan",
+    "neutralPermission": "Neutraal {{label}}",
+    "denyPermission": "{{label}} weigeren",
+    "expandWidget": "Vouw de {{type}}-widget uit",
+    "expandWidgetHint": "Opent de volledige widgetinhoud",
+    "editWidgetHint": "Opent de widget-editor. Druk lang om widgets opnieuw te rangschikken.",
+    "playVideo": "Speel video af",
+    "pauseVideo": "Pauzeer video",
+    "tapToOpen": "Tik om te openen",
+    "sent": "Verstuurd",
+    "createChannelInCategory": "Kanaal in categorie maken",
+    "reorder": "Opnieuw ordenen",
+    "time": "Tijd",
+    "closeModal": "Sluit modaal",
+    "increment": "Verhogen",
+    "decrement": "Verlagen",
+    "openColorPicker": "Kleurkiezer openen",
+    "randomColor": "Willekeurige kleur",
+    "randomColorHint": "Kiest een willekeurige kleur",
+    "removeColorStop": "Kleurstop verwijderen",
+    "rangeSliderHint": "Bereikschuifregelaar. Aanpassen door te slepen."
+  },
+  "errors": {
+    "unknown": "Onbekende fout"
+  },
+  "select": {
+    "placeholder": "Selecteer een optie"
+  },
+  "media": {
+    "play": "Afspelen",
+    "pause": "Pauzeren",
+    "download": "Downloaden",
+    "volume": "Volume"
+  },
+  "notifications": {
+    "unreads": "Ongelezen",
+    "mentions": "Vermeldingen",
+    "requests": "Verzoeken",
+    "markAllAsRead": "Alles markeren als gelezen",
+    "acceptedFriend": "{{name}} heeft je vriendschapsverzoek geaccepteerd",
+    "sentAttachment": "Een bijlage verzonden",
+    "noMessagesYet": "Nog geen berichten",
+    "youWereMentioned": "Je werd genoemd",
+    "noUnreads": "Geen ongelezen berichten",
+    "noMentions": "Geen nieuwe vermeldingen",
+    "recentlyAccepted": "Onlangs geaccepteerd",
+    "groupDmChannel": "Groep DM-kanaal",
+    "messagesChannel": "Berichten",
+    "reply": "Beantwoorden",
+    "messagePlaceholder": "Bericht",
+    "send": "Verzenden"
+  },
+  "markdown": {
+    "bold": "Vet",
+    "italic": "Cursief",
+    "underline": "Onderstrepen",
+    "strikethrough": "Doorhalen",
+    "blockquote": "Citaatblok",
+    "code": "Code",
+    "spoiler": "Spoiler"
+  },
+  "support": {
+    "myTickets": "Mijn kaartjes",
+    "contactSupport": "Neem contact op met ondersteuning",
+    "loginToContact": "Log in om contact op te nemen met ondersteuning",
+    "privacyPolicy": "Privacybeleid",
+    "faq": "Veelgestelde vragen",
+    "quickLinks": "Snelle koppelingen",
+    "contactUs": "Neem contact met ons op",
+    "openHelpCenter": "Helpcentrum openen",
+    "describeIssue": "Beschrijf uw probleem",
+    "newTicket": "Nieuw kaartje",
+    "writeReply": "Schrijf een antwoord",
+    "loading": "Laden...",
+    "loadingTickets": "Kaartjes laden...",
+    "loadMore": "Laad meer",
+    "sendReply": "Antwoord verzenden",
+    "sendReplyFailed": "Kan antwoord niet verzenden",
+    "staffLabel": "Ondersteuning",
+    "ticketClosed": "Dit kaartje is gesloten.",
+    "ticketClosedHint": "Dit kaartje is gesloten. Open een nieuw ticket als je nog steeds hulp nodig hebt.",
+    "updatedAt": "bijgewerkte {{date}}",
+    "pageIntro": "Hulp nodig met Mutualzz? Bekijk hieronder veelvoorkomende antwoorden of neem contact op met ons team.",
+    "mobileIntro": "Bekijk de hulp op mutualzz.com/support of neem hieronder contact met ons op.",
+    "subjectPlaceholder": "Onderwerp",
+    "submitTicket": "Ticket indienen",
+    "createFailed": "Kan ticket niet maken",
+    "noTickets": "Nog geen kaartjes",
+    "contactEmailLoggedIn": "E-mail ons op {{email}} of open een supportticket vanaf deze pagina.",
+    "contactEmailGuest": "E-mail ons op {{email}}.",
+    "categories": {
+      "account": "Account & inloggen",
+      "bug": "Bug of crash",
+      "donations": "Donaties",
+      "feature": "Functieverzoek",
+      "other": "Overig"
+    },
+    "faqItems": {
+      "report": {
+        "q": "Hoe rapporteer ik een gebruiker of inhoud?",
+        "a": "Open een gebruikersprofiel of het inhoudsmenu en kies Rapporteren. Onze medewerkers zullen het beoordelen."
+      },
+      "appeal": {
+        "q": "Hoe kan ik bezwaar maken tegen een verbod?",
+        "a": "Als je een ban-e-mail hebt ontvangen, gebruik dan de bezwaarlink in dat bericht. Het personeel zal uw bezwaar beoordelen."
+      },
+      "delete": {
+        "q": "Hoe verwijder ik mijn account?",
+        "a": "Ga naar Instellingen → Mijn account → Account verwijderen."
+      },
+      "block": {
+        "q": "Hoe blokkeer ik iemand?",
+        "a": "Open hun profiel en kies Blokkeren. Je kunt ze later deblokkeren via de instellingen."
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "Rapporteer inhoud of een gebruiker",
+        "hint": "Beschikbaar via profielmenu's en inhoudsacties"
+      },
+      "appeals": {
+        "label": "Beroep tegen verbod",
+        "hint": "Gebruik de bezwaarlink uit uw ban-e-mail"
+      },
+      "delete": {
+        "label": "Verwijder uw account",
+        "hint": "Instellingen → Mijn account → Account verwijderen"
+      }
+    }
+  }
+}

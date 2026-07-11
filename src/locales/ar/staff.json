@@ -1,0 +1,290 @@
+{
+  "title": "لوحة الموظفين",
+  "exit": "خروج",
+  "working": "جارٍ العمل...",
+  "nav": {
+    "reports": "البلاغات",
+    "activity": "النشاط",
+    "appeals": "الاستئنافات",
+    "support": "الدعم"
+  },
+  "pages": {
+    "activity": "نشاط الموظفين",
+    "reportDetails": "تفاصيل البلاغ"
+  },
+  "home": {
+    "findUser": "البحث عن مستخدم",
+    "findUserDescription": "ابحث باسم المستخدم أو صفِّ حسب العلامة لعرض حساب وإجراءات الموظفين المتاحة.",
+    "searchPlaceholder": "ابحث باسم المستخدم أو الصق معرّف مستخدم",
+    "anyFlag": "أي علامة",
+    "searching": "جارٍ البحث...",
+    "noUsers": "لم يُعثر على مستخدمين",
+    "goToUserId": "الانتقال إلى معرّف المستخدم {{id}}",
+    "exactIdLookup": "بحث بالمعرّف الدقيق",
+    "loadMore": "تحميل المزيد",
+    "loading": "جارٍ التحميل..."
+  },
+  "sections": {
+    "info": "معلومات",
+    "flags": "العلامات",
+    "actions": "الإجراءات",
+    "sessions": "الجلسات النشطة",
+    "notes": "ملاحظات الموظفين",
+    "audit": "سجل التدقيق"
+  },
+  "user": {
+    "info": {
+      "username": "اسم المستخدم",
+      "displayName": "الاسم المعروض",
+      "noDisplayName": "لم يُعيَّن اسم معروض",
+      "saveChanges": "حفظ التغييرات",
+      "accountDetails": "تفاصيل الحساب",
+      "email": "البريد الإلكتروني",
+      "emailVerified": "البريد مُوثَّق",
+      "yes": "نعم",
+      "no": "لا",
+      "sendReminder": "إرسال تذكير",
+      "verifyReminderSent": "تم إرسال تذكير التوثيق",
+      "userId": "معرّف المستخدم",
+      "dateOfBirth": "تاريخ الميلاد",
+      "created": "تاريخ الإنشاء",
+      "restrictedUntil": "مقيّد حتى"
+    },
+    "flags": {
+      "current": "العلامات الحالية",
+      "manage": "إدارة العلامات",
+      "none": "لا علامات معيّنة"
+    },
+    "actions": {
+      "enableAccount": "تفعيل الحساب",
+      "disableAccount": "تعطيل الحساب",
+      "forceLogout": "فرض تسجيل الخروج",
+      "warnUser": "تحذير المستخدم",
+      "restrictUser": "تقييد المستخدم",
+      "liftRestriction": "رفع التقييد",
+      "softDeleteAccount": "حذف ناعم للحساب",
+      "hardDeleteAccount": "حذف نهائي للحساب",
+      "softDeletedBanner": "هذا الحساب محذوف حذفًا ناعمًا. لا يمكن للمستخدم تسجيل الدخول، لكن بياناته محفوظة.",
+      "errors": {
+        "liftRestriction": "فشل رفع التقييد",
+        "updateUser": "فشل تحديث المستخدم",
+        "forceLogout": "فشل فرض تسجيل خروج المستخدم",
+        "warnUser": "فشل تحذير المستخدم",
+        "deleteAccount": "فشل حذف الحساب",
+        "restrictUser": "فشل تقييد المستخدم"
+      }
+    },
+    "modals": {
+      "reasonRequired": "السبب (مطلوب)",
+      "reasonOptional": "السبب (اختياري)",
+      "placeholderAudit": "أضف سياقًا لسجل التدقيق",
+      "disable": {
+        "title": "تعطيل الحساب",
+        "enableTitle": "تفعيل الحساب",
+        "bodyDisable": "هل أنت متأكد أنك تريد تعطيل حساب @{{username}}؟ سيتم تسجيل خروجه ولن يتمكن من الدخول مجددًا حتى يُعاد تفعيله.",
+        "bodyEnable": "هل أنت متأكد أنك تريد إعادة تفعيل حساب @{{username}}؟",
+        "placeholder": "اشرح سبب تعطيل هذا الحساب"
+      },
+      "forceLogout": {
+        "title": "فرض تسجيل الخروج",
+        "body": "هل أنت متأكد أنك تريد تسجيل خروج @{{username}} من كل الجلسات؟ سيحتاج لتسجيل الدخول مجددًا، لكن الحساب يبقى مفعّلًا."
+      },
+      "warn": {
+        "title": "تحذير المستخدم",
+        "body": "يرسل هذا بريد تحذير إلى @{{username}} ويسجّله في سجل التدقيق. لا يغيّر حالة الحساب.",
+        "placeholder": "اشرح سبب التحذير",
+        "submit": "إرسال التحذير",
+        "toastSent": "تم إرسال التحذير وبريده إلى المستخدم",
+        "toastEmailFailed": "سُجّل التحذير، لكن فشل إرسال البريد"
+      },
+      "restrict": {
+        "title": "تقييد المستخدم",
+        "body": "لا يمكن للمستخدمين المقيّدين إرسال رسائل أو إنشاء منشورات حتى ينتهي التقييد.",
+        "duration": "المدة",
+        "submit": "تقييد",
+        "placeholder": "اشرح سبب التقييد",
+        "durations": {
+          "1h": "ساعة واحدة",
+          "6h": "6 ساعات",
+          "1d": "يوم واحد",
+          "3d": "3 أيام",
+          "7d": "7 أيام",
+          "30d": "30 يومًا"
+        }
+      },
+      "delete": {
+        "softTitle": "حذف ناعم للحساب",
+        "hardTitle": "حذف نهائي للحساب",
+        "softBody": "هذا يحذف حساب @{{username}} حذفًا ناعمًا. سيتم تسجيل خروجه ولن يتمكن من الدخول، لكن بياناته تُحفظ لأغراض الإشراف والتدقيق.",
+        "hardBody": "هذا يزيل حساب @{{username}} وبياناته المرتبطة نهائيًا من قاعدة البيانات. ستُحذف أيضًا أي مساحات يملكها. لا يمكن التراجع عن ذلك.",
+        "type": "نوع الحذف",
+        "softOption": "حذف ناعم (موصى به)",
+        "hardOption": "حذف نهائي (لا رجعة فيه)",
+        "confirmUsername": "اكتب @{{username}} للتأكيد",
+        "placeholderSoft": "اشرح سبب الحذف الناعم لهذا الحساب",
+        "placeholderHard": "اشرح سبب الإزالة النهائية لهذا الحساب"
+      }
+    },
+    "sessions": {
+      "empty": "لا جلسات نشطة",
+      "created": "أُنشئت {{relative}}",
+      "lastUsed": "آخر استخدام {{relative}}",
+      "revoke": "إلغاء",
+      "errorRevoke": "فشل إلغاء الجلسة"
+    },
+    "notes": {
+      "placeholder": "اترك ملاحظة لموظفين آخرين — غير مرئية للمستخدم",
+      "add": "إضافة ملاحظة",
+      "adding": "جارٍ الإضافة...",
+      "empty": "لا ملاحظات موظفين بعد",
+      "errorAdd": "فشل إضافة الملاحظة"
+    },
+    "audit": {
+      "empty": "لا إجراءات موظفين بعد"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "قيد الانتظار",
+      "reviewed": "تمت المراجعة",
+      "dismissed": "مرفوض",
+      "actioned": "اتُّخذ إجراء"
+    },
+    "actions": {
+      "shutDownSpace": "إغلاق المساحة",
+      "takeDownContent": "إزالة المحتوى",
+      "lockDownSpace": "إغلاق المساحة مؤقتًا"
+    },
+    "detailsTitle": "تفاصيل البلاغ",
+    "backToReports": "العودة إلى البلاغات",
+    "anyStatus": "أي حالة",
+    "anyType": "أي نوع",
+    "targetTypes": {
+      "message": "رسالة",
+      "post": "منشور",
+      "comment": "تعليق",
+      "user": "مستخدم",
+      "space": "مساحة"
+    },
+    "reportedBy": "أبلغ عنه {{name}}",
+    "reporterNotes": "ملاحظات المُبلِغ",
+    "reportedContent": "المحتوى المُبلَغ عنه",
+    "viewDetails": "عرض التفاصيل",
+    "openUserPanel": "فتح لوحة مستخدم الموظفين",
+    "markReviewed": "تعليم كمراجَع",
+    "markActioned": "تعليم كاتُّخذ إجراء",
+    "dismiss": "رفض",
+    "reviewedShort": "مراجَع",
+    "actionedShort": "اتُّخذ إجراء",
+    "reviewedBy": "{{status}} بواسطة {{name}}",
+    "empty": "لم يُعثر على بلاغات",
+    "loadingReport": "جارٍ تحميل البلاغ…",
+    "loadFailed": "فشل تحميل البلاغ",
+    "toasts": {
+      "actionCompleted": "اكتمل الإجراء",
+      "actionCompletedMarked": "اكتمل الإجراء وعُلّم البلاغ كاتُّخذ إجراء",
+      "alreadyRemoved": "الهدف مُزال بالفعل",
+      "lockdownSuccess": "أُغلقت المساحة مؤقتًا وأُبلغ المالك"
+    },
+    "errors": {
+      "update": "فشل تحديث البلاغ",
+      "action": "فشل إكمال الإجراء",
+      "lockdown": "فشل إغلاق المساحة مؤقتًا"
+    },
+    "content": {
+      "dmContext": "سياق الرسالة المباشرة",
+      "messageContext": "سياق الرسالة",
+      "dmContextHint": "تُعرض رسائل محيطة محدودة للخصوصية.",
+      "reported": "مُبلَغ عنه",
+      "noText": "(لا محتوى نصي)",
+      "unknown": "غير معروف",
+      "membersOwnedBy_one": "عضو {{count}} · يملكها {{owner}}",
+      "membersOwnedBy_other": "{{count}} أعضاء · يملكها {{owner}}",
+      "membersOwnedBy_zero": "عضو {{count}} · يملكها {{owner}}",
+      "membersOwnedBy_two": "عضو {{count}} · يملكها {{owner}}",
+      "membersOwnedBy_few": "{{count}} أعضاء · يملكها {{owner}}",
+      "membersOwnedBy_many": "{{count}} أعضاء · يملكها {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "أي حالة",
+    "status": {
+      "pending": "قيد الانتظار",
+      "accepted": "مقبول",
+      "rejected": "مرفوض"
+    },
+    "spaceLockdownAppeal": "استئناف إغلاق المساحة",
+    "responsePlaceholder": "رد للمستخدم (اختياري)",
+    "accept": "قبول",
+    "reject": "رفض",
+    "viewAccount": "عرض الحساب",
+    "viewUser": "عرض المستخدم",
+    "staffResponse": "رد الموظفين: {{text}}",
+    "empty": "لم يُعثر على استئنافات",
+    "errorUpdate": "فشل تحديث الاستئناف",
+    "decidedBy": "{{status}} بواسطة {{name}}"
+  },
+  "support": {
+    "anyStatus": "أي حالة",
+    "status": {
+      "open": "مفتوح",
+      "awaiting_reply": "بانتظار الرد",
+      "resolved": "محلول",
+      "closed": "مغلق"
+    },
+    "empty": "لم يُعثر على تذاكر",
+    "selectTicket": "اختر تذكرة",
+    "loadingTicket": "جارٍ تحميل التذكرة…",
+    "resolve": "حل",
+    "close": "إغلاق",
+    "staff": "الموظفون",
+    "replyPlaceholder": "رد على المستخدم",
+    "sendReply": "إرسال الرد",
+    "sending": "جارٍ الإرسال…",
+    "errors": {
+      "send": "فشل إرسال الرد",
+      "update": "فشل تحديث التذكرة"
+    }
+  },
+  "activity": {
+    "empty": "لا إجراءات موظفين بعد",
+    "removedUser": "مستخدم مُزال",
+    "removedUserNamed": "@{{name}} (مُزال)"
+  },
+  "auditActions": {
+    "disabledAccount": "عطّل هذا الحساب",
+    "enabledAccount": "فعّل هذا الحساب",
+    "softDeletedAccount": "حذف هذا الحساب حذفًا ناعمًا",
+    "hardDeletedAccount": "حذف هذا الحساب نهائيًا",
+    "forcedLogout": "فرض تسجيل خروج لهذا الحساب",
+    "warnedUser": "حذّر هذا المستخدم",
+    "restrictedUser": "قيّد هذا المستخدم",
+    "liftedRestriction": "رفع التقييد عن هذا المستخدم",
+    "grantedFlag": "منح علامة {{flag}}",
+    "revokedFlag": "سحب علامة {{flag}}",
+    "updatedProfile": "حدّث ملف هذا المستخدم",
+    "addedNote": "أضاف ملاحظة موظفين",
+    "revokedSession": "ألغى جلسة",
+    "tookDownContent": "أزال {{type}} مُبلَغًا عنه",
+    "lockedDownSpace": "أغلق مساحة مؤقتًا",
+    "shutDownSpace": "أغلق مساحة مُبلَغًا عنها",
+    "global": {
+      "disabled": "{{actor}} عطّل {{target}}",
+      "enabled": "{{actor}} فعّل {{target}}",
+      "softDeleted": "{{actor}} حذف {{target}} حذفًا ناعمًا",
+      "hardDeleted": "{{actor}} حذف {{target}} نهائيًا",
+      "forcedLogout": "{{actor}} فرض تسجيل خروج لـ {{target}}",
+      "warned": "{{actor}} حذّر {{target}}",
+      "restricted": "{{actor}} قيّد {{target}}",
+      "liftedRestriction": "{{actor}} رفع التقييد عن {{target}}",
+      "grantedFlag": "{{actor}} منح علامة {{flag}} لـ {{target}}",
+      "revokedFlag": "{{actor}} سحب علامة {{flag}} من {{target}}",
+      "updatedProfile": "{{actor}} حدّث ملف {{target}}",
+      "addedNote": "{{actor}} أضاف ملاحظة موظفين على {{target}}",
+      "revokedSession": "{{actor}} ألغى جلسة لـ {{target}}",
+      "tookDownContent": "{{actor}} أزال {{type}} مُبلَغًا عنه",
+      "lockedDownSpace": "{{actor}} أغلق مساحة مؤقتًا",
+      "shutDownSpace": "{{actor}} أغلق مساحة مُبلَغًا عنها"
+    }
+  }
+}

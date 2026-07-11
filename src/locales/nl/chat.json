@@ -1,0 +1,537 @@
+{
+  "unknownUser": "Onbekende gebruiker",
+  "unknown": "Onbekend",
+  "deletedUser": "Verwijderde gebruiker",
+  "blocked": "Geblokkeerd",
+  "privateSpace": "Privéruimte",
+  "someone": "Iemand",
+  "you": "Jij",
+  "unknownSpace": "Onbekende ruimte",
+  "owner": "Eigenaar",
+  "loading": "Laden…",
+  "loadingMembers": "Leden laden…",
+  "loadingMembersEllipsis": "Leden laden...",
+  "noMembersToShow": "Er zijn geen leden om te tonen.",
+  "loadingMoreMembers": "Meer laden…",
+  "loadingChannel": "Kanaal laden...",
+  "downloading": "Downloaden...",
+  "home": "Home",
+  "selectConversation": "Selecteer een gesprek om te beginnen met chatten",
+  "selectChannel": "Selecteer een kanaal om te beginnen met chatten",
+  "messageTooLong": "Bericht mag niet langer zijn dan 2000 tekens",
+  "cannotMessagePerson": "Je kunt deze persoon geen bericht sturen",
+  "unknownError": "Onbekende fout",
+  "online": "Online",
+  "offline": "Offline",
+  "composer": {
+    "placeholder": {
+      "channel": "Bericht #{{channel}}",
+      "channelFallback": "Bericht #in dit kanaal",
+      "dm": "Bericht {{name}}",
+      "dmFallback": "Bericht in dit gesprek",
+      "groupFallback": "Stuur een bericht naar de groep",
+      "edit": "Bericht bewerken",
+      "blocked": "Je kunt deze persoon geen bericht sturen, omdat je hem/haar hebt geblokkeerd",
+      "noPermission": "Je mag geen berichten sturen in dit kanaal."
+    },
+    "attachFiles": "Bestanden bijvoegen",
+    "addAttachment": "Bijlage toevoegen",
+    "remove": "Verwijderen",
+    "removeSticker": "Sticker verwijderen",
+    "removeAttachment": "Bijlage verwijderen",
+    "openExpressionPicker": "Expressiekiezer openen",
+    "emojiPicker": "Emoji-kiezer",
+    "gifPicker": "GIF-kiezer",
+    "stickerPicker": "Stickerkiezer",
+    "openEmojiPicker": "Open emoji-kiezer",
+    "openGifPicker": "Open de GIF-kiezer",
+    "openStickerPicker": "Open stickerkiezer",
+    "mentionOn": "@ OP",
+    "mentionOff": "@ UIT",
+    "editHint": "Escape om te annuleren • Enter om op te slaan",
+    "editHintCancel": "annuleren",
+    "editHintSave": "redden",
+    "editHintEscapeTo": "ontsnappen naar",
+    "editHintEnterTo": "binnengaan naar"
+  },
+  "reply": {
+    "banner": "Reageren op {{name}}",
+    "replyPreviewMissing": "Kan het beantwoorde bericht niet vinden"
+  },
+  "edit": {
+    "banner": "Bericht bewerken",
+    "cancelA11y": "Bewerking annuleren",
+    "cancelReplyA11y": "Antwoord annuleren"
+  },
+  "typing": {
+    "one": "{{name}} is aan het typen...",
+    "two": "{{name1}} en {{name2}} zijn aan het typen...",
+    "many": "{{name1}}, {{name2}} en anderen typen..."
+  },
+  "actions": {
+    "reply": "Beantwoorden",
+    "edit": "Bewerken",
+    "delete": "Verwijderen",
+    "copyText": "Tekst kopiëren",
+    "editMessage": "Bericht bewerken",
+    "deleteMessage": "Bericht verwijderen",
+    "reportMessage": "Bericht rapporteren",
+    "addReaction": "Reactie toevoegen",
+    "reactWith": "Reageer met {{emoji}}"
+  },
+  "report": {
+    "thisMessage": "dit bericht"
+  },
+  "message": {
+    "edited": "(bewerkt)",
+    "scrollToLatestA11y": "Scroll naar de laatste berichten"
+  },
+  "system": {
+    "ephemeralOnlyYou": "Alleen jij kunt dit zien •",
+    "dismissMessage": "Bericht negeren"
+  },
+  "empty": {
+    "channel": {
+      "welcome": "Welkom bij #{{channel}}!",
+      "start": "Dit is het begin van het #{{channel}}-kanaal.",
+      "noHistory": "U heeft geen rechten om de berichtgeschiedenis te lezen"
+    },
+    "dm": {
+      "firstMessage": "Stuur uw eerste bericht naar {{name}}",
+      "beginning": "Welkom bij het begin van de {{conversation}}"
+    }
+  },
+  "dm": {
+    "title": "Privéberichten",
+    "newMessage": "Nieuw bericht",
+    "empty": "Je hebt nog geen directe berichten. Start een gesprek door op \"Bericht\" op het profiel van een gebruiker te klikken of door een nieuwe groeps-DM aan te maken!",
+    "createTitle": "Nieuw bericht",
+    "addFriendsHint_one": "U kunt {{count}} meer vrienden toevoegen.",
+    "addFriendsHint_other": "U kunt {{count}} meer vrienden toevoegen.",
+    "createMessage": "Bericht maken",
+    "createGroupMessage": "Groepsbericht maken",
+    "searchPeople": "Zoek mensen",
+    "groupNameOptional": "Groepsnaam (optioneel)",
+    "selected": "Gekozen",
+    "createFailed": "Kan geen DM maken",
+    "createGroupA11y": "Groeps-DM maken",
+    "rotate90": "Draai 90°"
+  },
+  "picker": {
+    "tabs": {
+      "emoji": "Emoji",
+      "gifs": "GIFs",
+      "stickers": "Stickers"
+    },
+    "searchEmojis": "Zoek emoji's…",
+    "searchStickers": "Zoekstickers…",
+    "searchKlipy": "Zoek KLIPY",
+    "favorites": "Favorieten",
+    "recentlyUsed": "Recent gebruikt",
+    "recent": "Recent",
+    "yourEmojis": "Jouw emoji's",
+    "yours": "De jouwe",
+    "yourStickers": "Jouw stickers",
+    "custom": "Aangepast",
+    "standard": "Standaard",
+    "noResults": "Geen resultaten",
+    "results_one": "{{count}}-resultaat",
+    "results_other": "{{count}}-resultaten",
+    "skinTone": "Huidskleur",
+    "skinToneDefault": "Standaard",
+    "emptyStickers": "Nog geen stickers. Upload er een paar in de instellingen voor Gebruiker of Ruimte.",
+    "loadingMore": "Meer laden…",
+    "noGifsFor": "Geen GIFs gevonden voor \"{{query}}\"",
+    "gifA11y": "GIF",
+    "addFavorite": "Favoriet toevoegen",
+    "removeFavorite": "Favoriet verwijderen",
+    "categories": {
+      "smileys": "Smileys en emotie",
+      "people": "Mensen & Lichaam",
+      "animals": "Dieren & Natuur",
+      "food": "Eten en drinken",
+      "travel": "Reizen en plaatsen",
+      "activities": "Activiteiten",
+      "objects": "Objecten",
+      "symbols": "Symbolen",
+      "flags": "Vlaggen"
+    }
+  },
+  "header": {
+    "memberList": {
+      "show": "Ledenlijst tonen",
+      "hide": "Ledenlijst verbergen"
+    },
+    "dm": {
+      "addToGroup": "Aan groep toevoegen",
+      "groupFull": "Groep is vol"
+    },
+    "voice": {
+      "closeChatA11y": "Chat sluiten"
+    }
+  },
+  "mentions": {
+    "members": "Leden",
+    "membersMatching": "Leden die overeenkomen met '{{query}}'",
+    "role": "Rol",
+    "notifyRole": "Breng gebruikers met deze rol op de hoogte die toestemming hebben om dit kanaal te bekijken",
+    "notifyEveryone": "Breng iedereen op de hoogte die toestemming heeft om dit kanaal te bekijken",
+    "notifyHere": "Breng iedereen online op de hoogte die toestemming heeft om dit kanaal te bekijken"
+  },
+  "voice": {
+    "noOneInVoice": "Er is momenteel niemand aan het woord",
+    "noOneConnectedYet": "Er is nog niemand verbonden.",
+    "title": "Stem",
+    "peopleInVoice_one": "{{count}}-persoon is in stem.",
+    "peopleInVoice_other": "{{count}}-mensen zijn aan het woord.",
+    "joinVoice": "Spraak joinen",
+    "openChat": "Chat openen",
+    "invite": "Uitnodigen",
+    "startingScreenShare": "Uw scherm delen starten...",
+    "sharingScreen": "{{name}} deelt hun scherm",
+    "watchStream": "Bekijk Stream",
+    "stopWatching": "Stop met kijken",
+    "screenLabel": "Het scherm van {{name}}",
+    "connection": {
+      "connecting": "Verbinding maken met stem...",
+      "connected": "Verbonden met stem",
+      "rtcConnecting": "RTC Aansluiten",
+      "voiceConnected": "Stem verbonden",
+      "failed": "Verbinding mislukt",
+      "failedFallback": "Spraakverbinding mislukt",
+      "unableToConnect": "Kan geen verbinding maken",
+      "disconnect": "Verbinding verbreken",
+      "disconnectA11y": "Verbreek de verbinding met uw stem"
+    },
+    "errors": {
+      "notConfigured": "Spraakserver is niet geconfigureerd",
+      "unableToJoin": "Kan niet deelnemen aan het spraakkanaal",
+      "credentialsMissing": "Er zijn geen inloggegevens voor de voiceserver opgegeven",
+      "timedOut": "Er is een time-out opgetreden voor de spraakverbinding",
+      "micPermissionRequired": "Voor spraakkanalen is microfoontoestemming vereist",
+      "closed": "Spraakverbinding gesloten",
+      "disconnected": "Verbinding verbroken",
+      "disconnectedFrom": "Geen verbinding met spraak: {{reason}}",
+      "differentDevice": "Verbonden vanaf een ander apparaat",
+      "movedChannel": "Verplaatst naar een ander spraakkanaal",
+      "enumerateDevices": "Kan apparaten niet opsommen"
+    },
+    "controls": {
+      "mute": "Dempen",
+      "unmute": "Dempen opheffen",
+      "muted": "Gedempt",
+      "deafen": "Doof maken",
+      "undeafen": "Doof maken opheffen",
+      "deafened": "Verdoofd",
+      "spaceMuted": "Ruimte gedempt",
+      "spaceDeafened": "Ruimte verdoofd",
+      "enableCamera": "Camera inschakelen",
+      "disableCamera": "Camera uitschakelen",
+      "shareScreen": "Deel uw scherm",
+      "stopSharing": "Stop met delen",
+      "muteStreamAudio": "Streamaudio dempen",
+      "unmuteStreamAudio": "Schakel het streamen van audio uit",
+      "settings": "Instellingen",
+      "holdToTalk": "Houd ingedrukt om te praten",
+      "talking": "Praten…",
+      "holdToTalkA11y": "Houd ingedrukt om te praten",
+      "volume": "Volume",
+      "volumePercent": "Volume {{value}}%",
+      "userVolume": "Gebruikersvolume",
+      "streamVolume": "Streamvolume",
+      "muteUser": "Gebruiker dempen",
+      "muteUserLocally": "Demp deze gebruiker lokaal",
+      "unmuteUserLocally": "Hef het dempen van deze gebruiker lokaal op",
+      "muteStream": "Stream dempen",
+      "live": "LIVE",
+      "video": "Video"
+    },
+    "participant": {
+      "you": "(Jij)",
+      "speaking": "Spreken",
+      "serverMuted": "Server gedempt",
+      "serverDeafened": "Server verdoofd"
+    },
+    "moderation": {
+      "title": "Stemmoderatie",
+      "spaceMute": "Ruimte dempen",
+      "removeSpaceMute": "Verwijder de spatie-mute",
+      "spaceDeafen": "Ruimte doof",
+      "removeSpaceDeafen": "Verwijder ruimtedoof",
+      "disconnect": "Verbinding verbreken",
+      "spaceMuteToggle": "Ruimte dempen",
+      "spaceDeafenToggle": "Ruimte doof"
+    },
+    "spaceModerated": {
+      "mutedTitle": "Ruimte gedempt",
+      "deafenedTitle": "Ruimte verdoofd",
+      "mutedBody": "Dit kanaal heeft speciale rechten. Als u daarin wilt spreken, heeft u iemand nodig, zoals een ruimtemoderator of -beheerder, die het dempen opheft",
+      "deafenedBody": "Dit kanaal heeft speciale rechten. Om erin te luisteren, heb je iemand nodig, zoals een ruimtemoderator of beheerder, om je te ontluisteren",
+      "dismiss": "Oké!",
+      "dismissMobile": "Begrepen"
+    },
+    "screenShare": {
+      "title": "Deel uw scherm",
+      "entireScreen_one": "Volledig scherm ({{count}})",
+      "entireScreen_other": "Volledig scherm ({{count}})",
+      "applicationWindow_one": "Applicatievenster ({{count}})",
+      "applicationWindow_other": "Applicatievenster ({{count}})",
+      "noScreens": "Geen schermen beschikbaar.",
+      "noWindows": "Geen ramen beschikbaar.",
+      "permissionHint": "Schakel Schermopname voor {{appName}} in Systeeminstellingen in.",
+      "permissionDevHint": "In ontwikkeling wordt dit meestal vermeld als Electron.",
+      "openSystemSettings": "Open Systeeminstellingen",
+      "browserPickerHint": "Uw browser zal vragen welk scherm of venster u wilt delen wanneer u op Go Live klikt.",
+      "streamSettings": "Stream-instellingen",
+      "streamQuality": "Streamkwaliteit",
+      "shareAudio": "Deel audio",
+      "shareAudioDescription": "Verzend geluid vanaf het gedeelde scherm of venster",
+      "devBuildHint": "Ontwikkelaarsbuild: wijs schermopname toe aan {{appName}} (vaak Electron) in macOS Systeeminstellingen.",
+      "goLive": "Ga live",
+      "quality": {
+        "720p15": "720p 15fps",
+        "720p30": "720p 30fps",
+        "1080p30": "1080p 30fps",
+        "1080p60": "1080p 60fps",
+        "source": "Source"
+      }
+    }
+  },
+  "feed": {
+    "title": "Feed",
+    "tabs": {
+      "forYou": "Voor jou",
+      "friends": "Vrienden",
+      "saved": "Opgeslagen",
+      "scheduled": "Gepland"
+    },
+    "sidebar": {
+      "explore": "Ontdek / ontdek",
+      "friends": "Vrienden",
+      "saves": "Bespaart",
+      "myProfile": "Mijn profiel",
+      "customizeProfile": "Profiel aanpassen",
+      "switchMode": "Schakel over naar {{mode}}"
+    },
+    "header": {
+      "createPost": "Bericht maken",
+      "createPostSheetTitle": "Bericht maken",
+      "myProfile": "Mijn profiel",
+      "customizeProfile": "Profiel aanpassen"
+    },
+    "composer": {
+      "placeholder": "Waar denk je aan?",
+      "post": "Plaatsen",
+      "schedule": "Plannen",
+      "addMedia": "Media toevoegen",
+      "addEmojiOrSticker": "Voeg emoji of sticker toe",
+      "schedulePost": "Bericht plannen",
+      "viewScheduled": "Bekijk geplande berichten",
+      "clearScheduledTime": "Geplande tijd wissen",
+      "pickDateTime": "Kies datum en tijd",
+      "clearSchedule": "Duidelijk schema"
+    },
+    "empty": {
+      "posts": "Nog geen berichten.",
+      "saved": "Nog geen opgeslagen berichten.",
+      "scheduled": "Je hebt geen geplande berichten.",
+      "comments": "Nog geen opmerkingen.",
+      "postUnavailable": "Dit bericht bestaat niet, of is niet langer beschikbaar.",
+      "shareTargets": "Je hebt nog geen gesprekken of vrienden om mee te delen."
+    },
+    "scheduled": {
+      "title": "Geplande berichten",
+      "reschedule": "Opnieuw plannen",
+      "saveTime": "Bespaar tijd",
+      "publishNow": "Publiceer nu",
+      "scheduledFor": "Gepland voor {{datetime}}",
+      "scheduledForUnknown": "Gepland voor onbekend"
+    },
+    "comments": {
+      "title": "Reacties",
+      "loading": "Opmerkingen laden…",
+      "placeholder": "Schrijf een reactie…",
+      "replyPlaceholder": "Reageer op {{name}}…",
+      "replyFallback": "opmerking",
+      "reply": "Beantwoorden",
+      "sendReply": "Antwoord verzenden"
+    },
+    "actions": {
+      "deletePost": "Bericht verwijderen",
+      "reportPost": "Bericht melden",
+      "deleteComment": "Reactie verwijderen",
+      "reportComment": "Reactie melden",
+      "openPost": "Bericht openen",
+      "savePost": "Bericht opslaan",
+      "unsavePost": "Bericht niet opslaan"
+    },
+    "report": {
+      "thisPost": "dit bericht",
+      "thisComment": "deze opmerking"
+    },
+    "share": {
+      "title": "Deel bericht",
+      "send": "Verzenden",
+      "sending": "Verzenden…",
+      "done": "Klaar"
+    },
+    "embed": {
+      "loadingPost": "Bericht laden…",
+      "attachments_one": "{{count}}-bijlage",
+      "attachments_other": "{{count}}-bijlagen"
+    },
+    "media": {
+      "goToMediaA11y": "Ga naar media {{index}}",
+      "volume": "Volume"
+    }
+  },
+  "contextMenu": {
+    "markAsRead": "Markeren als gelezen",
+    "viewProfile": "Profiel bekijken",
+    "editProfile": "Profiel bewerken",
+    "message": "Bericht",
+    "closeDm": "Sluit DM",
+    "removeFromGroup": "Verwijderen uit groep",
+    "acceptFriendRequest": "Accepteer vriendschapsverzoek",
+    "declineFriendRequest": "Vriendschapsverzoek afwijzen",
+    "cancelFriendRequest": "Vriendschapsverzoek annuleren",
+    "removeFriend": "Vriend verwijderen",
+    "block": "Blokkeren",
+    "unblock": "Deblokkeren",
+    "reportUser": "Gebruiker rapporteren",
+    "reportAccount": "deze rekening",
+    "roles": "Rollen",
+    "noRolesToAssign": "Er zijn geen rollen om toe te wijzen",
+    "createRole": "Rol creëren",
+    "noRolesAssigned": "Geen rollen toegewezen",
+    "kickMember": "Schop {{username}}",
+    "banMember": "Verbied {{username}}",
+    "openInStaffPanel": "Openen in het personeelspaneel",
+    "inviteToChannel": "Uitnodigen voor kanaal",
+    "editChannel": "Kanaal bewerken",
+    "editCategory": "Categorie bewerken",
+    "deleteChannel": "Kanaal verwijderen",
+    "deleteCategory": "Categorie verwijderen",
+    "reportSpace": "Rapportruimte",
+    "reportSpaceLabel": "deze ruimte",
+    "leaveSpace": "Ruimte verlaten",
+    "createChannel": "Kanaal maken",
+    "createCategory": "Categorie maken",
+    "inviteToSpace": "Uitnodigen voor ruimte",
+    "editGroup": "Groep bewerken",
+    "manageGroup": "Groep beheren",
+    "leaveGroup": "Groep verlaten",
+    "deleteGroup": "Groep verwijderen",
+    "deleteRole": "Rol verwijderen",
+    "moveUp": "Ga omhoog",
+    "moveDown": "Ga naar beneden",
+    "channelSettings": "Kanaalinstellingen",
+    "addFriend": "Vriend toevoegen"
+  },
+  "a11y": {
+    "embedImage": "Afbeelding insluiten",
+    "embedTitle": "Titel insluiten",
+    "youtubePlayer": "YouTube videospeler",
+    "toggleReaction": "Schakel reactie in, tel {{value}}",
+    "mentionsCount": "{{value}} vermeldt",
+    "unread": "ongelezen"
+  },
+  "expressionPreview": {
+    "emojiFromSpaceBelong": "Deze emoji komt uit een van de ruimtes waar jij thuishoort",
+    "emojiFromYou": "Deze emoji is van jou, je kunt hem in alle chats gebruiken",
+    "emojiFromUser": "Deze emoji is van een gebruiker",
+    "emojiFromSpace": "Deze emoji komt uit een ruimte",
+    "stickerFromSpaceBelong": "Deze sticker komt uit een van de ruimtes waar jij thuishoort",
+    "stickerFromYou": "Deze sticker is van jou, je kunt hem in alle chats gebruiken",
+    "stickerFromUser": "Deze sticker is van een gebruiker",
+    "stickerFromSpace": "Deze sticker komt uit een ruimte",
+    "defaultEmoji": "Dit is een standaardemoji. Je kunt het overal op Mutualzz gebruiken",
+    "emojiMatching": "Emoji-matching"
+  },
+  "toast": {
+    "onlyMentioned": "Je werd alleen genoemd in dit bericht",
+    "openChannel": "Kanaal openen"
+  },
+  "favorites": {
+    "add": "Toevoegen aan favorieten",
+    "remove": "Verwijderen uit favorieten"
+  },
+  "stickers": {
+    "animated": "Geanimeerde sticker",
+    "sticker": "Sticker"
+  },
+  "groupDm": {
+    "title": "Groeps-DM",
+    "edit": "Groep bewerken",
+    "leave": "Groep verlaten",
+    "delete": "Groep verwijderen",
+    "groupFullCount": "Deze groep is vol ({{current}}/{{max}}).",
+    "spotsRemaining_one": "{{count}}-plek resterend",
+    "spotsRemaining_other": "{{count}}-plekken resterend",
+    "noFriendsToAdd": "Geen vrienden om toe te voegen.",
+    "namePlaceholder": "bijv. Spelletjesavond",
+    "conversationOptionsA11y": "Gesprek opties",
+    "saveFailed": "Kan groep niet opslaan",
+    "leaveFailed": "Kan de groep niet verlaten",
+    "deleteFailed": "Kan groep niet verwijderen",
+    "removeMemberFailed": "Kan lid niet verwijderen",
+    "addRecipientFailed": "Kan ontvanger niet toevoegen",
+    "maxRecipients": "Groeps-DM's mogen niet meer dan 9 ontvangers bevatten (10 inclusief u)",
+    "membersCount": "Leden - {{value}}",
+    "manage": {
+      "title": "Groep beheren",
+      "icon": "Pictogram",
+      "removeIcon": "Pictogram verwijderen",
+      "changeIcon": "Pictogram wijzigen",
+      "groupName": "Groepsnaam",
+      "members": "Leden",
+      "you": "(Jij)",
+      "remove": "Verwijderen",
+      "removing": "Verwijderen…",
+      "saveChanges": "Wijzigingen opslaan",
+      "leaveGroup": "Verlaat de groep",
+      "deleteGroup": "Groep verwijderen",
+      "round": "Ronde"
+    }
+  },
+  "friends": {
+    "title": "Vrienden",
+    "tabs": {
+      "online": "Online",
+      "all": "Alles",
+      "pending": "In behandeling",
+      "addFriend": "Vriend toevoegen"
+    },
+    "onlineCount_one": "Online - {{count}}",
+    "onlineCount_other": "Online - {{count}}",
+    "allCount_one": "Alles - {{count}}",
+    "allCount_other": "Alles - {{count}}",
+    "receivedCount_one": "Ontvangen - {{count}}",
+    "receivedCount_other": "Ontvangen - {{count}}",
+    "sentCount_one": "Verzonden - {{count}}",
+    "sentCount_other": "Verzonden - {{count}}",
+    "emptyOnline": "Geen van je vrienden is online. Klik op de knop \"Vriend toevoegen\" om vriendschapsverzoeken te verzenden.",
+    "emptyAll": "Je hebt geen vrienden. Klik op de knop \"Vriend toevoegen\" om vriendschapsverzoeken te verzenden.",
+    "emptyPending": "Er zijn geen vriendschapsverzoeken in behandeling. Klik op de knop \"Vriend toevoegen\" om vriendschapsverzoeken te verzenden.",
+    "emptyYet": "Nog geen vrienden.",
+    "incomingCount": "Binnenkomend — {{value}}",
+    "pendingSectionCount": "In behandeling: {{value}}",
+    "friendsSectionCount": "Vrienden — {{value}}",
+    "sendFailed": "Kan verzoek niet verzenden",
+    "blockedBeforeRequest": "Je hebt deze gebruiker geblokkeerd. Deblokkeer ze voordat u een verzoek verzendt.",
+    "addTitle": "Vriend toevoegen",
+    "addDescription": "U kunt vrienden toevoegen met hun Mutualzz-gebruikersnaam.",
+    "usernamePlaceholder": "Voer gebruikersnaam in",
+    "sendRequest": "Verzoek verzenden",
+    "alreadyFriends": "Al vrienden",
+    "alreadySent": "Verzoek al verzonden",
+    "unknownUsername": "Onbekende gebruikersnaam, controleer of de gebruikersnaam correct is",
+    "friendLinkTitle": "Je vriendenlink",
+    "friendLinkDescription": "Deel deze link zodat mensen je een vriendschapsverzoek kunnen sturen. Ze zien een knop Vriend toevoegen in de chat.",
+    "creatingLink": "Je vriendenlink maken...",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd",
+    "message": "Bericht",
+    "remove": "Verwijderen"
+  }
+}

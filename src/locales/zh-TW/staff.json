@@ -1,0 +1,286 @@
+{
+  "title": "員工面板",
+  "exit": "退出",
+  "working": "處理中...",
+  "nav": {
+    "reports": "檢舉",
+    "activity": "活動",
+    "appeals": "申訴",
+    "support": "支援"
+  },
+  "pages": {
+    "activity": "員工活動",
+    "reportDetails": "檢舉詳情"
+  },
+  "home": {
+    "findUser": "尋找使用者",
+    "findUserDescription": "依使用者名稱搜尋，或依旗標篩選，以查看帳戶及可用的員工操作。",
+    "searchPlaceholder": "依使用者名稱搜尋，或貼上使用者 ID",
+    "anyFlag": "任意旗標",
+    "searching": "搜尋中...",
+    "noUsers": "找不到使用者",
+    "goToUserId": "前往使用者 ID {{id}}",
+    "exactIdLookup": "精確 ID 查詢",
+    "loadMore": "載入更多",
+    "loading": "載入中..."
+  },
+  "sections": {
+    "info": "資訊",
+    "flags": "旗標",
+    "actions": "操作",
+    "sessions": "作用中工作階段",
+    "notes": "員工備註",
+    "audit": "稽核紀錄"
+  },
+  "user": {
+    "info": {
+      "username": "使用者名稱",
+      "displayName": "顯示名稱",
+      "noDisplayName": "未設定顯示名稱",
+      "saveChanges": "儲存變更",
+      "accountDetails": "帳戶詳情",
+      "email": "電子郵件",
+      "emailVerified": "電子郵件已驗證",
+      "yes": "是",
+      "no": "否",
+      "sendReminder": "傳送提醒",
+      "verifyReminderSent": "驗證提醒已傳送",
+      "userId": "使用者 ID",
+      "dateOfBirth": "出生日期",
+      "created": "建立時間",
+      "restrictedUntil": "限制至"
+    },
+    "flags": {
+      "current": "目前旗標",
+      "manage": "管理旗標",
+      "none": "未設定旗標"
+    },
+    "actions": {
+      "enableAccount": "啟用帳戶",
+      "disableAccount": "停用帳戶",
+      "forceLogout": "強制登出",
+      "warnUser": "警告使用者",
+      "restrictUser": "限制使用者",
+      "liftRestriction": "解除限制",
+      "softDeleteAccount": "軟刪除帳戶",
+      "hardDeleteAccount": "硬刪除帳戶",
+      "softDeletedBanner": "此帳戶已軟刪除。使用者無法登入，但其資料仍保留。",
+      "errors": {
+        "liftRestriction": "解除限制失敗",
+        "updateUser": "更新使用者失敗",
+        "forceLogout": "強制登出失敗",
+        "warnUser": "警告使用者失敗",
+        "deleteAccount": "刪除帳戶失敗",
+        "restrictUser": "限制使用者失敗"
+      }
+    },
+    "modals": {
+      "reasonRequired": "原因（必填）",
+      "reasonOptional": "原因（選填）",
+      "placeholderAudit": "為稽核紀錄新增說明",
+      "disable": {
+        "title": "停用帳戶",
+        "enableTitle": "啟用帳戶",
+        "bodyDisable": "確定要停用 @{{username}} 的帳戶嗎？對方將被登出，在重新啟用前無法登入。",
+        "bodyEnable": "確定要重新啟用 @{{username}} 的帳戶嗎？",
+        "placeholder": "說明停用此帳戶的原因"
+      },
+      "forceLogout": {
+        "title": "強制登出",
+        "body": "確定要將 @{{username}} 從所有工作階段登出嗎？對方需要重新登入，但帳戶仍保持啟用。"
+      },
+      "warn": {
+        "title": "警告使用者",
+        "body": "這將向 @{{username}} 傳送警告郵件並記入稽核紀錄。不會改變其帳戶狀態。",
+        "placeholder": "說明警告原因",
+        "submit": "傳送警告",
+        "toastSent": "警告已傳送並已郵件通知使用者",
+        "toastEmailFailed": "警告已記錄，但郵件傳送失敗"
+      },
+      "restrict": {
+        "title": "限制使用者",
+        "body": "被限制的使用者在限制結束前無法傳送訊息或建立貼文。",
+        "duration": "時長",
+        "submit": "限制",
+        "placeholder": "說明限制原因",
+        "durations": {
+          "1h": "1 小時",
+          "6h": "6 小時",
+          "1d": "1 天",
+          "3d": "3 天",
+          "7d": "7 天",
+          "30d": "30 天"
+        }
+      },
+      "delete": {
+        "softTitle": "軟刪除帳戶",
+        "hardTitle": "硬刪除帳戶",
+        "softBody": "這將軟刪除 @{{username}} 的帳戶。對方將被登出且無法登入，但其資料會保留以供審核與稽核。",
+        "hardBody": "這將永久從資料庫中移除 @{{username}} 的帳戶及相關資料。其擁有的空間也會被刪除。此操作無法復原。",
+        "type": "刪除類型",
+        "softOption": "軟刪除（建議）",
+        "hardOption": "硬刪除（不可逆）",
+        "confirmUsername": "輸入 @{{username}} 以確認",
+        "placeholderSoft": "說明軟刪除此帳戶的原因",
+        "placeholderHard": "說明必須永久刪除此帳戶的原因"
+      }
+    },
+    "sessions": {
+      "empty": "無作用中工作階段",
+      "created": "建立於 {{relative}}",
+      "lastUsed": "上次使用 {{relative}}",
+      "revoke": "撤銷",
+      "errorRevoke": "撤銷工作階段失敗"
+    },
+    "notes": {
+      "placeholder": "給其他員工留言 — 使用者不可見",
+      "add": "新增備註",
+      "adding": "新增中...",
+      "empty": "尚無員工備註",
+      "errorAdd": "新增備註失敗"
+    },
+    "audit": {
+      "empty": "尚無員工操作"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "待處理",
+      "reviewed": "已審核",
+      "dismissed": "已駁回",
+      "actioned": "已處理"
+    },
+    "actions": {
+      "shutDownSpace": "關閉空間",
+      "takeDownContent": "下架內容",
+      "lockDownSpace": "封鎖空間"
+    },
+    "detailsTitle": "檢舉詳情",
+    "backToReports": "返回檢舉列表",
+    "anyStatus": "任意狀態",
+    "anyType": "任意類型",
+    "targetTypes": {
+      "message": "訊息",
+      "post": "貼文",
+      "comment": "留言",
+      "user": "使用者",
+      "space": "空間"
+    },
+    "reportedBy": "由 {{name}} 檢舉",
+    "reporterNotes": "檢舉人備註",
+    "reportedContent": "被檢舉內容",
+    "viewDetails": "查看詳情",
+    "openUserPanel": "開啟員工使用者面板",
+    "markReviewed": "標為已審核",
+    "markActioned": "標為已處理",
+    "dismiss": "駁回",
+    "reviewedShort": "已審核",
+    "actionedShort": "已處理",
+    "reviewedBy": "{{status}} · {{name}}",
+    "empty": "找不到檢舉",
+    "loadingReport": "正在載入檢舉…",
+    "loadFailed": "載入檢舉失敗",
+    "toasts": {
+      "actionCompleted": "操作已完成",
+      "actionCompletedMarked": "操作已完成，檢舉已標為已處理",
+      "alreadyRemoved": "目標已被移除",
+      "lockdownSuccess": "空間已封鎖並已通知擁有者"
+    },
+    "errors": {
+      "update": "更新檢舉失敗",
+      "action": "完成操作失敗",
+      "lockdown": "封鎖空間失敗"
+    },
+    "content": {
+      "dmContext": "私人訊息脈絡",
+      "messageContext": "訊息脈絡",
+      "dmContextHint": "出於隱私考量，僅顯示有限的相鄰訊息。",
+      "reported": "已檢舉",
+      "noText": "（無文字內容）",
+      "unknown": "未知",
+      "membersOwnedBy_one": "{{count}} 位成員 · 擁有者 {{owner}}",
+      "membersOwnedBy_other": "{{count}} 位成員 · 擁有者 {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "任意狀態",
+    "status": {
+      "pending": "待處理",
+      "accepted": "已接受",
+      "rejected": "已拒絕"
+    },
+    "spaceLockdownAppeal": "空間封鎖申訴",
+    "responsePlaceholder": "給使用者的回覆（選填）",
+    "accept": "接受",
+    "reject": "拒絕",
+    "viewAccount": "查看帳戶",
+    "viewUser": "查看使用者",
+    "staffResponse": "員工回覆：{{text}}",
+    "empty": "找不到申訴",
+    "errorUpdate": "更新申訴失敗",
+    "decidedBy": "{{status}} · {{name}}"
+  },
+  "support": {
+    "anyStatus": "任意狀態",
+    "status": {
+      "open": "開放",
+      "awaiting_reply": "等待回覆",
+      "resolved": "已解決",
+      "closed": "已關閉"
+    },
+    "empty": "找不到工單",
+    "selectTicket": "選擇工單",
+    "loadingTicket": "正在載入工單…",
+    "resolve": "解決",
+    "close": "關閉",
+    "staff": "員工",
+    "replyPlaceholder": "回覆使用者",
+    "sendReply": "傳送回覆",
+    "sending": "傳送中…",
+    "errors": {
+      "send": "傳送回覆失敗",
+      "update": "更新工單失敗"
+    }
+  },
+  "activity": {
+    "empty": "尚無員工操作",
+    "removedUser": "已移除的使用者",
+    "removedUserNamed": "@{{name}}（已移除）"
+  },
+  "auditActions": {
+    "disabledAccount": "停用了此帳戶",
+    "enabledAccount": "啟用了此帳戶",
+    "softDeletedAccount": "軟刪除了此帳戶",
+    "hardDeletedAccount": "硬刪除了此帳戶",
+    "forcedLogout": "強制登出了此帳戶",
+    "warnedUser": "警告了此使用者",
+    "restrictedUser": "限制了此使用者",
+    "liftedRestriction": "解除了此使用者的限制",
+    "grantedFlag": "授予了 {{flag}} 旗標",
+    "revokedFlag": "撤銷了 {{flag}} 旗標",
+    "updatedProfile": "更新了此使用者的個人檔案",
+    "addedNote": "新增了員工備註",
+    "revokedSession": "撤銷了工作階段",
+    "tookDownContent": "下架了被檢舉的{{type}}",
+    "lockedDownSpace": "封鎖了空間",
+    "shutDownSpace": "關閉了被檢舉的空間",
+    "global": {
+      "disabled": "{{actor}} 停用了 {{target}}",
+      "enabled": "{{actor}} 啟用了 {{target}}",
+      "softDeleted": "{{actor}} 軟刪除了 {{target}}",
+      "hardDeleted": "{{actor}} 硬刪除了 {{target}}",
+      "forcedLogout": "{{actor}} 強制登出了 {{target}}",
+      "warned": "{{actor}} 警告了 {{target}}",
+      "restricted": "{{actor}} 限制了 {{target}}",
+      "liftedRestriction": "{{actor}} 解除了 {{target}} 的限制",
+      "grantedFlag": "{{actor}} 向 {{target}} 授予了 {{flag}} 旗標",
+      "revokedFlag": "{{actor}} 從 {{target}} 撤銷了 {{flag}} 旗標",
+      "updatedProfile": "{{actor}} 更新了 {{target}} 的個人檔案",
+      "addedNote": "{{actor}} 為 {{target}} 新增了員工備註",
+      "revokedSession": "{{actor}} 撤銷了 {{target}} 的工作階段",
+      "tookDownContent": "{{actor}} 下架了被檢舉的{{type}}",
+      "lockedDownSpace": "{{actor}} 封鎖了空間",
+      "shutDownSpace": "{{actor}} 關閉了被檢舉的空間"
+    }
+  }
+}

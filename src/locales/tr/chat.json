@@ -1,0 +1,537 @@
+{
+  "unknownUser": "Bilinmeyen Kullanıcı",
+  "unknown": "Bilinmiyor",
+  "deletedUser": "Silinmiş Kullanıcı",
+  "blocked": "Engellendi",
+  "privateSpace": "Özel Alan",
+  "someone": "Birisi",
+  "you": "Sen",
+  "unknownSpace": "Bilinmeyen Alan",
+  "owner": "Sahip",
+  "loading": "Yükleniyor…",
+  "loadingMembers": "Üyeler yükleniyor…",
+  "loadingMembersEllipsis": "Üyeler yükleniyor...",
+  "noMembersToShow": "Gösterilecek üye yok.",
+  "loadingMoreMembers": "Daha fazla yükleniyor…",
+  "loadingChannel": "Kanal yükleniyor...",
+  "downloading": "İndiriliyor...",
+  "home": "Ana Sayfa",
+  "selectConversation": "Sohbete başlamak için bir konuşma seç",
+  "selectChannel": "Sohbete başlamak için bir kanal seç",
+  "messageTooLong": "Mesaj 2000 karakteri aşamaz",
+  "cannotMessagePerson": "Bu kişiye mesaj gönderemezsin",
+  "unknownError": "Bilinmeyen hata",
+  "online": "Çevrimiçi",
+  "offline": "Çevrimdışı",
+  "composer": {
+    "placeholder": {
+      "channel": "#{{channel}} kanalına mesaj yaz",
+      "channelFallback": "#bu kanala mesaj yaz",
+      "dm": "{{name}} adlı kişiye mesaj yaz",
+      "dmFallback": "Bu konuşmaya mesaj yaz",
+      "groupFallback": "Gruba mesaj yaz",
+      "edit": "Mesajı düzenle",
+      "blocked": "Bu kişiyi engellediğin için mesaj gönderemezsin",
+      "noPermission": "Bu kanalda mesaj gönderme iznin yok."
+    },
+    "attachFiles": "Dosya ekle",
+    "addAttachment": "Ek ekle",
+    "remove": "Kaldır",
+    "removeSticker": "Çıkartmayı kaldır",
+    "removeAttachment": "Eki kaldır",
+    "openExpressionPicker": "İfade seçiciyi aç",
+    "emojiPicker": "Emoji seçici",
+    "gifPicker": "GIF seçici",
+    "stickerPicker": "Çıkartma seçici",
+    "openEmojiPicker": "Emoji seçiciyi aç",
+    "openGifPicker": "GIF seçiciyi aç",
+    "openStickerPicker": "Çıkartma seçiciyi aç",
+    "mentionOn": "@ ON",
+    "mentionOff": "@ OFF",
+    "editHint": "iptal için escape • kaydetmek için enter",
+    "editHintCancel": "iptal",
+    "editHintSave": "kaydet",
+    "editHintEscapeTo": "escape ile",
+    "editHintEnterTo": "enter ile"
+  },
+  "reply": {
+    "banner": "{{name}} adlı kişiye yanıtlanıyor",
+    "replyPreviewMissing": "Yanıtlanan mesaj bulunamadı"
+  },
+  "edit": {
+    "banner": "Mesaj düzenleniyor",
+    "cancelA11y": "Düzenlemeyi iptal et",
+    "cancelReplyA11y": "Yanıtı iptal et"
+  },
+  "typing": {
+    "one": "{{name}} yazıyor...",
+    "two": "{{name1}} ve {{name2}} yazıyor...",
+    "many": "{{name1}}, {{name2}} ve diğerleri yazıyor..."
+  },
+  "actions": {
+    "reply": "Yanıtla",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "copyText": "Metni Kopyala",
+    "editMessage": "Mesajı Düzenle",
+    "deleteMessage": "Mesajı Sil",
+    "reportMessage": "Mesajı Bildir",
+    "addReaction": "Tepki ekle",
+    "reactWith": "{{emoji}} ile tepki ver"
+  },
+  "report": {
+    "thisMessage": "bu mesaj"
+  },
+  "message": {
+    "edited": "(düzenlendi)",
+    "scrollToLatestA11y": "En son mesajlara kaydır"
+  },
+  "system": {
+    "ephemeralOnlyYou": "Bunu yalnızca sen görebilirsin •",
+    "dismissMessage": "Mesajı kapat"
+  },
+  "empty": {
+    "channel": {
+      "welcome": "#{{channel}} kanalına hoş geldin!",
+      "start": "Bu, #{{channel}} kanalının başlangıcı.",
+      "noHistory": "Mesaj geçmişini okuma iznin yok"
+    },
+    "dm": {
+      "firstMessage": "{{name}} adlı kişiye ilk mesajını gönder",
+      "beginning": "{{conversation}} konuşmasının başlangıcına hoş geldin"
+    }
+  },
+  "dm": {
+    "title": "Direkt Mesajlar",
+    "newMessage": "Yeni Mesaj",
+    "empty": "Henüz direkt mesajın yok. Bir kullanıcının profilinde \"Mesaj\"a tıklayarak veya yeni bir grup DM oluşturarak sohbet başlat!",
+    "createTitle": "Yeni Mesaj",
+    "addFriendsHint_one": "{{count}} arkadaş daha ekleyebilirsin.",
+    "addFriendsHint_other": "{{count}} arkadaş daha ekleyebilirsin.",
+    "createMessage": "Mesaj Oluştur",
+    "createGroupMessage": "Grup Mesajı Oluştur",
+    "searchPeople": "Kişi ara",
+    "groupNameOptional": "Grup adı (isteğe bağlı)",
+    "selected": "Seçildi",
+    "createFailed": "DM oluşturulamadı",
+    "createGroupA11y": "Grup DM oluştur",
+    "rotate90": "90° döndür"
+  },
+  "picker": {
+    "tabs": {
+      "emoji": "Emoji",
+      "gifs": "GIF'ler",
+      "stickers": "Çıkartmalar"
+    },
+    "searchEmojis": "Emoji ara…",
+    "searchStickers": "Çıkartma ara…",
+    "searchKlipy": "KLIPY'de ara",
+    "favorites": "Favoriler",
+    "recentlyUsed": "Son kullanılanlar",
+    "recent": "Son",
+    "yourEmojis": "Emojilerin",
+    "yours": "Seninkiler",
+    "yourStickers": "Çıkartmaların",
+    "custom": "Özel",
+    "standard": "Standart",
+    "noResults": "Sonuç yok",
+    "results_one": "{{count}} sonuç",
+    "results_other": "{{count}} sonuç",
+    "skinTone": "Ten rengi",
+    "skinToneDefault": "Varsayılan",
+    "emptyStickers": "Henüz çıkartma yok. Kullanıcı veya Alan ayarlarından yükle.",
+    "loadingMore": "Daha fazla yükleniyor…",
+    "noGifsFor": "\"{{query}}\" için GIF bulunamadı",
+    "gifA11y": "GIF",
+    "addFavorite": "Favorilere ekle",
+    "removeFavorite": "Favorilerden kaldır",
+    "categories": {
+      "smileys": "Suratlar ve Duygular",
+      "people": "İnsanlar ve Vücut",
+      "animals": "Hayvanlar ve Doğa",
+      "food": "Yiyecek ve İçecek",
+      "travel": "Seyahat ve Yerler",
+      "activities": "Aktiviteler",
+      "objects": "Nesneler",
+      "symbols": "Semboller",
+      "flags": "Bayraklar"
+    }
+  },
+  "header": {
+    "memberList": {
+      "show": "Üye Listesini Göster",
+      "hide": "Üye Listesini Gizle"
+    },
+    "dm": {
+      "addToGroup": "Gruba Ekle",
+      "groupFull": "Grup dolu"
+    },
+    "voice": {
+      "closeChatA11y": "Sohbeti kapat"
+    }
+  },
+  "mentions": {
+    "members": "Üyeler",
+    "membersMatching": "\"{{query}}\" ile eşleşen üyeler",
+    "role": "Rol",
+    "notifyRole": "Bu kanalı görme izni olan bu role sahip kullanıcıları bilgilendir",
+    "notifyEveryone": "Bu kanalı görme izni olan herkesi bilgilendir",
+    "notifyHere": "Bu kanalı görme izni olan çevrimiçi herkesi bilgilendir"
+  },
+  "voice": {
+    "noOneInVoice": "Şu anda seste kimse yok",
+    "noOneConnectedYet": "Henüz kimse bağlı değil.",
+    "title": "Ses",
+    "peopleInVoice_one": "{{count}} kişi seste.",
+    "peopleInVoice_other": "{{count}} kişi seste.",
+    "joinVoice": "Sese Katıl",
+    "openChat": "Sohbeti Aç",
+    "invite": "Davet Et",
+    "startingScreenShare": "Ekran paylaşımın başlatılıyor...",
+    "sharingScreen": "{{name}} ekranını paylaşıyor",
+    "watchStream": "Yayını İzle",
+    "stopWatching": "İzlemeyi Durdur",
+    "screenLabel": "{{name}} adlı kişinin Ekranı",
+    "connection": {
+      "connecting": "Sese bağlanılıyor...",
+      "connected": "Sese bağlandı",
+      "rtcConnecting": "RTC Bağlanıyor",
+      "voiceConnected": "Ses Bağlı",
+      "failed": "Bağlantı Başarısız",
+      "failedFallback": "Ses bağlantısı başarısız",
+      "unableToConnect": "Bağlanılamıyor",
+      "disconnect": "Bağlantıyı Kes",
+      "disconnectA11y": "Sesten bağlantıyı kes"
+    },
+    "errors": {
+      "notConfigured": "Ses sunucusu yapılandırılmamış",
+      "unableToJoin": "Ses kanalına katılınamıyor",
+      "credentialsMissing": "Ses sunucusu kimlik bilgileri sağlanmadı",
+      "timedOut": "Ses bağlantısı zaman aşımına uğradı",
+      "micPermissionRequired": "Ses kanalları için mikrofon izni gerekli",
+      "closed": "Ses bağlantısı kapatıldı",
+      "disconnected": "Bağlantı kesildi",
+      "disconnectedFrom": "Sesten bağlantı kesildi: {{reason}}",
+      "differentDevice": "Farklı bir cihazdan bağlanıldı",
+      "movedChannel": "Başka bir ses kanalına taşındı",
+      "enumerateDevices": "Cihazlar listelenemedi"
+    },
+    "controls": {
+      "mute": "Sustur",
+      "unmute": "Susturmayı Aç",
+      "muted": "Susturuldu",
+      "deafen": "Sağırlaştır",
+      "undeafen": "Sağırlaştırmayı Kaldır",
+      "deafened": "Sağırlaştırıldı",
+      "spaceMuted": "Alan Susturuldu",
+      "spaceDeafened": "Alan Sağırlaştırıldı",
+      "enableCamera": "Kamerayı aç",
+      "disableCamera": "Kamerayı kapat",
+      "shareScreen": "Ekranını paylaş",
+      "stopSharing": "Paylaşımı durdur",
+      "muteStreamAudio": "Yayın sesini sustur",
+      "unmuteStreamAudio": "Yayın sesini aç",
+      "settings": "Ayarlar",
+      "holdToTalk": "Konuşmak için basılı tut",
+      "talking": "Konuşuyor…",
+      "holdToTalkA11y": "Konuşmak için basılı tut",
+      "volume": "Ses",
+      "volumePercent": "Ses {{value}}%",
+      "userVolume": "Kullanıcı Sesi",
+      "streamVolume": "Yayın Sesi",
+      "muteUser": "Kullanıcıyı Sustur",
+      "muteUserLocally": "Bu kullanıcıyı yerel olarak sustur",
+      "unmuteUserLocally": "Bu kullanıcının yerel susturmasını kaldır",
+      "muteStream": "Yayını Sustur",
+      "live": "LIVE",
+      "video": "Video"
+    },
+    "participant": {
+      "you": "(Sen)",
+      "speaking": "Konuşuyor",
+      "serverMuted": "Sunucu tarafından susturuldu",
+      "serverDeafened": "Sunucu tarafından sağırlaştırıldı"
+    },
+    "moderation": {
+      "title": "Ses moderasyonu",
+      "spaceMute": "Alan susturma",
+      "removeSpaceMute": "Alan susturmasını kaldır",
+      "spaceDeafen": "Alan sağırlaştırma",
+      "removeSpaceDeafen": "Alan sağırlaştırmasını kaldır",
+      "disconnect": "Bağlantıyı Kes",
+      "spaceMuteToggle": "Alan Susturma",
+      "spaceDeafenToggle": "Alan Sağırlaştırma"
+    },
+    "spaceModerated": {
+      "mutedTitle": "Alan Susturuldu",
+      "deafenedTitle": "Alan Sağırlaştırıldı",
+      "mutedBody": "Bu kanalın özel izinleri var. Burada konuşmak için bir alan moderatörü veya yöneticisinin susturmanı kaldırması gerekir",
+      "deafenedBody": "Bu kanalın özel izinleri var. Burada dinlemek için bir alan moderatörü veya yöneticisinin sağırlaştırmanı kaldırması gerekir",
+      "dismiss": "Tamam!",
+      "dismissMobile": "Anladım"
+    },
+    "screenShare": {
+      "title": "Ekranını paylaş",
+      "entireScreen_one": "Tüm Ekran ({{count}})",
+      "entireScreen_other": "Tüm Ekran ({{count}})",
+      "applicationWindow_one": "Uygulama Penceresi ({{count}})",
+      "applicationWindow_other": "Uygulama Penceresi ({{count}})",
+      "noScreens": "Kullanılabilir ekran yok.",
+      "noWindows": "Kullanılabilir pencere yok.",
+      "permissionHint": "Sistem Ayarlarında {{appName}} için Ekran Kaydı'nı etkinleştir.",
+      "permissionDevHint": "Geliştirmede bu genellikle Electron olarak listelenir.",
+      "openSystemSettings": "Sistem Ayarlarını Aç",
+      "browserPickerHint": "Go Live'a tıkladığında tarayıcın hangi ekranı veya pencereyi paylaşacağını soracak.",
+      "streamSettings": "Yayın ayarları",
+      "streamQuality": "Yayın kalitesi",
+      "shareAudio": "Ses paylaş",
+      "shareAudioDescription": "Paylaşılan ekran veya pencereden ses ilet",
+      "devBuildHint": "Geliştirme derlemesi: macOS Sistem Ayarlarında {{appName}} (genellikle Electron) için Ekran Kaydı izni ver.",
+      "goLive": "Go Live",
+      "quality": {
+        "720p15": "720p 15fps",
+        "720p30": "720p 30fps",
+        "1080p30": "1080p 30fps",
+        "1080p60": "1080p 60fps",
+        "source": "Kaynak"
+      }
+    }
+  },
+  "feed": {
+    "title": "Akış",
+    "tabs": {
+      "forYou": "Senin İçin",
+      "friends": "Arkadaşlar",
+      "saved": "Kaydedilenler",
+      "scheduled": "Zamanlanmış"
+    },
+    "sidebar": {
+      "explore": "Keşfet / Bul",
+      "friends": "Arkadaşlar",
+      "saves": "Kayıtlar",
+      "myProfile": "Profilim",
+      "customizeProfile": "Profili Özelleştir",
+      "switchMode": "{{mode}} moduna geç"
+    },
+    "header": {
+      "createPost": "Gönderi oluştur",
+      "createPostSheetTitle": "Gönderi oluştur",
+      "myProfile": "Profilim",
+      "customizeProfile": "Profili özelleştir"
+    },
+    "composer": {
+      "placeholder": "Aklından neler geçiyor?",
+      "post": "Paylaş",
+      "schedule": "Zamanla",
+      "addMedia": "Medya ekle",
+      "addEmojiOrSticker": "Emoji veya çıkartma ekle",
+      "schedulePost": "Gönderiyi zamanla",
+      "viewScheduled": "Zamanlanmış gönderileri görüntüle",
+      "clearScheduledTime": "Zamanlanmış saati temizle",
+      "pickDateTime": "Tarih ve saat seç",
+      "clearSchedule": "Zamanlamayı temizle"
+    },
+    "empty": {
+      "posts": "Henüz gönderi yok.",
+      "saved": "Henüz kaydedilmiş gönderi yok.",
+      "scheduled": "Zamanlanmış gönderin yok.",
+      "comments": "Henüz yorum yok.",
+      "postUnavailable": "Bu gönderi yok veya artık kullanılabilir değil.",
+      "shareTargets": "Henüz paylaşacak konuşman veya arkadaşın yok."
+    },
+    "scheduled": {
+      "title": "Zamanlanmış Gönderiler",
+      "reschedule": "Yeniden zamanla",
+      "saveTime": "Saati kaydet",
+      "publishNow": "Şimdi yayınla",
+      "scheduledFor": "{{datetime}} için zamanlandı",
+      "scheduledForUnknown": "Bilinmeyen bir zaman için zamanlandı"
+    },
+    "comments": {
+      "title": "Yorumlar",
+      "loading": "Yorumlar yükleniyor…",
+      "placeholder": "Bir yorum yaz…",
+      "replyPlaceholder": "{{name}} adlı kişiye yanıtla…",
+      "replyFallback": "yorum",
+      "reply": "Yanıtla",
+      "sendReply": "Yanıt gönder"
+    },
+    "actions": {
+      "deletePost": "Gönderiyi sil",
+      "reportPost": "Gönderiyi bildir",
+      "deleteComment": "Yorumu sil",
+      "reportComment": "Yorumu bildir",
+      "openPost": "Gönderiyi aç",
+      "savePost": "Gönderiyi kaydet",
+      "unsavePost": "Gönderiyi kayıttan çıkar"
+    },
+    "report": {
+      "thisPost": "bu gönderi",
+      "thisComment": "bu yorum"
+    },
+    "share": {
+      "title": "Gönderiyi paylaş",
+      "send": "Gönder",
+      "sending": "Gönderiliyor…",
+      "done": "Bitti"
+    },
+    "embed": {
+      "loadingPost": "Gönderi yükleniyor…",
+      "attachments_one": "{{count}} ek",
+      "attachments_other": "{{count}} ek"
+    },
+    "media": {
+      "goToMediaA11y": "{{index}} numaralı medyaya git",
+      "volume": "Ses"
+    }
+  },
+  "contextMenu": {
+    "markAsRead": "Okundu olarak işaretle",
+    "viewProfile": "Profili Görüntüle",
+    "editProfile": "Profili Düzenle",
+    "message": "Mesaj",
+    "closeDm": "DM'yi Kapat",
+    "removeFromGroup": "Gruptan Kaldır",
+    "acceptFriendRequest": "Arkadaşlık İsteğini Kabul Et",
+    "declineFriendRequest": "Arkadaşlık İsteğini Reddet",
+    "cancelFriendRequest": "Arkadaşlık İsteğini İptal Et",
+    "removeFriend": "Arkadaşı Kaldır",
+    "block": "Engelle",
+    "unblock": "Engeli Kaldır",
+    "reportUser": "Kullanıcıyı Bildir",
+    "reportAccount": "bu hesap",
+    "roles": "Roller",
+    "noRolesToAssign": "Atanacak rol yok",
+    "createRole": "Rol oluştur",
+    "noRolesAssigned": "Atanmış rol yok",
+    "kickMember": "{{username}} adlı kişiyi at",
+    "banMember": "{{username}} adlı kişiyi yasakla",
+    "openInStaffPanel": "Personel Panelinde Aç",
+    "inviteToChannel": "Kanala Davet Et",
+    "editChannel": "Kanalı Düzenle",
+    "editCategory": "Kategoriyi Düzenle",
+    "deleteChannel": "Kanalı Sil",
+    "deleteCategory": "Kategoriyi Sil",
+    "reportSpace": "Alanı Bildir",
+    "reportSpaceLabel": "bu alan",
+    "leaveSpace": "Alandan Ayrıl",
+    "createChannel": "Kanal Oluştur",
+    "createCategory": "Kategori Oluştur",
+    "inviteToSpace": "Alana Davet Et",
+    "editGroup": "Grubu Düzenle",
+    "manageGroup": "Grubu Yönet",
+    "leaveGroup": "Gruptan Ayrıl",
+    "deleteGroup": "Grubu Sil",
+    "deleteRole": "Rolü Sil",
+    "moveUp": "Yukarı taşı",
+    "moveDown": "Aşağı taşı",
+    "channelSettings": "Kanal ayarları",
+    "addFriend": "Arkadaş Ekle"
+  },
+  "a11y": {
+    "embedImage": "Gömülü görsel",
+    "embedTitle": "Gömülü başlık",
+    "youtubePlayer": "YouTube video oynatıcı",
+    "toggleReaction": "Tepkiyi aç/kapat, sayı {{value}}",
+    "mentionsCount": "{{value}} bahsetme",
+    "unread": "okunmamış"
+  },
+  "expressionPreview": {
+    "emojiFromSpaceBelong": "Bu emoji, üye olduğun alanlardan birine ait",
+    "emojiFromYou": "Bu emoji sana ait, tüm sohbetlerde kullanabilirsin",
+    "emojiFromUser": "Bu emoji bir kullanıcıya ait",
+    "emojiFromSpace": "Bu emoji bir alana ait",
+    "stickerFromSpaceBelong": "Bu çıkartma, üye olduğun alanlardan birine ait",
+    "stickerFromYou": "Bu çıkartma sana ait, tüm sohbetlerde kullanabilirsin",
+    "stickerFromUser": "Bu çıkartma bir kullanıcıya ait",
+    "stickerFromSpace": "Bu çıkartma bir alana ait",
+    "defaultEmoji": "Bu varsayılan bir emoji. Mutualzz'da her yerde kullanabilirsin",
+    "emojiMatching": "Eşleşen emojiler"
+  },
+  "toast": {
+    "onlyMentioned": "Bu mesajda yalnızca senden bahsedildi",
+    "openChannel": "Kanalı aç"
+  },
+  "favorites": {
+    "add": "Favorilere ekle",
+    "remove": "Favorilerden kaldır"
+  },
+  "stickers": {
+    "animated": "Animasyonlu çıkartma",
+    "sticker": "Çıkartma"
+  },
+  "groupDm": {
+    "title": "Grup DM",
+    "edit": "Grubu Düzenle",
+    "leave": "Gruptan Ayrıl",
+    "delete": "Grubu Sil",
+    "groupFullCount": "Bu grup dolu ({{current}}/{{max}}).",
+    "spotsRemaining_one": "{{count}} yer kaldı",
+    "spotsRemaining_other": "{{count}} yer kaldı",
+    "noFriendsToAdd": "Eklenecek arkadaş yok.",
+    "namePlaceholder": "örn. Oyun Gecesi",
+    "conversationOptionsA11y": "Konuşma seçenekleri",
+    "saveFailed": "Grup kaydedilemedi",
+    "leaveFailed": "Gruptan ayrılınamadı",
+    "deleteFailed": "Grup silinemedi",
+    "removeMemberFailed": "Üye kaldırılamadı",
+    "addRecipientFailed": "Alıcı eklenemedi",
+    "maxRecipients": "Grup DM'ler 9 alıcıyı aşamaz (sen dahil 10)",
+    "membersCount": "Üyeler - {{value}}",
+    "manage": {
+      "title": "Grubu Yönet",
+      "icon": "Simge",
+      "removeIcon": "Simgeyi kaldır",
+      "changeIcon": "Simgeyi değiştir",
+      "groupName": "Grup adı",
+      "members": "Üyeler",
+      "you": "(sen)",
+      "remove": "Kaldır",
+      "removing": "Kaldırılıyor…",
+      "saveChanges": "Değişiklikleri kaydet",
+      "leaveGroup": "Gruptan ayrıl",
+      "deleteGroup": "Grubu sil",
+      "round": "Yuvarlak"
+    }
+  },
+  "friends": {
+    "title": "Arkadaşlar",
+    "tabs": {
+      "online": "Çevrimiçi",
+      "all": "Tümü",
+      "pending": "Bekleyen",
+      "addFriend": "Arkadaş Ekle"
+    },
+    "onlineCount_one": "Çevrimiçi - {{count}}",
+    "onlineCount_other": "Çevrimiçi - {{count}}",
+    "allCount_one": "Tümü - {{count}}",
+    "allCount_other": "Tümü - {{count}}",
+    "receivedCount_one": "Alınan - {{count}}",
+    "receivedCount_other": "Alınan - {{count}}",
+    "sentCount_one": "Gönderilen - {{count}}",
+    "sentCount_other": "Gönderilen - {{count}}",
+    "emptyOnline": "Arkadaşlarından hiçbiri çevrimiçi değil. Arkadaşlık isteği göndermek için \"Arkadaş Ekle\" düğmesine tıkla.",
+    "emptyAll": "Hiç arkadaşın yok. Arkadaşlık isteği göndermek için \"Arkadaş Ekle\" düğmesine tıkla.",
+    "emptyPending": "Bekleyen arkadaşlık isteği yok. Arkadaşlık isteği göndermek için \"Arkadaş Ekle\" düğmesine tıkla.",
+    "emptyYet": "Henüz arkadaş yok.",
+    "incomingCount": "Gelen — {{value}}",
+    "pendingSectionCount": "Bekleyen — {{value}}",
+    "friendsSectionCount": "Arkadaşlar — {{value}}",
+    "sendFailed": "İstek gönderilemedi",
+    "blockedBeforeRequest": "Bu kullanıcıyı engelledin. İstek göndermeden önce engeli kaldır.",
+    "addTitle": "Arkadaş Ekle",
+    "addDescription": "Arkadaşlarını Mutualzz kullanıcı adlarıyla ekleyebilirsin.",
+    "usernamePlaceholder": "Kullanıcı adı gir",
+    "sendRequest": "İstek Gönder",
+    "alreadyFriends": "Zaten arkadaşsınız",
+    "alreadySent": "İstek zaten gönderildi",
+    "unknownUsername": "Bilinmeyen kullanıcı adı, lütfen doğru olduğundan emin ol",
+    "friendLinkTitle": "Arkadaşlık Bağlantın",
+    "friendLinkDescription": "İnsanların sana arkadaşlık isteği göndermesi için bu bağlantıyı paylaş. Sohbette bir Arkadaş Ekle düğmesi görecekler.",
+    "creatingLink": "Arkadaşlık bağlantın oluşturuluyor...",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "message": "Mesaj",
+    "remove": "Kaldır"
+  }
+}

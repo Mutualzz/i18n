@@ -1,0 +1,537 @@
+{
+  "unknownUser": "Usuario desconocido",
+  "unknown": "Desconocido",
+  "deletedUser": "Usuario eliminado",
+  "loading": "Cargando…",
+  "composer": {
+    "placeholder": {
+      "channel": "Mensaje en #{{channel}}",
+      "channelFallback": "Mensaje en #este canal",
+      "dm": "Mensaje para {{name}}",
+      "dmFallback": "Mensaje en esta conversación",
+      "groupFallback": "Mensaje al grupo",
+      "edit": "Editar mensaje",
+      "blocked": "No puedes enviar mensajes a esta persona porque la tienes bloqueada",
+      "noPermission": "No tienes permiso para enviar mensajes en este canal."
+    },
+    "attachFiles": "Adjuntar archivos",
+    "addAttachment": "Añadir adjunto",
+    "remove": "Eliminar",
+    "removeSticker": "Eliminar sticker",
+    "removeAttachment": "Eliminar adjunto",
+    "openExpressionPicker": "Abrir selector de expresiones",
+    "mentionOn": "@ ACTIVADO",
+    "mentionOff": "@ DESACTIVADO",
+    "editHint": "escape para cancelar • enter para guardar",
+    "editHintCancel": "cancelar",
+    "editHintSave": "guardar",
+    "emojiPicker": "Selector de emojis",
+    "gifPicker": "Selector de GIFs",
+    "stickerPicker": "Selector de stickers",
+    "openEmojiPicker": "Abrir selector de emojis",
+    "openGifPicker": "Abrir selector de GIFs",
+    "openStickerPicker": "Abrir selector de stickers",
+    "editHintEscapeTo": "escape para",
+    "editHintEnterTo": "enter para"
+  },
+  "reply": {
+    "banner": "Respondiendo a {{name}}",
+    "replyPreviewMissing": "No se pudo encontrar el mensaje respondido"
+  },
+  "edit": {
+    "banner": "Editando mensaje",
+    "cancelA11y": "Cancelar edición",
+    "cancelReplyA11y": "Cancelar respuesta"
+  },
+  "typing": {
+    "one": "{{name}} está escribiendo...",
+    "two": "{{name1}} y {{name2}} están escribiendo...",
+    "many": "{{name1}}, {{name2}} y otros están escribiendo..."
+  },
+  "actions": {
+    "reply": "Responder",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "copyText": "Copiar texto",
+    "editMessage": "Editar mensaje",
+    "deleteMessage": "Eliminar mensaje",
+    "reportMessage": "Reportar mensaje",
+    "addReaction": "Añadir reacción",
+    "reactWith": "Reaccionar con {{emoji}}"
+  },
+  "report": {
+    "thisMessage": "este mensaje"
+  },
+  "message": {
+    "edited": "(editado)",
+    "scrollToLatestA11y": "Ir a los mensajes más recientes"
+  },
+  "system": {
+    "ephemeralOnlyYou": "Solo tú puedes ver esto •",
+    "dismissMessage": "Descartar mensaje"
+  },
+  "empty": {
+    "channel": {
+      "welcome": "¡Bienvenido a #{{channel}}!",
+      "start": "Este es el inicio del canal #{{channel}}.",
+      "noHistory": "No tienes permisos para leer el historial de mensajes"
+    },
+    "dm": {
+      "firstMessage": "Envía tu primer mensaje a {{name}}",
+      "beginning": "Bienvenido al inicio de {{conversation}}"
+    }
+  },
+  "header": {
+    "memberList": {
+      "show": "Mostrar lista de miembros",
+      "hide": "Ocultar lista de miembros"
+    },
+    "dm": {
+      "addToGroup": "Añadir al grupo",
+      "groupFull": "El grupo está lleno"
+    },
+    "voice": {
+      "closeChatA11y": "Cerrar chat"
+    }
+  },
+  "voice": {
+    "title": "Voz",
+    "noOneInVoice": "Nadie está en voz actualmente",
+    "noOneConnectedYet": "Nadie está conectado aún.",
+    "peopleInVoice_one": "{{count}} persona está en voz.",
+    "peopleInVoice_other": "{{count}} personas están en voz.",
+    "joinVoice": "Unirse a voz",
+    "openChat": "Abrir chat",
+    "invite": "Invitar",
+    "startingScreenShare": "Iniciando tu compartición de pantalla...",
+    "sharingScreen": "{{name}} está compartiendo su pantalla",
+    "watchStream": "Ver transmisión",
+    "stopWatching": "Dejar de ver",
+    "screenLabel": "Pantalla de {{name}}",
+    "connection": {
+      "connecting": "Conectando a voz...",
+      "connected": "Conectado a voz",
+      "rtcConnecting": "Conectando RTC",
+      "voiceConnected": "Voz conectada",
+      "failed": "Conexión fallida",
+      "failedFallback": "La conexión de voz falló",
+      "unableToConnect": "No se pudo conectar",
+      "disconnect": "Desconectar",
+      "disconnectA11y": "Desconectar de voz"
+    },
+    "controls": {
+      "mute": "Silenciar",
+      "unmute": "Activar micrófono",
+      "muted": "Silenciado",
+      "deafen": "Ensordecer",
+      "undeafen": "Quitar ensordecer",
+      "deafened": "Ensordecido",
+      "spaceMuted": "Silenciado en el espacio",
+      "spaceDeafened": "Ensordecido en el espacio",
+      "enableCamera": "Activar cámara",
+      "disableCamera": "Desactivar cámara",
+      "shareScreen": "Compartir pantalla",
+      "stopSharing": "Dejar de compartir",
+      "muteStreamAudio": "Silenciar audio de la transmisión",
+      "unmuteStreamAudio": "Activar audio de la transmisión",
+      "settings": "Configuración",
+      "holdToTalk": "Mantener para hablar",
+      "talking": "Hablando…",
+      "holdToTalkA11y": "Mantener para hablar",
+      "volume": "Volumen",
+      "volumePercent": "Volumen {{value}}%",
+      "userVolume": "Volumen del usuario",
+      "streamVolume": "Volumen de la transmisión",
+      "muteUser": "Silenciar usuario",
+      "muteUserLocally": "Silenciar este usuario localmente",
+      "unmuteUserLocally": "Activar este usuario localmente",
+      "muteStream": "Silenciar transmisión",
+      "live": "EN VIVO",
+      "video": "Vídeo"
+    },
+    "participant": {
+      "you": "(Tú)",
+      "speaking": "Hablando",
+      "serverMuted": "Silenciado por el servidor",
+      "serverDeafened": "Ensordecido por el servidor"
+    },
+    "moderation": {
+      "title": "Moderación de voz",
+      "spaceMute": "Silenciar en el espacio",
+      "removeSpaceMute": "Quitar silencio en el espacio",
+      "spaceDeafen": "Ensordecer en el espacio",
+      "removeSpaceDeafen": "Quitar ensordecer en el espacio",
+      "disconnect": "Desconectar",
+      "spaceMuteToggle": "Silenciar en el espacio",
+      "spaceDeafenToggle": "Ensordecer en el espacio"
+    },
+    "spaceModerated": {
+      "mutedTitle": "Silenciado en el espacio",
+      "deafenedTitle": "Ensordecido en el espacio",
+      "mutedBody": "Este canal tiene permisos especiales. Para hablar en él, necesitarás que alguien, como un moderador del espacio o un administrador, te quite el silencio",
+      "deafenedBody": "Este canal tiene permisos especiales. Para escuchar en él, necesitarás que alguien, como un moderador del espacio o un administrador, te quite el ensordecer",
+      "dismiss": "¡De acuerdo!",
+      "dismissMobile": "Entendido"
+    },
+    "screenShare": {
+      "title": "Compartir pantalla",
+      "noScreens": "No hay pantallas disponibles.",
+      "noWindows": "No hay ventanas disponibles.",
+      "permissionHint": "Activa la grabación de pantalla para {{appName}} en Ajustes del sistema.",
+      "permissionDevHint": "En desarrollo, esto suele aparecer como Electron.",
+      "openSystemSettings": "Abrir Ajustes del sistema",
+      "browserPickerHint": "Tu navegador te preguntará qué pantalla o ventana compartir cuando hagas clic en Transmitir en vivo.",
+      "streamSettings": "Configuración de transmisión",
+      "streamQuality": "Calidad de transmisión",
+      "shareAudio": "Compartir audio",
+      "shareAudioDescription": "Transmitir el sonido de la pantalla o ventana compartida",
+      "devBuildHint": "Compilación de desarrollo: concede la grabación de pantalla a {{appName}} (a menudo Electron) en Ajustes del sistema de macOS.",
+      "goLive": "Transmitir en vivo",
+      "quality": {
+        "720p15": "720p 15fps",
+        "720p30": "720p 30fps",
+        "1080p30": "1080p 30fps",
+        "1080p60": "1080p 60fps",
+        "source": "Origen"
+      },
+      "entireScreen_one": "Pantalla completa ({{count}})",
+      "entireScreen_other": "Pantalla completa ({{count}})",
+      "applicationWindow_one": "Ventana de aplicación ({{count}})",
+      "applicationWindow_other": "Ventana de aplicación ({{count}})"
+    },
+    "errors": {
+      "notConfigured": "El servidor de voz no está configurado",
+      "unableToJoin": "No se puede unir al canal de voz",
+      "credentialsMissing": "No se proporcionaron las credenciales del servidor de voz",
+      "timedOut": "La conexión de voz agotó el tiempo de espera",
+      "micPermissionRequired": "Se requiere permiso de micrófono para los canales de voz",
+      "closed": "Conexión de voz cerrada",
+      "disconnected": "Desconectado",
+      "disconnectedFrom": "Desconectado de la voz: {{reason}}",
+      "differentDevice": "Conectado desde otro dispositivo",
+      "movedChannel": "Movido a otro canal de voz",
+      "enumerateDevices": "No se pudieron enumerar los dispositivos"
+    }
+  },
+  "feed": {
+    "title": "Feed",
+    "tabs": {
+      "forYou": "Para ti",
+      "friends": "Amigos",
+      "saved": "Guardados",
+      "scheduled": "Programados"
+    },
+    "sidebar": {
+      "explore": "Explorar / Descubrir",
+      "friends": "Amigos",
+      "saves": "Guardados",
+      "myProfile": "Mi perfil",
+      "customizeProfile": "Personalizar perfil",
+      "switchMode": "Cambiar a {{mode}}"
+    },
+    "header": {
+      "createPost": "Crear publicación",
+      "createPostSheetTitle": "Crear publicación",
+      "myProfile": "Mi perfil",
+      "customizeProfile": "Personalizar perfil"
+    },
+    "composer": {
+      "placeholder": "¿Qué estás pensando?",
+      "post": "Publicar",
+      "schedule": "Programar",
+      "addMedia": "Añadir multimedia",
+      "addEmojiOrSticker": "Añadir emoji o sticker",
+      "schedulePost": "Programar publicación",
+      "viewScheduled": "Ver publicaciones programadas",
+      "clearScheduledTime": "Borrar hora programada",
+      "pickDateTime": "Elegir fecha y hora",
+      "clearSchedule": "Borrar programación"
+    },
+    "empty": {
+      "posts": "Aún no hay publicaciones.",
+      "saved": "Aún no hay publicaciones guardadas.",
+      "scheduled": "No tienes publicaciones programadas.",
+      "comments": "Aún no hay comentarios.",
+      "postUnavailable": "Esta publicación no existe o ya no está disponible.",
+      "shareTargets": "Aún no tienes conversaciones ni amigos con quienes compartir."
+    },
+    "scheduled": {
+      "title": "Publicaciones programadas",
+      "reschedule": "Reprogramar",
+      "saveTime": "Guardar hora",
+      "publishNow": "Publicar ahora",
+      "scheduledFor": "Programado para {{datetime}}",
+      "scheduledForUnknown": "Programado para desconocido"
+    },
+    "comments": {
+      "title": "Comentarios",
+      "loading": "Cargando comentarios…",
+      "placeholder": "Escribe un comentario…",
+      "replyPlaceholder": "Responder a {{name}}…",
+      "replyFallback": "comentario",
+      "reply": "Responder",
+      "sendReply": "Enviar respuesta"
+    },
+    "actions": {
+      "deletePost": "Eliminar publicación",
+      "reportPost": "Reportar publicación",
+      "deleteComment": "Eliminar comentario",
+      "reportComment": "Reportar comentario",
+      "openPost": "Abrir publicación",
+      "savePost": "Guardar publicación",
+      "unsavePost": "Quitar de guardados"
+    },
+    "report": {
+      "thisPost": "esta publicación",
+      "thisComment": "este comentario"
+    },
+    "share": {
+      "title": "Compartir publicación",
+      "send": "Enviar",
+      "sending": "Enviando…",
+      "done": "Listo"
+    },
+    "embed": {
+      "loadingPost": "Cargando publicación…",
+      "attachments_one": "{{count}} adjunto",
+      "attachments_other": "{{count}} adjuntos"
+    },
+    "media": {
+      "goToMediaA11y": "Ir al medio {{index}}",
+      "volume": "Volumen"
+    }
+  },
+  "contextMenu": {
+    "markAsRead": "Marcar como leído",
+    "viewProfile": "Ver perfil",
+    "editProfile": "Editar perfil",
+    "message": "Mensaje",
+    "closeDm": "Cerrar MD",
+    "removeFromGroup": "Eliminar del grupo",
+    "acceptFriendRequest": "Aceptar solicitud de amistad",
+    "declineFriendRequest": "Rechazar solicitud de amistad",
+    "cancelFriendRequest": "Cancelar solicitud de amistad",
+    "removeFriend": "Eliminar amigo",
+    "block": "Bloquear",
+    "unblock": "Desbloquear",
+    "reportUser": "Reportar usuario",
+    "reportAccount": "esta cuenta",
+    "roles": "Roles",
+    "noRolesToAssign": "No hay roles para asignar",
+    "createRole": "Crear rol",
+    "noRolesAssigned": "No hay roles asignados",
+    "kickMember": "Expulsar a {{username}}",
+    "banMember": "Banear a {{username}}",
+    "openInStaffPanel": "Abrir en panel de staff",
+    "inviteToChannel": "Invitar al canal",
+    "editChannel": "Editar canal",
+    "editCategory": "Editar categoría",
+    "deleteChannel": "Eliminar canal",
+    "deleteCategory": "Eliminar categoría",
+    "reportSpace": "Reportar espacio",
+    "reportSpaceLabel": "este espacio",
+    "leaveSpace": "Abandonar espacio",
+    "createChannel": "Crear canal",
+    "createCategory": "Crear categoría",
+    "inviteToSpace": "Invitar al espacio",
+    "editGroup": "Editar grupo",
+    "manageGroup": "Gestionar grupo",
+    "leaveGroup": "Abandonar grupo",
+    "deleteGroup": "Eliminar grupo",
+    "deleteRole": "Eliminar rol",
+    "moveUp": "Subir",
+    "moveDown": "Bajar",
+    "channelSettings": "Configuración del canal",
+    "addFriend": "Añadir amigo"
+  },
+  "favorites": {
+    "add": "Añadir a favoritos",
+    "remove": "Quitar de favoritos"
+  },
+  "stickers": {
+    "animated": "Sticker animado",
+    "sticker": "Sticker"
+  },
+  "groupDm": {
+    "title": "MD de grupo",
+    "edit": "Editar grupo",
+    "leave": "Abandonar grupo",
+    "delete": "Eliminar grupo",
+    "manage": {
+      "title": "Gestionar grupo",
+      "icon": "Icono",
+      "removeIcon": "Quitar icono",
+      "changeIcon": "Cambiar icono",
+      "groupName": "Nombre del grupo",
+      "members": "Miembros",
+      "you": "(tú)",
+      "remove": "Eliminar",
+      "removing": "Eliminando…",
+      "saveChanges": "Guardar cambios",
+      "leaveGroup": "Abandonar grupo",
+      "deleteGroup": "Eliminar grupo",
+      "round": "Redondo"
+    },
+    "groupFullCount": "Este grupo está lleno ({{current}}/{{max}}).",
+    "spotsRemaining_one": "{{count}} plaza restante",
+    "spotsRemaining_other": "{{count}} plazas restantes",
+    "noFriendsToAdd": "No hay amigos para añadir.",
+    "namePlaceholder": "p. ej. Noche de juegos",
+    "conversationOptionsA11y": "Opciones de la conversación",
+    "saveFailed": "Error al guardar el grupo",
+    "leaveFailed": "Error al abandonar el grupo",
+    "deleteFailed": "Error al eliminar el grupo",
+    "removeMemberFailed": "Error al eliminar al miembro",
+    "addRecipientFailed": "Error al añadir al destinatario",
+    "maxRecipients": "Los MD de grupo no pueden superar los 9 destinatarios (10 incluyéndote a ti)",
+    "membersCount": "Miembros - {{value}}"
+  },
+  "friends": {
+    "title": "Amigos",
+    "tabs": {
+      "online": "En línea",
+      "all": "Todos",
+      "pending": "Pendientes",
+      "addFriend": "Añadir amigo"
+    },
+    "emptyOnline": "Ninguno de tus amigos está en línea. Haz clic en el botón \"Añadir amigo\" para enviar solicitudes de amistad.",
+    "emptyAll": "No tienes ningún amigo. Haz clic en el botón \"Añadir amigo\" para enviar solicitudes de amistad.",
+    "emptyPending": "No hay solicitudes de amistad pendientes. Haz clic en el botón \"Añadir amigo\" para enviar solicitudes de amistad.",
+    "addTitle": "Añadir amigo",
+    "addDescription": "Puedes añadir amigos con su nombre de usuario de Mutualzz.",
+    "usernamePlaceholder": "Introduce el nombre de usuario",
+    "sendRequest": "Enviar solicitud",
+    "alreadyFriends": "Ya sois amigos",
+    "alreadySent": "Solicitud ya enviada",
+    "unknownUsername": "Nombre de usuario desconocido, asegúrate de que el nombre de usuario sea correcto",
+    "friendLinkTitle": "Tu enlace de amigo",
+    "friendLinkDescription": "Comparte este enlace para que otras personas te envíen una solicitud de amistad. Verán un botón Añadir amigo en el chat.",
+    "creatingLink": "Creando tu enlace de amigo...",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "message": "Mensaje",
+    "remove": "Eliminar",
+    "onlineCount_one": "En línea - {{count}}",
+    "onlineCount_other": "En línea - {{count}}",
+    "allCount_one": "Todos - {{count}}",
+    "allCount_other": "Todos - {{count}}",
+    "receivedCount_one": "Recibidas - {{count}}",
+    "receivedCount_other": "Recibidas - {{count}}",
+    "sentCount_one": "Enviadas - {{count}}",
+    "sentCount_other": "Enviadas - {{count}}",
+    "emptyYet": "Aún no tienes amigos.",
+    "incomingCount": "Entrantes — {{value}}",
+    "pendingSectionCount": "Pendientes — {{value}}",
+    "friendsSectionCount": "Amigos — {{value}}",
+    "sendFailed": "No se pudo enviar la solicitud",
+    "blockedBeforeRequest": "Has bloqueado a este usuario. Desbloquéalo antes de enviar una solicitud."
+  },
+  "dm": {
+    "title": "Mensajes directos",
+    "newMessage": "Nuevo mensaje",
+    "empty": "Aún no tienes mensajes directos. ¡Inicia una conversación haciendo clic en \"Mensaje\" en el perfil de un usuario o creando un MD grupal!",
+    "createTitle": "Nuevo mensaje",
+    "createMessage": "Crear mensaje",
+    "createGroupMessage": "Crear mensaje grupal",
+    "searchPeople": "Buscar personas",
+    "groupNameOptional": "Nombre del grupo (opcional)",
+    "selected": "Seleccionados",
+    "createFailed": "No se pudo crear el MD",
+    "createGroupA11y": "Crear MD grupal",
+    "rotate90": "Girar 90°",
+    "addFriendsHint_one": "Puedes añadir {{count}} amigo más.",
+    "addFriendsHint_other": "Puedes añadir {{count}} amigos más."
+  },
+  "picker": {
+    "tabs": {
+      "emoji": "Emoji",
+      "gifs": "GIFs",
+      "stickers": "Stickers"
+    },
+    "searchEmojis": "Buscar emojis…",
+    "searchStickers": "Buscar stickers…",
+    "searchKlipy": "Buscar en KLIPY",
+    "favorites": "Favoritos",
+    "recentlyUsed": "Usados recientemente",
+    "recent": "Recientes",
+    "yourEmojis": "Tus emojis",
+    "yours": "Tuyos",
+    "yourStickers": "Tus stickers",
+    "custom": "Personalizados",
+    "standard": "Estándar",
+    "noResults": "Sin resultados",
+    "results_one": "{{count}} resultado",
+    "results_other": "{{count}} resultados",
+    "skinTone": "Tono de piel",
+    "skinToneDefault": "Predeterminado",
+    "emptyStickers": "Aún no hay stickers. Sube algunos en los ajustes de Usuario o Espacio.",
+    "loadingMore": "Cargando más…",
+    "noGifsFor": "No se encontraron GIFs para \"{{query}}\"",
+    "gifA11y": "GIF",
+    "addFavorite": "Añadir a favoritos",
+    "removeFavorite": "Quitar de favoritos",
+    "categories": {
+      "smileys": "Caritas y emociones",
+      "people": "Personas y cuerpo",
+      "animals": "Animales y naturaleza",
+      "food": "Comida y bebida",
+      "travel": "Viajes y lugares",
+      "activities": "Actividades",
+      "objects": "Objetos",
+      "symbols": "Símbolos",
+      "flags": "Banderas"
+    }
+  },
+  "blocked": "Bloqueado",
+  "privateSpace": "Espacio privado",
+  "mentions": {
+    "members": "Miembros",
+    "membersMatching": "Miembros que coinciden con \"{{query}}\"",
+    "notifyRole": "Notificar a los usuarios con este rol que tienen permiso para ver este canal",
+    "notifyEveryone": "Notificar a todos los que tienen permiso para ver este canal",
+    "notifyHere": "Notificar a todos los que están en línea y tienen permiso para ver este canal",
+    "role": "Rol"
+  },
+  "expressionPreview": {
+    "emojiFromSpaceBelong": "Este emoji es de uno de los espacios a los que perteneces",
+    "emojiFromYou": "Este emoji es tuyo; puedes usarlo en cualquier chat",
+    "emojiFromUser": "Este emoji es de un usuario",
+    "emojiFromSpace": "Este emoji es de un espacio",
+    "stickerFromSpaceBelong": "Este sticker es de uno de los espacios a los que perteneces",
+    "stickerFromYou": "Este sticker es tuyo; puedes usarlo en cualquier chat",
+    "stickerFromUser": "Este sticker es de un usuario",
+    "stickerFromSpace": "Este sticker es de un espacio",
+    "defaultEmoji": "Este es un emoji predeterminado. Puedes usarlo en cualquier parte de Mutualzz",
+    "emojiMatching": "Emojis coincidentes"
+  },
+  "someone": "Alguien",
+  "you": "Tú",
+  "unknownSpace": "Espacio desconocido",
+  "owner": "Propietario",
+  "loadingMembers": "Cargando miembros…",
+  "loadingMembersEllipsis": "Cargando miembros...",
+  "noMembersToShow": "No hay miembros que mostrar.",
+  "loadingMoreMembers": "Cargando más…",
+  "loadingChannel": "Cargando canal...",
+  "downloading": "Descargando...",
+  "home": "Inicio",
+  "selectConversation": "Selecciona una conversación para empezar a chatear",
+  "selectChannel": "Selecciona un canal para empezar a chatear",
+  "messageTooLong": "El mensaje no puede superar los 2000 caracteres",
+  "cannotMessagePerson": "No puedes enviar mensajes a esta persona",
+  "unknownError": "Error desconocido",
+  "online": "En línea",
+  "offline": "Desconectado",
+  "toast": {
+    "onlyMentioned": "Solo te mencionaron en este mensaje",
+    "openChannel": "Abrir canal"
+  },
+  "a11y": {
+    "embedImage": "Imagen del embed",
+    "embedTitle": "Título del embed",
+    "youtubePlayer": "Reproductor de vídeo de YouTube",
+    "toggleReaction": "Alternar reacción, cantidad {{value}}",
+    "mentionsCount": "{{value}} menciones",
+    "unread": "no leído"
+  }
+}

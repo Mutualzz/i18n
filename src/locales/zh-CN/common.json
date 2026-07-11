@@ -1,0 +1,280 @@
+{
+  "cancel": "取消",
+  "save": "保存",
+  "saveChanges": "保存更改",
+  "close": "关闭",
+  "create": "创建",
+  "delete": "删除",
+  "add": "添加",
+  "remove": "移除",
+  "reset": "重置",
+  "back": "返回",
+  "clear": "清除",
+  "finish": "完成",
+  "retry": "重试",
+  "apply": "应用",
+  "undo": "撤销",
+  "redo": "重做",
+  "open": "打开",
+  "proceed": "继续",
+  "gotIt": "知道了",
+  "seo": {
+    "defaultTitle": "Mutualzz（抢先体验）",
+    "defaultDescription": "与志同道合的人建立联系。目前正在积极开发中"
+  },
+  "reload": "重新加载应用",
+  "download": "下载 Mutualzz",
+  "accept": "接受",
+  "decline": "拒绝",
+  "restore": "恢复",
+  "uploadCustomFont": "上传自定义字体",
+  "language": {
+    "title": "语言",
+    "description": "选择 Mutualzz 使用的语言。",
+    "systemDefault": "设备语言"
+  },
+  "calendar": {
+    "sameDay": "[今天] A h:mm",
+    "nextDay": "[明天] A h:mm",
+    "lastDay": "[昨天] A h:mm",
+    "lastWeek": "[上周] dddd A h:mm",
+    "sameElse": "YYYY/MM/DD A h:mm"
+  },
+  "duration": {
+    "clearOnDateAt": "{{date}} {{time}} 清除",
+    "clearTodayAt": "今天 {{time}} 清除",
+    "clearTomorrowAt": "明天 {{time}} 清除",
+    "days_one": "{{count}} 天",
+    "days_other": "{{count}} 天",
+    "dontClear": "不清除",
+    "forever": "永久",
+    "hours_one": "{{count}} 小时",
+    "hours_other": "{{count}} 小时",
+    "minutes_one": "{{count}} 分钟",
+    "minutes_other": "{{count}} 分钟"
+  },
+  "status": {
+    "clearCustomAfter": "自定义状态清除时间",
+    "clearOnlineAfter": "在线状态清除时间",
+    "dnd": "请勿打扰",
+    "dndDescription": "你不会收到通知",
+    "idle": "离开",
+    "idleDescription": "暂时离开键盘",
+    "invisible": "隐身",
+    "invisibleDescription": "显示为离线",
+    "offline": "离线",
+    "online": "在线",
+    "saveCustom": "保存自定义状态"
+  },
+  "report": {
+    "title": "举报 {{label}}",
+    "description": "举报由工作人员审核。请选择最符合的原因。",
+    "detailsPlaceholder": "补充更多详情（可选）",
+    "submit": "提交举报",
+    "submitting": "提交中...",
+    "success": "举报已提交。感谢你帮助维护安全。",
+    "action": "举报",
+    "reasons": {
+      "spam": "垃圾信息",
+      "harassment": "骚扰或虐待",
+      "hate_speech": "仇恨言论",
+      "nsfw": "NSFW / 不当内容",
+      "self_harm": "自残或自杀",
+      "impersonation": "冒充他人",
+      "misinformation": "虚假信息",
+      "other": "其他"
+    }
+  },
+  "editable": {
+    "addToDictionary": "添加到词典",
+    "spellcheck": "拼写检查",
+    "cut": "剪切",
+    "copy": "复制",
+    "paste": "粘贴"
+  },
+  "customStatus": {
+    "title": "设置状态",
+    "heading": "自定义状态",
+    "label": "状态",
+    "placeholder": "输入你的状态...",
+    "setPlaceholder": "设置自定义状态...",
+    "setShort": "设置自定义状态...",
+    "editA11y": "编辑自定义状态",
+    "clearA11y": "清除自定义状态",
+    "changeEmoji": "更改状态表情",
+    "addEmoji": "添加状态表情",
+    "chooseEmoji": "选择状态表情",
+    "pickEmoji": "选择表情",
+    "removeEmoji": "移除表情",
+    "changeStatus": "更改状态",
+    "whatsOnYourMind": "在想什么？"
+  },
+  "externalLink": {
+    "proceed": "继续",
+    "close": "关闭",
+    "title": "打开外部链接",
+    "aboutToOpen": "你即将打开外部链接：",
+    "unsafeTitle": "此链接似乎不安全",
+    "unsafeHttpBody": "你尝试打开的链接使用不安全的 HTTP 连接，可能将你的数据暴露给第三方。",
+    "confirmProceed": "确定要继续吗？",
+    "blockedInApp": "为保障安全，我们不允许在应用内直接打开不安全链接。请复制链接并在浏览器中打开。"
+  },
+  "connection": {
+    "reconnect": "重新连接",
+    "enableAudio": "点击以启用音频",
+    "offlineBanner": "你当前处于离线状态",
+    "audioBlocked": "浏览器阻止了语音音频播放"
+  },
+  "nav": {
+    "goBack": "后退",
+    "goForward": "前进"
+  },
+  "updater": {
+    "pleaseWait": "正在更新…请稍候"
+  },
+  "crash": {
+    "title": "出了点问题",
+    "bodyDesktop": "Mutualzz 遇到意外错误。重新加载应用后再试。",
+    "orPressShortcut": "或按 {{shortcut}}",
+    "bodyMobile": "Mutualzz 遇到意外错误。请完全关闭应用后重新打开。",
+    "hintIos": "从屏幕底部向上滑动打开应用切换器，然后滑走 Mutualzz。",
+    "hintAndroid": "打开最近使用的应用概览，然后滑走 Mutualzz 直到应用关闭。"
+  },
+  "a11y": {
+    "closeProfile": "关闭个人资料",
+    "settings": "设置",
+    "deleteInvite": "删除邀请",
+    "deleteNamed": "删除 {{name}}",
+    "deleteExpression": "删除 :{{name}}:",
+    "removeMemberFromRole": "将 {{member}} 从 {{role}} 移除",
+    "allowPermission": "允许 {{label}}",
+    "neutralPermission": "中立 {{label}}",
+    "denyPermission": "拒绝 {{label}}",
+    "expandWidget": "展开 {{type}} 小组件",
+    "expandWidgetHint": "打开完整小组件内容",
+    "editWidgetHint": "打开小组件编辑器。长按可重新排列小组件。",
+    "playVideo": "播放视频",
+    "pauseVideo": "暂停视频",
+    "tapToOpen": "点按打开",
+    "sent": "已发送",
+    "createChannelInCategory": "在分类中创建频道",
+    "reorder": "重新排序",
+    "time": "时间",
+    "closeModal": "关闭弹窗",
+    "increment": "增加",
+    "decrement": "减少",
+    "openColorPicker": "打开颜色选择器",
+    "randomColor": "随机颜色",
+    "randomColorHint": "选择随机颜色",
+    "removeColorStop": "移除色标",
+    "rangeSliderHint": "范围滑块。拖动以调整。"
+  },
+  "errors": {
+    "unknown": "未知错误"
+  },
+  "select": {
+    "placeholder": "选择一个选项"
+  },
+  "media": {
+    "play": "播放",
+    "pause": "暂停",
+    "download": "下载",
+    "volume": "音量"
+  },
+  "notifications": {
+    "unreads": "未读",
+    "mentions": "提及",
+    "requests": "请求",
+    "markAllAsRead": "全部标为已读",
+    "acceptedFriend": "{{name}} 接受了你的好友请求",
+    "sentAttachment": "发送了附件",
+    "noMessagesYet": "暂无消息",
+    "youWereMentioned": "有人提到了你",
+    "noUnreads": "没有未读消息",
+    "noMentions": "没有新提及",
+    "recentlyAccepted": "最近接受",
+    "groupDmChannel": "群组私信频道",
+    "messagesChannel": "消息",
+    "reply": "回复",
+    "messagePlaceholder": "消息",
+    "send": "发送"
+  },
+  "markdown": {
+    "bold": "粗体",
+    "italic": "斜体",
+    "underline": "下划线",
+    "strikethrough": "删除线",
+    "blockquote": "引用",
+    "code": "代码",
+    "spoiler": "剧透"
+  },
+  "support": {
+    "myTickets": "我的工单",
+    "contactSupport": "联系支持",
+    "loginToContact": "登录以联系支持",
+    "privacyPolicy": "隐私政策",
+    "faq": "常见问题",
+    "quickLinks": "快捷链接",
+    "contactUs": "联系我们",
+    "openHelpCenter": "打开帮助中心",
+    "describeIssue": "描述你的问题",
+    "newTicket": "新建工单",
+    "writeReply": "写回复",
+    "loading": "加载中...",
+    "loadingTickets": "正在加载工单...",
+    "loadMore": "加载更多",
+    "sendReply": "发送回复",
+    "sendReplyFailed": "发送回复失败",
+    "staffLabel": "支持",
+    "ticketClosed": "此工单已关闭。",
+    "ticketClosedHint": "此工单已关闭。如仍需帮助，请新建工单。",
+    "updatedAt": "更新于 {{date}}",
+    "pageIntro": "需要 Mutualzz 方面的帮助？浏览下方常见解答或联系我们的团队。",
+    "mobileIntro": "在 mutualzz.com/support 浏览帮助，或在下方联系我们。",
+    "subjectPlaceholder": "主题",
+    "submitTicket": "提交工单",
+    "createFailed": "创建工单失败",
+    "noTickets": "暂无工单",
+    "contactEmailLoggedIn": "发送邮件至 {{email}}，或从此页面提交支持工单。",
+    "contactEmailGuest": "发送邮件至 {{email}}。",
+    "categories": {
+      "account": "账户与登录",
+      "bug": "漏洞或崩溃",
+      "donations": "捐赠",
+      "feature": "功能建议",
+      "other": "其他"
+    },
+    "faqItems": {
+      "report": {
+        "q": "如何举报用户或内容？",
+        "a": "打开用户资料或内容菜单，选择「举报」。我们的工作人员会进行审核。"
+      },
+      "appeal": {
+        "q": "如何申诉封禁？",
+        "a": "如果你收到了封禁邮件，请使用其中的申诉链接。工作人员会审核你的申诉。"
+      },
+      "delete": {
+        "q": "如何删除账户？",
+        "a": "前往 设置 → 我的账户 → 删除账户。"
+      },
+      "block": {
+        "q": "如何屏蔽某人？",
+        "a": "打开其资料并选择「屏蔽」。之后可在设置中取消屏蔽。"
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "举报内容或用户",
+        "hint": "可从资料菜单和内容操作中使用"
+      },
+      "appeals": {
+        "label": "封禁申诉",
+        "hint": "使用封禁邮件中的申诉链接"
+      },
+      "delete": {
+        "label": "删除账户",
+        "hint": "设置 → 我的账户 → 删除账户"
+      }
+    }
+  }
+}

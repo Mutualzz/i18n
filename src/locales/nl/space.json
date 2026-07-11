@@ -1,0 +1,479 @@
+{
+  "title": "Ruimte-instellingen",
+  "titleShort": "Ruimte-instellingen",
+  "overviewDescription": "Beheer rollen, uitnodigingen, uitdrukkingen en moderatie.",
+  "nav": {
+    "categories": {
+      "general": "Algemeen",
+      "people": "Mensen",
+      "moderation": "Moderatie"
+    },
+    "pages": {
+      "profile": "Profiel",
+      "roles": "Rollen",
+      "channels": "Kanalen",
+      "invites": "Uitnodigingen",
+      "expressions": "Expressies",
+      "bans": "Bans"
+    }
+  },
+  "actions": {
+    "deleteSpace": "Ruimte verwijderen",
+    "leaveSpace": "Ruimte verlaten",
+    "createRole": "Rol maken",
+    "deleteRole": "Rol verwijderen",
+    "createInvite": "Uitnodiging maken",
+    "createInviteLink": "Maak een uitnodigingslink",
+    "deleteAllInvites": "Verwijder alle uitnodigingen",
+    "editInviteLink": "Uitnodigingslink bewerken",
+    "revokeBan": "Verbod intrekken",
+    "unbanMember": "Lid opheffen",
+    "unbanning": "Verbanning ongedaan maken...",
+    "kick": "Verwijderen",
+    "ban": "Verbannen",
+    "addMembers": "Leden toevoegen",
+    "addMembersCount_one": "Toevoegen ({{count}})",
+    "addMembersCount_other": "Toevoegen ({{count}})",
+    "markAllAsRead": "Alles markeren als gelezen",
+    "clearPermissions": "Wis machtigingen",
+    "working": "Bezig...",
+    "creating": "Maken..."
+  },
+  "profile": {
+    "spaceIcon": "Ruimtepictogram",
+    "name": "Naam",
+    "description": "Beschrijving",
+    "descriptionPlaceholder": "Schrijf iets over je ruimte...",
+    "updatedSuccess": "Ruimte succesvol bijgewerkt.",
+    "genericError": "Er is een fout opgetreden"
+  },
+  "invites": {
+    "activeLinks": "Actieve uitnodigingslinks",
+    "createTitle": "Maak een uitnodigingslink",
+    "createDescriptionChannel": "Creëert een link naar #{{channel}}.",
+    "createDescriptionDefault": "Creëert een link naar het standaardtekstkanaal voor deze ruimte.",
+    "createFailed": "Kan uitnodiging niet maken",
+    "empty": "Er zijn nog geen uitnodigingen gemaakt voor deze ruimte.",
+    "columns": {
+      "inviter": "Uitnodiger",
+      "inviteCode": "Uitnodigingscode",
+      "uses": "Gebruik",
+      "expires": "Verloopt"
+    },
+    "usesLabel": "Toepassingen: {{uses}}{{max}}",
+    "usesMax": " / {{max}}",
+    "neverExpires": "Verloopt nooit",
+    "expired": "Verlopen",
+    "copyInviteUrl": "Kopieer de uitnodigings-URL",
+    "copiedToClipboard": "Gekopieerd naar klembord",
+    "tapToCopy": "Tik op de link om te kopiëren",
+    "modal": {
+      "title": "Nodig vrienden uit voor {{spaceName}}",
+      "landingChannel": "Ontvangers komen terecht in #{{channelName}}",
+      "searchFriends": "Zoek vrienden",
+      "noResults": "Geen resultaten.",
+      "noFriends": "Geen vrienden om uit te nodigen. Deel in plaats daarvan onderstaande link.",
+      "inviteLink": "Uitnodigingslink",
+      "expiresPrefix": "Deze link vervalt",
+      "expiresNever": "nooit",
+      "expiresAfterUses_one": "of na gebruik van {{count}}",
+      "expiresAfterUses_other": "of na gebruik van {{count}}",
+      "editTitle": "De huidige uitnodigingslink bewerken",
+      "expireAfter": "Verloopt na",
+      "maxUses": "Maximaal gebruik"
+    },
+    "expiry": {
+      "30minutes": "30 minuten",
+      "1hour": "1 uur",
+      "6hours": "6 uur",
+      "12hours": "12 uur",
+      "1day": "1 dag",
+      "7days": "7 dagen",
+      "never": "Nooit"
+    },
+    "maxUses": {
+      "noLimit": "Geen limiet",
+      "1use": "1 gebruik",
+      "5uses": "5 toepassingen",
+      "10uses": "10 toepassingen",
+      "25uses": "25 toepassingen",
+      "50uses": "50 toepassingen",
+      "100uses": "100 toepassingen"
+    }
+  },
+  "roles": {
+    "defaultPermissions": "Standaardmachtigingen",
+    "everyoneSubtitle": "@everyone - geldt voor alle leden van de ruimte",
+    "everyoneSuffix": " (@everyone)",
+    "searchPlaceholder": "Zoek rollen",
+    "listTitle_one": "Rollen - {{count}}",
+    "listTitle_other": "Rollen - {{count}}",
+    "membersColumn": "Leden",
+    "actionsColumn": "Acties",
+    "hierarchyHint": "Rollen hoger in de lijst hebben meer autoriteit. Versleep rollen om hun hiërarchie te wijzigen.",
+    "empty": "Er zijn nog geen rollen gemaakt voor deze ruimte.",
+    "emptySearch": "Er zijn geen rollen die overeenkomen met uw zoekopdracht.",
+    "memberCount_one": "{{count}}-lid",
+    "memberCount_other": "{{count}}-leden",
+    "editTitle": "Rol bewerken - {{name}}",
+    "tabs": {
+      "display": "Weergave",
+      "permissions": "Machtigingen",
+      "manageMembers": "Leden beheren",
+      "members": "Leden"
+    },
+    "unsavedChanges": "Je hebt niet-opgeslagen wijzigingen!",
+    "saveFailed": "Kan rol niet opslaan",
+    "display": {
+      "roleName": "Rolnaam",
+      "roleColor": "Kleur van de rol",
+      "hoist": "Geef rolleden afzonderlijk weer van online leden",
+      "mentionable": "Sta iedereen toe deze rol @mention te gebruiken",
+      "mentionableHint": "Leden met de machtiging \"Noem @everyone, @here en alle rollen\" kunnen deze rol vermelden, ongeacht deze instelling.",
+      "mentionableHintShort": "Leden met de machtiging 'iedereen vermelden' kunnen deze rol nog steeds vermelden."
+    },
+    "members": {
+      "title": "Rol leden",
+      "description": "Bekijk en beheer leden die aan deze rol zijn toegewezen.",
+      "searchPlaceholder": "Zoek leden",
+      "emptyAssigned": "Er zijn geen leden toegewezen aan deze rol.",
+      "emptySearch": "Er zijn geen leden die overeenkomen met uw zoekopdracht.",
+      "addTitle": "Leden toevoegen",
+      "addDescription": "Voeg maximaal {{max}}-leden toe aan {{roleName}}",
+      "selectedCount": "{{selected}}/{{max}} geselecteerd",
+      "noEligible": "Er zijn geen leden beschikbaar om aan deze rol toe te voegen.",
+      "addSuccess_one": "{{count}}-lid toegevoegd aan {{roleName}}",
+      "addSuccess_other": "{{count}}-leden toegevoegd aan {{roleName}}",
+      "addFailed": "Het is niet gelukt om leden aan de rol toe te voegen"
+    },
+    "hierarchy": {
+      "cantReorder": "U kunt de rollen niet opnieuw rangschikken op of boven uw hoogste rol",
+      "cantAssign": "U kunt deze rol niet toewijzen of verwijderen",
+      "cantEditRole": "U kunt deze rol niet bewerken omdat deze zich op of boven uw hoogste rol bevindt.",
+      "cantManageMembers": "U kunt geen leden aan deze rol toewijzen of verwijderen.",
+      "dragToReorder": "Sleep om de volgorde te wijzigen",
+      "dragToReorderHierarchy": "Sleep om de hiërarchie opnieuw te rangschikken",
+      "failedReorder": "Kan de rollen niet opnieuw rangschikken",
+      "failedUpdateRole": "Kan de rol niet updaten",
+      "cantManageMember": "U heeft geen toestemming om dit lid te beheren"
+    },
+    "delete": {
+      "title": "Rol verwijderen",
+      "confirm": "Weet u zeker dat u de {{name}}-rol wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+    },
+    "permissions": {
+      "searchPlaceholder": "Zoekrechten...",
+      "jumpToCategory": "Ga naar categorie…",
+      "emptySearch": "Er zijn geen rechten die overeenkomen met uw zoekopdracht",
+      "clear": "Wis machtigingen",
+      "groups": {
+        "general": "Algemene ruimterechten",
+        "membership": "Lidmaatschapsrechten",
+        "text": "Toestemmingen voor tekstkanalen",
+        "voice": "Machtigingen voor spraakkanalen",
+        "advanced": "Geavanceerde machtigingen"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "Kanalen bekijken",
+          "description": "Sta leden standaard toe kanalen te bekijken"
+        },
+        "ManageChannels": {
+          "label": "Beheer kanalen",
+          "description": "Sta leden toe kanalen aan te maken, te bewerken of te verwijderen"
+        },
+        "ManageRoles": {
+          "label": "Beheer rollen",
+          "description": "Hiermee kunnen leden nieuwe rollen maken en rollen die lager zijn dan hun hoogste rol bewerken of verwijderen"
+        },
+        "CreateExpressions": {
+          "label": "Expressies maken",
+          "description": "Sta leden toe emoji en stickers te maken in deze ruimte."
+        },
+        "ManageExpressions": {
+          "label": "Beheer expressies",
+          "description": "Sta leden toe emoji en stickers in deze ruimte te bewerken of te verwijderen."
+        },
+        "ManageSpace": {
+          "label": "Beheer ruimte",
+          "description": "Sta leden toe deze ruimte te wijzigen"
+        },
+        "CreateInvites": {
+          "label": "Maak uitnodigingen",
+          "description": "Sta leden toe nieuwe mensen uit te nodigen voor deze ruimte"
+        },
+        "KickMembers": {
+          "label": "Schop leden",
+          "description": "Kick zal andere leden uit deze ruimte verwijderen. Gekickte leden kunnen opnieuw deelnemen als ze nog een uitnodiging hebben."
+        },
+        "BanMembers": {
+          "label": "Leden verbieden",
+          "description": "Ban verwijdert leden uit deze ruimte en voorkomt dat ze weer lid worden totdat de verbanning is opgeheven."
+        },
+        "SendMessages": {
+          "label": "Berichten verzenden",
+          "description": "Sta leden toe berichten te sturen in tekstkanalen"
+        },
+        "EmbedLinks": {
+          "label": "Koppelingen insluiten",
+          "description": "Sta leden toe links in berichten in te sluiten"
+        },
+        "AttachFiles": {
+          "label": "Bestanden bijvoegen",
+          "description": "Sta leden toe bestanden toe te voegen aan berichten"
+        },
+        "MentionEveryone": {
+          "label": "Noem iedereen",
+          "description": "Sta leden toe om @everyone en @here in berichten te vermelden"
+        },
+        "UseExternalEmojis": {
+          "label": "Gebruik externe emoji's",
+          "description": "Sta leden toe emoji's uit andere ruimtes of die van henzelf te gebruiken in hun berichten"
+        },
+        "ManageMessages": {
+          "label": "Beheer berichten",
+          "description": "Sta leden toe om berichten van andere leden te verwijderen"
+        },
+        "ReadMessageHistory": {
+          "label": "Berichtgeschiedenis lezen",
+          "description": "Sta leden toe de berichtgeschiedenis te lezen"
+        },
+        "Connect": {
+          "label": "Verbinden",
+          "description": "Sta leden toe verbinding te maken met spraakkanalen"
+        },
+        "Speak": {
+          "label": "Spreken",
+          "description": "Sta leden toe om in spraakkanalen te spreken"
+        },
+        "Administrator": {
+          "label": "Beheerder",
+          "description": "Leden met deze toestemming hebben alle toestemming. Dit is een gevaarlijke toestemming om te verlenen.",
+          "descriptionBefore": "Leden met deze toestemming hebben alle toestemming.",
+          "descriptionDanger": "Dit is een gevaarlijke toestemming om te verlenen"
+        }
+      }
+    }
+  },
+  "expressions": {
+    "pageTitle": "Ruimte-uitdrukkingen",
+    "pageDescription": "Upload en beheer aangepaste emoji's en stickers voor deze ruimte.",
+    "emojiLimit": "Helaas is de huidige limiet van emoji's die je kunt uploaden 100, omdat de app zich in de bètafase bevindt en opslag voorlopig een probleem is",
+    "stickerLimit": "Helaas is de huidige limiet van het aantal stickers dat je kunt uploaden 100, omdat de app zich in de bètafase bevindt en opslag voorlopig een probleem is",
+    "stickerLimitMobile": "Bètalimiet: {{limit}}-stickers per ruimte.",
+    "emptyEmojis": "Nog geen ruimte-emoji's",
+    "emptyStickers": "Nog geen ruimtestickers"
+  },
+  "bans": {
+    "title": "Lijst met ruimteverboden",
+    "description": "Bekijk en beheer de lijst met uitgesloten gebruikers in deze ruimte. Vanaf nu is het verbod gebaseerd op accounts, we zullen in de toekomst IP-verboden introduceren.",
+    "descriptionShort": "Bekijk en beheer uitgesloten gebruikers in deze ruimte.",
+    "searchPlaceholder": "Zoek verboden op gebruikers-ID, gebruikersnaam of weergavenaam",
+    "searchPlaceholderShort": "Zoek op gebruikersnaam of gebruikers-ID",
+    "empty": "Er is nog niemand verboden",
+    "reason": "Reden",
+    "noReason": "Geen reden opgegeven",
+    "bannedBy": "Verboden door",
+    "bannedAt": "Verboden bij",
+    "unbanSuccess": "De verbanning van {{name}} is opgeheven",
+    "unbanTitle": "{{name}} ongedaan maken?"
+  },
+  "moderation": {
+    "banTitle": "{{name}} verbieden?",
+    "kickTitle": "{{name}} kicken?",
+    "kickFromSpaceTitle": "Schop {{name}} uit de ruimte",
+    "kickBody": "Weet je zeker dat je @{{name}} uit de ruimte wilt schoppen? Ze hebben een uitnodiging nodig om opnieuw deel te nemen.",
+    "kickSuccess": "{{name}} uit de ruimte geschopt",
+    "reason": "Reden",
+    "reasonOptional": "Reden (optioneel)",
+    "reasonForKick": "Reden voor Kick",
+    "reasonForBan": "Reden van verbod *",
+    "deleteRecentMessages": "Verwijder recente berichten",
+    "banReasons": {
+      "suspicious": "Verdacht account of spamaccount",
+      "compromised": "Gecompromitteerd of gehackt account",
+      "breakingRules": "Ruimteregels overtreden",
+      "other": "Overig"
+    },
+    "deleteMessages": {
+      "dontDelete": "Niet verwijderen",
+      "dontDeleteMessages": "Verwijder geen berichten",
+      "previousHour": "Vorig uur",
+      "lastHour": "Laatste uur",
+      "previousDay": "Vorige dag",
+      "last24Hours": "Afgelopen 24 uur",
+      "previousWeek": "Vorige week",
+      "last7Days": "Laatste 7 dagen",
+      "allMessages": "Alle berichten",
+      "deleteAllMessages": "Verwijder alle berichten"
+    },
+    "youWereBanned": "Je bent verbannen uit {{name}}",
+    "youWereKicked": "Je bent uit {{name}} geschopt"
+  },
+  "channels": {
+    "noCategory": "Geen categorie",
+    "empty": "Geen kanalen om opnieuw te ordenen.",
+    "reorderHint": "Versleep kanalen om ze opnieuw te ordenen. Plaats een kanaal direct onder een categorie om het aan die groep toe te voegen. Sleep boven een categorie om deze uit de groep te verwijderen.",
+    "overwrites": "Overschrijft",
+    "searchTargets": "Zoek rollen of leden...",
+    "topic": "Kanaalonderwerp",
+    "topicHint": "Wordt bovenaan het kanaal getoond aan leden.",
+    "topicPlaceholder": "Onderwerp",
+    "settingsTitle": "Kanaalinstellingen",
+    "namePlaceholder": "Kanaalnaam",
+    "permissionOverwrites": "Toestemming overschrijft",
+    "channelInvites": "Kanaaluitnodigingen",
+    "noChannelInvites": "Er zijn nog geen uitnodigingen gemaakt voor #{{channel}}.",
+    "selectOverwriteTarget": "Selecteer een overschrijfdoel om kanaalspecifieke machtigingen te bewerken.",
+    "nameEmpty": "Kanaalnaam mag niet leeg zijn.",
+    "failedMoveMember": "Kan lid niet verplaatsen",
+    "create": {
+      "title": "Kanaal maken",
+      "name": "Kanaalnaam",
+      "namePlaceholder": "new-channel",
+      "type": "Kanaaltype",
+      "text": "Tekstkanaal",
+      "textDescription": "Stuur berichten, afbeeldingen en meer",
+      "voice": "Spraakkanaal",
+      "voiceDescription": "Hang rond met spraak en video",
+      "submit": "Kanaal maken",
+      "icon": "Kanaalpictogram",
+      "upload": "Uploaden",
+      "rounded": "Afgerond",
+      "rotate": "Draaien",
+      "clear": "Wissen"
+    },
+    "createCategory": {
+      "title": "Categorie maken",
+      "name": "Categorienaam",
+      "namePlaceholder": "Nieuwe categorie",
+      "submit": "Categorie maken"
+    },
+    "delete": {
+      "title": "Kanaal verwijderen",
+      "body": "Weet u zeker dat u {{name}} wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "confirm": "Kanaal verwijderen"
+    },
+    "deleteCategory": {
+      "title": "Categorie \"{{name}}\" verwijderen?",
+      "body": "Wilt u deze categorie verwijderen?",
+      "categoryOnly": "Alleen de categorie",
+      "categoryAndChannels": "Categorie en alle kanalen gerelateerd",
+      "confirm": "Categorie verwijderen"
+    },
+    "saveOverwrite": "Opslaan overschrijven",
+    "deleteChannelAction": "Kanaal verwijderen",
+    "createInvite": "Uitnodiging maken",
+    "createInviteLink": "Maak een uitnodigingslink",
+    "removeIcon": "Pictogram verwijderen",
+    "restoreIcon": "Icoon herstellen",
+    "uploadEmoji": "Emoji uploaden",
+    "uploadSticker": "Sticker uploaden",
+    "noSpaceEmojis": "Nog geen ruimte-emoji's",
+    "pages": {
+      "overview": "Overzicht",
+      "permissions": "Machtigingen",
+      "invites": "Uitnodigingen"
+    },
+    "permissions": {
+      "addOverwrite": "Toestemming overschrijven toevoegen",
+      "roles": "ROLLEN",
+      "members": "LEDEN",
+      "noResults": "Geen resultaten",
+      "noOverwritesYet": "Nog geen overschrijvingen",
+      "selectTargetHint": "Selecteer een rol of lid om kanaalspecifieke machtigingen te configureren.",
+      "selectTargetHintLeft": "Selecteer een rol of lid aan de linkerkant om de rechten voor dit kanaal te bewerken, of klik op + om er een toe te voegen.",
+      "groups": {
+        "general": "Algemene kanaalrechten",
+        "text": "Toestemmingen voor tekstkanalen",
+        "voice": "Machtigingen voor spraakkanalen"
+      },
+      "flags": {
+        "ViewChannel": {
+          "label": "Kanaal bekijken",
+          "description": "Sta leden toe dit kanaal te bekijken"
+        },
+        "ManageChannels": {
+          "label": "Kanaal beheren",
+          "description": "Sta leden toe dit kanaal te bewerken of te verwijderen"
+        },
+        "ManageRoles": {
+          "label": "Beheer machtigingen",
+          "description": "Sta leden toe de overschrijvingsrechten van dit kanaal te bewerken"
+        },
+        "SendMessages": {
+          "label": "Berichten verzenden",
+          "description": "Sta leden toe berichten te sturen in dit kanaal"
+        },
+        "EmbedLinks": {
+          "label": "Koppelingen insluiten",
+          "description": "Sta leden toe links in te sluiten"
+        },
+        "AttachFiles": {
+          "label": "Bestanden bijvoegen",
+          "description": "Sta leden toe bestanden bij te voegen"
+        },
+        "MentionEveryone": {
+          "label": "Noem iedereen",
+          "description": "Sta leden toe om @mention, @everyone en @here te gebruiken"
+        },
+        "UseExternalEmojis": {
+          "label": "Gebruik externe emoji's",
+          "description": "Sta leden toe emoji's uit andere ruimtes te gebruiken"
+        },
+        "ManageMessages": {
+          "label": "Beheer berichten",
+          "description": "Sta leden toe berichten van anderen te verwijderen"
+        },
+        "ReadMessageHistory": {
+          "label": "Berichtgeschiedenis lezen",
+          "description": "Sta leden toe om eerdere berichten te lezen"
+        },
+        "Connect": {
+          "label": "Verbinden",
+          "description": "Sta leden toe verbinding te maken met dit spraakkanaal"
+        },
+        "Speak": {
+          "label": "Spreken",
+          "description": "Sta leden toe om in dit stemkanaal te spreken"
+        }
+      }
+    }
+  },
+  "confirm": {
+    "deleteSpaceTitle": "'{{name}}' verwijderen?",
+    "leaveSpaceTitle": "'{{name}}' verlaten?",
+    "deleteSpaceBody": "Weet u zeker dat u {{name}} wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "leaveSpaceBody": "Weet u zeker dat u {{name}} wilt verlaten? Deze actie kan niet ongedaan worden gemaakt.",
+    "cannotUndo": "Deze actie kan niet ongedaan worden gemaakt."
+  },
+  "menu": {
+    "spaceSettings": "Ruimte-instellingen",
+    "reportSpace": "Rapporteer ruimte",
+    "leaveSpace": "Laat ruimte over",
+    "deleteSpace": "Ruimte verwijderen"
+  },
+  "chrome": {
+    "spaceSettings": "Ruimte-instellingen",
+    "inviteToSpace": "Uitnodigen voor ruimte",
+    "createInviteA11y": "Uitnodiging maken",
+    "createCategoryA11y": "Categorie aanmaken",
+    "spaceMenuA11y": "Ruimtemenu"
+  },
+  "sidebar": {
+    "createSpace": "Maak een ruimte",
+    "switchToSpaces": "Schakel over naar Ruimten",
+    "switchToDirectMessages": "Schakel over naar privéberichten",
+    "switchToFeed": "Schakel over naar Feed",
+    "switchTo": "Schakel over naar",
+    "directMessages": "Privéberichten",
+    "friends": "Vrienden",
+    "spaces": "Spaties"
+  },
+  "lockdown": {
+    "title": "Deze ruimte is afgesloten",
+    "ownerMessage": "Berichten en wijzigingen zijn uitgeschakeld. Controleer uw e-mail op een bezwaarlink als u denkt dat dit een vergissing was.",
+    "memberMessage": "Berichten en wijzigingen zijn uitgeschakeld terwijl het personeel deze ruimte beoordeelt.",
+    "toast": "Deze ruimte is afgesloten. Berichten en wijzigingen zijn uitgeschakeld."
+  }
+}

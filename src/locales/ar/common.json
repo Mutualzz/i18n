@@ -1,0 +1,292 @@
+{
+  "cancel": "إلغاء",
+  "save": "حفظ",
+  "saveChanges": "حفظ التغييرات",
+  "close": "إغلاق",
+  "create": "إنشاء",
+  "delete": "حذف",
+  "add": "إضافة",
+  "remove": "إزالة",
+  "reset": "إعادة تعيين",
+  "back": "رجوع",
+  "clear": "مسح",
+  "finish": "إنهاء",
+  "retry": "إعادة المحاولة",
+  "apply": "تطبيق",
+  "undo": "تراجع",
+  "redo": "إعادة",
+  "open": "فتح",
+  "proceed": "متابعة",
+  "gotIt": "حسنًا",
+  "seo": {
+    "defaultTitle": "Mutualzz (وصول مبكر)",
+    "defaultDescription": "تواصل مع أشخاص يشاركونك اهتماماتك. قيد التطوير المكثف حاليًا"
+  },
+  "reload": "إعادة تحميل التطبيق",
+  "download": "تنزيل Mutualzz",
+  "accept": "قبول",
+  "decline": "رفض",
+  "restore": "استعادة",
+  "uploadCustomFont": "رفع خط مخصص",
+  "language": {
+    "title": "اللغة",
+    "description": "اختر اللغة المستخدمة في Mutualzz.",
+    "systemDefault": "لغة الجهاز"
+  },
+  "calendar": {
+    "sameDay": "[اليوم الساعة] h:mm A",
+    "nextDay": "[غدًا الساعة] h:mm A",
+    "lastDay": "[أمس الساعة] h:mm A",
+    "lastWeek": "[آخر] dddd [الساعة] h:mm A",
+    "sameElse": "DD/MM/YYYY h:mm A"
+  },
+  "duration": {
+    "clearOnDateAt": "مسح في {{date}} الساعة {{time}}",
+    "clearTodayAt": "مسح اليوم الساعة {{time}}",
+    "clearTomorrowAt": "مسح غدًا الساعة {{time}}",
+    "days_one": "يوم {{count}}",
+    "days_other": "{{count}} أيام",
+    "dontClear": "عدم المسح",
+    "forever": "إلى الأبد",
+    "hours_one": "ساعة {{count}}",
+    "hours_other": "{{count}} ساعات",
+    "minutes_one": "دقيقة {{count}}",
+    "minutes_other": "{{count}} دقائق",
+    "days_zero": "يوم {{count}}",
+    "days_two": "يوم {{count}}",
+    "days_few": "{{count}} أيام",
+    "days_many": "{{count}} أيام",
+    "hours_zero": "ساعة {{count}}",
+    "hours_two": "ساعة {{count}}",
+    "hours_few": "{{count}} ساعات",
+    "hours_many": "{{count}} ساعات",
+    "minutes_zero": "دقيقة {{count}}",
+    "minutes_two": "دقيقة {{count}}",
+    "minutes_few": "{{count}} دقائق",
+    "minutes_many": "{{count}} دقائق"
+  },
+  "status": {
+    "clearCustomAfter": "مسح الحالة المخصصة بعد",
+    "clearOnlineAfter": "مسح حالة الاتصال بعد",
+    "dnd": "عدم الإزعاج",
+    "dndDescription": "لن تتلقى إشعارات",
+    "idle": "خامل",
+    "idleDescription": "بعيد عن لوحة المفاتيح",
+    "invisible": "غير مرئي",
+    "invisibleDescription": "الظهور دون اتصال",
+    "offline": "غير متصل",
+    "online": "متصل",
+    "saveCustom": "حفظ الحالة المخصصة"
+  },
+  "report": {
+    "title": "الإبلاغ عن {{label}}",
+    "description": "تراجع التقارير من قبل الفريق. اختر السبب الأنسب.",
+    "detailsPlaceholder": "أضف مزيدًا من التفاصيل (اختياري)",
+    "submit": "إرسال البلاغ",
+    "submitting": "جارٍ الإرسال...",
+    "success": "تم إرسال البلاغ. شكرًا لمساعدتك في الحفاظ على الأمان.",
+    "action": "إبلاغ",
+    "reasons": {
+      "spam": "رسائل مزعجة",
+      "harassment": "مضايقة أو إساءة",
+      "hate_speech": "خطاب كراهية",
+      "nsfw": "محتوى غير لائق / NSFW",
+      "self_harm": "إيذاء النفس أو الانتحار",
+      "impersonation": "انتحال شخصية",
+      "misinformation": "معلومات مضللة",
+      "other": "أخرى"
+    }
+  },
+  "editable": {
+    "addToDictionary": "إضافة إلى القاموس",
+    "spellcheck": "التدقيق الإملائي",
+    "cut": "قص",
+    "copy": "نسخ",
+    "paste": "لصق"
+  },
+  "customStatus": {
+    "title": "تعيين حالتك",
+    "heading": "حالة مخصصة",
+    "label": "الحالة",
+    "placeholder": "أدخل حالتك...",
+    "setPlaceholder": "تعيين حالة مخصصة...",
+    "setShort": "تعيين حالة مخصصة...",
+    "editA11y": "تعديل الحالة المخصصة",
+    "clearA11y": "مسح الحالة المخصصة",
+    "changeEmoji": "تغيير رمز الحالة",
+    "addEmoji": "إضافة رمز حالة",
+    "chooseEmoji": "اختيار رمز حالة",
+    "pickEmoji": "اختر رمزًا تعبيريًا",
+    "removeEmoji": "إزالة الرمز",
+    "changeStatus": "تغيير الحالة",
+    "whatsOnYourMind": "بماذا تفكر؟"
+  },
+  "externalLink": {
+    "proceed": "متابعة",
+    "close": "إغلاق",
+    "title": "فتح رابط خارجي",
+    "aboutToOpen": "أنت على وشك فتح رابط خارجي:",
+    "unsafeTitle": "يبدو أن هذا الرابط غير آمن",
+    "unsafeHttpBody": "الرابط الذي تحاول فتحه يستخدم اتصال HTTP غير آمن. قد يعرّض ذلك بياناتك لأطراف ثالثة.",
+    "confirmProceed": "هل أنت متأكد أنك تريد المتابعة؟",
+    "blockedInApp": "لا نسمح بفتح الروابط غير الآمنة مباشرة في التطبيق لأمانك. يرجى نسخ الرابط وفتحه في متصفح الويب."
+  },
+  "connection": {
+    "reconnect": "إعادة الاتصال",
+    "enableAudio": "انقر لتمكين الصوت",
+    "offlineBanner": "أنت غير متصل حاليًا",
+    "audioBlocked": "حظر متصفحك تشغيل الصوت الصوتي"
+  },
+  "nav": {
+    "goBack": "رجوع",
+    "goForward": "تقدم"
+  },
+  "updater": {
+    "pleaseWait": "جارٍ التحديث… يرجى الانتظار"
+  },
+  "crash": {
+    "title": "حدث خطأ ما",
+    "bodyDesktop": "واجه Mutualzz خطأ غير متوقع. أعد تحميل التطبيق للمحاولة مرة أخرى.",
+    "orPressShortcut": "أو اضغط {{shortcut}}",
+    "bodyMobile": "واجه Mutualzz خطأ غير متوقع. أغلق التطبيق تمامًا ثم افتحه مجددًا.",
+    "hintIos": "اسحب لأعلى من أسفل الشاشة لفتح مبدّل التطبيقات، ثم اسحب Mutualzz بعيدًا.",
+    "hintAndroid": "افتح نظرة عامة على التطبيقات الأخيرة، ثم اسحب Mutualzz بعيدًا حتى يُغلق التطبيق."
+  },
+  "a11y": {
+    "closeProfile": "إغلاق الملف الشخصي",
+    "settings": "الإعدادات",
+    "deleteInvite": "حذف الدعوة",
+    "deleteNamed": "حذف {{name}}",
+    "deleteExpression": "حذف :{{name}}:",
+    "removeMemberFromRole": "إزالة {{member}} من {{role}}",
+    "allowPermission": "السماح بـ {{label}}",
+    "neutralPermission": "محايد {{label}}",
+    "denyPermission": "رفض {{label}}",
+    "expandWidget": "توسيع ودجة {{type}}",
+    "expandWidgetHint": "يفتح محتوى الودجة بالكامل",
+    "editWidgetHint": "يفتح محرر الودجات. اضغط مطولًا لإعادة ترتيب الودجات.",
+    "playVideo": "تشغيل الفيديو",
+    "pauseVideo": "إيقاف الفيديو مؤقتًا",
+    "tapToOpen": "انقر للفتح",
+    "sent": "تم الإرسال",
+    "createChannelInCategory": "إنشاء قناة في الفئة",
+    "reorder": "إعادة ترتيب",
+    "time": "الوقت",
+    "closeModal": "إغلاق النافذة",
+    "increment": "زيادة",
+    "decrement": "إنقاص",
+    "openColorPicker": "فتح منتقي الألوان",
+    "randomColor": "لون عشوائي",
+    "randomColorHint": "يختار لونًا عشوائيًا",
+    "removeColorStop": "إزالة نقطة اللون",
+    "rangeSliderHint": "شريط نطاق. اضبط بالسحب."
+  },
+  "errors": {
+    "unknown": "خطأ غير معروف"
+  },
+  "select": {
+    "placeholder": "اختر خيارًا"
+  },
+  "media": {
+    "play": "تشغيل",
+    "pause": "إيقاف مؤقت",
+    "download": "تنزيل",
+    "volume": "مستوى الصوت"
+  },
+  "notifications": {
+    "unreads": "غير مقروءة",
+    "mentions": "الإشارات",
+    "requests": "الطلبات",
+    "markAllAsRead": "تعليم الكل كمقروء",
+    "acceptedFriend": "قبل {{name}} طلب صداقتك",
+    "sentAttachment": "أرسل مرفقًا",
+    "noMessagesYet": "لا رسائل بعد",
+    "youWereMentioned": "تمت الإشارة إليك",
+    "noUnreads": "لا رسائل غير مقروءة",
+    "noMentions": "لا إشارات جديدة",
+    "recentlyAccepted": "قُبلت مؤخرًا",
+    "groupDmChannel": "قناة رسائل جماعية",
+    "messagesChannel": "الرسائل",
+    "reply": "رد",
+    "messagePlaceholder": "رسالة",
+    "send": "إرسال"
+  },
+  "markdown": {
+    "bold": "عريض",
+    "italic": "مائل",
+    "underline": "تسطير",
+    "strikethrough": "يتوسطه خط",
+    "blockquote": "اقتباس",
+    "code": "رمز",
+    "spoiler": "حرق"
+  },
+  "support": {
+    "myTickets": "تذاكري",
+    "contactSupport": "التواصل مع الدعم",
+    "loginToContact": "سجّل الدخول للتواصل مع الدعم",
+    "privacyPolicy": "سياسة الخصوصية",
+    "faq": "الأسئلة الشائعة",
+    "quickLinks": "روابط سريعة",
+    "contactUs": "تواصل معنا",
+    "openHelpCenter": "فتح مركز المساعدة",
+    "describeIssue": "صف مشكلتك",
+    "newTicket": "تذكرة جديدة",
+    "writeReply": "اكتب ردًا",
+    "loading": "جارٍ التحميل...",
+    "loadingTickets": "جارٍ تحميل التذاكر...",
+    "loadMore": "تحميل المزيد",
+    "sendReply": "إرسال الرد",
+    "sendReplyFailed": "فشل إرسال الرد",
+    "staffLabel": "الدعم",
+    "ticketClosed": "هذه التذكرة مغلقة.",
+    "ticketClosedHint": "هذه التذكرة مغلقة. افتح تذكرة جديدة إذا ما زلت بحاجة للمساعدة.",
+    "updatedAt": "حُدّثت {{date}}",
+    "pageIntro": "تحتاج مساعدة مع Mutualzz؟ تصفح الإجابات الشائعة أدناه أو تواصل مع فريقنا.",
+    "mobileIntro": "تصفح المساعدة على mutualzz.com/support أو تواصل معنا أدناه.",
+    "subjectPlaceholder": "الموضوع",
+    "submitTicket": "إرسال التذكرة",
+    "createFailed": "فشل إنشاء التذكرة",
+    "noTickets": "لا تذاكر بعد",
+    "contactEmailLoggedIn": "راسلنا على {{email}} أو افتح تذكرة دعم من هذه الصفحة.",
+    "contactEmailGuest": "راسلنا على {{email}}.",
+    "categories": {
+      "account": "الحساب وتسجيل الدخول",
+      "bug": "خلل أو تعطل",
+      "donations": "التبرعات",
+      "feature": "طلب ميزة",
+      "other": "أخرى"
+    },
+    "faqItems": {
+      "report": {
+        "q": "كيف أبلغ عن مستخدم أو محتوى؟",
+        "a": "افتح ملف المستخدم أو قائمة المحتوى واختر إبلاغ. سيراجعه فريقنا."
+      },
+      "appeal": {
+        "q": "كيف أستأنف حظرًا؟",
+        "a": "إذا تلقيت بريد حظر، استخدم رابط الاستئناف في تلك الرسالة. سيراجع الفريق استئنافك."
+      },
+      "delete": {
+        "q": "كيف أحذف حسابي؟",
+        "a": "انتقل إلى الإعدادات ← حسابي ← حذف الحساب."
+      },
+      "block": {
+        "q": "كيف أحظر شخصًا؟",
+        "a": "افتح ملفه الشخصي واختر حظر. يمكنك إلغاء الحظر لاحقًا من الإعدادات."
+      }
+    },
+    "quickLinkItems": {
+      "report": {
+        "label": "الإبلاغ عن محتوى أو مستخدم",
+        "hint": "متاح من قوائم الملف الشخصي وإجراءات المحتوى"
+      },
+      "appeals": {
+        "label": "استئنافات الحظر",
+        "hint": "استخدم رابط الاستئناف من بريد الحظر"
+      },
+      "delete": {
+        "label": "حذف حسابك",
+        "hint": "الإعدادات ← حسابي ← حذف الحساب"
+      }
+    }
+  }
+}

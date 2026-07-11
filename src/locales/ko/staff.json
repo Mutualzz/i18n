@@ -1,0 +1,286 @@
+{
+  "title": "스태프 패널",
+  "exit": "나가기",
+  "working": "작업 중...",
+  "nav": {
+    "reports": "신고",
+    "activity": "활동",
+    "appeals": "이의 신청",
+    "support": "지원"
+  },
+  "pages": {
+    "activity": "스태프 활동",
+    "reportDetails": "신고 세부정보"
+  },
+  "home": {
+    "findUser": "사용자 찾기",
+    "findUserDescription": "사용자 이름으로 검색하거나 플래그로 필터링하여 계정과 사용 가능한 스태프 작업을 확인하세요.",
+    "searchPlaceholder": "사용자 이름으로 검색하거나 사용자 ID를 붙여넣기",
+    "anyFlag": "모든 플래그",
+    "searching": "검색 중...",
+    "noUsers": "사용자를 찾을 수 없음",
+    "goToUserId": "사용자 ID {{id}}(으)로 이동",
+    "exactIdLookup": "정확한 ID 조회",
+    "loadMore": "더 불러오기",
+    "loading": "불러오는 중..."
+  },
+  "sections": {
+    "info": "정보",
+    "flags": "플래그",
+    "actions": "작업",
+    "sessions": "활성 세션",
+    "notes": "스태프 메모",
+    "audit": "감사 로그"
+  },
+  "user": {
+    "info": {
+      "username": "사용자 이름",
+      "displayName": "표시 이름",
+      "noDisplayName": "표시 이름이 설정되지 않음",
+      "saveChanges": "변경 사항 저장",
+      "accountDetails": "계정 세부정보",
+      "email": "이메일",
+      "emailVerified": "이메일 인증됨",
+      "yes": "예",
+      "no": "아니요",
+      "sendReminder": "알림 보내기",
+      "verifyReminderSent": "인증 알림을 보냈습니다",
+      "userId": "사용자 ID",
+      "dateOfBirth": "생년월일",
+      "created": "생성일",
+      "restrictedUntil": "제한 해제 시점"
+    },
+    "flags": {
+      "current": "현재 플래그",
+      "manage": "플래그 관리",
+      "none": "설정된 플래그 없음"
+    },
+    "actions": {
+      "enableAccount": "계정 활성화",
+      "disableAccount": "계정 비활성화",
+      "forceLogout": "강제 로그아웃",
+      "warnUser": "사용자 경고",
+      "restrictUser": "사용자 제한",
+      "liftRestriction": "제한 해제",
+      "softDeleteAccount": "계정 소프트 삭제",
+      "hardDeleteAccount": "계정 완전 삭제",
+      "softDeletedBanner": "이 계정은 소프트 삭제되었습니다. 사용자는 로그인할 수 없지만 데이터는 유지됩니다.",
+      "errors": {
+        "liftRestriction": "제한 해제에 실패했습니다",
+        "updateUser": "사용자 업데이트에 실패했습니다",
+        "forceLogout": "강제 로그아웃에 실패했습니다",
+        "warnUser": "사용자 경고에 실패했습니다",
+        "deleteAccount": "계정 삭제에 실패했습니다",
+        "restrictUser": "사용자 제한에 실패했습니다"
+      }
+    },
+    "modals": {
+      "reasonRequired": "사유 (필수)",
+      "reasonOptional": "사유 (선택 사항)",
+      "placeholderAudit": "감사 로그용 맥락을 추가하세요",
+      "disable": {
+        "title": "계정 비활성화",
+        "enableTitle": "계정 활성화",
+        "bodyDisable": "@{{username}}의 계정을 비활성화하시겠습니까? 로그아웃되며 다시 활성화될 때까지 로그인할 수 없습니다.",
+        "bodyEnable": "@{{username}}의 계정을 다시 활성화하시겠습니까?",
+        "placeholder": "이 계정을 비활성화하는 이유를 설명하세요"
+      },
+      "forceLogout": {
+        "title": "강제 로그아웃",
+        "body": "@{{username}}을(를) 모든 세션에서 로그아웃하시겠습니까? 다시 로그인해야 하지만 계정은 활성 상태로 유지됩니다."
+      },
+      "warn": {
+        "title": "사용자 경고",
+        "body": "@{{username}}에게 경고 이메일을 보내고 감사 기록에 남깁니다. 계정 상태는 변경되지 않습니다.",
+        "placeholder": "경고 사유를 설명하세요",
+        "submit": "경고 보내기",
+        "toastSent": "경고를 보내고 사용자에게 이메일로 전달했습니다",
+        "toastEmailFailed": "경고는 기록되었지만 이메일 전송에 실패했습니다"
+      },
+      "restrict": {
+        "title": "사용자 제한",
+        "body": "제한된 사용자는 제한이 끝날 때까지 메시지를 보내거나 게시물을 만들 수 없습니다.",
+        "duration": "기간",
+        "submit": "제한",
+        "placeholder": "제한 사유를 설명하세요",
+        "durations": {
+          "1h": "1시간",
+          "6h": "6시간",
+          "1d": "1일",
+          "3d": "3일",
+          "7d": "7일",
+          "30d": "30일"
+        }
+      },
+      "delete": {
+        "softTitle": "계정 소프트 삭제",
+        "hardTitle": "계정 완전 삭제",
+        "softBody": "@{{username}}의 계정을 소프트 삭제합니다. 로그아웃되며 다시 로그인할 수 없지만, 운영 및 감사를 위해 데이터는 유지됩니다.",
+        "hardBody": "@{{username}}의 계정과 관련 데이터를 데이터베이스에서 영구적으로 제거합니다. 소유한 스페이스도 삭제됩니다. 이 작업은 되돌릴 수 없습니다.",
+        "type": "삭제 유형",
+        "softOption": "소프트 삭제 (권장)",
+        "hardOption": "완전 삭제 (되돌릴 수 없음)",
+        "confirmUsername": "확인을 위해 @{{username}}을(를) 입력하세요",
+        "placeholderSoft": "이 계정을 소프트 삭제하는 이유를 설명하세요",
+        "placeholderHard": "이 계정을 영구적으로 제거해야 하는 이유를 설명하세요"
+      }
+    },
+    "sessions": {
+      "empty": "활성 세션 없음",
+      "created": "생성 {{relative}}",
+      "lastUsed": "마지막 사용 {{relative}}",
+      "revoke": "취소",
+      "errorRevoke": "세션 취소에 실패했습니다"
+    },
+    "notes": {
+      "placeholder": "다른 스태프를 위한 메모를 남기세요 — 사용자에게는 보이지 않습니다",
+      "add": "메모 추가",
+      "adding": "추가 중...",
+      "empty": "아직 스태프 메모가 없습니다",
+      "errorAdd": "메모 추가에 실패했습니다"
+    },
+    "audit": {
+      "empty": "아직 스태프 작업이 없습니다"
+    }
+  },
+  "report": {
+    "status": {
+      "pending": "대기 중",
+      "reviewed": "검토됨",
+      "dismissed": "기각됨",
+      "actioned": "조치됨"
+    },
+    "actions": {
+      "shutDownSpace": "스페이스 종료",
+      "takeDownContent": "콘텐츠 삭제",
+      "lockDownSpace": "스페이스 잠금"
+    },
+    "detailsTitle": "신고 세부정보",
+    "backToReports": "신고 목록으로",
+    "anyStatus": "모든 상태",
+    "anyType": "모든 유형",
+    "targetTypes": {
+      "message": "메시지",
+      "post": "게시물",
+      "comment": "댓글",
+      "user": "사용자",
+      "space": "스페이스"
+    },
+    "reportedBy": "{{name}}님이 신고함",
+    "reporterNotes": "신고자 메모",
+    "reportedContent": "신고된 콘텐츠",
+    "viewDetails": "세부정보 보기",
+    "openUserPanel": "스태프 사용자 패널 열기",
+    "markReviewed": "검토됨으로 표시",
+    "markActioned": "조치됨으로 표시",
+    "dismiss": "기각",
+    "reviewedShort": "검토됨",
+    "actionedShort": "조치됨",
+    "reviewedBy": "{{name}}님이 {{status}}",
+    "empty": "신고를 찾을 수 없음",
+    "loadingReport": "신고 불러오는 중…",
+    "loadFailed": "신고를 불러오지 못했습니다",
+    "toasts": {
+      "actionCompleted": "작업이 완료되었습니다",
+      "actionCompletedMarked": "작업이 완료되었고 신고가 조치됨으로 표시되었습니다",
+      "alreadyRemoved": "대상이 이미 제거되었습니다",
+      "lockdownSuccess": "스페이스가 잠겼고 소유자에게 알렸습니다"
+    },
+    "errors": {
+      "update": "신고 업데이트에 실패했습니다",
+      "action": "작업 완료에 실패했습니다",
+      "lockdown": "스페이스 잠금에 실패했습니다"
+    },
+    "content": {
+      "dmContext": "다이렉트 메시지 맥락",
+      "messageContext": "메시지 맥락",
+      "dmContextHint": "개인정보 보호를 위해 주변 메시지는 제한적으로 표시됩니다.",
+      "reported": "신고됨",
+      "noText": "(텍스트 콘텐츠 없음)",
+      "unknown": "알 수 없음",
+      "membersOwnedBy_one": "멤버 {{count}}명 · 소유자 {{owner}}",
+      "membersOwnedBy_other": "멤버 {{count}}명 · 소유자 {{owner}}"
+    }
+  },
+  "appeals": {
+    "anyStatus": "모든 상태",
+    "status": {
+      "pending": "대기 중",
+      "accepted": "수락됨",
+      "rejected": "거절됨"
+    },
+    "spaceLockdownAppeal": "스페이스 잠금 이의 신청",
+    "responsePlaceholder": "사용자에게 보낼 응답 (선택 사항)",
+    "accept": "수락",
+    "reject": "거절",
+    "viewAccount": "계정 보기",
+    "viewUser": "사용자 보기",
+    "staffResponse": "스태프 응답: {{text}}",
+    "empty": "이의 신청을 찾을 수 없음",
+    "errorUpdate": "이의 신청 업데이트에 실패했습니다",
+    "decidedBy": "{{name}}님이 {{status}}"
+  },
+  "support": {
+    "anyStatus": "모든 상태",
+    "status": {
+      "open": "열림",
+      "awaiting_reply": "답변 대기 중",
+      "resolved": "해결됨",
+      "closed": "닫힘"
+    },
+    "empty": "티켓을 찾을 수 없음",
+    "selectTicket": "티켓 선택",
+    "loadingTicket": "티켓 불러오는 중…",
+    "resolve": "해결",
+    "close": "닫기",
+    "staff": "스태프",
+    "replyPlaceholder": "사용자에게 답장",
+    "sendReply": "답장 보내기",
+    "sending": "보내는 중…",
+    "errors": {
+      "send": "답장 전송에 실패했습니다",
+      "update": "티켓 업데이트에 실패했습니다"
+    }
+  },
+  "activity": {
+    "empty": "아직 스태프 작업이 없습니다",
+    "removedUser": "삭제된 사용자",
+    "removedUserNamed": "@{{name}} (삭제됨)"
+  },
+  "auditActions": {
+    "disabledAccount": "이 계정을 비활성화했습니다",
+    "enabledAccount": "이 계정을 활성화했습니다",
+    "softDeletedAccount": "이 계정을 소프트 삭제했습니다",
+    "hardDeletedAccount": "이 계정을 완전 삭제했습니다",
+    "forcedLogout": "이 계정을 강제 로그아웃했습니다",
+    "warnedUser": "이 사용자에게 경고했습니다",
+    "restrictedUser": "이 사용자를 제한했습니다",
+    "liftedRestriction": "이 사용자의 제한을 해제했습니다",
+    "grantedFlag": "{{flag}} 플래그를 부여했습니다",
+    "revokedFlag": "{{flag}} 플래그를 취소했습니다",
+    "updatedProfile": "이 사용자의 프로필을 업데이트했습니다",
+    "addedNote": "스태프 메모를 추가했습니다",
+    "revokedSession": "세션을 취소했습니다",
+    "tookDownContent": "신고된 {{type}}을(를) 삭제했습니다",
+    "lockedDownSpace": "스페이스를 잠갔습니다",
+    "shutDownSpace": "신고된 스페이스를 종료했습니다",
+    "global": {
+      "disabled": "{{actor}}님이 {{target}}을(를) 비활성화했습니다",
+      "enabled": "{{actor}}님이 {{target}}을(를) 활성화했습니다",
+      "softDeleted": "{{actor}}님이 {{target}}을(를) 소프트 삭제했습니다",
+      "hardDeleted": "{{actor}}님이 {{target}}을(를) 완전 삭제했습니다",
+      "forcedLogout": "{{actor}}님이 {{target}}을(를) 강제 로그아웃했습니다",
+      "warned": "{{actor}}님이 {{target}}에게 경고했습니다",
+      "restricted": "{{actor}}님이 {{target}}을(를) 제한했습니다",
+      "liftedRestriction": "{{actor}}님이 {{target}}의 제한을 해제했습니다",
+      "grantedFlag": "{{actor}}님이 {{target}}에게 {{flag}} 플래그를 부여했습니다",
+      "revokedFlag": "{{actor}}님이 {{target}}에서 {{flag}} 플래그를 취소했습니다",
+      "updatedProfile": "{{actor}}님이 {{target}}의 프로필을 업데이트했습니다",
+      "addedNote": "{{actor}}님이 {{target}}에 스태프 메모를 추가했습니다",
+      "revokedSession": "{{actor}}님이 {{target}}의 세션을 취소했습니다",
+      "tookDownContent": "{{actor}}님이 신고된 {{type}}을(를) 삭제했습니다",
+      "lockedDownSpace": "{{actor}}님이 스페이스를 잠갔습니다",
+      "shutDownSpace": "{{actor}}님이 신고된 스페이스를 종료했습니다"
+    }
+  }
+}
