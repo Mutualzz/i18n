@@ -215,7 +215,8 @@
     "staffLabel": "サポート",
     "ticketClosed": "このチケットはクローズされています。",
     "ticketClosedHint": "このチケットはクローズされています。引き続きサポートが必要な場合は、新しいチケットを開いてください。",
-    "updatedAt": "{{date}} に更新"
+    "updatedAt": "{{date}} に更新",
+    "termsOfService": "利用規約"
   },
   "nav": {
     "goBack": "戻る",

@@ -244,7 +244,9 @@
       "unmuteUserLocally": "Hef het dempen van deze gebruiker lokaal op",
       "muteStream": "Stream dempen",
       "live": "LIVE",
-      "video": "Video"
+      "video": "Video",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(Jij)",

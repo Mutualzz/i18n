@@ -248,7 +248,9 @@
       "unmuteUserLocally": "Увімкнути мікрофон цього користувача локально",
       "muteStream": "Вимкнути трансляцію",
       "live": "LIVE",
-      "video": "Відео"
+      "video": "Відео",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(Ви)",

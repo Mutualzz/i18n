@@ -252,7 +252,9 @@
       "unmuteUserLocally": "إلغاء كتم هذا المستخدم محليًا",
       "muteStream": "كتم البث",
       "live": "LIVE",
-      "video": "فيديو"
+      "video": "فيديو",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(أنت)",

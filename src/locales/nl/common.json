@@ -275,6 +275,7 @@
         "label": "Verwijder uw account",
         "hint": "Instellingen → Mijn account → Account verwijderen"
       }
-    }
+    },
+    "termsOfService": "Servicevoorwaarden"
   }
 }

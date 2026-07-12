@@ -147,7 +147,9 @@
       "unmuteUserLocally": "Ativar este usuário localmente",
       "muteStream": "Silenciar transmissão",
       "live": "AO VIVO",
-      "video": "Vídeo"
+      "video": "Vídeo",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(Você)",

@@ -244,7 +244,9 @@
       "unmuteUserLocally": "Bu kullanıcının yerel susturmasını kaldır",
       "muteStream": "Yayını Sustur",
       "live": "LIVE",
-      "video": "Video"
+      "video": "Video",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(Sen)",

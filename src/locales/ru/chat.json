@@ -248,7 +248,9 @@
       "unmuteUserLocally": "Снять локальное заглушение",
       "muteStream": "Заглушить трансляцию",
       "live": "В ЭФИРЕ",
-      "video": "Видео"
+      "video": "Видео",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(Вы)",

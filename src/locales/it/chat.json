@@ -244,7 +244,9 @@
       "unmuteUserLocally": "Riattiva l'audio di questo utente localmente",
       "muteStream": "Flusso disattivato",
       "live": "LIVE",
-      "video": "Video"
+      "video": "Video",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(Voi)",

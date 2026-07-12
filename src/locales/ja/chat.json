@@ -147,7 +147,9 @@
       "unmuteUserLocally": "このユーザーのローカルミュートを解除",
       "muteStream": "ストリームをミュート",
       "live": "ライブ",
-      "video": "ビデオ"
+      "video": "ビデオ",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "（あなた）",

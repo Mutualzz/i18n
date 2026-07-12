@@ -147,7 +147,9 @@
       "unmuteUserLocally": "Réactiver cet utilisateur localement",
       "muteStream": "Couper le flux",
       "live": "EN DIRECT",
-      "video": "Vidéo"
+      "video": "Vidéo",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(Vous)",

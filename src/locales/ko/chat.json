@@ -147,7 +147,9 @@
       "unmuteUserLocally": "이 사용자의 로컬 음소거 해제",
       "muteStream": "스트림 음소거",
       "live": "라이브",
-      "video": "비디오"
+      "video": "비디오",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(나)",

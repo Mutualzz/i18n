@@ -248,7 +248,9 @@
       "unmuteUserLocally": "Wyłącz wyciszenie tego użytkownika lokalnie",
       "muteStream": "Wycisz strumień",
       "live": "LIVE",
-      "video": "Wideo"
+      "video": "Wideo",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "(Ty)",

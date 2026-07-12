@@ -275,6 +275,7 @@
         "label": "Ta bort ditt konto",
         "hint": "Inställningar → Mitt konto → Ta bort konto"
       }
-    }
+    },
+    "termsOfService": "Användarvillkor"
   }
 }

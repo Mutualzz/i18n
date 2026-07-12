@@ -215,7 +215,8 @@
     "staffLabel": "Soporte",
     "ticketClosed": "Este ticket está cerrado.",
     "ticketClosedHint": "Este ticket está cerrado. Abre un ticket nuevo si aún necesitas ayuda.",
-    "updatedAt": "actualizado {{date}}"
+    "updatedAt": "actualizado {{date}}",
+    "termsOfService": "Términos de servicio"
   },
   "nav": {
     "goBack": "Atrás",

@@ -275,6 +275,7 @@
         "label": "Elimina il tuo account",
         "hint": "Impostazioni → Il mio account → Elimina account"
       }
-    }
+    },
+    "termsOfService": "Termini di servizio"
   }
 }

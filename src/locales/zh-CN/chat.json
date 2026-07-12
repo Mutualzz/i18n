@@ -244,7 +244,9 @@
       "unmuteUserLocally": "取消本地静音此用户",
       "muteStream": "静音直播",
       "live": "直播中",
-      "video": "视频"
+      "video": "视频",
+      "connectedViaMinecraft": "",
+      "audioInMinecraft": ""
     },
     "participant": {
       "you": "（你）",
