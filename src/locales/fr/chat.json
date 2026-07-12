@@ -533,5 +533,9 @@
     "toggleReaction": "Basculer la réaction, nombre {{value}}",
     "mentionsCount": "{{value}} mentions",
     "unread": "non lu"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

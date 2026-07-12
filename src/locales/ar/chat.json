@@ -577,5 +577,9 @@
     "sentCount_two": "مرسلة - {{count}}",
     "sentCount_few": "مرسلة - {{count}}",
     "sentCount_many": "مرسلة - {{count}}"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

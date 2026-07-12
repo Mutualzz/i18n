@@ -533,5 +533,9 @@
     "toggleReaction": "Reaktion umschalten, Anzahl {{value}}",
     "mentionsCount": "{{value}} Erwähnungen",
     "unread": "ungelesen"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

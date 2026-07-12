@@ -533,5 +533,9 @@
     "copied": "Kopierat",
     "message": "Meddela",
     "remove": "Ta bort"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

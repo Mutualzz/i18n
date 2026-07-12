@@ -533,5 +533,9 @@
     "copied": "Kopyalandı",
     "message": "Mesaj",
     "remove": "Kaldır"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

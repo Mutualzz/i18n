@@ -533,5 +533,9 @@
     "toggleReaction": "Alternar reação, contagem {{value}}",
     "mentionsCount": "{{value}} menções",
     "unread": "não lido"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

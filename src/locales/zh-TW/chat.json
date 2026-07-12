@@ -533,5 +533,9 @@
     "copied": "已複製",
     "message": "傳訊息",
     "remove": "移除"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

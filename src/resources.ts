@@ -297,6 +297,7 @@ export const settingsPageTitleKeys = {
   appearance: "pages.appearance",
   notifications: "pages.notifications",
   voice_and_video: "pages.voiceAndVideo",
+  "minecraft-bridge": "pages.minecraftBridge",
   support: "helpAndSupport",
 } as const;
 

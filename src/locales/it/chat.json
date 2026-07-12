@@ -533,5 +533,9 @@
     "copied": "Copiato",
     "message": "Messaggio",
     "remove": "Rimuovi"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

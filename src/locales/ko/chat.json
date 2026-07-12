@@ -533,5 +533,9 @@
     "toggleReaction": "반응 전환, 개수 {{value}}",
     "mentionsCount": "멘션 {{value}}개",
     "unread": "읽지 않음"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

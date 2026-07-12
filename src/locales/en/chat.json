@@ -86,6 +86,10 @@
     "edited": "(edited)",
     "scrollToLatestA11y": "Scroll to latest messages"
   },
+  "dateSeparator": {
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
   "system": {
     "ephemeralOnlyYou": "Only you can see this •",
     "dismissMessage": "Dismiss message"
@@ -225,6 +229,8 @@
       "deafened": "Deafened",
       "spaceMuted": "Space Muted",
       "spaceDeafened": "Space Deafened",
+      "connectedViaMinecraft": "Connected via Minecraft",
+      "audioInMinecraft": "You're connected via Minecraft — mic and speakers are in-game",
       "enableCamera": "Enable camera",
       "disableCamera": "Disable camera",
       "shareScreen": "Share your screen",

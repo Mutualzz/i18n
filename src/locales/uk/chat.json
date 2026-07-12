@@ -555,5 +555,9 @@
     "receivedCount_many": "Отримані - {{count}}",
     "sentCount_few": "Надіслані - {{count}}",
     "sentCount_many": "Надіслані - {{count}}"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }

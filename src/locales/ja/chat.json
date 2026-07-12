@@ -533,5 +533,9 @@
     "toggleReaction": "リアクションを切り替え、件数 {{value}}",
     "mentionsCount": "{{value}}件のメンション",
     "unread": "未読"
+  },
+  "dateSeparator": {
+    "today": "",
+    "yesterday": ""
   }
 }
