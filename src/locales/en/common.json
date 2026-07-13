@@ -53,6 +53,12 @@
     "minutes_one": "{{count}} minute",
     "minutes_other": "{{count}} minutes"
   },
+  "activity": {
+    "playing": "Playing",
+    "listening": "Listening",
+    "elapsed": "{{time}} elapsed",
+    "showLess": "Show less"
+  },
   "status": {
     "clearCustomAfter": "Clear custom status after",
     "clearOnlineAfter": "Clear online status after",

@@ -296,6 +296,8 @@ export const settingsPageTitleKeys = {
   expressions: "pages.expressions",
   appearance: "pages.appearance",
   notifications: "pages.notifications",
+  "registered-games": "pages.registeredGames",
+  connections: "pages.connections",
   voice_and_video: "pages.voiceAndVideo",
   "minecraft-bridge": "pages.minecraftBridge",
   support: "helpAndSupport",
