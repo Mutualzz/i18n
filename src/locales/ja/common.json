@@ -216,7 +216,8 @@
     "ticketClosed": "このチケットはクローズされています。",
     "ticketClosedHint": "このチケットはクローズされています。引き続きサポートが必要な場合は、新しいチケットを開いてください。",
     "updatedAt": "{{date}} に更新",
-    "termsOfService": "利用規約"
+    "termsOfService": "利用規約",
+    "pendingTicketExists": ""
   },
   "nav": {
     "goBack": "戻る",
@@ -277,5 +278,11 @@
   },
   "select": {
     "placeholder": "オプションを選択"
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

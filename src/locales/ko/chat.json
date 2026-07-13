@@ -149,7 +149,13 @@
       "live": "라이브",
       "video": "비디오",
       "connectedViaMinecraft": "",
-      "audioInMinecraft": ""
+      "audioInMinecraft": "",
+      "noiseSuppression": "",
+      "noiseSuppressionDescription": "",
+      "noiseSuppressionA11y": "",
+      "noiseSuppressionOn": "",
+      "noiseSuppressionOff": "",
+      "noiseSuppressionApplying": ""
     },
     "participant": {
       "you": "(나)",
@@ -213,7 +219,9 @@
       "differentDevice": "다른 기기에서 연결되었습니다",
       "movedChannel": "다른 음성 채널로 이동했습니다",
       "enumerateDevices": "장치를 나열하지 못했습니다"
-    }
+    },
+    "elapsedInChannel": "",
+    "channelOccupied": ""
   },
   "feed": {
     "title": "피드",

@@ -250,7 +250,13 @@
       "live": "В ЭФИРЕ",
       "video": "Видео",
       "connectedViaMinecraft": "",
-      "audioInMinecraft": ""
+      "audioInMinecraft": "",
+      "noiseSuppression": "",
+      "noiseSuppressionDescription": "",
+      "noiseSuppressionA11y": "",
+      "noiseSuppressionOn": "",
+      "noiseSuppressionOff": "",
+      "noiseSuppressionApplying": ""
     },
     "participant": {
       "you": "(Вы)",
@@ -307,7 +313,9 @@
       "applicationWindow_many": "Окно приложения ({{count}})"
     },
     "peopleInVoice_few": "{{count}} человек в голосовом канале.",
-    "peopleInVoice_many": "{{count}} человек в голосовом канале."
+    "peopleInVoice_many": "{{count}} человек в голосовом канале.",
+    "elapsedInChannel": "",
+    "channelOccupied": ""
   },
   "feed": {
     "title": "Лента",

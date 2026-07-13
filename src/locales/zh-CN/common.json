@@ -276,6 +276,13 @@
         "hint": "设置 → 我的账户 → 删除账户"
       }
     },
-    "termsOfService": "服务条款"
+    "termsOfService": "服务条款",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

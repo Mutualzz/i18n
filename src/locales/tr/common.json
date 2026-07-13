@@ -276,6 +276,13 @@
         "hint": "Ayarlar → Hesabım → Hesabı Sil"
       }
     },
-    "termsOfService": "Hizmet Şartları"
+    "termsOfService": "Hizmet Şartları",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

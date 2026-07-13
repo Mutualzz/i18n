@@ -234,6 +234,10 @@
           "label": "إرفاق ملفات",
           "description": "السماح للأعضاء بإرفاق ملفات في الرسائل"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "الإشارة للجميع",
           "description": "السماح للأعضاء بالإشارة إلى @everyone و@here في الرسائل"
@@ -241,6 +245,10 @@
         "UseExternalEmojis": {
           "label": "استخدام رموز خارجية",
           "description": "السماح للأعضاء باستخدام رموز من مساحات أخرى أو رموزهم الخاصة في رسائلهم"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces in their messages"
         },
         "ManageMessages": {
           "label": "إدارة الرسائل",
@@ -257,6 +265,22 @@
         "Speak": {
           "label": "التحدث",
           "description": "السماح للأعضاء بالتحدث في قنوات الصوت"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in voice channels"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in voice channels"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         },
         "Administrator": {
           "label": "مسؤول",
@@ -433,6 +457,10 @@
           "label": "إرفاق ملفات",
           "description": "السماح للأعضاء بإرفاق ملفات"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "الإشارة للجميع",
           "description": "السماح للأعضاء بـ @mention لـ @everyone و@here"
@@ -440,6 +468,10 @@
         "UseExternalEmojis": {
           "label": "استخدام رموز خارجية",
           "description": "السماح للأعضاء باستخدام رموز من مساحات أخرى"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces"
         },
         "ManageMessages": {
           "label": "إدارة الرسائل",
@@ -456,6 +488,22 @@
         "Speak": {
           "label": "التحدث",
           "description": "السماح للأعضاء بالتحدث في هذه القناة الصوتية"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in this voice channel"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in this voice channel"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         }
       }
     }

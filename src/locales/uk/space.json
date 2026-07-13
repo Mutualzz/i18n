@@ -228,6 +228,10 @@
           "label": "Прикріплювати файли",
           "description": "Дозволяє учасникам прикріплювати файли до повідомлень"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "Згадувати всіх",
           "description": "Дозволяє учасникам згадувати @everyone та @here в повідомленнях"
@@ -235,6 +239,10 @@
         "UseExternalEmojis": {
           "label": "Використовувати зовнішні емодзі",
           "description": "Дозволяє учасникам використовувати емодзі з інших просторів або власні у своїх повідомленнях"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces in their messages"
         },
         "ManageMessages": {
           "label": "Керувати повідомленнями",
@@ -251,6 +259,22 @@
         "Speak": {
           "label": "Говорити",
           "description": "Дозволяє учасникам говорити в голосових каналах"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in voice channels"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in voice channels"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         },
         "Administrator": {
           "label": "Адміністратор",
@@ -423,6 +447,10 @@
           "label": "Прикріплювати файли",
           "description": "Дозволяє учасникам прикріплювати файли"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "Згадувати всіх",
           "description": "Дозволяє учасникам @mention @everyone та @here"
@@ -430,6 +458,10 @@
         "UseExternalEmojis": {
           "label": "Використовувати зовнішні емодзі",
           "description": "Дозволяє учасникам використовувати емодзі з інших просторів"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces"
         },
         "ManageMessages": {
           "label": "Керувати повідомленнями",
@@ -446,6 +478,22 @@
         "Speak": {
           "label": "Говорити",
           "description": "Дозволяє учасникам говорити в цьому голосовому каналі"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in this voice channel"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in this voice channel"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         }
       }
     }

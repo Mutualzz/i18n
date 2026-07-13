@@ -72,7 +72,8 @@
         "warnUser": "Impossibile avvisare l'utente",
         "deleteAccount": "Impossibile eliminare l'account",
         "restrictUser": "Impossibile limitare l'utente"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Motivo (obbligatorio)",

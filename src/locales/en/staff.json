@@ -6,11 +6,13 @@
     "reports": "Reports",
     "activity": "Activity",
     "appeals": "Appeals",
-    "support": "Support"
+    "support": "Support",
+    "changelogs": "Changelogs"
   },
   "pages": {
     "activity": "Staff Activity",
-    "reportDetails": "Report Details"
+    "reportDetails": "Report Details",
+    "changelogs": "Changelogs"
   },
   "home": {
     "findUser": "Find a user",
@@ -248,6 +250,33 @@
     "removedUser": "a removed user",
     "removedUserNamed": "@{{name}} (removed)"
   },
+  "changelogs": {
+    "title": "Changelogs",
+    "description": "Publish What’s New popups for users who update to a target app version.",
+    "titleLabel": "Title",
+    "titlePlaceholder": "What’s new in this release",
+    "bodyLabel": "Body (markdown)",
+    "bodyPlaceholder": "Describe the changes…",
+    "imageUrlLabel": "Image URL (optional)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Desktop version",
+    "mobileVersion": "Mobile version",
+    "versionPlaceholder": "e.g. 6.21.0",
+    "publish": "Publish",
+    "publishing": "Publishing…",
+    "empty": "No changelogs yet",
+    "delete": "Delete",
+    "desktop": "Desktop {{version}}",
+    "mobile": "Mobile {{version}}",
+    "published": "Published successfully",
+    "deleted": "Changelog deleted",
+    "errors": {
+      "publish": "Failed to publish changelog",
+      "delete": "Failed to delete changelog",
+      "versionRequired": "Provide a desktop and/or mobile version"
+    },
+    "developerRequired": "Only developers can manage changelogs"
+  },
   "auditActions": {
     "disabledAccount": "disabled this account",
     "enabledAccount": "enabled this account",
@@ -281,7 +310,9 @@
       "revokedSession": "{{actor}} revoked a session for {{target}}",
       "tookDownContent": "{{actor}} took down a reported {{type}}",
       "lockedDownSpace": "{{actor}} locked down a space",
-      "shutDownSpace": "{{actor}} shut down a reported space"
+      "shutDownSpace": "{{actor}} shut down a reported space",
+      "publishedChangelog": "{{actor}} published a changelog",
+      "deletedChangelog": "{{actor}} deleted a changelog"
     }
   }
 }

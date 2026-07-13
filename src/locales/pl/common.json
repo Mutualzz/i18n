@@ -282,6 +282,13 @@
         "hint": "Ustawienia → Moje konto → Usuń konto"
       }
     },
-    "termsOfService": "Warunki korzystania"
+    "termsOfService": "Warunki korzystania",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

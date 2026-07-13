@@ -72,7 +72,8 @@
         "warnUser": "No se pudo advertir al usuario",
         "deleteAccount": "No se pudo eliminar la cuenta",
         "restrictUser": "No se pudo restringir al usuario"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Motivo (obligatorio)",

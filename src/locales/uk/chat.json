@@ -250,7 +250,13 @@
       "live": "LIVE",
       "video": "Відео",
       "connectedViaMinecraft": "",
-      "audioInMinecraft": ""
+      "audioInMinecraft": "",
+      "noiseSuppression": "",
+      "noiseSuppressionDescription": "",
+      "noiseSuppressionA11y": "",
+      "noiseSuppressionOn": "",
+      "noiseSuppressionOff": "",
+      "noiseSuppressionApplying": ""
     },
     "participant": {
       "you": "(Ви)",
@@ -307,7 +313,9 @@
       "applicationWindow_many": "Вікно програми ({{count}})"
     },
     "peopleInVoice_few": "{{count}} осіб у голосі.",
-    "peopleInVoice_many": "{{count}} осіб у голосі."
+    "peopleInVoice_many": "{{count}} осіб у голосі.",
+    "elapsedInChannel": "",
+    "channelOccupied": ""
   },
   "feed": {
     "title": "Стрічка",

@@ -276,6 +276,13 @@
         "hint": "設定 → 我的帳戶 → 刪除帳戶"
       }
     },
-    "termsOfService": "服務條款"
+    "termsOfService": "服務條款",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

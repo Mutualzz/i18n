@@ -18,6 +18,9 @@
   "open": "Open",
   "proceed": "Proceed",
   "gotIt": "Got it",
+  "whatsNew": {
+    "title": "What's New"
+  },
   "seo": {
     "defaultTitle": "Mutualzz (Early Access)",
     "defaultDescription": "Connect with other people who share your interests. Currently under heavy development"
@@ -241,6 +244,7 @@
     "subjectPlaceholder": "Subject",
     "submitTicket": "Submit ticket",
     "createFailed": "Failed to create ticket",
+    "pendingTicketExists": "You already have an open ticket. Reply there or wait until it's closed before opening a new one.",
     "noTickets": "No tickets yet",
     "contactEmailLoggedIn": "Email us at {{email}} or open a support ticket from this page.",
     "contactEmailGuest": "Email us at {{email}}.",

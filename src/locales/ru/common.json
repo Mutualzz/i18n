@@ -282,6 +282,13 @@
         "hint": "Настройки → Мой аккаунт → Удалить аккаунт"
       }
     },
-    "termsOfService": "Условия использования"
+    "termsOfService": "Условия использования",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

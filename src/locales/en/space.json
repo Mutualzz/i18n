@@ -222,6 +222,10 @@
           "label": "Attach Files",
           "description": "Allow members to attach files in messages"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "Mention Everyone",
           "description": "Allow members to mention @everyone and @here in messages"
@@ -229,6 +233,10 @@
         "UseExternalEmojis": {
           "label": "Use External Emojis",
           "description": "Allow members to use emojis from other spaces or their own in their messages"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces in their messages"
         },
         "ManageMessages": {
           "label": "Manage Messages",
@@ -245,6 +253,22 @@
         "Speak": {
           "label": "Speak",
           "description": "Allow members to speak in voice channels"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in voice channels"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in voice channels"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         },
         "Administrator": {
           "label": "Administrator",
@@ -413,6 +437,10 @@
           "label": "Attach Files",
           "description": "Allow members to attach files"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "Mention Everyone",
           "description": "Allow members to @mention @everyone and @here"
@@ -420,6 +448,10 @@
         "UseExternalEmojis": {
           "label": "Use External Emojis",
           "description": "Allow members to use emojis from other spaces"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces"
         },
         "ManageMessages": {
           "label": "Manage Messages",
@@ -436,6 +468,22 @@
         "Speak": {
           "label": "Speak",
           "description": "Allow members to speak in this voice channel"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in this voice channel"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in this voice channel"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         }
       }
     }

@@ -72,7 +72,8 @@
         "warnUser": "Nie udało się ostrzec użytkownika",
         "deleteAccount": "Nie udało się usunąć konta",
         "restrictUser": "Nie udało się ograniczyć użytkownika"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Powód (wymagany)",

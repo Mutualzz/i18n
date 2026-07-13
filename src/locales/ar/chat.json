@@ -254,7 +254,13 @@
       "live": "LIVE",
       "video": "فيديو",
       "connectedViaMinecraft": "",
-      "audioInMinecraft": ""
+      "audioInMinecraft": "",
+      "noiseSuppression": "",
+      "noiseSuppressionDescription": "",
+      "noiseSuppressionA11y": "",
+      "noiseSuppressionOn": "",
+      "noiseSuppressionOff": "",
+      "noiseSuppressionApplying": ""
     },
     "participant": {
       "you": "(أنت)",
@@ -317,7 +323,9 @@
     "peopleInVoice_zero": "شخص {{count}} في الصوت.",
     "peopleInVoice_two": "شخص {{count}} في الصوت.",
     "peopleInVoice_few": "{{count}} أشخاص في الصوت.",
-    "peopleInVoice_many": "{{count}} أشخاص في الصوت."
+    "peopleInVoice_many": "{{count}} أشخاص في الصوت.",
+    "elapsedInChannel": "",
+    "channelOccupied": ""
   },
   "feed": {
     "title": "الخلاصة",

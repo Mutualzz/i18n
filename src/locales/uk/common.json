@@ -282,6 +282,13 @@
         "hint": "Налаштування → Мій обліковий запис → Видалити обліковий запис"
       }
     },
-    "termsOfService": "Умови використання"
+    "termsOfService": "Умови використання",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

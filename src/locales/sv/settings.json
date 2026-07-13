@@ -13,7 +13,9 @@
     "voiceAndVideo": "Röst och video",
     "voiceAndVideoWip": "Röst och video (fortfarande under arbete)",
     "avatarAndProfile": "Avatar och profil",
-    "minecraftBridge": ""
+    "minecraftBridge": "",
+    "registeredGames": "",
+    "connections": ""
   },
   "helpAndSupport": "Hjälp och support",
   "logOut": "Logga ut",
@@ -36,7 +38,16 @@
     "dndSuppressNote": "Stör ej och Osynlig undertrycker alltid push-aviseringar.",
     "dndTitle": "Stör ej",
     "dndDescriptionMobile": "Ställ in din status på Stör ej eller Osynlig för att undertrycka push-aviseringar oavsett dessa växlar. När du är online och aktiv stannar aviseringarna i appen.",
-    "presenceDescriptionMobile": "Inaktivitetsdetektering på skrivbordet markerar dig automatiskt som inaktiv efter inaktivitet. På mobilen använder du statusväljaren för Online, Inaktiv, Stör ej eller Osynlig – inklusive tidsbegränsade varaktigheter."
+    "presenceDescriptionMobile": "Inaktivitetsdetektering på skrivbordet markerar dig automatiskt som inaktiv efter inaktivitet. På mobilen använder du statusväljaren för Online, Inaktiv, Stör ej eller Osynlig – inklusive tidsbegränsade varaktigheter.",
+    "shareActivity": "",
+    "shareActivityDescription": "",
+    "shareRecentActivity": "",
+    "shareRecentActivityDescription": "",
+    "clearRecentActivity": "",
+    "clearRecentActivityDescription": "",
+    "clearRecentActivityAction": "",
+    "clearRecentActivityDone": "",
+    "clearRecentActivityError": ""
   },
   "account": {
     "editAvatar": "Redigera avatar",
@@ -136,6 +147,7 @@
     "sensitivityPercent": "Känslighet {{value}}%",
     "voiceActivitySection": "Röstaktivitet",
     "voiceActivityDescription": "Mikrofonen sänder bara medan du pratar. Justera känsligheten om röstigenkänningen känns för känslig eller för okänslig.",
+    "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
     "sensitivityPttOnly": "Känslighetsinställningar gäller bara i röstaktivitetsläge.",
     "perUserVolume": "Volym per användare",
     "perUserVolumeDescription": "När du är i en röstkanal använder du volymreglaget på varje deltagare för att justera hur högt de låter för dig. Dessa inställningar sparas på den här enheten.",
@@ -143,7 +155,20 @@
     "testCamera": "Testa kamera",
     "testCameraShort": "Testa kamera",
     "stopTesting": "Sluta testa",
-    "stopCameraTest": "Stoppa kameratest"
+    "stopCameraTest": "Stoppa kameratest",
+    "noiseSuppression": "",
+    "noiseSuppressionDescription": "",
+    "noiseSuppressionDescriptionMobile": "",
+    "noiseSuppressionApplying": "",
+    "noiseSuppressionOn": "",
+    "noiseSuppressionOff": "",
+    "micTest": "",
+    "micTestStart": "",
+    "micTestStop": "",
+    "micTestHint": "",
+    "micTestListeningHint": "",
+    "microphoneVolume": "",
+    "speakerVolume": ""
   },
   "expressions": {
     "emojis": "Emojis",
@@ -343,7 +368,14 @@
       "moreCount": "+{{value}} till",
       "noLinksYet": "Inga länkar ännu",
       "addLinksInInspector": "Lägg till länkar i inspektören",
-      "noResults": "Inga resultat"
+      "noResults": "Inga resultat",
+      "connections": "",
+      "recentActivity": "",
+      "endedAgo": "",
+      "playedForEnded": "",
+      "listenedForEnded": "",
+      "noRecentActivity": "",
+      "noConnectionsToShow": ""
     },
     "widgets": {
       "emptyEditor": "Lägg till din första widget nedan för att börja anpassa din mobilprofil.",
@@ -378,6 +410,8 @@
       "bannerHint": "Visas i ditt profilhuvudblock. Beskärning och höjd kan justeras när huvudblocket är valt.",
       "backgroundColor": "Bakgrundsfärg",
       "backgroundColorDescription": "Använd en solid färg eller gradient för din profilbakgrund.",
+      "headerBackgroundColorDescription": "Färg för området under din banner.",
+      "blockBackgroundColorDescription": "Valfri färg eller gradient bakom detta block.",
       "resetBackgroundColor": "Återställ bakgrundsfärg",
       "backgroundImage": "Bakgrundsbild",
       "backgroundImageUrl": "URL för bakgrundsbild",
@@ -475,7 +509,8 @@
         "emptyLinks_one": "Lägg till minst en länk i {{count}} länkblock innan du sparar",
         "emptyLinks_other": "Lägg till minst en länk i {{count}} länkblock innan du sparar",
         "bioTooLong": "Biografin får vara högst 512 tecken"
-      }
+      },
+      "connectionsHint": ""
     },
     "avatar": {
       "upload": {
@@ -887,7 +922,123 @@
     "unbind": "",
     "discordPickKnownServer": "",
     "discordInviteBot": "",
-    "discordInviteBotHint": ""
+    "discordInviteBotHint": "",
+    "serverDisplayName": "",
+    "serverDisplayNameHint": "",
+    "serverDisplayNamePlaceholder": "",
+    "serverIdLabel": "",
+    "saveServerName": "",
+    "savingServerName": "",
+    "leave": "",
+    "leaving": "",
+    "leaveConfirm": "",
+    "leaveTitle": "",
+    "leaveRejoinHint": "",
+    "joinedViaMinecraft": "",
+    "joinedToast": "",
+    "joinedBridges_one": "",
+    "joinedBridges_other": "",
+    "ownerOnlySettings": "",
+    "roleOwner": "",
+    "roleMember": "",
+    "membersTitle": "",
+    "membersEmpty": "",
+    "membersOnline": "",
+    "membersOffline": "",
+    "kickMember": "",
+    "kickingMember": "",
+    "kickMemberConfirm": "",
+    "kickMemberTitle": ""
   },
-  "termsOfService": "Användarvillkor"
+  "termsOfService": "Användarvillkor",
+  "connections": {
+    "title": "",
+    "connectError": "",
+    "connectFailed": "",
+    "connecting": "",
+    "connectedToast": "",
+    "spotifyConnectedToast": "",
+    "accountConnectedToast": "",
+    "notConfigured": "",
+    "unavailable": "",
+    "openProfile": "",
+    "showOnProfile": "",
+    "showOnProfileDescription": "",
+    "expired": "",
+    "reconnect": "",
+    "disconnectConfirm": {
+      "title": "",
+      "body": "",
+      "confirm": ""
+    },
+    "errors": {
+      "steamOpenId": "",
+      "twitchRedirect": "",
+      "revoked": "",
+      "generic": ""
+    },
+    "github": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "twitch": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "steam": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "spotify": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": "",
+      "showActivity": "",
+      "showActivityDescription": "",
+      "nothingPlaying": "",
+      "premiumHint": "",
+      "premiumRequired": "",
+      "expired": "",
+      "reconnect": "",
+      "connectError": "",
+      "controlError": "",
+      "unavailable": ""
+    }
+  },
+  "registeredGames": {
+    "currentGame": "",
+    "addedGames": "",
+    "addedGamesDescription": "",
+    "noCurrentGame": "",
+    "nowPlaying": "",
+    "neverPlayed": "",
+    "lastPlayedMinutes_one": "",
+    "lastPlayedMinutes_other": "",
+    "lastPlayedHours_one": "",
+    "lastPlayedHours_other": "",
+    "lastPlayedDays_one": "",
+    "lastPlayedDays_other": "",
+    "notSeeing": "",
+    "addIt": "",
+    "addGame": "",
+    "scanning": "",
+    "selectProcess": "",
+    "namePlaceholder": "",
+    "officialGame": "",
+    "toggleShare": "",
+    "remove": "",
+    "empty": "",
+    "desktopOnly": ""
+  }
 }

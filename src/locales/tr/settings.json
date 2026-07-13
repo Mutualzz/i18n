@@ -13,7 +13,9 @@
     "voiceAndVideo": "Ses ve Video",
     "voiceAndVideoWip": "Ses ve Video (Hâlâ geliştiriliyor)",
     "avatarAndProfile": "Avatar ve profil",
-    "minecraftBridge": ""
+    "minecraftBridge": "",
+    "registeredGames": "",
+    "connections": ""
   },
   "helpAndSupport": "Yardım ve Destek",
   "logOut": "Çıkış yap",
@@ -36,7 +38,16 @@
     "dndSuppressNote": "Rahatsız Etme ve Görünmez her zaman anlık bildirimleri bastırır.",
     "dndTitle": "Rahatsız Etme",
     "dndDescriptionMobile": "Bu anahtarlardan bağımsız olarak anlık bildirimleri bastırmak için durumunu Rahatsız Etme veya Görünmez yap. Çevrimiçi ve aktifken bildirimler uygulamada kalır.",
-    "presenceDescriptionMobile": "Masaüstünde boşta algılama, hareketsizlikten sonra seni otomatik olarak boşta işaretler. Mobilde durum seçicisini kullanarak Çevrimiçi, Boşta, Rahatsız Etme veya Görünmez ayarla — zamanlı süreler dahil."
+    "presenceDescriptionMobile": "Masaüstünde boşta algılama, hareketsizlikten sonra seni otomatik olarak boşta işaretler. Mobilde durum seçicisini kullanarak Çevrimiçi, Boşta, Rahatsız Etme veya Görünmez ayarla — zamanlı süreler dahil.",
+    "shareActivity": "",
+    "shareActivityDescription": "",
+    "shareRecentActivity": "",
+    "shareRecentActivityDescription": "",
+    "clearRecentActivity": "",
+    "clearRecentActivityDescription": "",
+    "clearRecentActivityAction": "",
+    "clearRecentActivityDone": "",
+    "clearRecentActivityError": ""
   },
   "account": {
     "editAvatar": "Avatarı Düzenle",
@@ -136,6 +147,7 @@
     "sensitivityPercent": "Hassasiyet {{value}}%",
     "voiceActivitySection": "Ses etkinliği",
     "voiceActivityDescription": "Mikrofonun yalnızca konuşurken iletir. Ses algılama çok hassas veya yeterince hassas değilse hassasiyeti ayarla.",
+    "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
     "sensitivityPttOnly": "Hassasiyet ayarları yalnızca ses etkinliği modunda geçerlidir.",
     "perUserVolume": "Kullanıcı başına ses",
     "perUserVolumeDescription": "Bir ses kanalındayken, her katılımcının senin için ne kadar yüksek duyulacağını ayarlamak üzere ses kaydırıcısını kullan. Bu ayarlar bu cihazda kaydedilir.",
@@ -143,7 +155,20 @@
     "testCamera": "Kamerayı Test Et",
     "testCameraShort": "Kamerayı test et",
     "stopTesting": "Testi durdur",
-    "stopCameraTest": "Kamera testini durdur"
+    "stopCameraTest": "Kamera testini durdur",
+    "noiseSuppression": "",
+    "noiseSuppressionDescription": "",
+    "noiseSuppressionDescriptionMobile": "",
+    "noiseSuppressionApplying": "",
+    "noiseSuppressionOn": "",
+    "noiseSuppressionOff": "",
+    "micTest": "",
+    "micTestStart": "",
+    "micTestStop": "",
+    "micTestHint": "",
+    "micTestListeningHint": "",
+    "microphoneVolume": "",
+    "speakerVolume": ""
   },
   "expressions": {
     "emojis": "Emojiler",
@@ -343,7 +368,14 @@
       "moreCount": "+{{value}} daha",
       "noLinksYet": "Henüz bağlantı yok",
       "addLinksInInspector": "Bağlantıları denetçide ekle",
-      "noResults": "Sonuç yok"
+      "noResults": "Sonuç yok",
+      "connections": "",
+      "recentActivity": "",
+      "endedAgo": "",
+      "playedForEnded": "",
+      "listenedForEnded": "",
+      "noRecentActivity": "",
+      "noConnectionsToShow": ""
     },
     "widgets": {
       "emptyEditor": "Mobil profilini özelleştirmeye başlamak için aşağıya ilk widget’ını ekle.",
@@ -378,6 +410,8 @@
       "bannerHint": "Profil başlık bloğunda gösterilir. Başlık bloğu seçiliyken kırpma ve yükseklik ayarlanabilir.",
       "backgroundColor": "Arka plan rengi",
       "backgroundColorDescription": "Profil arka planın için düz renk veya gradyan kullan.",
+      "headerBackgroundColorDescription": "Afişin altındaki alanın rengi.",
+      "blockBackgroundColorDescription": "Bu bloğun arkasında isteğe bağlı renk veya gradyan.",
       "resetBackgroundColor": "Arka plan rengini sıfırla",
       "backgroundImage": "Arka plan görseli",
       "backgroundImageUrl": "Arka plan görseli URL’si",
@@ -475,7 +509,8 @@
         "emptyLinks_one": "Kaydetmeden önce {{count}} bağlantı bloğuna en az bir bağlantı ekle",
         "emptyLinks_other": "Kaydetmeden önce {{count}} bağlantı bloğuna en az bir bağlantı ekle",
         "bioTooLong": "Biyografi en fazla 512 karakter olabilir"
-      }
+      },
+      "connectionsHint": ""
     },
     "avatar": {
       "upload": {
@@ -887,7 +922,123 @@
     "unbind": "",
     "discordPickKnownServer": "",
     "discordInviteBot": "",
-    "discordInviteBotHint": ""
+    "discordInviteBotHint": "",
+    "serverDisplayName": "",
+    "serverDisplayNameHint": "",
+    "serverDisplayNamePlaceholder": "",
+    "serverIdLabel": "",
+    "saveServerName": "",
+    "savingServerName": "",
+    "leave": "",
+    "leaving": "",
+    "leaveConfirm": "",
+    "leaveTitle": "",
+    "leaveRejoinHint": "",
+    "joinedViaMinecraft": "",
+    "joinedToast": "",
+    "joinedBridges_one": "",
+    "joinedBridges_other": "",
+    "ownerOnlySettings": "",
+    "roleOwner": "",
+    "roleMember": "",
+    "membersTitle": "",
+    "membersEmpty": "",
+    "membersOnline": "",
+    "membersOffline": "",
+    "kickMember": "",
+    "kickingMember": "",
+    "kickMemberConfirm": "",
+    "kickMemberTitle": ""
   },
-  "termsOfService": "Hizmet Şartları"
+  "termsOfService": "Hizmet Şartları",
+  "connections": {
+    "title": "",
+    "connectError": "",
+    "connectFailed": "",
+    "connecting": "",
+    "connectedToast": "",
+    "spotifyConnectedToast": "",
+    "accountConnectedToast": "",
+    "notConfigured": "",
+    "unavailable": "",
+    "openProfile": "",
+    "showOnProfile": "",
+    "showOnProfileDescription": "",
+    "expired": "",
+    "reconnect": "",
+    "disconnectConfirm": {
+      "title": "",
+      "body": "",
+      "confirm": ""
+    },
+    "errors": {
+      "steamOpenId": "",
+      "twitchRedirect": "",
+      "revoked": "",
+      "generic": ""
+    },
+    "github": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "twitch": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "steam": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "spotify": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": "",
+      "showActivity": "",
+      "showActivityDescription": "",
+      "nothingPlaying": "",
+      "premiumHint": "",
+      "premiumRequired": "",
+      "expired": "",
+      "reconnect": "",
+      "connectError": "",
+      "controlError": "",
+      "unavailable": ""
+    }
+  },
+  "registeredGames": {
+    "currentGame": "",
+    "addedGames": "",
+    "addedGamesDescription": "",
+    "noCurrentGame": "",
+    "nowPlaying": "",
+    "neverPlayed": "",
+    "lastPlayedMinutes_one": "",
+    "lastPlayedMinutes_other": "",
+    "lastPlayedHours_one": "",
+    "lastPlayedHours_other": "",
+    "lastPlayedDays_one": "",
+    "lastPlayedDays_other": "",
+    "notSeeing": "",
+    "addIt": "",
+    "addGame": "",
+    "scanning": "",
+    "selectProcess": "",
+    "namePlaceholder": "",
+    "officialGame": "",
+    "toggleShare": "",
+    "remove": "",
+    "empty": "",
+    "desktopOnly": ""
+  }
 }

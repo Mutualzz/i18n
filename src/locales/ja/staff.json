@@ -72,7 +72,8 @@
         "warnUser": "ユーザーへの警告に失敗しました",
         "deleteAccount": "アカウントの削除に失敗しました",
         "restrictUser": "ユーザーの制限に失敗しました"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "理由（必須）",

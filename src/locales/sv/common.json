@@ -276,6 +276,13 @@
         "hint": "Inställningar → Mitt konto → Ta bort konto"
       }
     },
-    "termsOfService": "Användarvillkor"
+    "termsOfService": "Användarvillkor",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

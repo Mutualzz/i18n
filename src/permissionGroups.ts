@@ -96,6 +96,11 @@ export const spacePermissionGroups: PermissionGroupDef[] = [
         descriptionKey: "roles.permissions.flags.AttachFiles.description",
       },
       {
+        flag: "AddReactions",
+        labelKey: "roles.permissions.flags.AddReactions.label",
+        descriptionKey: "roles.permissions.flags.AddReactions.description",
+      },
+      {
         flag: "MentionEveryone",
         labelKey: "roles.permissions.flags.MentionEveryone.label",
         descriptionKey: "roles.permissions.flags.MentionEveryone.description",
@@ -104,6 +109,12 @@ export const spacePermissionGroups: PermissionGroupDef[] = [
         flag: "UseExternalEmojis",
         labelKey: "roles.permissions.flags.UseExternalEmojis.label",
         descriptionKey: "roles.permissions.flags.UseExternalEmojis.description",
+      },
+      {
+        flag: "UseExternalStickers",
+        labelKey: "roles.permissions.flags.UseExternalStickers.label",
+        descriptionKey:
+          "roles.permissions.flags.UseExternalStickers.description",
       },
       {
         flag: "ManageMessages",
@@ -130,6 +141,26 @@ export const spacePermissionGroups: PermissionGroupDef[] = [
         flag: "Speak",
         labelKey: "roles.permissions.flags.Speak.label",
         descriptionKey: "roles.permissions.flags.Speak.description",
+      },
+      {
+        flag: "UseVAD",
+        labelKey: "roles.permissions.flags.UseVAD.label",
+        descriptionKey: "roles.permissions.flags.UseVAD.description",
+      },
+      {
+        flag: "MuteMembers",
+        labelKey: "roles.permissions.flags.MuteMembers.label",
+        descriptionKey: "roles.permissions.flags.MuteMembers.description",
+      },
+      {
+        flag: "DeafenMembers",
+        labelKey: "roles.permissions.flags.DeafenMembers.label",
+        descriptionKey: "roles.permissions.flags.DeafenMembers.description",
+      },
+      {
+        flag: "MoveMembers",
+        labelKey: "roles.permissions.flags.MoveMembers.label",
+        descriptionKey: "roles.permissions.flags.MoveMembers.description",
       },
     ],
   },
@@ -196,10 +227,21 @@ export const channelPermissionGroups: ChannelPermissionGroupDef[] = [
         descriptionKey: "channels.permissions.flags.MentionEveryone.description",
       },
       {
+        flag: "AddReactions",
+        labelKey: "channels.permissions.flags.AddReactions.label",
+        descriptionKey: "channels.permissions.flags.AddReactions.description",
+      },
+      {
         flag: "UseExternalEmojis",
         labelKey: "channels.permissions.flags.UseExternalEmojis.label",
         descriptionKey:
           "channels.permissions.flags.UseExternalEmojis.description",
+      },
+      {
+        flag: "UseExternalStickers",
+        labelKey: "channels.permissions.flags.UseExternalStickers.label",
+        descriptionKey:
+          "channels.permissions.flags.UseExternalStickers.description",
       },
       {
         flag: "ManageMessages",
@@ -228,6 +270,26 @@ export const channelPermissionGroups: ChannelPermissionGroupDef[] = [
         flag: "Speak",
         labelKey: "channels.permissions.flags.Speak.label",
         descriptionKey: "channels.permissions.flags.Speak.description",
+      },
+      {
+        flag: "UseVAD",
+        labelKey: "channels.permissions.flags.UseVAD.label",
+        descriptionKey: "channels.permissions.flags.UseVAD.description",
+      },
+      {
+        flag: "MuteMembers",
+        labelKey: "channels.permissions.flags.MuteMembers.label",
+        descriptionKey: "channels.permissions.flags.MuteMembers.description",
+      },
+      {
+        flag: "DeafenMembers",
+        labelKey: "channels.permissions.flags.DeafenMembers.label",
+        descriptionKey: "channels.permissions.flags.DeafenMembers.description",
+      },
+      {
+        flag: "MoveMembers",
+        labelKey: "channels.permissions.flags.MoveMembers.label",
+        descriptionKey: "channels.permissions.flags.MoveMembers.description",
       },
     ],
   },

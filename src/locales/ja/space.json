@@ -219,6 +219,10 @@
           "label": "ファイルの添付",
           "description": "メンバーがメッセージにファイルを添付できるようにします"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "Everyoneのメンション",
           "description": "メンバーがメッセージで@everyoneと@hereをメンションできるようにします"
@@ -226,6 +230,10 @@
         "UseExternalEmojis": {
           "label": "外部絵文字の使用",
           "description": "メンバーが他のスペースや自分の絵文字をメッセージで使えるようにします"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces in their messages"
         },
         "ManageMessages": {
           "label": "メッセージの管理",
@@ -242,6 +250,22 @@
         "Speak": {
           "label": "発言",
           "description": "メンバーがボイスチャンネルで話せるようにします"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in voice channels"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in voice channels"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         },
         "Administrator": {
           "label": "管理者",
@@ -347,6 +371,10 @@
           "label": "ファイルの添付",
           "description": "メンバーがファイルを添付できるようにします"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "Everyoneのメンション",
           "description": "メンバーが@everyoneと@hereをメンションできるようにします"
@@ -354,6 +382,10 @@
         "UseExternalEmojis": {
           "label": "外部絵文字の使用",
           "description": "メンバーが他のスペースの絵文字を使えるようにします"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces"
         },
         "ManageMessages": {
           "label": "メッセージの管理",
@@ -370,6 +402,22 @@
         "Speak": {
           "label": "発言",
           "description": "メンバーがこのボイスチャンネルで話せるようにします"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in this voice channel"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in this voice channel"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         }
       },
       "addOverwrite": "権限の上書きを追加",

@@ -246,7 +246,13 @@
       "live": "LIVE",
       "video": "Video",
       "connectedViaMinecraft": "",
-      "audioInMinecraft": ""
+      "audioInMinecraft": "",
+      "noiseSuppression": "",
+      "noiseSuppressionDescription": "",
+      "noiseSuppressionA11y": "",
+      "noiseSuppressionOn": "",
+      "noiseSuppressionOff": "",
+      "noiseSuppressionApplying": ""
     },
     "participant": {
       "you": "(Voi)",
@@ -297,7 +303,9 @@
         "1080p60": "1080p 60fps",
         "source": "Source"
       }
-    }
+    },
+    "elapsedInChannel": "",
+    "channelOccupied": ""
   },
   "feed": {
     "title": "Feed",

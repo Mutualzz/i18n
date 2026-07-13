@@ -216,7 +216,8 @@
     "ticketClosed": "Este ticket está fechado.",
     "ticketClosedHint": "Este ticket está fechado. Abra um novo ticket se ainda precisar de ajuda.",
     "updatedAt": "atualizado {{date}}",
-    "termsOfService": "Termos de serviço"
+    "termsOfService": "Termos de serviço",
+    "pendingTicketExists": ""
   },
   "nav": {
     "goBack": "Voltar",
@@ -277,5 +278,11 @@
   },
   "select": {
     "placeholder": "Selecione uma opção"
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

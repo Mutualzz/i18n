@@ -542,6 +542,7 @@ export default interface Resources {
     "unknownSpace": "Unknown Space",
     "unknownUser": "Unknown User",
     "voice": {
+      "channelOccupied": "Channel occupied for {{time}}",
       "connection": {
         "connected": "Connected to voice",
         "connecting": "Connecting to voice...",
@@ -553,7 +554,6 @@ export default interface Resources {
         "unableToConnect": "Unable to connect",
         "voiceConnected": "Voice Connected"
       },
-      "channelOccupied": "Channel occupied for {{time}}",
       "controls": {
         "audioInMinecraft": "You're connected via Minecraft — mic and speakers are in-game",
         "connectedViaMinecraft": "Connected via Minecraft",
@@ -592,6 +592,7 @@ export default interface Resources {
         "volume": "Volume",
         "volumePercent": "Volume {{value}}%"
       },
+      "elapsedInChannel": "In voice for {{time}}",
       "errors": {
         "closed": "Voice connection closed",
         "credentialsMissing": "Voice server credentials were not provided",
@@ -606,7 +607,6 @@ export default interface Resources {
         "unableToJoin": "Unable to join voice channel"
       },
       "invite": "Invite",
-      "elapsedInChannel": "In voice for {{time}}",
       "joinVoice": "Join Voice",
       "moderation": {
         "disconnect": "Disconnect",
@@ -920,6 +920,7 @@ export default interface Resources {
       "noTickets": "No tickets yet",
       "openHelpCenter": "Open help center",
       "pageIntro": "Need help with Mutualzz? Browse common answers below or contact our team.",
+      "pendingTicketExists": "You already have an open ticket. Reply there or wait until it's closed before opening a new one.",
       "privacyPolicy": "Privacy Policy",
       "quickLinkItems": {
         "appeals": {
@@ -951,7 +952,10 @@ export default interface Resources {
     "updater": {
       "pleaseWait": "Updating… please wait"
     },
-    "uploadCustomFont": "Upload custom font"
+    "uploadCustomFont": "Upload custom font",
+    "whatsNew": {
+      "title": "What's New"
+    }
   },
   "settings": {
     "account": {
@@ -1019,6 +1023,71 @@ export default interface Resources {
     "categories": {
       "appSettings": "App Settings",
       "userSettings": "User Settings"
+    },
+    "connections": {
+      "accountConnectedToast": "Account connected",
+      "connectError": "Could not connect that account.",
+      "connectFailed": "Could not connect account",
+      "connectedToast": "{{provider}} connected",
+      "connecting": "Connecting…",
+      "disconnectConfirm": {
+        "body": "This removes the link between your Mutualzz account and {{name}}.",
+        "confirm": "Disconnect",
+        "title": "Disconnect {{name}}?"
+      },
+      "errors": {
+        "generic": "Something went wrong connecting that account.",
+        "revoked": "That account access was revoked. Reconnect to continue.",
+        "steamOpenId": "Steam sign-in failed. Try again from Connections settings.",
+        "twitchRedirect": "Twitch rejected the redirect URL. Check CONNECTIONS_REDIRECT_URI uses http://localhost."
+      },
+      "expired": "Connection expired — reconnect to continue.",
+      "github": {
+        "connect": "Connect",
+        "connected": "Connected",
+        "disconnect": "Disconnect",
+        "disconnected": "Not connected",
+        "name": "GitHub"
+      },
+      "notConfigured": "Not configured on this server",
+      "openProfile": "Open profile",
+      "reconnect": "Reconnect",
+      "showOnProfile": "Show on profile",
+      "showOnProfileDescription": "Display this connection on your Mutualzz profile.",
+      "spotify": {
+        "connect": "Connect",
+        "connectError": "Could not start Spotify connection.",
+        "connected": "Connected",
+        "controlError": "Spotify playback control failed. Premium may be required.",
+        "disconnect": "Disconnect",
+        "disconnected": "Not connected",
+        "expired": "Spotify connection expired. Reconnect to show activity again.",
+        "name": "Spotify",
+        "nothingPlaying": "Nothing playing on Spotify right now.",
+        "premiumHint": "Playback controls require Spotify Premium and an active Spotify device.",
+        "premiumRequired": "Spotify Premium is required for playback controls.",
+        "reconnect": "Reconnect Spotify",
+        "showActivity": "Show Spotify as activity",
+        "showActivityDescription": "Display what you're listening to on your Mutualzz profile and presence.",
+        "unavailable": "Spotify connect is coming later."
+      },
+      "spotifyConnectedToast": "Spotify connected",
+      "steam": {
+        "connect": "Connect",
+        "connected": "Connected",
+        "disconnect": "Disconnect",
+        "disconnected": "Not connected",
+        "name": "Steam"
+      },
+      "title": "Connections",
+      "twitch": {
+        "connect": "Connect",
+        "connected": "Connected",
+        "disconnect": "Disconnect",
+        "disconnected": "Not connected",
+        "name": "Twitch"
+      },
+      "unavailable": "Coming later"
     },
     "developmentBuild": "DEVELOPMENT BUILD",
     "expressions": {
@@ -1111,26 +1180,6 @@ export default interface Resources {
       "deleteConfirm": "Plugins using this token will disconnect. Discord channel bindings for this bridge will be removed.",
       "deleteTitle": "Delete {{name}}?",
       "deleting": "Deleting…",
-      "joinedViaMinecraft": "Joined via Minecraft",
-      "joinedToast": "Joined {{name}}",
-      "joinedBridges_one": "Joined {{count}} bridge",
-      "joinedBridges_other": "Joined {{count}} bridges",
-      "kickMember": "Remove",
-      "kickMemberConfirm": "Remove {{name}} from this bridge? They can rejoin by connecting to the Minecraft server while linked.",
-      "kickMemberTitle": "Remove {{name}}?",
-      "kickingMember": "Removing…",
-      "leave": "Leave bridge",
-      "leaveConfirm": "You will lose access to chat for {{name}} until you join that Minecraft server again while linked.",
-      "leaveRejoinHint": "Join the Minecraft server again while linked to get this bridge back.",
-      "leaveTitle": "Leave {{name}}?",
-      "leaving": "Leaving…",
-      "membersEmpty": "No community members yet. Linked players are added when they join the Minecraft server.",
-      "membersOffline": "Offline",
-      "membersOnline": "Online",
-      "membersTitle": "Members",
-      "ownerOnlySettings": "Only the bridge owner can manage tokens, Discord, and voice for this bridge.",
-      "roleMember": "Member",
-      "roleOwner": "Owner",
       "discordBindHint": "Relay Minecraft chat to a Discord text channel (and back). Optional — Mutualzz chat still works without Discord.",
       "discordBindTitle": "Discord chat",
       "discordBotPermissions": "The bot needs View Channel, Send Messages, and Manage Webhooks on that channel.",
@@ -1173,8 +1222,20 @@ export default interface Resources {
       "hubDisconnected": "No Minecraft server online",
       "hubWaitingBanner": "No Minecraft server is connected. Messages will send when the hub is back online.",
       "intro": "Connect Minecraft chat to Discord (and Mutualzz) in a few steps.",
+      "joinedBridges": "Joined {{count}} bridge" | "Joined {{count}} bridges",
+      "joinedToast": "Joined {{name}}",
+      "joinedViaMinecraft": "Joined via Minecraft",
+      "kickMember": "Remove",
+      "kickMemberConfirm": "Remove {{name}} from this bridge? They can rejoin by connecting to the Minecraft server while linked.",
+      "kickMemberTitle": "Remove {{name}}?",
+      "kickingMember": "Removing…",
       "lastSeen": "Last seen {{when}}",
       "lastSeenNever": "Never connected",
+      "leave": "Leave bridge",
+      "leaveConfirm": "You will lose access to chat for {{name}} until you join that Minecraft server again while linked.",
+      "leaveRejoinHint": "Join the Minecraft server again while linked to get this bridge back.",
+      "leaveTitle": "Leave {{name}}?",
+      "leaving": "Leaving…",
       "linkHint": "This links your Mutualzz account to one Minecraft player — shared across all your bridges. Needed later for voice and profile features.",
       "linkNeedsBridge": "Create a bridge in Setup before linking.",
       "linkPathApp": "Start here (in Mutualzz)",
@@ -1199,6 +1260,10 @@ export default interface Resources {
       "liveVoiceJoined": "{{name}} joined voice in {{channel}}",
       "liveVoiceLeft": "{{name}} left voice in {{channel}}",
       "liveWelcomeTitle": "Welcome to {{name}}",
+      "membersEmpty": "No community members yet. Linked players are added when they join the Minecraft server.",
+      "membersOffline": "Offline",
+      "membersOnline": "Online",
+      "membersTitle": "Members",
       "name": "Display name",
       "namePlaceholder": "My Minecraft server",
       "next": "Next",
@@ -1208,6 +1273,7 @@ export default interface Resources {
       "notLinked": "Not linked yet.",
       "onlineCount": "{{count}} player online" | "{{count}} players online",
       "onlineNone": "No players online",
+      "ownerOnlySettings": "Only the bridge owner can manage tokens, Discord, and voice for this bridge.",
       "pendingSend": "Queued",
       "pluginConfig": "Paste into your plugin",
       "pluginStep1": "1. Open plugins/MutualzzBridge/config.yml (or use the runServer dev config).",
@@ -1222,23 +1288,25 @@ export default interface Resources {
       "rename": "Rename",
       "renamePlaceholder": "Bridge name",
       "restore": "Restore",
+      "roleMember": "Member",
+      "roleOwner": "Owner",
       "rotateToken": "Get a new token",
       "rotateWarning": "Your old token will stop working. Update the plugin config after.",
       "rotating": "Generating…",
       "saveBinding": "Connect channel",
+      "saveServerName": "Save name",
       "saving": "Saving…",
+      "savingServerName": "Saving…",
       "selectBridge": "Active bridge",
       "selectBridgeFirst": "Create a bridge in Setup first.",
-      "serverId": "Server ID",
-      "serverIdHint": "Must match serverId in your plugin config.yml. Letters, numbers, _ and - only. Use a different ID for each Minecraft instance.",
-      "serverIdPlaceholder": "my-server",
-      "servers": "Minecraft servers",
       "serverDisplayName": "Display name",
       "serverDisplayNameHint": "Shown in presence (e.g. Survival). The server ID in your plugin config stays the same.",
       "serverDisplayNamePlaceholder": "Survival",
+      "serverId": "Server ID",
+      "serverIdHint": "Must match serverId in your plugin config.yml. Letters, numbers, _ and - only. Use a different ID for each Minecraft instance.",
       "serverIdLabel": "ID: {{id}}",
-      "saveServerName": "Save name",
-      "savingServerName": "Saving…",
+      "serverIdPlaceholder": "my-server",
+      "servers": "Minecraft servers",
       "sidebarEmpty": "Create a bridge in User Settings → Minecraft Bridge to start chatting.",
       "sidebarEmptyTitle": "No bridges yet",
       "sidebarTitle": "Bridges",
@@ -1279,6 +1347,11 @@ export default interface Resources {
       "yourCode": "Run this in Minecraft"
     },
     "notifications": {
+      "clearRecentActivity": "Clear recent activity",
+      "clearRecentActivityAction": "Clear",
+      "clearRecentActivityDescription": "Remove your stored recent activity history from Mutualzz",
+      "clearRecentActivityDone": "Recent activity cleared",
+      "clearRecentActivityError": "Could not clear recent activity",
       "directMessages": "Direct messages",
       "directMessagesDescription": "Includes group direct messages",
       "dndDescriptionMobile": "Set your status to Do Not Disturb or Invisible to suppress push notifications regardless of these toggles. While you are online and active, notifications stay in the app instead.",
@@ -1298,12 +1371,7 @@ export default interface Resources {
       "shareActivity": "Share game activity",
       "shareActivityDescription": "Show what you're playing, including Minecraft servers, to friends and others who can see your status",
       "shareRecentActivity": "Show recent activity",
-      "shareRecentActivityDescription": "Let others see games and listening sessions you finished in the last 24 hours",
-      "clearRecentActivity": "Clear recent activity",
-      "clearRecentActivityDescription": "Remove your stored recent activity history from Mutualzz",
-      "clearRecentActivityAction": "Clear",
-      "clearRecentActivityDone": "Recent activity cleared",
-      "clearRecentActivityError": "Could not clear recent activity"
+      "shareRecentActivityDescription": "Let others see games and listening sessions you finished in the last 24 hours"
     },
     "pages": {
       "appearance": "Appearance",
@@ -1319,96 +1387,6 @@ export default interface Resources {
       "voiceAndVideoWip": "Voice & Video (Still WIP)"
     },
     "privacyPolicy": "Privacy Policy",
-    "connections": {
-      "title": "Connections",
-      "connectError": "Could not connect that account.",
-      "connectFailed": "Could not connect account",
-      "connecting": "Connecting…",
-      "connectedToast": "{{provider}} connected",
-      "spotifyConnectedToast": "Spotify connected",
-      "accountConnectedToast": "Account connected",
-      "notConfigured": "Not configured on this server",
-      "unavailable": "Coming later",
-      "openProfile": "Open profile",
-      "showOnProfile": "Show on profile",
-      "showOnProfileDescription": "Display this connection on your Mutualzz profile.",
-      "expired": "Connection expired — reconnect to continue.",
-      "reconnect": "Reconnect",
-      "disconnectConfirm": {
-        "title": "Disconnect {{name}}?",
-        "body": "This removes the link between your Mutualzz account and {{name}}.",
-        "confirm": "Disconnect"
-      },
-      "errors": {
-        "steamOpenId": "Steam sign-in failed. Try again from Connections settings.",
-        "twitchRedirect": "Twitch rejected the redirect URL. Check CONNECTIONS_REDIRECT_URI uses http://localhost.",
-        "revoked": "That account access was revoked. Reconnect to continue.",
-        "generic": "Something went wrong connecting that account."
-      },
-      "github": {
-        "name": "GitHub",
-        "connect": "Connect",
-        "disconnect": "Disconnect",
-        "connected": "Connected",
-        "disconnected": "Not connected"
-      },
-      "twitch": {
-        "name": "Twitch",
-        "connect": "Connect",
-        "disconnect": "Disconnect",
-        "connected": "Connected",
-        "disconnected": "Not connected"
-      },
-      "steam": {
-        "name": "Steam",
-        "connect": "Connect",
-        "disconnect": "Disconnect",
-        "connected": "Connected",
-        "disconnected": "Not connected"
-      },
-      "spotify": {
-        "name": "Spotify",
-        "connect": "Connect",
-        "disconnect": "Disconnect",
-        "connected": "Connected",
-        "disconnected": "Not connected",
-        "showActivity": "Show Spotify as activity",
-        "showActivityDescription": "Display what you're listening to on your Mutualzz profile and presence.",
-        "nothingPlaying": "Nothing playing on Spotify right now.",
-        "premiumHint": "Playback controls require Spotify Premium and an active Spotify device.",
-        "premiumRequired": "Spotify Premium is required for playback controls.",
-        "expired": "Spotify connection expired. Reconnect to show activity again.",
-        "reconnect": "Reconnect Spotify",
-        "connectError": "Could not start Spotify connection.",
-        "controlError": "Spotify playback control failed. Premium may be required.",
-        "unavailable": "Spotify connect is coming later."
-      }
-    },
-    "registeredGames": {
-      "addGame": "Add Game",
-      "addIt": "Add it!",
-      "addedGames": "Added Games",
-      "addedGamesDescription": "Games Mutualzz has detected on this device, plus any you add manually. Toggle visibility to control what appears in your status.",
-      "currentGame": "Current Game",
-      "desktopOnly": "Registered games are only available in the desktop app.",
-      "empty": "Play a game or add one from running processes to see it here.",
-      "lastPlayedDays_one": "Last played {{count}} day ago",
-      "lastPlayedDays_other": "Last played {{count}} days ago",
-      "lastPlayedHours_one": "Last played {{count}} hour ago",
-      "lastPlayedHours_other": "Last played {{count}} hours ago",
-      "lastPlayedMinutes_one": "Last played {{count}} minute ago",
-      "lastPlayedMinutes_other": "Last played {{count}} minutes ago",
-      "namePlaceholder": "Display name",
-      "neverPlayed": "Not played yet",
-      "noCurrentGame": "You're not playing a detected game right now.",
-      "notSeeing": "Not seeing your game?",
-      "nowPlaying": "Now playing!",
-      "officialGame": "Official game",
-      "remove": "Remove game",
-      "scanning": "Scanning processes…",
-      "selectProcess": "Select",
-      "toggleShare": "Show in status"
-    },
     "profile": {
       "avatar": {
         "draw": {
@@ -1481,6 +1459,7 @@ export default interface Resources {
         "hideCustomStatus": "Hide custom status",
         "image": "Image",
         "links": "Links",
+        "listenedForEnded": "Listened for {{duration}} · Ended {{time}}",
         "moreCount": "+{{value}} more",
         "music": "Music",
         "musicSourceAll": "Apple + Deezer",
@@ -1498,7 +1477,6 @@ export default interface Resources {
         "notFriendsYet": "Not friends yet",
         "paletteTitle": "Blocks",
         "playedForEnded": "Played for {{duration}} · Ended {{time}}",
-        "listenedForEnded": "Listened for {{duration}} · Ended {{time}}",
         "quote": "Quote",
         "quoteAccent": "Accent",
         "quoteDefault": "Default",
@@ -1594,7 +1572,6 @@ export default interface Resources {
         "assetUploaded": "{{label}} uploaded",
         "attribution": "Attribution",
         "attributionOptional": "Attribution (optional)",
-        "connectionsHint": "Shows linked accounts the user chose to share (GitHub, Twitch, Steam, Spotify). Managed in Connections settings.",
         "attributionPlaceholder": "Optional — who said it",
         "back": "Back",
         "backgroundColor": "Background color",
@@ -1605,6 +1582,7 @@ export default interface Resources {
         "bannerHeight": "Banner height",
         "bannerHint": "Shown in your profile header block. Crop and height can be tuned when the header block is selected.",
         "bannerImage": "Banner image",
+        "blockBackgroundColorDescription": "Optional color or gradient behind this block.",
         "blockMusicHint": "Upload an MP3 or paste a YouTube link for full song playback.",
         "cannotRecrop": "This image cannot be re-cropped",
         "changeSticker": "Change sticker",
@@ -1612,6 +1590,7 @@ export default interface Resources {
         "chooseSticker": "Choose sticker",
         "clear": "Clear",
         "clickBlockToEdit": "Click a block on the canvas to edit it",
+        "connectionsHint": "Shows linked accounts the user chose to share (GitHub, Twitch, Steam, Spotify). Managed in Connections settings.",
         "contain": "Contain",
         "cornerRadius": {
           "hint": "Round block corners from {{min}}px to {{max}}px.",
@@ -1633,7 +1612,8 @@ export default interface Resources {
         "failedUploadAsset": "Failed to upload {{label}}",
         "font": "Font",
         "forward": "Forward",
-        "headerSizeHint": "Drag the block edges on the canvas to change overall header size. Use the sliders to tune banner height and vertical crop.",
+        "headerBackgroundColorDescription": "Color for the area below your banner.",
+        "headerSizeHint": "Drag the block edges on the canvas to change overall header size. Use the controls to tune banner height, crop, and the background below the banner.",
         "headerWidgetHint": "Shows your avatar, name, banner, and bio on the larger size.",
         "imageUploaded": "Image uploaded",
         "imageUrl": "Image URL",
@@ -1767,6 +1747,28 @@ export default interface Resources {
           "emptyStickers": "Choose stickers for {{count}} sticker widget before saving" | "Choose stickers for {{count}} sticker widgets before saving"
         }
       }
+    },
+    "registeredGames": {
+      "addGame": "Add Game",
+      "addIt": "Add it!",
+      "addedGames": "Added Games",
+      "addedGamesDescription": "Games Mutualzz has detected on this device, plus any you add manually. Toggle visibility to control what appears in your status.",
+      "currentGame": "Current Game",
+      "desktopOnly": "Registered games are only available in the desktop app.",
+      "empty": "Play a game or add one from running processes to see it here.",
+      "lastPlayedDays": "Last played {{count}} day ago" | "Last played {{count}} days ago",
+      "lastPlayedHours": "Last played {{count}} hour ago" | "Last played {{count}} hours ago",
+      "lastPlayedMinutes": "Last played {{count}} minute ago" | "Last played {{count}} minutes ago",
+      "namePlaceholder": "Display name",
+      "neverPlayed": "Not played yet",
+      "noCurrentGame": "You're not playing a detected game right now.",
+      "notSeeing": "Not seeing your game?",
+      "nowPlaying": "Now playing!",
+      "officialGame": "Official game",
+      "remove": "Remove game",
+      "scanning": "Scanning processes…",
+      "selectProcess": "Select",
+      "toggleShare": "Show in status"
     },
     "staffPanel": "Staff Panel",
     "termsOfService": "Terms of Service",
@@ -1937,13 +1939,13 @@ export default interface Resources {
       "inputMode": "Input mode",
       "inputModeDescription": "Choose whether your microphone activates automatically or only while you hold the push-to-talk button in voice channels.",
       "inputSensitivity": "Input sensitivity",
-      "microphone": "Microphone",
-      "microphoneVolume": "Microphone volume",
       "micTest": "Mic test",
       "micTestHint": "Speak or make some noise — the meter shows your mic level with the current noise suppression setting.",
       "micTestListeningHint": "You should hear yourself through your speakers. If you’re in a voice channel, you’re muted and deafened until you stop the test.",
       "micTestStart": "Test",
       "micTestStop": "Stop",
+      "microphone": "Microphone",
+      "microphoneVolume": "Microphone volume",
       "noCameras": "No cameras detected",
       "noDevices": "No devices detected.",
       "noMicrophones": "No microphones detected",
@@ -1977,6 +1979,7 @@ export default interface Resources {
       "unknownDevice": "Unknown device",
       "unknownMicrophone": "Unknown Microphone",
       "unknownSpeaker": "Unknown Speaker",
+      "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
       "voiceActivity": "Voice Activity",
       "voiceActivityDescription": "Your microphone only transmits while you are speaking. Adjust sensitivity if voice detection feels too sensitive or not sensitive enough.",
       "voiceActivitySection": "Voice activity",
@@ -2075,6 +2078,10 @@ export default interface Resources {
       "permissions": {
         "addOverwrite": "Add Permission Overwrite",
         "flags": {
+          "AddReactions": {
+            "description": "Allow members to add emoji reactions to messages",
+            "label": "Add Reactions"
+          },
           "AttachFiles": {
             "description": "Allow members to attach files",
             "label": "Attach Files"
@@ -2082,6 +2089,10 @@ export default interface Resources {
           "Connect": {
             "description": "Allow members to connect to this voice channel",
             "label": "Connect"
+          },
+          "DeafenMembers": {
+            "description": "Allow members to deafen other members in this voice channel",
+            "label": "Deafen Members"
           },
           "EmbedLinks": {
             "description": "Allow members to embed links",
@@ -2103,6 +2114,14 @@ export default interface Resources {
             "description": "Allow members to @mention @everyone and @here",
             "label": "Mention Everyone"
           },
+          "MoveMembers": {
+            "description": "Allow members to move other members between voice channels and disconnect them",
+            "label": "Move Members"
+          },
+          "MuteMembers": {
+            "description": "Allow members to mute other members in this voice channel",
+            "label": "Mute Members"
+          },
           "ReadMessageHistory": {
             "description": "Allow members to read past messages",
             "label": "Read Message History"
@@ -2118,6 +2137,14 @@ export default interface Resources {
           "UseExternalEmojis": {
             "description": "Allow members to use emojis from other spaces",
             "label": "Use External Emojis"
+          },
+          "UseExternalStickers": {
+            "description": "Allow members to use stickers from other spaces",
+            "label": "Use External Stickers"
+          },
+          "UseVAD": {
+            "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk.",
+            "label": "Use Voice Activity"
           },
           "ViewChannel": {
             "description": "Allow members to view this channel",
@@ -2345,6 +2372,10 @@ export default interface Resources {
         "clear": "Clear permissions",
         "emptySearch": "No permissions match your search",
         "flags": {
+          "AddReactions": {
+            "description": "Allow members to add emoji reactions to messages",
+            "label": "Add Reactions"
+          },
           "Administrator": {
             "description": "Members with this permission will have every permission. This is a dangerous permission to grant.",
             "descriptionBefore": "Members with this permission will have every permission.",
@@ -2370,6 +2401,10 @@ export default interface Resources {
           "CreateInvites": {
             "description": "Allow members to invite new people to this space",
             "label": "Create Invites"
+          },
+          "DeafenMembers": {
+            "description": "Allow members to deafen other members in voice channels",
+            "label": "Deafen Members"
           },
           "EmbedLinks": {
             "description": "Allow members to embed links in messages",
@@ -2403,6 +2438,14 @@ export default interface Resources {
             "description": "Allow members to mention @everyone and @here in messages",
             "label": "Mention Everyone"
           },
+          "MoveMembers": {
+            "description": "Allow members to move other members between voice channels and disconnect them",
+            "label": "Move Members"
+          },
+          "MuteMembers": {
+            "description": "Allow members to mute other members in voice channels",
+            "label": "Mute Members"
+          },
           "ReadMessageHistory": {
             "description": "Allow members to read message history",
             "label": "Read Message History"
@@ -2418,6 +2461,14 @@ export default interface Resources {
           "UseExternalEmojis": {
             "description": "Allow members to use emojis from other spaces or their own in their messages",
             "label": "Use External Emojis"
+          },
+          "UseExternalStickers": {
+            "description": "Allow members to use stickers from other spaces in their messages",
+            "label": "Use External Stickers"
+          },
+          "UseVAD": {
+            "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk.",
+            "label": "Use Voice Activity"
           },
           "ViewChannel": {
             "description": "Allow members to view channels by default",
@@ -2488,6 +2539,7 @@ export default interface Resources {
       "forcedLogout": "forced a logout for this account",
       "global": {
         "addedNote": "{{actor}} added a staff note on {{target}}",
+        "deletedChangelog": "{{actor}} deleted a changelog",
         "disabled": "{{actor}} disabled {{target}}",
         "enabled": "{{actor}} enabled {{target}}",
         "forcedLogout": "{{actor}} forced a logout for {{target}}",
@@ -2495,6 +2547,7 @@ export default interface Resources {
         "hardDeleted": "{{actor}} hard deleted {{target}}",
         "liftedRestriction": "{{actor}} lifted the restriction on {{target}}",
         "lockedDownSpace": "{{actor}} locked down a space",
+        "publishedChangelog": "{{actor}} published a changelog",
         "restricted": "{{actor}} restricted {{target}}",
         "revokedFlag": "{{actor}} revoked the {{flag}} flag from {{target}}",
         "revokedSession": "{{actor}} revoked a session for {{target}}",
@@ -2517,6 +2570,33 @@ export default interface Resources {
       "updatedProfile": "updated this user's profile",
       "warnedUser": "warned this user"
     },
+    "changelogs": {
+      "bodyLabel": "Body (markdown)",
+      "bodyPlaceholder": "Describe the changes…",
+      "delete": "Delete",
+      "deleted": "Changelog deleted",
+      "description": "Publish What’s New popups for users who update to a target app version.",
+      "desktop": "Desktop {{version}}",
+      "desktopVersion": "Desktop version",
+      "developerRequired": "Only developers can manage changelogs",
+      "empty": "No changelogs yet",
+      "errors": {
+        "delete": "Failed to delete changelog",
+        "publish": "Failed to publish changelog",
+        "versionRequired": "Provide a desktop and/or mobile version"
+      },
+      "imageUrlLabel": "Image URL (optional)",
+      "imageUrlPlaceholder": "https://…",
+      "mobile": "Mobile {{version}}",
+      "mobileVersion": "Mobile version",
+      "publish": "Publish",
+      "published": "Published successfully",
+      "publishing": "Publishing…",
+      "title": "Changelogs",
+      "titleLabel": "Title",
+      "titlePlaceholder": "What’s new in this release",
+      "versionPlaceholder": "e.g. 6.21.0"
+    },
     "exit": "Exit",
     "home": {
       "anyFlag": "Any flag",
@@ -2533,11 +2613,13 @@ export default interface Resources {
     "nav": {
       "activity": "Activity",
       "appeals": "Appeals",
+      "changelogs": "Changelogs",
       "reports": "Reports",
       "support": "Support"
     },
     "pages": {
       "activity": "Staff Activity",
+      "changelogs": "Changelogs",
       "reportDetails": "Report Details"
     },
     "report": {
@@ -2642,12 +2724,12 @@ export default interface Resources {
           "warnUser": "Failed to warn user"
         },
         "forceLogout": "Force Logout",
+        "founderProtectedBanner": "Founder accounts are protected. Staff cannot warn, restrict, disable, delete, or otherwise take action against them.",
         "hardDeleteAccount": "Hard Delete Account",
         "liftRestriction": "Lift Restriction",
         "restrictUser": "Restrict User",
         "softDeleteAccount": "Soft Delete Account",
         "softDeletedBanner": "This account is soft deleted. The user cannot log in, but their data is retained.",
-        "founderProtectedBanner": "Founder accounts are protected. Staff cannot warn, restrict, disable, delete, or otherwise take action against them.",
         "warnUser": "Warn User"
       },
       "audit": {

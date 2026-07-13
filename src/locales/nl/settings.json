@@ -13,7 +13,9 @@
     "voiceAndVideo": "Spraak en video",
     "voiceAndVideoWip": "Spraak en video (nog steeds WIP)",
     "avatarAndProfile": "Avatar & profiel",
-    "minecraftBridge": ""
+    "minecraftBridge": "",
+    "registeredGames": "",
+    "connections": ""
   },
   "helpAndSupport": "Help en ondersteuning",
   "logOut": "Uitloggen",
@@ -36,7 +38,16 @@
     "dndSuppressNote": "Niet storen en Onzichtbaar onderdrukken pushmeldingen altijd.",
     "dndTitle": "Niet storen",
     "dndDescriptionMobile": "Stel uw status in op Niet storen of Onzichtbaar om pushmeldingen te onderdrukken, ongeacht deze schakelaars. Terwijl u online en actief bent, blijven meldingen in de app staan.",
-    "presenceDescriptionMobile": "Inactieve detectie op het bureaublad markeert u automatisch als inactief na inactiviteit. Op mobiel kunt u uw statuskiezer gebruiken om Online, Inactief, Niet storen of Onzichtbaar in te stellen, inclusief getimede duur."
+    "presenceDescriptionMobile": "Inactieve detectie op het bureaublad markeert u automatisch als inactief na inactiviteit. Op mobiel kunt u uw statuskiezer gebruiken om Online, Inactief, Niet storen of Onzichtbaar in te stellen, inclusief getimede duur.",
+    "shareActivity": "",
+    "shareActivityDescription": "",
+    "shareRecentActivity": "",
+    "shareRecentActivityDescription": "",
+    "clearRecentActivity": "",
+    "clearRecentActivityDescription": "",
+    "clearRecentActivityAction": "",
+    "clearRecentActivityDone": "",
+    "clearRecentActivityError": ""
   },
   "account": {
     "editAvatar": "Avatar bewerken",
@@ -136,6 +147,7 @@
     "sensitivityPercent": "Gevoeligheid {{value}}%",
     "voiceActivitySection": "Stemactiviteit",
     "voiceActivityDescription": "Uw microfoon zendt alleen uit terwijl u spreekt. Pas de gevoeligheid aan als stemdetectie te gevoelig of niet gevoelig genoeg aanvoelt.",
+    "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
     "sensitivityPttOnly": "Gevoeligheidsinstellingen zijn alleen van toepassing in de stemactiviteitsmodus.",
     "perUserVolume": "Volume per gebruiker",
     "perUserVolumeDescription": "Terwijl u zich in een spraakkanaal bevindt, gebruikt u de volumeschuifregelaar op elke deelnemer om aan te passen hoe luid deze voor u klinken. Deze instellingen worden op dit apparaat opgeslagen.",
@@ -143,7 +155,20 @@
     "testCamera": "Testcamera",
     "testCameraShort": "Testcamera",
     "stopTesting": "Stop met testen",
-    "stopCameraTest": "Cameratest stoppen"
+    "stopCameraTest": "Cameratest stoppen",
+    "noiseSuppression": "",
+    "noiseSuppressionDescription": "",
+    "noiseSuppressionDescriptionMobile": "",
+    "noiseSuppressionApplying": "",
+    "noiseSuppressionOn": "",
+    "noiseSuppressionOff": "",
+    "micTest": "",
+    "micTestStart": "",
+    "micTestStop": "",
+    "micTestHint": "",
+    "micTestListeningHint": "",
+    "microphoneVolume": "",
+    "speakerVolume": ""
   },
   "expressions": {
     "emojis": "Emoji's",
@@ -343,7 +368,14 @@
       "moreCount": "+{{value}} meer",
       "noLinksYet": "Nog geen koppelingen",
       "addLinksInInspector": "Voeg koppelingen toe in de inspecteur",
-      "noResults": "Geen resultaten"
+      "noResults": "Geen resultaten",
+      "connections": "",
+      "recentActivity": "",
+      "endedAgo": "",
+      "playedForEnded": "",
+      "listenedForEnded": "",
+      "noRecentActivity": "",
+      "noConnectionsToShow": ""
     },
     "widgets": {
       "emptyEditor": "Voeg hieronder uw eerste widget toe om uw mobiele profiel aan te passen.",
@@ -378,6 +410,8 @@
       "bannerHint": "Getoond in uw profielkopblok. Bijsnijden en hoogte kunnen worden aangepast wanneer het koptekstblok is geselecteerd.",
       "backgroundColor": "Achtergrondkleur",
       "backgroundColorDescription": "Gebruik een effen kleur of verloop voor uw profielachtergrond.",
+      "headerBackgroundColorDescription": "Kleur voor het gebied onder je banner.",
+      "blockBackgroundColorDescription": "Optionele kleur of verloop achter dit blok.",
       "resetBackgroundColor": "Achtergrondkleur opnieuw instellen",
       "backgroundImage": "Achtergrondafbeelding",
       "backgroundImageUrl": "Achtergrondafbeelding-URL",
@@ -475,7 +509,8 @@
         "emptyLinks_one": "Voeg ten minste één link toe aan het {{count}}-linksblok voordat u deze opslaat",
         "emptyLinks_other": "Voeg ten minste één link toe aan {{count}}-linkblokken voordat u deze opslaat",
         "bioTooLong": "Bio mag maximaal 512 tekens lang zijn"
-      }
+      },
+      "connectionsHint": ""
     },
     "avatar": {
       "upload": {
@@ -887,7 +922,123 @@
     "unbind": "",
     "discordPickKnownServer": "",
     "discordInviteBot": "",
-    "discordInviteBotHint": ""
+    "discordInviteBotHint": "",
+    "serverDisplayName": "",
+    "serverDisplayNameHint": "",
+    "serverDisplayNamePlaceholder": "",
+    "serverIdLabel": "",
+    "saveServerName": "",
+    "savingServerName": "",
+    "leave": "",
+    "leaving": "",
+    "leaveConfirm": "",
+    "leaveTitle": "",
+    "leaveRejoinHint": "",
+    "joinedViaMinecraft": "",
+    "joinedToast": "",
+    "joinedBridges_one": "",
+    "joinedBridges_other": "",
+    "ownerOnlySettings": "",
+    "roleOwner": "",
+    "roleMember": "",
+    "membersTitle": "",
+    "membersEmpty": "",
+    "membersOnline": "",
+    "membersOffline": "",
+    "kickMember": "",
+    "kickingMember": "",
+    "kickMemberConfirm": "",
+    "kickMemberTitle": ""
   },
-  "termsOfService": "Servicevoorwaarden"
+  "termsOfService": "Servicevoorwaarden",
+  "connections": {
+    "title": "",
+    "connectError": "",
+    "connectFailed": "",
+    "connecting": "",
+    "connectedToast": "",
+    "spotifyConnectedToast": "",
+    "accountConnectedToast": "",
+    "notConfigured": "",
+    "unavailable": "",
+    "openProfile": "",
+    "showOnProfile": "",
+    "showOnProfileDescription": "",
+    "expired": "",
+    "reconnect": "",
+    "disconnectConfirm": {
+      "title": "",
+      "body": "",
+      "confirm": ""
+    },
+    "errors": {
+      "steamOpenId": "",
+      "twitchRedirect": "",
+      "revoked": "",
+      "generic": ""
+    },
+    "github": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "twitch": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "steam": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "spotify": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": "",
+      "showActivity": "",
+      "showActivityDescription": "",
+      "nothingPlaying": "",
+      "premiumHint": "",
+      "premiumRequired": "",
+      "expired": "",
+      "reconnect": "",
+      "connectError": "",
+      "controlError": "",
+      "unavailable": ""
+    }
+  },
+  "registeredGames": {
+    "currentGame": "",
+    "addedGames": "",
+    "addedGamesDescription": "",
+    "noCurrentGame": "",
+    "nowPlaying": "",
+    "neverPlayed": "",
+    "lastPlayedMinutes_one": "",
+    "lastPlayedMinutes_other": "",
+    "lastPlayedHours_one": "",
+    "lastPlayedHours_other": "",
+    "lastPlayedDays_one": "",
+    "lastPlayedDays_other": "",
+    "notSeeing": "",
+    "addIt": "",
+    "addGame": "",
+    "scanning": "",
+    "selectProcess": "",
+    "namePlaceholder": "",
+    "officialGame": "",
+    "toggleShare": "",
+    "remove": "",
+    "empty": "",
+    "desktopOnly": ""
+  }
 }

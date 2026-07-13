@@ -13,7 +13,9 @@
     "voiceAndVideo": "Voz e vídeo",
     "voiceAndVideoWip": "Voz e vídeo (ainda em desenvolvimento)",
     "avatarAndProfile": "Avatar e perfil",
-    "minecraftBridge": ""
+    "minecraftBridge": "",
+    "registeredGames": "",
+    "connections": ""
   },
   "helpAndSupport": "Ajuda e suporte",
   "logOut": "Sair",
@@ -36,7 +38,16 @@
     "dndSuppressNote": "Não perturbe e Invisível sempre suprimem as notificações push.",
     "dndTitle": "Não perturbe",
     "dndDescriptionMobile": "Defina seu status como Não perturbe ou Invisível para suprimir as notificações push independentemente desses interruptores. Enquanto você estiver online e ativo, as notificações ficam no app.",
-    "presenceDescriptionMobile": "A detecção de inatividade no desktop marca você automaticamente como ausente após um período sem atividade. No celular, use o seletor de status para definir Online, Ausente, Não perturbe ou Invisível — inclusive com durações temporizadas."
+    "presenceDescriptionMobile": "A detecção de inatividade no desktop marca você automaticamente como ausente após um período sem atividade. No celular, use o seletor de status para definir Online, Ausente, Não perturbe ou Invisível — inclusive com durações temporizadas.",
+    "shareActivity": "",
+    "shareActivityDescription": "",
+    "shareRecentActivity": "",
+    "shareRecentActivityDescription": "",
+    "clearRecentActivity": "",
+    "clearRecentActivityDescription": "",
+    "clearRecentActivityAction": "",
+    "clearRecentActivityDone": "",
+    "clearRecentActivityError": ""
   },
   "account": {
     "editAvatar": "Editar avatar",
@@ -136,6 +147,7 @@
     "sensitivityPercent": "Sensibilidade {{value}}%",
     "voiceActivitySection": "Atividade de voz",
     "voiceActivityDescription": "Seu microfone só transmite enquanto você está falando. Ajuste a sensibilidade se a detecção de voz estiver muito sensível ou pouco sensível.",
+    "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
     "sensitivityPttOnly": "As configurações de sensibilidade se aplicam apenas no modo de atividade de voz.",
     "perUserVolume": "Volume por usuário",
     "perUserVolumeDescription": "Enquanto estiver em um canal de voz, use o controle de volume de cada participante para ajustar o volume para você. Essas configurações são salvas neste dispositivo.",
@@ -143,7 +155,20 @@
     "testCamera": "Testar câmera",
     "testCameraShort": "Testar câmera",
     "stopTesting": "Parar teste",
-    "stopCameraTest": "Parar teste da câmera"
+    "stopCameraTest": "Parar teste da câmera",
+    "noiseSuppression": "",
+    "noiseSuppressionDescription": "",
+    "noiseSuppressionDescriptionMobile": "",
+    "noiseSuppressionApplying": "",
+    "noiseSuppressionOn": "",
+    "noiseSuppressionOff": "",
+    "micTest": "",
+    "micTestStart": "",
+    "micTestStop": "",
+    "micTestHint": "",
+    "micTestListeningHint": "",
+    "microphoneVolume": "",
+    "speakerVolume": ""
   },
   "expressions": {
     "emojis": "Emojis",
@@ -325,7 +350,14 @@
       "moreCount": "+{{value}} mais",
       "noLinksYet": "Ainda não há links",
       "addLinksInInspector": "Adicione links no inspetor",
-      "noResults": "Nenhum resultado"
+      "noResults": "Nenhum resultado",
+      "connections": "",
+      "recentActivity": "",
+      "endedAgo": "",
+      "playedForEnded": "",
+      "listenedForEnded": "",
+      "noRecentActivity": "",
+      "noConnectionsToShow": ""
     },
     "widgets": {
       "emptyEditor": "Adicione seu primeiro widget abaixo para começar a personalizar seu perfil móvel.",
@@ -359,6 +391,8 @@
       "bannerHint": "Exibida no bloco de cabeçalho do seu perfil. O recorte e a altura podem ser ajustados quando o bloco de cabeçalho estiver selecionado.",
       "backgroundColor": "Cor de fundo",
       "backgroundColorDescription": "Use uma cor sólida ou gradiente para o fundo do seu perfil.",
+      "headerBackgroundColorDescription": "Cor da área abaixo do seu banner.",
+      "blockBackgroundColorDescription": "Cor ou gradiente opcional atrás deste bloco.",
       "resetBackgroundColor": "Redefinir cor de fundo",
       "backgroundImage": "Imagem de fundo",
       "backgroundImageUrl": "URL da imagem de fundo",
@@ -457,7 +491,8 @@
       "songOrArtist": "Nome da música ou artista",
       "searchFailed": "A busca falhou",
       "editWidget": "Editar widget",
-      "detected": "Detectado: {{label}}"
+      "detected": "Detectado: {{label}}",
+      "connectionsHint": ""
     },
     "avatar": {
       "upload": {
@@ -887,7 +922,123 @@
     "unbind": "",
     "discordPickKnownServer": "",
     "discordInviteBot": "",
-    "discordInviteBotHint": ""
+    "discordInviteBotHint": "",
+    "serverDisplayName": "",
+    "serverDisplayNameHint": "",
+    "serverDisplayNamePlaceholder": "",
+    "serverIdLabel": "",
+    "saveServerName": "",
+    "savingServerName": "",
+    "leave": "",
+    "leaving": "",
+    "leaveConfirm": "",
+    "leaveTitle": "",
+    "leaveRejoinHint": "",
+    "joinedViaMinecraft": "",
+    "joinedToast": "",
+    "joinedBridges_one": "",
+    "joinedBridges_other": "",
+    "ownerOnlySettings": "",
+    "roleOwner": "",
+    "roleMember": "",
+    "membersTitle": "",
+    "membersEmpty": "",
+    "membersOnline": "",
+    "membersOffline": "",
+    "kickMember": "",
+    "kickingMember": "",
+    "kickMemberConfirm": "",
+    "kickMemberTitle": ""
   },
-  "termsOfService": "Termos de serviço"
+  "termsOfService": "Termos de serviço",
+  "connections": {
+    "title": "",
+    "connectError": "",
+    "connectFailed": "",
+    "connecting": "",
+    "connectedToast": "",
+    "spotifyConnectedToast": "",
+    "accountConnectedToast": "",
+    "notConfigured": "",
+    "unavailable": "",
+    "openProfile": "",
+    "showOnProfile": "",
+    "showOnProfileDescription": "",
+    "expired": "",
+    "reconnect": "",
+    "disconnectConfirm": {
+      "title": "",
+      "body": "",
+      "confirm": ""
+    },
+    "errors": {
+      "steamOpenId": "",
+      "twitchRedirect": "",
+      "revoked": "",
+      "generic": ""
+    },
+    "github": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "twitch": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "steam": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "spotify": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": "",
+      "showActivity": "",
+      "showActivityDescription": "",
+      "nothingPlaying": "",
+      "premiumHint": "",
+      "premiumRequired": "",
+      "expired": "",
+      "reconnect": "",
+      "connectError": "",
+      "controlError": "",
+      "unavailable": ""
+    }
+  },
+  "registeredGames": {
+    "currentGame": "",
+    "addedGames": "",
+    "addedGamesDescription": "",
+    "noCurrentGame": "",
+    "nowPlaying": "",
+    "neverPlayed": "",
+    "lastPlayedMinutes_one": "",
+    "lastPlayedMinutes_other": "",
+    "lastPlayedHours_one": "",
+    "lastPlayedHours_other": "",
+    "lastPlayedDays_one": "",
+    "lastPlayedDays_other": "",
+    "notSeeing": "",
+    "addIt": "",
+    "addGame": "",
+    "scanning": "",
+    "selectProcess": "",
+    "namePlaceholder": "",
+    "officialGame": "",
+    "toggleShare": "",
+    "remove": "",
+    "empty": "",
+    "desktopOnly": ""
+  }
 }

@@ -72,7 +72,8 @@
         "warnUser": "Kunde inte varna användare",
         "deleteAccount": "Kunde inte ta bort konto",
         "restrictUser": "Kunde inte begränsa användare"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Orsak (obligatorisk)",

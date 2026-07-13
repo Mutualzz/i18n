@@ -246,7 +246,13 @@
       "live": "直播中",
       "video": "視訊",
       "connectedViaMinecraft": "",
-      "audioInMinecraft": ""
+      "audioInMinecraft": "",
+      "noiseSuppression": "",
+      "noiseSuppressionDescription": "",
+      "noiseSuppressionA11y": "",
+      "noiseSuppressionOn": "",
+      "noiseSuppressionOff": "",
+      "noiseSuppressionApplying": ""
     },
     "participant": {
       "you": "（你）",
@@ -297,7 +303,9 @@
         "1080p60": "1080p 60幀",
         "source": "原始"
       }
-    }
+    },
+    "elapsedInChannel": "",
+    "channelOccupied": ""
   },
   "feed": {
     "title": "動態",

@@ -13,7 +13,9 @@
     "voiceAndVideo": "Голос і відео",
     "voiceAndVideoWip": "Голос і відео (ще в розробці)",
     "avatarAndProfile": "Аватар і профіль",
-    "minecraftBridge": ""
+    "minecraftBridge": "",
+    "registeredGames": "",
+    "connections": ""
   },
   "helpAndSupport": "Допомога та підтримка",
   "logOut": "Вийти",
@@ -36,7 +38,16 @@
     "dndSuppressNote": "«Не турбувати» та «Невидимий» завжди приглушують push-сповіщення.",
     "dndTitle": "Не турбувати",
     "dndDescriptionMobile": "Установіть статус «Не турбувати» або «Невидимий», щоб приглушити push-сповіщення незалежно від цих перемикачів. Поки ви онлайн і активні, сповіщення залишаються в застосунку.",
-    "presenceDescriptionMobile": "Виявлення неактивності на комп’ютері автоматично позначає вас як неактивного після бездіяльності. На мобільному скористайтеся вибором статусу: Онлайн, Неактивний, Не турбувати або Невидимий — включно з обмеженням за часом."
+    "presenceDescriptionMobile": "Виявлення неактивності на комп’ютері автоматично позначає вас як неактивного після бездіяльності. На мобільному скористайтеся вибором статусу: Онлайн, Неактивний, Не турбувати або Невидимий — включно з обмеженням за часом.",
+    "shareActivity": "",
+    "shareActivityDescription": "",
+    "shareRecentActivity": "",
+    "shareRecentActivityDescription": "",
+    "clearRecentActivity": "",
+    "clearRecentActivityDescription": "",
+    "clearRecentActivityAction": "",
+    "clearRecentActivityDone": "",
+    "clearRecentActivityError": ""
   },
   "account": {
     "editAvatar": "Редагувати аватар",
@@ -136,6 +147,7 @@
     "sensitivityPercent": "Чутливість {{value}}%",
     "voiceActivitySection": "Голосова активність",
     "voiceActivityDescription": "Мікрофон передає звук лише під час розмови. Відрегулюйте чутливість, якщо виявлення голосу занадто чутливе або недостатньо чутливе.",
+    "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
     "sensitivityPttOnly": "Налаштування чутливості застосовуються лише в режимі голосової активності.",
     "perUserVolume": "Гучність для кожного користувача",
     "perUserVolumeDescription": "У голосовому каналі скористайтеся повзунком гучності кожного учасника, щоб налаштувати, наскільки голосно ви його чуєте. Ці налаштування зберігаються на цьому пристрої.",
@@ -143,7 +155,20 @@
     "testCamera": "Перевірити камеру",
     "testCameraShort": "Перевірити камеру",
     "stopTesting": "Зупинити перевірку",
-    "stopCameraTest": "Зупинити перевірку камери"
+    "stopCameraTest": "Зупинити перевірку камери",
+    "noiseSuppression": "",
+    "noiseSuppressionDescription": "",
+    "noiseSuppressionDescriptionMobile": "",
+    "noiseSuppressionApplying": "",
+    "noiseSuppressionOn": "",
+    "noiseSuppressionOff": "",
+    "micTest": "",
+    "micTestStart": "",
+    "micTestStop": "",
+    "micTestHint": "",
+    "micTestListeningHint": "",
+    "microphoneVolume": "",
+    "speakerVolume": ""
   },
   "expressions": {
     "emojis": "Емодзі",
@@ -347,7 +372,14 @@
       "moreCount": "+ще {{value}}",
       "noLinksYet": "Посилань ще немає",
       "addLinksInInspector": "Додайте посилання в інспекторі",
-      "noResults": "Немає результатів"
+      "noResults": "Немає результатів",
+      "connections": "",
+      "recentActivity": "",
+      "endedAgo": "",
+      "playedForEnded": "",
+      "listenedForEnded": "",
+      "noRecentActivity": "",
+      "noConnectionsToShow": ""
     },
     "widgets": {
       "emptyEditor": "Додайте перший віджет нижче, щоб почати налаштовувати мобільний профіль.",
@@ -388,6 +420,8 @@
       "bannerHint": "Показується в блоці заголовка профілю. Обрізання та висоту можна налаштувати, коли вибрано блок заголовка.",
       "backgroundColor": "Колір тла",
       "backgroundColorDescription": "Використайте суцільний колір або градієнт для тла профілю.",
+      "headerBackgroundColorDescription": "Колір ділянки під банером.",
+      "blockBackgroundColorDescription": "Необовʼязковий колір або градієнт за цим блоком.",
       "resetBackgroundColor": "Скинути колір тла",
       "backgroundImage": "Зображення тла",
       "backgroundImageUrl": "URL зображення тла",
@@ -491,7 +525,8 @@
         "emptyStickers_many": "Оберіть стікери для {{count}} блоків стікерів перед збереженням",
         "emptyLinks_few": "Додайте щонайменше одне посилання до {{count}} блоків посилань перед збереженням",
         "emptyLinks_many": "Додайте щонайменше одне посилання до {{count}} блоків посилань перед збереженням"
-      }
+      },
+      "connectionsHint": ""
     },
     "avatar": {
       "upload": {
@@ -907,7 +942,123 @@
     "unbind": "",
     "discordPickKnownServer": "",
     "discordInviteBot": "",
-    "discordInviteBotHint": ""
+    "discordInviteBotHint": "",
+    "serverDisplayName": "",
+    "serverDisplayNameHint": "",
+    "serverDisplayNamePlaceholder": "",
+    "serverIdLabel": "",
+    "saveServerName": "",
+    "savingServerName": "",
+    "leave": "",
+    "leaving": "",
+    "leaveConfirm": "",
+    "leaveTitle": "",
+    "leaveRejoinHint": "",
+    "joinedViaMinecraft": "",
+    "joinedToast": "",
+    "joinedBridges_one": "",
+    "joinedBridges_other": "",
+    "ownerOnlySettings": "",
+    "roleOwner": "",
+    "roleMember": "",
+    "membersTitle": "",
+    "membersEmpty": "",
+    "membersOnline": "",
+    "membersOffline": "",
+    "kickMember": "",
+    "kickingMember": "",
+    "kickMemberConfirm": "",
+    "kickMemberTitle": ""
   },
-  "termsOfService": "Умови використання"
+  "termsOfService": "Умови використання",
+  "connections": {
+    "title": "",
+    "connectError": "",
+    "connectFailed": "",
+    "connecting": "",
+    "connectedToast": "",
+    "spotifyConnectedToast": "",
+    "accountConnectedToast": "",
+    "notConfigured": "",
+    "unavailable": "",
+    "openProfile": "",
+    "showOnProfile": "",
+    "showOnProfileDescription": "",
+    "expired": "",
+    "reconnect": "",
+    "disconnectConfirm": {
+      "title": "",
+      "body": "",
+      "confirm": ""
+    },
+    "errors": {
+      "steamOpenId": "",
+      "twitchRedirect": "",
+      "revoked": "",
+      "generic": ""
+    },
+    "github": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "twitch": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "steam": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "spotify": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": "",
+      "showActivity": "",
+      "showActivityDescription": "",
+      "nothingPlaying": "",
+      "premiumHint": "",
+      "premiumRequired": "",
+      "expired": "",
+      "reconnect": "",
+      "connectError": "",
+      "controlError": "",
+      "unavailable": ""
+    }
+  },
+  "registeredGames": {
+    "currentGame": "",
+    "addedGames": "",
+    "addedGamesDescription": "",
+    "noCurrentGame": "",
+    "nowPlaying": "",
+    "neverPlayed": "",
+    "lastPlayedMinutes_one": "",
+    "lastPlayedMinutes_other": "",
+    "lastPlayedHours_one": "",
+    "lastPlayedHours_other": "",
+    "lastPlayedDays_one": "",
+    "lastPlayedDays_other": "",
+    "notSeeing": "",
+    "addIt": "",
+    "addGame": "",
+    "scanning": "",
+    "selectProcess": "",
+    "namePlaceholder": "",
+    "officialGame": "",
+    "toggleShare": "",
+    "remove": "",
+    "empty": "",
+    "desktopOnly": ""
+  }
 }

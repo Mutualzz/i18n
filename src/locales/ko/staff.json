@@ -72,7 +72,8 @@
         "warnUser": "사용자 경고에 실패했습니다",
         "deleteAccount": "계정 삭제에 실패했습니다",
         "restrictUser": "사용자 제한에 실패했습니다"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "사유 (필수)",

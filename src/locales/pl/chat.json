@@ -250,7 +250,13 @@
       "live": "LIVE",
       "video": "Wideo",
       "connectedViaMinecraft": "",
-      "audioInMinecraft": ""
+      "audioInMinecraft": "",
+      "noiseSuppression": "",
+      "noiseSuppressionDescription": "",
+      "noiseSuppressionA11y": "",
+      "noiseSuppressionOn": "",
+      "noiseSuppressionOff": "",
+      "noiseSuppressionApplying": ""
     },
     "participant": {
       "you": "(Ty)",
@@ -307,7 +313,9 @@
       "applicationWindow_many": "Okno aplikacji ({{count}})"
     },
     "peopleInVoice_few": "Osoby {{count}} mają głos.",
-    "peopleInVoice_many": "Osoby {{count}} mają głos."
+    "peopleInVoice_many": "Osoby {{count}} mają głos.",
+    "elapsedInChannel": "",
+    "channelOccupied": ""
   },
   "feed": {
     "title": "Feed",

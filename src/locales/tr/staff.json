@@ -72,7 +72,8 @@
         "warnUser": "Kullanıcı uyarılamadı",
         "deleteAccount": "Hesap silinemedi",
         "restrictUser": "Kullanıcı kısıtlanamadı"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Neden (zorunlu)",

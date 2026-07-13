@@ -72,7 +72,8 @@
         "warnUser": "Falha ao advertir o usuário",
         "deleteAccount": "Falha ao excluir a conta",
         "restrictUser": "Falha ao restringir o usuário"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Motivo (obrigatório)",

@@ -149,7 +149,13 @@
       "live": "EN DIRECT",
       "video": "Vidéo",
       "connectedViaMinecraft": "",
-      "audioInMinecraft": ""
+      "audioInMinecraft": "",
+      "noiseSuppression": "",
+      "noiseSuppressionDescription": "",
+      "noiseSuppressionA11y": "",
+      "noiseSuppressionOn": "",
+      "noiseSuppressionOff": "",
+      "noiseSuppressionApplying": ""
     },
     "participant": {
       "you": "(Vous)",
@@ -213,7 +219,9 @@
       "differentDevice": "Connecté depuis un autre appareil",
       "movedChannel": "Déplacé vers un autre salon vocal",
       "enumerateDevices": "Échec de l’énumération des périphériques"
-    }
+    },
+    "elapsedInChannel": "",
+    "channelOccupied": ""
   },
   "feed": {
     "title": "Fil",

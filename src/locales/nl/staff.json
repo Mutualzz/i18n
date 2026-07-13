@@ -72,7 +72,8 @@
         "warnUser": "Kan gebruiker niet waarschuwen",
         "deleteAccount": "Kan account niet verwijderen",
         "restrictUser": "Kan gebruiker niet beperken"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Reden (verplicht)",

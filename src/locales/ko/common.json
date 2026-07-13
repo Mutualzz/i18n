@@ -216,7 +216,8 @@
     "ticketClosed": "이 티켓은 종료되었습니다.",
     "ticketClosedHint": "이 티켓은 종료되었습니다. 도움이 더 필요하면 새 티켓을 열어 주세요.",
     "updatedAt": "{{date}}에 업데이트됨",
-    "termsOfService": "서비스 약관"
+    "termsOfService": "서비스 약관",
+    "pendingTicketExists": ""
   },
   "nav": {
     "goBack": "뒤로",
@@ -277,5 +278,11 @@
   },
   "select": {
     "placeholder": "옵션 선택"
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

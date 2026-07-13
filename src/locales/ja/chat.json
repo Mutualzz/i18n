@@ -149,7 +149,13 @@
       "live": "ライブ",
       "video": "ビデオ",
       "connectedViaMinecraft": "",
-      "audioInMinecraft": ""
+      "audioInMinecraft": "",
+      "noiseSuppression": "",
+      "noiseSuppressionDescription": "",
+      "noiseSuppressionA11y": "",
+      "noiseSuppressionOn": "",
+      "noiseSuppressionOff": "",
+      "noiseSuppressionApplying": ""
     },
     "participant": {
       "you": "（あなた）",
@@ -213,7 +219,9 @@
       "differentDevice": "別のデバイスから接続されました",
       "movedChannel": "別のボイスチャンネルに移動しました",
       "enumerateDevices": "デバイスの列挙に失敗しました"
-    }
+    },
+    "elapsedInChannel": "",
+    "channelOccupied": ""
   },
   "feed": {
     "title": "フィード",

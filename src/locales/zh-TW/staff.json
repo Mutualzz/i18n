@@ -72,7 +72,8 @@
         "warnUser": "警告使用者失敗",
         "deleteAccount": "刪除帳戶失敗",
         "restrictUser": "限制使用者失敗"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "原因（必填）",

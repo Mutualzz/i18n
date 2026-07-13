@@ -276,6 +276,13 @@
         "hint": "Instellingen → Mijn account → Account verwijderen"
       }
     },
-    "termsOfService": "Servicevoorwaarden"
+    "termsOfService": "Servicevoorwaarden",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

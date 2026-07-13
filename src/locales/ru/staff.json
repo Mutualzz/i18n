@@ -72,7 +72,8 @@
         "warnUser": "Не удалось предупредить пользователя",
         "deleteAccount": "Не удалось удалить аккаунт",
         "restrictUser": "Не удалось ограничить пользователя"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Причина (обязательно)",

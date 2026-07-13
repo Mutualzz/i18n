@@ -219,6 +219,10 @@
           "label": "파일 첨부",
           "description": "멤버가 메시지에 파일을 첨부할 수 있도록 허용합니다"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "Everyone 멘션",
           "description": "멤버가 메시지에서 @everyone과 @here를 멘션할 수 있도록 허용합니다"
@@ -226,6 +230,10 @@
         "UseExternalEmojis": {
           "label": "외부 이모지 사용",
           "description": "멤버가 다른 스페이스나 자신의 이모지를 메시지에서 사용할 수 있도록 허용합니다"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces in their messages"
         },
         "ManageMessages": {
           "label": "메시지 관리",
@@ -242,6 +250,22 @@
         "Speak": {
           "label": "말하기",
           "description": "멤버가 음성 채널에서 말할 수 있도록 허용합니다"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in voice channels"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in voice channels"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         },
         "Administrator": {
           "label": "관리자",
@@ -347,6 +371,10 @@
           "label": "파일 첨부",
           "description": "멤버가 파일을 첨부할 수 있도록 허용합니다"
         },
+        "AddReactions": {
+          "label": "Add Reactions",
+          "description": "Allow members to add emoji reactions to messages"
+        },
         "MentionEveryone": {
           "label": "Everyone 멘션",
           "description": "멤버가 @everyone과 @here를 멘션할 수 있도록 허용합니다"
@@ -354,6 +382,10 @@
         "UseExternalEmojis": {
           "label": "외부 이모지 사용",
           "description": "멤버가 다른 스페이스의 이모지를 사용할 수 있도록 허용합니다"
+        },
+        "UseExternalStickers": {
+          "label": "Use External Stickers",
+          "description": "Allow members to use stickers from other spaces"
         },
         "ManageMessages": {
           "label": "메시지 관리",
@@ -370,6 +402,22 @@
         "Speak": {
           "label": "말하기",
           "description": "멤버가 이 음성 채널에서 말할 수 있도록 허용합니다"
+        },
+        "UseVAD": {
+          "label": "Use Voice Activity",
+          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+        },
+        "MuteMembers": {
+          "label": "Mute Members",
+          "description": "Allow members to mute other members in this voice channel"
+        },
+        "DeafenMembers": {
+          "label": "Deafen Members",
+          "description": "Allow members to deafen other members in this voice channel"
+        },
+        "MoveMembers": {
+          "label": "Move Members",
+          "description": "Allow members to move other members between voice channels and disconnect them"
         }
       },
       "addOverwrite": "권한 덮어쓰기 추가",

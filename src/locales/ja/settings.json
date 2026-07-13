@@ -13,7 +13,9 @@
     "voiceAndVideo": "音声とビデオ",
     "voiceAndVideoWip": "音声とビデオ（開発中）",
     "avatarAndProfile": "アバターとプロフィール",
-    "minecraftBridge": ""
+    "minecraftBridge": "",
+    "registeredGames": "",
+    "connections": ""
   },
   "helpAndSupport": "ヘルプとサポート",
   "logOut": "ログアウト",
@@ -36,7 +38,16 @@
     "dndSuppressNote": "取り込み中と非表示は常にプッシュ通知を抑制します。",
     "dndTitle": "取り込み中",
     "dndDescriptionMobile": "ステータスを取り込み中または非表示に設定すると、これらのトグルに関係なくプッシュ通知が抑制されます。オンラインでアクティブな間は、通知はアプリ内に留まります。",
-    "presenceDescriptionMobile": "デスクトップの離席検出は、一定時間操作がないと自動的に離席中にします。モバイルでは、ステータス選択からオンライン、離席中、取り込み中、非表示を設定できます（時間指定の期間も含む）。"
+    "presenceDescriptionMobile": "デスクトップの離席検出は、一定時間操作がないと自動的に離席中にします。モバイルでは、ステータス選択からオンライン、離席中、取り込み中、非表示を設定できます（時間指定の期間も含む）。",
+    "shareActivity": "",
+    "shareActivityDescription": "",
+    "shareRecentActivity": "",
+    "shareRecentActivityDescription": "",
+    "clearRecentActivity": "",
+    "clearRecentActivityDescription": "",
+    "clearRecentActivityAction": "",
+    "clearRecentActivityDone": "",
+    "clearRecentActivityError": ""
   },
   "account": {
     "editAvatar": "アバターを編集",
@@ -136,6 +147,7 @@
     "sensitivityPercent": "感度 {{value}}%",
     "voiceActivitySection": "音声検出",
     "voiceActivityDescription": "マイクは話している間だけ送信します。音声検出が敏感すぎる、または鈍すぎる場合は感度を調整してください。",
+    "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
     "sensitivityPttOnly": "感度設定は音声検出モードでのみ適用されます。",
     "perUserVolume": "ユーザーごとの音量",
     "perUserVolumeDescription": "ボイスチャンネルにいる間、各参加者の音量スライダーで聞こえ方を調整できます。これらの設定はこのデバイスに保存されます。",
@@ -143,7 +155,20 @@
     "testCamera": "カメラをテスト",
     "testCameraShort": "カメラをテスト",
     "stopTesting": "テストを停止",
-    "stopCameraTest": "カメラテストを停止"
+    "stopCameraTest": "カメラテストを停止",
+    "noiseSuppression": "",
+    "noiseSuppressionDescription": "",
+    "noiseSuppressionDescriptionMobile": "",
+    "noiseSuppressionApplying": "",
+    "noiseSuppressionOn": "",
+    "noiseSuppressionOff": "",
+    "micTest": "",
+    "micTestStart": "",
+    "micTestStop": "",
+    "micTestHint": "",
+    "micTestListeningHint": "",
+    "microphoneVolume": "",
+    "speakerVolume": ""
   },
   "expressions": {
     "emojis": "絵文字",
@@ -325,7 +350,14 @@
       "moreCount": "他{{value}}件",
       "noLinksYet": "リンクはまだありません",
       "addLinksInInspector": "インスペクターでリンクを追加",
-      "noResults": "結果なし"
+      "noResults": "結果なし",
+      "connections": "",
+      "recentActivity": "",
+      "endedAgo": "",
+      "playedForEnded": "",
+      "listenedForEnded": "",
+      "noRecentActivity": "",
+      "noConnectionsToShow": ""
     },
     "widgets": {
       "emptyEditor": "下に最初のウィジェットを追加して、モバイルプロフィールのカスタマイズを始めましょう。",
@@ -359,6 +391,8 @@
       "bannerHint": "プロフィールヘッダーブロックに表示されます。ヘッダーブロック選択時にトリミングと高さを調整できます。",
       "backgroundColor": "背景色",
       "backgroundColorDescription": "プロフィール背景に単色またはグラデーションを使用します。",
+      "headerBackgroundColorDescription": "バナー下の領域の色。",
+      "blockBackgroundColorDescription": "このブロックの背後に任意の色またはグラデーション。",
       "resetBackgroundColor": "背景色をリセット",
       "backgroundImage": "背景画像",
       "backgroundImageUrl": "背景画像URL",
@@ -457,7 +491,8 @@
       "songOrArtist": "曲名またはアーティスト名",
       "searchFailed": "検索に失敗しました",
       "editWidget": "ウィジェットを編集",
-      "detected": "検出: {{label}}"
+      "detected": "検出: {{label}}",
+      "connectionsHint": ""
     },
     "avatar": {
       "upload": {
@@ -887,7 +922,123 @@
     "unbind": "",
     "discordPickKnownServer": "",
     "discordInviteBot": "",
-    "discordInviteBotHint": ""
+    "discordInviteBotHint": "",
+    "serverDisplayName": "",
+    "serverDisplayNameHint": "",
+    "serverDisplayNamePlaceholder": "",
+    "serverIdLabel": "",
+    "saveServerName": "",
+    "savingServerName": "",
+    "leave": "",
+    "leaving": "",
+    "leaveConfirm": "",
+    "leaveTitle": "",
+    "leaveRejoinHint": "",
+    "joinedViaMinecraft": "",
+    "joinedToast": "",
+    "joinedBridges_one": "",
+    "joinedBridges_other": "",
+    "ownerOnlySettings": "",
+    "roleOwner": "",
+    "roleMember": "",
+    "membersTitle": "",
+    "membersEmpty": "",
+    "membersOnline": "",
+    "membersOffline": "",
+    "kickMember": "",
+    "kickingMember": "",
+    "kickMemberConfirm": "",
+    "kickMemberTitle": ""
   },
-  "termsOfService": "利用規約"
+  "termsOfService": "利用規約",
+  "connections": {
+    "title": "",
+    "connectError": "",
+    "connectFailed": "",
+    "connecting": "",
+    "connectedToast": "",
+    "spotifyConnectedToast": "",
+    "accountConnectedToast": "",
+    "notConfigured": "",
+    "unavailable": "",
+    "openProfile": "",
+    "showOnProfile": "",
+    "showOnProfileDescription": "",
+    "expired": "",
+    "reconnect": "",
+    "disconnectConfirm": {
+      "title": "",
+      "body": "",
+      "confirm": ""
+    },
+    "errors": {
+      "steamOpenId": "",
+      "twitchRedirect": "",
+      "revoked": "",
+      "generic": ""
+    },
+    "github": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "twitch": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "steam": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "spotify": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": "",
+      "showActivity": "",
+      "showActivityDescription": "",
+      "nothingPlaying": "",
+      "premiumHint": "",
+      "premiumRequired": "",
+      "expired": "",
+      "reconnect": "",
+      "connectError": "",
+      "controlError": "",
+      "unavailable": ""
+    }
+  },
+  "registeredGames": {
+    "currentGame": "",
+    "addedGames": "",
+    "addedGamesDescription": "",
+    "noCurrentGame": "",
+    "nowPlaying": "",
+    "neverPlayed": "",
+    "lastPlayedMinutes_one": "",
+    "lastPlayedMinutes_other": "",
+    "lastPlayedHours_one": "",
+    "lastPlayedHours_other": "",
+    "lastPlayedDays_one": "",
+    "lastPlayedDays_other": "",
+    "notSeeing": "",
+    "addIt": "",
+    "addGame": "",
+    "scanning": "",
+    "selectProcess": "",
+    "namePlaceholder": "",
+    "officialGame": "",
+    "toggleShare": "",
+    "remove": "",
+    "empty": "",
+    "desktopOnly": ""
+  }
 }

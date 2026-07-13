@@ -72,7 +72,8 @@
         "warnUser": "Benutzer konnte nicht verwarnt werden",
         "deleteAccount": "Konto konnte nicht gelöscht werden",
         "restrictUser": "Benutzer konnte nicht eingeschränkt werden"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Grund (erforderlich)",

@@ -288,6 +288,13 @@
         "hint": "الإعدادات ← حسابي ← حذف الحساب"
       }
     },
-    "termsOfService": "شروط الخدمة"
+    "termsOfService": "شروط الخدمة",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

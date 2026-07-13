@@ -13,7 +13,9 @@
     "voiceAndVideo": "الصوت والفيديو",
     "voiceAndVideoWip": "الصوت والفيديو (قيد التطوير)",
     "avatarAndProfile": "الصورة الرمزية والملف الشخصي",
-    "minecraftBridge": ""
+    "minecraftBridge": "",
+    "registeredGames": "",
+    "connections": ""
   },
   "helpAndSupport": "المساعدة والدعم",
   "logOut": "تسجيل الخروج",
@@ -36,7 +38,16 @@
     "dndSuppressNote": "عدم الإزعاج وغير المرئي يوقفان إشعارات الدفع دائمًا.",
     "dndTitle": "عدم الإزعاج",
     "dndDescriptionMobile": "اضبط حالتك على عدم الإزعاج أو غير مرئي لإيقاف إشعارات الدفع بغض النظر عن هذه المفاتيح. أثناء اتصالك ونشاطك، تبقى الإشعارات داخل التطبيق.",
-    "presenceDescriptionMobile": "اكتشاف الخمول على سطح المكتب يعلّمك تلقائيًا كخامل بعد عدم النشاط. على الجوال، استخدم منتقي الحالة لتعيين متصل أو خامل أو عدم الإزعاج أو غير مرئي — بما في ذلك المدد المؤقتة."
+    "presenceDescriptionMobile": "اكتشاف الخمول على سطح المكتب يعلّمك تلقائيًا كخامل بعد عدم النشاط. على الجوال، استخدم منتقي الحالة لتعيين متصل أو خامل أو عدم الإزعاج أو غير مرئي — بما في ذلك المدد المؤقتة.",
+    "shareActivity": "",
+    "shareActivityDescription": "",
+    "shareRecentActivity": "",
+    "shareRecentActivityDescription": "",
+    "clearRecentActivity": "",
+    "clearRecentActivityDescription": "",
+    "clearRecentActivityAction": "",
+    "clearRecentActivityDone": "",
+    "clearRecentActivityError": ""
   },
   "account": {
     "editAvatar": "تعديل الصورة الرمزية",
@@ -136,6 +147,7 @@
     "sensitivityPercent": "الحساسية {{value}}%",
     "voiceActivitySection": "نشاط الصوت",
     "voiceActivityDescription": "يُرسل الميكروفون فقط أثناء تحدثك. اضبط الحساسية إذا كان اكتشاف الصوت شديد الحساسية أو غير كافٍ.",
+    "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
     "sensitivityPttOnly": "إعدادات الحساسية تنطبق فقط في وضع نشاط الصوت.",
     "perUserVolume": "مستوى الصوت لكل مستخدم",
     "perUserVolumeDescription": "أثناء وجودك في قناة صوتية، استخدم شريط مستوى الصوت لكل مشارك لضبط ارتفاع صوته لديك. تُحفظ هذه الإعدادات على هذا الجهاز.",
@@ -143,7 +155,20 @@
     "testCamera": "اختبار الكاميرا",
     "testCameraShort": "اختبار الكاميرا",
     "stopTesting": "إيقاف الاختبار",
-    "stopCameraTest": "إيقاف اختبار الكاميرا"
+    "stopCameraTest": "إيقاف اختبار الكاميرا",
+    "noiseSuppression": "",
+    "noiseSuppressionDescription": "",
+    "noiseSuppressionDescriptionMobile": "",
+    "noiseSuppressionApplying": "",
+    "noiseSuppressionOn": "",
+    "noiseSuppressionOff": "",
+    "micTest": "",
+    "micTestStart": "",
+    "micTestStop": "",
+    "micTestHint": "",
+    "micTestListeningHint": "",
+    "microphoneVolume": "",
+    "speakerVolume": ""
   },
   "expressions": {
     "emojis": "الرموز التعبيرية",
@@ -351,7 +376,14 @@
       "moreCount": "+{{value}} المزيد",
       "noLinksYet": "لا توجد روابط بعد",
       "addLinksInInspector": "أضف روابط في المفتش",
-      "noResults": "لا توجد نتائج"
+      "noResults": "لا توجد نتائج",
+      "connections": "",
+      "recentActivity": "",
+      "endedAgo": "",
+      "playedForEnded": "",
+      "listenedForEnded": "",
+      "noRecentActivity": "",
+      "noConnectionsToShow": ""
     },
     "widgets": {
       "emptyEditor": "أضف أول ودجة أدناه لبدء تخصيص ملفك الشخصي على الجوال.",
@@ -398,6 +430,8 @@
       "bannerHint": "تظهر في كتلة رأس ملفك الشخصي. يمكن ضبط القص والارتفاع عند تحديد كتلة الرأس.",
       "backgroundColor": "لون الخلفية",
       "backgroundColorDescription": "استخدم لونًا ثابتًا أو تدرجًا لخلفية ملفك الشخصي.",
+      "headerBackgroundColorDescription": "لون المنطقة أسفل اللافتة.",
+      "blockBackgroundColorDescription": "لون أو تدرج اختياري خلف هذه الكتلة.",
       "resetBackgroundColor": "إعادة تعيين لون الخلفية",
       "backgroundImage": "صورة الخلفية",
       "backgroundImageUrl": "رابط صورة الخلفية",
@@ -507,7 +541,8 @@
         "emptyLinks_two": "أضف رابطًا واحدًا على الأقل لكتلة روابط واحدة ({{count}}) قبل الحفظ",
         "emptyLinks_few": "أضف رابطًا واحدًا على الأقل لـ {{count}} كتل روابط قبل الحفظ",
         "emptyLinks_many": "أضف رابطًا واحدًا على الأقل لـ {{count}} كتل روابط قبل الحفظ"
-      }
+      },
+      "connectionsHint": ""
     },
     "avatar": {
       "upload": {
@@ -927,7 +962,123 @@
     "unbind": "",
     "discordPickKnownServer": "",
     "discordInviteBot": "",
-    "discordInviteBotHint": ""
+    "discordInviteBotHint": "",
+    "serverDisplayName": "",
+    "serverDisplayNameHint": "",
+    "serverDisplayNamePlaceholder": "",
+    "serverIdLabel": "",
+    "saveServerName": "",
+    "savingServerName": "",
+    "leave": "",
+    "leaving": "",
+    "leaveConfirm": "",
+    "leaveTitle": "",
+    "leaveRejoinHint": "",
+    "joinedViaMinecraft": "",
+    "joinedToast": "",
+    "joinedBridges_one": "",
+    "joinedBridges_other": "",
+    "ownerOnlySettings": "",
+    "roleOwner": "",
+    "roleMember": "",
+    "membersTitle": "",
+    "membersEmpty": "",
+    "membersOnline": "",
+    "membersOffline": "",
+    "kickMember": "",
+    "kickingMember": "",
+    "kickMemberConfirm": "",
+    "kickMemberTitle": ""
   },
-  "termsOfService": "شروط الخدمة"
+  "termsOfService": "شروط الخدمة",
+  "connections": {
+    "title": "",
+    "connectError": "",
+    "connectFailed": "",
+    "connecting": "",
+    "connectedToast": "",
+    "spotifyConnectedToast": "",
+    "accountConnectedToast": "",
+    "notConfigured": "",
+    "unavailable": "",
+    "openProfile": "",
+    "showOnProfile": "",
+    "showOnProfileDescription": "",
+    "expired": "",
+    "reconnect": "",
+    "disconnectConfirm": {
+      "title": "",
+      "body": "",
+      "confirm": ""
+    },
+    "errors": {
+      "steamOpenId": "",
+      "twitchRedirect": "",
+      "revoked": "",
+      "generic": ""
+    },
+    "github": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "twitch": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "steam": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "spotify": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": "",
+      "showActivity": "",
+      "showActivityDescription": "",
+      "nothingPlaying": "",
+      "premiumHint": "",
+      "premiumRequired": "",
+      "expired": "",
+      "reconnect": "",
+      "connectError": "",
+      "controlError": "",
+      "unavailable": ""
+    }
+  },
+  "registeredGames": {
+    "currentGame": "",
+    "addedGames": "",
+    "addedGamesDescription": "",
+    "noCurrentGame": "",
+    "nowPlaying": "",
+    "neverPlayed": "",
+    "lastPlayedMinutes_one": "",
+    "lastPlayedMinutes_other": "",
+    "lastPlayedHours_one": "",
+    "lastPlayedHours_other": "",
+    "lastPlayedDays_one": "",
+    "lastPlayedDays_other": "",
+    "notSeeing": "",
+    "addIt": "",
+    "addGame": "",
+    "scanning": "",
+    "selectProcess": "",
+    "namePlaceholder": "",
+    "officialGame": "",
+    "toggleShare": "",
+    "remove": "",
+    "empty": "",
+    "desktopOnly": ""
+  }
 }

@@ -13,7 +13,9 @@
     "voiceAndVideo": "음성 및 영상",
     "voiceAndVideoWip": "음성 및 영상 (개발 중)",
     "avatarAndProfile": "아바타 및 프로필",
-    "minecraftBridge": ""
+    "minecraftBridge": "",
+    "registeredGames": "",
+    "connections": ""
   },
   "helpAndSupport": "도움말 및 지원",
   "logOut": "로그아웃",
@@ -36,7 +38,16 @@
     "dndSuppressNote": "방해 금지 및 숨김 상태는 항상 푸시 알림을 차단합니다.",
     "dndTitle": "방해 금지",
     "dndDescriptionMobile": "상태를 방해 금지 또는 숨김으로 설정하면 이 토글과 관계없이 푸시 알림이 차단됩니다. 온라인으로 활동 중일 때는 알림이 앱 안에 유지됩니다.",
-    "presenceDescriptionMobile": "데스크톱의 자리 비움 감지는 일정 시간 활동이 없으면 자동으로 자리 비움으로 표시합니다. 모바일에서는 상태 선택기로 온라인, 자리 비움, 방해 금지, 숨김을 설정할 수 있으며 시간 제한 기간도 포함됩니다."
+    "presenceDescriptionMobile": "데스크톱의 자리 비움 감지는 일정 시간 활동이 없으면 자동으로 자리 비움으로 표시합니다. 모바일에서는 상태 선택기로 온라인, 자리 비움, 방해 금지, 숨김을 설정할 수 있으며 시간 제한 기간도 포함됩니다.",
+    "shareActivity": "",
+    "shareActivityDescription": "",
+    "shareRecentActivity": "",
+    "shareRecentActivityDescription": "",
+    "clearRecentActivity": "",
+    "clearRecentActivityDescription": "",
+    "clearRecentActivityAction": "",
+    "clearRecentActivityDone": "",
+    "clearRecentActivityError": ""
   },
   "account": {
     "editAvatar": "아바타 편집",
@@ -136,6 +147,7 @@
     "sensitivityPercent": "감도 {{value}}%",
     "voiceActivitySection": "음성 감지",
     "voiceActivityDescription": "마이크는 말하는 동안에만 전송됩니다. 음성 감지가 너무 민감하거나 둔하면 감도를 조정하세요.",
+    "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
     "sensitivityPttOnly": "감도 설정은 음성 감지 모드에서만 적용됩니다.",
     "perUserVolume": "사용자별 볼륨",
     "perUserVolumeDescription": "음성 채널에 있는 동안 각 참가자의 볼륨 슬라이더로 들리는 크기를 조절할 수 있습니다. 이 설정은 이 기기에 저장됩니다.",
@@ -143,7 +155,20 @@
     "testCamera": "카메라 테스트",
     "testCameraShort": "카메라 테스트",
     "stopTesting": "테스트 중지",
-    "stopCameraTest": "카메라 테스트 중지"
+    "stopCameraTest": "카메라 테스트 중지",
+    "noiseSuppression": "",
+    "noiseSuppressionDescription": "",
+    "noiseSuppressionDescriptionMobile": "",
+    "noiseSuppressionApplying": "",
+    "noiseSuppressionOn": "",
+    "noiseSuppressionOff": "",
+    "micTest": "",
+    "micTestStart": "",
+    "micTestStop": "",
+    "micTestHint": "",
+    "micTestListeningHint": "",
+    "microphoneVolume": "",
+    "speakerVolume": ""
   },
   "expressions": {
     "emojis": "이모지",
@@ -325,7 +350,14 @@
       "moreCount": "+{{value}}개 더보기",
       "noLinksYet": "아직 링크가 없습니다",
       "addLinksInInspector": "인스펙터에서 링크 추가",
-      "noResults": "결과 없음"
+      "noResults": "결과 없음",
+      "connections": "",
+      "recentActivity": "",
+      "endedAgo": "",
+      "playedForEnded": "",
+      "listenedForEnded": "",
+      "noRecentActivity": "",
+      "noConnectionsToShow": ""
     },
     "widgets": {
       "emptyEditor": "아래에 첫 위젯을 추가하여 모바일 프로필 맞춤 설정을 시작하세요.",
@@ -359,6 +391,8 @@
       "bannerHint": "프로필 헤더 블록에 표시됩니다. 헤더 블록이 선택되면 자르기와 높이를 조정할 수 있습니다.",
       "backgroundColor": "배경색",
       "backgroundColorDescription": "프로필 배경에 단색 또는 그라데이션을 사용하세요.",
+      "headerBackgroundColorDescription": "배너 아래 영역의 색상입니다.",
+      "blockBackgroundColorDescription": "이 블록 뒤에 표시할 선택적 색상 또는 그라데이션입니다.",
       "resetBackgroundColor": "배경색 재설정",
       "backgroundImage": "배경 이미지",
       "backgroundImageUrl": "배경 이미지 URL",
@@ -457,7 +491,8 @@
       "songOrArtist": "곡 또는 아티스트 이름",
       "searchFailed": "검색에 실패했습니다",
       "editWidget": "위젯 편집",
-      "detected": "감지됨: {{label}}"
+      "detected": "감지됨: {{label}}",
+      "connectionsHint": ""
     },
     "avatar": {
       "upload": {
@@ -887,7 +922,123 @@
     "unbind": "",
     "discordPickKnownServer": "",
     "discordInviteBot": "",
-    "discordInviteBotHint": ""
+    "discordInviteBotHint": "",
+    "serverDisplayName": "",
+    "serverDisplayNameHint": "",
+    "serverDisplayNamePlaceholder": "",
+    "serverIdLabel": "",
+    "saveServerName": "",
+    "savingServerName": "",
+    "leave": "",
+    "leaving": "",
+    "leaveConfirm": "",
+    "leaveTitle": "",
+    "leaveRejoinHint": "",
+    "joinedViaMinecraft": "",
+    "joinedToast": "",
+    "joinedBridges_one": "",
+    "joinedBridges_other": "",
+    "ownerOnlySettings": "",
+    "roleOwner": "",
+    "roleMember": "",
+    "membersTitle": "",
+    "membersEmpty": "",
+    "membersOnline": "",
+    "membersOffline": "",
+    "kickMember": "",
+    "kickingMember": "",
+    "kickMemberConfirm": "",
+    "kickMemberTitle": ""
   },
-  "termsOfService": "서비스 약관"
+  "termsOfService": "서비스 약관",
+  "connections": {
+    "title": "",
+    "connectError": "",
+    "connectFailed": "",
+    "connecting": "",
+    "connectedToast": "",
+    "spotifyConnectedToast": "",
+    "accountConnectedToast": "",
+    "notConfigured": "",
+    "unavailable": "",
+    "openProfile": "",
+    "showOnProfile": "",
+    "showOnProfileDescription": "",
+    "expired": "",
+    "reconnect": "",
+    "disconnectConfirm": {
+      "title": "",
+      "body": "",
+      "confirm": ""
+    },
+    "errors": {
+      "steamOpenId": "",
+      "twitchRedirect": "",
+      "revoked": "",
+      "generic": ""
+    },
+    "github": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "twitch": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "steam": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "spotify": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": "",
+      "showActivity": "",
+      "showActivityDescription": "",
+      "nothingPlaying": "",
+      "premiumHint": "",
+      "premiumRequired": "",
+      "expired": "",
+      "reconnect": "",
+      "connectError": "",
+      "controlError": "",
+      "unavailable": ""
+    }
+  },
+  "registeredGames": {
+    "currentGame": "",
+    "addedGames": "",
+    "addedGamesDescription": "",
+    "noCurrentGame": "",
+    "nowPlaying": "",
+    "neverPlayed": "",
+    "lastPlayedMinutes_one": "",
+    "lastPlayedMinutes_other": "",
+    "lastPlayedHours_one": "",
+    "lastPlayedHours_other": "",
+    "lastPlayedDays_one": "",
+    "lastPlayedDays_other": "",
+    "notSeeing": "",
+    "addIt": "",
+    "addGame": "",
+    "scanning": "",
+    "selectProcess": "",
+    "namePlaceholder": "",
+    "officialGame": "",
+    "toggleShare": "",
+    "remove": "",
+    "empty": "",
+    "desktopOnly": ""
+  }
 }

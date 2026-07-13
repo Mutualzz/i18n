@@ -13,7 +13,9 @@
     "voiceAndVideo": "語音與視訊",
     "voiceAndVideoWip": "語音與視訊（開發中）",
     "avatarAndProfile": "頭像與個人資料",
-    "minecraftBridge": ""
+    "minecraftBridge": "",
+    "registeredGames": "",
+    "connections": ""
   },
   "helpAndSupport": "說明與支援",
   "logOut": "登出",
@@ -36,7 +38,16 @@
     "dndSuppressNote": "「請勿打擾」和「隱形」模式一律會關閉推播通知。",
     "dndTitle": "請勿打擾",
     "dndDescriptionMobile": "將您的狀態設為「請勿打擾」或「隱形」，無論這些切換開關如何設定，都會關閉推播通知。當您在線且活躍時，通知會留在應用程式內。",
-    "presenceDescriptionMobile": "桌面版閒置偵測會在無操作後自動將您標記為閒置。在行動裝置上，請使用狀態選擇器設定在線、閒置、請勿打擾或隱形，包含限時選項。"
+    "presenceDescriptionMobile": "桌面版閒置偵測會在無操作後自動將您標記為閒置。在行動裝置上，請使用狀態選擇器設定在線、閒置、請勿打擾或隱形，包含限時選項。",
+    "shareActivity": "",
+    "shareActivityDescription": "",
+    "shareRecentActivity": "",
+    "shareRecentActivityDescription": "",
+    "clearRecentActivity": "",
+    "clearRecentActivityDescription": "",
+    "clearRecentActivityAction": "",
+    "clearRecentActivityDone": "",
+    "clearRecentActivityError": ""
   },
   "account": {
     "editAvatar": "編輯頭像",
@@ -136,6 +147,7 @@
     "sensitivityPercent": "靈敏度 {{value}}%",
     "voiceActivitySection": "語音偵測",
     "voiceActivityDescription": "您的麥克風僅在您說話時傳送聲音。若語音偵測過於靈敏或不夠靈敏，請調整靈敏度。",
+    "vadPermissionRequired": "This channel requires push-to-talk. You do not have permission to use voice activity here.",
     "sensitivityPttOnly": "靈敏度設定僅適用於語音偵測模式。",
     "perUserVolume": "個別使用者音量",
     "perUserVolumeDescription": "在語音頻道中，使用每位參與者的音量滑桿來調整他們對您的音量大小。這些設定儲存在此裝置上。",
@@ -143,7 +155,20 @@
     "testCamera": "測試相機",
     "testCameraShort": "測試相機",
     "stopTesting": "停止測試",
-    "stopCameraTest": "停止相機測試"
+    "stopCameraTest": "停止相機測試",
+    "noiseSuppression": "",
+    "noiseSuppressionDescription": "",
+    "noiseSuppressionDescriptionMobile": "",
+    "noiseSuppressionApplying": "",
+    "noiseSuppressionOn": "",
+    "noiseSuppressionOff": "",
+    "micTest": "",
+    "micTestStart": "",
+    "micTestStop": "",
+    "micTestHint": "",
+    "micTestListeningHint": "",
+    "microphoneVolume": "",
+    "speakerVolume": ""
   },
   "expressions": {
     "emojis": "表情符號",
@@ -343,7 +368,14 @@
       "moreCount": "+{{value}} 個",
       "noLinksYet": "尚無連結",
       "addLinksInInspector": "在檢視器中新增連結",
-      "noResults": "無結果"
+      "noResults": "無結果",
+      "connections": "",
+      "recentActivity": "",
+      "endedAgo": "",
+      "playedForEnded": "",
+      "listenedForEnded": "",
+      "noRecentActivity": "",
+      "noConnectionsToShow": ""
     },
     "widgets": {
       "emptyEditor": "在下方新增您的第一個小工具，開始自訂您的行動版個人資料。",
@@ -378,6 +410,8 @@
       "bannerHint": "顯示在您的個人資料標題區塊中。選取標題區塊後可以調整裁切和高度。",
       "backgroundColor": "背景顏色",
       "backgroundColorDescription": "為您的個人資料背景使用純色或漸層。",
+      "headerBackgroundColorDescription": "橫幅下方區域的顏色。",
+      "blockBackgroundColorDescription": "此區塊背後的可選顏色或漸層。",
       "resetBackgroundColor": "重設背景顏色",
       "backgroundImage": "背景圖片",
       "backgroundImageUrl": "背景圖片 URL",
@@ -475,7 +509,8 @@
         "emptyLinks_one": "儲存前請為 {{count}} 個連結區塊新增至少一個連結",
         "emptyLinks_other": "儲存前請為 {{count}} 個連結區塊新增至少一個連結",
         "bioTooLong": "個人簡介最多 512 個字元"
-      }
+      },
+      "connectionsHint": ""
     },
     "avatar": {
       "upload": {
@@ -887,7 +922,123 @@
     "unbind": "",
     "discordPickKnownServer": "",
     "discordInviteBot": "",
-    "discordInviteBotHint": ""
+    "discordInviteBotHint": "",
+    "serverDisplayName": "",
+    "serverDisplayNameHint": "",
+    "serverDisplayNamePlaceholder": "",
+    "serverIdLabel": "",
+    "saveServerName": "",
+    "savingServerName": "",
+    "leave": "",
+    "leaving": "",
+    "leaveConfirm": "",
+    "leaveTitle": "",
+    "leaveRejoinHint": "",
+    "joinedViaMinecraft": "",
+    "joinedToast": "",
+    "joinedBridges_one": "",
+    "joinedBridges_other": "",
+    "ownerOnlySettings": "",
+    "roleOwner": "",
+    "roleMember": "",
+    "membersTitle": "",
+    "membersEmpty": "",
+    "membersOnline": "",
+    "membersOffline": "",
+    "kickMember": "",
+    "kickingMember": "",
+    "kickMemberConfirm": "",
+    "kickMemberTitle": ""
   },
-  "termsOfService": "服務條款"
+  "termsOfService": "服務條款",
+  "connections": {
+    "title": "",
+    "connectError": "",
+    "connectFailed": "",
+    "connecting": "",
+    "connectedToast": "",
+    "spotifyConnectedToast": "",
+    "accountConnectedToast": "",
+    "notConfigured": "",
+    "unavailable": "",
+    "openProfile": "",
+    "showOnProfile": "",
+    "showOnProfileDescription": "",
+    "expired": "",
+    "reconnect": "",
+    "disconnectConfirm": {
+      "title": "",
+      "body": "",
+      "confirm": ""
+    },
+    "errors": {
+      "steamOpenId": "",
+      "twitchRedirect": "",
+      "revoked": "",
+      "generic": ""
+    },
+    "github": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "twitch": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "steam": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": ""
+    },
+    "spotify": {
+      "name": "",
+      "connect": "",
+      "disconnect": "",
+      "connected": "",
+      "disconnected": "",
+      "showActivity": "",
+      "showActivityDescription": "",
+      "nothingPlaying": "",
+      "premiumHint": "",
+      "premiumRequired": "",
+      "expired": "",
+      "reconnect": "",
+      "connectError": "",
+      "controlError": "",
+      "unavailable": ""
+    }
+  },
+  "registeredGames": {
+    "currentGame": "",
+    "addedGames": "",
+    "addedGamesDescription": "",
+    "noCurrentGame": "",
+    "nowPlaying": "",
+    "neverPlayed": "",
+    "lastPlayedMinutes_one": "",
+    "lastPlayedMinutes_other": "",
+    "lastPlayedHours_one": "",
+    "lastPlayedHours_other": "",
+    "lastPlayedDays_one": "",
+    "lastPlayedDays_other": "",
+    "notSeeing": "",
+    "addIt": "",
+    "addGame": "",
+    "scanning": "",
+    "selectProcess": "",
+    "namePlaceholder": "",
+    "officialGame": "",
+    "toggleShare": "",
+    "remove": "",
+    "empty": "",
+    "desktopOnly": ""
+  }
 }

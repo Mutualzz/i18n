@@ -276,6 +276,13 @@
         "hint": "Impostazioni → Il mio account → Elimina account"
       }
     },
-    "termsOfService": "Termini di servizio"
+    "termsOfService": "Termini di servizio",
+    "pendingTicketExists": ""
+  },
+  "activity": {
+    "playing": "",
+    "listening": "",
+    "elapsed": "",
+    "showLess": ""
   }
 }

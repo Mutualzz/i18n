@@ -72,7 +72,8 @@
         "warnUser": "فشل تحذير المستخدم",
         "deleteAccount": "فشل حذف الحساب",
         "restrictUser": "فشل تقييد المستخدم"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "السبب (مطلوب)",

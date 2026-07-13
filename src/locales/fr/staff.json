@@ -72,7 +72,8 @@
         "warnUser": "Échec de l'avertissement de l'utilisateur",
         "deleteAccount": "Échec de la suppression du compte",
         "restrictUser": "Échec de la restriction de l'utilisateur"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Motif (obligatoire)",

@@ -72,7 +72,8 @@
         "warnUser": "Не вдалося попередити користувача",
         "deleteAccount": "Не вдалося видалити обліковий запис",
         "restrictUser": "Не вдалося обмежити користувача"
-      }
+      },
+      "founderProtectedBanner": ""
     },
     "modals": {
       "reasonRequired": "Причина (обов’язково)",
