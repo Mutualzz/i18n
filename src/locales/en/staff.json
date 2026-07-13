@@ -65,6 +65,7 @@
       "softDeleteAccount": "Soft Delete Account",
       "hardDeleteAccount": "Hard Delete Account",
       "softDeletedBanner": "This account is soft deleted. The user cannot log in, but their data is retained.",
+      "founderProtectedBanner": "Founder accounts are protected. Staff cannot warn, restrict, disable, delete, or otherwise take action against them.",
       "errors": {
         "liftRestriction": "Failed to lift restriction",
         "updateUser": "Failed to update user",

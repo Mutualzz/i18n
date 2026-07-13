@@ -448,7 +448,20 @@
     "testCamera": "Test Camera",
     "testCameraShort": "Test camera",
     "stopTesting": "Stop testing",
-    "stopCameraTest": "Stop camera test"
+    "stopCameraTest": "Stop camera test",
+    "noiseSuppression": "Noise suppression",
+    "noiseSuppressionDescription": "Reduce background noise like fans and keyboard clicks so others hear your voice more clearly.",
+    "noiseSuppressionDescriptionMobile": "Use your device’s built-in noise suppression on your microphone.",
+    "noiseSuppressionApplying": "Applying…",
+    "noiseSuppressionOn": "Noise suppression on",
+    "noiseSuppressionOff": "Noise suppression off",
+    "micTest": "Mic test",
+    "micTestStart": "Test",
+    "micTestStop": "Stop",
+    "micTestHint": "Speak or make some noise — the meter shows your mic level with the current noise suppression setting.",
+    "micTestListeningHint": "You should hear yourself through your speakers. If you’re in a voice channel, you’re muted and deafened until you stop the test.",
+    "microphoneVolume": "Microphone volume",
+    "speakerVolume": "Speaker volume"
   },
   "expressions": {
     "emojis": "Emojis",
