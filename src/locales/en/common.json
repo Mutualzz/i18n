@@ -26,6 +26,7 @@
     "defaultDescription": "Connect with other people who share your interests. Currently under heavy development"
   },
   "reload": "Reload app",
+  "logout": "Sign out",
   "download": "Download Mutualzz",
   "accept": "Accept",
   "decline": "Decline",
