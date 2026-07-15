@@ -156,6 +156,10 @@
     "playVideo": "Videoyu oynat",
     "pauseVideo": "Videoyu duraklat",
     "tapToOpen": "Açmak için dokun",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "Gönderildi",
     "createChannelInCategory": "Kategoride kanal oluştur",
     "reorder": "Yeniden sırala",

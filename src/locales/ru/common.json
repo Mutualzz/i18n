@@ -162,6 +162,10 @@
     "playVideo": "Воспроизвести видео",
     "pauseVideo": "Приостановить видео",
     "tapToOpen": "Нажмите, чтобы открыть",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "Отправлено",
     "createChannelInCategory": "Создать канал в категории",
     "reorder": "Изменить порядок",

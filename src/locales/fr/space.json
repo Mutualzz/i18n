@@ -284,6 +284,7 @@
     "pageDescription": "Importez et gérez des émojis et stickers personnalisés pour cet espace.",
     "emojiLimit": "Malheureusement, la limite actuelle d'émojis que vous pouvez importer est de 100, car l'application est en bêta et le stockage pose encore problème",
     "stickerLimit": "Malheureusement, la limite actuelle de stickers que vous pouvez importer est de 100, car l'application est en bêta et le stockage pose encore problème",
+    "emojiLimitMobile": "Limite bêta : {{limit}} émojis par espace.",
     "stickerLimitMobile": "Limite bêta : {{limit}} stickers par espace.",
     "emptyEmojis": "Aucun émoji d'espace pour le moment",
     "emptyStickers": "Aucun sticker d'espace pour le moment"

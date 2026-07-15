@@ -156,6 +156,10 @@
     "playVideo": "Speel video af",
     "pauseVideo": "Pauzeer video",
     "tapToOpen": "Tik om te openen",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "Verstuurd",
     "createChannelInCategory": "Kanaal in categorie maken",
     "reorder": "Opnieuw ordenen",

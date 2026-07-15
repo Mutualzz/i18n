@@ -156,6 +156,10 @@
     "playVideo": "Riproduci video",
     "pauseVideo": "Metti in pausa il video",
     "tapToOpen": "Tocca per aprire",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "Inviato",
     "createChannelInCategory": "Crea canale nella categoria",
     "reorder": "Riordina",

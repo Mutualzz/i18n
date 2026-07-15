@@ -256,6 +256,10 @@
     "playVideo": "動画を再生",
     "pauseVideo": "動画を一時停止",
     "tapToOpen": "タップして開く",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "送信済み",
     "createChannelInCategory": "カテゴリにチャンネルを作成",
     "reorder": "並べ替え",

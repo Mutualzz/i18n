@@ -162,6 +162,10 @@
     "playVideo": "Відтворити відео",
     "pauseVideo": "Призупинити відео",
     "tapToOpen": "Натисніть, щоб відкрити",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "Надіслано",
     "createChannelInCategory": "Створити канал у категорії",
     "reorder": "Змінити порядок",

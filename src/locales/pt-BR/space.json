@@ -284,6 +284,7 @@
     "pageDescription": "Envie e gerencie emojis e figurinhas personalizados para este espaço.",
     "emojiLimit": "Infelizmente, o limite atual de emojis que você pode enviar é 100, pois o app está em beta e o armazenamento ainda é um problema",
     "stickerLimit": "Infelizmente, o limite atual de figurinhas que você pode enviar é 100, pois o app está em beta e o armazenamento ainda é um problema",
+    "emojiLimitMobile": "Limite beta: {{limit}} emojis por espaço.",
     "stickerLimitMobile": "Limite beta: {{limit}} figurinhas por espaço.",
     "emptyEmojis": "Ainda não há emojis do espaço",
     "emptyStickers": "Ainda não há figurinhas do espaço"

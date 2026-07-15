@@ -284,6 +284,7 @@
     "pageDescription": "Sube y administra emojis y stickers personalizados para este espacio.",
     "emojiLimit": "Lamentablemente, el límite actual de emojis que puedes subir es 100, ya que la app está en beta y el almacenamiento es un problema por ahora",
     "stickerLimit": "Lamentablemente, el límite actual de stickers que puedes subir es 100, ya que la app está en beta y el almacenamiento es un problema por ahora",
+    "emojiLimitMobile": "Límite beta: {{limit}} emojis por espacio.",
     "stickerLimitMobile": "Límite beta: {{limit}} stickers por espacio.",
     "emptyEmojis": "Aún no hay emojis del espacio",
     "emptyStickers": "Aún no hay stickers del espacio"

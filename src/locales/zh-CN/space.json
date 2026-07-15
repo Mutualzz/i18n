@@ -284,6 +284,7 @@
     "pageDescription": "为此空间上传并管理自定义表情和贴纸。",
     "emojiLimit": "很抱歉，目前每个账户最多可上传 100 个表情，因为应用仍在测试阶段且存储有限",
     "stickerLimit": "很抱歉，目前每个账户最多可上传 100 个贴纸，因为应用仍在测试阶段且存储有限",
+    "emojiLimitMobile": "测试版限制：每个空间 {{limit}} 个表情符号。",
     "stickerLimitMobile": "测试版限制：每个空间 {{limit}} 个贴纸。",
     "emptyEmojis": "尚无空间表情",
     "emptyStickers": "尚无空间贴纸"

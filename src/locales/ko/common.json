@@ -256,6 +256,10 @@
     "playVideo": "동영상 재생",
     "pauseVideo": "동영상 일시정지",
     "tapToOpen": "탭하여 열기",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "보냄",
     "createChannelInCategory": "카테고리에 채널 만들기",
     "reorder": "순서 변경",

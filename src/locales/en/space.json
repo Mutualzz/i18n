@@ -284,6 +284,7 @@
     "pageDescription": "Upload and manage custom emoji and stickers for this space.",
     "emojiLimit": "Sadly current limit of emojis you can upload are 100, since the app is in beta and storage is an issue for now",
     "stickerLimit": "Sadly current limit of stickers you can upload are 100, since the app is in beta and storage is an issue for now",
+    "emojiLimitMobile": "Beta limit: {{limit}} emojis per space.",
     "stickerLimitMobile": "Beta limit: {{limit}} stickers per space.",
     "emptyEmojis": "No space emojis yet",
     "emptyStickers": "No space stickers yet"

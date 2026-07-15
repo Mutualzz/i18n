@@ -156,6 +156,10 @@
     "playVideo": "Spela video",
     "pauseVideo": "Pausa video",
     "tapToOpen": "Tryck för att öppna",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "Skickat",
     "createChannelInCategory": "Skapa kanal i kategori",
     "reorder": "Ordna om",

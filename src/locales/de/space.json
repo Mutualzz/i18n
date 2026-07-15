@@ -284,6 +284,7 @@
     "pageDescription": "Lade benutzerdefinierte Emojis und Sticker für diesen Space hoch und verwalte sie.",
     "emojiLimit": "Leider liegt das aktuelle Limit für hochladbare Emojis bei 100, da die App noch in der Beta ist und Speicherplatz derzeit ein Problem darstellt",
     "stickerLimit": "Leider liegt das aktuelle Limit für hochladbare Sticker bei 100, da die App noch in der Beta ist und Speicherplatz derzeit ein Problem darstellt",
+    "emojiLimitMobile": "Beta-Limit: {{limit}} Emojis pro Space.",
     "stickerLimitMobile": "Beta-Limit: {{limit}} Sticker pro Space.",
     "emptyEmojis": "Noch keine Space-Emojis",
     "emptyStickers": "Noch keine Space-Sticker"

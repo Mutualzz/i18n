@@ -703,7 +703,9 @@ export default interface Resources {
     "activity": {
       "elapsed": "{{time}} elapsed",
       "listening": "Listening",
+      "listened": "Listened",
       "playing": "Playing",
+      "played": "Played",
       "showLess": "Show less"
     },
     "add": "Add",

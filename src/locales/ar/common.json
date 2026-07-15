@@ -168,6 +168,10 @@
     "playVideo": "تشغيل الفيديو",
     "pauseVideo": "إيقاف الفيديو مؤقتًا",
     "tapToOpen": "انقر للفتح",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "تم الإرسال",
     "createChannelInCategory": "إنشاء قناة في الفئة",
     "reorder": "إعادة ترتيب",

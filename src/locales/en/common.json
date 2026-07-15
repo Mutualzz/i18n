@@ -60,6 +60,8 @@
   "activity": {
     "playing": "Playing",
     "listening": "Listening",
+    "played": "Played",
+    "listened": "Listened",
     "elapsed": "{{time}} elapsed",
     "showLess": "Show less"
   },
@@ -166,6 +168,8 @@
     "playVideo": "Play video",
     "pauseVideo": "Pause video",
     "tapToOpen": "Tap to open",
+    "imageAttachment": "Image attachment",
+    "fileAttachment": "File attachment",
     "sent": "Sent",
     "createChannelInCategory": "Create channel in category",
     "reorder": "Reorder",

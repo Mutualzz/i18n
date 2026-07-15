@@ -284,6 +284,7 @@
     "pageDescription": "Ladda upp och hantera anpassade emojis och dekaler för detta utrymme.",
     "emojiLimit": "Tyvärr är den nuvarande gränsen för emojis du kan ladda upp 100, eftersom appen är i beta och lagring är ett problem just nu",
     "stickerLimit": "Tyvärr är den nuvarande gränsen för dekaler du kan ladda upp 100, eftersom appen är i beta och lagring är ett problem just nu",
+    "emojiLimitMobile": "Betagräns: {{limit}} emojis per utrymme.",
     "stickerLimitMobile": "Betagräns: {{limit}} dekaler per utrymme.",
     "emptyEmojis": "Inga utrymmesemojis ännu",
     "emptyStickers": "Inga utrymmesdekaler ännu"

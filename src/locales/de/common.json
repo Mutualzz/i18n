@@ -256,6 +256,10 @@
     "playVideo": "Video abspielen",
     "pauseVideo": "Video pausieren",
     "tapToOpen": "Tippen zum Öffnen",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "Gesendet",
     "createChannelInCategory": "Kanal in Kategorie erstellen",
     "reorder": "Neu anordnen",

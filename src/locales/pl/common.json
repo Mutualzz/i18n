@@ -162,6 +162,10 @@
     "playVideo": "Odtwórz wideo",
     "pauseVideo": "Wstrzymaj wideo",
     "tapToOpen": "Kliknij, aby otworzyć",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "Wysłano",
     "createChannelInCategory": "Utwórz kanał w kategorii",
     "reorder": "Zmień kolejność",

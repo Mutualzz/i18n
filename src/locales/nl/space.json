@@ -284,6 +284,7 @@
     "pageDescription": "Upload en beheer aangepaste emoji's en stickers voor deze ruimte.",
     "emojiLimit": "Helaas is de huidige limiet van emoji's die je kunt uploaden 100, omdat de app zich in de bètafase bevindt en opslag voorlopig een probleem is",
     "stickerLimit": "Helaas is de huidige limiet van het aantal stickers dat je kunt uploaden 100, omdat de app zich in de bètafase bevindt en opslag voorlopig een probleem is",
+    "emojiLimitMobile": "Bètalimiet: {{limit}} emoji's per ruimte.",
     "stickerLimitMobile": "Bètalimiet: {{limit}}-stickers per ruimte.",
     "emptyEmojis": "Nog geen ruimte-emoji's",
     "emptyStickers": "Nog geen ruimtestickers"

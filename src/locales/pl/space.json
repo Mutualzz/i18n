@@ -294,6 +294,7 @@
     "pageDescription": "Przesyłaj niestandardowe emoji i naklejki dla tej przestrzeni oraz zarządzaj nimi.",
     "emojiLimit": "Niestety obecny limit emotikonów, które można przesłać, wynosi 100, ponieważ aplikacja jest w wersji beta i na razie problemem jest miejsce na dane",
     "stickerLimit": "Niestety obecny limit naklejek, które można przesłać, wynosi 100, ponieważ aplikacja jest w wersji beta i na razie problemem jest miejsce na dane",
+    "emojiLimitMobile": "Limit wersji beta: emoji {{limit}} na miejsce.",
     "stickerLimitMobile": "Limit wersji beta: naklejki {{limit}} na miejsce.",
     "emptyEmojis": "Nie ma jeszcze kosmicznych emoji",
     "emptyStickers": "Nie ma jeszcze naklejek kosmicznych"

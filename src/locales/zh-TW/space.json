@@ -284,6 +284,7 @@
     "pageDescription": "為此空間上傳並管理自訂表情和貼圖。",
     "emojiLimit": "很抱歉，目前每個帳戶最多可上傳 100 個表情，因為應用程式仍在測試階段且儲存空間有限",
     "stickerLimit": "很抱歉，目前每個帳戶最多可上傳 100 個貼圖，因為應用程式仍在測試階段且儲存空間有限",
+    "emojiLimitMobile": "測試版限制：每個空間 {{limit}} 個表情符號。",
     "stickerLimitMobile": "測試版限制：每個空間 {{limit}} 個貼圖。",
     "emptyEmojis": "尚無空間表情",
     "emptyStickers": "尚無空間貼圖"

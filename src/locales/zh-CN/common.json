@@ -156,6 +156,10 @@
     "playVideo": "播放视频",
     "pauseVideo": "暂停视频",
     "tapToOpen": "点按打开",
+
+    "imageAttachment": "Image attachment",
+
+    "fileAttachment": "File attachment",
     "sent": "已发送",
     "createChannelInCategory": "在分类中创建频道",
     "reorder": "重新排序",

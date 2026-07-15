@@ -284,6 +284,7 @@
     "pageDescription": "Bu alan için özel emoji ve çıkartmaları yükle ve yönet.",
     "emojiLimit": "Maalesef yükleyebileceğin emoji limiti şu an 100, çünkü uygulama beta aşamasında ve depolama şu an sorun",
     "stickerLimit": "Maalesef yükleyebileceğin çıkartma limiti şu an 100, çünkü uygulama beta aşamasında ve depolama şu an sorun",
+    "emojiLimitMobile": "Beta limiti: alan başına {{limit}} emoji.",
     "stickerLimitMobile": "Beta limiti: alan başına {{limit}} çıkartma.",
     "emptyEmojis": "Henüz alan emojisi yok",
     "emptyStickers": "Henüz alan çıkartması yok"

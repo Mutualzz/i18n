@@ -284,6 +284,7 @@
     "pageDescription": "Carica e gestisci emoji e adesivi personalizzati per questo spazio.",
     "emojiLimit": "Purtroppo il limite attuale di emoji che puoi caricare è 100, dato che l'app è in versione beta e per ora lo spazio di archiviazione è un problema",
     "stickerLimit": "Purtroppo il limite attuale di adesivi che puoi caricare è 100, poiché l'app è in versione beta e per ora lo spazio di archiviazione è un problema",
+    "emojiLimitMobile": "Limite beta: emoji {{limit}} per spazio.",
     "stickerLimitMobile": "Limite beta: adesivi {{limit}} per spazio.",
     "emptyEmojis": "Nessun emoji spaziale ancora",
     "emptyStickers": "Nessun adesivo spaziale ancora"
