@@ -1,10 +1,11 @@
 {
   "title": "Space Settings",
   "titleShort": "Space settings",
-  "overviewDescription": "Manage roles, invites, expressions, and moderation.",
+  "overviewDescription": "Manage roles, invites, expressions, Minecraft bridge, and moderation.",
   "nav": {
     "categories": {
       "general": "General",
+      "integrations": "Integrations",
       "people": "People",
       "moderation": "Moderation"
     },
@@ -14,7 +15,8 @@
       "channels": "Channels",
       "invites": "Invites",
       "expressions": "Expressions",
-      "bans": "Bans"
+      "bans": "Bans",
+      "minecraftBridge": "Minecraft Bridge"
     }
   },
   "actions": {
@@ -517,7 +519,9 @@
     "switchTo": "Switch to",
     "directMessages": "Direct Messages",
     "friends": "Friends",
-    "spaces": "Spaces"
+    "spaces": "Spaces",
+    "channels": "Channels",
+    "bridges": "Bridges"
   },
   "lockdown": {
     "title": "This space is in lockdown",

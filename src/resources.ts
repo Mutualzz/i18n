@@ -315,10 +315,12 @@ export const spacePageTitleKeys = {
   invites: "nav.pages.invites",
   expressions: "nav.pages.expressions",
   bans: "nav.pages.bans",
+  "minecraft-bridge": "nav.pages.minecraftBridge",
 } as const;
 
 export const spaceCategoryTitleKeys = {
   general: "nav.categories.general",
+  integrations: "nav.categories.integrations",
   people: "nav.categories.people",
   moderation: "nav.categories.moderation",
 } as const;
