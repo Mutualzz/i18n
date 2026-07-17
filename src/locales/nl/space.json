@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "Profiel",
+      "theme": "Theme",
       "roles": "Rollen",
       "channels": "Kanalen",
       "invites": "Uitnodigingen",
@@ -524,5 +525,12 @@
     "ownerMessage": "Berichten en wijzigingen zijn uitgeschakeld. Controleer uw e-mail op een bezwaarlink als u denkt dat dit een vergissing was.",
     "memberMessage": "Berichten en wijzigingen zijn uitgeschakeld terwijl het personeel deze ruimte beoordeelt.",
     "toast": "Deze ruimte is afgesloten. Berichten en wijzigingen zijn uitgeschakeld."
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "Profil",
+      "theme": "Theme",
       "roles": "Roller",
       "channels": "Kanallar",
       "invites": "Davetler",
@@ -524,5 +525,12 @@
     "ownerMessage": "Mesajlaşma ve değişiklikler devre dışı. Bunun bir hata olduğunu düşünüyorsan e-postandaki itiraz bağlantısını kontrol et.",
     "memberMessage": "Personel bu alanı incelerken mesajlaşma ve değişiklikler devre dışı.",
     "toast": "Bu alan kilitli. Mesajlaşma ve değişiklikler devre dışı."
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

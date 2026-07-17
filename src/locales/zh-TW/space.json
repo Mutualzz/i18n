@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "個人檔案",
+      "theme": "Theme",
       "roles": "角色",
       "channels": "頻道",
       "invites": "邀請",
@@ -524,5 +525,12 @@
     "ownerMessage": "訊息和變更已停用。若你認為這是誤判，請查收郵件中的申訴連結。",
     "memberMessage": "在工作人員審核此空間期間，訊息和變更已停用。",
     "toast": "此空間處於封鎖狀態。訊息和變更已停用。"
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "프로필",
+      "theme": "Theme",
       "roles": "역할",
       "channels": "채널",
       "invites": "초대",
@@ -524,5 +525,12 @@
     "createInviteA11y": "초대 만들기",
     "createCategoryA11y": "카테고리 만들기",
     "spaceMenuA11y": "스페이스 메뉴"
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }
