@@ -310,6 +310,7 @@ export const settingsCategoryTitleKeys = {
 
 export const spacePageTitleKeys = {
   profile: "nav.pages.profile",
+  theme: "nav.pages.theme",
   roles: "nav.pages.roles",
   channels: "nav.pages.channels",
   invites: "nav.pages.invites",

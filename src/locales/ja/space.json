@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "プロフィール",
+      "theme": "Theme",
       "roles": "ロール",
       "channels": "チャンネル",
       "invites": "招待",
@@ -524,5 +525,12 @@
     "createInviteA11y": "招待を作成",
     "createCategoryA11y": "カテゴリを作成",
     "spaceMenuA11y": "スペースメニュー"
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

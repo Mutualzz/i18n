@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "Profil",
+      "theme": "Theme",
       "roles": "Rôles",
       "channels": "Canaux",
       "invites": "Invitations",
@@ -524,5 +525,12 @@
     "createInviteA11y": "Créer une invitation",
     "createCategoryA11y": "Créer une catégorie",
     "spaceMenuA11y": "Menu de l'espace"
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

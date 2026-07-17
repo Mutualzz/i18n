@@ -11,6 +11,7 @@
     },
     "pages": {
       "profile": "Profile",
+      "theme": "Theme",
       "roles": "Roles",
       "channels": "Channels",
       "invites": "Invites",
@@ -48,6 +49,13 @@
     "descriptionPlaceholder": "Write something about your space...",
     "updatedSuccess": "Space updated successfully.",
     "genericError": "An error occurred"
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   },
   "invites": {
     "activeLinks": "Active Invite Links",

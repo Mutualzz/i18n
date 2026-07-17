@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "الملف",
+      "theme": "Theme",
       "roles": "الأدوار",
       "channels": "القنوات",
       "invites": "الدعوات",
@@ -544,5 +545,12 @@
     "ownerMessage": "الرسائل والتغييرات معطّلة. تحقق من بريدك لرابط استئناف إذا كنت تعتقد أن هذا خطأ.",
     "memberMessage": "الرسائل والتغييرات معطّلة بينما يراجع الفريق هذه المساحة.",
     "toast": "هذه المساحة في حالة إغلاق. الرسائل والتغييرات معطّلة."
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

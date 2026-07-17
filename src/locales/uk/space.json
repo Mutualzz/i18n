@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "Профіль",
+      "theme": "Theme",
       "roles": "Ролі",
       "channels": "Канали",
       "invites": "Запрошення",
@@ -534,5 +535,12 @@
     "ownerMessage": "Повідомлення та зміни вимкнено. Перевірте електронну пошту на посилання для оскарження, якщо вважаєте, що це помилка.",
     "memberMessage": "Повідомлення та зміни вимкнено, поки персонал перевіряє цей простір.",
     "toast": "Цей простір у режимі блокування. Повідомлення та зміни вимкнено."
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

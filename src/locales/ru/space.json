@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "Профиль",
+      "theme": "Theme",
       "roles": "Роли",
       "channels": "Каналы",
       "invites": "Приглашения",
@@ -534,5 +535,12 @@
     "ownerMessage": "Сообщения и изменения отключены. Проверьте email со ссылкой на апелляцию, если считаете, что это ошибка.",
     "memberMessage": "Сообщения и изменения отключены, пока сотрудники проверяют пространство.",
     "toast": "Пространство заблокировано. Сообщения и изменения отключены."
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

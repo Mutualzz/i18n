@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "Profil",
+      "theme": "Theme",
       "roles": "Role",
       "channels": "Kanały",
       "invites": "Zaproszenia",
@@ -534,5 +535,12 @@
     "ownerMessage": "Przesyłanie wiadomości i zmiany są wyłączone. Jeśli uważasz, że to pomyłka, sprawdź pocztę e-mail, gdzie znajduje się link do odwołania.",
     "memberMessage": "Dopóki pracownicy przeglądają to miejsce, wysyłanie wiadomości i zmiany są wyłączone.",
     "toast": "Ta przestrzeń jest zamknięta. Przesyłanie wiadomości i zmiany są wyłączone."
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

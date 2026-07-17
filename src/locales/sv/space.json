@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "Profil",
+      "theme": "Theme",
       "roles": "Roller",
       "channels": "Kanaler",
       "invites": "Inbjudningar",
@@ -524,5 +525,12 @@
     "ownerMessage": "Meddelanden och ändringar är inaktiverade. Kontrollera din e-post för en överklagandelänk om du tror att detta var ett misstag.",
     "memberMessage": "Meddelanden och ändringar är inaktiverade medan personal granskar detta utrymme.",
     "toast": "Detta utrymme är i lockdown. Meddelanden och ändringar är inaktiverade."
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

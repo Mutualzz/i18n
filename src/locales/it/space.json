@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "Profilo",
+      "theme": "Theme",
       "roles": "Ruoli",
       "channels": "Canali",
       "invites": "Inviti",
@@ -524,5 +525,12 @@
     "ownerMessage": "Messaggi e modifiche sono disabilitati. Controlla la tua email per trovare un link per il ricorso se ritieni che si sia trattato di un errore.",
     "memberMessage": "Messaggi e modifiche sono disabilitati mentre lo staff esamina questo spazio.",
     "toast": "Questo spazio è bloccato. Messaggi e modifiche sono disabilitati."
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }

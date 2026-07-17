@@ -10,6 +10,7 @@
     },
     "pages": {
       "profile": "资料",
+      "theme": "Theme",
       "roles": "角色",
       "channels": "频道",
       "invites": "邀请",
@@ -524,5 +525,12 @@
     "ownerMessage": "消息和更改已禁用。若你认为这是误判，请查收邮件中的申诉链接。",
     "memberMessage": "在工作人员审核此空间期间，消息和更改已禁用。",
     "toast": "此空间处于封锁状态。消息和更改已禁用。"
+  },
+  "theme": {
+    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
+    "clear": "Use personal theme",
+    "createCustom": "Create space theme",
+    "spaceThemes": "This space",
+    "noCustomThemes": "No custom themes yet. Create one to brand this space."
   }
 }
