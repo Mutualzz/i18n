@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sounds",
+    "soundsDescription": "Control which in-app sounds play on this device. These preferences stay on this device.",
+    "soundsEnable": "Enable sounds",
+    "soundsDndNote": "Message notification sounds are suppressed while your status is Do Not Disturb.",
+    "sounds": {
+      "message": "Message notifications",
+      "call_incoming": "Incoming call",
+      "call_outgoing": "Outgoing call",
+      "call_connect": "Call connected",
+      "call_disconnect": "Call disconnected",
+      "call_decline": "Call declined",
+      "user_join": "User joined voice",
+      "user_leave": "User left voice",
+      "mute": "Mute / unmute",
+      "deafen": "Deafen / undeafen",
+      "ptt": "Push to talk",
+      "stream": "Screen share"
+    },
+    "soundsPreview": "Прослухати звук"
   },
   "account": {
     "editAvatar": "Редагувати аватар",
@@ -294,7 +313,9 @@
       "moveWidgetDown": "Перемістити віджет вниз",
       "editWidgetA11y": "Редагувати віджет {{type}}",
       "widgetCount_few": "Віджетів у вашому мобільному профілі: {{count}}.",
-      "widgetCount_many": "Віджетів у вашому мобільному профілі: {{count}}."
+      "widgetCount_many": "Віджетів у вашому мобільному профілі: {{count}}.",
+      "pronouns": "Займенники",
+      "pronounsPlaceholder": "напр. they/them"
     },
     "viewer": {
       "emptySelfTitle": "Ви ще не налаштували свій профіль",
@@ -524,7 +545,8 @@
         "emptyStickers_few": "Оберіть стікери для {{count}} блоків стікерів перед збереженням",
         "emptyStickers_many": "Оберіть стікери для {{count}} блоків стікерів перед збереженням",
         "emptyLinks_few": "Додайте щонайменше одне посилання до {{count}} блоків посилань перед збереженням",
-        "emptyLinks_many": "Додайте щонайменше одне посилання до {{count}} блоків посилань перед збереженням"
+        "emptyLinks_many": "Додайте щонайменше одне посилання до {{count}} блоків посилань перед збереженням",
+        "pronounsTooLong": "Займенники мають містити не більше 32 символів"
       },
       "connectionsHint": ""
     },
@@ -764,7 +786,11 @@
       "mutedTextShort": "Приглушений текст",
       "mutedTextDescription": "Використовується для приглушених текстів",
       "baseText": "Колір базового тексту",
-      "baseTextShort": "Базовий текст"
+      "baseTextShort": "Базовий текст",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -968,7 +994,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Умови використання",
   "connections": {

@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sonidos",
+    "soundsDescription": "Controla qué sonidos de la app se reproducen en este dispositivo. Estas preferencias se quedan aquí.",
+    "soundsEnable": "Activar sonidos",
+    "soundsDndNote": "Los sonidos de mensajes se silencian cuando tu estado es No molestar.",
+    "sounds": {
+      "message": "Notificaciones de mensajes",
+      "call_incoming": "Llamada entrante",
+      "call_outgoing": "Llamada saliente",
+      "call_connect": "Llamada conectada",
+      "call_disconnect": "Llamada desconectada",
+      "call_decline": "Llamada rechazada",
+      "user_join": "Usuario entró al canal de voz",
+      "user_leave": "Usuario salió del canal de voz",
+      "mute": "Silenciar / activar micrófono",
+      "deafen": "Ensordecer / dejar de ensordecer",
+      "ptt": "Pulsar para hablar",
+      "stream": "Compartir pantalla"
+    },
+    "soundsPreview": "Vista previa del sonido"
   },
   "account": {
     "editAvatar": "Editar avatar",
@@ -290,7 +309,9 @@
       "addLink": "Añadir enlace",
       "moveWidgetUp": "Mover widget arriba",
       "moveWidgetDown": "Mover widget abajo",
-      "editWidgetA11y": "Editar widget {{type}}"
+      "editWidgetA11y": "Editar widget {{type}}",
+      "pronouns": "Pronombres",
+      "pronounsPlaceholder": "p. ej. they/them"
     },
     "viewer": {
       "emptySelfTitle": "Aún no has configurado tu perfil",
@@ -460,7 +481,8 @@
         "emptyStickers_other": "Elige stickers para {{count}} bloques de sticker antes de guardar",
         "emptyLinks_one": "Añade al menos un enlace al bloque de enlaces {{count}} antes de guardar",
         "emptyLinks_other": "Añade al menos un enlace a {{count}} bloques de enlaces antes de guardar",
-        "bioTooLong": "La biografía debe tener como máximo 512 caracteres"
+        "bioTooLong": "La biografía debe tener como máximo 512 caracteres",
+        "pronounsTooLong": "Los pronombres deben tener como máximo 32 caracteres"
       },
       "maxRoles": "Máx. de roles",
       "maxRolesShown": "Máx. de roles mostrados ({{value}})",
@@ -724,7 +746,11 @@
       "mutedTextShort": "Texto atenuado",
       "mutedTextDescription": "Se usa para textos atenuados",
       "baseText": "Color de texto base",
-      "baseTextShort": "Texto base"
+      "baseTextShort": "Texto base",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "fonts": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Términos de servicio",
   "connections": {

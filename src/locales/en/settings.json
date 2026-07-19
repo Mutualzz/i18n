@@ -320,7 +320,26 @@
     "dndSuppressNote": "Do Not Disturb and Invisible always suppress push notifications.",
     "dndTitle": "Do Not Disturb",
     "dndDescriptionMobile": "Set your status to Do Not Disturb or Invisible to suppress push notifications regardless of these toggles. While you are online and active, notifications stay in the app instead.",
-    "presenceDescriptionMobile": "Idle detection on desktop automatically marks you as idle after inactivity. On mobile, use your status picker to set Online, Idle, Do Not Disturb, or Invisible - including timed durations."
+    "presenceDescriptionMobile": "Idle detection on desktop automatically marks you as idle after inactivity. On mobile, use your status picker to set Online, Idle, Do Not Disturb, or Invisible - including timed durations.",
+    "soundsTitle": "Sounds",
+    "soundsDescription": "Control which in-app sounds play on this device. These preferences stay on this device.",
+    "soundsEnable": "Enable sounds",
+    "soundsDndNote": "Message notification sounds are suppressed while your status is Do Not Disturb.",
+    "sounds": {
+      "message": "Message notifications",
+      "call_incoming": "Incoming call",
+      "call_outgoing": "Outgoing call",
+      "call_connect": "Call connected",
+      "call_disconnect": "Call disconnected",
+      "call_decline": "Call declined",
+      "user_join": "User joined voice",
+      "user_leave": "User left voice",
+      "mute": "Mute / unmute",
+      "deafen": "Deafen / undeafen",
+      "ptt": "Push to talk",
+      "stream": "Screen share"
+    },
+    "soundsPreview": "Preview sound"
   },
   "registeredGames": {
     "currentGame": "Current Game",
@@ -561,13 +580,15 @@
       "leaveConfirm": "Leave without saving",
       "leave": "Leave",
       "resetTitle": "Reset profile to empty?",
-      "resetDescription": "This removes your bio, banner, background, profile music, and all blocks. Your account avatar and username are not affected. This cannot be undone.",
+      "resetDescription": "This removes your bio, pronouns, banner, background, profile music, and all blocks. Your account avatar and username are not affected. This cannot be undone.",
       "resetSuccess": "Profile reset to empty",
       "failedResetProfile": "Failed to reset profile",
       "noBannerYet": "No banner yet",
       "changeBanner": "Change Banner",
       "bio": "Bio",
       "bioPlaceholder": "Tell people about yourself",
+      "pronouns": "Pronouns",
+      "pronounsPlaceholder": "e.g. they/them",
       "banner": "Banner",
       "background": "Background",
       "pageFont": "Page font",
@@ -807,7 +828,8 @@
         "emptyStickers_other": "Choose stickers for {{count}} sticker blocks before saving",
         "emptyLinks_one": "Add at least one link to {{count}} links block before saving",
         "emptyLinks_other": "Add at least one link to {{count}} links blocks before saving",
-        "bioTooLong": "Bio must be at most 512 characters"
+        "bioTooLong": "Bio must be at most 512 characters",
+        "pronounsTooLong": "Pronouns must be at most 32 characters"
       }
     },
     "avatar": {

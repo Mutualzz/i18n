@@ -6,7 +6,8 @@
     "categories": {
       "general": "一般",
       "people": "成員",
-      "moderation": "審核"
+      "moderation": "審核",
+      "integrations": ""
     },
     "pages": {
       "profile": "個人檔案",
@@ -15,7 +16,8 @@
       "channels": "頻道",
       "invites": "邀請",
       "expressions": "表情與貼圖",
-      "bans": "封鎖"
+      "bans": "封鎖",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -518,7 +520,9 @@
     "switchTo": "切換到",
     "directMessages": "私人訊息",
     "friends": "好友",
-    "spaces": "空間"
+    "spaces": "空間",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "此空間處於封鎖狀態",

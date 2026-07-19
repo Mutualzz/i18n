@@ -162,9 +162,7 @@
     "playVideo": "Odtwórz wideo",
     "pauseVideo": "Wstrzymaj wideo",
     "tapToOpen": "Kliknij, aby otworzyć",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "Wysłano",
     "createChannelInCategory": "Utwórz kanał w kategorii",
@@ -216,7 +214,8 @@
     "strikethrough": "Przekreślenie",
     "blockquote": "Cytat",
     "code": "Kod",
-    "spoiler": "Spoiler"
+    "spoiler": "Spoiler",
+    "color": "Color"
   },
   "support": {
     "myTickets": "Moje bilety",
@@ -293,6 +292,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

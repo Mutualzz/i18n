@@ -170,6 +170,22 @@
       "closeChatA11y": "Chiudi la chat"
     }
   },
+  "call": {
+    "start": "Start Call",
+    "startHint": "Start call — Shift+click to join without ringing",
+    "incoming": "Incoming call",
+    "calling": "Calling…",
+    "inCall": "In call",
+    "active": "Call active",
+    "accept": "Accept",
+    "decline": "Decline",
+    "join": "Join Call",
+    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
+    "missed": "Missed call",
+    "ended": "Call ended",
+    "missedFrom": "You missed a call from {{name}}",
+    "endedLasted": "Call ended — lasted {{duration}}"
+  },
   "mentions": {
     "members": "Membri",
     "membersMatching": "Membri corrispondenti a \"{{query}}\"",
@@ -214,7 +230,8 @@
       "disconnectedFrom": "Disconnesso dalla voce: {{reason}}",
       "differentDevice": "Connesso da un dispositivo diverso",
       "movedChannel": "Spostato su un altro canale vocale",
-      "enumerateDevices": "Impossibile enumerare i dispositivi"
+      "enumerateDevices": "Impossibile enumerare i dispositivi",
+      "watchStreamFailed": "Couldn't join the screen share"
     },
     "controls": {
       "mute": "Silenzia",

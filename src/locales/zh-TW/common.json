@@ -156,9 +156,7 @@
     "playVideo": "播放影片",
     "pauseVideo": "暫停影片",
     "tapToOpen": "點一下開啟",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "已傳送",
     "createChannelInCategory": "在分類中建立頻道",
@@ -210,7 +208,8 @@
     "strikethrough": "刪除線",
     "blockquote": "引用",
     "code": "程式碼",
-    "spoiler": "劇透"
+    "spoiler": "劇透",
+    "color": "Color"
   },
   "support": {
     "myTickets": "我的工單",
@@ -287,6 +286,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

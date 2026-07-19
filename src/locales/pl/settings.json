@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sounds",
+    "soundsDescription": "Control which in-app sounds play on this device. These preferences stay on this device.",
+    "soundsEnable": "Enable sounds",
+    "soundsDndNote": "Message notification sounds are suppressed while your status is Do Not Disturb.",
+    "sounds": {
+      "message": "Message notifications",
+      "call_incoming": "Incoming call",
+      "call_outgoing": "Outgoing call",
+      "call_connect": "Call connected",
+      "call_disconnect": "Call disconnected",
+      "call_decline": "Call declined",
+      "user_join": "User joined voice",
+      "user_leave": "User left voice",
+      "mute": "Mute / unmute",
+      "deafen": "Deafen / undeafen",
+      "ptt": "Push to talk",
+      "stream": "Screen share"
+    },
+    "soundsPreview": "Podgląd dźwięku"
   },
   "account": {
     "editAvatar": "Edytuj awatara",
@@ -294,7 +313,9 @@
       "moveWidgetDown": "Przesuń widżet w dół",
       "editWidgetA11y": "Edytuj widżet {{type}}",
       "widgetCount_few": "Widżety {{count}} na Twoim profilu mobilnym.",
-      "widgetCount_many": "Widżety {{count}} na Twoim profilu mobilnym."
+      "widgetCount_many": "Widżety {{count}} na Twoim profilu mobilnym.",
+      "pronouns": "Zaimki",
+      "pronounsPlaceholder": "np. they/them"
     },
     "viewer": {
       "emptySelfTitle": "Nie skonfigurowałeś jeszcze swojego profilu",
@@ -524,7 +545,8 @@
         "emptyStickers_few": "Przed zapisaniem wybierz naklejki dla bloków naklejek {{count}}",
         "emptyStickers_many": "Przed zapisaniem wybierz naklejki dla bloków naklejek {{count}}",
         "emptyLinks_few": "Przed zapisaniem dodaj co najmniej jedno łącze do bloków łączy {{count}}",
-        "emptyLinks_many": "Przed zapisaniem dodaj co najmniej jedno łącze do bloków łączy {{count}}"
+        "emptyLinks_many": "Przed zapisaniem dodaj co najmniej jedno łącze do bloków łączy {{count}}",
+        "pronounsTooLong": "Zaimki mogą mieć maksymalnie 32 znaki"
       },
       "connectionsHint": ""
     },
@@ -764,7 +786,11 @@
       "mutedTextShort": "Wyciszony tekst",
       "mutedTextDescription": "Używane w przypadku wyciszonych tekstów",
       "baseText": "Podstawowy kolor tekstu",
-      "baseTextShort": "Tekst bazowy"
+      "baseTextShort": "Tekst bazowy",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -968,7 +994,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Warunki korzystania",
   "connections": {

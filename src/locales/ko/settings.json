@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "사운드",
+    "soundsDescription": "이 기기에서 재생할 앱 내 사운드를 설정합니다. 이 설정은 이 기기에만 저장됩니다.",
+    "soundsEnable": "사운드 사용",
+    "soundsDndNote": "상태가 방해 금지일 때 메시지 알림음은 재생되지 않습니다.",
+    "sounds": {
+      "message": "메시지 알림",
+      "call_incoming": "수신 전화",
+      "call_outgoing": "발신 전화",
+      "call_connect": "통화 연결",
+      "call_disconnect": "통화 종료",
+      "call_decline": "통화 거절",
+      "user_join": "음성 채널 참가",
+      "user_leave": "음성 채널 퇴장",
+      "mute": "음소거 / 해제",
+      "deafen": "헤드셋 음소거 / 해제",
+      "ptt": "눌러서 말하기",
+      "stream": "화면 공유"
+    },
+    "soundsPreview": "사운드 미리듣기"
   },
   "account": {
     "editAvatar": "아바타 편집",
@@ -290,7 +309,9 @@
       "addLink": "링크 추가",
       "moveWidgetUp": "위젯 위로 이동",
       "moveWidgetDown": "위젯 아래로 이동",
-      "editWidgetA11y": "{{type}} 위젯 편집"
+      "editWidgetA11y": "{{type}} 위젯 편집",
+      "pronouns": "대명사",
+      "pronounsPlaceholder": "예: they/them"
     },
     "viewer": {
       "emptySelfTitle": "아직 프로필을 설정하지 않았습니다",
@@ -460,7 +481,8 @@
         "emptyStickers_other": "저장하기 전에 {{count}}개의 스티커 블록에 대한 스티커를 선택하세요",
         "emptyLinks_one": "저장하기 전에 {{count}}개의 링크 블록에 최소 하나의 링크를 추가하세요",
         "emptyLinks_other": "저장하기 전에 {{count}}개의 링크 블록에 최소 하나의 링크를 추가하세요",
-        "bioTooLong": "소개는 최대 512자여야 합니다"
+        "bioTooLong": "소개는 최대 512자여야 합니다",
+        "pronounsTooLong": "대명사는 최대 32자여야 합니다"
       },
       "maxRoles": "최대 역할 수",
       "maxRolesShown": "표시할 최대 역할 수 ({{value}})",
@@ -724,7 +746,11 @@
       "mutedTextShort": "흐린 텍스트",
       "mutedTextDescription": "흐린 텍스트에 사용됩니다",
       "baseText": "기본 텍스트 색상",
-      "baseTextShort": "기본 텍스트"
+      "baseTextShort": "기본 텍스트",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "fonts": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "서비스 약관",
   "connections": {

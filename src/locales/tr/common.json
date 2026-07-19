@@ -156,9 +156,7 @@
     "playVideo": "Videoyu oynat",
     "pauseVideo": "Videoyu duraklat",
     "tapToOpen": "Açmak için dokun",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "Gönderildi",
     "createChannelInCategory": "Kategoride kanal oluştur",
@@ -210,7 +208,8 @@
     "strikethrough": "Üstü çizili",
     "blockquote": "Alıntı",
     "code": "Kod",
-    "spoiler": "Spoiler"
+    "spoiler": "Spoiler",
+    "color": "Color"
   },
   "support": {
     "myTickets": "Biletlerim",
@@ -287,6 +286,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

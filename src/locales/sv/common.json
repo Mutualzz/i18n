@@ -156,9 +156,7 @@
     "playVideo": "Spela video",
     "pauseVideo": "Pausa video",
     "tapToOpen": "Tryck för att öppna",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "Skickat",
     "createChannelInCategory": "Skapa kanal i kategori",
@@ -210,7 +208,8 @@
     "strikethrough": "Genomstruken",
     "blockquote": "Citatblock",
     "code": "Kod",
-    "spoiler": "Spoiler"
+    "spoiler": "Spoiler",
+    "color": "Color"
   },
   "support": {
     "myTickets": "Mina ärenden",
@@ -287,6 +286,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

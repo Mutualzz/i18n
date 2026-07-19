@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sounds",
+    "soundsDescription": "Control which in-app sounds play on this device. These preferences stay on this device.",
+    "soundsEnable": "Enable sounds",
+    "soundsDndNote": "Message notification sounds are suppressed while your status is Do Not Disturb.",
+    "sounds": {
+      "message": "Message notifications",
+      "call_incoming": "Incoming call",
+      "call_outgoing": "Outgoing call",
+      "call_connect": "Call connected",
+      "call_disconnect": "Call disconnected",
+      "call_decline": "Call declined",
+      "user_join": "User joined voice",
+      "user_leave": "User left voice",
+      "mute": "Mute / unmute",
+      "deafen": "Deafen / undeafen",
+      "ptt": "Push to talk",
+      "stream": "Screen share"
+    },
+    "soundsPreview": "Förhandsgranska ljud"
   },
   "account": {
     "editAvatar": "Redigera avatar",
@@ -290,7 +309,9 @@
       "addLink": "Lägg till länk",
       "moveWidgetUp": "Flytta widget uppåt",
       "moveWidgetDown": "Flytta widget nedåt",
-      "editWidgetA11y": "Redigera {{type}}-widget"
+      "editWidgetA11y": "Redigera {{type}}-widget",
+      "pronouns": "Pronomen",
+      "pronounsPlaceholder": "t.ex. they/them"
     },
     "viewer": {
       "emptySelfTitle": "Du har inte ställt in din profil ännu",
@@ -508,7 +529,8 @@
         "emptyStickers_other": "Välj klistermärken för {{count}} klistermärkesblock innan du sparar",
         "emptyLinks_one": "Lägg till minst en länk i {{count}} länkblock innan du sparar",
         "emptyLinks_other": "Lägg till minst en länk i {{count}} länkblock innan du sparar",
-        "bioTooLong": "Biografin får vara högst 512 tecken"
+        "bioTooLong": "Biografin får vara högst 512 tecken",
+        "pronounsTooLong": "Pronomen får vara högst 32 tecken"
       },
       "connectionsHint": ""
     },
@@ -744,7 +766,11 @@
       "mutedTextShort": "Dämpad text",
       "mutedTextDescription": "Används för dämpad text",
       "baseText": "Bastextfärg",
-      "baseTextShort": "Bastext"
+      "baseTextShort": "Bastext",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Användarvillkor",
   "connections": {

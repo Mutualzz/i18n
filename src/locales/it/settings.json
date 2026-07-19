@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sounds",
+    "soundsDescription": "Control which in-app sounds play on this device. These preferences stay on this device.",
+    "soundsEnable": "Enable sounds",
+    "soundsDndNote": "Message notification sounds are suppressed while your status is Do Not Disturb.",
+    "sounds": {
+      "message": "Message notifications",
+      "call_incoming": "Incoming call",
+      "call_outgoing": "Outgoing call",
+      "call_connect": "Call connected",
+      "call_disconnect": "Call disconnected",
+      "call_decline": "Call declined",
+      "user_join": "User joined voice",
+      "user_leave": "User left voice",
+      "mute": "Mute / unmute",
+      "deafen": "Deafen / undeafen",
+      "ptt": "Push to talk",
+      "stream": "Screen share"
+    },
+    "soundsPreview": "Anteprima suono"
   },
   "account": {
     "editAvatar": "Modifica avatar",
@@ -290,7 +309,9 @@
       "addLink": "Aggiungi collegamento",
       "moveWidgetUp": "Sposta il widget in alto",
       "moveWidgetDown": "Sposta il widget verso il basso",
-      "editWidgetA11y": "Modifica il widget {{type}}"
+      "editWidgetA11y": "Modifica il widget {{type}}",
+      "pronouns": "Pronomi",
+      "pronounsPlaceholder": "es. they/them"
     },
     "viewer": {
       "emptySelfTitle": "Non hai ancora impostato il tuo profilo",
@@ -508,7 +529,8 @@
         "emptyStickers_other": "Scegli gli adesivi per i blocchi adesivi {{count}} prima di salvare",
         "emptyLinks_one": "Aggiungi almeno un collegamento al blocco collegamenti {{count}} prima di salvare",
         "emptyLinks_other": "Aggiungi almeno un collegamento ai blocchi di collegamenti {{count}} prima di salvare",
-        "bioTooLong": "La biografia deve contenere al massimo 512 caratteri"
+        "bioTooLong": "La biografia deve contenere al massimo 512 caratteri",
+        "pronounsTooLong": "I pronomi devono contenere al massimo 32 caratteri"
       },
       "connectionsHint": ""
     },
@@ -744,7 +766,11 @@
       "mutedTextShort": "Testo disattivato",
       "mutedTextDescription": "Utilizzato per i testi disattivati",
       "baseText": "Colore del testo di base",
-      "baseTextShort": "Testo di base"
+      "baseTextShort": "Testo di base",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Termini di servizio",
   "connections": {

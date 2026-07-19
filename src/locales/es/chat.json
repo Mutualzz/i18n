@@ -218,7 +218,8 @@
       "disconnectedFrom": "Desconectado de la voz: {{reason}}",
       "differentDevice": "Conectado desde otro dispositivo",
       "movedChannel": "Movido a otro canal de voz",
-      "enumerateDevices": "No se pudieron enumerar los dispositivos"
+      "enumerateDevices": "No se pudieron enumerar los dispositivos",
+      "watchStreamFailed": "Couldn't join the screen share"
     },
     "elapsedInChannel": "",
     "channelOccupied": ""
@@ -494,6 +495,22 @@
   },
   "blocked": "Bloqueado",
   "privateSpace": "Espacio privado",
+  "call": {
+    "start": "Start Call",
+    "startHint": "Start call — Shift+click to join without ringing",
+    "incoming": "Incoming call",
+    "calling": "Calling…",
+    "inCall": "In call",
+    "active": "Call active",
+    "accept": "Accept",
+    "decline": "Decline",
+    "join": "Join Call",
+    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
+    "missed": "Missed call",
+    "ended": "Call ended",
+    "missedFrom": "You missed a call from {{name}}",
+    "endedLasted": "Call ended — lasted {{duration}}"
+  },
   "mentions": {
     "members": "Miembros",
     "membersMatching": "Miembros que coinciden con \"{{query}}\"",

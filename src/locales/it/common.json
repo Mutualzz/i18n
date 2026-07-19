@@ -156,9 +156,7 @@
     "playVideo": "Riproduci video",
     "pauseVideo": "Metti in pausa il video",
     "tapToOpen": "Tocca per aprire",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "Inviato",
     "createChannelInCategory": "Crea canale nella categoria",
@@ -210,7 +208,8 @@
     "strikethrough": "Barrato",
     "blockquote": "Citazione",
     "code": "Codice",
-    "spoiler": "Spoiler"
+    "spoiler": "Spoiler",
+    "color": "Color"
   },
   "support": {
     "myTickets": "I miei biglietti",
@@ -287,6 +286,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

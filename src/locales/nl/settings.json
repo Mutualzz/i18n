@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sounds",
+    "soundsDescription": "Control which in-app sounds play on this device. These preferences stay on this device.",
+    "soundsEnable": "Enable sounds",
+    "soundsDndNote": "Message notification sounds are suppressed while your status is Do Not Disturb.",
+    "sounds": {
+      "message": "Message notifications",
+      "call_incoming": "Incoming call",
+      "call_outgoing": "Outgoing call",
+      "call_connect": "Call connected",
+      "call_disconnect": "Call disconnected",
+      "call_decline": "Call declined",
+      "user_join": "User joined voice",
+      "user_leave": "User left voice",
+      "mute": "Mute / unmute",
+      "deafen": "Deafen / undeafen",
+      "ptt": "Push to talk",
+      "stream": "Screen share"
+    },
+    "soundsPreview": "Geluid beluisteren"
   },
   "account": {
     "editAvatar": "Avatar bewerken",
@@ -290,7 +309,9 @@
       "addLink": "Koppeling toevoegen",
       "moveWidgetUp": "Widget omhoog verplaatsen",
       "moveWidgetDown": "Widget naar beneden verplaatsen",
-      "editWidgetA11y": "Bewerk de {{type}}-widget"
+      "editWidgetA11y": "Bewerk de {{type}}-widget",
+      "pronouns": "Voornaamwoorden",
+      "pronounsPlaceholder": "bijv. they/them"
     },
     "viewer": {
       "emptySelfTitle": "Je hebt je profiel nog niet ingesteld",
@@ -508,7 +529,8 @@
         "emptyStickers_other": "Kies stickers voor {{count}}-stickerblokken voordat u deze opslaat",
         "emptyLinks_one": "Voeg ten minste één link toe aan het {{count}}-linksblok voordat u deze opslaat",
         "emptyLinks_other": "Voeg ten minste één link toe aan {{count}}-linkblokken voordat u deze opslaat",
-        "bioTooLong": "Bio mag maximaal 512 tekens lang zijn"
+        "bioTooLong": "Bio mag maximaal 512 tekens lang zijn",
+        "pronounsTooLong": "Voornaamwoorden mogen maximaal 32 tekens lang zijn"
       },
       "connectionsHint": ""
     },
@@ -744,7 +766,11 @@
       "mutedTextShort": "Gedempte tekst",
       "mutedTextDescription": "Gebruikt voor gedempte teksten",
       "baseText": "Basistekstkleur",
-      "baseTextShort": "Basistekst"
+      "baseTextShort": "Basistekst",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Servicevoorwaarden",
   "connections": {

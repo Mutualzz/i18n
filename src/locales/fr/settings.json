@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sons",
+    "soundsDescription": "Choisissez quels sons de l'application sont joués sur cet appareil. Ces préférences restent locales.",
+    "soundsEnable": "Activer les sons",
+    "soundsDndNote": "Les sons de messages sont désactivés lorsque votre statut est Ne pas déranger.",
+    "sounds": {
+      "message": "Notifications de messages",
+      "call_incoming": "Appel entrant",
+      "call_outgoing": "Appel sortant",
+      "call_connect": "Appel connecté",
+      "call_disconnect": "Appel déconnecté",
+      "call_decline": "Appel refusé",
+      "user_join": "Utilisateur a rejoint le salon vocal",
+      "user_leave": "Utilisateur a quitté le salon vocal",
+      "mute": "Muet / micro",
+      "deafen": "Sourdine / désourdine",
+      "ptt": "Appuyer pour parler",
+      "stream": "Partage d'écran"
+    },
+    "soundsPreview": "Écouter le son"
   },
   "account": {
     "editAvatar": "Modifier l'avatar",
@@ -290,7 +309,9 @@
       "addLink": "Ajouter un lien",
       "moveWidgetUp": "Déplacer le widget vers le haut",
       "moveWidgetDown": "Déplacer le widget vers le bas",
-      "editWidgetA11y": "Modifier le widget {{type}}"
+      "editWidgetA11y": "Modifier le widget {{type}}",
+      "pronouns": "Pronoms",
+      "pronounsPlaceholder": "p. ex. they/them"
     },
     "viewer": {
       "emptySelfTitle": "Vous n'avez pas encore configuré votre profil",
@@ -460,7 +481,8 @@
         "emptyStickers_other": "Choisissez des stickers pour {{count}} blocs sticker avant d'enregistrer",
         "emptyLinks_one": "Ajoutez au moins un lien au bloc liens {{count}} avant d'enregistrer",
         "emptyLinks_other": "Ajoutez au moins un lien à {{count}} blocs liens avant d'enregistrer",
-        "bioTooLong": "La bio doit contenir au maximum 512 caractères"
+        "bioTooLong": "La bio doit contenir au maximum 512 caractères",
+        "pronounsTooLong": "Les pronoms doivent contenir au maximum 32 caractères"
       },
       "maxRoles": "Rôles max.",
       "maxRolesShown": "Rôles max. affichés ({{value}})",
@@ -724,7 +746,11 @@
       "mutedTextShort": "Texte atténué",
       "mutedTextDescription": "Utilisée pour les textes atténués",
       "baseText": "Couleur du texte de base",
-      "baseTextShort": "Texte de base"
+      "baseTextShort": "Texte de base",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "fonts": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Conditions d’utilisation",
   "connections": {

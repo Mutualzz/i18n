@@ -6,7 +6,8 @@
     "categories": {
       "general": "عام",
       "people": "الأشخاص",
-      "moderation": "الإشراف"
+      "moderation": "الإشراف",
+      "integrations": ""
     },
     "pages": {
       "profile": "الملف",
@@ -15,7 +16,8 @@
       "channels": "القنوات",
       "invites": "الدعوات",
       "expressions": "التعبيرات",
-      "bans": "الحظر"
+      "bans": "الحظر",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -538,7 +540,9 @@
     "switchTo": "التبديل إلى",
     "directMessages": "الرسائل المباشرة",
     "friends": "الأصدقاء",
-    "spaces": "المساحات"
+    "spaces": "المساحات",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "هذه المساحة في حالة إغلاق",

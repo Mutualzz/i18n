@@ -6,7 +6,8 @@
     "categories": {
       "general": "常规",
       "people": "成员",
-      "moderation": "审核"
+      "moderation": "审核",
+      "integrations": ""
     },
     "pages": {
       "profile": "资料",
@@ -15,7 +16,8 @@
       "channels": "频道",
       "invites": "邀请",
       "expressions": "表情与贴纸",
-      "bans": "封禁"
+      "bans": "封禁",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -518,7 +520,9 @@
     "switchTo": "切换到",
     "directMessages": "私信",
     "friends": "好友",
-    "spaces": "空间"
+    "spaces": "空间",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "此空间处于封锁状态",

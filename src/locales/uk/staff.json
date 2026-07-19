@@ -6,11 +6,13 @@
     "reports": "Скарги",
     "activity": "Активність",
     "appeals": "Апеляції",
-    "support": "Підтримка"
+    "support": "Підтримка",
+    "changelogs": ""
   },
   "pages": {
     "activity": "Активність персоналу",
-    "reportDetails": "Деталі скарги"
+    "reportDetails": "Деталі скарги",
+    "changelogs": ""
   },
   "home": {
     "findUser": "Знайти користувача",
@@ -283,7 +285,37 @@
       "revokedSession": "{{actor}} відкликав(ла) сесію для {{target}}",
       "tookDownContent": "{{actor}} прибрав(ла) {{type}}, на який поскаржилися",
       "lockedDownSpace": "{{actor}} заблокував(ла) простір",
-      "shutDownSpace": "{{actor}} закрив(ла) простір, на який поскаржилися"
+      "shutDownSpace": "{{actor}} закрив(ла) простір, на який поскаржилися",
+      "publishedChangelog": "",
+      "deletedChangelog": ""
     }
+  },
+  "changelogs": {
+    "title": "",
+    "description": "",
+    "titleLabel": "",
+    "titlePlaceholder": "",
+    "bodyLabel": "",
+    "bodyPlaceholder": "",
+    "imageUrlLabel": "",
+    "imageUrlPlaceholder": "",
+    "desktopVersion": "",
+    "mobileVersion": "",
+    "versionPlaceholder": "",
+    "publish": "",
+    "publishing": "",
+    "preview": "Preview",
+    "empty": "",
+    "delete": "",
+    "desktop": "",
+    "mobile": "",
+    "published": "",
+    "deleted": "",
+    "errors": {
+      "publish": "",
+      "delete": "",
+      "versionRequired": ""
+    },
+    "developerRequired": ""
   }
 }

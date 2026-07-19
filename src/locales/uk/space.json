@@ -6,7 +6,8 @@
     "categories": {
       "general": "Загальне",
       "people": "Люди",
-      "moderation": "Модерація"
+      "moderation": "Модерація",
+      "integrations": ""
     },
     "pages": {
       "profile": "Профіль",
@@ -15,7 +16,8 @@
       "channels": "Канали",
       "invites": "Запрошення",
       "expressions": "Вирази",
-      "bans": "Бани"
+      "bans": "Бани",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -528,7 +530,9 @@
     "switchTo": "Перейти до",
     "directMessages": "Особисті повідомлення",
     "friends": "Друзі",
-    "spaces": "Простори"
+    "spaces": "Простори",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "Цей простір у режимі блокування",

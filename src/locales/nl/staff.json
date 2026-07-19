@@ -6,11 +6,13 @@
     "reports": "Rapporten",
     "activity": "Activiteit",
     "appeals": "Beroepen",
-    "support": "Ondersteuning"
+    "support": "Ondersteuning",
+    "changelogs": ""
   },
   "pages": {
     "activity": "Personeelsactiviteit",
-    "reportDetails": "Rapportdetails"
+    "reportDetails": "Rapportdetails",
+    "changelogs": ""
   },
   "home": {
     "findUser": "Zoek een gebruiker",
@@ -281,7 +283,37 @@
       "revokedSession": "{{actor}} heeft een sessie voor {{target}} ingetrokken",
       "tookDownContent": "{{actor}} heeft een gemelde {{type}} uitgeschakeld",
       "lockedDownSpace": "{{actor}} heeft een spatie vergrendeld",
-      "shutDownSpace": "{{actor}} heeft een gerapporteerde ruimte afgesloten"
+      "shutDownSpace": "{{actor}} heeft een gerapporteerde ruimte afgesloten",
+      "publishedChangelog": "",
+      "deletedChangelog": ""
     }
+  },
+  "changelogs": {
+    "title": "",
+    "description": "",
+    "titleLabel": "",
+    "titlePlaceholder": "",
+    "bodyLabel": "",
+    "bodyPlaceholder": "",
+    "imageUrlLabel": "",
+    "imageUrlPlaceholder": "",
+    "desktopVersion": "",
+    "mobileVersion": "",
+    "versionPlaceholder": "",
+    "publish": "",
+    "publishing": "",
+    "preview": "Preview",
+    "empty": "",
+    "delete": "",
+    "desktop": "",
+    "mobile": "",
+    "published": "",
+    "deleted": "",
+    "errors": {
+      "publish": "",
+      "delete": "",
+      "versionRequired": ""
+    },
+    "developerRequired": ""
   }
 }

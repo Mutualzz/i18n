@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sounds",
+    "soundsDescription": "Control which in-app sounds play on this device. These preferences stay on this device.",
+    "soundsEnable": "Enable sounds",
+    "soundsDndNote": "Message notification sounds are suppressed while your status is Do Not Disturb.",
+    "sounds": {
+      "message": "Message notifications",
+      "call_incoming": "Incoming call",
+      "call_outgoing": "Outgoing call",
+      "call_connect": "Call connected",
+      "call_disconnect": "Call disconnected",
+      "call_decline": "Call declined",
+      "user_join": "User joined voice",
+      "user_leave": "User left voice",
+      "mute": "Mute / unmute",
+      "deafen": "Deafen / undeafen",
+      "ptt": "Push to talk",
+      "stream": "Screen share"
+    },
+    "soundsPreview": "Sesi önizle"
   },
   "account": {
     "editAvatar": "Avatarı Düzenle",
@@ -290,7 +309,9 @@
       "addLink": "Bağlantı ekle",
       "moveWidgetUp": "Widget’ı yukarı taşı",
       "moveWidgetDown": "Widget’ı aşağı taşı",
-      "editWidgetA11y": "{{type}} widget’ını düzenle"
+      "editWidgetA11y": "{{type}} widget’ını düzenle",
+      "pronouns": "Zamirler",
+      "pronounsPlaceholder": "örn. they/them"
     },
     "viewer": {
       "emptySelfTitle": "Profilini henüz ayarlamadın",
@@ -508,7 +529,8 @@
         "emptyStickers_other": "Kaydetmeden önce {{count}} çıkartma bloğu için çıkartma seç",
         "emptyLinks_one": "Kaydetmeden önce {{count}} bağlantı bloğuna en az bir bağlantı ekle",
         "emptyLinks_other": "Kaydetmeden önce {{count}} bağlantı bloğuna en az bir bağlantı ekle",
-        "bioTooLong": "Biyografi en fazla 512 karakter olabilir"
+        "bioTooLong": "Biyografi en fazla 512 karakter olabilir",
+        "pronounsTooLong": "Zamirler en fazla 32 karakter olabilir"
       },
       "connectionsHint": ""
     },
@@ -744,7 +766,11 @@
       "mutedTextShort": "Soluk metin",
       "mutedTextDescription": "Soluk metinler için kullanılır",
       "baseText": "Temel Metin Rengi",
-      "baseTextShort": "Temel metin"
+      "baseTextShort": "Temel metin",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Hizmet Şartları",
   "connections": {

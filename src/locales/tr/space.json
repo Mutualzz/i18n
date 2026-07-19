@@ -6,7 +6,8 @@
     "categories": {
       "general": "Genel",
       "people": "Kişiler",
-      "moderation": "Moderasyon"
+      "moderation": "Moderasyon",
+      "integrations": ""
     },
     "pages": {
       "profile": "Profil",
@@ -15,7 +16,8 @@
       "channels": "Kanallar",
       "invites": "Davetler",
       "expressions": "İfadeler",
-      "bans": "Yasaklar"
+      "bans": "Yasaklar",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -518,7 +520,9 @@
     "switchTo": "Geç",
     "directMessages": "Doğrudan mesajlar",
     "friends": "Arkadaşlar",
-    "spaces": "Alanlar"
+    "spaces": "Alanlar",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "Bu alan kilitli",

@@ -168,9 +168,7 @@
     "playVideo": "تشغيل الفيديو",
     "pauseVideo": "إيقاف الفيديو مؤقتًا",
     "tapToOpen": "انقر للفتح",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "تم الإرسال",
     "createChannelInCategory": "إنشاء قناة في الفئة",
@@ -222,7 +220,8 @@
     "strikethrough": "يتوسطه خط",
     "blockquote": "اقتباس",
     "code": "رمز",
-    "spoiler": "حرق"
+    "spoiler": "حرق",
+    "color": "Color"
   },
   "support": {
     "myTickets": "تذاكري",
@@ -299,6 +298,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

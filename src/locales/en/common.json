@@ -220,7 +220,8 @@
     "strikethrough": "Strikethrough",
     "blockquote": "Blockquote",
     "code": "Code",
-    "spoiler": "Spoiler"
+    "spoiler": "Spoiler",
+    "color": "Color"
   },
   "support": {
     "myTickets": "My tickets",

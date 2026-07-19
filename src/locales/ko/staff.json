@@ -6,11 +6,13 @@
     "reports": "신고",
     "activity": "활동",
     "appeals": "이의 신청",
-    "support": "지원"
+    "support": "지원",
+    "changelogs": ""
   },
   "pages": {
     "activity": "스태프 활동",
-    "reportDetails": "신고 세부정보"
+    "reportDetails": "신고 세부정보",
+    "changelogs": ""
   },
   "home": {
     "findUser": "사용자 찾기",
@@ -281,7 +283,37 @@
       "revokedSession": "{{actor}}님이 {{target}}의 세션을 취소했습니다",
       "tookDownContent": "{{actor}}님이 신고된 {{type}}을(를) 삭제했습니다",
       "lockedDownSpace": "{{actor}}님이 스페이스를 잠갔습니다",
-      "shutDownSpace": "{{actor}}님이 신고된 스페이스를 종료했습니다"
+      "shutDownSpace": "{{actor}}님이 신고된 스페이스를 종료했습니다",
+      "publishedChangelog": "",
+      "deletedChangelog": ""
     }
+  },
+  "changelogs": {
+    "title": "",
+    "description": "",
+    "titleLabel": "",
+    "titlePlaceholder": "",
+    "bodyLabel": "",
+    "bodyPlaceholder": "",
+    "imageUrlLabel": "",
+    "imageUrlPlaceholder": "",
+    "desktopVersion": "",
+    "mobileVersion": "",
+    "versionPlaceholder": "",
+    "publish": "",
+    "publishing": "",
+    "preview": "Preview",
+    "empty": "",
+    "delete": "",
+    "desktop": "",
+    "mobile": "",
+    "published": "",
+    "deleted": "",
+    "errors": {
+      "publish": "",
+      "delete": "",
+      "versionRequired": ""
+    },
+    "developerRequired": ""
   }
 }

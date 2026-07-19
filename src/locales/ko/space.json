@@ -6,7 +6,8 @@
     "categories": {
       "general": "일반",
       "people": "사람",
-      "moderation": "운영"
+      "moderation": "운영",
+      "integrations": ""
     },
     "pages": {
       "profile": "프로필",
@@ -15,7 +16,8 @@
       "channels": "채널",
       "invites": "초대",
       "expressions": "표현식",
-      "bans": "차단"
+      "bans": "차단",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -511,7 +513,9 @@
     "directMessages": "다이렉트 메시지",
     "friends": "친구",
     "spaces": "스페이스",
-    "switchToFeed": "피드로 전환"
+    "switchToFeed": "피드로 전환",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "이 스페이스는 잠금 상태입니다",

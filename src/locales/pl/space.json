@@ -6,7 +6,8 @@
     "categories": {
       "general": "Ogólne",
       "people": "Ludzie",
-      "moderation": "Moderacja"
+      "moderation": "Moderacja",
+      "integrations": ""
     },
     "pages": {
       "profile": "Profil",
@@ -15,7 +16,8 @@
       "channels": "Kanały",
       "invites": "Zaproszenia",
       "expressions": "Wyrażenia",
-      "bans": "Bany"
+      "bans": "Bany",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -528,7 +530,9 @@
     "switchTo": "Przełącz na",
     "directMessages": "Wiadomości bezpośrednie",
     "friends": "Znajomi",
-    "spaces": "Przestrzenie"
+    "spaces": "Przestrzenie",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "Ta przestrzeń jest zamknięta",

@@ -6,11 +6,13 @@
     "reports": "Bildirimler",
     "activity": "Etkinlik",
     "appeals": "İtirazlar",
-    "support": "Destek"
+    "support": "Destek",
+    "changelogs": ""
   },
   "pages": {
     "activity": "Personel etkinliği",
-    "reportDetails": "Bildirim ayrıntıları"
+    "reportDetails": "Bildirim ayrıntıları",
+    "changelogs": ""
   },
   "home": {
     "findUser": "Kullanıcı bul",
@@ -281,7 +283,37 @@
       "revokedSession": "{{actor}}, {{target}} için bir oturumu iptal etti",
       "tookDownContent": "{{actor}}, bildirilen bir {{type}} kaldırdı",
       "lockedDownSpace": "{{actor}} bir alanı kilitledi",
-      "shutDownSpace": "{{actor}} bildirilen bir alanı kapattı"
+      "shutDownSpace": "{{actor}} bildirilen bir alanı kapattı",
+      "publishedChangelog": "",
+      "deletedChangelog": ""
     }
+  },
+  "changelogs": {
+    "title": "",
+    "description": "",
+    "titleLabel": "",
+    "titlePlaceholder": "",
+    "bodyLabel": "",
+    "bodyPlaceholder": "",
+    "imageUrlLabel": "",
+    "imageUrlPlaceholder": "",
+    "desktopVersion": "",
+    "mobileVersion": "",
+    "versionPlaceholder": "",
+    "publish": "",
+    "publishing": "",
+    "preview": "Preview",
+    "empty": "",
+    "delete": "",
+    "desktop": "",
+    "mobile": "",
+    "published": "",
+    "deleted": "",
+    "errors": {
+      "publish": "",
+      "delete": "",
+      "versionRequired": ""
+    },
+    "developerRequired": ""
   }
 }
