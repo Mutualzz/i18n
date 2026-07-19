@@ -156,9 +156,7 @@
     "playVideo": "播放视频",
     "pauseVideo": "暂停视频",
     "tapToOpen": "点按打开",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "已发送",
     "createChannelInCategory": "在分类中创建频道",
@@ -210,7 +208,8 @@
     "strikethrough": "删除线",
     "blockquote": "引用",
     "code": "代码",
-    "spoiler": "剧透"
+    "spoiler": "剧透",
+    "color": "Color"
   },
   "support": {
     "myTickets": "我的工单",
@@ -287,6 +286,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

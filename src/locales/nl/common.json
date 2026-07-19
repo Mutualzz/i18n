@@ -156,9 +156,7 @@
     "playVideo": "Speel video af",
     "pauseVideo": "Pauzeer video",
     "tapToOpen": "Tik om te openen",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "Verstuurd",
     "createChannelInCategory": "Kanaal in categorie maken",
@@ -210,7 +208,8 @@
     "strikethrough": "Doorhalen",
     "blockquote": "Citaatblok",
     "code": "Code",
-    "spoiler": "Spoiler"
+    "spoiler": "Spoiler",
+    "color": "Color"
   },
   "support": {
     "myTickets": "Mijn kaartjes",
@@ -287,6 +286,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

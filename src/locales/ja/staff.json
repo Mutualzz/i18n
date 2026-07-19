@@ -6,11 +6,13 @@
     "reports": "通報",
     "activity": "アクティビティ",
     "appeals": "異議申し立て",
-    "support": "サポート"
+    "support": "サポート",
+    "changelogs": ""
   },
   "pages": {
     "activity": "スタッフアクティビティ",
-    "reportDetails": "通報の詳細"
+    "reportDetails": "通報の詳細",
+    "changelogs": ""
   },
   "home": {
     "findUser": "ユーザーを探す",
@@ -281,7 +283,37 @@
       "revokedSession": "{{actor}} が {{target}} のセッションを取り消しました",
       "tookDownContent": "{{actor}} が通報された{{type}}を削除しました",
       "lockedDownSpace": "{{actor}} がスペースをロックダウンしました",
-      "shutDownSpace": "{{actor}} が通報されたスペースを閉鎖しました"
+      "shutDownSpace": "{{actor}} が通報されたスペースを閉鎖しました",
+      "publishedChangelog": "",
+      "deletedChangelog": ""
     }
+  },
+  "changelogs": {
+    "title": "",
+    "description": "",
+    "titleLabel": "",
+    "titlePlaceholder": "",
+    "bodyLabel": "",
+    "bodyPlaceholder": "",
+    "imageUrlLabel": "",
+    "imageUrlPlaceholder": "",
+    "desktopVersion": "",
+    "mobileVersion": "",
+    "versionPlaceholder": "",
+    "publish": "",
+    "publishing": "",
+    "preview": "Preview",
+    "empty": "",
+    "delete": "",
+    "desktop": "",
+    "mobile": "",
+    "published": "",
+    "deleted": "",
+    "errors": {
+      "publish": "",
+      "delete": "",
+      "versionRequired": ""
+    },
+    "developerRequired": ""
   }
 }

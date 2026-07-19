@@ -6,7 +6,8 @@
     "categories": {
       "general": "一般",
       "people": "メンバー",
-      "moderation": "モデレーション"
+      "moderation": "モデレーション",
+      "integrations": ""
     },
     "pages": {
       "profile": "プロフィール",
@@ -15,7 +16,8 @@
       "channels": "チャンネル",
       "invites": "招待",
       "expressions": "エクスプレッション",
-      "bans": "BAN"
+      "bans": "BAN",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -511,7 +513,9 @@
     "directMessages": "ダイレクトメッセージ",
     "friends": "フレンド",
     "spaces": "スペース",
-    "switchToFeed": "フィードに切り替え"
+    "switchToFeed": "フィードに切り替え",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "このスペースはロックダウン中です",

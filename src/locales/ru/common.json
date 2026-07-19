@@ -162,9 +162,7 @@
     "playVideo": "Воспроизвести видео",
     "pauseVideo": "Приостановить видео",
     "tapToOpen": "Нажмите, чтобы открыть",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "Отправлено",
     "createChannelInCategory": "Создать канал в категории",
@@ -216,7 +214,8 @@
     "strikethrough": "Зачёркивание",
     "blockquote": "Цитата",
     "code": "Код",
-    "spoiler": "Спойлер"
+    "spoiler": "Спойлер",
+    "color": "Color"
   },
   "support": {
     "myTickets": "Мои обращения",
@@ -293,6 +292,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

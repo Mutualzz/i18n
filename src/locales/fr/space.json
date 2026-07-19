@@ -6,7 +6,8 @@
     "categories": {
       "general": "Général",
       "people": "Personnes",
-      "moderation": "Modération"
+      "moderation": "Modération",
+      "integrations": ""
     },
     "pages": {
       "profile": "Profil",
@@ -15,7 +16,8 @@
       "channels": "Canaux",
       "invites": "Invitations",
       "expressions": "Expressions",
-      "bans": "Bannissements"
+      "bans": "Bannissements",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -511,7 +513,9 @@
     "directMessages": "Messages directs",
     "friends": "Amis",
     "spaces": "Espaces",
-    "switchToFeed": "Passer au Feed"
+    "switchToFeed": "Passer au Feed",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "Cet espace est en verrouillage",

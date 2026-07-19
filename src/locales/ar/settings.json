@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sounds",
+    "soundsDescription": "Control which in-app sounds play on this device. These preferences stay on this device.",
+    "soundsEnable": "Enable sounds",
+    "soundsDndNote": "Message notification sounds are suppressed while your status is Do Not Disturb.",
+    "sounds": {
+      "message": "Message notifications",
+      "call_incoming": "Incoming call",
+      "call_outgoing": "Outgoing call",
+      "call_connect": "Call connected",
+      "call_disconnect": "Call disconnected",
+      "call_decline": "Call declined",
+      "user_join": "User joined voice",
+      "user_leave": "User left voice",
+      "mute": "Mute / unmute",
+      "deafen": "Deafen / undeafen",
+      "ptt": "Push to talk",
+      "stream": "Screen share"
+    },
+    "soundsPreview": "معاينة الصوت"
   },
   "account": {
     "editAvatar": "تعديل الصورة الرمزية",
@@ -298,7 +317,9 @@
       "widgetCount_zero": "ودجة واحدة ({{count}}) في ملفك الشخصي على الجوال.",
       "widgetCount_two": "ودجة واحدة ({{count}}) في ملفك الشخصي على الجوال.",
       "widgetCount_few": "{{count}} ودجات في ملفك الشخصي على الجوال.",
-      "widgetCount_many": "{{count}} ودجات في ملفك الشخصي على الجوال."
+      "widgetCount_many": "{{count}} ودجات في ملفك الشخصي على الجوال.",
+      "pronouns": "الضمائر",
+      "pronounsPlaceholder": "مثل: هم/هن"
     },
     "viewer": {
       "emptySelfTitle": "لم تُعدّ ملفك الشخصي بعد",
@@ -540,7 +561,8 @@
         "emptyLinks_zero": "أضف رابطًا واحدًا على الأقل لكتلة روابط واحدة ({{count}}) قبل الحفظ",
         "emptyLinks_two": "أضف رابطًا واحدًا على الأقل لكتلة روابط واحدة ({{count}}) قبل الحفظ",
         "emptyLinks_few": "أضف رابطًا واحدًا على الأقل لـ {{count}} كتل روابط قبل الحفظ",
-        "emptyLinks_many": "أضف رابطًا واحدًا على الأقل لـ {{count}} كتل روابط قبل الحفظ"
+        "emptyLinks_many": "أضف رابطًا واحدًا على الأقل لـ {{count}} كتل روابط قبل الحفظ",
+        "pronounsTooLong": "يجب ألا تتجاوز الضمائر 32 حرفًا"
       },
       "connectionsHint": ""
     },
@@ -784,7 +806,11 @@
       "mutedTextShort": "النص الخافت",
       "mutedTextDescription": "يُستخدم للنصوص الخافتة",
       "baseText": "لون النص الأساسي",
-      "baseTextShort": "النص الأساسي"
+      "baseTextShort": "النص الأساسي",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -988,7 +1014,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "شروط الخدمة",
   "connections": {

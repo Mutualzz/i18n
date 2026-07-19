@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Звуки",
+    "soundsDescription": "Настройте, какие звуки приложения воспроизводятся на этом устройстве. Настройки хранятся локально.",
+    "soundsEnable": "Включить звуки",
+    "soundsDndNote": "Звуки сообщений отключаются в статусе «Не беспокоить».",
+    "sounds": {
+      "message": "Уведомления о сообщениях",
+      "call_incoming": "Входящий звонок",
+      "call_outgoing": "Исходящий звонок",
+      "call_connect": "Звонок принят",
+      "call_disconnect": "Звонок завершён",
+      "call_decline": "Звонок отклонён",
+      "user_join": "Пользователь зашёл в голосовой канал",
+      "user_leave": "Пользователь вышел из голосового канала",
+      "mute": "Выкл. / вкл. микрофон",
+      "deafen": "Откл. / вкл. звук",
+      "ptt": "Рация (PTT)",
+      "stream": "Демонстрация экрана"
+    },
+    "soundsPreview": "Прослушать звук"
   },
   "account": {
     "editAvatar": "Изменить аватар",
@@ -294,7 +313,9 @@
       "moveWidgetDown": "Переместить виджет вниз",
       "editWidgetA11y": "Редактировать виджет {{type}}",
       "widgetCount_few": "{{count}} виджетов в мобильном профиле.",
-      "widgetCount_many": "{{count}} виджетов в мобильном профиле."
+      "widgetCount_many": "{{count}} виджетов в мобильном профиле.",
+      "pronouns": "Местоимения",
+      "pronounsPlaceholder": "напр. they/them"
     },
     "viewer": {
       "emptySelfTitle": "Вы ещё не настроили профиль",
@@ -524,7 +545,8 @@
         "emptyStickers_few": "Выберите стикеры для {{count}} блоков стикеров перед сохранением",
         "emptyStickers_many": "Выберите стикеры для {{count}} блоков стикеров перед сохранением",
         "emptyLinks_few": "Добавьте хотя бы одну ссылку в {{count}} блоков ссылок перед сохранением",
-        "emptyLinks_many": "Добавьте хотя бы одну ссылку в {{count}} блоков ссылок перед сохранением"
+        "emptyLinks_many": "Добавьте хотя бы одну ссылку в {{count}} блоков ссылок перед сохранением",
+        "pronounsTooLong": "Местоимения должны быть не длиннее 32 символов"
       },
       "connectionsHint": ""
     },
@@ -764,7 +786,11 @@
       "mutedTextShort": "Приглушённый текст",
       "mutedTextDescription": "Для приглушённого текста",
       "baseText": "Цвет базового текста",
-      "baseTextShort": "Базовый текст"
+      "baseTextShort": "Базовый текст",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -968,7 +994,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Условия использования",
   "connections": {

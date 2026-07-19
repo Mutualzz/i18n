@@ -146,7 +146,8 @@
     "strikethrough": "取り消し線",
     "blockquote": "引用",
     "code": "コード",
-    "spoiler": "スポイラー"
+    "spoiler": "スポイラー",
+    "color": "Color"
   },
   "support": {
     "myTickets": "自分のチケット",
@@ -256,9 +257,7 @@
     "playVideo": "動画を再生",
     "pauseVideo": "動画を一時停止",
     "tapToOpen": "タップして開く",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "送信済み",
     "createChannelInCategory": "カテゴリにチャンネルを作成",
@@ -287,6 +286,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

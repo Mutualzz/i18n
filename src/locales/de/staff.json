@@ -6,11 +6,13 @@
     "reports": "Meldungen",
     "activity": "Aktivität",
     "appeals": "Einsprüche",
-    "support": "Support"
+    "support": "Support",
+    "changelogs": ""
   },
   "pages": {
     "activity": "Staff-Aktivität",
-    "reportDetails": "Meldungsdetails"
+    "reportDetails": "Meldungsdetails",
+    "changelogs": ""
   },
   "home": {
     "findUser": "Benutzer finden",
@@ -281,7 +283,37 @@
       "revokedSession": "{{actor}} hat eine Sitzung von {{target}} widerrufen",
       "tookDownContent": "{{actor}} hat einen gemeldeten {{type}} entfernt",
       "lockedDownSpace": "{{actor}} hat einen Space gesperrt",
-      "shutDownSpace": "{{actor}} hat einen gemeldeten Space geschlossen"
+      "shutDownSpace": "{{actor}} hat einen gemeldeten Space geschlossen",
+      "publishedChangelog": "",
+      "deletedChangelog": ""
     }
+  },
+  "changelogs": {
+    "title": "",
+    "description": "",
+    "titleLabel": "",
+    "titlePlaceholder": "",
+    "bodyLabel": "",
+    "bodyPlaceholder": "",
+    "imageUrlLabel": "",
+    "imageUrlPlaceholder": "",
+    "desktopVersion": "",
+    "mobileVersion": "",
+    "versionPlaceholder": "",
+    "publish": "",
+    "publishing": "",
+    "preview": "Preview",
+    "empty": "",
+    "delete": "",
+    "desktop": "",
+    "mobile": "",
+    "published": "",
+    "deleted": "",
+    "errors": {
+      "publish": "",
+      "delete": "",
+      "versionRequired": ""
+    },
+    "developerRequired": ""
   }
 }

@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "Sons",
+    "soundsDescription": "Controle quais sons do app tocam neste dispositivo. Estas preferências ficam neste dispositivo.",
+    "soundsEnable": "Ativar sons",
+    "soundsDndNote": "Sons de mensagem são silenciados quando seu status é Não perturbe.",
+    "sounds": {
+      "message": "Notificações de mensagem",
+      "call_incoming": "Chamada recebida",
+      "call_outgoing": "Chamada efetuada",
+      "call_connect": "Chamada conectada",
+      "call_disconnect": "Chamada desconectada",
+      "call_decline": "Chamada recusada",
+      "user_join": "Usuário entrou na voz",
+      "user_leave": "Usuário saiu da voz",
+      "mute": "Silenciar / ativar microfone",
+      "deafen": "Ensurdecer / deixar de ensurdecer",
+      "ptt": "Apertar para falar",
+      "stream": "Compartilhamento de tela"
+    },
+    "soundsPreview": "Prévia do som"
   },
   "account": {
     "editAvatar": "Editar avatar",
@@ -290,7 +309,9 @@
       "addLink": "Adicionar link",
       "moveWidgetUp": "Mover widget para cima",
       "moveWidgetDown": "Mover widget para baixo",
-      "editWidgetA11y": "Editar widget {{type}}"
+      "editWidgetA11y": "Editar widget {{type}}",
+      "pronouns": "Pronomes",
+      "pronounsPlaceholder": "ex.: they/them"
     },
     "viewer": {
       "emptySelfTitle": "Você ainda não configurou seu perfil",
@@ -460,7 +481,8 @@
         "emptyStickers_other": "Escolha figurinhas para {{count}} blocos de figurinha antes de salvar",
         "emptyLinks_one": "Adicione pelo menos um link ao bloco de links {{count}} antes de salvar",
         "emptyLinks_other": "Adicione pelo menos um link a {{count}} blocos de links antes de salvar",
-        "bioTooLong": "A bio deve ter no máximo 512 caracteres"
+        "bioTooLong": "A bio deve ter no máximo 512 caracteres",
+        "pronounsTooLong": "Os pronomes devem ter no máximo 32 caracteres"
       },
       "maxRoles": "Máx. de cargos",
       "maxRolesShown": "Máx. de cargos exibidos ({{value}})",
@@ -724,7 +746,11 @@
       "mutedTextShort": "Texto suave",
       "mutedTextDescription": "Usada para textos suaves",
       "baseText": "Cor do texto base",
-      "baseTextShort": "Texto base"
+      "baseTextShort": "Texto base",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "fonts": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "Termos de serviço",
   "connections": {

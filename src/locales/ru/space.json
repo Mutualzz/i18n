@@ -6,7 +6,8 @@
     "categories": {
       "general": "Общее",
       "people": "Участники",
-      "moderation": "Модерация"
+      "moderation": "Модерация",
+      "integrations": ""
     },
     "pages": {
       "profile": "Профиль",
@@ -15,7 +16,8 @@
       "channels": "Каналы",
       "invites": "Приглашения",
       "expressions": "Выражения",
-      "bans": "Баны"
+      "bans": "Баны",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -528,7 +530,9 @@
     "switchTo": "Перейти к",
     "directMessages": "Личные сообщения",
     "friends": "Друзья",
-    "spaces": "Пространства"
+    "spaces": "Пространства",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "Это пространство заблокировано",

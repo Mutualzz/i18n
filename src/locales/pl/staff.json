@@ -6,11 +6,13 @@
     "reports": "Zgłoszenia",
     "activity": "Aktywność",
     "appeals": "Odwołania",
-    "support": "Wsparcie"
+    "support": "Wsparcie",
+    "changelogs": ""
   },
   "pages": {
     "activity": "Aktywność personelu",
-    "reportDetails": "Szczegóły raportu"
+    "reportDetails": "Szczegóły raportu",
+    "changelogs": ""
   },
   "home": {
     "findUser": "Znajdź użytkownika",
@@ -283,7 +285,37 @@
       "revokedSession": "{{actor}} odwołał sesję dla {{target}}",
       "tookDownContent": "{{actor}} zdjął zgłoszony {{type}}",
       "lockedDownSpace": "{{actor}} zablokował spację",
-      "shutDownSpace": "{{actor}} zamknął zgłoszoną przestrzeń"
+      "shutDownSpace": "{{actor}} zamknął zgłoszoną przestrzeń",
+      "publishedChangelog": "",
+      "deletedChangelog": ""
     }
+  },
+  "changelogs": {
+    "title": "",
+    "description": "",
+    "titleLabel": "",
+    "titlePlaceholder": "",
+    "bodyLabel": "",
+    "bodyPlaceholder": "",
+    "imageUrlLabel": "",
+    "imageUrlPlaceholder": "",
+    "desktopVersion": "",
+    "mobileVersion": "",
+    "versionPlaceholder": "",
+    "publish": "",
+    "publishing": "",
+    "preview": "Preview",
+    "empty": "",
+    "delete": "",
+    "desktop": "",
+    "mobile": "",
+    "published": "",
+    "deleted": "",
+    "errors": {
+      "publish": "",
+      "delete": "",
+      "versionRequired": ""
+    },
+    "developerRequired": ""
   }
 }

@@ -6,11 +6,13 @@
     "reports": "البلاغات",
     "activity": "النشاط",
     "appeals": "الاستئنافات",
-    "support": "الدعم"
+    "support": "الدعم",
+    "changelogs": ""
   },
   "pages": {
     "activity": "نشاط الموظفين",
-    "reportDetails": "تفاصيل البلاغ"
+    "reportDetails": "تفاصيل البلاغ",
+    "changelogs": ""
   },
   "home": {
     "findUser": "البحث عن مستخدم",
@@ -285,7 +287,37 @@
       "revokedSession": "{{actor}} ألغى جلسة لـ {{target}}",
       "tookDownContent": "{{actor}} أزال {{type}} مُبلَغًا عنه",
       "lockedDownSpace": "{{actor}} أغلق مساحة مؤقتًا",
-      "shutDownSpace": "{{actor}} أغلق مساحة مُبلَغًا عنها"
+      "shutDownSpace": "{{actor}} أغلق مساحة مُبلَغًا عنها",
+      "publishedChangelog": "",
+      "deletedChangelog": ""
     }
+  },
+  "changelogs": {
+    "title": "",
+    "description": "",
+    "titleLabel": "",
+    "titlePlaceholder": "",
+    "bodyLabel": "",
+    "bodyPlaceholder": "",
+    "imageUrlLabel": "",
+    "imageUrlPlaceholder": "",
+    "desktopVersion": "",
+    "mobileVersion": "",
+    "versionPlaceholder": "",
+    "publish": "",
+    "publishing": "",
+    "preview": "Preview",
+    "empty": "",
+    "delete": "",
+    "desktop": "",
+    "mobile": "",
+    "published": "",
+    "deleted": "",
+    "errors": {
+      "publish": "",
+      "delete": "",
+      "versionRequired": ""
+    },
+    "developerRequired": ""
   }
 }

@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "聲音",
+    "soundsDescription": "控制此裝置上播放哪些應用程式內聲音。這些偏好僅保存在本裝置。",
+    "soundsEnable": "啟用聲音",
+    "soundsDndNote": "狀態為勿擾時，不會播放訊息提示音。",
+    "sounds": {
+      "message": "訊息通知",
+      "call_incoming": "來電",
+      "call_outgoing": "去電",
+      "call_connect": "通話接通",
+      "call_disconnect": "通話結束",
+      "call_decline": "拒絕通話",
+      "user_join": "使用者加入語音",
+      "user_leave": "使用者離開語音",
+      "mute": "靜音 / 取消靜音",
+      "deafen": "耳機靜音 / 取消",
+      "ptt": "按鍵說話",
+      "stream": "螢幕分享"
+    },
+    "soundsPreview": "預覽聲音"
   },
   "account": {
     "editAvatar": "編輯頭像",
@@ -290,7 +309,9 @@
       "addLink": "新增連結",
       "moveWidgetUp": "向上移動小工具",
       "moveWidgetDown": "向下移動小工具",
-      "editWidgetA11y": "編輯 {{type}} 小工具"
+      "editWidgetA11y": "編輯 {{type}} 小工具",
+      "pronouns": "代名詞",
+      "pronounsPlaceholder": "例如 they/them"
     },
     "viewer": {
       "emptySelfTitle": "您尚未設定個人資料",
@@ -508,7 +529,8 @@
         "emptyStickers_other": "儲存前請為 {{count}} 個貼圖區塊選擇貼圖",
         "emptyLinks_one": "儲存前請為 {{count}} 個連結區塊新增至少一個連結",
         "emptyLinks_other": "儲存前請為 {{count}} 個連結區塊新增至少一個連結",
-        "bioTooLong": "個人簡介最多 512 個字元"
+        "bioTooLong": "個人簡介最多 512 個字元",
+        "pronounsTooLong": "代名詞最多 32 個字元"
       },
       "connectionsHint": ""
     },
@@ -744,7 +766,11 @@
       "mutedTextShort": "靜音文字",
       "mutedTextDescription": "用於靜音文字",
       "baseText": "基礎文字顏色",
-      "baseTextShort": "基礎文字"
+      "baseTextShort": "基礎文字",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "服務條款",
   "connections": {

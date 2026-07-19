@@ -218,7 +218,8 @@
       "disconnectedFrom": "음성에서 연결이 끊겼습니다: {{reason}}",
       "differentDevice": "다른 기기에서 연결되었습니다",
       "movedChannel": "다른 음성 채널로 이동했습니다",
-      "enumerateDevices": "장치를 나열하지 못했습니다"
+      "enumerateDevices": "장치를 나열하지 못했습니다",
+      "watchStreamFailed": "Couldn't join the screen share"
     },
     "elapsedInChannel": "",
     "channelOccupied": ""
@@ -494,6 +495,22 @@
   },
   "blocked": "차단됨",
   "privateSpace": "비공개 스페이스",
+  "call": {
+    "start": "Start Call",
+    "startHint": "Start call — Shift+click to join without ringing",
+    "incoming": "Incoming call",
+    "calling": "Calling…",
+    "inCall": "In call",
+    "active": "Call active",
+    "accept": "Accept",
+    "decline": "Decline",
+    "join": "Join Call",
+    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
+    "missed": "Missed call",
+    "ended": "Call ended",
+    "missedFrom": "You missed a call from {{name}}",
+    "endedLasted": "Call ended — lasted {{duration}}"
+  },
   "mentions": {
     "members": "멤버",
     "membersMatching": "\"{{query}}\"와(과) 일치하는 멤버",

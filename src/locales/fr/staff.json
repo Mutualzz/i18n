@@ -6,11 +6,13 @@
     "reports": "Signalements",
     "activity": "Activité",
     "appeals": "Appels",
-    "support": "Support"
+    "support": "Support",
+    "changelogs": ""
   },
   "pages": {
     "activity": "Activité du staff",
-    "reportDetails": "Détails du signalement"
+    "reportDetails": "Détails du signalement",
+    "changelogs": ""
   },
   "home": {
     "findUser": "Trouver un utilisateur",
@@ -281,7 +283,37 @@
       "revokedSession": "{{actor}} a révoqué une session de {{target}}",
       "tookDownContent": "{{actor}} a retiré un {{type}} signalé",
       "lockedDownSpace": "{{actor}} a verrouillé un espace",
-      "shutDownSpace": "{{actor}} a fermé un espace signalé"
+      "shutDownSpace": "{{actor}} a fermé un espace signalé",
+      "publishedChangelog": "",
+      "deletedChangelog": ""
     }
+  },
+  "changelogs": {
+    "title": "",
+    "description": "",
+    "titleLabel": "",
+    "titlePlaceholder": "",
+    "bodyLabel": "",
+    "bodyPlaceholder": "",
+    "imageUrlLabel": "",
+    "imageUrlPlaceholder": "",
+    "desktopVersion": "",
+    "mobileVersion": "",
+    "versionPlaceholder": "",
+    "publish": "",
+    "publishing": "",
+    "preview": "Preview",
+    "empty": "",
+    "delete": "",
+    "desktop": "",
+    "mobile": "",
+    "published": "",
+    "deleted": "",
+    "errors": {
+      "publish": "",
+      "delete": "",
+      "versionRequired": ""
+    },
+    "developerRequired": ""
   }
 }

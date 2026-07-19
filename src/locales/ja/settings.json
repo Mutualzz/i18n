@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "サウンド",
+    "soundsDescription": "この端末で再生するアプリ内サウンドを設定します。設定はこの端末に保存されます。",
+    "soundsEnable": "サウンドを有効にする",
+    "soundsDndNote": "ステータスが取り込み中のときはメッセージ通知音は鳴りません。",
+    "sounds": {
+      "message": "メッセージ通知",
+      "call_incoming": "着信",
+      "call_outgoing": "発信",
+      "call_connect": "通話接続",
+      "call_disconnect": "通話終了",
+      "call_decline": "通話拒否",
+      "user_join": "ボイス参加",
+      "user_leave": "ボイス退出",
+      "mute": "ミュート / 解除",
+      "deafen": "スピーカーミュート / 解除",
+      "ptt": "プッシュトゥトーク",
+      "stream": "画面共有"
+    },
+    "soundsPreview": "サウンドをプレビュー"
   },
   "account": {
     "editAvatar": "アバターを編集",
@@ -290,7 +309,9 @@
       "addLink": "リンクを追加",
       "moveWidgetUp": "ウィジェットを上に移動",
       "moveWidgetDown": "ウィジェットを下に移動",
-      "editWidgetA11y": "{{type}}ウィジェットを編集"
+      "editWidgetA11y": "{{type}}ウィジェットを編集",
+      "pronouns": "代名詞",
+      "pronounsPlaceholder": "例: they/them"
     },
     "viewer": {
       "emptySelfTitle": "プロフィールがまだ設定されていません",
@@ -460,7 +481,8 @@
         "emptyStickers_other": "保存する前に、{{count}} 個のスタンプブロックのスタンプを選択してください",
         "emptyLinks_one": "保存する前に、{{count}} 個のリンクブロックに少なくとも1つのリンクを追加してください",
         "emptyLinks_other": "保存する前に、{{count}} 個のリンクブロックに少なくとも1つのリンクを追加してください",
-        "bioTooLong": "自己紹介は512文字以内にしてください"
+        "bioTooLong": "自己紹介は512文字以内にしてください",
+        "pronounsTooLong": "代名詞は32文字以内にしてください"
       },
       "maxRoles": "最大ロール数",
       "maxRolesShown": "表示する最大ロール数 ({{value}})",
@@ -724,7 +746,11 @@
       "mutedTextShort": "ミュートテキスト",
       "mutedTextDescription": "ミュートされたテキストに使用されます",
       "baseText": "ベーステキスト色",
-      "baseTextShort": "ベーステキスト"
+      "baseTextShort": "ベーステキスト",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "fonts": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "利用規約",
   "connections": {

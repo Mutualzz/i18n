@@ -174,6 +174,22 @@
       "closeChatA11y": "Закрити чат"
     }
   },
+  "call": {
+    "start": "Start Call",
+    "startHint": "Start call — Shift+click to join without ringing",
+    "incoming": "Incoming call",
+    "calling": "Calling…",
+    "inCall": "In call",
+    "active": "Call active",
+    "accept": "Accept",
+    "decline": "Decline",
+    "join": "Join Call",
+    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
+    "missed": "Missed call",
+    "ended": "Call ended",
+    "missedFrom": "You missed a call from {{name}}",
+    "endedLasted": "Call ended — lasted {{duration}}"
+  },
   "mentions": {
     "members": "Учасники",
     "membersMatching": "Учасники за запитом «{{query}}»",
@@ -218,7 +234,8 @@
       "disconnectedFrom": "Від’єднано від голосу: {{reason}}",
       "differentDevice": "Підключено з іншого пристрою",
       "movedChannel": "Переміщено до іншого голосового каналу",
-      "enumerateDevices": "Не вдалося отримати список пристроїв"
+      "enumerateDevices": "Не вдалося отримати список пристроїв",
+      "watchStreamFailed": "Couldn't join the screen share"
     },
     "controls": {
       "mute": "Вимкнути мікрофон",

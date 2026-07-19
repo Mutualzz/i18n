@@ -6,7 +6,8 @@
     "categories": {
       "general": "Algemeen",
       "people": "Mensen",
-      "moderation": "Moderatie"
+      "moderation": "Moderatie",
+      "integrations": ""
     },
     "pages": {
       "profile": "Profiel",
@@ -15,7 +16,8 @@
       "channels": "Kanalen",
       "invites": "Uitnodigingen",
       "expressions": "Expressies",
-      "bans": "Bans"
+      "bans": "Bans",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -518,7 +520,9 @@
     "switchTo": "Schakel over naar",
     "directMessages": "Privéberichten",
     "friends": "Vrienden",
-    "spaces": "Spaties"
+    "spaces": "Spaties",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "Deze ruimte is afgesloten",

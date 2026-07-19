@@ -264,6 +264,7 @@
     "versionPlaceholder": "e.g. 6.21.0",
     "publish": "Publish",
     "publishing": "Publishing…",
+    "preview": "Preview",
     "empty": "No changelogs yet",
     "delete": "Delete",
     "desktop": "Desktop {{version}}",

@@ -47,7 +47,26 @@
     "clearRecentActivityDescription": "",
     "clearRecentActivityAction": "",
     "clearRecentActivityDone": "",
-    "clearRecentActivityError": ""
+    "clearRecentActivityError": "",
+    "soundsTitle": "声音",
+    "soundsDescription": "控制此设备上播放哪些应用内声音。这些偏好仅保存在本设备。",
+    "soundsEnable": "启用声音",
+    "soundsDndNote": "状态为请勿打扰时，不会播放消息提示音。",
+    "sounds": {
+      "message": "消息通知",
+      "call_incoming": "来电",
+      "call_outgoing": "去电",
+      "call_connect": "通话接通",
+      "call_disconnect": "通话结束",
+      "call_decline": "拒绝通话",
+      "user_join": "用户加入语音",
+      "user_leave": "用户离开语音",
+      "mute": "静音 / 取消静音",
+      "deafen": "听筒静音 / 取消",
+      "ptt": "按键说话",
+      "stream": "屏幕共享"
+    },
+    "soundsPreview": "预览声音"
   },
   "account": {
     "editAvatar": "编辑头像",
@@ -290,7 +309,9 @@
       "addLink": "添加链接",
       "moveWidgetUp": "向上移动小组件",
       "moveWidgetDown": "向下移动小组件",
-      "editWidgetA11y": "编辑 {{type}} 小组件"
+      "editWidgetA11y": "编辑 {{type}} 小组件",
+      "pronouns": "代词",
+      "pronounsPlaceholder": "例如 they/them"
     },
     "viewer": {
       "emptySelfTitle": "您尚未设置个人主页",
@@ -508,7 +529,8 @@
         "emptyStickers_other": "保存前，请为 {{count}} 个贴纸板块选择贴纸",
         "emptyLinks_one": "保存前，请为 {{count}} 个链接板块添加至少一个链接",
         "emptyLinks_other": "保存前，请为 {{count}} 个链接板块添加至少一个链接",
-        "bioTooLong": "简介最多 512 个字符"
+        "bioTooLong": "简介最多 512 个字符",
+        "pronounsTooLong": "代词最多 32 个字符"
       },
       "connectionsHint": ""
     },
@@ -744,7 +766,11 @@
       "mutedTextShort": "弱化文字",
       "mutedTextDescription": "用于弱化文字",
       "baseText": "基础文字颜色",
-      "baseTextShort": "基础文字"
+      "baseTextShort": "基础文字",
+      "backgroundImage": "",
+      "backgroundImageDescription": "",
+      "chooseBackgroundImage": "",
+      "removeBackgroundImage": ""
     }
   },
   "minecraftBridge": {
@@ -948,7 +974,11 @@
     "kickMember": "",
     "kickingMember": "",
     "kickMemberConfirm": "",
-    "kickMemberTitle": ""
+    "kickMemberTitle": "",
+    "noBridgesAdmin": "",
+    "noBridgesMember": "",
+    "openSpaceSettings": "",
+    "unknownSpace": ""
   },
   "termsOfService": "服务条款",
   "connections": {

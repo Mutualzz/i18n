@@ -6,7 +6,8 @@
     "categories": {
       "general": "Allgemein",
       "people": "Personen",
-      "moderation": "Moderation"
+      "moderation": "Moderation",
+      "integrations": ""
     },
     "pages": {
       "profile": "Profil",
@@ -15,7 +16,8 @@
       "channels": "Kanäle",
       "invites": "Einladungen",
       "expressions": "Ausdrücke",
-      "bans": "Banns"
+      "bans": "Banns",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -511,7 +513,9 @@
     "directMessages": "Direktnachrichten",
     "friends": "Freunde",
     "spaces": "Spaces",
-    "switchToFeed": "Zum Feed wechseln"
+    "switchToFeed": "Zum Feed wechseln",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "Dieser Space ist im Lockdown",

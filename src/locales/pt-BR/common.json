@@ -146,7 +146,8 @@
     "strikethrough": "Tachado",
     "blockquote": "Citação",
     "code": "Código",
-    "spoiler": "Spoiler"
+    "spoiler": "Spoiler",
+    "color": "Color"
   },
   "support": {
     "myTickets": "Meus tickets",
@@ -256,9 +257,7 @@
     "playVideo": "Reproduzir vídeo",
     "pauseVideo": "Pausar vídeo",
     "tapToOpen": "Toque para abrir",
-
     "imageAttachment": "Image attachment",
-
     "fileAttachment": "File attachment",
     "sent": "Enviado",
     "createChannelInCategory": "Criar canal na categoria",
@@ -287,6 +286,12 @@
     "playing": "",
     "listening": "",
     "elapsed": "",
-    "showLess": ""
-  }
+    "showLess": "",
+    "played": "",
+    "listened": ""
+  },
+  "whatsNew": {
+    "title": ""
+  },
+  "logout": ""
 }

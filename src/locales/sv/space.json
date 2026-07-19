@@ -6,7 +6,8 @@
     "categories": {
       "general": "Allmänt",
       "people": "Personer",
-      "moderation": "Moderering"
+      "moderation": "Moderering",
+      "integrations": ""
     },
     "pages": {
       "profile": "Profil",
@@ -15,7 +16,8 @@
       "channels": "Kanaler",
       "invites": "Inbjudningar",
       "expressions": "Uttryck",
-      "bans": "Bannlysningar"
+      "bans": "Bannlysningar",
+      "minecraftBridge": ""
     }
   },
   "actions": {
@@ -518,7 +520,9 @@
     "switchTo": "Växla till",
     "directMessages": "Direktmeddelanden",
     "friends": "Vänner",
-    "spaces": "Utrymmen"
+    "spaces": "Utrymmen",
+    "channels": "",
+    "bridges": ""
   },
   "lockdown": {
     "title": "Detta utrymme är i lockdown",
