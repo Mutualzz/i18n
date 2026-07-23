@@ -292,13 +292,22 @@ export function resolveLocale(
 /** Settings page id → i18n key under settings.pages.* */
 export const settingsPageTitleKeys = {
   "my-account": "pages.myAccount",
+  sessions: "pages.sessions",
   profile: "pages.profile",
   expressions: "pages.expressions",
   appearance: "pages.appearance",
+  messages: "pages.messages",
   notifications: "pages.notifications",
   "registered-games": "pages.registeredGames",
   connections: "pages.connections",
   voice_and_video: "pages.voiceAndVideo",
+  text_and_chat: "pages.textAndChat",
+  privacy: "pages.privacy",
+  accessibility: "pages.accessibility",
+  layout: "pages.layout",
+  composer: "pages.composer",
+  desktop: "pages.desktop",
+  keybinds: "pages.keybinds",
   "minecraft-bridge": "pages.minecraftBridge",
   support: "helpAndSupport",
 } as const;

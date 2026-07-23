@@ -52,7 +52,8 @@
     "editHintCancel": "anulować",
     "editHintSave": "ratować",
     "editHintEscapeTo": "uciec do",
-    "editHintEnterTo": "wejść do"
+    "editHintEnterTo": "wejść do",
+    "dropFiles": "Upuść pliki, aby dołączyć"
   },
   "reply": {
     "banner": "Odpowiadanie na {{name}}",

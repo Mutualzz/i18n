@@ -52,7 +52,8 @@
     "editHintCancel": "скасувати",
     "editHintSave": "зберегти",
     "editHintEscapeTo": "escape щоб",
-    "editHintEnterTo": "enter щоб"
+    "editHintEnterTo": "enter щоб",
+    "dropFiles": "Перетягніть файли для вкладення"
   },
   "reply": {
     "banner": "Відповідь {{name}}",

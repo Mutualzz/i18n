@@ -52,7 +52,8 @@
     "editHintCancel": "avbryt",
     "editHintSave": "spara",
     "editHintEscapeTo": "escape för att",
-    "editHintEnterTo": "enter för att"
+    "editHintEnterTo": "enter för att",
+    "dropFiles": "Släpp filer för att bifoga"
   },
   "reply": {
     "banner": "Svarar {{name}}",

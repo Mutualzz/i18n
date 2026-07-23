@@ -129,7 +129,8 @@
     "unsafeTitle": "This link seems to be unsafe",
     "unsafeHttpBody": "The link you are trying to open uses an insecure HTTP connection. This could potentially expose your data to third parties.",
     "confirmProceed": "Are you sure you want to proceed?",
-    "blockedInApp": "We do not allow opening unsafe links directly in the app for your security. Please copy the link and open it in your web browser."
+    "blockedInApp": "We do not allow opening unsafe links directly in the app for your security. Please copy the link and open it in your web browser.",
+    "dontShowAgain": "Don't show this warning again"
   },
   "connection": {
     "reconnect": "Reconnect",
