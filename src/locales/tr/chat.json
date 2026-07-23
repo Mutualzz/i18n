@@ -52,7 +52,8 @@
     "editHintCancel": "iptal",
     "editHintSave": "kaydet",
     "editHintEscapeTo": "escape ile",
-    "editHintEnterTo": "enter ile"
+    "editHintEnterTo": "enter ile",
+    "dropFiles": "Eklemek için dosyaları bırakın"
   },
   "reply": {
     "banner": "{{name}} adlı kişiye yanıtlanıyor",

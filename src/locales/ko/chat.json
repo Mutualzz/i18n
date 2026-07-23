@@ -32,7 +32,8 @@
     "openGifPicker": "GIF 선택기 열기",
     "openStickerPicker": "스티커 선택기 열기",
     "editHintEscapeTo": "Escape로",
-    "editHintEnterTo": "Enter로"
+    "editHintEnterTo": "Enter로",
+    "dropFiles": "파일을 놓아 첨부하기"
   },
   "reply": {
     "banner": "{{name}}에게 답장 중",

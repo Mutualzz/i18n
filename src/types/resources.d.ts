@@ -170,6 +170,7 @@ export default interface Resources {
     "composer": {
       "addAttachment": "Add attachment",
       "attachFiles": "Attach files",
+      "dropFiles": "Drop files to attach",
       "editHint": "escape to cancel • enter to save",
       "editHintCancel": "cancel",
       "editHintEnterTo": "enter to",
@@ -305,13 +306,21 @@ export default interface Resources {
         "unsavePost": "Unsave post"
       },
       "comments": {
+        "close": "Close comments",
+        "hideReplies": "Hide replies",
+        "loadMore": "Load more comments",
         "loading": "Loading comments…",
+        "loadingMore": "Loading more…",
         "placeholder": "Write a comment…",
         "reply": "Reply",
         "replyFallback": "comment",
         "replyPlaceholder": "Reply to {{name}}…",
         "sendReply": "Send reply",
-        "title": "Comments"
+        "sortNewest": "Newest",
+        "sortOldest": "Oldest",
+        "title": "Comments",
+        "viewReplies_one": "View {{count}} reply",
+        "viewReplies_other": "View {{count}} replies"
       },
       "composer": {
         "addEmojiOrSticker": "Add emoji or sticker",
@@ -1426,6 +1435,7 @@ export default interface Resources {
       "expressions": "Expressions",
       "minecraftBridge": "Minecraft Bridge",
       "myAccount": "My Account",
+      "sessions": "Active Sessions",
       "notifications": "Notifications",
       "profile": "Profile",
       "registeredGames": "Registered Games",
@@ -1593,7 +1603,7 @@ export default interface Resources {
         "pronouns": "Pronouns",
         "pronounsPlaceholder": "e.g. they/them",
         "resetCrop": "Reset crop",
-        "resetDescription": "This removes your bio, banner, background, profile music, and all blocks. Your account avatar and username are not affected. This cannot be undone.",
+        "resetDescription": "This removes your bio, pronouns, banner, background, profile music, and all blocks. Your account avatar and username are not affected. This cannot be undone.",
         "resetSuccess": "Profile reset to empty",
         "resetTitle": "Reset profile to empty?",
         "resetToEmpty": "Reset to empty",
@@ -1778,6 +1788,9 @@ export default interface Resources {
         "previewingUnsaved": "Previewing unsaved changes",
         "title": "Profile",
         "userNotFound": "User not found",
+        "userNotFoundTitle": "Profile unavailable",
+        "userNotFoundDescription": "This profile doesn't exist, or its owner has chosen not to share it.",
+        "userNotFoundAction": "Go back",
         "userProfile": "{{name}}'s Profile",
         "yourProfile": "Your Profile"
       },

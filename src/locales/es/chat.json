@@ -32,7 +32,8 @@
     "openGifPicker": "Abrir selector de GIFs",
     "openStickerPicker": "Abrir selector de stickers",
     "editHintEscapeTo": "escape para",
-    "editHintEnterTo": "enter para"
+    "editHintEnterTo": "enter para",
+    "dropFiles": "Suelta archivos para adjuntar"
   },
   "reply": {
     "banner": "Respondiendo a {{name}}",

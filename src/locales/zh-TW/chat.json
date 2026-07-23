@@ -52,7 +52,8 @@
     "editHintCancel": "取消",
     "editHintSave": "儲存",
     "editHintEscapeTo": "escape 以",
-    "editHintEnterTo": "enter 以"
+    "editHintEnterTo": "enter 以",
+    "dropFiles": "拖放檔案以附加"
   },
   "reply": {
     "banner": "回覆 {{name}}",

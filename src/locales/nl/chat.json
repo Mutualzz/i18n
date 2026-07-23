@@ -52,7 +52,8 @@
     "editHintCancel": "annuleren",
     "editHintSave": "redden",
     "editHintEscapeTo": "ontsnappen naar",
-    "editHintEnterTo": "binnengaan naar"
+    "editHintEnterTo": "binnengaan naar",
+    "dropFiles": "Zet bestanden neer om bij te voegen"
   },
   "reply": {
     "banner": "Reageren op {{name}}",

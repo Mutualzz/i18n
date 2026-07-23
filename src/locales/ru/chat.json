@@ -52,7 +52,8 @@
     "editHintCancel": "отмена",
     "editHintSave": "сохранить",
     "editHintEscapeTo": "escape для",
-    "editHintEnterTo": "enter для"
+    "editHintEnterTo": "enter для",
+    "dropFiles": "Перетащите файлы для вложения"
   },
   "reply": {
     "banner": "Ответ {{name}}",

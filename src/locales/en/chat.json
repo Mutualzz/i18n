@@ -52,7 +52,9 @@
     "editHintCancel": "cancel",
     "editHintSave": "save",
     "editHintEscapeTo": "escape to",
-    "editHintEnterTo": "enter to"
+    "editHintEnterTo": "enter to",
+    "dropFiles": "Drop files to attach",
+    "markAsSpoiler": "Mark as spoiler"
   },
   "reply": {
     "banner": "Replying to {{name}}",
@@ -381,11 +383,19 @@
     "comments": {
       "title": "Comments",
       "loading": "Loading comments…",
+      "loadingMore": "Loading more…",
       "placeholder": "Write a comment…",
       "replyPlaceholder": "Reply to {{name}}…",
       "replyFallback": "comment",
       "reply": "Reply",
-      "sendReply": "Send reply"
+      "sendReply": "Send reply",
+      "sortNewest": "Newest",
+      "sortOldest": "Oldest",
+      "viewReplies_one": "View {{count}} reply",
+      "viewReplies_other": "View {{count}} replies",
+      "hideReplies": "Hide replies",
+      "loadMore": "Load more comments",
+      "close": "Close comments"
     },
     "actions": {
       "deletePost": "Delete post",
@@ -418,6 +428,25 @@
   },
   "contextMenu": {
     "markAsRead": "Mark as read",
+    "muteNotifications": "Mute notifications",
+    "unmuteNotifications": "Unmute notifications",
+    "notificationSettings": "Notification settings",
+    "notificationLevel": "Notification level",
+    "notificationAll": "All messages",
+    "notificationMentions": "Only @mentions",
+    "notificationNothing": "Nothing",
+    "useSpaceDefault": "Use space default",
+    "muteSpace": "Mute space",
+    "unmuteSpace": "Unmute space",
+    "muteChannel": "Mute channel",
+    "unmuteChannel": "Unmute channel",
+    "muteDuration1h": "For 1 hour",
+    "muteDuration8h": "For 8 hours",
+    "muteDuration24h": "For 24 hours",
+    "muteDuration1w": "For 1 week",
+    "muteUntilTurnBackOn": "Until I turn it back on",
+    "suppressEveryone": "Suppress @everyone",
+    "suppressRoles": "Suppress @role mentions",
     "viewProfile": "View Profile",
     "editProfile": "Edit Profile",
     "message": "Message",

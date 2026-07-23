@@ -32,7 +32,8 @@
     "openGifPicker": "GIFピッカーを開く",
     "openStickerPicker": "スタンプピッカーを開く",
     "editHintEscapeTo": "Escape で",
-    "editHintEnterTo": "Enter で"
+    "editHintEnterTo": "Enter で",
+    "dropFiles": "ファイルをドロップして添付"
   },
   "reply": {
     "banner": "{{name}} に返信中",
