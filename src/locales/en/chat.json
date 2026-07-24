@@ -177,6 +177,7 @@
     }
   },
   "call": {
+    "button": "Call",
     "start": "Start Call",
     "startHint": "Start call — Shift+click to join without ringing",
     "incoming": "Incoming Call",
@@ -431,6 +432,8 @@
     "muteNotifications": "Mute notifications",
     "unmuteNotifications": "Unmute notifications",
     "notificationSettings": "Notification settings",
+    "notificationFrequency": "Frequency",
+    "notificationGeneral": "General",
     "notificationLevel": "Notification level",
     "notificationAll": "All messages",
     "notificationMentions": "Only @mentions",
@@ -440,6 +443,7 @@
     "unmuteSpace": "Unmute space",
     "muteChannel": "Mute channel",
     "unmuteChannel": "Unmute channel",
+    "muteSpaceForDuration": "Mute for a duration…",
     "muteDuration1h": "For 1 hour",
     "muteDuration8h": "For 8 hours",
     "muteDuration24h": "For 24 hours",

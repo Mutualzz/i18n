@@ -506,6 +506,28 @@
     "leaveSpaceBody": "Are you sure you want to leave {{name}}? This Action cannot be undone.",
     "cannotUndo": "This action cannot be undone."
   },
+  "sheet": {
+    "quickActions": {
+      "invite": "Invite",
+      "notifications": "Notifications",
+      "settings": "Settings"
+    },
+    "onlineCount_one": "{{count}} Online",
+    "onlineCount_other": "{{count}} Online",
+    "membersCount_one": "{{count}} Member",
+    "membersCount_other": "{{count}} Members",
+    "spaceEmojis": "Space emoji",
+    "notificationSettingsTitle": "Notification settings",
+    "serverSettingsTitle": "Space settings",
+    "unmuteSpace": "Unmute {{spaceName}}",
+    "muteSpace": "Mute {{spaceName}}",
+    "mutedStatus": "You have muted this space",
+    "muteHelper": "Muting a space prevents unread badges and notification sounds unless you are mentioned.",
+    "serverNotificationSettings": "Server notification settings",
+    "suppressSettings": "Suppress",
+    "settingsSection": "Settings",
+    "userManagementSection": "User management"
+  },
   "menu": {
     "spaceSettings": "Space settings",
     "reportSpace": "Report space",
@@ -527,6 +549,11 @@
     "switchTo": "Switch to",
     "directMessages": "Direct Messages",
     "friends": "Friends",
+    "moreOptions": "More options",
+    "reorder": "Reorder",
+    "doneReordering": "Done",
+    "reorderA11y": "Reorder spaces",
+    "doneReorderingA11y": "Done reordering spaces",
     "spaces": "Spaces",
     "channels": "Channels",
     "bridges": "Bridges"
