@@ -32,6 +32,8 @@
     "connectError": "Could not connect that account.",
     "connectFailed": "Could not connect account",
     "connecting": "Connecting…",
+    "connectingPageTitle": "Connecting account",
+    "accountFallback": "Account",
     "connectedToast": "{{provider}} connected",
     "spotifyConnectedToast": "Spotify connected",
     "accountConnectedToast": "Account connected",
@@ -88,6 +90,9 @@
       "expired": "Spotify connection expired. Reconnect to show activity again.",
       "reconnect": "Reconnect Spotify",
       "connectError": "Could not start Spotify connection.",
+      "connectFailed": "Could not connect Spotify",
+      "connecting": "Connecting Spotify…",
+      "connectingPageTitle": "Connecting Spotify",
       "controlError": "Spotify playback control failed. Premium may be required.",
       "unavailable": "Spotify connect is coming later."
     }
@@ -110,6 +115,7 @@
     },
     "getStarted": "Get started",
     "getStartedHint": "Creates a bridge and a plugin config you can paste into your Minecraft server.",
+    "adminOnlySettings": "Only bridge owners can change these settings.",
     "advanced": "Customize",
     "hideAdvanced": "Hide options",
     "yourBridges": "Your bridges",
@@ -145,6 +151,7 @@
     "rotateWarning": "Your old token will stop working. Update the plugin config after.",
     "selectBridge": "Active bridge",
     "selectBridgeFirst": "Create a bridge in Setup first.",
+    "spaceBridge": "Space bridge",
     "linkRequiresHub": "At least one of your Minecraft servers must be connected to the hub before you can link. Start a server with the MutualzzBridge plugin and a valid token.",
     "hubConnected": "A Minecraft server is connected",
     "hubDisconnected": "No Minecraft server online",
@@ -721,6 +728,16 @@
     "previewSidebar": "Sidebar",
     "previewMessages": "Messages",
     "previewProfile": "Profile",
+    "seo": {
+      "configuredDescription": "View {{name}}'s customized profile on Mutualzz.",
+      "defaultDescription": "{{name}} on Mutualzz — connect with people who share your interests.",
+      "keywords": {
+        "mutualzzProfile": "Mutualzz profile",
+        "socialProfile": "social profile",
+        "userProfile": "user profile"
+      },
+      "title": "{{name}} (@{{username}}) | Mutualzz"
+    },
     "currentAvatar": "Current avatar",
     "currentAvatarDescription": "Preview your current avatar before switching to another upload or preset.",
     "avatarPresets": "Avatar presets",

@@ -53,7 +53,8 @@
     "editHintSave": "spara",
     "editHintEscapeTo": "escape för att",
     "editHintEnterTo": "enter för att",
-    "dropFiles": "Släpp filer för att bifoga"
+    "dropFiles": "Släpp filer för att bifoga",
+    "markAsSpoiler": ""
   },
   "reply": {
     "banner": "Svarar {{name}}",
@@ -185,7 +186,8 @@
     "missed": "Missed call",
     "ended": "Call ended",
     "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}"
+    "endedLasted": "Call ended — lasted {{duration}}",
+    "button": ""
   },
   "mentions": {
     "members": "Medlemmar",
@@ -270,7 +272,8 @@
       "noiseSuppressionA11y": "",
       "noiseSuppressionOn": "",
       "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": ""
+      "noiseSuppressionApplying": "",
+      "unmuteUser": ""
     },
     "participant": {
       "you": "(Du)",
@@ -382,7 +385,15 @@
       "replyPlaceholder": "Svara {{name}}…",
       "replyFallback": "kommentar",
       "reply": "Svara",
-      "sendReply": "Skicka svar"
+      "sendReply": "Skicka svar",
+      "loadingMore": "",
+      "sortNewest": "",
+      "sortOldest": "",
+      "viewReplies_one": "",
+      "viewReplies_other": "",
+      "hideReplies": "",
+      "loadMore": "",
+      "close": ""
     },
     "actions": {
       "deletePost": "Ta bort inlägg",
@@ -454,7 +465,29 @@
     "moveUp": "Flytta upp",
     "moveDown": "Flytta ner",
     "channelSettings": "Kanalinställningar",
-    "addFriend": "Lägg till vän"
+    "addFriend": "Lägg till vän",
+    "muteNotifications": "",
+    "unmuteNotifications": "",
+    "notificationSettings": "",
+    "notificationFrequency": "",
+    "notificationGeneral": "",
+    "notificationLevel": "",
+    "notificationAll": "",
+    "notificationMentions": "",
+    "notificationNothing": "",
+    "useSpaceDefault": "",
+    "muteSpace": "",
+    "unmuteSpace": "",
+    "muteChannel": "",
+    "unmuteChannel": "",
+    "muteSpaceForDuration": "",
+    "muteDuration1h": "",
+    "muteDuration8h": "",
+    "muteDuration24h": "",
+    "muteDuration1w": "",
+    "muteUntilTurnBackOn": "",
+    "suppressEveryone": "",
+    "suppressRoles": ""
   },
   "a11y": {
     "embedImage": "Inbäddad bild",

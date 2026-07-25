@@ -117,7 +117,8 @@
     "unsafeTitle": "Bu bağlantı güvensiz görünüyor",
     "unsafeHttpBody": "Açmaya çalıştığın bağlantı güvensiz bir HTTP bağlantısı kullanıyor. Bu, verilerini üçüncü taraflara açabilir.",
     "confirmProceed": "Devam etmek istediğinden emin misin?",
-    "blockedInApp": "Güvenliğin için güvensiz bağlantıların uygulamada doğrudan açılmasına izin vermiyoruz. Lütfen bağlantıyı kopyalayıp web tarayıcında aç."
+    "blockedInApp": "Güvenliğin için güvensiz bağlantıların uygulamada doğrudan açılmasına izin vermiyoruz. Lütfen bağlantıyı kopyalayıp web tarayıcında aç.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "Yeniden bağlan",
@@ -130,7 +131,15 @@
     "goForward": "İleri git"
   },
   "updater": {
-    "pleaseWait": "Güncelleniyor… lütfen bekle"
+    "pleaseWait": "Güncelleniyor… lütfen bekle",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "Bir şeyler ters gitti",
@@ -169,10 +178,13 @@
     "randomColor": "Rastgele renk",
     "randomColorHint": "Rastgele bir renk seçer",
     "removeColorStop": "Renk durağını kaldır",
-    "rangeSliderHint": "Aralık kaydırıcısı. Sürükleyerek ayarla."
+    "rangeSliderHint": "Aralık kaydırıcısı. Sürükleyerek ayarla.",
+    "moreOptions": ""
   },
   "errors": {
-    "unknown": "Bilinmeyen hata"
+    "unknown": "Bilinmeyen hata",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "Bir seçenek seç"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

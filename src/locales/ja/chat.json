@@ -33,7 +33,8 @@
     "openStickerPicker": "スタンプピッカーを開く",
     "editHintEscapeTo": "Escape で",
     "editHintEnterTo": "Enter で",
-    "dropFiles": "ファイルをドロップして添付"
+    "dropFiles": "ファイルをドロップして添付",
+    "markAsSpoiler": ""
   },
   "reply": {
     "banner": "{{name}} に返信中",
@@ -156,7 +157,8 @@
       "noiseSuppressionA11y": "",
       "noiseSuppressionOn": "",
       "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": ""
+      "noiseSuppressionApplying": "",
+      "unmuteUser": ""
     },
     "participant": {
       "you": "（あなた）",
@@ -282,7 +284,15 @@
       "replyPlaceholder": "{{name}} に返信…",
       "replyFallback": "コメント",
       "reply": "返信",
-      "sendReply": "返信を送信"
+      "sendReply": "返信を送信",
+      "loadingMore": "",
+      "sortNewest": "",
+      "sortOldest": "",
+      "viewReplies_one": "",
+      "viewReplies_other": "",
+      "hideReplies": "",
+      "loadMore": "",
+      "close": ""
     },
     "actions": {
       "deletePost": "投稿を削除",
@@ -354,7 +364,29 @@
     "moveUp": "上に移動",
     "moveDown": "下に移動",
     "channelSettings": "チャンネル設定",
-    "addFriend": "フレンドを追加"
+    "addFriend": "フレンドを追加",
+    "muteNotifications": "",
+    "unmuteNotifications": "",
+    "notificationSettings": "",
+    "notificationFrequency": "",
+    "notificationGeneral": "",
+    "notificationLevel": "",
+    "notificationAll": "",
+    "notificationMentions": "",
+    "notificationNothing": "",
+    "useSpaceDefault": "",
+    "muteSpace": "",
+    "unmuteSpace": "",
+    "muteChannel": "",
+    "unmuteChannel": "",
+    "muteSpaceForDuration": "",
+    "muteDuration1h": "",
+    "muteDuration8h": "",
+    "muteDuration24h": "",
+    "muteDuration1w": "",
+    "muteUntilTurnBackOn": "",
+    "suppressEveryone": "",
+    "suppressRoles": ""
   },
   "favorites": {
     "add": "お気に入りに追加",
@@ -510,7 +542,8 @@
     "missed": "Missed call",
     "ended": "Call ended",
     "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}"
+    "endedLasted": "Call ended — lasted {{duration}}",
+    "button": ""
   },
   "mentions": {
     "members": "メンバー",

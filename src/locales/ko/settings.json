@@ -15,7 +15,16 @@
     "avatarAndProfile": "아바타 및 프로필",
     "minecraftBridge": "",
     "registeredGames": "",
-    "connections": ""
+    "connections": "",
+    "sessions": "",
+    "textAndChat": "",
+    "messages": "",
+    "privacy": "",
+    "accessibility": "",
+    "layout": "",
+    "composer": "",
+    "desktop": "",
+    "keybinds": ""
   },
   "helpAndSupport": "도움말 및 지원",
   "logOut": "로그아웃",
@@ -107,7 +116,21 @@
     "changeUsername": "사용자 이름 변경",
     "changingUsername": "사용자 이름 변경 중",
     "newUsername": "새 사용자 이름",
-    "currentPasswordShort": "현재 비밀번호"
+    "currentPasswordShort": "현재 비밀번호",
+    "activeSessions": "",
+    "activeSessionsDescription": "",
+    "loadingSessions": "",
+    "noSessions": "",
+    "currentSession": "",
+    "otherSession": "",
+    "sessionLastActive": "",
+    "revokeSession": "",
+    "sessionRevoked": "",
+    "sessionRevokeError": "",
+    "logoutOtherSessions": "",
+    "logoutOtherSessionsConfirm": "",
+    "otherSessionsRevoked": "",
+    "otherSessionsRevokeError": ""
   },
   "appearance": {
     "themes": "테마",
@@ -128,7 +151,19 @@
     "noDescription": "설명 없음",
     "iconsDescriptionMobile": "홈 화면 아이콘이 가장 가까운 번들 색상 변형에 맞춰집니다.",
     "spellcheck": "맞춤법 검사",
-    "spellcheckDescription": "잘못 쓴 단어에 밑줄을 긋고 마우스 오른쪽 버튼 메뉴에 제안어를 표시합니다"
+    "spellcheckDescription": "잘못 쓴 단어에 밑줄을 긋고 마우스 오른쪽 버튼 메뉴에 제안어를 표시합니다",
+    "convertEmoticons": "",
+    "convertEmoticonsDescription": "",
+    "startupMode": "",
+    "startupModeDescription": "",
+    "startupModeSpaces": "",
+    "startupModeFeed": "",
+    "uiDensityTitle": "",
+    "uiDensity": "",
+    "uiDensityDescription": "",
+    "uiDensityCompact": "",
+    "uiDensityDefault": "",
+    "uiDensitySpacious": ""
   },
   "voice": {
     "title": "음성",
@@ -187,7 +222,8 @@
     "micTestHint": "",
     "micTestListeningHint": "",
     "microphoneVolume": "",
-    "speakerVolume": ""
+    "speakerVolume": "",
+    "speakerDescriptionMobile": ""
   },
   "expressions": {
     "emojis": "이모지",
@@ -326,7 +362,10 @@
       "previewExpired": "미리보기 만료됨",
       "previewExpiredHint": "편집기로 돌아가 다시 미리보세요.",
       "previewingUnsaved": "저장되지 않은 변경 사항 미리보기 중",
-      "nothingPublishedUntilSave": "저장하기 전까지는 게시되지 않습니다"
+      "nothingPublishedUntilSave": "저장하기 전까지는 게시되지 않습니다",
+      "userNotFoundTitle": "",
+      "userNotFoundDescription": "",
+      "userNotFoundAction": ""
     },
     "blocks": {
       "paletteTitle": "블록",
@@ -594,6 +633,16 @@
       "fallbackTitle": "프로필 음악",
       "typeAtLeast": "검색하려면 최소 {{min}}자를 입력하세요",
       "noTracksFound": "트랙을 찾을 수 없음"
+    },
+    "seo": {
+      "configuredDescription": "",
+      "defaultDescription": "",
+      "keywords": {
+        "mutualzzProfile": "",
+        "socialProfile": "",
+        "userProfile": ""
+      },
+      "title": ""
     }
   },
   "themeCreator": {
@@ -978,7 +1027,9 @@
     "noBridgesAdmin": "",
     "noBridgesMember": "",
     "openSpaceSettings": "",
-    "unknownSpace": ""
+    "unknownSpace": "",
+    "adminOnlySettings": "",
+    "spaceBridge": ""
   },
   "termsOfService": "서비스 약관",
   "connections": {
@@ -1043,8 +1094,13 @@
       "reconnect": "",
       "connectError": "",
       "controlError": "",
-      "unavailable": ""
-    }
+      "unavailable": "",
+      "connectFailed": "",
+      "connecting": "",
+      "connectingPageTitle": ""
+    },
+    "connectingPageTitle": "",
+    "accountFallback": ""
   },
   "registeredGames": {
     "currentGame": "",
@@ -1070,5 +1126,131 @@
     "remove": "",
     "empty": "",
     "desktopOnly": ""
+  },
+  "syncFailed": "",
+  "textAndChat": {
+    "title": "",
+    "messageDisplay": "",
+    "messageDisplayDescription": "",
+    "messageDisplayDefault": "",
+    "messageDisplayCompact": "",
+    "chatFontScale": "",
+    "chatFontScaleDescription": "",
+    "timestampFormat": "",
+    "timestampFormatDescription": "",
+    "timestampRelative": "",
+    "timestampAbsolute": "",
+    "showAvatarsOnEveryMessage": "",
+    "showAvatarsOnEveryMessageDescription": "",
+    "showLinkEmbeds": "",
+    "showLinkEmbedsDescription": "",
+    "gifAutoplay": "",
+    "gifAutoplayDescription": "",
+    "revealAllSpoilers": "",
+    "revealAllSpoilersDescription": "",
+    "showTypingIndicators": "",
+    "showTypingIndicatorsDescription": "",
+    "sendTypingIndicators": "",
+    "sendTypingIndicatorsDescription": ""
+  },
+  "privacy": {
+    "title": "",
+    "whoCanDm": "",
+    "whoCanDmDescription": "",
+    "profileVisibility": "",
+    "profileVisibilityDescription": "",
+    "privacyEveryone": "",
+    "privacyFriends": "",
+    "privacyNobody": "",
+    "dontShowLinkWarning": "",
+    "dontShowLinkWarningDescription": "",
+    "blockedUsers": "",
+    "blockedUsersEmpty": ""
+  },
+  "accessibility": {
+    "title": "",
+    "reducedMotion": "",
+    "reducedMotionDescription": "",
+    "highContrast": "",
+    "highContrastDescription": ""
+  },
+  "layout": {
+    "title": "",
+    "defaultMemberListVisible": "",
+    "defaultMemberListVisibleDescription": "",
+    "resetChannelListWidth": "",
+    "resetChannelListWidthDescription": "",
+    "resetChannelListWidthAction": "",
+    "resetDmChannelListWidth": "",
+    "resetDmChannelListWidthDescription": "",
+    "resetDmChannelListWidthAction": "",
+    "resetCollapsedCategories": "",
+    "resetCollapsedCategoriesDescription": "",
+    "resetCollapsedCategoriesAction": "",
+    "resetSpaceOrder": "",
+    "resetSpaceOrderDescription": "",
+    "resetSpaceOrderAction": "",
+    "spacesDrawerOpen": "",
+    "spacesDrawerOpenDescription": "",
+    "dmDrawerOpen": "",
+    "dmDrawerOpenDescription": ""
+  },
+  "composer": {
+    "title": "",
+    "showEmojiPicker": "",
+    "showEmojiPickerDescription": "",
+    "showGifPicker": "",
+    "showGifPickerDescription": "",
+    "showStickerPicker": "",
+    "showStickerPickerDescription": "",
+    "showMarkdownToolbar": "",
+    "showMarkdownToolbarDescription": "",
+    "replyWithMention": "",
+    "replyWithMentionDescription": "",
+    "quickReactions": "",
+    "quickReactionsDescription": "",
+    "quickReactionSlot": "",
+    "clearQuickReactions": "",
+    "clearRecentEmojis": "",
+    "clearRecentEmojisDescription": "",
+    "clearRecentEmojisAction": "",
+    "clearRecentEmojisDone": "",
+    "useFavoriteQuickReactions": ""
+  },
+  "desktop": {
+    "title": "",
+    "launchAtLogin": "",
+    "launchAtLoginDescription": "",
+    "badgeColor": "",
+    "badgeColorDescription": "",
+    "screenShareIncludeAudio": "",
+    "screenShareIncludeAudioDescription": "",
+    "screenShareQuality": "",
+    "screenShareQualityDescription": "",
+    "screenShareQuality720p15": "",
+    "screenShareQuality720p30": "",
+    "screenShareQuality1080p30": "",
+    "screenShareQuality1080p60": "",
+    "screenShareQualitySource": "",
+    "autoCheckUpdates": "",
+    "autoCheckUpdatesDescription": "",
+    "shareRpcPresence": "",
+    "shareRpcPresenceDescription": ""
+  },
+  "keybinds": {
+    "title": "",
+    "description": "",
+    "resetAll": "",
+    "edit": "",
+    "cancel": "",
+    "reset": "",
+    "pressKey": "",
+    "disabled": "",
+    "conflict": "",
+    "clearHint": "",
+    "shortcuts": {
+      "toggleMemberList": "",
+      "openSettings": ""
+    }
   }
 }

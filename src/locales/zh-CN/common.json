@@ -117,7 +117,8 @@
     "unsafeTitle": "此链接似乎不安全",
     "unsafeHttpBody": "你尝试打开的链接使用不安全的 HTTP 连接，可能将你的数据暴露给第三方。",
     "confirmProceed": "确定要继续吗？",
-    "blockedInApp": "为保障安全，我们不允许在应用内直接打开不安全链接。请复制链接并在浏览器中打开。"
+    "blockedInApp": "为保障安全，我们不允许在应用内直接打开不安全链接。请复制链接并在浏览器中打开。",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "重新连接",
@@ -130,7 +131,15 @@
     "goForward": "前进"
   },
   "updater": {
-    "pleaseWait": "正在更新…请稍候"
+    "pleaseWait": "正在更新…请稍候",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "出了点问题",
@@ -169,10 +178,13 @@
     "randomColor": "随机颜色",
     "randomColorHint": "选择随机颜色",
     "removeColorStop": "移除色标",
-    "rangeSliderHint": "范围滑块。拖动以调整。"
+    "rangeSliderHint": "范围滑块。拖动以调整。",
+    "moreOptions": ""
   },
   "errors": {
-    "unknown": "未知错误"
+    "unknown": "未知错误",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "选择一个选项"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

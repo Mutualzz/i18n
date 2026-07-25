@@ -123,7 +123,8 @@
     "unsafeTitle": "Це посилання здається небезпечним",
     "unsafeHttpBody": "Посилання, яке ви намагаєтеся відкрити, використовує незахищене з’єднання HTTP. Це може розкрити ваші дані третім сторонам.",
     "confirmProceed": "Ви впевнені, що хочете продовжити?",
-    "blockedInApp": "З міркувань безпеки ми не дозволяємо відкривати небезпечні посилання безпосередньо в застосунку. Скопіюйте посилання та відкрийте його у веббраузері."
+    "blockedInApp": "З міркувань безпеки ми не дозволяємо відкривати небезпечні посилання безпосередньо в застосунку. Скопіюйте посилання та відкрийте його у веббраузері.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "Перепідключитися",
@@ -136,7 +137,15 @@
     "goForward": "Вперед"
   },
   "updater": {
-    "pleaseWait": "Оновлення… зачекайте"
+    "pleaseWait": "Оновлення… зачекайте",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "Щось пішло не так",
@@ -175,10 +184,13 @@
     "randomColor": "Випадковий колір",
     "randomColorHint": "Обирає випадковий колір",
     "removeColorStop": "Прибрати точку кольору",
-    "rangeSliderHint": "Повзунок діапазону. Налаштуйте перетягуванням."
+    "rangeSliderHint": "Повзунок діапазону. Налаштуйте перетягуванням.",
+    "moreOptions": ""
   },
   "errors": {
-    "unknown": "Невідома помилка"
+    "unknown": "Невідома помилка",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "Оберіть варіант"
@@ -299,5 +311,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

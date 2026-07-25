@@ -117,7 +117,8 @@
     "unsafeTitle": "Den här länken verkar osäker",
     "unsafeHttpBody": "Länken du försöker öppna använder en osäker HTTP-anslutning. Det kan exponera dina data för tredje part.",
     "confirmProceed": "Är du säker på att du vill fortsätta?",
-    "blockedInApp": "Vi tillåter inte att osäkra länkar öppnas direkt i appen av säkerhetsskäl. Kopiera länken och öppna den i din webbläsare."
+    "blockedInApp": "Vi tillåter inte att osäkra länkar öppnas direkt i appen av säkerhetsskäl. Kopiera länken och öppna den i din webbläsare.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "Återanslut",
@@ -130,7 +131,15 @@
     "goForward": "Gå framåt"
   },
   "updater": {
-    "pleaseWait": "Uppdaterar… vänta"
+    "pleaseWait": "Uppdaterar… vänta",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "Något gick fel",
@@ -169,10 +178,13 @@
     "randomColor": "Slumpmässig färg",
     "randomColorHint": "Väljer en slumpmässig färg",
     "removeColorStop": "Ta bort färgpunkt",
-    "rangeSliderHint": "Intervallreglage. Justera genom att dra."
+    "rangeSliderHint": "Intervallreglage. Justera genom att dra.",
+    "moreOptions": ""
   },
   "errors": {
-    "unknown": "Okänt fel"
+    "unknown": "Okänt fel",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "Välj ett alternativ"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

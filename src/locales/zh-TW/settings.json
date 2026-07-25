@@ -15,7 +15,16 @@
     "avatarAndProfile": "頭像與個人資料",
     "minecraftBridge": "",
     "registeredGames": "",
-    "connections": ""
+    "connections": "",
+    "sessions": "",
+    "textAndChat": "",
+    "messages": "",
+    "privacy": "",
+    "accessibility": "",
+    "layout": "",
+    "composer": "",
+    "desktop": "",
+    "keybinds": ""
   },
   "helpAndSupport": "說明與支援",
   "logOut": "登出",
@@ -107,7 +116,21 @@
     "changeUsername": "變更使用者名稱",
     "changingUsername": "變更使用者名稱中",
     "newUsername": "新使用者名稱",
-    "currentPasswordShort": "目前密碼"
+    "currentPasswordShort": "目前密碼",
+    "activeSessions": "",
+    "activeSessionsDescription": "",
+    "loadingSessions": "",
+    "noSessions": "",
+    "currentSession": "",
+    "otherSession": "",
+    "sessionLastActive": "",
+    "revokeSession": "",
+    "sessionRevoked": "",
+    "sessionRevokeError": "",
+    "logoutOtherSessions": "",
+    "logoutOtherSessionsConfirm": "",
+    "otherSessionsRevoked": "",
+    "otherSessionsRevokeError": ""
   },
   "appearance": {
     "themes": "佈景主題",
@@ -128,7 +151,19 @@
     "noDescription": "無說明",
     "iconsDescriptionMobile": "主畫面圖示會自動套用最接近的內建色彩變體。",
     "spellcheck": "拼字檢查",
-    "spellcheckDescription": "在拼錯的單詞下方顯示底線，並在右鍵選單中提供建議"
+    "spellcheckDescription": "在拼錯的單詞下方顯示底線，並在右鍵選單中提供建議",
+    "convertEmoticons": "",
+    "convertEmoticonsDescription": "",
+    "startupMode": "",
+    "startupModeDescription": "",
+    "startupModeSpaces": "",
+    "startupModeFeed": "",
+    "uiDensityTitle": "",
+    "uiDensity": "",
+    "uiDensityDescription": "",
+    "uiDensityCompact": "",
+    "uiDensityDefault": "",
+    "uiDensitySpacious": ""
   },
   "voice": {
     "title": "語音",
@@ -187,7 +222,8 @@
     "micTestHint": "",
     "micTestListeningHint": "",
     "microphoneVolume": "",
-    "speakerVolume": ""
+    "speakerVolume": "",
+    "speakerDescriptionMobile": ""
   },
   "expressions": {
     "emojis": "表情符號",
@@ -326,7 +362,10 @@
       "previewExpired": "預覽已過期",
       "previewExpiredHint": "返回編輯器並再次預覽。",
       "previewingUnsaved": "正在預覽未儲存的變更",
-      "nothingPublishedUntilSave": "儲存後才會發布"
+      "nothingPublishedUntilSave": "儲存後才會發布",
+      "userNotFoundTitle": "",
+      "userNotFoundDescription": "",
+      "userNotFoundAction": ""
     },
     "music": {
       "fullSong": "完整歌曲",
@@ -594,6 +633,16 @@
       "undo": "復原",
       "redo": "重做",
       "clear": "清除"
+    },
+    "seo": {
+      "configuredDescription": "",
+      "defaultDescription": "",
+      "keywords": {
+        "mutualzzProfile": "",
+        "socialProfile": "",
+        "userProfile": ""
+      },
+      "title": ""
     }
   },
   "fonts": {
@@ -978,7 +1027,9 @@
     "noBridgesAdmin": "",
     "noBridgesMember": "",
     "openSpaceSettings": "",
-    "unknownSpace": ""
+    "unknownSpace": "",
+    "adminOnlySettings": "",
+    "spaceBridge": ""
   },
   "termsOfService": "服務條款",
   "connections": {
@@ -1043,8 +1094,13 @@
       "reconnect": "",
       "connectError": "",
       "controlError": "",
-      "unavailable": ""
-    }
+      "unavailable": "",
+      "connectFailed": "",
+      "connecting": "",
+      "connectingPageTitle": ""
+    },
+    "connectingPageTitle": "",
+    "accountFallback": ""
   },
   "registeredGames": {
     "currentGame": "",
@@ -1070,5 +1126,131 @@
     "remove": "",
     "empty": "",
     "desktopOnly": ""
+  },
+  "syncFailed": "",
+  "textAndChat": {
+    "title": "",
+    "messageDisplay": "",
+    "messageDisplayDescription": "",
+    "messageDisplayDefault": "",
+    "messageDisplayCompact": "",
+    "chatFontScale": "",
+    "chatFontScaleDescription": "",
+    "timestampFormat": "",
+    "timestampFormatDescription": "",
+    "timestampRelative": "",
+    "timestampAbsolute": "",
+    "showAvatarsOnEveryMessage": "",
+    "showAvatarsOnEveryMessageDescription": "",
+    "showLinkEmbeds": "",
+    "showLinkEmbedsDescription": "",
+    "gifAutoplay": "",
+    "gifAutoplayDescription": "",
+    "revealAllSpoilers": "",
+    "revealAllSpoilersDescription": "",
+    "showTypingIndicators": "",
+    "showTypingIndicatorsDescription": "",
+    "sendTypingIndicators": "",
+    "sendTypingIndicatorsDescription": ""
+  },
+  "privacy": {
+    "title": "",
+    "whoCanDm": "",
+    "whoCanDmDescription": "",
+    "profileVisibility": "",
+    "profileVisibilityDescription": "",
+    "privacyEveryone": "",
+    "privacyFriends": "",
+    "privacyNobody": "",
+    "dontShowLinkWarning": "",
+    "dontShowLinkWarningDescription": "",
+    "blockedUsers": "",
+    "blockedUsersEmpty": ""
+  },
+  "accessibility": {
+    "title": "",
+    "reducedMotion": "",
+    "reducedMotionDescription": "",
+    "highContrast": "",
+    "highContrastDescription": ""
+  },
+  "layout": {
+    "title": "",
+    "defaultMemberListVisible": "",
+    "defaultMemberListVisibleDescription": "",
+    "resetChannelListWidth": "",
+    "resetChannelListWidthDescription": "",
+    "resetChannelListWidthAction": "",
+    "resetDmChannelListWidth": "",
+    "resetDmChannelListWidthDescription": "",
+    "resetDmChannelListWidthAction": "",
+    "resetCollapsedCategories": "",
+    "resetCollapsedCategoriesDescription": "",
+    "resetCollapsedCategoriesAction": "",
+    "resetSpaceOrder": "",
+    "resetSpaceOrderDescription": "",
+    "resetSpaceOrderAction": "",
+    "spacesDrawerOpen": "",
+    "spacesDrawerOpenDescription": "",
+    "dmDrawerOpen": "",
+    "dmDrawerOpenDescription": ""
+  },
+  "composer": {
+    "title": "",
+    "showEmojiPicker": "",
+    "showEmojiPickerDescription": "",
+    "showGifPicker": "",
+    "showGifPickerDescription": "",
+    "showStickerPicker": "",
+    "showStickerPickerDescription": "",
+    "showMarkdownToolbar": "",
+    "showMarkdownToolbarDescription": "",
+    "replyWithMention": "",
+    "replyWithMentionDescription": "",
+    "quickReactions": "",
+    "quickReactionsDescription": "",
+    "quickReactionSlot": "",
+    "clearQuickReactions": "",
+    "clearRecentEmojis": "",
+    "clearRecentEmojisDescription": "",
+    "clearRecentEmojisAction": "",
+    "clearRecentEmojisDone": "",
+    "useFavoriteQuickReactions": ""
+  },
+  "desktop": {
+    "title": "",
+    "launchAtLogin": "",
+    "launchAtLoginDescription": "",
+    "badgeColor": "",
+    "badgeColorDescription": "",
+    "screenShareIncludeAudio": "",
+    "screenShareIncludeAudioDescription": "",
+    "screenShareQuality": "",
+    "screenShareQualityDescription": "",
+    "screenShareQuality720p15": "",
+    "screenShareQuality720p30": "",
+    "screenShareQuality1080p30": "",
+    "screenShareQuality1080p60": "",
+    "screenShareQualitySource": "",
+    "autoCheckUpdates": "",
+    "autoCheckUpdatesDescription": "",
+    "shareRpcPresence": "",
+    "shareRpcPresenceDescription": ""
+  },
+  "keybinds": {
+    "title": "",
+    "description": "",
+    "resetAll": "",
+    "edit": "",
+    "cancel": "",
+    "reset": "",
+    "pressKey": "",
+    "disabled": "",
+    "conflict": "",
+    "clearHint": "",
+    "shortcuts": {
+      "toggleMemberList": "",
+      "openSettings": ""
+    }
   }
 }

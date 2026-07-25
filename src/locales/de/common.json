@@ -113,7 +113,8 @@
     "unsafeTitle": "Dieser Link scheint unsicher zu sein",
     "unsafeHttpBody": "Der Link, den du öffnen möchtest, verwendet eine unsichere HTTP-Verbindung. Dadurch könnten deine Daten Dritten zugänglich werden.",
     "confirmProceed": "Möchtest du wirklich fortfahren?",
-    "blockedInApp": "Aus Sicherheitsgründen erlauben wir das direkte Öffnen unsicherer Links in der App nicht. Bitte kopiere den Link und öffne ihn in deinem Webbrowser."
+    "blockedInApp": "Aus Sicherheitsgründen erlauben wir das direkte Öffnen unsicherer Links in der App nicht. Bitte kopiere den Link und öffne ihn in deinem Webbrowser.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "Erneut verbinden",
@@ -225,7 +226,15 @@
     "goForward": "Vorwärts"
   },
   "updater": {
-    "pleaseWait": "Aktualisierung… bitte warten"
+    "pleaseWait": "Aktualisierung… bitte warten",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "Etwas ist schiefgelaufen",
@@ -270,14 +279,17 @@
     "randomColor": "Zufällige Farbe",
     "randomColorHint": "Wählt eine zufällige Farbe",
     "removeColorStop": "Farbstopp entfernen",
-    "rangeSliderHint": "Schieberegler. Zum Anpassen ziehen."
+    "rangeSliderHint": "Schieberegler. Zum Anpassen ziehen.",
+    "moreOptions": ""
   },
   "seo": {
     "defaultTitle": "Mutualzz (Early Access)",
     "defaultDescription": "Verbinde dich mit anderen Menschen, die deine Interessen teilen. Derzeit in intensiver Entwicklung"
   },
   "errors": {
-    "unknown": "Unbekannter Fehler"
+    "unknown": "Unbekannter Fehler",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "Option auswählen"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

@@ -117,7 +117,8 @@
     "unsafeTitle": "Deze link lijkt onveilig",
     "unsafeHttpBody": "De link die u probeert te openen maakt gebruik van een onveilige HTTP-verbinding. Hierdoor kunnen uw gegevens mogelijk aan derden worden blootgesteld.",
     "confirmProceed": "Weet u zeker dat u verder wilt gaan?",
-    "blockedInApp": "Voor uw veiligheid staan ​​wij niet toe dat onveilige links rechtstreeks in de app worden geopend. Kopieer de link en open deze in uw webbrowser."
+    "blockedInApp": "Voor uw veiligheid staan ​​wij niet toe dat onveilige links rechtstreeks in de app worden geopend. Kopieer de link en open deze in uw webbrowser.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "Maak opnieuw verbinding",
@@ -130,7 +131,15 @@
     "goForward": "Ga vooruit"
   },
   "updater": {
-    "pleaseWait": "Bijwerken... even geduld a.u.b"
+    "pleaseWait": "Bijwerken... even geduld a.u.b",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "Er is iets misgegaan",
@@ -169,10 +178,13 @@
     "randomColor": "Willekeurige kleur",
     "randomColorHint": "Kiest een willekeurige kleur",
     "removeColorStop": "Kleurstop verwijderen",
-    "rangeSliderHint": "Bereikschuifregelaar. Aanpassen door te slepen."
+    "rangeSliderHint": "Bereikschuifregelaar. Aanpassen door te slepen.",
+    "moreOptions": ""
   },
   "errors": {
-    "unknown": "Onbekende fout"
+    "unknown": "Onbekende fout",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "Selecteer een optie"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

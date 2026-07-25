@@ -33,7 +33,8 @@
     "openStickerPicker": "스티커 선택기 열기",
     "editHintEscapeTo": "Escape로",
     "editHintEnterTo": "Enter로",
-    "dropFiles": "파일을 놓아 첨부하기"
+    "dropFiles": "파일을 놓아 첨부하기",
+    "markAsSpoiler": ""
   },
   "reply": {
     "banner": "{{name}}에게 답장 중",
@@ -156,7 +157,8 @@
       "noiseSuppressionA11y": "",
       "noiseSuppressionOn": "",
       "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": ""
+      "noiseSuppressionApplying": "",
+      "unmuteUser": ""
     },
     "participant": {
       "you": "(나)",
@@ -282,7 +284,15 @@
       "replyPlaceholder": "{{name}}에게 답장…",
       "replyFallback": "댓글",
       "reply": "답장",
-      "sendReply": "답장 보내기"
+      "sendReply": "답장 보내기",
+      "loadingMore": "",
+      "sortNewest": "",
+      "sortOldest": "",
+      "viewReplies_one": "",
+      "viewReplies_other": "",
+      "hideReplies": "",
+      "loadMore": "",
+      "close": ""
     },
     "actions": {
       "deletePost": "게시물 삭제",
@@ -354,7 +364,29 @@
     "moveUp": "위로 이동",
     "moveDown": "아래로 이동",
     "channelSettings": "채널 설정",
-    "addFriend": "친구 추가"
+    "addFriend": "친구 추가",
+    "muteNotifications": "",
+    "unmuteNotifications": "",
+    "notificationSettings": "",
+    "notificationFrequency": "",
+    "notificationGeneral": "",
+    "notificationLevel": "",
+    "notificationAll": "",
+    "notificationMentions": "",
+    "notificationNothing": "",
+    "useSpaceDefault": "",
+    "muteSpace": "",
+    "unmuteSpace": "",
+    "muteChannel": "",
+    "unmuteChannel": "",
+    "muteSpaceForDuration": "",
+    "muteDuration1h": "",
+    "muteDuration8h": "",
+    "muteDuration24h": "",
+    "muteDuration1w": "",
+    "muteUntilTurnBackOn": "",
+    "suppressEveryone": "",
+    "suppressRoles": ""
   },
   "favorites": {
     "add": "즐겨찾기에 추가",
@@ -510,7 +542,8 @@
     "missed": "Missed call",
     "ended": "Call ended",
     "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}"
+    "endedLasted": "Call ended — lasted {{duration}}",
+    "button": ""
   },
   "mentions": {
     "members": "멤버",

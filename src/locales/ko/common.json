@@ -113,7 +113,8 @@
     "unsafeTitle": "이 링크는 안전하지 않은 것 같습니다",
     "unsafeHttpBody": "열려는 링크가 안전하지 않은 HTTP 연결을 사용합니다. 데이터가 제3자에게 노출될 수 있습니다.",
     "confirmProceed": "계속하시겠습니까?",
-    "blockedInApp": "보안을 위해 앱에서 안전하지 않은 링크를 직접 여는 것을 허용하지 않습니다. 링크를 복사하여 웹 브라우저에서 열어 주세요."
+    "blockedInApp": "보안을 위해 앱에서 안전하지 않은 링크를 직접 여는 것을 허용하지 않습니다. 링크를 복사하여 웹 브라우저에서 열어 주세요.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "다시 연결",
@@ -225,7 +226,15 @@
     "goForward": "앞으로"
   },
   "updater": {
-    "pleaseWait": "업데이트 중… 잠시만 기다려 주세요"
+    "pleaseWait": "업데이트 중… 잠시만 기다려 주세요",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "문제가 발생했습니다",
@@ -270,14 +279,17 @@
     "randomColor": "무작위 색상",
     "randomColorHint": "무작위 색상을 고릅니다",
     "removeColorStop": "색상 정지점 제거",
-    "rangeSliderHint": "범위 슬라이더. 드래그하여 조절하세요."
+    "rangeSliderHint": "범위 슬라이더. 드래그하여 조절하세요.",
+    "moreOptions": ""
   },
   "seo": {
     "defaultTitle": "Mutualzz (얼리 액세스)",
     "defaultDescription": "관심사가 비슷한 사람들과 연결하세요. 현재 활발히 개발 중입니다"
   },
   "errors": {
-    "unknown": "알 수 없는 오류"
+    "unknown": "알 수 없는 오류",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "옵션 선택"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

@@ -113,7 +113,8 @@
     "unsafeTitle": "Este enlace parece no ser seguro",
     "unsafeHttpBody": "El enlace que intentas abrir usa una conexión HTTP insegura. Esto podría exponer tus datos a terceros.",
     "confirmProceed": "¿Seguro que quieres continuar?",
-    "blockedInApp": "Por tu seguridad, no permitimos abrir enlaces inseguros directamente en la app. Copia el enlace y ábrelo en tu navegador web."
+    "blockedInApp": "Por tu seguridad, no permitimos abrir enlaces inseguros directamente en la app. Copia el enlace y ábrelo en tu navegador web.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "Reconectar",
@@ -225,7 +226,15 @@
     "goForward": "Adelante"
   },
   "updater": {
-    "pleaseWait": "Actualizando… espera un momento"
+    "pleaseWait": "Actualizando… espera un momento",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "Algo salió mal",
@@ -270,14 +279,17 @@
     "randomColor": "Color aleatorio",
     "randomColorHint": "Elige un color aleatorio",
     "removeColorStop": "Eliminar parada de color",
-    "rangeSliderHint": "Control deslizante. Arrastra para ajustar."
+    "rangeSliderHint": "Control deslizante. Arrastra para ajustar.",
+    "moreOptions": ""
   },
   "seo": {
     "defaultTitle": "Mutualzz (acceso anticipado)",
     "defaultDescription": "Conecta con otras personas que comparten tus intereses. Actualmente en desarrollo intensivo"
   },
   "errors": {
-    "unknown": "Error desconocido"
+    "unknown": "Error desconocido",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "Selecciona una opción"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

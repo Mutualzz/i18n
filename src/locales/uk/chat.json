@@ -53,7 +53,8 @@
     "editHintSave": "зберегти",
     "editHintEscapeTo": "escape щоб",
     "editHintEnterTo": "enter щоб",
-    "dropFiles": "Перетягніть файли для вкладення"
+    "dropFiles": "Перетягніть файли для вкладення",
+    "markAsSpoiler": ""
   },
   "reply": {
     "banner": "Відповідь {{name}}",
@@ -189,7 +190,8 @@
     "missed": "Missed call",
     "ended": "Call ended",
     "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}"
+    "endedLasted": "Call ended — lasted {{duration}}",
+    "button": ""
   },
   "mentions": {
     "members": "Учасники",
@@ -274,7 +276,8 @@
       "noiseSuppressionA11y": "",
       "noiseSuppressionOn": "",
       "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": ""
+      "noiseSuppressionApplying": "",
+      "unmuteUser": ""
     },
     "participant": {
       "you": "(Ви)",
@@ -392,7 +395,15 @@
       "replyPlaceholder": "Відповісти {{name}}…",
       "replyFallback": "коментар",
       "reply": "Відповісти",
-      "sendReply": "Надіслати відповідь"
+      "sendReply": "Надіслати відповідь",
+      "loadingMore": "",
+      "sortNewest": "",
+      "sortOldest": "",
+      "viewReplies_one": "",
+      "viewReplies_other": "",
+      "hideReplies": "",
+      "loadMore": "",
+      "close": ""
     },
     "actions": {
       "deletePost": "Видалити допис",
@@ -466,7 +477,29 @@
     "moveUp": "Перемістити вгору",
     "moveDown": "Перемістити вниз",
     "channelSettings": "Налаштування каналу",
-    "addFriend": "Додати в друзі"
+    "addFriend": "Додати в друзі",
+    "muteNotifications": "",
+    "unmuteNotifications": "",
+    "notificationSettings": "",
+    "notificationFrequency": "",
+    "notificationGeneral": "",
+    "notificationLevel": "",
+    "notificationAll": "",
+    "notificationMentions": "",
+    "notificationNothing": "",
+    "useSpaceDefault": "",
+    "muteSpace": "",
+    "unmuteSpace": "",
+    "muteChannel": "",
+    "unmuteChannel": "",
+    "muteSpaceForDuration": "",
+    "muteDuration1h": "",
+    "muteDuration8h": "",
+    "muteDuration24h": "",
+    "muteDuration1w": "",
+    "muteUntilTurnBackOn": "",
+    "suppressEveryone": "",
+    "suppressRoles": ""
   },
   "a11y": {
     "embedImage": "Вбудоване зображення",

@@ -53,7 +53,8 @@
     "editHintSave": "salva",
     "editHintEscapeTo": "scappare a",
     "editHintEnterTo": "entra in",
-    "dropFiles": "Trascina i file da allegare"
+    "dropFiles": "Trascina i file da allegare",
+    "markAsSpoiler": ""
   },
   "reply": {
     "banner": "Rispondendo a {{name}}",
@@ -185,7 +186,8 @@
     "missed": "Missed call",
     "ended": "Call ended",
     "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}"
+    "endedLasted": "Call ended — lasted {{duration}}",
+    "button": ""
   },
   "mentions": {
     "members": "Membri",
@@ -270,7 +272,8 @@
       "noiseSuppressionA11y": "",
       "noiseSuppressionOn": "",
       "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": ""
+      "noiseSuppressionApplying": "",
+      "unmuteUser": ""
     },
     "participant": {
       "you": "(Voi)",
@@ -382,7 +385,15 @@
       "replyPlaceholder": "Rispondi a {{name}}…",
       "replyFallback": "commento",
       "reply": "Rispondi",
-      "sendReply": "Invia risposta"
+      "sendReply": "Invia risposta",
+      "loadingMore": "",
+      "sortNewest": "",
+      "sortOldest": "",
+      "viewReplies_one": "",
+      "viewReplies_other": "",
+      "hideReplies": "",
+      "loadMore": "",
+      "close": ""
     },
     "actions": {
       "deletePost": "Elimina messaggio",
@@ -454,7 +465,29 @@
     "moveUp": "Vai su",
     "moveDown": "Spostati giù",
     "channelSettings": "Impostazioni del canale",
-    "addFriend": "Aggiungi amico"
+    "addFriend": "Aggiungi amico",
+    "muteNotifications": "",
+    "unmuteNotifications": "",
+    "notificationSettings": "",
+    "notificationFrequency": "",
+    "notificationGeneral": "",
+    "notificationLevel": "",
+    "notificationAll": "",
+    "notificationMentions": "",
+    "notificationNothing": "",
+    "useSpaceDefault": "",
+    "muteSpace": "",
+    "unmuteSpace": "",
+    "muteChannel": "",
+    "unmuteChannel": "",
+    "muteSpaceForDuration": "",
+    "muteDuration1h": "",
+    "muteDuration8h": "",
+    "muteDuration24h": "",
+    "muteDuration1w": "",
+    "muteUntilTurnBackOn": "",
+    "suppressEveryone": "",
+    "suppressRoles": ""
   },
   "a11y": {
     "embedImage": "Incorpora immagine",

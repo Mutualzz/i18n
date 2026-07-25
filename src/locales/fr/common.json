@@ -113,7 +113,8 @@
     "unsafeTitle": "Ce lien semble non sécurisé",
     "unsafeHttpBody": "Le lien que vous essayez d'ouvrir utilise une connexion HTTP non sécurisée. Cela pourrait exposer vos données à des tiers.",
     "confirmProceed": "Voulez-vous vraiment continuer ?",
-    "blockedInApp": "Pour votre sécurité, nous n'autorisons pas l'ouverture de liens non sécurisés directement dans l'application. Veuillez copier le lien et l'ouvrir dans votre navigateur web."
+    "blockedInApp": "Pour votre sécurité, nous n'autorisons pas l'ouverture de liens non sécurisés directement dans l'application. Veuillez copier le lien et l'ouvrir dans votre navigateur web.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "Reconnecter",
@@ -225,7 +226,15 @@
     "goForward": "Avancer"
   },
   "updater": {
-    "pleaseWait": "Mise à jour… veuillez patienter"
+    "pleaseWait": "Mise à jour… veuillez patienter",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "Une erreur s'est produite",
@@ -270,14 +279,17 @@
     "randomColor": "Couleur aléatoire",
     "randomColorHint": "Choisit une couleur aléatoire",
     "removeColorStop": "Supprimer le point de couleur",
-    "rangeSliderHint": "Curseur. Faites glisser pour ajuster."
+    "rangeSliderHint": "Curseur. Faites glisser pour ajuster.",
+    "moreOptions": ""
   },
   "seo": {
     "defaultTitle": "Mutualzz (accès anticipé)",
     "defaultDescription": "Connectez-vous avec d’autres personnes qui partagent vos centres d’intérêt. Actuellement en développement intensif"
   },
   "errors": {
-    "unknown": "Erreur inconnue"
+    "unknown": "Erreur inconnue",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "Sélectionnez une option"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

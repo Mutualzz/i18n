@@ -532,7 +532,12 @@
     "friends": "Znajomi",
     "spaces": "Przestrzenie",
     "channels": "",
-    "bridges": ""
+    "bridges": "",
+    "moreOptions": "",
+    "reorder": "",
+    "doneReordering": "",
+    "reorderA11y": "",
+    "doneReorderingA11y": ""
   },
   "lockdown": {
     "title": "Ta przestrzeń jest zamknięta",
@@ -546,5 +551,27 @@
     "createCustom": "Create space theme",
     "spaceThemes": "This space",
     "noCustomThemes": "No custom themes yet. Create one to brand this space."
+  },
+  "sheet": {
+    "quickActions": {
+      "invite": "",
+      "notifications": "",
+      "settings": ""
+    },
+    "onlineCount_one": "",
+    "onlineCount_other": "",
+    "membersCount_one": "",
+    "membersCount_other": "",
+    "spaceEmojis": "",
+    "notificationSettingsTitle": "",
+    "serverSettingsTitle": "",
+    "unmuteSpace": "",
+    "muteSpace": "",
+    "mutedStatus": "",
+    "muteHelper": "",
+    "serverNotificationSettings": "",
+    "suppressSettings": "",
+    "settingsSection": "",
+    "userManagementSection": ""
   }
 }

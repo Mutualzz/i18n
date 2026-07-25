@@ -15,7 +15,16 @@
     "avatarAndProfile": "Avatar e profilo",
     "minecraftBridge": "",
     "registeredGames": "",
-    "connections": ""
+    "connections": "",
+    "sessions": "",
+    "textAndChat": "",
+    "messages": "",
+    "privacy": "",
+    "accessibility": "",
+    "layout": "",
+    "composer": "",
+    "desktop": "",
+    "keybinds": ""
   },
   "helpAndSupport": "Aiuto e supporto",
   "logOut": "Esci",
@@ -107,7 +116,21 @@
     "changeUsername": "Cambia nome utente",
     "changingUsername": "Modifica del nome utente",
     "newUsername": "Nuovo nome utente",
-    "currentPasswordShort": "Password attuale"
+    "currentPasswordShort": "Password attuale",
+    "activeSessions": "",
+    "activeSessionsDescription": "",
+    "loadingSessions": "",
+    "noSessions": "",
+    "currentSession": "",
+    "otherSession": "",
+    "sessionLastActive": "",
+    "revokeSession": "",
+    "sessionRevoked": "",
+    "sessionRevokeError": "",
+    "logoutOtherSessions": "",
+    "logoutOtherSessionsConfirm": "",
+    "otherSessionsRevoked": "",
+    "otherSessionsRevokeError": ""
   },
   "appearance": {
     "themes": "Temi",
@@ -128,7 +151,19 @@
     "noDescription": "Nessuna descrizione",
     "iconsDescriptionMobile": "L'icona della schermata iniziale si aggancia alla variante di colore in bundle più vicina.",
     "spellcheck": "Controllo ortografico",
-    "spellcheckDescription": "Sottolinea le parole errate e mostra i suggerimenti nel menu di scelta rapida"
+    "spellcheckDescription": "Sottolinea le parole errate e mostra i suggerimenti nel menu di scelta rapida",
+    "convertEmoticons": "",
+    "convertEmoticonsDescription": "",
+    "startupMode": "",
+    "startupModeDescription": "",
+    "startupModeSpaces": "",
+    "startupModeFeed": "",
+    "uiDensityTitle": "",
+    "uiDensity": "",
+    "uiDensityDescription": "",
+    "uiDensityCompact": "",
+    "uiDensityDefault": "",
+    "uiDensitySpacious": ""
   },
   "voice": {
     "title": "Voce",
@@ -187,7 +222,8 @@
     "micTestHint": "",
     "micTestListeningHint": "",
     "microphoneVolume": "",
-    "speakerVolume": ""
+    "speakerVolume": "",
+    "speakerDescriptionMobile": ""
   },
   "expressions": {
     "emojis": "Emoji",
@@ -326,7 +362,10 @@
       "previewExpired": "Anteprima scaduta",
       "previewExpiredHint": "Torna all'editor e visualizza nuovamente l'anteprima.",
       "previewingUnsaved": "Anteprima delle modifiche non salvate",
-      "nothingPublishedUntilSave": "Non viene pubblicato nulla finché non salvi"
+      "nothingPublishedUntilSave": "Non viene pubblicato nulla finché non salvi",
+      "userNotFoundTitle": "",
+      "userNotFoundDescription": "",
+      "userNotFoundAction": ""
     },
     "music": {
       "fullSong": "Canzone completa",
@@ -594,6 +633,16 @@
       "undo": "Annulla",
       "redo": "Ripeti",
       "clear": "Cancella"
+    },
+    "seo": {
+      "configuredDescription": "",
+      "defaultDescription": "",
+      "keywords": {
+        "mutualzzProfile": "",
+        "socialProfile": "",
+        "userProfile": ""
+      },
+      "title": ""
     }
   },
   "fonts": {
@@ -978,7 +1027,9 @@
     "noBridgesAdmin": "",
     "noBridgesMember": "",
     "openSpaceSettings": "",
-    "unknownSpace": ""
+    "unknownSpace": "",
+    "adminOnlySettings": "",
+    "spaceBridge": ""
   },
   "termsOfService": "Termini di servizio",
   "connections": {
@@ -1043,8 +1094,13 @@
       "reconnect": "",
       "connectError": "",
       "controlError": "",
-      "unavailable": ""
-    }
+      "unavailable": "",
+      "connectFailed": "",
+      "connecting": "",
+      "connectingPageTitle": ""
+    },
+    "connectingPageTitle": "",
+    "accountFallback": ""
   },
   "registeredGames": {
     "currentGame": "",
@@ -1070,5 +1126,131 @@
     "remove": "",
     "empty": "",
     "desktopOnly": ""
+  },
+  "syncFailed": "",
+  "textAndChat": {
+    "title": "",
+    "messageDisplay": "",
+    "messageDisplayDescription": "",
+    "messageDisplayDefault": "",
+    "messageDisplayCompact": "",
+    "chatFontScale": "",
+    "chatFontScaleDescription": "",
+    "timestampFormat": "",
+    "timestampFormatDescription": "",
+    "timestampRelative": "",
+    "timestampAbsolute": "",
+    "showAvatarsOnEveryMessage": "",
+    "showAvatarsOnEveryMessageDescription": "",
+    "showLinkEmbeds": "",
+    "showLinkEmbedsDescription": "",
+    "gifAutoplay": "",
+    "gifAutoplayDescription": "",
+    "revealAllSpoilers": "",
+    "revealAllSpoilersDescription": "",
+    "showTypingIndicators": "",
+    "showTypingIndicatorsDescription": "",
+    "sendTypingIndicators": "",
+    "sendTypingIndicatorsDescription": ""
+  },
+  "privacy": {
+    "title": "",
+    "whoCanDm": "",
+    "whoCanDmDescription": "",
+    "profileVisibility": "",
+    "profileVisibilityDescription": "",
+    "privacyEveryone": "",
+    "privacyFriends": "",
+    "privacyNobody": "",
+    "dontShowLinkWarning": "",
+    "dontShowLinkWarningDescription": "",
+    "blockedUsers": "",
+    "blockedUsersEmpty": ""
+  },
+  "accessibility": {
+    "title": "",
+    "reducedMotion": "",
+    "reducedMotionDescription": "",
+    "highContrast": "",
+    "highContrastDescription": ""
+  },
+  "layout": {
+    "title": "",
+    "defaultMemberListVisible": "",
+    "defaultMemberListVisibleDescription": "",
+    "resetChannelListWidth": "",
+    "resetChannelListWidthDescription": "",
+    "resetChannelListWidthAction": "",
+    "resetDmChannelListWidth": "",
+    "resetDmChannelListWidthDescription": "",
+    "resetDmChannelListWidthAction": "",
+    "resetCollapsedCategories": "",
+    "resetCollapsedCategoriesDescription": "",
+    "resetCollapsedCategoriesAction": "",
+    "resetSpaceOrder": "",
+    "resetSpaceOrderDescription": "",
+    "resetSpaceOrderAction": "",
+    "spacesDrawerOpen": "",
+    "spacesDrawerOpenDescription": "",
+    "dmDrawerOpen": "",
+    "dmDrawerOpenDescription": ""
+  },
+  "composer": {
+    "title": "",
+    "showEmojiPicker": "",
+    "showEmojiPickerDescription": "",
+    "showGifPicker": "",
+    "showGifPickerDescription": "",
+    "showStickerPicker": "",
+    "showStickerPickerDescription": "",
+    "showMarkdownToolbar": "",
+    "showMarkdownToolbarDescription": "",
+    "replyWithMention": "",
+    "replyWithMentionDescription": "",
+    "quickReactions": "",
+    "quickReactionsDescription": "",
+    "quickReactionSlot": "",
+    "clearQuickReactions": "",
+    "clearRecentEmojis": "",
+    "clearRecentEmojisDescription": "",
+    "clearRecentEmojisAction": "",
+    "clearRecentEmojisDone": "",
+    "useFavoriteQuickReactions": ""
+  },
+  "desktop": {
+    "title": "",
+    "launchAtLogin": "",
+    "launchAtLoginDescription": "",
+    "badgeColor": "",
+    "badgeColorDescription": "",
+    "screenShareIncludeAudio": "",
+    "screenShareIncludeAudioDescription": "",
+    "screenShareQuality": "",
+    "screenShareQualityDescription": "",
+    "screenShareQuality720p15": "",
+    "screenShareQuality720p30": "",
+    "screenShareQuality1080p30": "",
+    "screenShareQuality1080p60": "",
+    "screenShareQualitySource": "",
+    "autoCheckUpdates": "",
+    "autoCheckUpdatesDescription": "",
+    "shareRpcPresence": "",
+    "shareRpcPresenceDescription": ""
+  },
+  "keybinds": {
+    "title": "",
+    "description": "",
+    "resetAll": "",
+    "edit": "",
+    "cancel": "",
+    "reset": "",
+    "pressKey": "",
+    "disabled": "",
+    "conflict": "",
+    "clearHint": "",
+    "shortcuts": {
+      "toggleMemberList": "",
+      "openSettings": ""
+    }
   }
 }

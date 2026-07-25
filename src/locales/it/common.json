@@ -117,7 +117,8 @@
     "unsafeTitle": "Questo collegamento sembra non essere sicuro",
     "unsafeHttpBody": "Il collegamento che stai tentando di aprire utilizza una connessione HTTP non sicura. Ciò potrebbe potenzialmente esporre i tuoi dati a terzi.",
     "confirmProceed": "Sei sicuro di voler procedere?",
-    "blockedInApp": "Non consentiamo l'apertura di collegamenti non sicuri direttamente nell'app per la tua sicurezza. Copia il collegamento e aprilo nel tuo browser web."
+    "blockedInApp": "Non consentiamo l'apertura di collegamenti non sicuri direttamente nell'app per la tua sicurezza. Copia il collegamento e aprilo nel tuo browser web.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "Riconnettiti",
@@ -130,7 +131,15 @@
     "goForward": "Vai avanti"
   },
   "updater": {
-    "pleaseWait": "Aggiornamento in corso... attendere"
+    "pleaseWait": "Aggiornamento in corso... attendere",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "Qualcosa è andato storto",
@@ -169,10 +178,13 @@
     "randomColor": "Colore casuale",
     "randomColorHint": "Scegli un colore casuale",
     "removeColorStop": "Rimuovere l'interruzione del colore",
-    "rangeSliderHint": "Dispositivo di scorrimento dell'intervallo. Regola trascinando."
+    "rangeSliderHint": "Dispositivo di scorrimento dell'intervallo. Regola trascinando.",
+    "moreOptions": ""
   },
   "errors": {
-    "unknown": "Errore sconosciuto"
+    "unknown": "Errore sconosciuto",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "Seleziona un'opzione"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

@@ -123,7 +123,8 @@
     "unsafeTitle": "Эта ссылка выглядит небезопасной",
     "unsafeHttpBody": "Ссылка использует незащищённое HTTP-соединение. Это может подвергнуть ваши данные риску.",
     "confirmProceed": "Вы уверены, что хотите продолжить?",
-    "blockedInApp": "В целях безопасности мы не открываем небезопасные ссылки прямо в приложении. Скопируйте ссылку и откройте её в браузере."
+    "blockedInApp": "В целях безопасности мы не открываем небезопасные ссылки прямо в приложении. Скопируйте ссылку и откройте её в браузере.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "Переподключиться",
@@ -136,7 +137,15 @@
     "goForward": "Вперёд"
   },
   "updater": {
-    "pleaseWait": "Обновление… подождите"
+    "pleaseWait": "Обновление… подождите",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "Что-то пошло не так",
@@ -175,10 +184,13 @@
     "randomColor": "Случайный цвет",
     "randomColorHint": "Выбирает случайный цвет",
     "removeColorStop": "Удалить точку цвета",
-    "rangeSliderHint": "Ползунок диапазона. Перетащите для настройки."
+    "rangeSliderHint": "Ползунок диапазона. Перетащите для настройки.",
+    "moreOptions": ""
   },
   "errors": {
-    "unknown": "Неизвестная ошибка"
+    "unknown": "Неизвестная ошибка",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "Выберите вариант"
@@ -299,5 +311,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

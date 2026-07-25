@@ -129,7 +129,8 @@
     "unsafeTitle": "يبدو أن هذا الرابط غير آمن",
     "unsafeHttpBody": "الرابط الذي تحاول فتحه يستخدم اتصال HTTP غير آمن. قد يعرّض ذلك بياناتك لأطراف ثالثة.",
     "confirmProceed": "هل أنت متأكد أنك تريد المتابعة؟",
-    "blockedInApp": "لا نسمح بفتح الروابط غير الآمنة مباشرة في التطبيق لأمانك. يرجى نسخ الرابط وفتحه في متصفح الويب."
+    "blockedInApp": "لا نسمح بفتح الروابط غير الآمنة مباشرة في التطبيق لأمانك. يرجى نسخ الرابط وفتحه في متصفح الويب.",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "إعادة الاتصال",
@@ -142,7 +143,15 @@
     "goForward": "تقدم"
   },
   "updater": {
-    "pleaseWait": "جارٍ التحديث… يرجى الانتظار"
+    "pleaseWait": "جارٍ التحديث… يرجى الانتظار",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "حدث خطأ ما",
@@ -181,10 +190,13 @@
     "randomColor": "لون عشوائي",
     "randomColorHint": "يختار لونًا عشوائيًا",
     "removeColorStop": "إزالة نقطة اللون",
-    "rangeSliderHint": "شريط نطاق. اضبط بالسحب."
+    "rangeSliderHint": "شريط نطاق. اضبط بالسحب.",
+    "moreOptions": ""
   },
   "errors": {
-    "unknown": "خطأ غير معروف"
+    "unknown": "خطأ غير معروف",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "اختر خيارًا"
@@ -305,5 +317,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

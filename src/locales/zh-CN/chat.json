@@ -53,7 +53,8 @@
     "editHintSave": "保存",
     "editHintEscapeTo": "escape 以",
     "editHintEnterTo": "enter 以",
-    "dropFiles": "拖放文件以附加"
+    "dropFiles": "拖放文件以附加",
+    "markAsSpoiler": ""
   },
   "reply": {
     "banner": "回复 {{name}}",
@@ -185,7 +186,8 @@
     "missed": "Missed call",
     "ended": "Call ended",
     "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}"
+    "endedLasted": "Call ended — lasted {{duration}}",
+    "button": ""
   },
   "mentions": {
     "members": "成员",
@@ -270,7 +272,8 @@
       "noiseSuppressionA11y": "",
       "noiseSuppressionOn": "",
       "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": ""
+      "noiseSuppressionApplying": "",
+      "unmuteUser": ""
     },
     "participant": {
       "you": "（你）",
@@ -382,7 +385,15 @@
       "replyPlaceholder": "回复 {{name}}…",
       "replyFallback": "评论",
       "reply": "回复",
-      "sendReply": "发送回复"
+      "sendReply": "发送回复",
+      "loadingMore": "",
+      "sortNewest": "",
+      "sortOldest": "",
+      "viewReplies_one": "",
+      "viewReplies_other": "",
+      "hideReplies": "",
+      "loadMore": "",
+      "close": ""
     },
     "actions": {
       "deletePost": "删除帖子",
@@ -454,7 +465,29 @@
     "moveUp": "上移",
     "moveDown": "下移",
     "channelSettings": "频道设置",
-    "addFriend": "添加好友"
+    "addFriend": "添加好友",
+    "muteNotifications": "",
+    "unmuteNotifications": "",
+    "notificationSettings": "",
+    "notificationFrequency": "",
+    "notificationGeneral": "",
+    "notificationLevel": "",
+    "notificationAll": "",
+    "notificationMentions": "",
+    "notificationNothing": "",
+    "useSpaceDefault": "",
+    "muteSpace": "",
+    "unmuteSpace": "",
+    "muteChannel": "",
+    "unmuteChannel": "",
+    "muteSpaceForDuration": "",
+    "muteDuration1h": "",
+    "muteDuration8h": "",
+    "muteDuration24h": "",
+    "muteDuration1w": "",
+    "muteUntilTurnBackOn": "",
+    "suppressEveryone": "",
+    "suppressRoles": ""
   },
   "a11y": {
     "embedImage": "嵌入图片",

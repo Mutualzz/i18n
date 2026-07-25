@@ -522,7 +522,12 @@
     "friends": "好友",
     "spaces": "空間",
     "channels": "",
-    "bridges": ""
+    "bridges": "",
+    "moreOptions": "",
+    "reorder": "",
+    "doneReordering": "",
+    "reorderA11y": "",
+    "doneReorderingA11y": ""
   },
   "lockdown": {
     "title": "此空間處於封鎖狀態",
@@ -536,5 +541,27 @@
     "createCustom": "Create space theme",
     "spaceThemes": "This space",
     "noCustomThemes": "No custom themes yet. Create one to brand this space."
+  },
+  "sheet": {
+    "quickActions": {
+      "invite": "",
+      "notifications": "",
+      "settings": ""
+    },
+    "onlineCount_one": "",
+    "onlineCount_other": "",
+    "membersCount_one": "",
+    "membersCount_other": "",
+    "spaceEmojis": "",
+    "notificationSettingsTitle": "",
+    "serverSettingsTitle": "",
+    "unmuteSpace": "",
+    "muteSpace": "",
+    "mutedStatus": "",
+    "muteHelper": "",
+    "serverNotificationSettings": "",
+    "suppressSettings": "",
+    "settingsSection": "",
+    "userManagementSection": ""
   }
 }

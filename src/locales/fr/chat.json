@@ -33,7 +33,8 @@
     "openStickerPicker": "Ouvrir le sélecteur de stickers",
     "editHintEscapeTo": "échap pour",
     "editHintEnterTo": "entrée pour",
-    "dropFiles": "Déposez des fichiers à joindre"
+    "dropFiles": "Déposez des fichiers à joindre",
+    "markAsSpoiler": ""
   },
   "reply": {
     "banner": "Réponse à {{name}}",
@@ -156,7 +157,8 @@
       "noiseSuppressionA11y": "",
       "noiseSuppressionOn": "",
       "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": ""
+      "noiseSuppressionApplying": "",
+      "unmuteUser": ""
     },
     "participant": {
       "you": "(Vous)",
@@ -282,7 +284,15 @@
       "replyPlaceholder": "Répondre à {{name}}…",
       "replyFallback": "commentaire",
       "reply": "Répondre",
-      "sendReply": "Envoyer la réponse"
+      "sendReply": "Envoyer la réponse",
+      "loadingMore": "",
+      "sortNewest": "",
+      "sortOldest": "",
+      "viewReplies_one": "",
+      "viewReplies_other": "",
+      "hideReplies": "",
+      "loadMore": "",
+      "close": ""
     },
     "actions": {
       "deletePost": "Supprimer la publication",
@@ -354,7 +364,29 @@
     "moveUp": "Monter",
     "moveDown": "Descendre",
     "channelSettings": "Paramètres du canal",
-    "addFriend": "Ajouter un ami"
+    "addFriend": "Ajouter un ami",
+    "muteNotifications": "",
+    "unmuteNotifications": "",
+    "notificationSettings": "",
+    "notificationFrequency": "",
+    "notificationGeneral": "",
+    "notificationLevel": "",
+    "notificationAll": "",
+    "notificationMentions": "",
+    "notificationNothing": "",
+    "useSpaceDefault": "",
+    "muteSpace": "",
+    "unmuteSpace": "",
+    "muteChannel": "",
+    "unmuteChannel": "",
+    "muteSpaceForDuration": "",
+    "muteDuration1h": "",
+    "muteDuration8h": "",
+    "muteDuration24h": "",
+    "muteDuration1w": "",
+    "muteUntilTurnBackOn": "",
+    "suppressEveryone": "",
+    "suppressRoles": ""
   },
   "favorites": {
     "add": "Ajouter aux favoris",
@@ -510,7 +542,8 @@
     "missed": "Missed call",
     "ended": "Call ended",
     "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}"
+    "endedLasted": "Call ended — lasted {{duration}}",
+    "button": ""
   },
   "mentions": {
     "members": "Membres",

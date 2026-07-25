@@ -113,7 +113,8 @@
     "unsafeTitle": "このリンクは安全ではない可能性があります",
     "unsafeHttpBody": "開こうとしているリンクは安全でないHTTP接続を使用しています。データが第三者に漏洩する可能性があります。",
     "confirmProceed": "本当に続行しますか？",
-    "blockedInApp": "セキュリティのため、安全でないリンクをアプリ内で直接開くことはできません。リンクをコピーしてウェブブラウザで開いてください。"
+    "blockedInApp": "セキュリティのため、安全でないリンクをアプリ内で直接開くことはできません。リンクをコピーしてウェブブラウザで開いてください。",
+    "dontShowAgain": ""
   },
   "connection": {
     "reconnect": "再接続",
@@ -225,7 +226,15 @@
     "goForward": "進む"
   },
   "updater": {
-    "pleaseWait": "更新中…しばらくお待ちください"
+    "pleaseWait": "更新中…しばらくお待ちください",
+    "downloadProgress": "",
+    "downloadedOnly": "",
+    "etaHoursMinutes": "",
+    "etaMinutesSeconds": "",
+    "etaSeconds": "",
+    "installUpdate": "",
+    "installing": "",
+    "updateReady": ""
   },
   "crash": {
     "title": "問題が発生しました",
@@ -270,14 +279,17 @@
     "randomColor": "ランダムな色",
     "randomColorHint": "ランダムな色を選びます",
     "removeColorStop": "カラーストップを削除",
-    "rangeSliderHint": "レンジスライダー。ドラッグして調整。"
+    "rangeSliderHint": "レンジスライダー。ドラッグして調整。",
+    "moreOptions": ""
   },
   "seo": {
     "defaultTitle": "Mutualzz（早期アクセス）",
     "defaultDescription": "同じ興味を持つ人とつながろう。現在、精力的に開発中です"
   },
   "errors": {
-    "unknown": "不明なエラー"
+    "unknown": "不明なエラー",
+    "requestFailed": "",
+    "requestFailedWithStatus": ""
   },
   "select": {
     "placeholder": "オプションを選択"
@@ -293,5 +305,9 @@
   "whatsNew": {
     "title": ""
   },
-  "logout": ""
+  "logout": "",
+  "minecraft": {
+    "skinAlt": "",
+    "skinAltNamed": ""
+  }
 }

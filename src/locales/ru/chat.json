@@ -53,7 +53,8 @@
     "editHintSave": "сохранить",
     "editHintEscapeTo": "escape для",
     "editHintEnterTo": "enter для",
-    "dropFiles": "Перетащите файлы для вложения"
+    "dropFiles": "Перетащите файлы для вложения",
+    "markAsSpoiler": ""
   },
   "reply": {
     "banner": "Ответ {{name}}",
@@ -189,7 +190,8 @@
     "missed": "Missed call",
     "ended": "Call ended",
     "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}"
+    "endedLasted": "Call ended — lasted {{duration}}",
+    "button": ""
   },
   "mentions": {
     "members": "Участники",
@@ -274,7 +276,8 @@
       "noiseSuppressionA11y": "",
       "noiseSuppressionOn": "",
       "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": ""
+      "noiseSuppressionApplying": "",
+      "unmuteUser": ""
     },
     "participant": {
       "you": "(Вы)",
@@ -392,7 +395,15 @@
       "replyPlaceholder": "Ответ {{name}}…",
       "replyFallback": "комментарий",
       "reply": "Ответить",
-      "sendReply": "Отправить ответ"
+      "sendReply": "Отправить ответ",
+      "loadingMore": "",
+      "sortNewest": "",
+      "sortOldest": "",
+      "viewReplies_one": "",
+      "viewReplies_other": "",
+      "hideReplies": "",
+      "loadMore": "",
+      "close": ""
     },
     "actions": {
       "deletePost": "Удалить пост",
@@ -466,7 +477,29 @@
     "moveUp": "Выше",
     "moveDown": "Ниже",
     "channelSettings": "Настройки канала",
-    "addFriend": "Добавить в друзья"
+    "addFriend": "Добавить в друзья",
+    "muteNotifications": "",
+    "unmuteNotifications": "",
+    "notificationSettings": "",
+    "notificationFrequency": "",
+    "notificationGeneral": "",
+    "notificationLevel": "",
+    "notificationAll": "",
+    "notificationMentions": "",
+    "notificationNothing": "",
+    "useSpaceDefault": "",
+    "muteSpace": "",
+    "unmuteSpace": "",
+    "muteChannel": "",
+    "unmuteChannel": "",
+    "muteSpaceForDuration": "",
+    "muteDuration1h": "",
+    "muteDuration8h": "",
+    "muteDuration24h": "",
+    "muteDuration1w": "",
+    "muteUntilTurnBackOn": "",
+    "suppressEveryone": "",
+    "suppressRoles": ""
   },
   "a11y": {
     "embedImage": "Встроенное изображение",

@@ -143,7 +143,15 @@
     "goForward": "Go Forward"
   },
   "updater": {
-    "pleaseWait": "Updating… please wait"
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "{{hours}}h {{minutes}}m left",
+    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s left",
+    "etaSeconds": "{{seconds}}s left",
+    "installUpdate": "Install update",
+    "installing": "Installing update…",
+    "pleaseWait": "Updating… please wait",
+    "updateReady": "Update {{version}} ready"
   },
   "crash": {
     "title": "Something went wrong",
@@ -171,6 +179,7 @@
     "tapToOpen": "Tap to open",
     "imageAttachment": "Image attachment",
     "fileAttachment": "File attachment",
+    "moreOptions": "More options",
     "sent": "Sent",
     "createChannelInCategory": "Create channel in category",
     "reorder": "Reorder",
@@ -185,7 +194,13 @@
     "rangeSliderHint": "Range slider. Adjust by dragging."
   },
   "errors": {
+    "requestFailed": "Request failed",
+    "requestFailedWithStatus": "Request failed ({{status}})",
     "unknown": "Unknown error"
+  },
+  "minecraft": {
+    "skinAlt": "Minecraft skin",
+    "skinAltNamed": "{{name}}'s Minecraft skin"
   },
   "select": {
     "placeholder": "Select an option"

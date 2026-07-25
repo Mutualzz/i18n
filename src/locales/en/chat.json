@@ -275,6 +275,7 @@
       "streamVolume": "Stream Volume",
       "muteUser": "Mute User",
       "muteUserLocally": "Mute this user locally",
+      "unmuteUser": "Unmute User",
       "unmuteUserLocally": "Unmute this user locally",
       "muteStream": "Mute Stream",
       "live": "LIVE",
