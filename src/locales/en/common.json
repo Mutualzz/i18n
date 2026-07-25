@@ -150,6 +150,8 @@
     "etaSeconds": "{{seconds}}s left",
     "installUpdate": "Install update",
     "installing": "Installing update…",
+    "restartToUpdate": "Restart to update",
+    "restarting": "Restarting…",
     "pleaseWait": "Updating… please wait",
     "updateReady": "Update {{version}} ready"
   },
