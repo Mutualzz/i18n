@@ -7,12 +7,12 @@
     "activity": "Activiteit",
     "appeals": "Beroepen",
     "support": "Ondersteuning",
-    "changelogs": ""
+    "changelogs": "Wijzigingslogboeken"
   },
   "pages": {
     "activity": "Personeelsactiviteit",
     "reportDetails": "Rapportdetails",
-    "changelogs": ""
+    "changelogs": "Wijzigingslogboeken"
   },
   "home": {
     "findUser": "Zoek een gebruiker",
@@ -75,7 +75,7 @@
         "deleteAccount": "Kan account niet verwijderen",
         "restrictUser": "Kan gebruiker niet beperken"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Oprichtersaccounts zijn beschermd. Staff kan ze niet waarschuwen, beperken, uitschakelen, verwijderen of anderszins actie tegen hen ondernemen."
     },
     "modals": {
       "reasonRequired": "Reden (verplicht)",
@@ -226,7 +226,7 @@
   "support": {
     "anyStatus": "Elke status",
     "status": {
-      "open": "Open",
+      "open": "Openen",
       "awaiting_reply": "In afwachting van antwoord",
       "resolved": "Opgelost",
       "closed": "Gesloten"
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}} heeft een gemelde {{type}} uitgeschakeld",
       "lockedDownSpace": "{{actor}} heeft een spatie vergrendeld",
       "shutDownSpace": "{{actor}} heeft een gerapporteerde ruimte afgesloten",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} heeft een changelog gepubliceerd",
+      "deletedChangelog": "{{actor}} heeft een changelog verwijderd"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Wijzigingslogboeken",
+    "description": "Publiceer 'Wat is nieuw'-pop-ups voor gebruikers die updaten naar een specifieke app-versie.",
+    "titleLabel": "Titel",
+    "titlePlaceholder": "Wat is nieuw in deze release",
+    "bodyLabel": "Inhoud (markdown)",
+    "bodyPlaceholder": "Beschrijf de wijzigingen…",
+    "imageUrlLabel": "Afbeeldings-URL (optioneel)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Desktopversie",
+    "mobileVersion": "Mobiele versie",
+    "versionPlaceholder": "bijv. 6.21.0",
+    "publish": "Publiceren",
+    "publishing": "Bezig met publiceren…",
+    "preview": "Voorbeeld",
+    "empty": "Nog geen changelogs",
+    "delete": "Verwijderen",
+    "desktop": "Desktop {{version}}",
+    "mobile": "Mobiel {{version}}",
+    "published": "Succesvol gepubliceerd",
+    "deleted": "Changelog verwijderd",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "Changelog publiceren mislukt",
+      "delete": "Changelog verwijderen mislukt",
+      "versionRequired": "Geef een desktop- en/of mobiele versie op"
     },
-    "developerRequired": ""
+    "developerRequired": "Alleen ontwikkelaars kunnen changelogs beheren"
   }
 }

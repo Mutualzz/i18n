@@ -46,15 +46,15 @@
     "openEmojiPicker": "Emoji seçiciyi aç",
     "openGifPicker": "GIF seçiciyi aç",
     "openStickerPicker": "Çıkartma seçiciyi aç",
-    "mentionOn": "@ ON",
-    "mentionOff": "@ OFF",
+    "mentionOn": "@ AÇIK",
+    "mentionOff": "@ KAPALI",
     "editHint": "iptal için escape • kaydetmek için enter",
     "editHintCancel": "iptal",
     "editHintSave": "kaydet",
     "editHintEscapeTo": "escape ile",
     "editHintEnterTo": "enter ile",
     "dropFiles": "Eklemek için dosyaları bırakın",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "Spoiler olarak işaretle"
   },
   "reply": {
     "banner": "{{name}} adlı kişiye yanıtlanıyor",
@@ -79,7 +79,9 @@
     "deleteMessage": "Mesajı Sil",
     "reportMessage": "Mesajı Bildir",
     "addReaction": "Tepki ekle",
-    "reactWith": "{{emoji}} ile tepki ver"
+    "reactWith": "{{emoji}} ile tepki ver",
+    "pinMessage": "Mesajı sabitle",
+    "unpinMessage": "Sabitlemeyi kaldır"
   },
   "report": {
     "thisMessage": "bu mesaj"
@@ -90,7 +92,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "Bunu yalnızca sen görebilirsin •",
-    "dismissMessage": "Mesajı kapat"
+    "dismissMessage": "Mesajı kapat",
+    "pinnedMessage": "{{name}} bu kanala bir mesaj sabitledi."
   },
   "empty": {
     "channel": {
@@ -170,24 +173,26 @@
     },
     "voice": {
       "closeChatA11y": "Sohbeti kapat"
-    }
+    },
+    "pins": "Sabitlenmiş mesajlar",
+    "search": "Mesajlarda ara"
   },
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "Aramayı Başlat",
+    "startHint": "Aramayı başlat — Zil çalmadan katılmak için Shift+tıklama",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "Arıyorum…",
+    "inCall": "Görüşmede",
+    "active": "Arama etkin",
+    "accept": "Kabul etmek",
+    "decline": "Reddetmek",
+    "join": "Çağrıya Katılın",
+    "soloTimeout": "Bu kanalda o kadar uzun süre kalamazsınız; bant genişliği ağaçlarda büyümez.",
+    "missed": "Cevapsız çağrı",
+    "ended": "Arama sona erdi",
+    "missedFrom": "{{name}} adlı kişiden gelen bir çağrıyı kaçırdınız",
+    "endedLasted": "Çağrı sona erdi — {{duration}} sürdü",
+    "button": "Arama"
   },
   "mentions": {
     "members": "Üyeler",
@@ -234,7 +239,7 @@
       "differentDevice": "Farklı bir cihazdan bağlanıldı",
       "movedChannel": "Başka bir ses kanalına taşındı",
       "enumerateDevices": "Cihazlar listelenemedi",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "Ekran paylaşımına katılamadım"
     },
     "controls": {
       "mute": "Sustur",
@@ -263,17 +268,17 @@
       "muteUserLocally": "Bu kullanıcıyı yerel olarak sustur",
       "unmuteUserLocally": "Bu kullanıcının yerel susturmasını kaldır",
       "muteStream": "Yayını Sustur",
-      "live": "LIVE",
+      "live": "CANLI",
       "video": "Video",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "Minecraft aracılığıyla bağlanıldı",
+      "audioInMinecraft": "Minecraft aracılığıyla bağlanıyorsunuz — mikrofon ve hoparlörler oyun içindedir",
+      "noiseSuppression": "Gürültü Bastırma",
+      "noiseSuppressionDescription": "Konuşurken arka plandaki gürültüyü kesin. Konuşurken alkış gibi sesler çıkarın. Arkadaşlar çoğunlukla sesinizi duymalı.",
+      "noiseSuppressionA11y": "Gürültü bastırma",
+      "noiseSuppressionOn": "Gürültü bastırma açık",
+      "noiseSuppressionOff": "Gürültü bastırma kapalı",
+      "noiseSuppressionApplying": "Başvuruluyor…",
+      "unmuteUser": "Kullanıcının Sesini Aç"
     },
     "participant": {
       "you": "(Sen)",
@@ -316,7 +321,7 @@
       "shareAudio": "Ses paylaş",
       "shareAudioDescription": "Paylaşılan ekran veya pencereden ses ilet",
       "devBuildHint": "Geliştirme derlemesi: macOS Sistem Ayarlarında {{appName}} (genellikle Electron) için Ekran Kaydı izni ver.",
-      "goLive": "Go Live",
+      "goLive": "Canlı Yayına Geçin",
       "quality": {
         "720p15": "720p 15fps",
         "720p30": "720p 30fps",
@@ -325,8 +330,8 @@
         "source": "Kaynak"
       }
     },
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "{{time}} için sesli olarak",
+    "channelOccupied": "Kanal {{time}} için meşgul"
   },
   "feed": {
     "title": "Akış",
@@ -386,14 +391,14 @@
       "replyFallback": "yorum",
       "reply": "Yanıtla",
       "sendReply": "Yanıt gönder",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "Daha fazlası yükleniyor…",
+      "sortNewest": "En yeni",
+      "sortOldest": "En eski",
+      "viewReplies_one": "{{count}} yanıtını görüntüle",
+      "viewReplies_other": "{{count}} yanıtlarını görüntüle",
+      "hideReplies": "Yanıtları gizle",
+      "loadMore": "Daha fazla yorum yükle",
+      "close": "Yorumları kapat"
     },
     "actions": {
       "deletePost": "Gönderiyi sil",
@@ -466,28 +471,28 @@
     "moveDown": "Aşağı taşı",
     "channelSettings": "Kanal ayarları",
     "addFriend": "Arkadaş Ekle",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "Bildirimleri yoksay",
+    "unmuteNotifications": "Bildirimlerin sesini aç",
+    "notificationSettings": "Bildirim ayarları",
+    "notificationFrequency": "Sıklık",
+    "notificationGeneral": "Genel",
+    "notificationLevel": "Bildirim düzeyi",
+    "notificationAll": "Tüm mesajlar",
+    "notificationMentions": "Yalnızca @bahisler",
+    "notificationNothing": "Hiç bir şey",
+    "useSpaceDefault": "Varsayılan alanı kullan",
+    "muteSpace": "Alanı sessize al",
+    "unmuteSpace": "Alanın sesini aç",
+    "muteChannel": "Kanalın sesini kapat",
+    "unmuteChannel": "Kanalın sesini aç",
+    "muteSpaceForDuration": "Bir süre sessize alın…",
+    "muteDuration1h": "1 saat boyunca",
+    "muteDuration8h": "8 saat boyunca",
+    "muteDuration24h": "24 saat boyunca",
+    "muteDuration1w": "1 hafta boyunca",
+    "muteUntilTurnBackOn": "Ben onu tekrar açana kadar",
+    "suppressEveryone": "@Herkesi bastır",
+    "suppressRoles": "@rolden bahsetmeyi bastır"
   },
   "a11y": {
     "embedImage": "Gömülü görsel",
@@ -596,7 +601,65 @@
     "remove": "Kaldır"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "Bugün",
+    "yesterday": "Dün"
+  },
+  "pins": {
+    "empty": "Bu kanalda sabitlenmiş mesaj yok.",
+    "pinnedBy": "{{name}} tarafından sabitlendi",
+    "jump": "Git",
+    "previous": "Önceki sabitlenmiş mesaj",
+    "next": "Sonraki sabitlenmiş mesaj",
+    "count_one": "Bu kanalda {{count}} sabitlenmiş mesaj.",
+    "count_other": "Bu kanalda {{count}} sabitlenmiş mesaj.",
+    "index": "{{current}} / {{total}}"
+  },
+  "search": {
+    "placeholder": "{{space}} ara",
+    "placeholderShort": "{{space}} ara",
+    "hint": "Bu alanda aramak için en az 2 karakter yazın.",
+    "empty": "Mesaj bulunamadı.",
+    "searching": "Aranıyor…",
+    "submit": "Ara",
+    "close": "Aramayı kapat",
+    "noText": "Ek veya gömülü içerik",
+    "results_one": "{{count}} sonuç",
+    "results_other": "{{count}} sonuç",
+    "resultsTitle_one": "{{count}} sonuç",
+    "resultsTitle_other": "{{count}} sonuç",
+    "filters": "Filtreler",
+    "sort": "Sırala",
+    "textChannels": "Metin kanalları",
+    "hintConversation": "Bu sohbette aramak için en az 2 karakter yazın.",
+    "sortNewest": "En yeni önce",
+    "sortOldest": "En eski önce",
+    "filterFrom": "Kimden",
+    "filterIn": "Kanal",
+    "filterMentions": "Bahsetmeler",
+    "filterMentionsMe": "Beni bahsediyor",
+    "filterMe": "Ben",
+    "filterHas": "İçerik",
+    "filterPinned": "Yalnızca sabitlenmiş",
+    "filterOptions": "Daha fazla",
+    "filterDates": "Tarih",
+    "filterBefore": "Önce (YYYY-MM-DD)",
+    "filterAfter": "Sonra (YYYY-MM-DD)",
+    "removeFilter": "Filtreyi kaldır",
+    "activeFromMe": "Benden",
+    "activeFromUser": "@{{user}} tarafından",
+    "activeInChannel": "#{{channel}} içinde",
+    "activeMentionsUser": "@{{user}} bahsediyor",
+    "activeBefore": "{{date}} önce",
+    "activeAfter": "{{date}} sonra",
+    "hintFilters": "Anahtar kelimeler yazın veya from:me has:link gibi filtreler kullanın",
+    "hintConversationFilters": "Anahtar kelimeler yazın veya from:me has:link gibi filtreler kullanın",
+    "has": {
+      "link": "Bağlantı",
+      "embed": "Gömülü",
+      "file": "Dosya",
+      "image": "Görsel",
+      "video": "Video",
+      "sticker": "Çıkartma"
+    }
   }
 }

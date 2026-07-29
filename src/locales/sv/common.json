@@ -118,7 +118,7 @@
     "unsafeHttpBody": "Länken du försöker öppna använder en osäker HTTP-anslutning. Det kan exponera dina data för tredje part.",
     "confirmProceed": "Är du säker på att du vill fortsätta?",
     "blockedInApp": "Vi tillåter inte att osäkra länkar öppnas direkt i appen av säkerhetsskäl. Kopiera länken och öppna den i din webbläsare.",
-    "dontShowAgain": ""
+    "dontShowAgain": "Visa inte den här varningen igen"
   },
   "connection": {
     "reconnect": "Återanslut",
@@ -132,14 +132,16 @@
   },
   "updater": {
     "pleaseWait": "Uppdaterar… vänta",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}} % · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "{{hours}}t {{minutes}}m kvar",
+    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s kvar",
+    "etaSeconds": "{{seconds}}s kvar",
+    "installUpdate": "Installera uppdatering",
+    "installing": "Installerar uppdatering…",
+    "updateReady": "Uppdatering {{version}} redo",
+    "restartToUpdate": "Starta om för att uppdatera",
+    "restarting": "Startar om…"
   },
   "crash": {
     "title": "Något gick fel",
@@ -165,8 +167,8 @@
     "playVideo": "Spela video",
     "pauseVideo": "Pausa video",
     "tapToOpen": "Tryck för att öppna",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "Bildbilaga",
+    "fileAttachment": "Filbilaga",
     "sent": "Skickat",
     "createChannelInCategory": "Skapa kanal i kategori",
     "reorder": "Ordna om",
@@ -179,12 +181,12 @@
     "randomColorHint": "Väljer en slumpmässig färg",
     "removeColorStop": "Ta bort färgpunkt",
     "rangeSliderHint": "Intervallreglage. Justera genom att dra.",
-    "moreOptions": ""
+    "moreOptions": "Fler alternativ"
   },
   "errors": {
     "unknown": "Okänt fel",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "Begäran misslyckades",
+    "requestFailedWithStatus": "Begäran misslyckades ({{status}})"
   },
   "select": {
     "placeholder": "Välj ett alternativ"
@@ -221,7 +223,7 @@
     "blockquote": "Citatblock",
     "code": "Kod",
     "spoiler": "Spoiler",
-    "color": "Color"
+    "color": "Färg"
   },
   "support": {
     "myTickets": "Mina ärenden",
@@ -292,22 +294,23 @@
       }
     },
     "termsOfService": "Användarvillkor",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "Du har redan ett öppet ärende. Svara där eller vänta tills det är stängt innan du öppnar ett nytt."
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "Spelar",
+    "listening": "Lyssnar",
+    "elapsed": "{{time}} förflutit",
+    "showLess": "Visa mindre",
+    "played": "Spelat",
+    "listened": "Lyssnat",
+    "openInSpotify": "Öppna i Spotify"
   },
   "whatsNew": {
-    "title": ""
+    "title": "Nyheter"
   },
-  "logout": "",
+  "logout": "Logga ut",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Minecraft-skin",
+    "skinAltNamed": "{{name}}s Minecraft-skin"
   }
 }

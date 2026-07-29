@@ -46,15 +46,15 @@
     "openEmojiPicker": "فتح منتقي الرموز التعبيرية",
     "openGifPicker": "فتح منتقي GIF",
     "openStickerPicker": "فتح منتقي الملصقات",
-    "mentionOn": "@ ON",
-    "mentionOff": "@ OFF",
+    "mentionOn": "في",
+    "mentionOff": "معطل",
     "editHint": "escape للإلغاء • enter للحفظ",
     "editHintCancel": "إلغاء",
     "editHintSave": "حفظ",
     "editHintEscapeTo": "escape لـ",
     "editHintEnterTo": "enter لـ",
     "dropFiles": "أسقط الملفات للإرفاق",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "المفسد مارك"
   },
   "reply": {
     "banner": "الرد على {{name}}",
@@ -79,7 +79,9 @@
     "deleteMessage": "حذف الرسالة",
     "reportMessage": "الإبلاغ عن الرسالة",
     "addReaction": "إضافة تفاعل",
-    "reactWith": "تفاعل بـ {{emoji}}"
+    "reactWith": "تفاعل بـ {{emoji}}",
+    "pinMessage": "تثبيت الرسالة",
+    "unpinMessage": "إلغاء تثبيت الرسالة"
   },
   "report": {
     "thisMessage": "هذه الرسالة"
@@ -90,7 +92,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "أنت فقط من يمكنه رؤية هذا •",
-    "dismissMessage": "تجاهل الرسالة"
+    "dismissMessage": "تجاهل الرسالة",
+    "pinnedMessage": "{{name}} ثبت رسالة في هذه القناة."
   },
   "empty": {
     "channel": {
@@ -126,7 +129,7 @@
   "picker": {
     "tabs": {
       "emoji": "رموز تعبيرية",
-      "gifs": "GIFs",
+      "gifs": "صور الـ GIF",
       "stickers": "ملصقات"
     },
     "searchEmojis": "البحث في الرموز التعبيرية…",
@@ -148,7 +151,7 @@
     "emptyStickers": "لا ملصقات بعد. ارفع بعضها من إعدادات المستخدم أو المساحة.",
     "loadingMore": "جارٍ تحميل المزيد…",
     "noGifsFor": "لم يُعثر على GIFs لـ \"{{query}}\"",
-    "gifA11y": "GIF",
+    "gifA11y": "GIFصورة بتنسيق GIF",
     "addFavorite": "إضافة إلى المفضلة",
     "removeFavorite": "إزالة من المفضلة",
     "categories": {
@@ -178,24 +181,26 @@
     },
     "voice": {
       "closeChatA11y": "إغلاق الدردشة"
-    }
+    },
+    "pins": "الرسائل المثبتة",
+    "search": "البحث في الرسائل"
   },
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "بدء اتصال",
+    "startHint": "بدء المكالمة — Shift+انقر للانضمام دون رنين",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "جارٍ الاتصال…",
+    "inCall": "\"قيد الاتصال\"",
+    "active": "الاتصال نشط",
+    "accept": "موافق",
+    "decline": "رفض الدعوة",
+    "join": "الانضمام إلى المكالمة",
+    "soloTimeout": "لا يمكنك البقاء في هذه القناة لفترة طويلة — عرض النطاق الترددي لا ينمو على الأشجار.",
+    "missed": "مكالمة فائتة",
+    "ended": "تم إنهاء المكالمة",
+    "missedFrom": "فاتتك مكالمة من {{name}}",
+    "endedLasted": "انتهت المكالمة — استمرت {{duration}}",
+    "button": "يتصل"
   },
   "mentions": {
     "members": "الأعضاء",
@@ -242,7 +247,7 @@
       "differentDevice": "تم الاتصال من جهاز آخر",
       "movedChannel": "تم النقل إلى قناة صوت أخرى",
       "enumerateDevices": "فشل تعداد الأجهزة",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "تعذر الانضمام إلى مشاركة الشاشة"
     },
     "controls": {
       "mute": "كتم",
@@ -271,17 +276,17 @@
       "muteUserLocally": "كتم هذا المستخدم محليًا",
       "unmuteUserLocally": "إلغاء كتم هذا المستخدم محليًا",
       "muteStream": "كتم البث",
-      "live": "LIVE",
+      "live": "الحياة",
       "video": "فيديو",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "متصل عبر ماين كرافت",
+      "audioInMinecraft": "أنت متصل عبر لعبة Minecraft — الميكروفون ومكبرات الصوت موجودة في اللعبة",
+      "noiseSuppression": "قمع الضوضاء",
+      "noiseSuppressionDescription": "قطع الضوضاء في الخلفية أثناء التحدث. قم بإحداث بعض الضوضاء – مثل التصفيق – أثناء التحدث. يجب أن يسمع الأصدقاء صوتك في الغالب.",
+      "noiseSuppressionA11y": "قمع الضوضاء",
+      "noiseSuppressionOn": "تم تفعيل خاصية منع الضوضاء",
+      "noiseSuppressionOff": "إيقاف قمع الضوضاء",
+      "noiseSuppressionApplying": "جارٍ التقديم…",
+      "unmuteUser": "إلغاء كتم المستخدم"
     },
     "participant": {
       "you": "(أنت)",
@@ -324,12 +329,12 @@
       "shareAudio": "مشاركة الصوت",
       "shareAudioDescription": "نقل الصوت من الشاشة أو النافذة المشتركة",
       "devBuildHint": "بناء التطوير: امنح تسجيل الشاشة لـ {{appName}} (غالبًا Electron) في إعدادات نظام macOS.",
-      "goLive": "Go Live",
+      "goLive": "بدء التشغيل",
       "quality": {
-        "720p15": "720p 15fps",
-        "720p30": "720p 30fps",
-        "1080p30": "1080p 30fps",
-        "1080p60": "1080p 60fps",
+        "720p15": "720 بكسل 15 إطارًا في الثانية",
+        "720p30": "720 بيكسل × 30 إطار بالثانية",
+        "1080p30": "1080 بيكسل × 30 إطار بالثانية",
+        "1080p60": "1080p 60 إطارًا في الثانية",
         "source": "المصدر"
       },
       "entireScreen_zero": "الشاشة بالكامل ({{count}})",
@@ -345,8 +350,8 @@
     "peopleInVoice_two": "شخص {{count}} في الصوت.",
     "peopleInVoice_few": "{{count}} أشخاص في الصوت.",
     "peopleInVoice_many": "{{count}} أشخاص في الصوت.",
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "بصوت لمدة {{time}}",
+    "channelOccupied": "القناة مشغولة لمدة {{time}}"
   },
   "feed": {
     "title": "الخلاصة",
@@ -406,14 +411,18 @@
       "replyFallback": "تعليق",
       "reply": "رد",
       "sendReply": "إرسال الرد",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "جارٍ تحميل المزيد…",
+      "sortNewest": "الأحدث",
+      "sortOldest": "الأقدم",
+      "viewReplies_one": "عرض {{count}} الرد",
+      "viewReplies_other": "عرض {{count}} من الردود",
+      "hideReplies": "إخفاء الردود",
+      "loadMore": "تحميل المزيد من التعليقات",
+      "close": "إغلاق التعليقات",
+      "viewReplies_zero": "عرض {{count}} رد",
+      "viewReplies_two": "عرض {{count}} ردين",
+      "viewReplies_few": "عرض {{count}} ردود",
+      "viewReplies_many": "عرض {{count}} رد"
     },
     "actions": {
       "deletePost": "حذف المنشور",
@@ -490,28 +499,28 @@
     "moveDown": "تحريك لأسفل",
     "channelSettings": "إعدادات القناة",
     "addFriend": "إضافة صديق",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "تجاهل الإخطارات",
+    "unmuteNotifications": "إلغاء تجاهل الإشعارات",
+    "notificationSettings": "إعدادات الإخطار",
+    "notificationFrequency": "تكرار",
+    "notificationGeneral": "عام",
+    "notificationLevel": "مستوى الإخطار",
+    "notificationAll": "جميع الرسائل",
+    "notificationMentions": "@الإشارات فقط",
+    "notificationNothing": "لا شئ",
+    "useSpaceDefault": "استخدم المساحة الافتراضية",
+    "muteSpace": "مساحة كتم الصوت",
+    "unmuteSpace": "إلغاء تجاهل المساحة",
+    "muteChannel": "قناة كتم الصوت",
+    "unmuteChannel": "إلغاء كتم صوت القناة",
+    "muteSpaceForDuration": "كتم الصوت لمدة…",
+    "muteDuration1h": "لمدة 1 ساعة",
+    "muteDuration8h": "لمدة 8 ساعات",
+    "muteDuration24h": "لمدة 24 ساعة",
+    "muteDuration1w": "لمدة أسبوع واحد",
+    "muteUntilTurnBackOn": "حتى أقوم بتشغيله مرة أخرى",
+    "suppressEveryone": "قمع @everyone",
+    "suppressRoles": "منع إشارات @role"
   },
   "a11y": {
     "embedImage": "صورة مضمّنة",
@@ -640,7 +649,69 @@
     "sentCount_many": "مرسلة - {{count}}"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "اليوم",
+    "yesterday": "أمس"
+  },
+  "pins": {
+    "empty": "لا توجد رسائل مثبتة في هذه القناة.",
+    "pinnedBy": "تم تثبيته بواسطة {{name}}",
+    "jump": "انتقال",
+    "previous": "الرسالة المثبتة السابقة",
+    "next": "الرسالة المثبتة التالية",
+    "count_one": "{{count}} رسالة مثبتة في هذه القناة.",
+    "count_other": "{{count}} رسائل مثبتة في هذه القناة.",
+    "index": "{{current}} من {{total}}"
+  },
+  "search": {
+    "placeholder": "البحث في {{space}}",
+    "placeholderShort": "البحث في {{space}}",
+    "hint": "اكتب حرفين على الأقل للبحث في هذه المساحة.",
+    "empty": "لم يتم العثور على رسائل.",
+    "searching": "جارٍ البحث…",
+    "submit": "بحث",
+    "close": "إغلاق البحث",
+    "noText": "مرفق أو تضمين",
+    "results_one": "{{count}} نتيجة",
+    "results_other": "{{count}} نتائج",
+    "resultsTitle_one": "{{count}} نتيجة",
+    "resultsTitle_other": "{{count}} نتائج",
+    "filters": "عوامل التصفية",
+    "sort": "ترتيب",
+    "textChannels": "قنوات النص",
+    "hintConversation": "اكتب حرفين على الأقل للبحث في هذه المحادثة.",
+    "sortNewest": "الأحدث أولاً",
+    "sortOldest": "الأقدم أولاً",
+    "filterFrom": "من",
+    "filterIn": "في",
+    "filterMentions": "الإشارات",
+    "filterMentionsMe": "يذكرني",
+    "filterMe": "أنا",
+    "filterHas": "يحتوي",
+    "filterPinned": "المثبت فقط",
+    "filterOptions": "المزيد",
+    "filterDates": "التاريخ",
+    "filterBefore": "قبل (YYYY-MM-DD)",
+    "filterAfter": "بعد (YYYY-MM-DD)",
+    "removeFilter": "إزالة عامل التصفية",
+    "activeFromMe": "مني",
+    "activeFromUser": "من @{{user}}",
+    "activeInChannel": "في #{{channel}}",
+    "activeMentionsUser": "يذكر @{{user}}",
+    "activeBefore": "قبل {{date}}",
+    "activeAfter": "بعد {{date}}",
+    "hintFilters": "اكتب كلمات مفتاحية أو استخدم مرشحات مثل from:me has:link",
+    "hintConversationFilters": "اكتب كلمات مفتاحية أو استخدم مرشحات مثل from:me has:link",
+    "has": {
+      "link": "رابط",
+      "embed": "تضمين",
+      "file": "ملف",
+      "image": "صورة",
+      "video": "فيديو",
+      "sticker": "ملصق"
+    },
+    "resultsTitle_zero": "{{count}} نتيجة",
+    "resultsTitle_two": "{{count}} نتيجتان",
+    "resultsTitle_few": "{{count}} نتائج",
+    "resultsTitle_many": "{{count}} نتيجة"
   }
 }

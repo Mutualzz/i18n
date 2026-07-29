@@ -118,7 +118,7 @@
     "unsafeHttpBody": "你尝试打开的链接使用不安全的 HTTP 连接，可能将你的数据暴露给第三方。",
     "confirmProceed": "确定要继续吗？",
     "blockedInApp": "为保障安全，我们不允许在应用内直接打开不安全链接。请复制链接并在浏览器中打开。",
-    "dontShowAgain": ""
+    "dontShowAgain": "不再显示此警告"
   },
   "connection": {
     "reconnect": "重新连接",
@@ -132,14 +132,16 @@
   },
   "updater": {
     "pleaseWait": "正在更新…请稍候",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "剩余 {{hours}}h {{minutes}}m",
+    "etaMinutesSeconds": "还剩 {{minutes}}m {{seconds}}s",
+    "etaSeconds": "还剩 {{seconds}} 秒",
+    "installUpdate": "安装更新",
+    "installing": "正在安装更新...",
+    "updateReady": "更新 {{version}} 准备就绪",
+    "restartToUpdate": "重启即可更新",
+    "restarting": "正在重新启动..."
   },
   "crash": {
     "title": "出了点问题",
@@ -165,8 +167,8 @@
     "playVideo": "播放视频",
     "pauseVideo": "暂停视频",
     "tapToOpen": "点按打开",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "图片附件",
+    "fileAttachment": "文件附件",
     "sent": "已发送",
     "createChannelInCategory": "在分类中创建频道",
     "reorder": "重新排序",
@@ -179,12 +181,12 @@
     "randomColorHint": "选择随机颜色",
     "removeColorStop": "移除色标",
     "rangeSliderHint": "范围滑块。拖动以调整。",
-    "moreOptions": ""
+    "moreOptions": "更多选择"
   },
   "errors": {
     "unknown": "未知错误",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "请求失败",
+    "requestFailedWithStatus": "请求失败 ({{status}})"
   },
   "select": {
     "placeholder": "选择一个选项"
@@ -221,7 +223,7 @@
     "blockquote": "引用",
     "code": "代码",
     "spoiler": "剧透",
-    "color": "Color"
+    "color": "颜色"
   },
   "support": {
     "myTickets": "我的工单",
@@ -292,22 +294,23 @@
       }
     },
     "termsOfService": "服务条款",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "您已经有一张开放门票。在那里回复或等到它关闭后再打开一个新的。"
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "演奏",
+    "listening": "听力",
+    "elapsed": "{{time}} 已过",
+    "showLess": "显示较少",
+    "played": "玩过",
+    "listened": "听过",
+    "openInSpotify": "在 Spotify 中打开"
   },
   "whatsNew": {
-    "title": ""
+    "title": "什么是新的"
   },
-  "logout": "",
+  "logout": "登出",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Minecraft 皮肤",
+    "skinAltNamed": "{{name}} 的 Minecraft 皮肤"
   }
 }

@@ -145,9 +145,11 @@ export default interface Resources {
       "deleteMessage": "Delete Message",
       "edit": "Edit",
       "editMessage": "Edit Message",
+      "pinMessage": "Pin Message",
       "reactWith": "React with {{emoji}}",
       "reply": "Reply",
-      "reportMessage": "Report Message"
+      "reportMessage": "Report Message",
+      "unpinMessage": "Unpin Message"
     },
     "blocked": "Blocked",
     "call": {
@@ -491,6 +493,8 @@ export default interface Resources {
         "hide": "Hide Member List",
         "show": "Show Member List"
       },
+      "pins": "Pinned messages",
+      "search": "Search messages",
       "voice": {
         "closeChatA11y": "Close chat"
       }
@@ -557,6 +561,15 @@ export default interface Resources {
       "yourStickers": "Your stickers",
       "yours": "Yours"
     },
+    "pins": {
+      "count": "{{count}} pinned message in this channel." | "{{count}} pinned messages in this channel.",
+      "empty": "No pinned messages in this channel.",
+      "index": "{{current}} of {{total}}",
+      "jump": "Jump",
+      "next": "Next pinned message",
+      "pinnedBy": "Pinned by {{name}}",
+      "previous": "Previous pinned message"
+    },
     "privateSpace": "Private Space",
     "reply": {
       "banner": "Replying to {{name}}",
@@ -564,6 +577,52 @@ export default interface Resources {
     },
     "report": {
       "thisMessage": "this message"
+    },
+    "search": {
+      "activeAfter": "After {{date}}",
+      "activeBefore": "Before {{date}}",
+      "activeFromMe": "From me",
+      "activeFromUser": "From @{{user}}",
+      "activeInChannel": "In #{{channel}}",
+      "activeMentionsUser": "Mentions @{{user}}",
+      "close": "Close search",
+      "empty": "No messages found.",
+      "filterAfter": "After (YYYY-MM-DD)",
+      "filterBefore": "Before (YYYY-MM-DD)",
+      "filterDates": "Date",
+      "filterFrom": "From",
+      "filterHas": "Has",
+      "filterIn": "In",
+      "filterMe": "Me",
+      "filterMentions": "Mentions",
+      "filterMentionsMe": "Mentions me",
+      "filterOptions": "More",
+      "filterPinned": "Pinned only",
+      "filters": "Filters",
+      "has": {
+        "embed": "Embed",
+        "file": "File",
+        "image": "Image",
+        "link": "Link",
+        "sticker": "Sticker",
+        "video": "Video"
+      },
+      "hint": "Type at least 2 characters to search this space.",
+      "hintConversation": "Type at least 2 characters to search this conversation.",
+      "hintConversationFilters": "Type keywords or use filters like from:me has:link",
+      "hintFilters": "Type keywords or use filters like from:me has:link",
+      "noText": "Attachment or embed",
+      "placeholder": "Search {{space}}",
+      "placeholderShort": "Search {{space}}",
+      "removeFilter": "Remove filter",
+      "results": "{{count}} result" | "{{count}} results",
+      "resultsTitle": "{{count}} Result" | "{{count}} Results",
+      "searching": "Searching…",
+      "sort": "Sort",
+      "sortNewest": "Newest first",
+      "sortOldest": "Oldest first",
+      "submit": "Search",
+      "textChannels": "Text Channels"
     },
     "selectChannel": "Select a channel to start chatting",
     "selectConversation": "Select a conversation to start chatting",
@@ -574,7 +633,8 @@ export default interface Resources {
     },
     "system": {
       "dismissMessage": "Dismiss message",
-      "ephemeralOnlyYou": "Only you can see this •"
+      "ephemeralOnlyYou": "Only you can see this •",
+      "pinnedMessage": "{{name}} pinned a message to this channel."
     },
     "toast": {
       "onlyMentioned": "You were only mentioned in this message",
@@ -757,6 +817,7 @@ export default interface Resources {
       "elapsed": "{{time}} elapsed",
       "listened": "Listened",
       "listening": "Listening",
+      "openInSpotify": "Open in Spotify",
       "played": "Played",
       "playing": "Playing",
       "showLess": "Show less"
@@ -1022,6 +1083,8 @@ export default interface Resources {
       "installUpdate": "Install update",
       "installing": "Installing update…",
       "pleaseWait": "Updating… please wait",
+      "restartToUpdate": "Restart to update",
+      "restarting": "Restarting…",
       "updateReady": "Update {{version}} ready"
     },
     "uploadCustomFont": "Upload custom font",
@@ -1237,11 +1300,46 @@ export default interface Resources {
       "screenShareQuality720p30": "720p · 30 fps",
       "screenShareQualityDescription": "Default resolution and frame rate for screen sharing",
       "screenShareQualitySource": "Match source",
-      "shareRpcPresence": "Share Rich Presence",
-      "shareRpcPresenceDescription": "Show detailed activity status in Discord Rich Presence when connected",
+      "shareRpcPresence": "Share connected app activity",
+      "shareRpcPresenceDescription": "Show detailed status from games and apps connected to Mutualzz on desktop",
       "title": "Desktop"
     },
     "developmentBuild": "DEVELOPMENT BUILD",
+    "discord": {
+      "continueWithDiscord": "Continue with Discord",
+      "linkDiscord": "Link Discord",
+      "linkedToast": "Discord account linked",
+      "unlinkDiscord": "Unlink Discord"
+    },
+    "discordAuth": {
+      "completeDescription": "Choose a username and confirm your date of birth.",
+      "completeTitle": "Finish creating your account",
+      "dateOfBirth": "Date of birth",
+      "dateOfBirthPlaceholder": "YYYY-MM-DD",
+      "displayName": "Display name",
+      "error": "Discord sign-in failed",
+      "finishSignup": "Create account",
+      "invalidCallback": "Invalid Discord callback",
+      "processing": "Finishing Discord sign-in…",
+      "username": "Username"
+    },
+    "discordImport": {
+      "botInvite": "Invite Mutualzz bot",
+      "botInviteHint": "Add the bot to your Discord server before importing.",
+      "guildId": "Discord server ID",
+      "guildIdHint": "Right-click the Discord server name → Copy Server ID (Developer Mode on).",
+      "guildIdPlaceholder": "e.g. 123456789012345678",
+      "import": "Import",
+      "intro": "Import channel layout, roles, and emojis from a Discord server. Message history is not imported.",
+      "inviteReady": "Space created. Invite code: {{code}}",
+      "linkHint": "Link your Discord account to import a server.",
+      "linkedStatus": "Discord account linked",
+      "preview": "Preview",
+      "previewSummary": "{{channels}} channels, {{roles}} roles, {{emojis}} emojis ({{skipped}} skipped)",
+      "previewTitle": "Import preview",
+      "spaceName": "New space name",
+      "spaceNamePlaceholder": "My community"
+    },
     "expressions": {
       "animatedEmojis": "Animated Emojis",
       "animatedStickers": "Animated Stickers",
@@ -1587,6 +1685,13 @@ export default interface Resources {
       "soundsPreview": "Preview sound",
       "soundsTitle": "Sounds"
     },
+    "onboarding": {
+      "exploreFeed": "Explore feed",
+      "setupProfile": "Set up profile",
+      "skipToSpaces": "Go to spaces",
+      "welcomeDescription": "Set up your profile, explore the feed, or jump into spaces.",
+      "welcomeTitle": "Welcome to Mutualzz"
+    },
     "pages": {
       "accessibility": "Accessibility",
       "appearance": "Appearance",
@@ -1594,6 +1699,7 @@ export default interface Resources {
       "composer": "Composer",
       "connections": "Connections",
       "desktop": "Advanced",
+      "discordImport": "Import from Discord",
       "expressions": "Expressions",
       "keybinds": "Keybinds",
       "layout": "Layout",
@@ -1956,6 +2062,16 @@ export default interface Resources {
       "removeCurrentAvatar": "Remove current avatar",
       "saveChanges": "Save changes",
       "saving": "Saving...",
+      "seo": {
+        "configuredDescription": "View {{name}}'s customized profile on Mutualzz.",
+        "defaultDescription": "{{name}} on Mutualzz — connect with people who share your interests.",
+        "keywords": {
+          "mutualzzProfile": "Mutualzz profile",
+          "socialProfile": "social profile",
+          "userProfile": "user profile"
+        },
+        "title": "{{name}} (@{{username}}) | Mutualzz"
+      },
       "uploadAvatar": "Upload Avatar",
       "viewer": {
         "emptyMobile": "This user hasn't set up their mobile profile yet.",
@@ -2033,6 +2149,8 @@ export default interface Resources {
       "showAvatarsOnEveryMessageDescription": "Show avatars in compact mode while keeping the condensed layout",
       "showLinkEmbeds": "Show link embeds",
       "showLinkEmbedsDescription": "Preview links, images, and videos in messages",
+      "showRoleColorsInMessages": "Show role colors on names",
+      "showRoleColorsInMessagesDescription": "Color message author names by their highest role",
       "showTypingIndicators": "Show typing indicators",
       "showTypingIndicatorsDescription": "See when others are typing in a channel",
       "timestampAbsolute": "Absolute",

@@ -114,7 +114,7 @@
     "unsafeHttpBody": "Der Link, den du öffnen möchtest, verwendet eine unsichere HTTP-Verbindung. Dadurch könnten deine Daten Dritten zugänglich werden.",
     "confirmProceed": "Möchtest du wirklich fortfahren?",
     "blockedInApp": "Aus Sicherheitsgründen erlauben wir das direkte Öffnen unsicherer Links in der App nicht. Bitte kopiere den Link und öffne ihn in deinem Webbrowser.",
-    "dontShowAgain": ""
+    "dontShowAgain": "Diese Warnung nicht mehr anzeigen"
   },
   "connection": {
     "reconnect": "Erneut verbinden",
@@ -148,7 +148,7 @@
     "blockquote": "Zitatblock",
     "code": "Code",
     "spoiler": "Spoiler",
-    "color": "Color"
+    "color": "Farbe"
   },
   "support": {
     "myTickets": "Meine Tickets",
@@ -219,7 +219,7 @@
     "ticketClosedHint": "Dieses Ticket ist geschlossen. Öffne ein neues Ticket, wenn du weiterhin Hilfe brauchst.",
     "updatedAt": "aktualisiert {{date}}",
     "termsOfService": "Nutzungsbedingungen",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "Du hast bereits ein offenes Ticket. Antworte dort oder warte, bis es geschlossen ist, bevor du ein neues eröffnest."
   },
   "nav": {
     "goBack": "Zurück",
@@ -227,14 +227,16 @@
   },
   "updater": {
     "pleaseWait": "Aktualisierung… bitte warten",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}} % · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "{{hours}} Std. {{minutes}} Min. verbleibend",
+    "etaMinutesSeconds": "{{minutes}} Min. {{seconds}} Sek. verbleibend",
+    "etaSeconds": "{{seconds}} Sek. verbleibend",
+    "installUpdate": "Update installieren",
+    "installing": "Update wird installiert…",
+    "updateReady": "Update {{version}} bereit",
+    "restartToUpdate": "Neustart zum Aktualisieren",
+    "restarting": "Wird neu gestartet…"
   },
   "crash": {
     "title": "Etwas ist schiefgelaufen",
@@ -266,8 +268,8 @@
     "playVideo": "Video abspielen",
     "pauseVideo": "Video pausieren",
     "tapToOpen": "Tippen zum Öffnen",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "Bildanhang",
+    "fileAttachment": "Dateianhang",
     "sent": "Gesendet",
     "createChannelInCategory": "Kanal in Kategorie erstellen",
     "reorder": "Neu anordnen",
@@ -280,7 +282,7 @@
     "randomColorHint": "Wählt eine zufällige Farbe",
     "removeColorStop": "Farbstopp entfernen",
     "rangeSliderHint": "Schieberegler. Zum Anpassen ziehen.",
-    "moreOptions": ""
+    "moreOptions": "Weitere Optionen"
   },
   "seo": {
     "defaultTitle": "Mutualzz (Early Access)",
@@ -288,26 +290,27 @@
   },
   "errors": {
     "unknown": "Unbekannter Fehler",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "Anfrage fehlgeschlagen",
+    "requestFailedWithStatus": "Anfrage fehlgeschlagen ({{status}})"
   },
   "select": {
     "placeholder": "Option auswählen"
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "Spielt",
+    "listening": "Hören",
+    "elapsed": "{{time}} vergangen",
+    "showLess": "Weniger anzeigen",
+    "played": "Gespielt",
+    "listened": "Gehört",
+    "openInSpotify": "In Spotify öffnen"
   },
   "whatsNew": {
-    "title": ""
+    "title": "Was ist neu"
   },
-  "logout": "",
+  "logout": "Abmelden",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Minecraft-Skin",
+    "skinAltNamed": "Minecraft-Skin von {{name}}"
   }
 }

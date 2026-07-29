@@ -78,8 +78,68 @@
     "editMessage": "Edit Message",
     "deleteMessage": "Delete Message",
     "reportMessage": "Report Message",
+    "pinMessage": "Pin Message",
+    "unpinMessage": "Unpin Message",
     "addReaction": "Add reaction",
     "reactWith": "React with {{emoji}}"
+  },
+  "pins": {
+    "empty": "No pinned messages in this channel.",
+    "pinnedBy": "Pinned by {{name}}",
+    "jump": "Jump",
+    "previous": "Previous pinned message",
+    "next": "Next pinned message",
+    "count_one": "{{count}} pinned message in this channel.",
+    "count_other": "{{count}} pinned messages in this channel.",
+    "index": "{{current}} of {{total}}"
+  },
+  "search": {
+    "placeholder": "Search {{space}}",
+    "placeholderShort": "Search {{space}}",
+    "hint": "Type at least 2 characters to search this space.",
+    "hintConversation": "Type at least 2 characters to search this conversation.",
+    "empty": "No messages found.",
+    "searching": "Searching…",
+    "submit": "Search",
+    "close": "Close search",
+    "noText": "Attachment or embed",
+    "results_one": "{{count}} result",
+    "results_other": "{{count}} results",
+    "resultsTitle_one": "{{count}} Result",
+    "resultsTitle_other": "{{count}} Results",
+    "filters": "Filters",
+    "sort": "Sort",
+    "sortNewest": "Newest first",
+    "sortOldest": "Oldest first",
+    "textChannels": "Text Channels",
+    "filterFrom": "From",
+    "filterIn": "In",
+    "filterMentions": "Mentions",
+    "filterMentionsMe": "Mentions me",
+    "filterMe": "Me",
+    "filterHas": "Has",
+    "filterPinned": "Pinned only",
+    "filterOptions": "More",
+    "filterDates": "Date",
+    "filterBefore": "Before (YYYY-MM-DD)",
+    "filterAfter": "After (YYYY-MM-DD)",
+    "removeFilter": "Remove filter",
+    "activeFromMe": "From me",
+    "activeFromUser": "From @{{user}}",
+    "activeInChannel": "In #{{channel}}",
+    "activeMentionsUser": "Mentions @{{user}}",
+    "activeBefore": "Before {{date}}",
+    "activeAfter": "After {{date}}",
+    "hintFilters": "Type keywords or use filters like from:me has:link",
+    "hintConversationFilters": "Type keywords or use filters like from:me has:link",
+    "has": {
+      "link": "Link",
+      "embed": "Embed",
+      "file": "File",
+      "image": "Image",
+      "video": "Video",
+      "sticker": "Sticker"
+    }
   },
   "report": {
     "thisMessage": "this message"
@@ -94,7 +154,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "Only you can see this •",
-    "dismissMessage": "Dismiss message"
+    "dismissMessage": "Dismiss message",
+    "pinnedMessage": "{{name}} pinned a message to this channel."
   },
   "empty": {
     "channel": {
@@ -164,6 +225,8 @@
     }
   },
   "header": {
+    "pins": "Pinned messages",
+    "search": "Search messages",
     "memberList": {
       "show": "Show Member List",
       "hide": "Hide Member List"

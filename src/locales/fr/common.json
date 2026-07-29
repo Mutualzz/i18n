@@ -114,7 +114,7 @@
     "unsafeHttpBody": "Le lien que vous essayez d'ouvrir utilise une connexion HTTP non sécurisée. Cela pourrait exposer vos données à des tiers.",
     "confirmProceed": "Voulez-vous vraiment continuer ?",
     "blockedInApp": "Pour votre sécurité, nous n'autorisons pas l'ouverture de liens non sécurisés directement dans l'application. Veuillez copier le lien et l'ouvrir dans votre navigateur web.",
-    "dontShowAgain": ""
+    "dontShowAgain": "Ne plus afficher cet avertissement"
   },
   "connection": {
     "reconnect": "Reconnecter",
@@ -124,7 +124,7 @@
   },
   "notifications": {
     "unreads": "Non lus",
-    "mentions": "Mentions",
+    "mentions": "Mentionné",
     "requests": "Demandes",
     "markAllAsRead": "Tout marquer comme lu",
     "acceptedFriend": "{{name}} a accepté votre demande d'ami",
@@ -148,7 +148,7 @@
     "blockquote": "Citation",
     "code": "Code",
     "spoiler": "Spoiler",
-    "color": "Color"
+    "color": "Couleur"
   },
   "support": {
     "myTickets": "Mes tickets",
@@ -219,7 +219,7 @@
     "ticketClosedHint": "Ce ticket est fermé. Ouvrez un nouveau ticket si vous avez encore besoin d'aide.",
     "updatedAt": "mis à jour {{date}}",
     "termsOfService": "Conditions d’utilisation",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "Vous avez déjà un ticket ouvert. Répondez-y ou attendez qu'il soit fermé avant d'en ouvrir un nouveau."
   },
   "nav": {
     "goBack": "Retour",
@@ -227,14 +227,16 @@
   },
   "updater": {
     "pleaseWait": "Mise à jour… veuillez patienter",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} Mo{{eta}}",
+    "downloadedOnly": "{{downloaded}} Mo",
+    "etaHoursMinutes": "Il reste {{hours}}h {{minutes}}m",
+    "etaMinutesSeconds": "Il reste {{minutes}}m {{seconds}}s",
+    "etaSeconds": "Il reste {{seconds}}s",
+    "installUpdate": "Installer la mise à jour",
+    "installing": "Installation de la mise à jour…",
+    "updateReady": "Mise à jour {{version}} prête",
+    "restartToUpdate": "Redémarrer pour mettre à jour",
+    "restarting": "Redémarrage…"
   },
   "crash": {
     "title": "Une erreur s'est produite",
@@ -266,8 +268,8 @@
     "playVideo": "Lire la vidéo",
     "pauseVideo": "Mettre la vidéo en pause",
     "tapToOpen": "Appuyer pour ouvrir",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "Image jointe",
+    "fileAttachment": "Fichier joint",
     "sent": "Envoyé",
     "createChannelInCategory": "Créer un salon dans la catégorie",
     "reorder": "Réorganiser",
@@ -280,7 +282,7 @@
     "randomColorHint": "Choisit une couleur aléatoire",
     "removeColorStop": "Supprimer le point de couleur",
     "rangeSliderHint": "Curseur. Faites glisser pour ajuster.",
-    "moreOptions": ""
+    "moreOptions": "Plus d'options"
   },
   "seo": {
     "defaultTitle": "Mutualzz (accès anticipé)",
@@ -288,26 +290,27 @@
   },
   "errors": {
     "unknown": "Erreur inconnue",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "Échec de la requête",
+    "requestFailedWithStatus": "Échec de la requête ({{status}})"
   },
   "select": {
     "placeholder": "Sélectionnez une option"
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "En jeu",
+    "listening": "Écoute",
+    "elapsed": "{{time}} écoulé",
+    "showLess": "Afficher moins",
+    "played": "Joué",
+    "listened": "Écouté",
+    "openInSpotify": "Ouvrir dans Spotify"
   },
   "whatsNew": {
-    "title": ""
+    "title": "Nouveautés"
   },
-  "logout": "",
+  "logout": "Se déconnecter",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Skin Minecraft",
+    "skinAltNamed": "Skin Minecraft de {{name}}"
   }
 }

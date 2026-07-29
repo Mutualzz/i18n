@@ -7,17 +7,17 @@
       "general": "Genel",
       "people": "Kişiler",
       "moderation": "Moderasyon",
-      "integrations": ""
+      "integrations": "Entegrasyonlar"
     },
     "pages": {
       "profile": "Profil",
-      "theme": "Theme",
+      "theme": "Tema",
       "roles": "Roller",
       "channels": "Kanallar",
       "invites": "Davetler",
       "expressions": "İfadeler",
       "bans": "Yasaklar",
-      "minecraftBridge": ""
+      "minecraftBridge": "Minecraft Köprü"
     }
   },
   "actions": {
@@ -64,7 +64,7 @@
       "expires": "Bitiş"
     },
     "usesLabel": "Kullanımlar: {{uses}}{{max}}",
-    "usesMax": " / {{max}}",
+    "usesMax": "/ {{max}}",
     "neverExpires": "Hiç bitmez",
     "expired": "Süresi dolmuş",
     "copyInviteUrl": "Davet URL'sini kopyala",
@@ -107,7 +107,7 @@
   "roles": {
     "defaultPermissions": "Varsayılan izinler",
     "everyoneSubtitle": "@everyone - tüm alan üyelerine uygulanır",
-    "everyoneSuffix": " (@everyone)",
+    "everyoneSuffix": "(@herkes)",
     "searchPlaceholder": "Rol ara",
     "listTitle_one": "Roller - {{count}}",
     "listTitle_other": "Roller - {{count}}",
@@ -226,8 +226,8 @@
           "description": "Üyelerin mesajlara dosya eklemesine izin ver"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Tepki Ekle",
+          "description": "Üyelerin mesajlara emoji tepkileri eklemesine izin ver"
         },
         "MentionEveryone": {
           "label": "Herkesten bahset",
@@ -238,8 +238,8 @@
           "description": "Üyelerin diğer alanlardan veya kendi emojilerini mesajlarında kullanmasına izin ver"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "Harici Çıkartmaları Kullan",
+          "description": "Üyelerin mesajlarında diğer alanlardaki çıkartmaları kullanmasına izin ver"
         },
         "ManageMessages": {
           "label": "Mesajları yönet",
@@ -258,20 +258,20 @@
           "description": "Üyelerin ses kanallarında konuşmasına izin ver"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Ses Etkinliğini Kullan",
+          "description": "Üyelerin ses etkinliği algılamayı kullanarak konuşmasına izin verin. Bu izin olmadan üyelerin bas-konuş özelliğini kullanması gerekir."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "Üyeleri Sessize Al",
+          "description": "Üyelerin, ses kanallarında diğer üyelerin sesini kapatmasına izin ver"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "Sağır Üyeler",
+          "description": "Üyelerin ses kanallarında diğer üyeleri sağır etmesine izin ver"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Üyeleri Taşı",
+          "description": "Üyelerin diğer üyeleri ses kanalları arasında taşımasına ve bağlantılarının kesilmesine izin ver"
         },
         "Administrator": {
           "label": "Yönetici",
@@ -442,8 +442,8 @@
           "description": "Üyelerin dosya eklemesine izin ver"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Tepki Ekle",
+          "description": "Üyelerin mesajlara emoji tepkileri eklemesine izin ver"
         },
         "MentionEveryone": {
           "label": "Herkesten bahset",
@@ -454,8 +454,8 @@
           "description": "Üyelerin diğer alanlardan emoji kullanmasına izin ver"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "Harici Çıkartmaları Kullan",
+          "description": "Üyelerin diğer alanlardaki çıkartmaları kullanmasına izin ver"
         },
         "ManageMessages": {
           "label": "Mesajları yönet",
@@ -474,20 +474,20 @@
           "description": "Üyelerin bu ses kanalında konuşmasına izin ver"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Ses Etkinliğini Kullan",
+          "description": "Üyelerin ses etkinliği algılamayı kullanarak konuşmasına izin verin. Bu izin olmadan üyelerin bas-konuş özelliğini kullanması gerekir."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "Üyeleri Sessize Al",
+          "description": "Üyelerin bu ses kanalındaki diğer üyeleri susturmasına izin ver"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "Sağır Üyeler",
+          "description": "Üyelerin bu ses kanalındaki diğer üyeleri sağır etmesine izin ver"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Üyeleri Taşı",
+          "description": "Üyelerin diğer üyeleri ses kanalları arasında taşımasına ve bağlantılarının kesilmesine izin ver"
         }
       }
     }
@@ -521,13 +521,13 @@
     "directMessages": "Doğrudan mesajlar",
     "friends": "Arkadaşlar",
     "spaces": "Alanlar",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "Kanallar",
+    "bridges": "Köprüler",
+    "moreOptions": "Daha fazla seçenek",
+    "reorder": "Yeniden sırala",
+    "doneReordering": "Tamamlamak",
+    "reorderA11y": "Alanları yeniden sıralayın",
+    "doneReorderingA11y": "Alanların yeniden düzenlenmesi tamamlandı"
   },
   "lockdown": {
     "title": "Bu alan kilitli",
@@ -536,32 +536,32 @@
     "toast": "Bu alan kilitli. Mesajlaşma ve değişiklikler devre dışı."
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "Kanal listesini kaplayın ve bu alandaki herkesle sohbet edin. Kişisel temanız başka yerde kalır.",
+    "clear": "Kişisel temayı kullan",
+    "createCustom": "Uzay teması oluştur",
+    "spaceThemes": "Bu alan",
+    "noCustomThemes": "Henüz özel tema yok. Bu alanı markalamak için bir tane oluşturun."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "Davet etmek",
+      "notifications": "Bildirimler",
+      "settings": "Ayarlar"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} Çevrimiçi",
+    "onlineCount_other": "{{count}} Çevrimiçi",
+    "membersCount_one": "{{count}} Üye",
+    "membersCount_other": "{{count}} Üyeler",
+    "spaceEmojis": "Uzay emojisi",
+    "notificationSettingsTitle": "Bildirim ayarları",
+    "serverSettingsTitle": "Alan ayarları",
+    "unmuteSpace": "{{spaceName}}'ın sesini aç",
+    "muteSpace": "Sessize al {{spaceName}}",
+    "mutedStatus": "Bu alanı sessize aldınız",
+    "muteHelper": "Bir alanı sessize almak, sizden bahsedilmediği sürece okunmamış rozetleri ve bildirim seslerini önler.",
+    "serverNotificationSettings": "Sunucu bildirim ayarları",
+    "suppressSettings": "Bastır",
+    "settingsSection": "Ayarlar",
+    "userManagementSection": "Kullanıcı yönetimi"
   }
 }

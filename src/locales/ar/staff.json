@@ -7,12 +7,12 @@
     "activity": "النشاط",
     "appeals": "الاستئنافات",
     "support": "الدعم",
-    "changelogs": ""
+    "changelogs": "سجلات التغيير"
   },
   "pages": {
     "activity": "نشاط الموظفين",
     "reportDetails": "تفاصيل البلاغ",
-    "changelogs": ""
+    "changelogs": "سجلات التغيير"
   },
   "home": {
     "findUser": "البحث عن مستخدم",
@@ -75,7 +75,7 @@
         "deleteAccount": "فشل حذف الحساب",
         "restrictUser": "فشل تقييد المستخدم"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "حسابات المؤسس محمية. لا يمكن للموظفين تحذيرهم أو تقييدهم أو تعطيلهم أو حذفهم أو اتخاذ إجراء ضدهم."
     },
     "modals": {
       "reasonRequired": "السبب (مطلوب)",
@@ -288,36 +288,36 @@
       "tookDownContent": "{{actor}} أزال {{type}} مُبلَغًا عنه",
       "lockedDownSpace": "{{actor}} أغلق مساحة مؤقتًا",
       "shutDownSpace": "{{actor}} أغلق مساحة مُبلَغًا عنها",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} نشر سجل التغيير",
+      "deletedChangelog": "{{actor}} حذف سجل التغيير"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "سجلات التغيير",
+    "description": "انشر النوافذ المنبثقة الجديدة للمستخدمين الذين يقومون بالتحديث إلى إصدار التطبيق المستهدف.",
+    "titleLabel": "عنوان",
+    "titlePlaceholder": "ما الجديد في هذا الإصدار",
+    "bodyLabel": "الجسم (تخفيض السعر)",
+    "bodyPlaceholder": "وصف التغييرات…",
+    "imageUrlLabel": "عنوان URL للصورة (اختياري)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "نسخة سطح المكتب",
+    "mobileVersion": "النسخة المحمولة",
+    "versionPlaceholder": "على سبيل المثال 6.21.0",
+    "publish": "نشر",
+    "publishing": "نشر…",
+    "preview": "معاينة",
+    "empty": "لا توجد سجلات التغيير حتى الآن",
+    "delete": "يمسح",
+    "desktop": "سطح المكتب {{version}}",
+    "mobile": "الجوال {{version}}",
+    "published": "تم النشر بنجاح",
+    "deleted": "تم حذف سجل التغيير",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "فشل في نشر سجل التغيير",
+      "delete": "فشل في حذف سجل التغيير",
+      "versionRequired": "توفير إصدار سطح المكتب و/أو الهاتف المحمول"
     },
-    "developerRequired": ""
+    "developerRequired": "يمكن للمطورين فقط إدارة سجلات التغيير"
   }
 }

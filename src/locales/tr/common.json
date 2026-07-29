@@ -75,7 +75,7 @@
     "success": "Bildirim gönderildi. Ortamı güvenli tutmaya yardımcı olduğun için teşekkürler.",
     "action": "Bildir",
     "reasons": {
-      "spam": "Spam",
+      "spam": "İstenmeyen e-posta",
       "harassment": "Taciz veya kötüye kullanım",
       "hate_speech": "Nefret söylemi",
       "nsfw": "NSFW / Uygunsuz içerik",
@@ -118,7 +118,7 @@
     "unsafeHttpBody": "Açmaya çalıştığın bağlantı güvensiz bir HTTP bağlantısı kullanıyor. Bu, verilerini üçüncü taraflara açabilir.",
     "confirmProceed": "Devam etmek istediğinden emin misin?",
     "blockedInApp": "Güvenliğin için güvensiz bağlantıların uygulamada doğrudan açılmasına izin vermiyoruz. Lütfen bağlantıyı kopyalayıp web tarayıcında aç.",
-    "dontShowAgain": ""
+    "dontShowAgain": "Bu uyarıyı bir daha gösterme"
   },
   "connection": {
     "reconnect": "Yeniden bağlan",
@@ -132,14 +132,16 @@
   },
   "updater": {
     "pleaseWait": "Güncelleniyor… lütfen bekle",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "{{hours}}h {{minutes}}m kaldı",
+    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s kaldı",
+    "etaSeconds": "{{seconds}}s kaldı",
+    "installUpdate": "Güncellemeyi yükle",
+    "installing": "Güncelleme yükleniyor…",
+    "updateReady": "{{version}} güncellemesi hazır",
+    "restartToUpdate": "Güncellemek için yeniden başlatın",
+    "restarting": "Yeniden başlatılıyor…"
   },
   "crash": {
     "title": "Bir şeyler ters gitti",
@@ -165,8 +167,8 @@
     "playVideo": "Videoyu oynat",
     "pauseVideo": "Videoyu duraklat",
     "tapToOpen": "Açmak için dokun",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "Resim eki",
+    "fileAttachment": "Dosya eki",
     "sent": "Gönderildi",
     "createChannelInCategory": "Kategoride kanal oluştur",
     "reorder": "Yeniden sırala",
@@ -179,12 +181,12 @@
     "randomColorHint": "Rastgele bir renk seçer",
     "removeColorStop": "Renk durağını kaldır",
     "rangeSliderHint": "Aralık kaydırıcısı. Sürükleyerek ayarla.",
-    "moreOptions": ""
+    "moreOptions": "Daha fazla seçenek"
   },
   "errors": {
     "unknown": "Bilinmeyen hata",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "İstek başarısız oldu",
+    "requestFailedWithStatus": "İstek başarısız oldu ({{status}})"
   },
   "select": {
     "placeholder": "Bir seçenek seç"
@@ -221,7 +223,7 @@
     "blockquote": "Alıntı",
     "code": "Kod",
     "spoiler": "Spoiler",
-    "color": "Color"
+    "color": "Renk"
   },
   "support": {
     "myTickets": "Biletlerim",
@@ -292,22 +294,23 @@
       }
     },
     "termsOfService": "Hizmet Şartları",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "Zaten açık biletiniz var. Orada yanıt verin veya yeni bir tane açmadan önce kapanmasını bekleyin."
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "Oynanıyor",
+    "listening": "Dinleme",
+    "elapsed": "{{time}} geçti",
+    "showLess": "Daha az göster",
+    "played": "Oynandı",
+    "listened": "Dinlendi",
+    "openInSpotify": "Spotify'da aç"
   },
   "whatsNew": {
-    "title": ""
+    "title": "Ne var ne yok"
   },
-  "logout": "",
+  "logout": "oturumu Kapat",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Minecraft cilt",
+    "skinAltNamed": "{{name}}'in Minecraft görünümü"
   }
 }

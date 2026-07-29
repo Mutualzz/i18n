@@ -7,12 +7,12 @@
     "activity": "Aktivität",
     "appeals": "Einsprüche",
     "support": "Support",
-    "changelogs": ""
+    "changelogs": "Änderungsprotokolle"
   },
   "pages": {
     "activity": "Staff-Aktivität",
     "reportDetails": "Meldungsdetails",
-    "changelogs": ""
+    "changelogs": "Änderungsprotokolle"
   },
   "home": {
     "findUser": "Benutzer finden",
@@ -28,7 +28,7 @@
   },
   "sections": {
     "info": "Info",
-    "flags": "Flags",
+    "flags": "Markierungen",
     "actions": "Aktionen",
     "sessions": "Aktive Sitzungen",
     "notes": "Staff-Notizen",
@@ -75,7 +75,7 @@
         "deleteAccount": "Konto konnte nicht gelöscht werden",
         "restrictUser": "Benutzer konnte nicht eingeschränkt werden"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Gründerkonten sind geschützt. Das Team kann sie nicht verwarnen, einschränken, deaktivieren, löschen oder anderweitig gegen sie vorgehen."
     },
     "modals": {
       "reasonRequired": "Grund (erforderlich)",
@@ -236,7 +236,7 @@
     "loadingTicket": "Ticket wird geladen…",
     "resolve": "Lösen",
     "close": "Schließen",
-    "staff": "Staff",
+    "staff": "Team",
     "replyPlaceholder": "Dem Benutzer antworten",
     "sendReply": "Antwort senden",
     "sending": "Wird gesendet…",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}} hat einen gemeldeten {{type}} entfernt",
       "lockedDownSpace": "{{actor}} hat einen Space gesperrt",
       "shutDownSpace": "{{actor}} hat einen gemeldeten Space geschlossen",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} hat ein Änderungsprotokoll veröffentlicht",
+      "deletedChangelog": "{{actor}} hat ein Änderungsprotokoll gelöscht"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Änderungsprotokolle",
+    "description": "Veröffentliche „Was ist neu“-Popups für Nutzer, die auf eine bestimmte App-Version aktualisieren.",
+    "titleLabel": "Titel",
+    "titlePlaceholder": "Was ist neu in dieser Version",
+    "bodyLabel": "Text (Markdown)",
+    "bodyPlaceholder": "Beschreibe die Änderungen…",
+    "imageUrlLabel": "Bild-URL (optional)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Desktop-Version",
+    "mobileVersion": "Mobile Version",
+    "versionPlaceholder": "z. B. 6.21.0",
+    "publish": "Veröffentlichen",
+    "publishing": "Wird veröffentlicht…",
+    "preview": "Vorschau",
+    "empty": "Noch keine Änderungsprotokolle",
+    "delete": "Löschen",
+    "desktop": "Desktop {{version}}",
+    "mobile": "Mobil {{version}}",
+    "published": "Erfolgreich veröffentlicht",
+    "deleted": "Änderungsprotokoll gelöscht",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "Änderungsprotokoll konnte nicht veröffentlicht werden",
+      "delete": "Änderungsprotokoll konnte nicht gelöscht werden",
+      "versionRequired": "Gib eine Desktop- und/oder Mobilversion an"
     },
-    "developerRequired": ""
+    "developerRequired": "Nur Entwickler können Änderungsprotokolle verwalten"
   }
 }

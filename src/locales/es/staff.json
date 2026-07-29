@@ -7,12 +7,12 @@
     "activity": "Actividad",
     "appeals": "Apelaciones",
     "support": "Soporte",
-    "changelogs": ""
+    "changelogs": "Registros de cambios"
   },
   "pages": {
     "activity": "Actividad del staff",
     "reportDetails": "Detalles del reporte",
-    "changelogs": ""
+    "changelogs": "Registros de cambios"
   },
   "home": {
     "findUser": "Buscar un usuario",
@@ -27,8 +27,8 @@
     "loading": "Cargando..."
   },
   "sections": {
-    "info": "Info",
-    "flags": "Flags",
+    "info": "Información",
+    "flags": "Indicadores",
     "actions": "Acciones",
     "sessions": "Sesiones activas",
     "notes": "Notas del staff",
@@ -75,7 +75,7 @@
         "deleteAccount": "No se pudo eliminar la cuenta",
         "restrictUser": "No se pudo restringir al usuario"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Las cuentas de fundadores están protegidas. El personal no puede advertir, restringir, desactivar, eliminar ni tomar ninguna otra acción contra ellas."
     },
     "modals": {
       "reasonRequired": "Motivo (obligatorio)",
@@ -236,7 +236,7 @@
     "loadingTicket": "Cargando ticket…",
     "resolve": "Resolver",
     "close": "Cerrar",
-    "staff": "Staff",
+    "staff": "Personal",
     "replyPlaceholder": "Responder al usuario",
     "sendReply": "Enviar respuesta",
     "sending": "Enviando…",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}} retiró un {{type}} reportado",
       "lockedDownSpace": "{{actor}} bloqueó un espacio",
       "shutDownSpace": "{{actor}} cerró un espacio reportado",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} publicó un registro de cambios",
+      "deletedChangelog": "{{actor}} eliminó un registro de cambios"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Registros de cambios",
+    "description": "Publica ventanas emergentes de Novedades para usuarios que actualicen a una versión objetivo de la app.",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Novedades de esta versión",
+    "bodyLabel": "Cuerpo (markdown)",
+    "bodyPlaceholder": "Describe los cambios…",
+    "imageUrlLabel": "URL de imagen (opcional)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Versión de escritorio",
+    "mobileVersion": "Versión móvil",
+    "versionPlaceholder": "p. ej. 6.21.0",
+    "publish": "Publicar",
+    "publishing": "Publicando…",
+    "preview": "Vista previa",
+    "empty": "Aún no hay registros de cambios",
+    "delete": "Eliminar",
+    "desktop": "Escritorio {{version}}",
+    "mobile": "Móvil {{version}}",
+    "published": "Publicado correctamente",
+    "deleted": "Registro de cambios eliminado",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "No se pudo publicar el registro de cambios",
+      "delete": "No se pudo eliminar el registro de cambios",
+      "versionRequired": "Proporciona una versión de escritorio y/o móvil"
     },
-    "developerRequired": ""
+    "developerRequired": "Solo los desarrolladores pueden gestionar los registros de cambios"
   }
 }

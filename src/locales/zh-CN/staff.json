@@ -7,12 +7,12 @@
     "activity": "活动",
     "appeals": "申诉",
     "support": "支持",
-    "changelogs": ""
+    "changelogs": "变更日志"
   },
   "pages": {
     "activity": "员工活动",
     "reportDetails": "举报详情",
-    "changelogs": ""
+    "changelogs": "变更日志"
   },
   "home": {
     "findUser": "查找用户",
@@ -75,7 +75,7 @@
         "deleteAccount": "删除账户失败",
         "restrictUser": "限制用户失败"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "创始人帐户受到保护。工作人员不能警告、限制、禁用、删除或以其他方式针对它们采取行动。"
     },
     "modals": {
       "reasonRequired": "原因（必填）",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}} 下架了被举报的{{type}}",
       "lockedDownSpace": "{{actor}} 封锁了空间",
       "shutDownSpace": "{{actor}} 关闭了被举报的空间",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} 发布了变更日志",
+      "deletedChangelog": "{{actor}} 删除了变更日志"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "变更日志",
+    "description": "为更新到目标应用程序版本的用户发布新增功能弹出窗口。",
+    "titleLabel": "标题",
+    "titlePlaceholder": "此版本中有哪些新内容",
+    "bodyLabel": "正文（降价）",
+    "bodyPlaceholder": "描述一下变化……",
+    "imageUrlLabel": "图片网址（可选）",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "桌面版",
+    "mobileVersion": "手机版",
+    "versionPlaceholder": "例如6.21.0",
+    "publish": "发布",
+    "publishing": "出版…",
+    "preview": "预览",
+    "empty": "还没有变更日志",
+    "delete": "删除",
+    "desktop": "桌面{{version}}",
+    "mobile": "手机{{version}}",
+    "published": "发布成功",
+    "deleted": "更新日志已删除",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "未能发布变更日志",
+      "delete": "无法删除变更日志",
+      "versionRequired": "提供桌面和/或移动版本"
     },
-    "developerRequired": ""
+    "developerRequired": "只有开发人员可以管理变更日志"
   }
 }

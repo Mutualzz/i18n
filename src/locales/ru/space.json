@@ -7,17 +7,17 @@
       "general": "Общее",
       "people": "Участники",
       "moderation": "Модерация",
-      "integrations": ""
+      "integrations": "Интеграции"
     },
     "pages": {
       "profile": "Профиль",
-      "theme": "Theme",
+      "theme": "Тема",
       "roles": "Роли",
       "channels": "Каналы",
       "invites": "Приглашения",
       "expressions": "Выражения",
       "bans": "Баны",
-      "minecraftBridge": ""
+      "minecraftBridge": "Мост Minecraft"
     }
   },
   "actions": {
@@ -232,8 +232,8 @@
           "description": "Разрешить прикреплять файлы к сообщениям"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Добавлять реакции",
+          "description": "Разрешить участникам добавлять реакции emoji к сообщениям"
         },
         "MentionEveryone": {
           "label": "Упоминание всех",
@@ -244,8 +244,8 @@
           "description": "Разрешить использовать эмодзи из других пространств или свои в сообщениях"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "Использовать внешние стикеры",
+          "description": "Разрешить участникам использовать стикеры из других пространств в сообщениях"
         },
         "ManageMessages": {
           "label": "Управление сообщениями",
@@ -264,20 +264,20 @@
           "description": "Разрешить говорить в голосовых каналах"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Использовать активацию по голосу",
+          "description": "Разрешить участникам говорить с активацией по голосу. Без этого разрешения нужно использовать режим нажми и говори."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "Отключать микрофон участников",
+          "description": "Разрешить участникам отключать микрофон других на голосовых каналах"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "Оглушать участников",
+          "description": "Разрешить участникам оглушать других на голосовых каналах"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Перемещать участников",
+          "description": "Разрешить участникам перемещать других между голосовыми каналами и отключать их"
         },
         "Administrator": {
           "label": "Администратор",
@@ -452,8 +452,8 @@
           "description": "Разрешить прикреплять файлы"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Добавлять реакции",
+          "description": "Разрешить участникам добавлять реакции emoji к сообщениям"
         },
         "MentionEveryone": {
           "label": "Упоминание всех",
@@ -464,8 +464,8 @@
           "description": "Разрешить использовать эмодзи из других пространств"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "Использовать внешние стикеры",
+          "description": "Разрешить участникам использовать стикеры из других пространств"
         },
         "ManageMessages": {
           "label": "Управление сообщениями",
@@ -484,20 +484,20 @@
           "description": "Разрешить говорить в этом голосовом канале"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Использовать активацию по голосу",
+          "description": "Разрешить участникам говорить с активацией по голосу. Без этого разрешения нужно использовать режим нажми и говори."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "Отключать микрофон участников",
+          "description": "Разрешить участникам отключать микрофон других на этом голосовом канале"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "Оглушать участников",
+          "description": "Разрешить участникам оглушать других на этом голосовом канале"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Перемещать участников",
+          "description": "Разрешить участникам перемещать других между голосовыми каналами и отключать их"
         }
       }
     }
@@ -531,13 +531,13 @@
     "directMessages": "Личные сообщения",
     "friends": "Друзья",
     "spaces": "Пространства",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "Каналы",
+    "bridges": "Мосты",
+    "moreOptions": "Больше параметров",
+    "reorder": "Изменить порядок",
+    "doneReordering": "Готово",
+    "reorderA11y": "Изменить порядок пространств",
+    "doneReorderingA11y": "Изменение порядка пространств завершено"
   },
   "lockdown": {
     "title": "Это пространство заблокировано",
@@ -546,32 +546,36 @@
     "toast": "Пространство заблокировано. Сообщения и изменения отключены."
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "Оформите список каналов и чат для всех в этом пространстве. Ваша личная тема остаётся в других местах.",
+    "clear": "Использовать личную тему",
+    "createCustom": "Создать тему пространства",
+    "spaceThemes": "Это пространство",
+    "noCustomThemes": "Пользовательских тем пока нет. Создайте тему для оформления этого пространства."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "Пригласить",
+      "notifications": "Уведомления",
+      "settings": "Настройки"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} в сети",
+    "onlineCount_other": "{{count}} в сети",
+    "membersCount_one": "{{count}} участник",
+    "membersCount_other": "{{count}} участников",
+    "spaceEmojis": "Emoji пространства",
+    "notificationSettingsTitle": "Настройки уведомлений",
+    "serverSettingsTitle": "Настройки пространства",
+    "unmuteSpace": "Включить звук {{spaceName}}",
+    "muteSpace": "Отключить звук {{spaceName}}",
+    "mutedStatus": "Вы отключили звук этого пространства",
+    "muteHelper": "Отключение звука пространства скрывает значки непрочитанного и звуки уведомлений, если вас не упомянули.",
+    "serverNotificationSettings": "Настройки уведомлений сервера",
+    "suppressSettings": "Подавить",
+    "settingsSection": "Настройки",
+    "userManagementSection": "Управление пользователями",
+    "onlineCount_few": "{{count}} в сети",
+    "onlineCount_many": "{{count}} в сети",
+    "membersCount_few": "{{count}} участника",
+    "membersCount_many": "{{count}} участников"
   }
 }

@@ -7,12 +7,12 @@
     "activity": "活動",
     "appeals": "申訴",
     "support": "支援",
-    "changelogs": ""
+    "changelogs": "變更日誌"
   },
   "pages": {
     "activity": "員工活動",
     "reportDetails": "檢舉詳情",
-    "changelogs": ""
+    "changelogs": "變更日誌"
   },
   "home": {
     "findUser": "尋找使用者",
@@ -75,7 +75,7 @@
         "deleteAccount": "刪除帳戶失敗",
         "restrictUser": "限制使用者失敗"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "創辦人帳戶受到保護。工作人員不能警告、限制、停用、刪除或以其他方式針對它們採取行動。"
     },
     "modals": {
       "reasonRequired": "原因（必填）",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}} 下架了被檢舉的{{type}}",
       "lockedDownSpace": "{{actor}} 封鎖了空間",
       "shutDownSpace": "{{actor}} 關閉了被檢舉的空間",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} 發布了變更日誌",
+      "deletedChangelog": "{{actor}} 刪除了變更日誌"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "變更日誌",
+    "description": "為更新至目標應用程式版本的使用者發布新增功能彈出視窗。",
+    "titleLabel": "標題",
+    "titlePlaceholder": "此版本中有哪些新內容",
+    "bodyLabel": "正文（降價）",
+    "bodyPlaceholder": "描述一下變化…",
+    "imageUrlLabel": "圖片網址（可選）",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "桌面版",
+    "mobileVersion": "手機版",
+    "versionPlaceholder": "例如6.21.0",
+    "publish": "發布",
+    "publishing": "出版…",
+    "preview": "預覽",
+    "empty": "還沒有變更日誌",
+    "delete": "刪除",
+    "desktop": "桌面{{version}}",
+    "mobile": "手機{{version}}",
+    "published": "發布成功",
+    "deleted": "更新日誌已刪除",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "未能發布變更日誌",
+      "delete": "無法刪除變更日誌",
+      "versionRequired": "提供桌面和/或行動版本"
     },
-    "developerRequired": ""
+    "developerRequired": "只有開發人員可以管理變更日誌"
   }
 }

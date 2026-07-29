@@ -63,7 +63,8 @@
     "played": "Played",
     "listened": "Listened",
     "elapsed": "{{time}} elapsed",
-    "showLess": "Show less"
+    "showLess": "Show less",
+    "openInSpotify": "Open in Spotify"
   },
   "status": {
     "clearCustomAfter": "Clear custom status after",

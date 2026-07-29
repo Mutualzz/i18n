@@ -7,17 +7,17 @@
       "general": "Général",
       "people": "Personnes",
       "moderation": "Modération",
-      "integrations": ""
+      "integrations": "Intégrations"
     },
     "pages": {
       "profile": "Profil",
-      "theme": "Theme",
+      "theme": "Thème",
       "roles": "Rôles",
       "channels": "Canaux",
       "invites": "Invitations",
       "expressions": "Expressions",
       "bans": "Bannissements",
-      "minecraftBridge": ""
+      "minecraftBridge": "Pont Minecraft"
     }
   },
   "actions": {
@@ -223,8 +223,8 @@
           "description": "Autoriser les membres à joindre des fichiers aux messages"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Ajouter des réactions",
+          "description": "Autoriser les membres à ajouter des réactions emoji aux messages"
         },
         "MentionEveryone": {
           "label": "Mentionner tout le monde",
@@ -235,8 +235,8 @@
           "description": "Autoriser les membres à utiliser des émojis d'autres espaces ou les leurs dans leurs messages"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "Utiliser des stickers externes",
+          "description": "Autoriser les membres à utiliser des stickers d'autres espaces dans leurs messages"
         },
         "ManageMessages": {
           "label": "Gérer les messages",
@@ -255,20 +255,20 @@
           "description": "Autoriser les membres à parler dans les canaux vocaux"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Utiliser l'activité vocale",
+          "description": "Autoriser les membres à parler avec la détection d'activité vocale. Sans cette permission, les membres doivent utiliser appuyer pour parler."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "Couper le micro des membres",
+          "description": "Autoriser les membres à couper le micro d'autres membres dans les canaux vocaux"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "Mettre les membres en sourdine",
+          "description": "Autoriser les membres à mettre en sourdine d'autres membres dans les canaux vocaux"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Déplacer les membres",
+          "description": "Autoriser les membres à déplacer d'autres membres entre les canaux vocaux et à les déconnecter"
         },
         "Administrator": {
           "label": "Administrateur",
@@ -376,8 +376,8 @@
           "description": "Autoriser les membres à joindre des fichiers"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Ajouter des réactions",
+          "description": "Autoriser les membres à ajouter des réactions emoji aux messages"
         },
         "MentionEveryone": {
           "label": "Mentionner tout le monde",
@@ -388,8 +388,8 @@
           "description": "Autoriser les membres à utiliser des émojis d'autres espaces"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "Utiliser des stickers externes",
+          "description": "Autoriser les membres à utiliser des stickers d'autres espaces"
         },
         "ManageMessages": {
           "label": "Gérer les messages",
@@ -408,20 +408,20 @@
           "description": "Autoriser les membres à parler dans ce canal vocal"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Utiliser l'activité vocale",
+          "description": "Autoriser les membres à parler avec la détection d'activité vocale. Sans cette permission, les membres doivent utiliser appuyer pour parler."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "Couper le micro des membres",
+          "description": "Autoriser les membres à couper le micro d'autres membres dans ce canal vocal"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "Mettre les membres en sourdine",
+          "description": "Autoriser les membres à mettre en sourdine d'autres membres dans ce canal vocal"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Déplacer les membres",
+          "description": "Autoriser les membres à déplacer d'autres membres entre les canaux vocaux et à les déconnecter"
         }
       },
       "addOverwrite": "Ajouter une surcharge de permissions",
@@ -514,13 +514,13 @@
     "friends": "Amis",
     "spaces": "Espaces",
     "switchToFeed": "Passer au Feed",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "Canaux",
+    "bridges": "Ponts",
+    "moreOptions": "Plus d'options",
+    "reorder": "Réorganiser",
+    "doneReordering": "Fait",
+    "reorderA11y": "Réorganiser les espaces",
+    "doneReorderingA11y": "Réorganisation des espaces terminée"
   },
   "lockdown": {
     "title": "Cet espace est en verrouillage",
@@ -536,32 +536,32 @@
     "spaceMenuA11y": "Menu de l'espace"
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "Personnalisez la liste des canaux et le chat pour tous dans cet espace. Votre thème personnel reste ailleurs.",
+    "clear": "Utiliser le thème personnel",
+    "createCustom": "Créer un thème d'espace",
+    "spaceThemes": "Cet espace",
+    "noCustomThemes": "Aucun thème personnalisé pour l'instant. Créez-en un pour personnaliser cet espace."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "Inviter",
+      "notifications": "Notifications",
+      "settings": "Paramètres"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} en ligne",
+    "onlineCount_other": "{{count}} en ligne",
+    "membersCount_one": "{{count}} membre",
+    "membersCount_other": "{{count}} membres",
+    "spaceEmojis": "Emoji de l'espace",
+    "notificationSettingsTitle": "Paramètres de notification",
+    "serverSettingsTitle": "Paramètres de l'espace",
+    "unmuteSpace": "Réactiver le son de {{spaceName}}",
+    "muteSpace": "Mettre {{spaceName}} en sourdine",
+    "mutedStatus": "Vous avez mis cet espace en sourdine",
+    "muteHelper": "Mettre un espace en sourdine empêche les badges non lus et les sons de notification, sauf si vous êtes mentionné.",
+    "serverNotificationSettings": "Paramètres de notification du serveur",
+    "suppressSettings": "Supprimer",
+    "settingsSection": "Paramètres",
+    "userManagementSection": "Gestion des utilisateurs"
   }
 }

@@ -46,15 +46,15 @@
     "openEmojiPicker": "Відкрити вибір емодзі",
     "openGifPicker": "Відкрити вибір GIF",
     "openStickerPicker": "Відкрити вибір стікерів",
-    "mentionOn": "@ ON",
-    "mentionOff": "@ OFF",
+    "mentionOn": "@ УВІМК.",
+    "mentionOff": "@ ВИМК.",
     "editHint": "escape щоб скасувати • enter щоб зберегти",
     "editHintCancel": "скасувати",
     "editHintSave": "зберегти",
     "editHintEscapeTo": "escape щоб",
     "editHintEnterTo": "enter щоб",
     "dropFiles": "Перетягніть файли для вкладення",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "Позначити як спойлер"
   },
   "reply": {
     "banner": "Відповідь {{name}}",
@@ -79,7 +79,9 @@
     "deleteMessage": "Видалити повідомлення",
     "reportMessage": "Поскаржитися на повідомлення",
     "addReaction": "Додати реакцію",
-    "reactWith": "Відреагувати {{emoji}}"
+    "reactWith": "Відреагувати {{emoji}}",
+    "pinMessage": "Закріпити повідомлення",
+    "unpinMessage": "Відкріпити повідомлення"
   },
   "report": {
     "thisMessage": "це повідомлення"
@@ -90,7 +92,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "Це бачите лише ви •",
-    "dismissMessage": "Закрити повідомлення"
+    "dismissMessage": "Закрити повідомлення",
+    "pinnedMessage": "{{name}} закріпив(ла) повідомлення в цьому каналі."
   },
   "empty": {
     "channel": {
@@ -174,24 +177,26 @@
     },
     "voice": {
       "closeChatA11y": "Закрити чат"
-    }
+    },
+    "pins": "Закріплені повідомлення",
+    "search": "Пошук повідомлень"
   },
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "Почати дзвінок",
+    "startHint": "Почати дзвінок — Shift+клік, щоб приєднатися без дзвінка",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "Дзвонимо…",
+    "inCall": "У дзвінку",
+    "active": "Дзвінок активний",
+    "accept": "Прийняти",
+    "decline": "Відхилити",
+    "join": "Приєднатися до дзвінка",
+    "soloTimeout": "Ви не можете так довго залишатися на цьому каналі — пропускна здатність не росте на деревах.",
+    "missed": "Пропущений дзвінок",
+    "ended": "Дзвінок завершено",
+    "missedFrom": "Ви пропустили дзвінок від {{name}}",
+    "endedLasted": "Дзвінок завершено — тривав {{duration}}",
+    "button": "Дзвінок"
   },
   "mentions": {
     "members": "Учасники",
@@ -238,7 +243,7 @@
       "differentDevice": "Підключено з іншого пристрою",
       "movedChannel": "Переміщено до іншого голосового каналу",
       "enumerateDevices": "Не вдалося отримати список пристроїв",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "Не вдалося приєднатися до демонстрації екрана"
     },
     "controls": {
       "mute": "Вимкнути мікрофон",
@@ -267,17 +272,17 @@
       "muteUserLocally": "Вимкнути мікрофон цього користувача локально",
       "unmuteUserLocally": "Увімкнути мікрофон цього користувача локально",
       "muteStream": "Вимкнути трансляцію",
-      "live": "LIVE",
+      "live": "НАЖИВО",
       "video": "Відео",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "Підключено через Minecraft",
+      "audioInMinecraft": "Ви підключені через Minecraft — мікрофон і динаміки в грі",
+      "noiseSuppression": "Придушення шуму",
+      "noiseSuppressionDescription": "Приглушуйте фоновий шум під час розмови. Видайте якийсь звук — наприклад, плескайте в долоні — під час мовлення. Друзі мають переважно чути ваш голос.",
+      "noiseSuppressionA11y": "Придушення шуму",
+      "noiseSuppressionOn": "Придушення шуму увімкнено",
+      "noiseSuppressionOff": "Придушення шуму вимкнено",
+      "noiseSuppressionApplying": "Застосування…",
+      "unmuteUser": "Увімкнути звук користувача"
     },
     "participant": {
       "you": "(Ви)",
@@ -320,12 +325,12 @@
       "shareAudio": "Демонструвати звук",
       "shareAudioDescription": "Передавати звук зі спільного екрана або вікна",
       "devBuildHint": "Dev-збірка: надайте запис екрана для {{appName}} (часто Electron) у Системних налаштуваннях macOS.",
-      "goLive": "Go Live",
+      "goLive": "В ефір",
       "quality": {
-        "720p15": "720p 15fps",
-        "720p30": "720p 30fps",
-        "1080p30": "1080p 30fps",
-        "1080p60": "1080p 60fps",
+        "720p15": "720p 15 к/с",
+        "720p30": "720p 30 к/с",
+        "1080p30": "1080p 30 к/с",
+        "1080p60": "1080p 60 к/с",
         "source": "Джерело"
       },
       "entireScreen_few": "Весь екран ({{count}})",
@@ -335,8 +340,8 @@
     },
     "peopleInVoice_few": "{{count}} осіб у голосі.",
     "peopleInVoice_many": "{{count}} осіб у голосі.",
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "У голосовому каналі {{time}}",
+    "channelOccupied": "Канал зайнятий {{time}}"
   },
   "feed": {
     "title": "Стрічка",
@@ -396,14 +401,16 @@
       "replyFallback": "коментар",
       "reply": "Відповісти",
       "sendReply": "Надіслати відповідь",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "Завантаження…",
+      "sortNewest": "Найновіші",
+      "sortOldest": "Найстаріші",
+      "viewReplies_one": "Переглянути {{count}} відповідь",
+      "viewReplies_other": "Переглянути {{count}} відповідей",
+      "hideReplies": "Приховати відповіді",
+      "loadMore": "Завантажити більше коментарів",
+      "close": "Закрити коментарі",
+      "viewReplies_few": "Переглянути {{count}} відповіді",
+      "viewReplies_many": "Переглянути {{count}} відповідей"
     },
     "actions": {
       "deletePost": "Видалити допис",
@@ -478,28 +485,28 @@
     "moveDown": "Перемістити вниз",
     "channelSettings": "Налаштування каналу",
     "addFriend": "Додати в друзі",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "Вимкнути сповіщення",
+    "unmuteNotifications": "Увімкнути сповіщення",
+    "notificationSettings": "Налаштування сповіщень",
+    "notificationFrequency": "Частота",
+    "notificationGeneral": "Загальні",
+    "notificationLevel": "Рівень сповіщень",
+    "notificationAll": "Усі повідомлення",
+    "notificationMentions": "Лише @mentions",
+    "notificationNothing": "Нічого",
+    "useSpaceDefault": "Використовувати типове налаштування простору",
+    "muteSpace": "Вимкнути звук простору",
+    "unmuteSpace": "Увімкнути звук простору",
+    "muteChannel": "Вимкнути звук каналу",
+    "unmuteChannel": "Увімкнути звук каналу",
+    "muteSpaceForDuration": "Вимкнути звук на певний час…",
+    "muteDuration1h": "На 1 годину",
+    "muteDuration8h": "На 8 годин",
+    "muteDuration24h": "На 24 години",
+    "muteDuration1w": "На 1 тиждень",
+    "muteUntilTurnBackOn": "Доки я не увімкну знову",
+    "suppressEveryone": "Придушити @everyone",
+    "suppressRoles": "Придушити згадки @role"
   },
   "a11y": {
     "embedImage": "Вбудоване зображення",
@@ -618,7 +625,67 @@
     "sentCount_many": "Надіслані - {{count}}"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "Сьогодні",
+    "yesterday": "Вчора"
+  },
+  "pins": {
+    "empty": "На цьому каналі немає закріплених повідомлень.",
+    "pinnedBy": "Закріпив(ла) {{name}}",
+    "jump": "Перейти",
+    "previous": "Попереднє закріплене повідомлення",
+    "next": "Наступне закріплене повідомлення",
+    "count_one": "{{count}} закріплене повідомлення в цьому каналі.",
+    "count_other": "{{count}} закріплених повідомлень у цьому каналі.",
+    "index": "{{current}} з {{total}}"
+  },
+  "search": {
+    "placeholder": "Шукати {{space}}",
+    "placeholderShort": "Шукати {{space}}",
+    "hint": "Введіть щонайменше 2 символи для пошуку в цьому просторі.",
+    "empty": "Повідомлень не знайдено.",
+    "searching": "Пошук…",
+    "submit": "Шукати",
+    "close": "Закрити пошук",
+    "noText": "Вкладення або embed",
+    "results_one": "{{count}} результат",
+    "results_other": "{{count}} результатів",
+    "resultsTitle_one": "{{count}} результат",
+    "resultsTitle_other": "{{count}} результатів",
+    "filters": "Фільтри",
+    "sort": "Сортування",
+    "textChannels": "Текстові канали",
+    "hintConversation": "Введіть щонайменше 2 символи для пошуку в цій розмові.",
+    "sortNewest": "Спочатку новіші",
+    "sortOldest": "Спочатку старіші",
+    "filterFrom": "Від",
+    "filterIn": "У",
+    "filterMentions": "Згадки",
+    "filterMentionsMe": "Згадує мене",
+    "filterMe": "Я",
+    "filterHas": "Має",
+    "filterPinned": "Лише закріплені",
+    "filterOptions": "Більше",
+    "filterDates": "Дата",
+    "filterBefore": "До (РРРР-ММ-ДД)",
+    "filterAfter": "Після (РРРР-ММ-ДД)",
+    "removeFilter": "Прибрати фільтр",
+    "activeFromMe": "Від мене",
+    "activeFromUser": "Від @{{user}}",
+    "activeInChannel": "У #{{channel}}",
+    "activeMentionsUser": "Згадує @{{user}}",
+    "activeBefore": "До {{date}}",
+    "activeAfter": "Після {{date}}",
+    "hintFilters": "Введіть ключові слова або використовуйте фільтри, наприклад from:me has:link",
+    "hintConversationFilters": "Введіть ключові слова або використовуйте фільтри, наприклад from:me has:link",
+    "has": {
+      "link": "Посилання",
+      "embed": "Вбудування",
+      "file": "Файл",
+      "image": "Зображення",
+      "video": "Відео",
+      "sticker": "Стікер"
+    },
+    "resultsTitle_few": "{{count}} результати",
+    "resultsTitle_many": "{{count}} результатів"
   }
 }

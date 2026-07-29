@@ -7,17 +7,17 @@
       "general": "一般",
       "people": "成員",
       "moderation": "審核",
-      "integrations": ""
+      "integrations": "整合"
     },
     "pages": {
       "profile": "個人檔案",
-      "theme": "Theme",
+      "theme": "主題",
       "roles": "角色",
       "channels": "頻道",
       "invites": "邀請",
       "expressions": "表情與貼圖",
       "bans": "封鎖",
-      "minecraftBridge": ""
+      "minecraftBridge": "Minecraft 橋"
     }
   },
   "actions": {
@@ -64,7 +64,7 @@
       "expires": "過期時間"
     },
     "usesLabel": "使用次數：{{uses}}{{max}}",
-    "usesMax": " / {{max}}",
+    "usesMax": "/{{max}}",
     "neverExpires": "永不過期",
     "expired": "已過期",
     "copyInviteUrl": "複製邀請 URL",
@@ -107,7 +107,7 @@
   "roles": {
     "defaultPermissions": "預設權限",
     "everyoneSubtitle": "@everyone — 適用於所有空間成員",
-    "everyoneSuffix": " (@everyone)",
+    "everyoneSuffix": "（@每個人）",
     "searchPlaceholder": "搜尋角色",
     "listTitle_one": "角色 — {{count}}",
     "listTitle_other": "角色 — {{count}}",
@@ -226,8 +226,8 @@
           "description": "允許成員在訊息中附加檔案"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "添加反應",
+          "description": "允許會員為訊息添加表情符號反應"
         },
         "MentionEveryone": {
           "label": "提及所有人",
@@ -238,8 +238,8 @@
           "description": "允許成員在訊息中使用其他空間或自己的表情"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "使用外部貼紙",
+          "description": "允許成員在其訊息中使用其他空間的貼紙"
         },
         "ManageMessages": {
           "label": "管理訊息",
@@ -258,20 +258,20 @@
           "description": "允許成員在語音頻道發言"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "使用語音活動",
+          "description": "允許成員使用語音活動偵測來講話。如果沒有此許可，會員必須使用按鍵通話。"
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "會員靜音",
+          "description": "允許成員將語音頻道中的其他成員靜音"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "聾人會員",
+          "description": "允許成員在語音頻道中震耳欲聾的其他成員"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "移動成員",
+          "description": "允許成員在語音通道之間移動其他成員並斷開他們的連接"
         },
         "Administrator": {
           "label": "管理員",
@@ -442,8 +442,8 @@
           "description": "允許成員附加檔案"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "添加反應",
+          "description": "允許會員為訊息添加表情符號反應"
         },
         "MentionEveryone": {
           "label": "提及所有人",
@@ -454,8 +454,8 @@
           "description": "允許成員使用其他空間的表情"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "使用外部貼紙",
+          "description": "允許會員使用其他空間的貼紙"
         },
         "ManageMessages": {
           "label": "管理訊息",
@@ -474,20 +474,20 @@
           "description": "允許成員在此語音頻道發言"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "使用語音活動",
+          "description": "允許成員使用語音活動偵測來講話。如果沒有此許可，會員必須使用按鍵通話。"
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "會員靜音",
+          "description": "允許成員將該語音頻道中的其他成員靜音"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "聾人會員",
+          "description": "允許成員在此語音頻道中震耳欲聾的其他成員"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "移動成員",
+          "description": "允許成員在語音通道之間移動其他成員並斷開他們的連接"
         }
       }
     }
@@ -521,13 +521,13 @@
     "directMessages": "私人訊息",
     "friends": "好友",
     "spaces": "空間",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "頻道",
+    "bridges": "橋樑",
+    "moreOptions": "更多選擇",
+    "reorder": "重新排序",
+    "doneReordering": "完畢",
+    "reorderA11y": "重新排列空間",
+    "doneReorderingA11y": "完成空間重新排序"
   },
   "lockdown": {
     "title": "此空間處於封鎖狀態",
@@ -536,32 +536,32 @@
     "toast": "此空間處於封鎖狀態。訊息和變更已停用。"
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "為這個空間中的每個人設定頻道清單和聊天。你的個人主題留在別處。",
+    "clear": "使用個人主題",
+    "createCustom": "打造空間主題",
+    "spaceThemes": "這個空間",
+    "noCustomThemes": "還沒有自訂主題。創建一個來為這個空間打造品牌。"
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "邀請",
+      "notifications": "通知",
+      "settings": "設定"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} 在線",
+    "onlineCount_other": "{{count}} 在線",
+    "membersCount_one": "{{count}} 會員",
+    "membersCount_other": "{{count}} 成員",
+    "spaceEmojis": "太空表情符號",
+    "notificationSettingsTitle": "通知設定",
+    "serverSettingsTitle": "空間設定",
+    "unmuteSpace": "取消靜音 {{spaceName}}",
+    "muteSpace": "靜音 {{spaceName}}",
+    "mutedStatus": "您已將此空間靜音",
+    "muteHelper": "除非提及您，否則將空間靜音可以防止未讀取徽章和通知聲音。",
+    "serverNotificationSettings": "伺服器通知設定",
+    "suppressSettings": "壓制",
+    "settingsSection": "設定",
+    "userManagementSection": "使用者管理"
   }
 }

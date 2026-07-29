@@ -309,6 +309,7 @@ export const settingsPageTitleKeys = {
   desktop: "pages.desktop",
   keybinds: "pages.keybinds",
   "minecraft-bridge": "pages.minecraftBridge",
+  "discord-import": "pages.discordImport",
   support: "helpAndSupport",
 } as const;
 

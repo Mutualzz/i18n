@@ -7,12 +7,12 @@
     "activity": "Aktywność",
     "appeals": "Odwołania",
     "support": "Wsparcie",
-    "changelogs": ""
+    "changelogs": "Dziennik zmian"
   },
   "pages": {
     "activity": "Aktywność personelu",
     "reportDetails": "Szczegóły raportu",
-    "changelogs": ""
+    "changelogs": "Dziennik zmian"
   },
   "home": {
     "findUser": "Znajdź użytkownika",
@@ -27,7 +27,7 @@
     "loading": "Ładowanie..."
   },
   "sections": {
-    "info": "Info",
+    "info": "Informacje",
     "flags": "Flagi",
     "actions": "Akcje",
     "sessions": "Aktywne sesje",
@@ -75,7 +75,7 @@
         "deleteAccount": "Nie udało się usunąć konta",
         "restrictUser": "Nie udało się ograniczyć użytkownika"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Konta założycieli są chronione. Personel nie może ich ostrzegać, ograniczać, wyłączać, usuwać ani podejmować innych działań wobec nich."
     },
     "modals": {
       "reasonRequired": "Powód (wymagany)",
@@ -286,36 +286,36 @@
       "tookDownContent": "{{actor}} zdjął zgłoszony {{type}}",
       "lockedDownSpace": "{{actor}} zablokował spację",
       "shutDownSpace": "{{actor}} zamknął zgłoszoną przestrzeń",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} opublikował wpis w dzienniku zmian",
+      "deletedChangelog": "{{actor}} usunął wpis w dzienniku zmian"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Dziennik zmian",
+    "description": "Publikuj wyskakujące okna What's New dla użytkowników aktualizujących do docelowej wersji aplikacji.",
+    "titleLabel": "Tytuł",
+    "titlePlaceholder": "Co nowego w tej wersji",
+    "bodyLabel": "Treść (markdown)",
+    "bodyPlaceholder": "Opisz zmiany…",
+    "imageUrlLabel": "URL obrazu (opcjonalnie)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Wersja na pulpit",
+    "mobileVersion": "Wersja mobilna",
+    "versionPlaceholder": "np. 6.21.0",
+    "publish": "Opublikuj",
+    "publishing": "Publikowanie…",
+    "preview": "Podgląd",
+    "empty": "Brak wpisów w dzienniku zmian",
+    "delete": "Usuń",
+    "desktop": "Pulpit {{version}}",
+    "mobile": "Mobilny {{version}}",
+    "published": "Opublikowano pomyślnie",
+    "deleted": "Wpis w dzienniku zmian usunięty",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "Nie udało się opublikować wpisu w dzienniku zmian",
+      "delete": "Nie udało się usunąć wpisu w dzienniku zmian",
+      "versionRequired": "Podaj wersję desktopową i/lub mobilną"
     },
-    "developerRequired": ""
+    "developerRequired": "Tylko deweloperzy mogą zarządzać changelogami"
   }
 }

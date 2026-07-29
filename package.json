@@ -1,6 +1,8 @@
 {
     "devDependencies": {
+        "@mutualzz/eslint-config": "workspace:*",
         "bunchee": "^6.10.0",
+        "eslint": "^10.8.0",
         "i18next-cli": "^1.65.0"
     },
     "exports": {
@@ -29,8 +31,8 @@
         "i18n:sync": "i18next-cli sync",
         "i18n:types": "i18next-cli types",
         "refresh": "pnpm extract && pnpm i18n:sync && pnpm i18n:types && pnpm build",
-        "typecheck": "tsc --noEmit"
+        "typecheck": "tsc --noEmit",
+        "lint": "eslint src"
     },
-
     "types": "./dist/index.d.ts"
 }

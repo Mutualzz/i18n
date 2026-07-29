@@ -54,7 +54,7 @@
     "editHintEscapeTo": "escape для",
     "editHintEnterTo": "enter для",
     "dropFiles": "Перетащите файлы для вложения",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "Пометить как спойлер"
   },
   "reply": {
     "banner": "Ответ {{name}}",
@@ -79,7 +79,9 @@
     "deleteMessage": "Удалить сообщение",
     "reportMessage": "Пожаловаться на сообщение",
     "addReaction": "Добавить реакцию",
-    "reactWith": "Реакция {{emoji}}"
+    "reactWith": "Реакция {{emoji}}",
+    "pinMessage": "Закрепить сообщение",
+    "unpinMessage": "Открепить сообщение"
   },
   "report": {
     "thisMessage": "это сообщение"
@@ -90,7 +92,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "Видно только вам •",
-    "dismissMessage": "Скрыть сообщение"
+    "dismissMessage": "Скрыть сообщение",
+    "pinnedMessage": "{{name}} закрепил(а) сообщение в этом канале."
   },
   "empty": {
     "channel": {
@@ -174,24 +177,26 @@
     },
     "voice": {
       "closeChatA11y": "Закрыть чат"
-    }
+    },
+    "pins": "Закреплённые сообщения",
+    "search": "Поиск сообщений"
   },
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "Начать звонок",
+    "startHint": "Начать звонок — Shift+клик, чтобы присоединиться без звонка",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "Звоним…",
+    "inCall": "В звонке",
+    "active": "Звонок активен",
+    "accept": "Принять",
+    "decline": "Отклонить",
+    "join": "Присоединиться к звонку",
+    "soloTimeout": "Вы не можете так долго оставаться на этом канале — пропускная способность не растёт на деревьях.",
+    "missed": "Пропущенный звонок",
+    "ended": "Звонок завершён",
+    "missedFrom": "Вы пропустили звонок от {{name}}",
+    "endedLasted": "Звонок завершён — длился {{duration}}",
+    "button": "Звонок"
   },
   "mentions": {
     "members": "Участники",
@@ -238,7 +243,7 @@
       "differentDevice": "Подключено с другого устройства",
       "movedChannel": "Перемещён(а) в другой голосовой канал",
       "enumerateDevices": "Не удалось получить список устройств",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "Не удалось присоединиться к демонстрации экрана"
     },
     "controls": {
       "mute": "Выключить микрофон",
@@ -269,15 +274,15 @@
       "muteStream": "Заглушить трансляцию",
       "live": "В ЭФИРЕ",
       "video": "Видео",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "Подключено через Minecraft",
+      "audioInMinecraft": "Вы подключены через Minecraft — микрофон и динамики в игре",
+      "noiseSuppression": "Подавление шума",
+      "noiseSuppressionDescription": "Подавляйте фоновый шум во время разговора. Издавайте звук — например, хлопайте в ладоши — во время речи. Друзья должны в основном слышать ваш голос.",
+      "noiseSuppressionA11y": "Подавление шума",
+      "noiseSuppressionOn": "Подавление шума включено",
+      "noiseSuppressionOff": "Подавление шума выключено",
+      "noiseSuppressionApplying": "Применение…",
+      "unmuteUser": "Включить звук пользователя"
     },
     "participant": {
       "you": "(Вы)",
@@ -335,8 +340,8 @@
     },
     "peopleInVoice_few": "{{count}} человек в голосовом канале.",
     "peopleInVoice_many": "{{count}} человек в голосовом канале.",
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "В голосовом канале {{time}}",
+    "channelOccupied": "Канал занят {{time}}"
   },
   "feed": {
     "title": "Лента",
@@ -396,14 +401,16 @@
       "replyFallback": "комментарий",
       "reply": "Ответить",
       "sendReply": "Отправить ответ",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "Загрузка…",
+      "sortNewest": "Сначала новые",
+      "sortOldest": "Сначала старые",
+      "viewReplies_one": "Просмотреть {{count}} ответ",
+      "viewReplies_other": "Просмотреть {{count}} ответов",
+      "hideReplies": "Скрыть ответы",
+      "loadMore": "Загрузить ещё комментарии",
+      "close": "Закрыть комментарии",
+      "viewReplies_few": "Просмотреть {{count}} ответа",
+      "viewReplies_many": "Просмотреть {{count}} ответов"
     },
     "actions": {
       "deletePost": "Удалить пост",
@@ -478,28 +485,28 @@
     "moveDown": "Ниже",
     "channelSettings": "Настройки канала",
     "addFriend": "Добавить в друзья",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "Отключить уведомления",
+    "unmuteNotifications": "Включить уведомления",
+    "notificationSettings": "Настройки уведомлений",
+    "notificationFrequency": "Частота",
+    "notificationGeneral": "Общие",
+    "notificationLevel": "Уровень уведомлений",
+    "notificationAll": "Все сообщения",
+    "notificationMentions": "Только @mentions",
+    "notificationNothing": "Ничего",
+    "useSpaceDefault": "Использовать настройку пространства по умолчанию",
+    "muteSpace": "Отключить звук пространства",
+    "unmuteSpace": "Включить звук пространства",
+    "muteChannel": "Отключить звук канала",
+    "unmuteChannel": "Включить звук канала",
+    "muteSpaceForDuration": "Отключить звук на время…",
+    "muteDuration1h": "На 1 час",
+    "muteDuration8h": "На 8 часов",
+    "muteDuration24h": "На 24 часа",
+    "muteDuration1w": "На 1 неделю",
+    "muteUntilTurnBackOn": "Пока я не включу снова",
+    "suppressEveryone": "Подавить @everyone",
+    "suppressRoles": "Подавить упоминания @role"
   },
   "a11y": {
     "embedImage": "Встроенное изображение",
@@ -618,7 +625,67 @@
     "sentCount_many": "Отправлено — {{count}}"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "Сегодня",
+    "yesterday": "Вчера"
+  },
+  "pins": {
+    "empty": "На этом канале нет закреплённых сообщений.",
+    "pinnedBy": "Закрепил(а) {{name}}",
+    "jump": "Перейти",
+    "previous": "Предыдущее закреплённое сообщение",
+    "next": "Следующее закреплённое сообщение",
+    "count_one": "{{count}} закреплённое сообщение в этом канале.",
+    "count_other": "{{count}} закреплённых сообщений в этом канале.",
+    "index": "{{current}} из {{total}}"
+  },
+  "search": {
+    "placeholder": "Искать {{space}}",
+    "placeholderShort": "Искать {{space}}",
+    "hint": "Введите минимум 2 символа для поиска в этом пространстве.",
+    "empty": "Сообщения не найдены.",
+    "searching": "Поиск…",
+    "submit": "Искать",
+    "close": "Закрыть поиск",
+    "noText": "Вложение или embed",
+    "results_one": "{{count}} результат",
+    "results_other": "{{count}} результатов",
+    "resultsTitle_one": "{{count}} результат",
+    "resultsTitle_other": "{{count}} результатов",
+    "filters": "Фильтры",
+    "sort": "Сортировка",
+    "textChannels": "Текстовые каналы",
+    "hintConversation": "Введите не менее 2 символов для поиска в этом диалоге.",
+    "sortNewest": "Сначала новые",
+    "sortOldest": "Сначала старые",
+    "filterFrom": "От",
+    "filterIn": "В",
+    "filterMentions": "Упоминания",
+    "filterMentionsMe": "Упоминает меня",
+    "filterMe": "Я",
+    "filterHas": "Содержит",
+    "filterPinned": "Только закреплённые",
+    "filterOptions": "Ещё",
+    "filterDates": "Дата",
+    "filterBefore": "До (ГГГГ-ММ-ДД)",
+    "filterAfter": "После (ГГГГ-ММ-ДД)",
+    "removeFilter": "Убрать фильтр",
+    "activeFromMe": "От меня",
+    "activeFromUser": "От @{{user}}",
+    "activeInChannel": "В #{{channel}}",
+    "activeMentionsUser": "Упоминает @{{user}}",
+    "activeBefore": "До {{date}}",
+    "activeAfter": "После {{date}}",
+    "hintFilters": "Введите ключевые слова или используйте фильтры, например from:me has:link",
+    "hintConversationFilters": "Введите ключевые слова или используйте фильтры, например from:me has:link",
+    "has": {
+      "link": "Ссылка",
+      "embed": "Встраивание",
+      "file": "Файл",
+      "image": "Изображение",
+      "video": "Видео",
+      "sticker": "Стикер"
+    },
+    "resultsTitle_few": "{{count}} результата",
+    "resultsTitle_many": "{{count}} результатов"
   }
 }

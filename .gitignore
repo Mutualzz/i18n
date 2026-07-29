@@ -1,3 +1,6 @@
 dist/
 .tmp/
 .turbo
+node_modules
+scripts/.translation-cache.json
+scripts/fill-translations.log

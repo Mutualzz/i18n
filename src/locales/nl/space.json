@@ -7,17 +7,17 @@
       "general": "Algemeen",
       "people": "Mensen",
       "moderation": "Moderatie",
-      "integrations": ""
+      "integrations": "Integraties"
     },
     "pages": {
       "profile": "Profiel",
-      "theme": "Theme",
+      "theme": "Thema",
       "roles": "Rollen",
       "channels": "Kanalen",
       "invites": "Uitnodigingen",
       "expressions": "Expressies",
-      "bans": "Bans",
-      "minecraftBridge": ""
+      "bans": "Verbanningen",
+      "minecraftBridge": "Minecraft-bridge"
     }
   },
   "actions": {
@@ -226,8 +226,8 @@
           "description": "Sta leden toe bestanden toe te voegen aan berichten"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Reacties toevoegen",
+          "description": "Leden toestaan emoji-reacties toe te voegen aan berichten"
         },
         "MentionEveryone": {
           "label": "Noem iedereen",
@@ -238,8 +238,8 @@
           "description": "Sta leden toe emoji's uit andere ruimtes of die van henzelf te gebruiken in hun berichten"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "Externe stickers gebruiken",
+          "description": "Leden toestaan stickers uit andere Spaces in hun berichten te gebruiken"
         },
         "ManageMessages": {
           "label": "Beheer berichten",
@@ -258,20 +258,20 @@
           "description": "Sta leden toe om in spraakkanalen te spreken"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Spraakactiviteit gebruiken",
+          "description": "Leden toestaan te spreken met spraakactiviteitsdetectie. Zonder deze rechten moeten leden push-to-talk gebruiken."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "Leden dempen",
+          "description": "Leden toestaan andere leden te dempen in spraakkanalen"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "Leden doof zetten",
+          "description": "Leden toestaan andere leden doof te zetten in spraakkanalen"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Leden verplaatsen",
+          "description": "Leden toestaan andere leden tussen spraakkanalen te verplaatsen en de verbinding te verbreken"
         },
         "Administrator": {
           "label": "Beheerder",
@@ -358,7 +358,7 @@
     "create": {
       "title": "Kanaal maken",
       "name": "Kanaalnaam",
-      "namePlaceholder": "new-channel",
+      "namePlaceholder": "nieuw-kanaal",
       "type": "Kanaaltype",
       "text": "Tekstkanaal",
       "textDescription": "Stuur berichten, afbeeldingen en meer",
@@ -442,8 +442,8 @@
           "description": "Sta leden toe bestanden bij te voegen"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Reacties toevoegen",
+          "description": "Leden toestaan emoji-reacties toe te voegen aan berichten"
         },
         "MentionEveryone": {
           "label": "Noem iedereen",
@@ -454,8 +454,8 @@
           "description": "Sta leden toe emoji's uit andere ruimtes te gebruiken"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "Externe stickers gebruiken",
+          "description": "Leden toestaan stickers uit andere Spaces te gebruiken"
         },
         "ManageMessages": {
           "label": "Beheer berichten",
@@ -474,20 +474,20 @@
           "description": "Sta leden toe om in dit stemkanaal te spreken"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Spraakactiviteit gebruiken",
+          "description": "Leden toestaan te spreken met spraakactiviteitsdetectie. Zonder deze rechten moeten leden push-to-talk gebruiken."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "Leden dempen",
+          "description": "Leden toestaan andere leden te dempen in dit spraakkanaal"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "Leden doof zetten",
+          "description": "Leden toestaan andere leden doof te zetten in dit spraakkanaal"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Leden verplaatsen",
+          "description": "Leden toestaan andere leden tussen spraakkanalen te verplaatsen en de verbinding te verbreken"
         }
       }
     }
@@ -521,13 +521,13 @@
     "directMessages": "Privéberichten",
     "friends": "Vrienden",
     "spaces": "Spaties",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "Kanalen",
+    "bridges": "Bruggen",
+    "moreOptions": "Meer opties",
+    "reorder": "Herschikken",
+    "doneReordering": "Klaar",
+    "reorderA11y": "Spaces herschikken",
+    "doneReorderingA11y": "Herschikken van Spaces voltooid"
   },
   "lockdown": {
     "title": "Deze ruimte is afgesloten",
@@ -536,32 +536,32 @@
     "toast": "Deze ruimte is afgesloten. Berichten en wijzigingen zijn uitgeschakeld."
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "Pas de kanaallijst en chat aan voor iedereen in deze Space. Je persoonlijke thema blijft elders behouden.",
+    "clear": "Persoonlijk thema gebruiken",
+    "createCustom": "Space-thema aanmaken",
+    "spaceThemes": "Deze Space",
+    "noCustomThemes": "Nog geen aangepaste thema's. Maak er een aan om deze Space een eigen uitstraling te geven."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "Uitnodigen",
+      "notifications": "Meldingen",
+      "settings": "Instellingen"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} online",
+    "onlineCount_other": "{{count}} online",
+    "membersCount_one": "{{count}} lid",
+    "membersCount_other": "{{count}} leden",
+    "spaceEmojis": "Space-emoji",
+    "notificationSettingsTitle": "Meldingsinstellingen",
+    "serverSettingsTitle": "Space-instellingen",
+    "unmuteSpace": "Dempen van {{spaceName}} opheffen",
+    "muteSpace": "{{spaceName}} dempen",
+    "mutedStatus": "Je hebt deze Space gedempt",
+    "muteHelper": "Het dempen van een Space voorkomt ongelezen-badges en meldingsgeluiden, tenzij je wordt vermeld.",
+    "serverNotificationSettings": "Serverinstellingen voor meldingen",
+    "suppressSettings": "Onderdrukken",
+    "settingsSection": "Instellingen",
+    "userManagementSection": "Gebruikersbeheer"
   }
 }

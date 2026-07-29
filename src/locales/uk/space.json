@@ -7,17 +7,17 @@
       "general": "Загальне",
       "people": "Люди",
       "moderation": "Модерація",
-      "integrations": ""
+      "integrations": "Інтеграції"
     },
     "pages": {
       "profile": "Профіль",
-      "theme": "Theme",
+      "theme": "Тема",
       "roles": "Ролі",
       "channels": "Канали",
       "invites": "Запрошення",
       "expressions": "Вирази",
       "bans": "Бани",
-      "minecraftBridge": ""
+      "minecraftBridge": "Міст Minecraft"
     }
   },
   "actions": {
@@ -232,8 +232,8 @@
           "description": "Дозволяє учасникам прикріплювати файли до повідомлень"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Додавати реакції",
+          "description": "Дозволити учасникам додавати реакції emoji до повідомлень"
         },
         "MentionEveryone": {
           "label": "Згадувати всіх",
@@ -244,8 +244,8 @@
           "description": "Дозволяє учасникам використовувати емодзі з інших просторів або власні у своїх повідомленнях"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "Використовувати зовнішні наліпки",
+          "description": "Дозволити учасникам використовувати наліпки з інших просторів у повідомленнях"
         },
         "ManageMessages": {
           "label": "Керувати повідомленнями",
@@ -264,20 +264,20 @@
           "description": "Дозволяє учасникам говорити в голосових каналах"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Використовувати активацію за голосом",
+          "description": "Дозволити учасникам говорити з активацією за голосом. Без цього дозволу потрібно використовувати натисни і говори."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "Вимикати мікрофон учасників",
+          "description": "Дозволити учасникам вимикати мікрофон інших на голосових каналах"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "Глушити учасників",
+          "description": "Дозволити учасникам глушити інших на голосових каналах"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Переміщувати учасників",
+          "description": "Дозволити учасникам переміщувати інших між голосовими каналами та відключати їх"
         },
         "Administrator": {
           "label": "Адміністратор",
@@ -452,8 +452,8 @@
           "description": "Дозволяє учасникам прикріплювати файли"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Додавати реакції",
+          "description": "Дозволити учасникам додавати реакції emoji до повідомлень"
         },
         "MentionEveryone": {
           "label": "Згадувати всіх",
@@ -464,8 +464,8 @@
           "description": "Дозволяє учасникам використовувати емодзі з інших просторів"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "Використовувати зовнішні наліпки",
+          "description": "Дозволити учасникам використовувати наліпки з інших просторів"
         },
         "ManageMessages": {
           "label": "Керувати повідомленнями",
@@ -484,20 +484,20 @@
           "description": "Дозволяє учасникам говорити в цьому голосовому каналі"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Використовувати активацію за голосом",
+          "description": "Дозволити учасникам говорити з активацією за голосом. Без цього дозволу потрібно використовувати натисни і говори."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "Вимикати мікрофон учасників",
+          "description": "Дозволити учасникам вимикати мікрофон інших на цьому голосовому каналі"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "Глушити учасників",
+          "description": "Дозволити учасникам глушити інших на цьому голосовому каналі"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Переміщувати учасників",
+          "description": "Дозволити учасникам переміщувати інших між голосовими каналами та відключати їх"
         }
       }
     }
@@ -531,13 +531,13 @@
     "directMessages": "Особисті повідомлення",
     "friends": "Друзі",
     "spaces": "Простори",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "Канали",
+    "bridges": "Мости",
+    "moreOptions": "Більше параметрів",
+    "reorder": "Змінити порядок",
+    "doneReordering": "Готово",
+    "reorderA11y": "Змінити порядок просторів",
+    "doneReorderingA11y": "Зміну порядку просторів завершено"
   },
   "lockdown": {
     "title": "Цей простір у режимі блокування",
@@ -546,32 +546,36 @@
     "toast": "Цей простір у режимі блокування. Повідомлення та зміни вимкнено."
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "Оформіть список каналів і чат для всіх у цьому просторі. Ваша особиста тема залишається в інших місцях.",
+    "clear": "Використовувати особисту тему",
+    "createCustom": "Створити тему простору",
+    "spaceThemes": "Цей простір",
+    "noCustomThemes": "Користувацьких тем поки немає. Створіть тему для оформлення цього простору."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "Запросити",
+      "notifications": "Сповіщення",
+      "settings": "Налаштування"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} онлайн",
+    "onlineCount_other": "{{count}} онлайн",
+    "membersCount_one": "{{count}} учасник",
+    "membersCount_other": "{{count}} учасників",
+    "spaceEmojis": "Emoji простору",
+    "notificationSettingsTitle": "Налаштування сповіщень",
+    "serverSettingsTitle": "Налаштування простору",
+    "unmuteSpace": "Увімкнути звук {{spaceName}}",
+    "muteSpace": "Вимкнути звук {{spaceName}}",
+    "mutedStatus": "Ви вимкнули звук цього простору",
+    "muteHelper": "Вимкнення звуку простору приховує значки непрочитаного та звуки сповіщень, якщо вас не згадали.",
+    "serverNotificationSettings": "Налаштування сповіщень сервера",
+    "suppressSettings": "Придушити",
+    "settingsSection": "Налаштування",
+    "userManagementSection": "Керування користувачами",
+    "onlineCount_few": "{{count}} онлайн",
+    "onlineCount_many": "{{count}} онлайн",
+    "membersCount_few": "{{count}} учасники",
+    "membersCount_many": "{{count}} учасників"
   }
 }

@@ -25,7 +25,50 @@
     "desktop": "Advanced",
     "keybinds": "Keybinds",
     "avatarAndProfile": "Avatar & profile",
-    "minecraftBridge": "Minecraft Bridge"
+    "minecraftBridge": "Minecraft Bridge",
+    "discordImport": "Import from Discord"
+  },
+  "onboarding": {
+    "welcomeTitle": "Welcome to Mutualzz",
+    "welcomeDescription": "Set up your profile, explore the feed, or jump into spaces.",
+    "setupProfile": "Set up profile",
+    "exploreFeed": "Explore feed",
+    "skipToSpaces": "Go to spaces"
+  },
+  "discord": {
+    "continueWithDiscord": "Continue with Discord",
+    "linkDiscord": "Link Discord",
+    "unlinkDiscord": "Unlink Discord",
+    "linkedToast": "Discord account linked"
+  },
+  "discordAuth": {
+    "processing": "Finishing Discord sign-in…",
+    "error": "Discord sign-in failed",
+    "invalidCallback": "Invalid Discord callback",
+    "completeTitle": "Finish creating your account",
+    "completeDescription": "Choose a username and confirm your date of birth.",
+    "username": "Username",
+    "displayName": "Display name",
+    "dateOfBirth": "Date of birth",
+    "dateOfBirthPlaceholder": "YYYY-MM-DD",
+    "finishSignup": "Create account"
+  },
+  "discordImport": {
+    "intro": "Import channel layout, roles, and emojis from a Discord server. Message history is not imported.",
+    "guildId": "Discord server ID",
+    "guildIdHint": "Right-click the Discord server name → Copy Server ID (Developer Mode on).",
+    "guildIdPlaceholder": "e.g. 123456789012345678",
+    "spaceName": "New space name",
+    "spaceNamePlaceholder": "My community",
+    "preview": "Preview",
+    "import": "Import",
+    "previewTitle": "Import preview",
+    "previewSummary": "{{channels}} channels, {{roles}} roles, {{emojis}} emojis ({{skipped}} skipped)",
+    "inviteReady": "Space created. Invite code: {{code}}",
+    "botInvite": "Invite Mutualzz bot",
+    "botInviteHint": "Add the bot to your Discord server before importing.",
+    "linkHint": "Link your Discord account to import a server.",
+    "linkedStatus": "Discord account linked"
   },
   "connections": {
     "title": "Connections",
@@ -494,7 +537,9 @@
     "showTypingIndicators": "Show typing indicators",
     "showTypingIndicatorsDescription": "See when others are typing in a channel",
     "sendTypingIndicators": "Send typing indicators",
-    "sendTypingIndicatorsDescription": "Let others know when you are typing"
+    "sendTypingIndicatorsDescription": "Let others know when you are typing",
+    "showRoleColorsInMessages": "Show role colors on names",
+    "showRoleColorsInMessagesDescription": "Color message author names by their highest role"
   },
   "privacy": {
     "title": "Privacy",
@@ -577,8 +622,8 @@
     "screenShareQualitySource": "Match source",
     "autoCheckUpdates": "Automatically check for updates",
     "autoCheckUpdatesDescription": "Periodically check for new Mutualzz versions in the background",
-    "shareRpcPresence": "Share Rich Presence",
-    "shareRpcPresenceDescription": "Show detailed activity status in Discord Rich Presence when connected"
+    "shareRpcPresence": "Share connected app activity",
+    "shareRpcPresenceDescription": "Show detailed status from games and apps connected to Mutualzz on desktop"
   },
   "keybinds": {
     "title": "Keybinds",

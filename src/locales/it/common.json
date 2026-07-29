@@ -62,8 +62,8 @@
     "idleDescription": "Lontano dalla tastiera",
     "invisible": "Invisibile",
     "invisibleDescription": "Appare offline",
-    "offline": "Offline",
-    "online": "Online",
+    "offline": "Non in linea",
+    "online": "In linea",
     "saveCustom": "Salva lo stato personalizzato"
   },
   "report": {
@@ -118,7 +118,7 @@
     "unsafeHttpBody": "Il collegamento che stai tentando di aprire utilizza una connessione HTTP non sicura. Ciò potrebbe potenzialmente esporre i tuoi dati a terzi.",
     "confirmProceed": "Sei sicuro di voler procedere?",
     "blockedInApp": "Non consentiamo l'apertura di collegamenti non sicuri direttamente nell'app per la tua sicurezza. Copia il collegamento e aprilo nel tuo browser web.",
-    "dontShowAgain": ""
+    "dontShowAgain": "Non mostrare più questo avviso"
   },
   "connection": {
     "reconnect": "Riconnettiti",
@@ -132,14 +132,16 @@
   },
   "updater": {
     "pleaseWait": "Aggiornamento in corso... attendere",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "Mancano {{hours}}h {{minutes}}m",
+    "etaMinutesSeconds": "Mancano {{minutes}}m {{seconds}}s",
+    "etaSeconds": "Mancano {{seconds}}s",
+    "installUpdate": "Installa aggiornamento",
+    "installing": "Installazione aggiornamento…",
+    "updateReady": "Aggiornamento {{version}} pronto",
+    "restartToUpdate": "Riavvia per aggiornare",
+    "restarting": "Riavvio…"
   },
   "crash": {
     "title": "Qualcosa è andato storto",
@@ -165,8 +167,8 @@
     "playVideo": "Riproduci video",
     "pauseVideo": "Metti in pausa il video",
     "tapToOpen": "Tocca per aprire",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "Allegato immagine",
+    "fileAttachment": "Allegato file",
     "sent": "Inviato",
     "createChannelInCategory": "Crea canale nella categoria",
     "reorder": "Riordina",
@@ -179,12 +181,12 @@
     "randomColorHint": "Scegli un colore casuale",
     "removeColorStop": "Rimuovere l'interruzione del colore",
     "rangeSliderHint": "Dispositivo di scorrimento dell'intervallo. Regola trascinando.",
-    "moreOptions": ""
+    "moreOptions": "Altre opzioni"
   },
   "errors": {
     "unknown": "Errore sconosciuto",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "Richiesta non riuscita",
+    "requestFailedWithStatus": "Richiesta non riuscita ({{status}})"
   },
   "select": {
     "placeholder": "Seleziona un'opzione"
@@ -221,7 +223,7 @@
     "blockquote": "Citazione",
     "code": "Codice",
     "spoiler": "Spoiler",
-    "color": "Color"
+    "color": "Colore"
   },
   "support": {
     "myTickets": "I miei biglietti",
@@ -292,22 +294,23 @@
       }
     },
     "termsOfService": "Termini di servizio",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "Hai già un ticket aperto. Rispondi lì o attendi che venga chiuso prima di aprirne uno nuovo."
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "In gioco",
+    "listening": "In ascolto",
+    "elapsed": "{{time}} trascorso",
+    "showLess": "Mostra meno",
+    "played": "Giocato",
+    "listened": "Ascoltato",
+    "openInSpotify": "Apri in Spotify"
   },
   "whatsNew": {
-    "title": ""
+    "title": "Novità"
   },
-  "logout": "",
+  "logout": "Esci",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Skin Minecraft",
+    "skinAltNamed": "Skin Minecraft di {{name}}"
   }
 }

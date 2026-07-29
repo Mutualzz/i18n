@@ -6,13 +6,13 @@
     "reports": "Signalements",
     "activity": "Activité",
     "appeals": "Appels",
-    "support": "Support",
-    "changelogs": ""
+    "support": "Assistance",
+    "changelogs": "Journaux des modifications"
   },
   "pages": {
     "activity": "Activité du staff",
     "reportDetails": "Détails du signalement",
-    "changelogs": ""
+    "changelogs": "Journaux des modifications"
   },
   "home": {
     "findUser": "Trouver un utilisateur",
@@ -28,7 +28,7 @@
   },
   "sections": {
     "info": "Infos",
-    "flags": "Flags",
+    "flags": "Indicateurs",
     "actions": "Actions",
     "sessions": "Sessions actives",
     "notes": "Notes du staff",
@@ -75,7 +75,7 @@
         "deleteAccount": "Échec de la suppression du compte",
         "restrictUser": "Échec de la restriction de l'utilisateur"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Les comptes fondateurs sont protégés. Le personnel ne peut pas les avertir, restreindre, désactiver, supprimer ou prendre toute autre mesure à leur encontre."
     },
     "modals": {
       "reasonRequired": "Motif (obligatoire)",
@@ -236,7 +236,7 @@
     "loadingTicket": "Chargement du ticket…",
     "resolve": "Résoudre",
     "close": "Fermer",
-    "staff": "Staff",
+    "staff": "Équipe",
     "replyPlaceholder": "Répondre à l'utilisateur",
     "sendReply": "Envoyer la réponse",
     "sending": "Envoi…",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}} a retiré un {{type}} signalé",
       "lockedDownSpace": "{{actor}} a verrouillé un espace",
       "shutDownSpace": "{{actor}} a fermé un espace signalé",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} a publié un journal des modifications",
+      "deletedChangelog": "{{actor}} a supprimé un journal des modifications"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Journaux des modifications",
+    "description": "Publiez des pop-ups Nouveautés pour les utilisateurs qui mettent à jour vers une version cible de l'app.",
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Nouveautés de cette version",
+    "bodyLabel": "Corps (markdown)",
+    "bodyPlaceholder": "Décrivez les modifications…",
+    "imageUrlLabel": "URL de l'image (facultatif)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Version bureau",
+    "mobileVersion": "Version mobile",
+    "versionPlaceholder": "p. ex. 6.21.0",
+    "publish": "Publier",
+    "publishing": "Publication…",
+    "preview": "Aperçu",
+    "empty": "Aucun journal des modifications pour l'instant",
+    "delete": "Supprimer",
+    "desktop": "Bureau {{version}}",
+    "mobile": "Mobile {{version}}",
+    "published": "Publié avec succès",
+    "deleted": "Journal des modifications supprimé",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "Échec de la publication du journal des modifications",
+      "delete": "Échec de la suppression du journal des modifications",
+      "versionRequired": "Indiquez une version bureau et/ou mobile"
     },
-    "developerRequired": ""
+    "developerRequired": "Seuls les développeurs peuvent gérer les journaux des modifications"
   }
 }

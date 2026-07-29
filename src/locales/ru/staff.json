@@ -7,12 +7,12 @@
     "activity": "Активность",
     "appeals": "Апелляции",
     "support": "Поддержка",
-    "changelogs": ""
+    "changelogs": "Журнал изменений"
   },
   "pages": {
     "activity": "Активность сотрудников",
     "reportDetails": "Детали жалобы",
-    "changelogs": ""
+    "changelogs": "Журнал изменений"
   },
   "home": {
     "findUser": "Найти пользователя",
@@ -41,7 +41,7 @@
       "noDisplayName": "Отображаемое имя не задано",
       "saveChanges": "Сохранить изменения",
       "accountDetails": "Данные аккаунта",
-      "email": "Email",
+      "email": "Эл. почта",
       "emailVerified": "Email подтверждён",
       "yes": "Да",
       "no": "Нет",
@@ -75,7 +75,7 @@
         "deleteAccount": "Не удалось удалить аккаунт",
         "restrictUser": "Не удалось ограничить пользователя"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Аккаунты основателей защищены. Команда не может выносить предупреждения, ограничивать, отключать, удалять или иным образом предпринимать действия против них."
     },
     "modals": {
       "reasonRequired": "Причина (обязательно)",
@@ -286,36 +286,36 @@
       "tookDownContent": "{{actor}} удалил(а) обжалованный {{type}}",
       "lockedDownSpace": "{{actor}} заблокировал(а) пространство",
       "shutDownSpace": "{{actor}} закрыл(а) обжалованное пространство",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} опубликовал запись в журнале изменений",
+      "deletedChangelog": "{{actor}} удалил запись в журнале изменений"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Журнал изменений",
+    "description": "Публиковать всплывающие окна What's New для пользователей, обновившихся до целевой версии приложения.",
+    "titleLabel": "Заголовок",
+    "titlePlaceholder": "Что нового в этом выпуске",
+    "bodyLabel": "Текст (markdown)",
+    "bodyPlaceholder": "Опишите изменения…",
+    "imageUrlLabel": "URL изображения (необязательно)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Версия для компьютера",
+    "mobileVersion": "Мобильная версия",
+    "versionPlaceholder": "напр. 6.21.0",
+    "publish": "Опубликовать",
+    "publishing": "Публикация…",
+    "preview": "Предпросмотр",
+    "empty": "Пока нет журналов изменений",
+    "delete": "Удалить",
+    "desktop": "Компьютер {{version}}",
+    "mobile": "Мобильная {{version}}",
+    "published": "Успешно опубликовано",
+    "deleted": "Запись в журнале изменений удалена",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "Не удалось опубликовать запись в журнале изменений",
+      "delete": "Не удалось удалить запись в журнале изменений",
+      "versionRequired": "Укажите версию для desktop и/или mobile"
     },
-    "developerRequired": ""
+    "developerRequired": "Только разработчики могут управлять списками изменений"
   }
 }

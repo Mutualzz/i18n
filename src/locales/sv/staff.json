@@ -7,12 +7,12 @@
     "activity": "Aktivitet",
     "appeals": "Överklaganden",
     "support": "Support",
-    "changelogs": ""
+    "changelogs": "Ändringsloggar"
   },
   "pages": {
     "activity": "Personalaktivitet",
     "reportDetails": "Anmälningsdetaljer",
-    "changelogs": ""
+    "changelogs": "Ändringsloggar"
   },
   "home": {
     "findUser": "Hitta en användare",
@@ -75,7 +75,7 @@
         "deleteAccount": "Kunde inte ta bort konto",
         "restrictUser": "Kunde inte begränsa användare"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Grundarkonton är skyddade. Personalen kan inte varna, begränsa, inaktivera, ta bort eller på annat sätt vidta åtgärder mot dem."
     },
     "modals": {
       "reasonRequired": "Orsak (obligatorisk)",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}} tog ner en anmäld {{type}}",
       "lockedDownSpace": "{{actor}} läste ner ett utrymme",
       "shutDownSpace": "{{actor}} stängde ner ett anmält utrymme",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} publicerade en ändringslogg",
+      "deletedChangelog": "{{actor}} tog bort en ändringslogg"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Ändringsloggar",
+    "description": "Publicera popup-fönster med Nyheter för användare som uppdaterar till en viss appversion.",
+    "titleLabel": "Titel",
+    "titlePlaceholder": "Nyheter i den här versionen",
+    "bodyLabel": "Innehåll (markdown)",
+    "bodyPlaceholder": "Beskriv ändringarna…",
+    "imageUrlLabel": "Bild-URL (valfritt)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Desktopversion",
+    "mobileVersion": "Mobilversion",
+    "versionPlaceholder": "t.ex. 6.21.0",
+    "publish": "Publicera",
+    "publishing": "Publicerar…",
+    "preview": "Förhandsvisning",
+    "empty": "Inga ändringsloggar än",
+    "delete": "Ta bort",
+    "desktop": "Skrivbord {{version}}",
+    "mobile": "Mobil {{version}}",
+    "published": "Publicerades",
+    "deleted": "Ändringslogg borttagen",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "Det gick inte att publicera ändringsloggen",
+      "delete": "Det gick inte att ta bort ändringsloggen",
+      "versionRequired": "Ange en desktop- och/eller mobilversion"
     },
-    "developerRequired": ""
+    "developerRequired": "Endast utvecklare kan hantera ändringsloggar"
   }
 }

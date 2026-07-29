@@ -34,7 +34,7 @@
     "editHintEscapeTo": "Escape로",
     "editHintEnterTo": "Enter로",
     "dropFiles": "파일을 놓아 첨부하기",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "스포일러로 표시"
   },
   "reply": {
     "banner": "{{name}}에게 답장 중",
@@ -59,7 +59,9 @@
     "deleteMessage": "메시지 삭제",
     "reportMessage": "메시지 신고",
     "addReaction": "반응 추가",
-    "reactWith": "{{emoji}}(으)로 반응"
+    "reactWith": "{{emoji}}(으)로 반응",
+    "pinMessage": "메시지 고정",
+    "unpinMessage": "고정 해제"
   },
   "report": {
     "thisMessage": "이 메시지"
@@ -70,7 +72,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "나만 볼 수 있습니다 •",
-    "dismissMessage": "메시지 닫기"
+    "dismissMessage": "메시지 닫기",
+    "pinnedMessage": "{{name}}님이 이 채널에 메시지를 고정했습니다."
   },
   "empty": {
     "channel": {
@@ -94,7 +97,9 @@
     },
     "voice": {
       "closeChatA11y": "채팅 닫기"
-    }
+    },
+    "pins": "고정된 메시지",
+    "search": "메시지 검색"
   },
   "voice": {
     "title": "음성",
@@ -150,15 +155,15 @@
       "muteStream": "스트림 음소거",
       "live": "라이브",
       "video": "비디오",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "Minecraft을(를) 통해 연결됨",
+      "audioInMinecraft": "Minecraft을(를) 통해 연결되었습니다 — 마이크와 스피커가 게임 내에 있습니다",
+      "noiseSuppression": "소음 억제",
+      "noiseSuppressionDescription": "말하는 동안 배경 소음을 줄이세요. 말하는 동안 박수를 치는 것과 같은 소리를 내십시오. 친구들은 대부분 당신의 목소리를 들어야 합니다.",
+      "noiseSuppressionA11y": "소음 억제",
+      "noiseSuppressionOn": "소음 억제 켜짐",
+      "noiseSuppressionOff": "소음 억제 꺼짐",
+      "noiseSuppressionApplying": "신청 중…",
+      "unmuteUser": "사용자 음소거 해제"
     },
     "participant": {
       "you": "(나)",
@@ -222,10 +227,10 @@
       "differentDevice": "다른 기기에서 연결되었습니다",
       "movedChannel": "다른 음성 채널로 이동했습니다",
       "enumerateDevices": "장치를 나열하지 못했습니다",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "화면 공유에 참여할 수 없습니다."
     },
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "{{time}}의 목소리로",
+    "channelOccupied": "{{time}}에 대해 점유된 채널"
   },
   "feed": {
     "title": "피드",
@@ -285,14 +290,14 @@
       "replyFallback": "댓글",
       "reply": "답장",
       "sendReply": "답장 보내기",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "더 로드 중…",
+      "sortNewest": "최신",
+      "sortOldest": "가장 오래된",
+      "viewReplies_one": "{{count}} 답글 보기",
+      "viewReplies_other": "{{count}} 답변 보기",
+      "hideReplies": "답글 숨기기",
+      "loadMore": "더 많은 댓글 로드",
+      "close": "댓글 닫기"
     },
     "actions": {
       "deletePost": "게시물 삭제",
@@ -365,28 +370,28 @@
     "moveDown": "아래로 이동",
     "channelSettings": "채널 설정",
     "addFriend": "친구 추가",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "알림 음소거",
+    "unmuteNotifications": "알림 음소거 해제",
+    "notificationSettings": "알림 설정",
+    "notificationFrequency": "빈도",
+    "notificationGeneral": "일반적인",
+    "notificationLevel": "알림 수준",
+    "notificationAll": "모든 메시지",
+    "notificationMentions": "@멘션만",
+    "notificationNothing": "아무것도 아님",
+    "useSpaceDefault": "공간 기본값 사용",
+    "muteSpace": "음소거 공간",
+    "unmuteSpace": "공간 음소거 해제",
+    "muteChannel": "음소거 채널",
+    "unmuteChannel": "채널 음소거 해제",
+    "muteSpaceForDuration": "일정 시간 동안 음소거…",
+    "muteDuration1h": "1시간 동안",
+    "muteDuration8h": "8시간 동안",
+    "muteDuration24h": "24시간 동안",
+    "muteDuration1w": "1주일 동안",
+    "muteUntilTurnBackOn": "다시 켤 때까지",
+    "suppressEveryone": "@모두 억제",
+    "suppressRoles": "@role 언급 억제"
   },
   "favorites": {
     "add": "즐겨찾기에 추가",
@@ -529,21 +534,21 @@
   "blocked": "차단됨",
   "privateSpace": "비공개 스페이스",
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "통화 시작",
+    "startHint": "통화 시작 - 벨소리 없이 참여하려면 Shift+클릭",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "부름…",
+    "inCall": "통화 중",
+    "active": "통화 중",
+    "accept": "수용하다",
+    "decline": "감소",
+    "join": "통화에 참여",
+    "soloTimeout": "이 채널에 그렇게 오래 머물 수는 없습니다. 대역폭은 나무에서 늘어나지 않습니다.",
+    "missed": "부재중 전화",
+    "ended": "통화가 종료되었습니다.",
+    "missedFrom": "{{name}}님의 전화를 받지 못했습니다.",
+    "endedLasted": "통화 종료 — {{duration}} 지속",
+    "button": "부르다"
   },
   "mentions": {
     "members": "멤버",
@@ -596,7 +601,65 @@
     "unread": "읽지 않음"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "오늘",
+    "yesterday": "어제"
+  },
+  "pins": {
+    "empty": "이 채널에는 고정된 메시지가 없습니다.",
+    "pinnedBy": "{{name}}님이 고정함",
+    "jump": "이동",
+    "previous": "이전 고정 메시지",
+    "next": "다음 고정 메시지",
+    "count_one": "이 채널에 고정된 메시지 {{count}}개.",
+    "count_other": "이 채널에 고정된 메시지 {{count}}개.",
+    "index": "{{current}} / {{total}}"
+  },
+  "search": {
+    "placeholder": "{{space}} 검색",
+    "placeholderShort": "{{space}} 검색",
+    "hint": "이 스페이스에서 검색하려면 최소 2자를 입력하세요.",
+    "empty": "메시지를 찾을 수 없습니다.",
+    "searching": "검색 중…",
+    "submit": "검색",
+    "close": "검색 닫기",
+    "noText": "첨부 파일 또는 임베드",
+    "results_one": "{{count}}개 결과",
+    "results_other": "{{count}}개 결과",
+    "resultsTitle_one": "{{count}}개 결과",
+    "resultsTitle_other": "{{count}}개 결과",
+    "filters": "필터",
+    "sort": "정렬",
+    "textChannels": "텍스트 채널",
+    "hintConversation": "이 대화에서 검색하려면 2자 이상 입력하세요.",
+    "sortNewest": "최신순",
+    "sortOldest": "오래된순",
+    "filterFrom": "보낸 사람",
+    "filterIn": "채널",
+    "filterMentions": "멘션",
+    "filterMentionsMe": "나를 멘션",
+    "filterMe": "나",
+    "filterHas": "유형",
+    "filterPinned": "고정만",
+    "filterOptions": "더보기",
+    "filterDates": "날짜",
+    "filterBefore": "이전 (YYYY-MM-DD)",
+    "filterAfter": "이후 (YYYY-MM-DD)",
+    "removeFilter": "필터 제거",
+    "activeFromMe": "나",
+    "activeFromUser": "@{{user}}",
+    "activeInChannel": "#{{channel}}",
+    "activeMentionsUser": "@{{user}} 멘션",
+    "activeBefore": "{{date}} 이전",
+    "activeAfter": "{{date}} 이후",
+    "hintFilters": "키워드를 입력하거나 from:me has:link 같은 필터를 사용하세요",
+    "hintConversationFilters": "키워드를 입력하거나 from:me has:link 같은 필터를 사용하세요",
+    "has": {
+      "link": "링크",
+      "embed": "임베드",
+      "file": "파일",
+      "image": "이미지",
+      "video": "동영상",
+      "sticker": "스티커"
+    }
   }
 }

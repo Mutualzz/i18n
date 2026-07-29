@@ -114,7 +114,7 @@
     "unsafeHttpBody": "開こうとしているリンクは安全でないHTTP接続を使用しています。データが第三者に漏洩する可能性があります。",
     "confirmProceed": "本当に続行しますか？",
     "blockedInApp": "セキュリティのため、安全でないリンクをアプリ内で直接開くことはできません。リンクをコピーしてウェブブラウザで開いてください。",
-    "dontShowAgain": ""
+    "dontShowAgain": "この警告を今後表示しない"
   },
   "connection": {
     "reconnect": "再接続",
@@ -148,7 +148,7 @@
     "blockquote": "引用",
     "code": "コード",
     "spoiler": "スポイラー",
-    "color": "Color"
+    "color": "色"
   },
   "support": {
     "myTickets": "自分のチケット",
@@ -219,7 +219,7 @@
     "ticketClosedHint": "このチケットはクローズされています。引き続きサポートが必要な場合は、新しいチケットを開いてください。",
     "updatedAt": "{{date}} に更新",
     "termsOfService": "利用規約",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "すでにオープンチケットをお持ちです。そこに返信するか、閉じられるまで待ってから新しいものを開きます。"
   },
   "nav": {
     "goBack": "戻る",
@@ -227,14 +227,16 @@
   },
   "updater": {
     "pleaseWait": "更新中…しばらくお待ちください",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "残り {{hours}}h {{minutes}}m",
+    "etaMinutesSeconds": "残り {{minutes}}m {{seconds}}s",
+    "etaSeconds": "残り{{seconds}}秒",
+    "installUpdate": "アップデートをインストールする",
+    "installing": "アップデートをインストール中…",
+    "updateReady": "{{version}} をアップデートする準備ができました",
+    "restartToUpdate": "更新するには再起動してください",
+    "restarting": "再起動中…"
   },
   "crash": {
     "title": "問題が発生しました",
@@ -266,8 +268,8 @@
     "playVideo": "動画を再生",
     "pauseVideo": "動画を一時停止",
     "tapToOpen": "タップして開く",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "画像添付",
+    "fileAttachment": "添付ファイル",
     "sent": "送信済み",
     "createChannelInCategory": "カテゴリにチャンネルを作成",
     "reorder": "並べ替え",
@@ -280,7 +282,7 @@
     "randomColorHint": "ランダムな色を選びます",
     "removeColorStop": "カラーストップを削除",
     "rangeSliderHint": "レンジスライダー。ドラッグして調整。",
-    "moreOptions": ""
+    "moreOptions": "その他のオプション"
   },
   "seo": {
     "defaultTitle": "Mutualzz（早期アクセス）",
@@ -288,26 +290,27 @@
   },
   "errors": {
     "unknown": "不明なエラー",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "リクエストが失敗しました",
+    "requestFailedWithStatus": "リクエストが失敗しました ({{status}})"
   },
   "select": {
     "placeholder": "オプションを選択"
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "遊ぶ",
+    "listening": "リスニング",
+    "elapsed": "{{time}} 経過",
+    "showLess": "表示を少なくする",
+    "played": "遊んだ",
+    "listened": "聞いた",
+    "openInSpotify": "Spotifyで開く"
   },
   "whatsNew": {
-    "title": ""
+    "title": "新着情報"
   },
-  "logout": "",
+  "logout": "サインアウト",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Minecraft スキン",
+    "skinAltNamed": "{{name}} の Minecraft スキン"
   }
 }

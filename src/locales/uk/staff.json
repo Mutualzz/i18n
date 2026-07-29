@@ -7,12 +7,12 @@
     "activity": "Активність",
     "appeals": "Апеляції",
     "support": "Підтримка",
-    "changelogs": ""
+    "changelogs": "Журнал змін"
   },
   "pages": {
     "activity": "Активність персоналу",
     "reportDetails": "Деталі скарги",
-    "changelogs": ""
+    "changelogs": "Журнал змін"
   },
   "home": {
     "findUser": "Знайти користувача",
@@ -75,7 +75,7 @@
         "deleteAccount": "Не вдалося видалити обліковий запис",
         "restrictUser": "Не вдалося обмежити користувача"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Облікові записи засновників захищені. Команда не може попереджати, обмежувати, вимикати, видаляти або іншим чином вчиняти дії щодо них."
     },
     "modals": {
       "reasonRequired": "Причина (обов’язково)",
@@ -286,36 +286,36 @@
       "tookDownContent": "{{actor}} прибрав(ла) {{type}}, на який поскаржилися",
       "lockedDownSpace": "{{actor}} заблокував(ла) простір",
       "shutDownSpace": "{{actor}} закрив(ла) простір, на який поскаржилися",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} опублікував запис у журналі змін",
+      "deletedChangelog": "{{actor}} видалив запис у журналі змін"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Журнал змін",
+    "description": "Публікувати спливаючі вікна What's New для користувачів, які оновилися до цільової версії застосунку.",
+    "titleLabel": "Заголовок",
+    "titlePlaceholder": "Що нового в цьому випуску",
+    "bodyLabel": "Текст (markdown)",
+    "bodyPlaceholder": "Опишіть зміни…",
+    "imageUrlLabel": "URL зображення (необов’язково)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Версія для комп’ютера",
+    "mobileVersion": "Мобільна версія",
+    "versionPlaceholder": "напр. 6.21.0",
+    "publish": "Опублікувати",
+    "publishing": "Публікація…",
+    "preview": "Попередній перегляд",
+    "empty": "Журналів змін ще немає",
+    "delete": "Видалити",
+    "desktop": "Комп’ютер {{version}}",
+    "mobile": "Мобільна {{version}}",
+    "published": "Успішно опубліковано",
+    "deleted": "Запис у журналі змін видалено",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "Не вдалося опублікувати запис у журналі змін",
+      "delete": "Не вдалося видалити запис у журналі змін",
+      "versionRequired": "Вкажіть версію для desktop та/або mobile"
     },
-    "developerRequired": ""
+    "developerRequired": "Лише розробники можуть керувати списками змін"
   }
 }

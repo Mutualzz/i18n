@@ -1,6 +1,6 @@
 import type { AppLocale } from "./resources";
 
-/** Native display names — not translated. */
+/** Native display names for each app locale. */
 export const localeNativeNames: Record<AppLocale, string> = {
   en: "English",
   es: "Español",

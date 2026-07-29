@@ -7,12 +7,12 @@
     "activity": "활동",
     "appeals": "이의 신청",
     "support": "지원",
-    "changelogs": ""
+    "changelogs": "변경 로그"
   },
   "pages": {
     "activity": "스태프 활동",
     "reportDetails": "신고 세부정보",
-    "changelogs": ""
+    "changelogs": "변경 로그"
   },
   "home": {
     "findUser": "사용자 찾기",
@@ -75,7 +75,7 @@
         "deleteAccount": "계정 삭제에 실패했습니다",
         "restrictUser": "사용자 제한에 실패했습니다"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "창립자 계정은 보호됩니다. 직원은 경고, 제한, 비활성화, 삭제 또는 기타 조치를 취할 수 없습니다."
     },
     "modals": {
       "reasonRequired": "사유 (필수)",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}}님이 신고된 {{type}}을(를) 삭제했습니다",
       "lockedDownSpace": "{{actor}}님이 스페이스를 잠갔습니다",
       "shutDownSpace": "{{actor}}님이 신고된 스페이스를 종료했습니다",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}}이 변경 로그를 게시했습니다.",
+      "deletedChangelog": "{{actor}}이 변경 로그를 삭제했습니다."
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "변경 로그",
+    "description": "대상 앱 버전으로 업데이트하는 사용자를 위한 새로운 기능 팝업을 게시합니다.",
+    "titleLabel": "제목",
+    "titlePlaceholder": "이번 릴리스의 새로운 기능",
+    "bodyLabel": "본문(마크다운)",
+    "bodyPlaceholder": "변경사항을 설명하세요…",
+    "imageUrlLabel": "이미지 URL(선택사항)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "데스크톱 버전",
+    "mobileVersion": "모바일 버전",
+    "versionPlaceholder": "예를 들어 6.21.0",
+    "publish": "게시",
+    "publishing": "출판…",
+    "preview": "시사",
+    "empty": "아직 변경 로그가 없습니다.",
+    "delete": "삭제",
+    "desktop": "데스크탑 {{version}}",
+    "mobile": "모바일 {{version}}",
+    "published": "성공적으로 게시되었습니다",
+    "deleted": "변경 로그가 삭제되었습니다.",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "변경 로그를 게시하지 못했습니다.",
+      "delete": "변경 로그를 삭제하지 못했습니다.",
+      "versionRequired": "데스크톱 및/또는 모바일 버전 제공"
     },
-    "developerRequired": ""
+    "developerRequired": "개발자만 변경 로그를 관리할 수 있습니다."
   }
 }

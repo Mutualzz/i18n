@@ -124,7 +124,7 @@
     "unsafeHttpBody": "Посилання, яке ви намагаєтеся відкрити, використовує незахищене з’єднання HTTP. Це може розкрити ваші дані третім сторонам.",
     "confirmProceed": "Ви впевнені, що хочете продовжити?",
     "blockedInApp": "З міркувань безпеки ми не дозволяємо відкривати небезпечні посилання безпосередньо в застосунку. Скопіюйте посилання та відкрийте його у веббраузері.",
-    "dontShowAgain": ""
+    "dontShowAgain": "Більше не показувати це попередження"
   },
   "connection": {
     "reconnect": "Перепідключитися",
@@ -138,14 +138,16 @@
   },
   "updater": {
     "pleaseWait": "Оновлення… зачекайте",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "Залишилось {{hours}}г {{minutes}}хв",
+    "etaMinutesSeconds": "Залишилось {{minutes}}хв {{seconds}}с",
+    "etaSeconds": "Залишилось {{seconds}}с",
+    "installUpdate": "Встановити оновлення",
+    "installing": "Встановлення оновлення…",
+    "updateReady": "Оновлення {{version}} готове",
+    "restartToUpdate": "Перезапустити для оновлення",
+    "restarting": "Перезапуск…"
   },
   "crash": {
     "title": "Щось пішло не так",
@@ -171,8 +173,8 @@
     "playVideo": "Відтворити відео",
     "pauseVideo": "Призупинити відео",
     "tapToOpen": "Натисніть, щоб відкрити",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "Вкладення зображення",
+    "fileAttachment": "Вкладення файлу",
     "sent": "Надіслано",
     "createChannelInCategory": "Створити канал у категорії",
     "reorder": "Змінити порядок",
@@ -185,12 +187,12 @@
     "randomColorHint": "Обирає випадковий колір",
     "removeColorStop": "Прибрати точку кольору",
     "rangeSliderHint": "Повзунок діапазону. Налаштуйте перетягуванням.",
-    "moreOptions": ""
+    "moreOptions": "Більше параметрів"
   },
   "errors": {
     "unknown": "Невідома помилка",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "Запит не вдався",
+    "requestFailedWithStatus": "Запит не вдався ({{status}})"
   },
   "select": {
     "placeholder": "Оберіть варіант"
@@ -227,7 +229,7 @@
     "blockquote": "Цитата",
     "code": "Код",
     "spoiler": "Спойлер",
-    "color": "Color"
+    "color": "Колір"
   },
   "support": {
     "myTickets": "Мої звернення",
@@ -298,22 +300,23 @@
       }
     },
     "termsOfService": "Умови використання",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "У вас уже є відкритий тикет. Відповідайте там або зачекайте, поки його закриють, перш ніж відкривати новий."
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "Грає",
+    "listening": "Слухає",
+    "elapsed": "Минуло {{time}}",
+    "showLess": "Показати менше",
+    "played": "Грав(ла)",
+    "listened": "Прослухано",
+    "openInSpotify": "Відкрити в Spotify"
   },
   "whatsNew": {
-    "title": ""
+    "title": "Що нового"
   },
-  "logout": "",
+  "logout": "Вийти",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Скін Minecraft",
+    "skinAltNamed": "Скін Minecraft гравця {{name}}"
   }
 }

@@ -118,7 +118,7 @@
     "unsafeHttpBody": "De link die u probeert te openen maakt gebruik van een onveilige HTTP-verbinding. Hierdoor kunnen uw gegevens mogelijk aan derden worden blootgesteld.",
     "confirmProceed": "Weet u zeker dat u verder wilt gaan?",
     "blockedInApp": "Voor uw veiligheid staan ​​wij niet toe dat onveilige links rechtstreeks in de app worden geopend. Kopieer de link en open deze in uw webbrowser.",
-    "dontShowAgain": ""
+    "dontShowAgain": "Deze waarschuwing niet meer tonen"
   },
   "connection": {
     "reconnect": "Maak opnieuw verbinding",
@@ -132,14 +132,16 @@
   },
   "updater": {
     "pleaseWait": "Bijwerken... even geduld a.u.b",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "{{hours}}u {{minutes}}m resterend",
+    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s resterend",
+    "etaSeconds": "{{seconds}}s resterend",
+    "installUpdate": "Update installeren",
+    "installing": "Update installeren…",
+    "updateReady": "Update {{version}} gereed",
+    "restartToUpdate": "Herstart om bij te werken",
+    "restarting": "Bezig met herstarten…"
   },
   "crash": {
     "title": "Er is iets misgegaan",
@@ -165,8 +167,8 @@
     "playVideo": "Speel video af",
     "pauseVideo": "Pauzeer video",
     "tapToOpen": "Tik om te openen",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "Afbeeldingsbijlage",
+    "fileAttachment": "Bestandsbijlage",
     "sent": "Verstuurd",
     "createChannelInCategory": "Kanaal in categorie maken",
     "reorder": "Opnieuw ordenen",
@@ -179,12 +181,12 @@
     "randomColorHint": "Kiest een willekeurige kleur",
     "removeColorStop": "Kleurstop verwijderen",
     "rangeSliderHint": "Bereikschuifregelaar. Aanpassen door te slepen.",
-    "moreOptions": ""
+    "moreOptions": "Meer opties"
   },
   "errors": {
     "unknown": "Onbekende fout",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "Verzoek mislukt",
+    "requestFailedWithStatus": "Verzoek mislukt ({{status}})"
   },
   "select": {
     "placeholder": "Selecteer een optie"
@@ -221,7 +223,7 @@
     "blockquote": "Citaatblok",
     "code": "Code",
     "spoiler": "Spoiler",
-    "color": "Color"
+    "color": "Kleur"
   },
   "support": {
     "myTickets": "Mijn kaartjes",
@@ -292,22 +294,23 @@
       }
     },
     "termsOfService": "Servicevoorwaarden",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "Je hebt al een open ticket. Reageer daar of wacht tot het gesloten is voordat je een nieuw ticket opent."
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "Speelt",
+    "listening": "Luisteren",
+    "elapsed": "{{time}} verstreken",
+    "showLess": "Minder tonen",
+    "played": "Gespeeld",
+    "listened": "Geluisterd",
+    "openInSpotify": "Openen in Spotify"
   },
   "whatsNew": {
-    "title": ""
+    "title": "Wat is nieuw"
   },
-  "logout": "",
+  "logout": "Afmelden",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Minecraft-skin",
+    "skinAltNamed": "Minecraft-skin van {{name}}"
   }
 }

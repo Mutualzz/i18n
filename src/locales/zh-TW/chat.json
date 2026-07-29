@@ -54,7 +54,7 @@
     "editHintEscapeTo": "escape 以",
     "editHintEnterTo": "enter 以",
     "dropFiles": "拖放檔案以附加",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "標記為劇透"
   },
   "reply": {
     "banner": "回覆 {{name}}",
@@ -79,7 +79,9 @@
     "deleteMessage": "刪除訊息",
     "reportMessage": "檢舉訊息",
     "addReaction": "新增反應",
-    "reactWith": "用 {{emoji}} 反應"
+    "reactWith": "用 {{emoji}} 反應",
+    "pinMessage": "釘選訊息",
+    "unpinMessage": "取消釘選"
   },
   "report": {
     "thisMessage": "此訊息"
@@ -90,7 +92,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "僅你可見 •",
-    "dismissMessage": "關閉訊息"
+    "dismissMessage": "關閉訊息",
+    "pinnedMessage": "{{name}} 在此頻道釘選了一則訊息。"
   },
   "empty": {
     "channel": {
@@ -144,7 +147,7 @@
     "emptyStickers": "尚無貼圖。請在使用者或空間設定中上傳。",
     "loadingMore": "載入更多…",
     "noGifsFor": "找不到「{{query}}」的 GIF",
-    "gifA11y": "GIF",
+    "gifA11y": "動圖",
     "addFavorite": "新增收藏",
     "removeFavorite": "取消收藏",
     "categories": {
@@ -170,24 +173,26 @@
     },
     "voice": {
       "closeChatA11y": "關閉聊天"
-    }
+    },
+    "pins": "釘選的訊息",
+    "search": "搜尋訊息"
   },
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "開始通話",
+    "startHint": "開始通話 — 按住 Shift 鍵並點選即可加入，無需響鈴",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "呼叫…",
+    "inCall": "通話中",
+    "active": "通話活躍",
+    "accept": "接受",
+    "decline": "衰退",
+    "join": "加入通話",
+    "soloTimeout": "你不能在這個頻道停留那麼久——頻寬不會在樹上增長。",
+    "missed": "未接來電",
+    "ended": "通話結束",
+    "missedFrom": "您錯過了 {{name}} 打來的電話",
+    "endedLasted": "通話結束 — 持續 {{duration}}",
+    "button": "稱呼"
   },
   "mentions": {
     "members": "成員",
@@ -234,7 +239,7 @@
       "differentDevice": "已從其他裝置連線",
       "movedChannel": "已移至其他語音頻道",
       "enumerateDevices": "列舉裝置失敗",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "無法加入螢幕分享"
     },
     "controls": {
       "mute": "靜音",
@@ -265,15 +270,15 @@
       "muteStream": "靜音直播",
       "live": "直播中",
       "video": "視訊",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "透過 Minecraft 連接",
+      "audioInMinecraft": "您已透過 Minecraft 連接 — 麥克風和揚聲器在遊戲中",
+      "noiseSuppression": "噪音抑制",
+      "noiseSuppressionDescription": "說話時減少背景噪音。說話時發出一些聲音，例如鼓掌。朋友應該主要聽到你的聲音。",
+      "noiseSuppressionA11y": "噪音抑制",
+      "noiseSuppressionOn": "噪音抑制開啟",
+      "noiseSuppressionOff": "噪音抑制關閉",
+      "noiseSuppressionApplying": "正在申請…",
+      "unmuteUser": "取消用戶靜音"
     },
     "participant": {
       "you": "（你）",
@@ -325,8 +330,8 @@
         "source": "原始"
       }
     },
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "為 {{time}} 發聲",
+    "channelOccupied": "{{time}} 佔用的通道"
   },
   "feed": {
     "title": "動態",
@@ -386,14 +391,14 @@
       "replyFallback": "留言",
       "reply": "回覆",
       "sendReply": "傳送回覆",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "加載更多...",
+      "sortNewest": "最新",
+      "sortOldest": "最古老的",
+      "viewReplies_one": "查看 {{count}} 回复",
+      "viewReplies_other": "查看 {{count}} 回复",
+      "hideReplies": "隱藏回覆",
+      "loadMore": "加載更多評論",
+      "close": "關閉評論"
     },
     "actions": {
       "deletePost": "刪除貼文",
@@ -466,28 +471,28 @@
     "moveDown": "下移",
     "channelSettings": "頻道設定",
     "addFriend": "新增好友",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "靜音通知",
+    "unmuteNotifications": "取消靜音通知",
+    "notificationSettings": "通知設定",
+    "notificationFrequency": "頻率",
+    "notificationGeneral": "一般的",
+    "notificationLevel": "通知級別",
+    "notificationAll": "所有訊息",
+    "notificationMentions": "僅@提及",
+    "notificationNothing": "沒有什麼",
+    "useSpaceDefault": "使用預設空間",
+    "muteSpace": "靜音空間",
+    "unmuteSpace": "取消空間靜音",
+    "muteChannel": "靜音通道",
+    "unmuteChannel": "取消頻道靜音",
+    "muteSpaceForDuration": "靜音一段時間...",
+    "muteDuration1h": "1小時",
+    "muteDuration8h": "8小時",
+    "muteDuration24h": "24小時",
+    "muteDuration1w": "1週",
+    "muteUntilTurnBackOn": "直到我重新打開它",
+    "suppressEveryone": "壓制@everyone",
+    "suppressRoles": "禁止提及@role"
   },
   "a11y": {
     "embedImage": "嵌入圖片",
@@ -596,7 +601,65 @@
     "remove": "移除"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "今天",
+    "yesterday": "昨天"
+  },
+  "pins": {
+    "empty": "此頻道中沒有固定訊息。",
+    "pinnedBy": "由 {{name}} 固定",
+    "jump": "跳轉",
+    "previous": "上一則釘選訊息",
+    "next": "下一則釘選訊息",
+    "count_one": "此頻道有 {{count}} 則釘選訊息。",
+    "count_other": "此頻道有 {{count}} 則釘選訊息。",
+    "index": "{{current}} / {{total}}"
+  },
+  "search": {
+    "placeholder": "搜尋 {{space}}",
+    "placeholderShort": "搜尋 {{space}}",
+    "hint": "請輸入至少 2 個字元以在此空間中搜尋。",
+    "empty": "找不到訊息。",
+    "searching": "搜尋中…",
+    "submit": "搜尋",
+    "close": "關閉搜尋",
+    "noText": "附件或嵌入內容",
+    "results_one": "{{count}} 則結果",
+    "results_other": "{{count}} 則結果",
+    "resultsTitle_one": "{{count}} 則結果",
+    "resultsTitle_other": "{{count}} 則結果",
+    "filters": "篩選",
+    "sort": "排序",
+    "textChannels": "文字頻道",
+    "hintConversation": "輸入至少 2 個字元以搜尋此對話。",
+    "sortNewest": "最新優先",
+    "sortOldest": "最早優先",
+    "filterFrom": "來自",
+    "filterIn": "位於",
+    "filterMentions": "提及",
+    "filterMentionsMe": "提及我",
+    "filterMe": "我",
+    "filterHas": "包含",
+    "filterPinned": "僅釘選",
+    "filterOptions": "更多",
+    "filterDates": "日期",
+    "filterBefore": "早於 (YYYY-MM-DD)",
+    "filterAfter": "晚於 (YYYY-MM-DD)",
+    "removeFilter": "移除篩選",
+    "activeFromMe": "來自我",
+    "activeFromUser": "來自 @{{user}}",
+    "activeInChannel": "在 #{{channel}}",
+    "activeMentionsUser": "提及 @{{user}}",
+    "activeBefore": "早於 {{date}}",
+    "activeAfter": "晚於 {{date}}",
+    "hintFilters": "輸入關鍵字或使用 from:me has:link 等篩選",
+    "hintConversationFilters": "輸入關鍵字或使用 from:me has:link 等篩選",
+    "has": {
+      "link": "連結",
+      "embed": "嵌入",
+      "file": "檔案",
+      "image": "圖片",
+      "video": "影片",
+      "sticker": "貼圖"
+    }
   }
 }

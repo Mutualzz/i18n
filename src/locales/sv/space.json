@@ -7,17 +7,17 @@
       "general": "Allmänt",
       "people": "Personer",
       "moderation": "Moderering",
-      "integrations": ""
+      "integrations": "Integrationer"
     },
     "pages": {
       "profile": "Profil",
-      "theme": "Theme",
+      "theme": "Tema",
       "roles": "Roller",
       "channels": "Kanaler",
       "invites": "Inbjudningar",
       "expressions": "Uttryck",
       "bans": "Bannlysningar",
-      "minecraftBridge": ""
+      "minecraftBridge": "Minecraft-bridge"
     }
   },
   "actions": {
@@ -226,8 +226,8 @@
           "description": "Tillåt medlemmar att bifoga filer i meddelanden"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Lägg till reaktioner",
+          "description": "Tillåt medlemmar att lägga till emoji-reaktioner på meddelanden"
         },
         "MentionEveryone": {
           "label": "Nämn alla",
@@ -238,8 +238,8 @@
           "description": "Tillåt medlemmar att använda emojis från andra utrymmen eller egna i sina meddelanden"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "Använd externa stickers",
+          "description": "Tillåt medlemmar att använda stickers från andra Spaces i sina meddelanden"
         },
         "ManageMessages": {
           "label": "Hantera meddelanden",
@@ -258,20 +258,20 @@
           "description": "Tillåt medlemmar att tala i röstkanaler"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Använd röstaktivitet",
+          "description": "Tillåt medlemmar att prata med röstaktivitetsdetektering. Utan denna behörighet måste medlemmar använda push-to-talk."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "Tysta medlemmar",
+          "description": "Tillåt medlemmar att tysta andra medlemmar i röstkanaler"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "Döva medlemmar",
+          "description": "Tillåt medlemmar att döva andra medlemmar i röstkanaler"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Flytta medlemmar",
+          "description": "Tillåt medlemmar att flytta andra medlemmar mellan röstkanaler och koppla bort dem"
         },
         "Administrator": {
           "label": "Administratör",
@@ -442,8 +442,8 @@
           "description": "Tillåt medlemmar att bifoga filer"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Lägg till reaktioner",
+          "description": "Tillåt medlemmar att lägga till emoji-reaktioner på meddelanden"
         },
         "MentionEveryone": {
           "label": "Nämn alla",
@@ -454,8 +454,8 @@
           "description": "Tillåt medlemmar att använda emojis från andra utrymmen"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "Använd externa stickers",
+          "description": "Tillåt medlemmar att använda stickers från andra Spaces"
         },
         "ManageMessages": {
           "label": "Hantera meddelanden",
@@ -474,20 +474,20 @@
           "description": "Tillåt medlemmar att tala i denna röstkanal"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Använd röstaktivitet",
+          "description": "Tillåt medlemmar att prata med röstaktivitetsdetektering. Utan denna behörighet måste medlemmar använda push-to-talk."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "Tysta medlemmar",
+          "description": "Tillåt medlemmar att tysta andra medlemmar i den här röstkanalen"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "Döva medlemmar",
+          "description": "Tillåt medlemmar att döva andra medlemmar i den här röstkanalen"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Flytta medlemmar",
+          "description": "Tillåt medlemmar att flytta andra medlemmar mellan röstkanaler och koppla bort dem"
         }
       }
     }
@@ -521,13 +521,13 @@
     "directMessages": "Direktmeddelanden",
     "friends": "Vänner",
     "spaces": "Utrymmen",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "Kanaler",
+    "bridges": "Bryggor",
+    "moreOptions": "Fler alternativ",
+    "reorder": "Ordna om",
+    "doneReordering": "Klar",
+    "reorderA11y": "Ordna om Spaces",
+    "doneReorderingA11y": "Klar med omordning av Spaces"
   },
   "lockdown": {
     "title": "Detta utrymme är i lockdown",
@@ -536,32 +536,32 @@
     "toast": "Detta utrymme är i lockdown. Meddelanden och ändringar är inaktiverade."
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "Skräddarsy kanallistan och chatten för alla i den här Space. Ditt personliga tema förblir oförändrat på andra ställen.",
+    "clear": "Använd personligt tema",
+    "createCustom": "Skapa Space-tema",
+    "spaceThemes": "Den här Space",
+    "noCustomThemes": "Inga anpassade teman än. Skapa ett för att ge den här Space en egen profil."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "Bjud in",
+      "notifications": "Aviseringar",
+      "settings": "Inställningar"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} online",
+    "onlineCount_other": "{{count}} online",
+    "membersCount_one": "{{count}} medlem",
+    "membersCount_other": "{{count}} medlemmar",
+    "spaceEmojis": "Space-emoji",
+    "notificationSettingsTitle": "Aviseringsinställningar",
+    "serverSettingsTitle": "Space-inställningar",
+    "unmuteSpace": "Häv tystning av {{spaceName}}",
+    "muteSpace": "Tysta {{spaceName}}",
+    "mutedStatus": "Du har tystat den här Space",
+    "muteHelper": "Att tysta en Space förhindrar olästa märken och aviseringsljud om du inte blir omnämnd.",
+    "serverNotificationSettings": "Serverinställningar för aviseringar",
+    "suppressSettings": "Undertryck",
+    "settingsSection": "Inställningar",
+    "userManagementSection": "Användarhantering"
   }
 }

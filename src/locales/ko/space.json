@@ -7,17 +7,17 @@
       "general": "일반",
       "people": "사람",
       "moderation": "운영",
-      "integrations": ""
+      "integrations": "통합"
     },
     "pages": {
       "profile": "프로필",
-      "theme": "Theme",
+      "theme": "주제",
       "roles": "역할",
       "channels": "채널",
       "invites": "초대",
       "expressions": "표현식",
       "bans": "차단",
-      "minecraftBridge": ""
+      "minecraftBridge": "Minecraft 다리"
     }
   },
   "actions": {
@@ -64,7 +64,7 @@
       "expires": "만료"
     },
     "usesLabel": "사용 횟수: {{uses}}{{max}}",
-    "usesMax": " / {{max}}",
+    "usesMax": "/ {{max}}",
     "neverExpires": "만료 없음",
     "expired": "만료됨",
     "copyInviteUrl": "초대 URL 복사",
@@ -223,8 +223,8 @@
           "description": "멤버가 메시지에 파일을 첨부할 수 있도록 허용합니다"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "반응 추가",
+          "description": "회원이 메시지에 이모티콘 반응을 추가하도록 허용"
         },
         "MentionEveryone": {
           "label": "Everyone 멘션",
@@ -235,8 +235,8 @@
           "description": "멤버가 다른 스페이스나 자신의 이모지를 메시지에서 사용할 수 있도록 허용합니다"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "외부 스티커 사용",
+          "description": "회원이 메시지에 다른 공간의 스티커를 사용할 수 있도록 허용"
         },
         "ManageMessages": {
           "label": "메시지 관리",
@@ -255,20 +255,20 @@
           "description": "멤버가 음성 채널에서 말할 수 있도록 허용합니다"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "음성 활동 사용",
+          "description": "음성 활동 감지를 사용하여 구성원이 말할 수 있도록 허용합니다. 이 권한이 없으면 회원은 푸시투톡을 사용해야 합니다."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "회원 음소거",
+          "description": "구성원이 음성 채널에서 다른 구성원을 음소거하도록 허용"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "귀머거리 회원",
+          "description": "구성원이 음성 채널에서 다른 구성원의 소리를 듣지 못하도록 허용"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "회원 이동",
+          "description": "구성원이 음성 채널 간에 다른 구성원을 이동하고 연결을 끊을 수 있도록 허용"
         },
         "Administrator": {
           "label": "관리자",
@@ -280,7 +280,7 @@
     },
     "listTitle_one": "역할 - {{count}}",
     "listTitle_other": "역할 - {{count}}",
-    "everyoneSuffix": " (@everyone)"
+    "everyoneSuffix": "(@모든 사람)"
   },
   "expressions": {
     "pageTitle": "스페이스 표현식",
@@ -376,8 +376,8 @@
           "description": "멤버가 파일을 첨부할 수 있도록 허용합니다"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "반응 추가",
+          "description": "회원이 메시지에 이모티콘 반응을 추가하도록 허용"
         },
         "MentionEveryone": {
           "label": "Everyone 멘션",
@@ -388,8 +388,8 @@
           "description": "멤버가 다른 스페이스의 이모지를 사용할 수 있도록 허용합니다"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "외부 스티커 사용",
+          "description": "구성원이 다른 공간의 스티커를 사용하도록 허용"
         },
         "ManageMessages": {
           "label": "메시지 관리",
@@ -408,20 +408,20 @@
           "description": "멤버가 이 음성 채널에서 말할 수 있도록 허용합니다"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "음성 활동 사용",
+          "description": "음성 활동 감지를 사용하여 구성원이 말할 수 있도록 허용합니다. 이 권한이 없으면 회원은 푸시투톡을 사용해야 합니다."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "회원 음소거",
+          "description": "구성원이 이 음성 채널의 다른 구성원을 음소거하도록 허용"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "귀머거리 회원",
+          "description": "구성원이 이 음성 채널에서 다른 구성원의 소리를 듣지 못하게 허용"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "회원 이동",
+          "description": "구성원이 음성 채널 간에 다른 구성원을 이동하고 연결을 끊을 수 있도록 허용"
         }
       },
       "addOverwrite": "권한 덮어쓰기 추가",
@@ -435,7 +435,7 @@
     "create": {
       "title": "채널 만들기",
       "name": "채널 이름",
-      "namePlaceholder": "new-channel",
+      "namePlaceholder": "새 채널",
       "type": "채널 유형",
       "text": "텍스트 채널",
       "textDescription": "메시지, 이미지 등을 보내세요",
@@ -514,13 +514,13 @@
     "friends": "친구",
     "spaces": "스페이스",
     "switchToFeed": "피드로 전환",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "채널",
+    "bridges": "교량",
+    "moreOptions": "추가 옵션",
+    "reorder": "재정렬",
+    "doneReordering": "완료",
+    "reorderA11y": "공간 재정렬",
+    "doneReorderingA11y": "공간 재정렬 완료"
   },
   "lockdown": {
     "title": "이 스페이스는 잠금 상태입니다",
@@ -536,32 +536,32 @@
     "spaceMenuA11y": "스페이스 메뉴"
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "채널 목록을 스킨하고 이 공간에 있는 모든 사람과 채팅하세요. 개인 테마는 다른 곳에 유지됩니다.",
+    "clear": "개인 테마 사용",
+    "createCustom": "공간 테마 만들기",
+    "spaceThemes": "이 공간",
+    "noCustomThemes": "아직 맞춤 테마가 없습니다. 이 공간을 브랜드화할 공간을 만드세요."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "초대하다",
+      "notifications": "알림",
+      "settings": "설정"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} 온라인",
+    "onlineCount_other": "{{count}} 온라인",
+    "membersCount_one": "{{count}} 회원",
+    "membersCount_other": "{{count}} 회원",
+    "spaceEmojis": "우주 이모티콘",
+    "notificationSettingsTitle": "알림 설정",
+    "serverSettingsTitle": "공간 설정",
+    "unmuteSpace": "음소거 해제 {{spaceName}}",
+    "muteSpace": "음소거 {{spaceName}}",
+    "mutedStatus": "이 공간을 음소거했습니다.",
+    "muteHelper": "스페이스를 음소거하면 내가 언급되지 않는 한 읽지 않은 배지와 알림 소리가 들리지 않습니다.",
+    "serverNotificationSettings": "서버 알림 설정",
+    "suppressSettings": "막다",
+    "settingsSection": "설정",
+    "userManagementSection": "사용자 관리"
   }
 }

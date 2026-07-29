@@ -7,12 +7,12 @@
     "activity": "Etkinlik",
     "appeals": "İtirazlar",
     "support": "Destek",
-    "changelogs": ""
+    "changelogs": "Değişiklik günlükleri"
   },
   "pages": {
     "activity": "Personel etkinliği",
     "reportDetails": "Bildirim ayrıntıları",
-    "changelogs": ""
+    "changelogs": "Değişiklik günlükleri"
   },
   "home": {
     "findUser": "Kullanıcı bul",
@@ -75,7 +75,7 @@
         "deleteAccount": "Hesap silinemedi",
         "restrictUser": "Kullanıcı kısıtlanamadı"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Kurucu hesapları korunur. Personel onları uyaramaz, kısıtlayamaz, devre dışı bırakamaz, silemez veya onlara karşı başka bir işlem yapamaz."
     },
     "modals": {
       "reasonRequired": "Neden (zorunlu)",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}}, bildirilen bir {{type}} kaldırdı",
       "lockedDownSpace": "{{actor}} bir alanı kilitledi",
       "shutDownSpace": "{{actor}} bildirilen bir alanı kapattı",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} bir değişiklik günlüğü yayınladı",
+      "deletedChangelog": "{{actor}} bir değişiklik günlüğünü sildi"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Değişiklik günlükleri",
+    "description": "Hedef uygulama sürümüne güncelleme yapan kullanıcılar için Yenilikler açılır pencereleri yayınlayın.",
+    "titleLabel": "Başlık",
+    "titlePlaceholder": "Bu sürümdeki yenilikler",
+    "bodyLabel": "Gövde (işaretleme)",
+    "bodyPlaceholder": "Değişiklikleri açıklayın…",
+    "imageUrlLabel": "Resim URL'si (isteğe bağlı)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Masaüstü sürümü",
+    "mobileVersion": "Mobil versiyon",
+    "versionPlaceholder": "örneğin 6.21.0",
+    "publish": "Yayınla",
+    "publishing": "Yayınlanıyor…",
+    "preview": "Önizleme",
+    "empty": "Henüz değişiklik günlüğü yok",
+    "delete": "Silmek",
+    "desktop": "Masaüstü {{version}}",
+    "mobile": "Mobil {{version}}",
+    "published": "Başarıyla yayınlandı",
+    "deleted": "Değişiklik günlüğü silindi",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "Değişiklik günlüğü yayınlanamadı",
+      "delete": "Değişiklik günlüğü silinemedi",
+      "versionRequired": "Bir masaüstü ve/veya mobil sürüm sağlayın"
     },
-    "developerRequired": ""
+    "developerRequired": "Değişiklik günlüklerini yalnızca geliştiriciler yönetebilir"
   }
 }

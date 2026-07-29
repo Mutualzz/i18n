@@ -118,7 +118,7 @@
     "unsafeHttpBody": "你嘗試開啟的連結使用不安全的 HTTP 連線，可能將你的資料暴露給第三方。",
     "confirmProceed": "確定要繼續嗎？",
     "blockedInApp": "為保障安全，我們不允許在應用程式內直接開啟不安全連結。請複製連結並在瀏覽器中開啟。",
-    "dontShowAgain": ""
+    "dontShowAgain": "不再顯示此警告"
   },
   "connection": {
     "reconnect": "重新連線",
@@ -132,14 +132,16 @@
   },
   "updater": {
     "pleaseWait": "正在更新…請稍候",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "剩餘 {{hours}}h {{minutes}}m",
+    "etaMinutesSeconds": "剩下 {{minutes}}m {{seconds}}s",
+    "etaSeconds": "剩下 {{seconds}} 秒",
+    "installUpdate": "安裝更新",
+    "installing": "正在安裝更新...",
+    "updateReady": "更新 {{version}} 準備就緒",
+    "restartToUpdate": "重啟即可更新",
+    "restarting": "正在重新啟動..."
   },
   "crash": {
     "title": "出了點問題",
@@ -165,8 +167,8 @@
     "playVideo": "播放影片",
     "pauseVideo": "暫停影片",
     "tapToOpen": "點一下開啟",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "圖片附件",
+    "fileAttachment": "文件附件",
     "sent": "已傳送",
     "createChannelInCategory": "在分類中建立頻道",
     "reorder": "重新排序",
@@ -179,12 +181,12 @@
     "randomColorHint": "選擇隨機顏色",
     "removeColorStop": "移除色標",
     "rangeSliderHint": "範圍滑桿。拖曳以調整。",
-    "moreOptions": ""
+    "moreOptions": "更多選擇"
   },
   "errors": {
     "unknown": "未知錯誤",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "請求失敗",
+    "requestFailedWithStatus": "請求失敗 ({{status}})"
   },
   "select": {
     "placeholder": "選擇一個選項"
@@ -221,7 +223,7 @@
     "blockquote": "引用",
     "code": "程式碼",
     "spoiler": "劇透",
-    "color": "Color"
+    "color": "顏色"
   },
   "support": {
     "myTickets": "我的工單",
@@ -292,22 +294,23 @@
       }
     },
     "termsOfService": "服務條款",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "您已經有一張開放門票。在那裡回覆或等到它關閉後再打開一個新的。"
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "演奏",
+    "listening": "聽力",
+    "elapsed": "{{time}} 已過",
+    "showLess": "顯示較少",
+    "played": "玩過",
+    "listened": "聽過",
+    "openInSpotify": "在 Spotify 中開啟"
   },
   "whatsNew": {
-    "title": ""
+    "title": "什麼是新的"
   },
-  "logout": "",
+  "logout": "登出",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Minecraft 皮膚",
+    "skinAltNamed": "{{name}} 的 Minecraft 皮膚"
   }
 }

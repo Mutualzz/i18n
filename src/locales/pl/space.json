@@ -7,17 +7,17 @@
       "general": "Ogólne",
       "people": "Ludzie",
       "moderation": "Moderacja",
-      "integrations": ""
+      "integrations": "Integracje"
     },
     "pages": {
       "profile": "Profil",
-      "theme": "Theme",
+      "theme": "Motyw",
       "roles": "Role",
       "channels": "Kanały",
       "invites": "Zaproszenia",
       "expressions": "Wyrażenia",
       "bans": "Bany",
-      "minecraftBridge": ""
+      "minecraftBridge": "Most Minecraft"
     }
   },
   "actions": {
@@ -232,8 +232,8 @@
           "description": "Zezwalaj członkom na dołączanie plików do wiadomości"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Dodawaj reakcje",
+          "description": "Pozwól członkom dodawać reakcje emoji do wiadomości"
         },
         "MentionEveryone": {
           "label": "Wspomnij wszystkich",
@@ -244,8 +244,8 @@
           "description": "Zezwalaj członkom na używanie w wiadomościach emotikonów z innych przestrzeni lub własnych"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "Używaj zewnętrznych naklejek",
+          "description": "Pozwól członkom używać naklejek z innych przestrzeni w wiadomościach"
         },
         "ManageMessages": {
           "label": "Zarządzaj wiadomościami",
@@ -264,20 +264,20 @@
           "description": "Zezwalaj członkom na mówienie kanałami głosowymi"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Używaj aktywności głosowej",
+          "description": "Pozwól członkom mówić z wykrywaniem aktywności głosowej. Bez tego uprawnienia członkowie muszą używać naciśnij-i-mów."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "Wyciszaj członków",
+          "description": "Pozwól członkom wyciszać innych członków na kanałach głosowych"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "Ogłuszaj członków",
+          "description": "Pozwól członkom ogłuszać innych członków na kanałach głosowych"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Przenoś członków",
+          "description": "Pozwól członkom przenosić innych między kanałami głosowymi i rozłączać ich"
         },
         "Administrator": {
           "label": "Administrator",
@@ -452,8 +452,8 @@
           "description": "Zezwalaj członkom na dołączanie plików"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Dodawaj reakcje",
+          "description": "Pozwól członkom dodawać reakcje emoji do wiadomości"
         },
         "MentionEveryone": {
           "label": "Wspomnij wszystkich",
@@ -464,8 +464,8 @@
           "description": "Zezwalaj członkom na używanie emotikonów z innych przestrzeni"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "Używaj zewnętrznych naklejek",
+          "description": "Pozwól członkom używać naklejek z innych przestrzeni"
         },
         "ManageMessages": {
           "label": "Zarządzaj wiadomościami",
@@ -484,20 +484,20 @@
           "description": "Zezwalaj członkom na mówienie w tym kanale głosowym"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Używaj aktywności głosowej",
+          "description": "Pozwól członkom mówić z wykrywaniem aktywności głosowej. Bez tego uprawnienia członkowie muszą używać naciśnij-i-mów."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "Wyciszaj członków",
+          "description": "Pozwól członkom wyciszać innych członków na tym kanale głosowym"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "Ogłuszaj członków",
+          "description": "Pozwól członkom ogłuszać innych członków na tym kanale głosowym"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Przenoś członków",
+          "description": "Pozwól członkom przenosić innych między kanałami głosowymi i rozłączać ich"
         }
       }
     }
@@ -531,13 +531,13 @@
     "directMessages": "Wiadomości bezpośrednie",
     "friends": "Znajomi",
     "spaces": "Przestrzenie",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "Kanały",
+    "bridges": "Mosty",
+    "moreOptions": "Więcej opcji",
+    "reorder": "Zmień kolejność",
+    "doneReordering": "Gotowe",
+    "reorderA11y": "Zmień kolejność przestrzeni",
+    "doneReorderingA11y": "Zakończono zmianę kolejności przestrzeni"
   },
   "lockdown": {
     "title": "Ta przestrzeń jest zamknięta",
@@ -546,32 +546,36 @@
     "toast": "Ta przestrzeń jest zamknięta. Przesyłanie wiadomości i zmiany są wyłączone."
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "Dostosuj listę kanałów i czat dla wszystkich w tej przestrzeni. Twój osobisty motyw pozostaje gdzie indziej.",
+    "clear": "Użyj motywu osobistego",
+    "createCustom": "Utwórz motyw przestrzeni",
+    "spaceThemes": "Ta przestrzeń",
+    "noCustomThemes": "Brak niestandardowych motywów. Utwórz jeden, aby nadać tej przestrzeni markę."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "Zaproś",
+      "notifications": "Powiadomienia",
+      "settings": "Ustawienia"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} online",
+    "onlineCount_other": "{{count}} online",
+    "membersCount_one": "{{count}} członek",
+    "membersCount_other": "{{count}} członków",
+    "spaceEmojis": "Emoji przestrzeni",
+    "notificationSettingsTitle": "Ustawienia powiadomień",
+    "serverSettingsTitle": "Ustawienia przestrzeni",
+    "unmuteSpace": "Wyłącz wyciszenie {{spaceName}}",
+    "muteSpace": "Wycisz {{spaceName}}",
+    "mutedStatus": "Wyciszyłeś tę przestrzeń",
+    "muteHelper": "Wyciszenie przestrzeni blokuje odznaki nieprzeczytanych i dźwięki powiadomień, chyba że zostaniesz wspomniany.",
+    "serverNotificationSettings": "Ustawienia powiadomień serwera",
+    "suppressSettings": "Wycisz",
+    "settingsSection": "Ustawienia",
+    "userManagementSection": "Zarządzanie użytkownikami",
+    "onlineCount_few": "{{count}} online",
+    "onlineCount_many": "{{count}} online",
+    "membersCount_few": "{{count}} członków",
+    "membersCount_many": "{{count}} członków"
   }
 }

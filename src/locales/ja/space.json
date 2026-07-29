@@ -7,17 +7,17 @@
       "general": "一般",
       "people": "メンバー",
       "moderation": "モデレーション",
-      "integrations": ""
+      "integrations": "統合"
     },
     "pages": {
       "profile": "プロフィール",
-      "theme": "Theme",
+      "theme": "テーマ",
       "roles": "ロール",
       "channels": "チャンネル",
       "invites": "招待",
       "expressions": "エクスプレッション",
       "bans": "BAN",
-      "minecraftBridge": ""
+      "minecraftBridge": "Minecraft ブリッジ"
     }
   },
   "actions": {
@@ -64,7 +64,7 @@
       "expires": "有効期限"
     },
     "usesLabel": "使用回数: {{uses}}{{max}}",
-    "usesMax": " / {{max}}",
+    "usesMax": "/ {{max}}",
     "neverExpires": "期限なし",
     "expired": "期限切れ",
     "copyInviteUrl": "招待URLをコピー",
@@ -223,8 +223,8 @@
           "description": "メンバーがメッセージにファイルを添付できるようにします"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "リアクションの追加",
+          "description": "メンバーがメッセージに絵文字リアクションを追加できるようにする"
         },
         "MentionEveryone": {
           "label": "Everyoneのメンション",
@@ -235,8 +235,8 @@
           "description": "メンバーが他のスペースや自分の絵文字をメッセージで使えるようにします"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "外部ステッカーを使用する",
+          "description": "メンバーがメッセージ内で他のスペースのステッカーを使用できるようにする"
         },
         "ManageMessages": {
           "label": "メッセージの管理",
@@ -255,20 +255,20 @@
           "description": "メンバーがボイスチャンネルで話せるようにします"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "音声アクティビティを使用する",
+          "description": "音声アクティビティ検出を使用してメンバーが発言できるようにします。この許可がない場合、メンバーはプッシュ トゥ トークを使用する必要があります。"
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "メンバーをミュートする",
+          "description": "メンバーが音声チャネルで他のメンバーをミュートできるようにする"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "ろう者会員",
+          "description": "メンバーが音声チャンネルで他のメンバーの耳をつんざくことができるようにする"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "メンバーの移動",
+          "description": "メンバーが音声チャネル間で他のメンバーを移動したり、切断したりできるようにする"
         },
         "Administrator": {
           "label": "管理者",
@@ -280,7 +280,7 @@
     },
     "listTitle_one": "ロール - {{count}}",
     "listTitle_other": "ロール - {{count}}",
-    "everyoneSuffix": " (@everyone)"
+    "everyoneSuffix": "（@みんな）"
   },
   "expressions": {
     "pageTitle": "スペースのエクスプレッション",
@@ -376,8 +376,8 @@
           "description": "メンバーがファイルを添付できるようにします"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "リアクションの追加",
+          "description": "メンバーがメッセージに絵文字リアクションを追加できるようにする"
         },
         "MentionEveryone": {
           "label": "Everyoneのメンション",
@@ -388,8 +388,8 @@
           "description": "メンバーが他のスペースの絵文字を使えるようにします"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "外部ステッカーを使用する",
+          "description": "メンバーが他のスペースのステッカーを使用できるようにする"
         },
         "ManageMessages": {
           "label": "メッセージの管理",
@@ -408,20 +408,20 @@
           "description": "メンバーがこのボイスチャンネルで話せるようにします"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "音声アクティビティを使用する",
+          "description": "音声アクティビティ検出を使用してメンバーが発言できるようにします。この許可がない場合、メンバーはプッシュ トゥ トークを使用する必要があります。"
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "メンバーをミュートする",
+          "description": "メンバーがこの音声チャネルで他のメンバーをミュートできるようにする"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "ろう者会員",
+          "description": "メンバーがこの音声チャンネルで他のメンバーの耳をつんざくことができるようにする"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "メンバーの移動",
+          "description": "メンバーが音声チャネル間で他のメンバーを移動したり、切断したりできるようにする"
         }
       },
       "addOverwrite": "権限の上書きを追加",
@@ -435,7 +435,7 @@
     "create": {
       "title": "チャンネルを作成",
       "name": "チャンネル名",
-      "namePlaceholder": "new-channel",
+      "namePlaceholder": "新しいチャンネル",
       "type": "チャンネルの種類",
       "text": "テキストチャンネル",
       "textDescription": "メッセージや画像などを送信",
@@ -514,13 +514,13 @@
     "friends": "フレンド",
     "spaces": "スペース",
     "switchToFeed": "フィードに切り替え",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "チャンネル",
+    "bridges": "橋",
+    "moreOptions": "その他のオプション",
+    "reorder": "再注文",
+    "doneReordering": "終わり",
+    "reorderA11y": "スペースを並べ替える",
+    "doneReorderingA11y": "スペースの並べ替えが完了しました"
   },
   "lockdown": {
     "title": "このスペースはロックダウン中です",
@@ -536,32 +536,32 @@
     "spaceMenuA11y": "スペースメニュー"
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "チャンネル リストをスキンして、このスペースにいる全員とチャットします。あなたの個人的なテーマは別の場所にあります。",
+    "clear": "個人的なテーマを使用する",
+    "createCustom": "宇宙テーマの作成",
+    "spaceThemes": "この空間",
+    "noCustomThemes": "カスタムテーマはまだありません。このスペースをブランド化するために作成します。"
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "招待する",
+      "notifications": "通知",
+      "settings": "設定"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} オンライン",
+    "onlineCount_other": "{{count}} オンライン",
+    "membersCount_one": "{{count}} メンバー",
+    "membersCount_other": "{{count}} メンバー",
+    "spaceEmojis": "スペース絵文字",
+    "notificationSettingsTitle": "通知設定",
+    "serverSettingsTitle": "スペース設定",
+    "unmuteSpace": "{{spaceName}} のミュートを解除",
+    "muteSpace": "{{spaceName}} をミュートします",
+    "mutedStatus": "このスペースをミュートにしました",
+    "muteHelper": "スペースをミュートすると、メンションされない限り未読のバッジや通知音が鳴らなくなります。",
+    "serverNotificationSettings": "サーバー通知設定",
+    "suppressSettings": "抑制する",
+    "settingsSection": "設定",
+    "userManagementSection": "ユーザー管理"
   }
 }

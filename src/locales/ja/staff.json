@@ -7,12 +7,12 @@
     "activity": "アクティビティ",
     "appeals": "異議申し立て",
     "support": "サポート",
-    "changelogs": ""
+    "changelogs": "変更履歴"
   },
   "pages": {
     "activity": "スタッフアクティビティ",
     "reportDetails": "通報の詳細",
-    "changelogs": ""
+    "changelogs": "変更履歴"
   },
   "home": {
     "findUser": "ユーザーを探す",
@@ -75,7 +75,7 @@
         "deleteAccount": "アカウントの削除に失敗しました",
         "restrictUser": "ユーザーの制限に失敗しました"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "創設者のアカウントは保護されています。スタッフは、警告、制限、無効化、削除などの措置を講じることはできません。"
     },
     "modals": {
       "reasonRequired": "理由（必須）",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}} が通報された{{type}}を削除しました",
       "lockedDownSpace": "{{actor}} がスペースをロックダウンしました",
       "shutDownSpace": "{{actor}} が通報されたスペースを閉鎖しました",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} が変更ログを公開しました",
+      "deletedChangelog": "{{actor}} が変更ログを削除しました"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "変更履歴",
+    "description": "対象のアプリ バージョンに更新するユーザー向けに新機能ポップアップを公開します。",
+    "titleLabel": "タイトル",
+    "titlePlaceholder": "このリリースの新機能",
+    "bodyLabel": "本体（値下げ）",
+    "bodyPlaceholder": "変更点を説明してください…",
+    "imageUrlLabel": "画像の URL (オプション)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "デスクトップ版",
+    "mobileVersion": "モバイル版",
+    "versionPlaceholder": "例えば6.21.0",
+    "publish": "公開",
+    "publishing": "公開中…",
+    "preview": "プレビュー",
+    "empty": "変更ログはまだありません",
+    "delete": "消去",
+    "desktop": "デスクトップ {{version}}",
+    "mobile": "モバイル {{version}}",
+    "published": "正常に公開されました",
+    "deleted": "変更ログが削除されました",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "変更ログの公開に失敗しました",
+      "delete": "変更ログの削除に失敗しました",
+      "versionRequired": "デスクトップ版やモバイル版を提供する"
     },
-    "developerRequired": ""
+    "developerRequired": "開発者のみが変更ログを管理できる"
   }
 }

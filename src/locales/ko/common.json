@@ -114,7 +114,7 @@
     "unsafeHttpBody": "열려는 링크가 안전하지 않은 HTTP 연결을 사용합니다. 데이터가 제3자에게 노출될 수 있습니다.",
     "confirmProceed": "계속하시겠습니까?",
     "blockedInApp": "보안을 위해 앱에서 안전하지 않은 링크를 직접 여는 것을 허용하지 않습니다. 링크를 복사하여 웹 브라우저에서 열어 주세요.",
-    "dontShowAgain": ""
+    "dontShowAgain": "이 경고를 다시 표시하지 않음"
   },
   "connection": {
     "reconnect": "다시 연결",
@@ -148,7 +148,7 @@
     "blockquote": "인용",
     "code": "코드",
     "spoiler": "스포일러",
-    "color": "Color"
+    "color": "색상"
   },
   "support": {
     "myTickets": "내 티켓",
@@ -219,7 +219,7 @@
     "ticketClosedHint": "이 티켓은 종료되었습니다. 도움이 더 필요하면 새 티켓을 열어 주세요.",
     "updatedAt": "{{date}}에 업데이트됨",
     "termsOfService": "서비스 약관",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "이미 오픈 티켓이 있습니다. 거기에 답장을 보내거나 닫힐 때까지 기다렸다가 새 창을 여세요."
   },
   "nav": {
     "goBack": "뒤로",
@@ -227,14 +227,16 @@
   },
   "updater": {
     "pleaseWait": "업데이트 중… 잠시만 기다려 주세요",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}}MB",
+    "etaHoursMinutes": "{{hours}}h {{minutes}}m 남음",
+    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s 남음",
+    "etaSeconds": "{{seconds}}s 남음",
+    "installUpdate": "업데이트 설치",
+    "installing": "업데이트 설치 중…",
+    "updateReady": "{{version}} 업데이트 준비 완료",
+    "restartToUpdate": "업데이트하려면 다시 시작하세요.",
+    "restarting": "다시 시작하는 중…"
   },
   "crash": {
     "title": "문제가 발생했습니다",
@@ -266,8 +268,8 @@
     "playVideo": "동영상 재생",
     "pauseVideo": "동영상 일시정지",
     "tapToOpen": "탭하여 열기",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "이미지 첨부",
+    "fileAttachment": "파일첨부",
     "sent": "보냄",
     "createChannelInCategory": "카테고리에 채널 만들기",
     "reorder": "순서 변경",
@@ -280,7 +282,7 @@
     "randomColorHint": "무작위 색상을 고릅니다",
     "removeColorStop": "색상 정지점 제거",
     "rangeSliderHint": "범위 슬라이더. 드래그하여 조절하세요.",
-    "moreOptions": ""
+    "moreOptions": "추가 옵션"
   },
   "seo": {
     "defaultTitle": "Mutualzz (얼리 액세스)",
@@ -288,26 +290,27 @@
   },
   "errors": {
     "unknown": "알 수 없는 오류",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "요청 실패",
+    "requestFailedWithStatus": "요청 실패({{status}})"
   },
   "select": {
     "placeholder": "옵션 선택"
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "재생",
+    "listening": "청취",
+    "elapsed": "{{time}} 경과",
+    "showLess": "간략히 보기",
+    "played": "플레이함",
+    "listened": "들었다",
+    "openInSpotify": "Spotify에서 열기"
   },
   "whatsNew": {
-    "title": ""
+    "title": "새로운 소식"
   },
-  "logout": "",
+  "logout": "로그아웃",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Minecraft 피부",
+    "skinAltNamed": "{{name}}의 Minecraft 스킨"
   }
 }

@@ -7,17 +7,17 @@
       "general": "عام",
       "people": "الأشخاص",
       "moderation": "الإشراف",
-      "integrations": ""
+      "integrations": "التكامل"
     },
     "pages": {
       "profile": "الملف",
-      "theme": "Theme",
+      "theme": "سمة",
       "roles": "الأدوار",
       "channels": "القنوات",
       "invites": "الدعوات",
       "expressions": "التعبيرات",
       "bans": "الحظر",
-      "minecraftBridge": ""
+      "minecraftBridge": "جسر ماين كرافت"
     }
   },
   "actions": {
@@ -68,7 +68,7 @@
       "expires": "تنتهي"
     },
     "usesLabel": "الاستخدامات: {{uses}}{{max}}",
-    "usesMax": " / {{max}}",
+    "usesMax": "/ {{max}}",
     "neverExpires": "لا تنتهي أبدًا",
     "expired": "منتهية",
     "copyInviteUrl": "نسخ رابط الدعوة",
@@ -115,7 +115,7 @@
   "roles": {
     "defaultPermissions": "الصلاحيات الافتراضية",
     "everyoneSubtitle": "@everyone - تنطبق على جميع أعضاء المساحة",
-    "everyoneSuffix": " (@everyone)",
+    "everyoneSuffix": "(@الجميع)",
     "searchPlaceholder": "البحث في الأدوار",
     "listTitle_one": "الأدوار - {{count}}",
     "listTitle_other": "الأدوار - {{count}}",
@@ -238,8 +238,8 @@
           "description": "السماح للأعضاء بإرفاق ملفات في الرسائل"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "أضف ردود الفعل",
+          "description": "السماح للأعضاء بإضافة تفاعلات الرموز التعبيرية إلى الرسائل"
         },
         "MentionEveryone": {
           "label": "الإشارة للجميع",
@@ -250,8 +250,8 @@
           "description": "السماح للأعضاء باستخدام رموز من مساحات أخرى أو رموزهم الخاصة في رسائلهم"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "استخدم الملصقات الخارجية",
+          "description": "السماح للأعضاء باستخدام ملصقات من مساحات أخرى في رسائلهم"
         },
         "ManageMessages": {
           "label": "إدارة الرسائل",
@@ -270,20 +270,20 @@
           "description": "السماح للأعضاء بالتحدث في قنوات الصوت"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "استخدم النشاط الصوتي",
+          "description": "السماح للأعضاء بالتحدث باستخدام اكتشاف النشاط الصوتي. وبدون هذا الإذن، يجب على الأعضاء استخدام ميزة الضغط والتحدث."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "كتم الأعضاء",
+          "description": "السماح للأعضاء بكتم صوت الأعضاء الآخرين في القنوات الصوتية"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "الأعضاء الصم",
+          "description": "السماح للأعضاء بصم الأعضاء الآخرين في القنوات الصوتية"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "نقل الأعضاء",
+          "description": "السماح للأعضاء بنقل الأعضاء الآخرين بين القنوات الصوتية وفصلهم"
         },
         "Administrator": {
           "label": "مسؤول",
@@ -462,8 +462,8 @@
           "description": "السماح للأعضاء بإرفاق ملفات"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "أضف ردود الفعل",
+          "description": "السماح للأعضاء بإضافة تفاعلات الرموز التعبيرية إلى الرسائل"
         },
         "MentionEveryone": {
           "label": "الإشارة للجميع",
@@ -474,8 +474,8 @@
           "description": "السماح للأعضاء باستخدام رموز من مساحات أخرى"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "استخدم الملصقات الخارجية",
+          "description": "السماح للأعضاء باستخدام الملصقات من المساحات الأخرى"
         },
         "ManageMessages": {
           "label": "إدارة الرسائل",
@@ -494,20 +494,20 @@
           "description": "السماح للأعضاء بالتحدث في هذه القناة الصوتية"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "استخدم النشاط الصوتي",
+          "description": "السماح للأعضاء بالتحدث باستخدام اكتشاف النشاط الصوتي. وبدون هذا الإذن، يجب على الأعضاء استخدام ميزة الضغط والتحدث."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "كتم الأعضاء",
+          "description": "السماح للأعضاء بكتم صوت الأعضاء الآخرين في هذه القناة الصوتية"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "الأعضاء الصم",
+          "description": "السماح للأعضاء بصم الأعضاء الآخرين في هذه القناة الصوتية"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "نقل الأعضاء",
+          "description": "السماح للأعضاء بنقل الأعضاء الآخرين بين القنوات الصوتية وفصلهم"
         }
       }
     }
@@ -541,13 +541,13 @@
     "directMessages": "الرسائل المباشرة",
     "friends": "الأصدقاء",
     "spaces": "المساحات",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "القُضبان",
+    "bridges": "الجسور",
+    "moreOptions": "المزيد من الخيارات",
+    "reorder": "إعادة الترتيب",
+    "doneReordering": "تم الإنتهاء",
+    "reorderA11y": "إعادة ترتيب المساحات",
+    "doneReorderingA11y": "تم الانتهاء من إعادة ترتيب المساحات"
   },
   "lockdown": {
     "title": "هذه المساحة في حالة إغلاق",
@@ -556,32 +556,40 @@
     "toast": "هذه المساحة في حالة إغلاق. الرسائل والتغييرات معطّلة."
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "قم بإزالة قائمة القنوات والدردشة مع الجميع في هذه المساحة. موضوعك الشخصي يبقى في مكان آخر.",
+    "clear": "استخدام موضوع شخصي",
+    "createCustom": "إنشاء موضوع الفضاء",
+    "spaceThemes": "هذه المساحة",
+    "noCustomThemes": "لا توجد مواضيع مخصصة حتى الآن. قم بإنشاء واحدة لتمييز هذه المساحة."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "يدعو",
+      "notifications": "إشعارات",
+      "settings": "إعدادات"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} على الانترنت",
+    "onlineCount_other": "{{count}} على الانترنت",
+    "membersCount_one": "{{count}} عضو",
+    "membersCount_other": "{{count}} الأعضاء",
+    "spaceEmojis": "الرموز التعبيرية الفضائية",
+    "notificationSettingsTitle": "إعدادات الإخطار",
+    "serverSettingsTitle": "إعدادات المساحة",
+    "unmuteSpace": "إلغاء كتم صوت {{spaceName}}",
+    "muteSpace": "كتم الصوت {{spaceName}}",
+    "mutedStatus": "لقد كتمت هذه المساحة",
+    "muteHelper": "يؤدي كتم المسافة إلى منع ظهور الشارات وأصوات الإشعارات غير المقروءة ما لم يتم ذكرك.",
+    "serverNotificationSettings": "إعدادات إشعارات الخادم",
+    "suppressSettings": "قمع",
+    "settingsSection": "إعدادات",
+    "userManagementSection": "إدارة المستخدم",
+    "onlineCount_zero": "{{count}} متصل",
+    "onlineCount_two": "{{count}} متصلان",
+    "onlineCount_few": "{{count}} متصلين",
+    "onlineCount_many": "{{count}} متصلًا",
+    "membersCount_zero": "{{count}} عضو",
+    "membersCount_two": "{{count}} عضوان",
+    "membersCount_few": "{{count}} أعضاء",
+    "membersCount_many": "{{count}} عضوًا"
   }
 }

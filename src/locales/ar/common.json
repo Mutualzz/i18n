@@ -130,7 +130,7 @@
     "unsafeHttpBody": "الرابط الذي تحاول فتحه يستخدم اتصال HTTP غير آمن. قد يعرّض ذلك بياناتك لأطراف ثالثة.",
     "confirmProceed": "هل أنت متأكد أنك تريد المتابعة؟",
     "blockedInApp": "لا نسمح بفتح الروابط غير الآمنة مباشرة في التطبيق لأمانك. يرجى نسخ الرابط وفتحه في متصفح الويب.",
-    "dontShowAgain": ""
+    "dontShowAgain": "لا تظهر هذا التحذير مرة أخرى"
   },
   "connection": {
     "reconnect": "إعادة الاتصال",
@@ -144,14 +144,16 @@
   },
   "updater": {
     "pleaseWait": "جارٍ التحديث… يرجى الانتظار",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{تم التنزيل}}/{{الإجمالي}} ميغابايت{{eta}}",
+    "downloadedOnly": "{{تم التنزيل}} ميغابايت",
+    "etaHoursMinutes": "{{ساعة}}ساعة {{دقيقة}}دقيقة متبقية",
+    "etaMinutesSeconds": "{{دقيقة}} دقيقة {{ثانية}} ثانية متبقية",
+    "etaSeconds": "{{ثواني}} متبقية",
+    "installUpdate": "تثبيت التحديث",
+    "installing": "جارٍ تثبيت التحديث...",
+    "updateReady": "تحديث {{الإصدار}} جاهز",
+    "restartToUpdate": "أعد التشغيل للتحديث",
+    "restarting": "جارٍ إعادة التشغيل..."
   },
   "crash": {
     "title": "حدث خطأ ما",
@@ -177,8 +179,8 @@
     "playVideo": "تشغيل الفيديو",
     "pauseVideo": "إيقاف الفيديو مؤقتًا",
     "tapToOpen": "انقر للفتح",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "الصورة المرفقة",
+    "fileAttachment": "ملف مرفق",
     "sent": "تم الإرسال",
     "createChannelInCategory": "إنشاء قناة في الفئة",
     "reorder": "إعادة ترتيب",
@@ -191,12 +193,12 @@
     "randomColorHint": "يختار لونًا عشوائيًا",
     "removeColorStop": "إزالة نقطة اللون",
     "rangeSliderHint": "شريط نطاق. اضبط بالسحب.",
-    "moreOptions": ""
+    "moreOptions": "المزيد من الخيارات"
   },
   "errors": {
     "unknown": "خطأ غير معروف",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "فشل الطلب",
+    "requestFailedWithStatus": "فشل الطلب ({{الحالة}})"
   },
   "select": {
     "placeholder": "اختر خيارًا"
@@ -233,7 +235,7 @@
     "blockquote": "اقتباس",
     "code": "رمز",
     "spoiler": "حرق",
-    "color": "Color"
+    "color": "اللون"
   },
   "support": {
     "myTickets": "تذاكري",
@@ -304,22 +306,23 @@
       }
     },
     "termsOfService": "شروط الخدمة",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "لديك بالفعل تذكرة مفتوحة. قم بالرد هناك أو انتظر حتى يتم إغلاقه قبل فتح رسالة جديدة."
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "اللعب",
+    "listening": "الاستماع",
+    "elapsed": "انقضى {{الوقت}}.",
+    "showLess": "عرض أقل",
+    "played": "لعبت",
+    "listened": "استمع",
+    "openInSpotify": "فتح في Spotify"
   },
   "whatsNew": {
-    "title": ""
+    "title": "ما هو الجديد"
   },
-  "logout": "",
+  "logout": "تسجيل الخروج",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "جلد ماين كرافت",
+    "skinAltNamed": "جلد Minecraft الخاص بـ {{name}}."
   }
 }

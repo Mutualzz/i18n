@@ -34,7 +34,7 @@
     "editHintEscapeTo": "Escape で",
     "editHintEnterTo": "Enter で",
     "dropFiles": "ファイルをドロップして添付",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "スポイラーとしてマークする"
   },
   "reply": {
     "banner": "{{name}} に返信中",
@@ -59,7 +59,9 @@
     "deleteMessage": "メッセージを削除",
     "reportMessage": "メッセージを報告",
     "addReaction": "リアクションを追加",
-    "reactWith": "{{emoji}} でリアクション"
+    "reactWith": "{{emoji}} でリアクション",
+    "pinMessage": "メッセージをピン留め",
+    "unpinMessage": "ピン留めを外す"
   },
   "report": {
     "thisMessage": "このメッセージ"
@@ -70,7 +72,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "あなただけがこれを見ることができます •",
-    "dismissMessage": "メッセージを閉じる"
+    "dismissMessage": "メッセージを閉じる",
+    "pinnedMessage": "{{name}}がこのチャンネルにメッセージをピン留めしました。"
   },
   "empty": {
     "channel": {
@@ -94,7 +97,9 @@
     },
     "voice": {
       "closeChatA11y": "チャットを閉じる"
-    }
+    },
+    "pins": "ピン留めメッセージ",
+    "search": "メッセージを検索"
   },
   "voice": {
     "title": "ボイス",
@@ -150,15 +155,15 @@
       "muteStream": "ストリームをミュート",
       "live": "ライブ",
       "video": "ビデオ",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "Minecraft 経由で接続されました",
+      "audioInMinecraft": "Minecraft 経由で接続されています — マイクとスピーカーはゲーム内にあります",
+      "noiseSuppression": "ノイズ対策",
+      "noiseSuppressionDescription": "会話中の周囲の騒音をカットします。話している間、拍手などの騒音を出します。友達にはあなたの声がほとんど聞こえるはずです。",
+      "noiseSuppressionA11y": "ノイズ抑制",
+      "noiseSuppressionOn": "ノイズ抑制オン",
+      "noiseSuppressionOff": "ノイズ抑制オフ",
+      "noiseSuppressionApplying": "申請中…",
+      "unmuteUser": "ユーザーのミュートを解除する"
     },
     "participant": {
       "you": "（あなた）",
@@ -222,10 +227,10 @@
       "differentDevice": "別のデバイスから接続されました",
       "movedChannel": "別のボイスチャンネルに移動しました",
       "enumerateDevices": "デバイスの列挙に失敗しました",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "画面共有に参加できませんでした"
     },
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "{{time}} の声で",
+    "channelOccupied": "{{time}} のチャネルが占有されています"
   },
   "feed": {
     "title": "フィード",
@@ -285,14 +290,14 @@
       "replyFallback": "コメント",
       "reply": "返信",
       "sendReply": "返信を送信",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "さらに読み込み中…",
+      "sortNewest": "最新",
+      "sortOldest": "最古の",
+      "viewReplies_one": "{{count}} の返信を見る",
+      "viewReplies_other": "{{count}} の返信を見る",
+      "hideReplies": "返信を非表示にする",
+      "loadMore": "さらにコメントを読み込む",
+      "close": "コメントを閉じる"
     },
     "actions": {
       "deletePost": "投稿を削除",
@@ -365,28 +370,28 @@
     "moveDown": "下に移動",
     "channelSettings": "チャンネル設定",
     "addFriend": "フレンドを追加",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "通知をミュートする",
+    "unmuteNotifications": "通知のミュートを解除する",
+    "notificationSettings": "通知設定",
+    "notificationFrequency": "頻度",
+    "notificationGeneral": "一般的な",
+    "notificationLevel": "通知レベル",
+    "notificationAll": "すべてのメッセージ",
+    "notificationMentions": "@メンションのみ",
+    "notificationNothing": "何もない",
+    "useSpaceDefault": "スペースのデフォルトを使用",
+    "muteSpace": "ミュートスペース",
+    "unmuteSpace": "スペースのミュートを解除する",
+    "muteChannel": "チャンネルをミュートする",
+    "unmuteChannel": "チャンネルのミュートを解除する",
+    "muteSpaceForDuration": "一定期間ミュートします…",
+    "muteDuration1h": "1時間",
+    "muteDuration8h": "8時間",
+    "muteDuration24h": "24時間",
+    "muteDuration1w": "1週間",
+    "muteUntilTurnBackOn": "再び電源を入れるまで",
+    "suppressEveryone": "@everyone を抑制する",
+    "suppressRoles": "@role の言及を抑制する"
   },
   "favorites": {
     "add": "お気に入りに追加",
@@ -529,21 +534,21 @@
   "blocked": "ブロック済み",
   "privateSpace": "プライベートスペース",
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "通話を開始する",
+    "startHint": "通話を開始 — Shift キーを押しながらクリックすると、呼び出し音を鳴らさずに参加できます",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "通話中…",
+    "inCall": "通話中",
+    "active": "通話中",
+    "accept": "受け入れる",
+    "decline": "衰退",
+    "join": "通話に参加する",
+    "soloTimeout": "このチャネルにそれほど長く滞在することはできません。帯域幅はツリー上で増加しません。",
+    "missed": "不在着信",
+    "ended": "通話が終了しました",
+    "missedFrom": "{{name}} からの電話に出られませんでした",
+    "endedLasted": "通話が終了しました — {{duration}}続きました",
+    "button": "電話"
   },
   "mentions": {
     "members": "メンバー",
@@ -596,7 +601,65 @@
     "unread": "未読"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "今日",
+    "yesterday": "昨日"
+  },
+  "pins": {
+    "empty": "このチャンネルには固定メッセージがありません。",
+    "pinnedBy": "{{name}} によって固定されました",
+    "jump": "ジャンプ",
+    "previous": "前のピン留めメッセージ",
+    "next": "次のピン留めメッセージ",
+    "count_one": "このチャンネルにピン留めされたメッセージは{{count}}件です。",
+    "count_other": "このチャンネルにピン留めされたメッセージは{{count}}件です。",
+    "index": "{{current}} / {{total}}"
+  },
+  "search": {
+    "placeholder": "{{space}}を検索",
+    "placeholderShort": "{{space}}を検索",
+    "hint": "このスペースを検索するには2文字以上入力してください。",
+    "empty": "メッセージが見つかりません。",
+    "searching": "検索中…",
+    "submit": "検索",
+    "close": "検索を閉じる",
+    "noText": "添付ファイルまたは埋め込み",
+    "results_one": "{{count}}件の結果",
+    "results_other": "{{count}}件の結果",
+    "resultsTitle_one": "{{count}}件の結果",
+    "resultsTitle_other": "{{count}}件の結果",
+    "filters": "フィルター",
+    "sort": "並べ替え",
+    "textChannels": "テキストチャンネル",
+    "hintConversation": "この会話を検索するには2文字以上入力してください。",
+    "sortNewest": "新しい順",
+    "sortOldest": "古い順",
+    "filterFrom": "送信者",
+    "filterIn": "チャンネル",
+    "filterMentions": "メンション",
+    "filterMentionsMe": "自分へのメンション",
+    "filterMe": "自分",
+    "filterHas": "種類",
+    "filterPinned": "ピン留めのみ",
+    "filterOptions": "その他",
+    "filterDates": "日付",
+    "filterBefore": "以前 (YYYY-MM-DD)",
+    "filterAfter": "以降 (YYYY-MM-DD)",
+    "removeFilter": "フィルターを削除",
+    "activeFromMe": "自分",
+    "activeFromUser": "@{{user}} から",
+    "activeInChannel": "#{{channel}} 内",
+    "activeMentionsUser": "@{{user}} へのメンション",
+    "activeBefore": "{{date}} 以前",
+    "activeAfter": "{{date}} 以降",
+    "hintFilters": "キーワードを入力するか、from:me has:link などのフィルターを使用",
+    "hintConversationFilters": "キーワードを入力するか、from:me has:link などのフィルターを使用",
+    "has": {
+      "link": "リンク",
+      "embed": "埋め込み",
+      "file": "ファイル",
+      "image": "画像",
+      "video": "動画",
+      "sticker": "ステッカー"
+    }
   }
 }

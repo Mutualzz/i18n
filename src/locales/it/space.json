@@ -7,17 +7,17 @@
       "general": "Generale",
       "people": "Persone",
       "moderation": "Moderazione",
-      "integrations": ""
+      "integrations": "Integrazioni"
     },
     "pages": {
       "profile": "Profilo",
-      "theme": "Theme",
+      "theme": "Tema",
       "roles": "Ruoli",
       "channels": "Canali",
       "invites": "Inviti",
       "expressions": "Espressioni",
       "bans": "Ban",
-      "minecraftBridge": ""
+      "minecraftBridge": "Minecraft Ponte"
     }
   },
   "actions": {
@@ -120,7 +120,7 @@
     "memberCount_other": "Membri {{count}}",
     "editTitle": "Modifica ruolo - {{name}}",
     "tabs": {
-      "display": "Display",
+      "display": "Visualizzazione",
       "permissions": "Permessi",
       "manageMembers": "Gestisci membri",
       "members": "Membri"
@@ -226,8 +226,8 @@
           "description": "Consenti ai membri di allegare file ai messaggi"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Aggiungi reazioni",
+          "description": "Consenti ai membri di aggiungere reazioni emoji ai messaggi"
         },
         "MentionEveryone": {
           "label": "Menziona tutti",
@@ -238,8 +238,8 @@
           "description": "Consenti ai membri di utilizzare emoji di altri spazi o i propri nei loro messaggi"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "Usa sticker esterni",
+          "description": "Consenti ai membri di usare sticker da altri spazi nei loro messaggi"
         },
         "ManageMessages": {
           "label": "Gestisci i messaggi",
@@ -258,20 +258,20 @@
           "description": "Consenti ai membri di parlare nei canali vocali"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Usa attività vocale",
+          "description": "Consenti ai membri di parlare usando il rilevamento attività vocale. Senza questo permesso, i membri devono usare push-to-talk."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "Silenzia membri",
+          "description": "Consenti ai membri di silenziare altri membri nei canali vocali"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "Assorda membri",
+          "description": "Consenti ai membri di assordare altri membri nei canali vocali"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Sposta membri",
+          "description": "Consenti ai membri di spostare altri membri tra canali vocali e disconnetterli"
         },
         "Administrator": {
           "label": "Amministratore",
@@ -358,7 +358,7 @@
     "create": {
       "title": "Crea canale",
       "name": "Nome del canale",
-      "namePlaceholder": "new-channel",
+      "namePlaceholder": "nuovo-canale",
       "type": "Tipo di canale",
       "text": "Canale di testo",
       "textDescription": "Invia messaggi, immagini e altro ancora",
@@ -442,8 +442,8 @@
           "description": "Consenti ai membri di allegare file"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Aggiungi reazioni",
+          "description": "Consenti ai membri di aggiungere reazioni emoji ai messaggi"
         },
         "MentionEveryone": {
           "label": "Menziona tutti",
@@ -454,8 +454,8 @@
           "description": "Consenti ai membri di utilizzare emoji da altri spazi"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "Usa sticker esterni",
+          "description": "Consenti ai membri di usare sticker da altri spazi"
         },
         "ManageMessages": {
           "label": "Gestisci i messaggi",
@@ -474,20 +474,20 @@
           "description": "Consenti ai membri di parlare in questo canale vocale"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Usa attività vocale",
+          "description": "Consenti ai membri di parlare usando il rilevamento attività vocale. Senza questo permesso, i membri devono usare push-to-talk."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "Silenzia membri",
+          "description": "Consenti ai membri di silenziare altri membri in questo canale vocale"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "Assorda membri",
+          "description": "Consenti ai membri di assordare altri membri in questo canale vocale"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Sposta membri",
+          "description": "Consenti ai membri di spostare altri membri tra canali vocali e disconnetterli"
         }
       }
     }
@@ -521,13 +521,13 @@
     "directMessages": "Messaggi diretti",
     "friends": "Amici",
     "spaces": "Spazi",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "Canali",
+    "bridges": "Ponti",
+    "moreOptions": "Altre opzioni",
+    "reorder": "Riordina",
+    "doneReordering": "Fatto",
+    "reorderA11y": "Riordina spazi",
+    "doneReorderingA11y": "Riordino spazi completato"
   },
   "lockdown": {
     "title": "Questo spazio è bloccato",
@@ -536,32 +536,32 @@
     "toast": "Questo spazio è bloccato. Messaggi e modifiche sono disabilitati."
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "Personalizza l'elenco canali e la chat per tutti in questo spazio. Il tuo tema personale resta altrove.",
+    "clear": "Usa tema personale",
+    "createCustom": "Crea tema spazio",
+    "spaceThemes": "Questo spazio",
+    "noCustomThemes": "Nessun tema personalizzato ancora. Creane uno per personalizzare questo spazio."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "Invita",
+      "notifications": "Notifiche",
+      "settings": "Impostazioni"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} online",
+    "onlineCount_other": "{{count}} online",
+    "membersCount_one": "{{count}} membro",
+    "membersCount_other": "{{count}} membri",
+    "spaceEmojis": "Emoji dello spazio",
+    "notificationSettingsTitle": "Impostazioni notifiche",
+    "serverSettingsTitle": "Impostazioni spazio",
+    "unmuteSpace": "Riattiva audio {{spaceName}}",
+    "muteSpace": "Silenzia {{spaceName}}",
+    "mutedStatus": "Hai silenziato questo spazio",
+    "muteHelper": "Silenziare uno spazio impedisce badge non letti e suoni di notifica, a meno che non vieni menzionato.",
+    "serverNotificationSettings": "Impostazioni notifiche server",
+    "suppressSettings": "Sopprimi",
+    "settingsSection": "Impostazioni",
+    "userManagementSection": "Gestione utenti"
   }
 }

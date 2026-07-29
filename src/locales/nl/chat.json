@@ -54,7 +54,7 @@
     "editHintEscapeTo": "ontsnappen naar",
     "editHintEnterTo": "binnengaan naar",
     "dropFiles": "Zet bestanden neer om bij te voegen",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "Markeren als spoiler"
   },
   "reply": {
     "banner": "Reageren op {{name}}",
@@ -79,7 +79,9 @@
     "deleteMessage": "Bericht verwijderen",
     "reportMessage": "Bericht rapporteren",
     "addReaction": "Reactie toevoegen",
-    "reactWith": "Reageer met {{emoji}}"
+    "reactWith": "Reageer met {{emoji}}",
+    "pinMessage": "Bericht vastpinnen",
+    "unpinMessage": "Bericht losmaken"
   },
   "report": {
     "thisMessage": "dit bericht"
@@ -90,7 +92,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "Alleen jij kunt dit zien •",
-    "dismissMessage": "Bericht negeren"
+    "dismissMessage": "Bericht negeren",
+    "pinnedMessage": "{{name}} heeft een bericht vastgepind in dit kanaal."
   },
   "empty": {
     "channel": {
@@ -122,7 +125,7 @@
   "picker": {
     "tabs": {
       "emoji": "Emoji",
-      "gifs": "GIFs",
+      "gifs": "GIF's",
       "stickers": "Stickers"
     },
     "searchEmojis": "Zoek emoji's…",
@@ -170,24 +173,26 @@
     },
     "voice": {
       "closeChatA11y": "Chat sluiten"
-    }
+    },
+    "pins": "Vastgepinde berichten",
+    "search": "Berichten zoeken"
   },
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "Oproep starten",
+    "startHint": "Oproep starten — Shift+klik om zonder te bellen deel te nemen",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "Bellen…",
+    "inCall": "In gesprek",
+    "active": "Oproep actief",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "join": "Deelnemen aan oproep",
+    "soloTimeout": "Je kunt niet zo lang in dit kanaal blijven — bandbreedte groeit niet aan bomen.",
+    "missed": "Gemiste oproep",
+    "ended": "Oproep beëindigd",
+    "missedFrom": "Je hebt een oproep van {{name}} gemist",
+    "endedLasted": "Oproep beëindigd — duur: {{duration}}",
+    "button": "Oproep"
   },
   "mentions": {
     "members": "Leden",
@@ -234,7 +239,7 @@
       "differentDevice": "Verbonden vanaf een ander apparaat",
       "movedChannel": "Verplaatst naar een ander spraakkanaal",
       "enumerateDevices": "Kan apparaten niet opsommen",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "Kon niet deelnemen aan de schermdeling"
     },
     "controls": {
       "mute": "Dempen",
@@ -265,15 +270,15 @@
       "muteStream": "Stream dempen",
       "live": "LIVE",
       "video": "Video",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "Verbonden via Minecraft",
+      "audioInMinecraft": "Je bent verbonden via Minecraft — microfoon en luidsprekers zijn in-game",
+      "noiseSuppression": "Ruisonderdrukking",
+      "noiseSuppressionDescription": "Vermindert achtergrondgeluid terwijl je praat. Maak wat geluid — bijvoorbeeld klappen — terwijl je spreekt. Vrienden zouden vooral je stem moeten horen.",
+      "noiseSuppressionA11y": "Ruisonderdrukking",
+      "noiseSuppressionOn": "Ruisonderdrukking aan",
+      "noiseSuppressionOff": "Ruisonderdrukking uit",
+      "noiseSuppressionApplying": "Bezig met toepassen…",
+      "unmuteUser": "Dempen van gebruiker opheffen"
     },
     "participant": {
       "you": "(Jij)",
@@ -318,15 +323,15 @@
       "devBuildHint": "Ontwikkelaarsbuild: wijs schermopname toe aan {{appName}} (vaak Electron) in macOS Systeeminstellingen.",
       "goLive": "Ga live",
       "quality": {
-        "720p15": "720p 15fps",
-        "720p30": "720p 30fps",
-        "1080p30": "1080p 30fps",
-        "1080p60": "1080p 60fps",
-        "source": "Source"
+        "720p15": "720p 15 fps",
+        "720p30": "720p 30 fps",
+        "1080p30": "1080p 30 fps",
+        "1080p60": "1080p 60 fps",
+        "source": "Bron"
       }
     },
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "In spraakkanaal sinds {{time}}",
+    "channelOccupied": "Kanaal bezet sinds {{time}}"
   },
   "feed": {
     "title": "Feed",
@@ -386,14 +391,14 @@
       "replyFallback": "opmerking",
       "reply": "Beantwoorden",
       "sendReply": "Antwoord verzenden",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "Meer laden…",
+      "sortNewest": "Nieuwste",
+      "sortOldest": "Oudste",
+      "viewReplies_one": "{{count}} reactie bekijken",
+      "viewReplies_other": "{{count}} reacties bekijken",
+      "hideReplies": "Reacties verbergen",
+      "loadMore": "Meer reacties laden",
+      "close": "Reacties sluiten"
     },
     "actions": {
       "deletePost": "Bericht verwijderen",
@@ -466,28 +471,28 @@
     "moveDown": "Ga naar beneden",
     "channelSettings": "Kanaalinstellingen",
     "addFriend": "Vriend toevoegen",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "Meldingen dempen",
+    "unmuteNotifications": "Dempen van meldingen opheffen",
+    "notificationSettings": "Meldingsinstellingen",
+    "notificationFrequency": "Frequentie",
+    "notificationGeneral": "Algemeen",
+    "notificationLevel": "Meldingsniveau",
+    "notificationAll": "Alle berichten",
+    "notificationMentions": "Alleen @vermeldingen",
+    "notificationNothing": "Niets",
+    "useSpaceDefault": "Space-standaard gebruiken",
+    "muteSpace": "Space dempen",
+    "unmuteSpace": "Dempen van Space opheffen",
+    "muteChannel": "Kanaal dempen",
+    "unmuteChannel": "Dempen van kanaal opheffen",
+    "muteSpaceForDuration": "Dempen voor een bepaalde duur…",
+    "muteDuration1h": "Voor 1 uur",
+    "muteDuration8h": "Voor 8 uur",
+    "muteDuration24h": "Voor 24 uur",
+    "muteDuration1w": "Voor 1 week",
+    "muteUntilTurnBackOn": "Totdat ik het weer inschakel",
+    "suppressEveryone": "@everyone onderdrukken",
+    "suppressRoles": "@rolvermeldingen onderdrukken"
   },
   "a11y": {
     "embedImage": "Afbeelding insluiten",
@@ -563,8 +568,8 @@
       "pending": "In behandeling",
       "addFriend": "Vriend toevoegen"
     },
-    "onlineCount_one": "Online - {{count}}",
-    "onlineCount_other": "Online - {{count}}",
+    "onlineCount_one": "Online – {{count}}",
+    "onlineCount_other": "Online – {{count}}",
     "allCount_one": "Alles - {{count}}",
     "allCount_other": "Alles - {{count}}",
     "receivedCount_one": "Ontvangen - {{count}}",
@@ -596,7 +601,65 @@
     "remove": "Verwijderen"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "Vandaag",
+    "yesterday": "Gisteren"
+  },
+  "pins": {
+    "empty": "Geen vastgezette berichten in dit kanaal.",
+    "pinnedBy": "Vastgezet door {{name}}",
+    "jump": "Ga",
+    "previous": "Vorig vastgepind bericht",
+    "next": "Volgend vastgepind bericht",
+    "count_one": "{{count}} vastgepind bericht in dit kanaal.",
+    "count_other": "{{count}} vastgepinde berichten in dit kanaal.",
+    "index": "{{current}} van {{total}}"
+  },
+  "search": {
+    "placeholder": "{{space}} doorzoeken",
+    "placeholderShort": "{{space}} doorzoeken",
+    "hint": "Typ minimaal 2 tekens om in deze space te zoeken.",
+    "empty": "Geen berichten gevonden.",
+    "searching": "Zoeken…",
+    "submit": "Zoeken",
+    "close": "Zoeken sluiten",
+    "noText": "Bijlage of embed",
+    "results_one": "{{count}} resultaat",
+    "results_other": "{{count}} resultaten",
+    "resultsTitle_one": "{{count}} resultaat",
+    "resultsTitle_other": "{{count}} resultaten",
+    "filters": "Filters",
+    "sort": "Sorteren",
+    "textChannels": "Tekstkanalen",
+    "hintConversation": "Typ minstens 2 tekens om in dit gesprek te zoeken.",
+    "sortNewest": "Nieuwste eerst",
+    "sortOldest": "Oudste eerst",
+    "filterFrom": "Van",
+    "filterIn": "In",
+    "filterMentions": "Vermeldingen",
+    "filterMentionsMe": "Vermeldt mij",
+    "filterMe": "Ik",
+    "filterHas": "Heeft",
+    "filterPinned": "Alleen vastgezet",
+    "filterOptions": "Meer",
+    "filterDates": "Datum",
+    "filterBefore": "Voor (JJJJ-MM-DD)",
+    "filterAfter": "Na (JJJJ-MM-DD)",
+    "removeFilter": "Filter verwijderen",
+    "activeFromMe": "Van mij",
+    "activeFromUser": "Van @{{user}}",
+    "activeInChannel": "In #{{channel}}",
+    "activeMentionsUser": "Vermeldt @{{user}}",
+    "activeBefore": "Voor {{date}}",
+    "activeAfter": "Na {{date}}",
+    "hintFilters": "Typ trefwoorden of gebruik filters zoals from:me has:link",
+    "hintConversationFilters": "Typ trefwoorden of gebruik filters zoals from:me has:link",
+    "has": {
+      "link": "Koppelen",
+      "embed": "Insluiting",
+      "file": "Bestand",
+      "image": "Afbeelding",
+      "video": "Video",
+      "sticker": "Sticker"
+    }
   }
 }

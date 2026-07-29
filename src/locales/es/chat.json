@@ -34,7 +34,7 @@
     "editHintEscapeTo": "escape para",
     "editHintEnterTo": "enter para",
     "dropFiles": "Suelta archivos para adjuntar",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "Marcar como spoiler"
   },
   "reply": {
     "banner": "Respondiendo a {{name}}",
@@ -59,7 +59,9 @@
     "deleteMessage": "Eliminar mensaje",
     "reportMessage": "Reportar mensaje",
     "addReaction": "Añadir reacción",
-    "reactWith": "Reaccionar con {{emoji}}"
+    "reactWith": "Reaccionar con {{emoji}}",
+    "pinMessage": "Fijar mensaje",
+    "unpinMessage": "Desfijar mensaje"
   },
   "report": {
     "thisMessage": "este mensaje"
@@ -70,7 +72,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "Solo tú puedes ver esto •",
-    "dismissMessage": "Descartar mensaje"
+    "dismissMessage": "Descartar mensaje",
+    "pinnedMessage": "{{name}} fijó un mensaje en este canal."
   },
   "empty": {
     "channel": {
@@ -94,7 +97,9 @@
     },
     "voice": {
       "closeChatA11y": "Cerrar chat"
-    }
+    },
+    "pins": "Mensajes fijados",
+    "search": "Buscar mensajes"
   },
   "voice": {
     "title": "Voz",
@@ -150,15 +155,15 @@
       "muteStream": "Silenciar transmisión",
       "live": "EN VIVO",
       "video": "Vídeo",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "Conectado vía Minecraft",
+      "audioInMinecraft": "Estás conectado vía Minecraft — el micrófono y los altavoces están en el juego",
+      "noiseSuppression": "Supresión de ruido",
+      "noiseSuppressionDescription": "Reduce el ruido de fondo mientras hablas. Haz algo de ruido, como aplaudir, mientras hablas. Tus amigos deberían oír principalmente tu voz.",
+      "noiseSuppressionA11y": "Supresión de ruido",
+      "noiseSuppressionOn": "Supresión de ruido activada",
+      "noiseSuppressionOff": "Supresión de ruido desactivada",
+      "noiseSuppressionApplying": "Aplicando…",
+      "unmuteUser": "Dejar de silenciar usuario"
     },
     "participant": {
       "you": "(Tú)",
@@ -222,13 +227,13 @@
       "differentDevice": "Conectado desde otro dispositivo",
       "movedChannel": "Movido a otro canal de voz",
       "enumerateDevices": "No se pudieron enumerar los dispositivos",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "No se pudo unir a la pantalla compartida"
     },
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "En voz durante {{time}}",
+    "channelOccupied": "Canal ocupado durante {{time}}"
   },
   "feed": {
-    "title": "Feed",
+    "title": "Alimentar",
     "tabs": {
       "forYou": "Para ti",
       "friends": "Amigos",
@@ -285,14 +290,14 @@
       "replyFallback": "comentario",
       "reply": "Responder",
       "sendReply": "Enviar respuesta",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "Cargando más…",
+      "sortNewest": "Más recientes",
+      "sortOldest": "Más antiguos",
+      "viewReplies_one": "Ver {{count}} respuesta",
+      "viewReplies_other": "Ver {{count}} respuestas",
+      "hideReplies": "Ocultar respuestas",
+      "loadMore": "Cargar más comentarios",
+      "close": "Cerrar comentarios"
     },
     "actions": {
       "deletePost": "Eliminar publicación",
@@ -365,28 +370,28 @@
     "moveDown": "Bajar",
     "channelSettings": "Configuración del canal",
     "addFriend": "Añadir amigo",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "Silenciar notificaciones",
+    "unmuteNotifications": "Dejar de silenciar notificaciones",
+    "notificationSettings": "Configuración de notificaciones",
+    "notificationFrequency": "Frecuencia",
+    "notificationGeneral": "General",
+    "notificationLevel": "Nivel de notificaciones",
+    "notificationAll": "Todos los mensajes",
+    "notificationMentions": "Solo @menciones",
+    "notificationNothing": "Nada",
+    "useSpaceDefault": "Usar predeterminado del espacio",
+    "muteSpace": "Silenciar espacio",
+    "unmuteSpace": "Dejar de silenciar espacio",
+    "muteChannel": "Silenciar canal",
+    "unmuteChannel": "Dejar de silenciar canal",
+    "muteSpaceForDuration": "Silenciar por un tiempo…",
+    "muteDuration1h": "Durante 1 hora",
+    "muteDuration8h": "Durante 8 horas",
+    "muteDuration24h": "Durante 24 horas",
+    "muteDuration1w": "Durante 1 semana",
+    "muteUntilTurnBackOn": "Hasta que lo reactive",
+    "suppressEveryone": "Suprimir @everyone",
+    "suppressRoles": "Suprimir menciones de @rol"
   },
   "favorites": {
     "add": "Añadir a favoritos",
@@ -394,7 +399,7 @@
   },
   "stickers": {
     "animated": "Sticker animado",
-    "sticker": "Sticker"
+    "sticker": "Etiqueta engomada"
   },
   "groupDm": {
     "title": "MD de grupo",
@@ -490,7 +495,7 @@
     "tabs": {
       "emoji": "Emoji",
       "gifs": "GIFs",
-      "stickers": "Stickers"
+      "stickers": "Pegatinas"
     },
     "searchEmojis": "Buscar emojis…",
     "searchStickers": "Buscar stickers…",
@@ -529,21 +534,21 @@
   "blocked": "Bloqueado",
   "privateSpace": "Espacio privado",
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "Iniciar llamada",
+    "startHint": "Iniciar llamada — Mayús+clic para unirse sin timbrar",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "Llamando…",
+    "inCall": "En llamada",
+    "active": "Llamada activa",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "join": "Unirse a la llamada",
+    "soloTimeout": "No puedes permanecer tanto tiempo en este canal — el ancho de banda no crece en los árboles.",
+    "missed": "Llamada perdida",
+    "ended": "Llamada finalizada",
+    "missedFrom": "Perdiste una llamada de {{name}}",
+    "endedLasted": "Llamada finalizada — duró {{duration}}",
+    "button": "Llamada"
   },
   "mentions": {
     "members": "Miembros",
@@ -596,7 +601,65 @@
     "unread": "no leído"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "Hoy",
+    "yesterday": "Ayer"
+  },
+  "pins": {
+    "empty": "No hay mensajes fijados en este canal.",
+    "pinnedBy": "Fijado por {{name}}",
+    "jump": "Ir",
+    "previous": "Mensaje fijado anterior",
+    "next": "Mensaje fijado siguiente",
+    "count_one": "{{count}} mensaje fijado en este canal.",
+    "count_other": "{{count}} mensajes fijados en este canal.",
+    "index": "{{current}} de {{total}}"
+  },
+  "search": {
+    "placeholder": "Buscar {{space}}",
+    "placeholderShort": "Buscar {{space}}",
+    "hint": "Escribe al menos 2 caracteres para buscar en este espacio.",
+    "empty": "No se encontraron mensajes.",
+    "searching": "Buscando…",
+    "submit": "Buscar",
+    "close": "Cerrar búsqueda",
+    "noText": "Archivo adjunto o embed",
+    "results_one": "{{count}} resultado",
+    "results_other": "{{count}} resultados",
+    "resultsTitle_one": "{{count}} resultado",
+    "resultsTitle_other": "{{count}} resultados",
+    "filters": "Filtros",
+    "sort": "Ordenar",
+    "textChannels": "Canales de texto",
+    "hintConversation": "Escribe al menos 2 caracteres para buscar en esta conversación.",
+    "sortNewest": "Más recientes primero",
+    "sortOldest": "Más antiguos primero",
+    "filterFrom": "De",
+    "filterIn": "En",
+    "filterMentions": "Menciones",
+    "filterMentionsMe": "Me menciona",
+    "filterMe": "Yo",
+    "filterHas": "Tiene",
+    "filterPinned": "Solo fijados",
+    "filterOptions": "Más",
+    "filterDates": "Fecha",
+    "filterBefore": "Antes de (AAAA-MM-DD)",
+    "filterAfter": "Después de (AAAA-MM-DD)",
+    "removeFilter": "Quitar filtro",
+    "activeFromMe": "De mí",
+    "activeFromUser": "De @{{user}}",
+    "activeInChannel": "En #{{channel}}",
+    "activeMentionsUser": "Menciona a @{{user}}",
+    "activeBefore": "Antes de {{date}}",
+    "activeAfter": "Después de {{date}}",
+    "hintFilters": "Escribe palabras clave o usa filtros como from:me has:link",
+    "hintConversationFilters": "Escribe palabras clave o usa filtros como from:me has:link",
+    "has": {
+      "link": "Enlace",
+      "embed": "Incrustado",
+      "file": "Archivo",
+      "image": "Imagen",
+      "video": "Vídeo",
+      "sticker": "Etiqueta engomada"
+    }
   }
 }

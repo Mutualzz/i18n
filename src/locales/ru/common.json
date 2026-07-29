@@ -124,7 +124,7 @@
     "unsafeHttpBody": "Ссылка использует незащищённое HTTP-соединение. Это может подвергнуть ваши данные риску.",
     "confirmProceed": "Вы уверены, что хотите продолжить?",
     "blockedInApp": "В целях безопасности мы не открываем небезопасные ссылки прямо в приложении. Скопируйте ссылку и откройте её в браузере.",
-    "dontShowAgain": ""
+    "dontShowAgain": "Больше не показывать это предупреждение"
   },
   "connection": {
     "reconnect": "Переподключиться",
@@ -138,14 +138,16 @@
   },
   "updater": {
     "pleaseWait": "Обновление… подождите",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "Осталось {{hours}}ч {{minutes}}м",
+    "etaMinutesSeconds": "Осталось {{minutes}}м {{seconds}}с",
+    "etaSeconds": "Осталось {{seconds}}с",
+    "installUpdate": "Установить обновление",
+    "installing": "Установка обновления…",
+    "updateReady": "Обновление {{version}} готово",
+    "restartToUpdate": "Перезапустить для обновления",
+    "restarting": "Перезапуск…"
   },
   "crash": {
     "title": "Что-то пошло не так",
@@ -171,8 +173,8 @@
     "playVideo": "Воспроизвести видео",
     "pauseVideo": "Приостановить видео",
     "tapToOpen": "Нажмите, чтобы открыть",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "Вложение изображения",
+    "fileAttachment": "Вложение файла",
     "sent": "Отправлено",
     "createChannelInCategory": "Создать канал в категории",
     "reorder": "Изменить порядок",
@@ -185,12 +187,12 @@
     "randomColorHint": "Выбирает случайный цвет",
     "removeColorStop": "Удалить точку цвета",
     "rangeSliderHint": "Ползунок диапазона. Перетащите для настройки.",
-    "moreOptions": ""
+    "moreOptions": "Больше параметров"
   },
   "errors": {
     "unknown": "Неизвестная ошибка",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "Запрос не выполнен",
+    "requestFailedWithStatus": "Запрос не выполнен ({{status}})"
   },
   "select": {
     "placeholder": "Выберите вариант"
@@ -227,7 +229,7 @@
     "blockquote": "Цитата",
     "code": "Код",
     "spoiler": "Спойлер",
-    "color": "Color"
+    "color": "Цвет"
   },
   "support": {
     "myTickets": "Мои обращения",
@@ -298,22 +300,23 @@
       }
     },
     "termsOfService": "Условия использования",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "У вас уже есть открытый тикет. Ответьте там или дождитесь его закрытия, прежде чем открывать новый."
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "Играет",
+    "listening": "Слушает",
+    "elapsed": "Прошло {{time}}",
+    "showLess": "Показать меньше",
+    "played": "Играл(а)",
+    "listened": "Прослушано",
+    "openInSpotify": "Открыть в Spotify"
   },
   "whatsNew": {
-    "title": ""
+    "title": "Что нового"
   },
-  "logout": "",
+  "logout": "Выйти",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Скин Minecraft",
+    "skinAltNamed": "Скин Minecraft игрока {{name}}"
   }
 }

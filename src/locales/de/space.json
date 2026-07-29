@@ -7,17 +7,17 @@
       "general": "Allgemein",
       "people": "Personen",
       "moderation": "Moderation",
-      "integrations": ""
+      "integrations": "Integrationen"
     },
     "pages": {
       "profile": "Profil",
-      "theme": "Theme",
+      "theme": "Design",
       "roles": "Rollen",
       "channels": "Kanäle",
       "invites": "Einladungen",
       "expressions": "Ausdrücke",
       "bans": "Banns",
-      "minecraftBridge": ""
+      "minecraftBridge": "Minecraft-Bridge"
     }
   },
   "actions": {
@@ -223,8 +223,8 @@
           "description": "Erlaubt Mitgliedern, Dateien an Nachrichten anzuhängen"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Reaktionen hinzufügen",
+          "description": "Mitgliedern erlauben, Emoji-Reaktionen zu Nachrichten hinzuzufügen"
         },
         "MentionEveryone": {
           "label": "Everyone erwähnen",
@@ -235,8 +235,8 @@
           "description": "Erlaubt Mitgliedern, Emojis aus anderen Spaces oder eigene in ihren Nachrichten zu verwenden"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces in their messages"
+          "label": "Externe Sticker verwenden",
+          "description": "Mitgliedern erlauben, Sticker aus anderen Spaces in ihren Nachrichten zu verwenden"
         },
         "ManageMessages": {
           "label": "Nachrichten verwalten",
@@ -255,20 +255,20 @@
           "description": "Erlaubt Mitgliedern, in Sprachkanälen zu sprechen"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Sprachaktivität verwenden",
+          "description": "Mitgliedern erlauben, mit Sprachaktivitätserkennung zu sprechen. Ohne diese Berechtigung müssen Mitglieder Push-to-Talk verwenden."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in voice channels"
+          "label": "Mitglieder stummschalten",
+          "description": "Mitgliedern erlauben, andere Mitglieder in Sprachkanälen stummzuschalten"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in voice channels"
+          "label": "Mitglieder taubschalten",
+          "description": "Mitgliedern erlauben, andere Mitglieder in Sprachkanälen taubzuschalten"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Mitglieder verschieben",
+          "description": "Mitgliedern erlauben, andere Mitglieder zwischen Sprachkanälen zu verschieben und die Verbindung zu trennen"
         },
         "Administrator": {
           "label": "Administrator",
@@ -376,8 +376,8 @@
           "description": "Erlaubt Mitgliedern, Dateien anzuhängen"
         },
         "AddReactions": {
-          "label": "Add Reactions",
-          "description": "Allow members to add emoji reactions to messages"
+          "label": "Reaktionen hinzufügen",
+          "description": "Mitgliedern erlauben, Emoji-Reaktionen zu Nachrichten hinzuzufügen"
         },
         "MentionEveryone": {
           "label": "Everyone erwähnen",
@@ -388,8 +388,8 @@
           "description": "Erlaubt Mitgliedern, Emojis aus anderen Spaces zu verwenden"
         },
         "UseExternalStickers": {
-          "label": "Use External Stickers",
-          "description": "Allow members to use stickers from other spaces"
+          "label": "Externe Sticker verwenden",
+          "description": "Mitgliedern erlauben, Sticker aus anderen Spaces zu verwenden"
         },
         "ManageMessages": {
           "label": "Nachrichten verwalten",
@@ -408,20 +408,20 @@
           "description": "Erlaubt Mitgliedern, in diesem Sprachkanal zu sprechen"
         },
         "UseVAD": {
-          "label": "Use Voice Activity",
-          "description": "Allow members to speak using voice activity detection. Without this permission, members must use push-to-talk."
+          "label": "Sprachaktivität verwenden",
+          "description": "Mitgliedern erlauben, mit Sprachaktivitätserkennung zu sprechen. Ohne diese Berechtigung müssen Mitglieder Push-to-Talk verwenden."
         },
         "MuteMembers": {
-          "label": "Mute Members",
-          "description": "Allow members to mute other members in this voice channel"
+          "label": "Mitglieder stummschalten",
+          "description": "Mitgliedern erlauben, andere Mitglieder in diesem Sprachkanal stummzuschalten"
         },
         "DeafenMembers": {
-          "label": "Deafen Members",
-          "description": "Allow members to deafen other members in this voice channel"
+          "label": "Mitglieder taubschalten",
+          "description": "Mitgliedern erlauben, andere Mitglieder in diesem Sprachkanal taubzuschalten"
         },
         "MoveMembers": {
-          "label": "Move Members",
-          "description": "Allow members to move other members between voice channels and disconnect them"
+          "label": "Mitglieder verschieben",
+          "description": "Mitgliedern erlauben, andere Mitglieder zwischen Sprachkanälen zu verschieben und die Verbindung zu trennen"
         }
       },
       "addOverwrite": "Berechtigungsüberschreibung hinzufügen",
@@ -514,13 +514,13 @@
     "friends": "Freunde",
     "spaces": "Spaces",
     "switchToFeed": "Zum Feed wechseln",
-    "channels": "",
-    "bridges": "",
-    "moreOptions": "",
-    "reorder": "",
-    "doneReordering": "",
-    "reorderA11y": "",
-    "doneReorderingA11y": ""
+    "channels": "Kanäle",
+    "bridges": "Bridges",
+    "moreOptions": "Weitere Optionen",
+    "reorder": "Neu anordnen",
+    "doneReordering": "Fertig",
+    "reorderA11y": "Spaces neu anordnen",
+    "doneReorderingA11y": "Neuanordnung der Spaces abgeschlossen"
   },
   "lockdown": {
     "title": "Dieser Space ist im Lockdown",
@@ -536,32 +536,32 @@
     "spaceMenuA11y": "Space-Menü"
   },
   "theme": {
-    "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
-    "clear": "Use personal theme",
-    "createCustom": "Create space theme",
-    "spaceThemes": "This space",
-    "noCustomThemes": "No custom themes yet. Create one to brand this space."
+    "description": "Gestalte die Kanalliste und den Chat für alle in diesem Space. Dein persönliches Theme bleibt anderswo erhalten.",
+    "clear": "Persönliches Theme verwenden",
+    "createCustom": "Space-Theme erstellen",
+    "spaceThemes": "Dieser Space",
+    "noCustomThemes": "Noch keine benutzerdefinierten Themes. Erstelle eines, um diesen Space zu branden."
   },
   "sheet": {
     "quickActions": {
-      "invite": "",
-      "notifications": "",
-      "settings": ""
+      "invite": "Einladen",
+      "notifications": "Benachrichtigungen",
+      "settings": "Einstellungen"
     },
-    "onlineCount_one": "",
-    "onlineCount_other": "",
-    "membersCount_one": "",
-    "membersCount_other": "",
-    "spaceEmojis": "",
-    "notificationSettingsTitle": "",
-    "serverSettingsTitle": "",
-    "unmuteSpace": "",
-    "muteSpace": "",
-    "mutedStatus": "",
-    "muteHelper": "",
-    "serverNotificationSettings": "",
-    "suppressSettings": "",
-    "settingsSection": "",
-    "userManagementSection": ""
+    "onlineCount_one": "{{count}} online",
+    "onlineCount_other": "{{count}} online",
+    "membersCount_one": "{{count}} Mitglied",
+    "membersCount_other": "{{count}} Mitglieder",
+    "spaceEmojis": "Space-Emoji",
+    "notificationSettingsTitle": "Benachrichtigungseinstellungen",
+    "serverSettingsTitle": "Space-Einstellungen",
+    "unmuteSpace": "Stummschaltung von {{spaceName}} aufheben",
+    "muteSpace": "{{spaceName}} stummschalten",
+    "mutedStatus": "Du hast diesen Space stummgeschaltet",
+    "muteHelper": "Das Stummschalten eines Space verhindert Ungelesen-Abzeichen und Benachrichtigungstöne, außer du wirst erwähnt.",
+    "serverNotificationSettings": "Servereinstellungen für Benachrichtigungen",
+    "suppressSettings": "Unterdrücken",
+    "settingsSection": "Einstellungen",
+    "userManagementSection": "Nutzerverwaltung"
   }
 }

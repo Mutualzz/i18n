@@ -7,12 +7,12 @@
     "activity": "Attività",
     "appeals": "Ricorsi",
     "support": "Supporto",
-    "changelogs": ""
+    "changelogs": "Changelog"
   },
   "pages": {
     "activity": "Attività del personale",
     "reportDetails": "Dettagli del rapporto",
-    "changelogs": ""
+    "changelogs": "Changelog"
   },
   "home": {
     "findUser": "Trova un utente",
@@ -27,7 +27,7 @@
     "loading": "Caricamento..."
   },
   "sections": {
-    "info": "Info",
+    "info": "Informazioni",
     "flags": "Bandiere",
     "actions": "Azioni",
     "sessions": "Sessioni attive",
@@ -41,7 +41,7 @@
       "noDisplayName": "Nessun nome visualizzato impostato",
       "saveChanges": "Salva modifiche",
       "accountDetails": "Dettagli dell'account",
-      "email": "Email",
+      "email": "E-mail",
       "emailVerified": "E-mail verificata",
       "yes": "Sì",
       "no": "No",
@@ -75,7 +75,7 @@
         "deleteAccount": "Impossibile eliminare l'account",
         "restrictUser": "Impossibile limitare l'utente"
       },
-      "founderProtectedBanner": ""
+      "founderProtectedBanner": "Gli account dei fondatori sono protetti. Lo staff non può avvisarli, limitarli, disabilitarli, eliminarli o intraprendere altre azioni contro di loro."
     },
     "modals": {
       "reasonRequired": "Motivo (obbligatorio)",
@@ -284,36 +284,36 @@
       "tookDownContent": "{{actor}} ha abbattuto un {{type}} segnalato",
       "lockedDownSpace": "{{actor}} ha bloccato uno spazio",
       "shutDownSpace": "{{actor}} ha chiuso uno spazio segnalato",
-      "publishedChangelog": "",
-      "deletedChangelog": ""
+      "publishedChangelog": "{{actor}} ha pubblicato un changelog",
+      "deletedChangelog": "{{actor}} ha eliminato un changelog"
     }
   },
   "changelogs": {
-    "title": "",
-    "description": "",
-    "titleLabel": "",
-    "titlePlaceholder": "",
-    "bodyLabel": "",
-    "bodyPlaceholder": "",
-    "imageUrlLabel": "",
-    "imageUrlPlaceholder": "",
-    "desktopVersion": "",
-    "mobileVersion": "",
-    "versionPlaceholder": "",
-    "publish": "",
-    "publishing": "",
-    "preview": "Preview",
-    "empty": "",
-    "delete": "",
-    "desktop": "",
-    "mobile": "",
-    "published": "",
-    "deleted": "",
+    "title": "Changelog",
+    "description": "Pubblica popup Novità per gli utenti che aggiornano a una versione target dell'app.",
+    "titleLabel": "Titolo",
+    "titlePlaceholder": "Novità di questa versione",
+    "bodyLabel": "Corpo (markdown)",
+    "bodyPlaceholder": "Descrivi le modifiche…",
+    "imageUrlLabel": "URL immagine (facoltativo)",
+    "imageUrlPlaceholder": "https://…",
+    "desktopVersion": "Versione desktop",
+    "mobileVersion": "Versione mobile",
+    "versionPlaceholder": "es. 6.21.0",
+    "publish": "Pubblica",
+    "publishing": "Pubblicazione…",
+    "preview": "Anteprima",
+    "empty": "Nessun changelog ancora",
+    "delete": "Elimina",
+    "desktop": "Desktop {{version}}",
+    "mobile": "Mobile {{version}}",
+    "published": "Pubblicato con successo",
+    "deleted": "Changelog eliminato",
     "errors": {
-      "publish": "",
-      "delete": "",
-      "versionRequired": ""
+      "publish": "Impossibile pubblicare il changelog",
+      "delete": "Impossibile eliminare il changelog",
+      "versionRequired": "Fornisci una versione desktop e/o mobile"
     },
-    "developerRequired": ""
+    "developerRequired": "Solo gli sviluppatori possono gestire i changelog"
   }
 }

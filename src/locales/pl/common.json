@@ -124,7 +124,7 @@
     "unsafeHttpBody": "Link, który próbujesz otworzyć, korzysta z niezabezpieczonego połączenia HTTP. Może to potencjalnie narazić Twoje dane na kontakt z osobami trzecimi.",
     "confirmProceed": "Czy na pewno chcesz kontynuować?",
     "blockedInApp": "Ze względów bezpieczeństwa nie zezwalamy na otwieranie niebezpiecznych linków bezpośrednio w aplikacji. Proszę skopiować link i otworzyć go w swojej przeglądarce internetowej.",
-    "dontShowAgain": ""
+    "dontShowAgain": "Nie pokazuj tego ostrzeżenia ponownie"
   },
   "connection": {
     "reconnect": "Na nowo połączyć",
@@ -138,14 +138,16 @@
   },
   "updater": {
     "pleaseWait": "Aktualizowanie… proszę czekać",
-    "downloadProgress": "",
-    "downloadedOnly": "",
-    "etaHoursMinutes": "",
-    "etaMinutesSeconds": "",
-    "etaSeconds": "",
-    "installUpdate": "",
-    "installing": "",
-    "updateReady": ""
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
+    "etaHoursMinutes": "Pozostało {{hours}}h {{minutes}}m",
+    "etaMinutesSeconds": "Pozostało {{minutes}}m {{seconds}}s",
+    "etaSeconds": "Pozostało {{seconds}}s",
+    "installUpdate": "Zainstaluj aktualizację",
+    "installing": "Instalowanie aktualizacji…",
+    "updateReady": "Aktualizacja {{version}} gotowa",
+    "restartToUpdate": "Uruchom ponownie, aby zaktualizować",
+    "restarting": "Ponowne uruchamianie…"
   },
   "crash": {
     "title": "Coś poszło nie tak",
@@ -171,8 +173,8 @@
     "playVideo": "Odtwórz wideo",
     "pauseVideo": "Wstrzymaj wideo",
     "tapToOpen": "Kliknij, aby otworzyć",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
+    "imageAttachment": "Załącznik obrazu",
+    "fileAttachment": "Załącznik pliku",
     "sent": "Wysłano",
     "createChannelInCategory": "Utwórz kanał w kategorii",
     "reorder": "Zmień kolejność",
@@ -185,12 +187,12 @@
     "randomColorHint": "Wybiera losowy kolor",
     "removeColorStop": "Usuń blokadę koloru",
     "rangeSliderHint": "Suwak zakresu. Dostosuj, przeciągając.",
-    "moreOptions": ""
+    "moreOptions": "Więcej opcji"
   },
   "errors": {
     "unknown": "Nieznany błąd",
-    "requestFailed": "",
-    "requestFailedWithStatus": ""
+    "requestFailed": "Żądanie nie powiodło się",
+    "requestFailedWithStatus": "Żądanie nie powiodło się ({{status}})"
   },
   "select": {
     "placeholder": "Wybierz opcję"
@@ -227,7 +229,7 @@
     "blockquote": "Cytat",
     "code": "Kod",
     "spoiler": "Spoiler",
-    "color": "Color"
+    "color": "Kolor"
   },
   "support": {
     "myTickets": "Moje bilety",
@@ -298,22 +300,23 @@
       }
     },
     "termsOfService": "Warunki korzystania",
-    "pendingTicketExists": ""
+    "pendingTicketExists": "Masz już otwarte zgłoszenie. Odpowiedz tam lub poczekaj, aż zostanie zamknięte, zanim otworzysz nowe."
   },
   "activity": {
-    "playing": "",
-    "listening": "",
-    "elapsed": "",
-    "showLess": "",
-    "played": "",
-    "listened": ""
+    "playing": "Gra",
+    "listening": "Słucha",
+    "elapsed": "Upłynęło {{time}}",
+    "showLess": "Pokaż mniej",
+    "played": "Grano",
+    "listened": "Słuchano",
+    "openInSpotify": "Otwórz w Spotify"
   },
   "whatsNew": {
-    "title": ""
+    "title": "Co nowego"
   },
-  "logout": "",
+  "logout": "Wyloguj się",
   "minecraft": {
-    "skinAlt": "",
-    "skinAltNamed": ""
+    "skinAlt": "Skórka Minecraft",
+    "skinAltNamed": "Skórka Minecraft gracza {{name}}"
   }
 }

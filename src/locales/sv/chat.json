@@ -46,15 +46,15 @@
     "openEmojiPicker": "Öppna emoji-väljare",
     "openGifPicker": "Öppna GIF-väljare",
     "openStickerPicker": "Öppna klistermärkesväljare",
-    "mentionOn": "@ ON",
-    "mentionOff": "@ OFF",
+    "mentionOn": "@ PÅ",
+    "mentionOff": "@ AV",
     "editHint": "escape för att avbryta • enter för att spara",
     "editHintCancel": "avbryt",
     "editHintSave": "spara",
     "editHintEscapeTo": "escape för att",
     "editHintEnterTo": "enter för att",
     "dropFiles": "Släpp filer för att bifoga",
-    "markAsSpoiler": ""
+    "markAsSpoiler": "Markera som spoiler"
   },
   "reply": {
     "banner": "Svarar {{name}}",
@@ -79,7 +79,9 @@
     "deleteMessage": "Ta bort meddelande",
     "reportMessage": "Anmäl meddelande",
     "addReaction": "Lägg till reaktion",
-    "reactWith": "Reagera med {{emoji}}"
+    "reactWith": "Reagera med {{emoji}}",
+    "pinMessage": "Fäst meddelande",
+    "unpinMessage": "Ta bort fästning"
   },
   "report": {
     "thisMessage": "det här meddelandet"
@@ -90,7 +92,8 @@
   },
   "system": {
     "ephemeralOnlyYou": "Bara du kan se detta •",
-    "dismissMessage": "Stäng meddelande"
+    "dismissMessage": "Stäng meddelande",
+    "pinnedMessage": "{{name}} fäste ett meddelande i den här kanalen."
   },
   "empty": {
     "channel": {
@@ -170,24 +173,26 @@
     },
     "voice": {
       "closeChatA11y": "Stäng chatt"
-    }
+    },
+    "pins": "Fästa meddelanden",
+    "search": "Sök meddelanden"
   },
   "call": {
-    "start": "Start Call",
-    "startHint": "Start call — Shift+click to join without ringing",
+    "start": "Starta samtal",
+    "startHint": "Starta samtal — Skift+klick för att gå med utan att ringa",
     "incoming": "Incoming call",
-    "calling": "Calling…",
-    "inCall": "In call",
-    "active": "Call active",
-    "accept": "Accept",
-    "decline": "Decline",
-    "join": "Join Call",
-    "soloTimeout": "You can't stay in this channel that long — bandwidth doesn't grow on trees.",
-    "missed": "Missed call",
-    "ended": "Call ended",
-    "missedFrom": "You missed a call from {{name}}",
-    "endedLasted": "Call ended — lasted {{duration}}",
-    "button": ""
+    "calling": "Ringer…",
+    "inCall": "I samtal",
+    "active": "Samtal aktivt",
+    "accept": "Acceptera",
+    "decline": "Avvisa",
+    "join": "Gå med i samtal",
+    "soloTimeout": "Du kan inte stanna i den här kanalen så länge — bandbredd växer inte på träd.",
+    "missed": "Missat samtal",
+    "ended": "Samtal avslutat",
+    "missedFrom": "Du missade ett samtal från {{name}}",
+    "endedLasted": "Samtal avslutat — varade {{duration}}",
+    "button": "Samtal"
   },
   "mentions": {
     "members": "Medlemmar",
@@ -234,7 +239,7 @@
       "differentDevice": "Ansluten från en annan enhet",
       "movedChannel": "Flyttad till en annan röstkanal",
       "enumerateDevices": "Kunde inte lista enheter",
-      "watchStreamFailed": "Couldn't join the screen share"
+      "watchStreamFailed": "Det gick inte att ansluta till skärmdelningen"
     },
     "controls": {
       "mute": "Stäng av mikrofon",
@@ -265,15 +270,15 @@
       "muteStream": "Stäng av stream",
       "live": "LIVE",
       "video": "Video",
-      "connectedViaMinecraft": "",
-      "audioInMinecraft": "",
-      "noiseSuppression": "",
-      "noiseSuppressionDescription": "",
-      "noiseSuppressionA11y": "",
-      "noiseSuppressionOn": "",
-      "noiseSuppressionOff": "",
-      "noiseSuppressionApplying": "",
-      "unmuteUser": ""
+      "connectedViaMinecraft": "Ansluten via Minecraft",
+      "audioInMinecraft": "Du är ansluten via Minecraft — mikrofon och högtalare är i spelet",
+      "noiseSuppression": "Brusreducering",
+      "noiseSuppressionDescription": "Dämpar bakgrundsljud medan du pratar. Gör lite ljud — som att klappa händerna — medan du pratar. Vänner ska mestadels höra din röst.",
+      "noiseSuppressionA11y": "Brusreducering",
+      "noiseSuppressionOn": "Brusreducering på",
+      "noiseSuppressionOff": "Brusreducering av",
+      "noiseSuppressionApplying": "Tillämpar…",
+      "unmuteUser": "Häv tystning av användare"
     },
     "participant": {
       "you": "(Du)",
@@ -316,17 +321,17 @@
       "shareAudio": "Dela ljud",
       "shareAudioDescription": "Överför ljud från den delade skärmen eller fönstret",
       "devBuildHint": "Utvecklingsbygge: ge skärminspelning till {{appName}} (ofta Electron) i macOS Systeminställningar.",
-      "goLive": "Go Live",
+      "goLive": "Gå live",
       "quality": {
-        "720p15": "720p 15fps",
-        "720p30": "720p 30fps",
-        "1080p30": "1080p 30fps",
-        "1080p60": "1080p 60fps",
+        "720p15": "720p 15 fps",
+        "720p30": "720p 30 fps",
+        "1080p30": "1080p 30 fps",
+        "1080p60": "1080p 60 fps",
         "source": "Källa"
       }
     },
-    "elapsedInChannel": "",
-    "channelOccupied": ""
+    "elapsedInChannel": "I röstkanal i {{time}}",
+    "channelOccupied": "Kanalen upptagen i {{time}}"
   },
   "feed": {
     "title": "Flöde",
@@ -386,14 +391,14 @@
       "replyFallback": "kommentar",
       "reply": "Svara",
       "sendReply": "Skicka svar",
-      "loadingMore": "",
-      "sortNewest": "",
-      "sortOldest": "",
-      "viewReplies_one": "",
-      "viewReplies_other": "",
-      "hideReplies": "",
-      "loadMore": "",
-      "close": ""
+      "loadingMore": "Läser in mer…",
+      "sortNewest": "Nyaste",
+      "sortOldest": "Äldsta",
+      "viewReplies_one": "Visa {{count}} svar",
+      "viewReplies_other": "Visa {{count}} svar",
+      "hideReplies": "Dölj svar",
+      "loadMore": "Läs in fler kommentarer",
+      "close": "Stäng kommentarer"
     },
     "actions": {
       "deletePost": "Ta bort inlägg",
@@ -466,28 +471,28 @@
     "moveDown": "Flytta ner",
     "channelSettings": "Kanalinställningar",
     "addFriend": "Lägg till vän",
-    "muteNotifications": "",
-    "unmuteNotifications": "",
-    "notificationSettings": "",
-    "notificationFrequency": "",
-    "notificationGeneral": "",
-    "notificationLevel": "",
-    "notificationAll": "",
-    "notificationMentions": "",
-    "notificationNothing": "",
-    "useSpaceDefault": "",
-    "muteSpace": "",
-    "unmuteSpace": "",
-    "muteChannel": "",
-    "unmuteChannel": "",
-    "muteSpaceForDuration": "",
-    "muteDuration1h": "",
-    "muteDuration8h": "",
-    "muteDuration24h": "",
-    "muteDuration1w": "",
-    "muteUntilTurnBackOn": "",
-    "suppressEveryone": "",
-    "suppressRoles": ""
+    "muteNotifications": "Tysta aviseringar",
+    "unmuteNotifications": "Häv tystning av aviseringar",
+    "notificationSettings": "Aviseringsinställningar",
+    "notificationFrequency": "Frekvens",
+    "notificationGeneral": "Allmänt",
+    "notificationLevel": "Aviseringsnivå",
+    "notificationAll": "Alla meddelanden",
+    "notificationMentions": "Endast @omnämnanden",
+    "notificationNothing": "Inget",
+    "useSpaceDefault": "Använd Space-standard",
+    "muteSpace": "Tysta Space",
+    "unmuteSpace": "Häv tystning av Space",
+    "muteChannel": "Tysta kanal",
+    "unmuteChannel": "Häv tystning av kanal",
+    "muteSpaceForDuration": "Tysta under en period…",
+    "muteDuration1h": "I 1 timme",
+    "muteDuration8h": "I 8 timmar",
+    "muteDuration24h": "I 24 timmar",
+    "muteDuration1w": "I 1 vecka",
+    "muteUntilTurnBackOn": "Tills jag slår på det igen",
+    "suppressEveryone": "Undertryck @everyone",
+    "suppressRoles": "Undertryck @roll-omnämnanden"
   },
   "a11y": {
     "embedImage": "Inbäddad bild",
@@ -563,8 +568,8 @@
       "pending": "Väntande",
       "addFriend": "Lägg till vän"
     },
-    "onlineCount_one": "Online - {{count}}",
-    "onlineCount_other": "Online - {{count}}",
+    "onlineCount_one": "Online – {{count}}",
+    "onlineCount_other": "Online – {{count}}",
     "allCount_one": "Alla - {{count}}",
     "allCount_other": "Alla - {{count}}",
     "receivedCount_one": "Mottagna - {{count}}",
@@ -596,7 +601,65 @@
     "remove": "Ta bort"
   },
   "dateSeparator": {
-    "today": "",
-    "yesterday": ""
+    "today": "Idag",
+    "yesterday": "Igår"
+  },
+  "pins": {
+    "empty": "Inga fastnålade meddelanden i den här kanalen.",
+    "pinnedBy": "Fastnålad av {{name}}",
+    "jump": "Hoppa",
+    "previous": "Föregående fästa meddelande",
+    "next": "Nästa fästa meddelande",
+    "count_one": "{{count}} fäst meddelande i den här kanalen.",
+    "count_other": "{{count}} fästa meddelanden i den här kanalen.",
+    "index": "{{current}} av {{total}}"
+  },
+  "search": {
+    "placeholder": "Sök {{space}}",
+    "placeholderShort": "Sök {{space}}",
+    "hint": "Skriv minst 2 tecken för att söka i det här utrymmet.",
+    "empty": "Inga meddelanden hittades.",
+    "searching": "Söker…",
+    "submit": "Sök",
+    "close": "Stäng sökning",
+    "noText": "Bilaga eller inbäddning",
+    "results_one": "{{count}} resultat",
+    "results_other": "{{count}} resultat",
+    "resultsTitle_one": "{{count}} resultat",
+    "resultsTitle_other": "{{count}} resultat",
+    "filters": "Filter",
+    "sort": "Sortera",
+    "textChannels": "Textkanaler",
+    "hintConversation": "Skriv minst 2 tecken för att söka i den här konversationen.",
+    "sortNewest": "Nyast först",
+    "sortOldest": "Äldst först",
+    "filterFrom": "Från",
+    "filterIn": "I",
+    "filterMentions": "Omnämnanden",
+    "filterMentionsMe": "Nämner mig",
+    "filterMe": "Jag",
+    "filterHas": "Har",
+    "filterPinned": "Endast fästa",
+    "filterOptions": "Mer",
+    "filterDates": "Datum",
+    "filterBefore": "Före (ÅÅÅÅ-MM-DD)",
+    "filterAfter": "Efter (ÅÅÅÅ-MM-DD)",
+    "removeFilter": "Ta bort filter",
+    "activeFromMe": "Från mig",
+    "activeFromUser": "Från @{{user}}",
+    "activeInChannel": "I #{{channel}}",
+    "activeMentionsUser": "Nämner @{{user}}",
+    "activeBefore": "Före {{date}}",
+    "activeAfter": "Efter {{date}}",
+    "hintFilters": "Skriv nyckelord eller använd filter som from:me has:link",
+    "hintConversationFilters": "Skriv nyckelord eller använd filter som from:me has:link",
+    "has": {
+      "link": "Länk",
+      "embed": "Inbäddning",
+      "file": "Fil",
+      "image": "Bild",
+      "video": "Video",
+      "sticker": "Dekaler"
+    }
   }
 }
