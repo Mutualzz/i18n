@@ -1,4 +1,4 @@
-/** Stable permission matrix structure — resolve labels via space namespace keys. */
+/** Stable permission matrix structure for space permissions. Resolve labels via space namespace keys. */
 
 export type PermissionChannelKind = "text" | "voice" | "category";
 
@@ -124,7 +124,8 @@ export const spacePermissionGroups: PermissionGroupDef[] = [
       {
         flag: "ReadMessageHistory",
         labelKey: "roles.permissions.flags.ReadMessageHistory.label",
-        descriptionKey: "roles.permissions.flags.ReadMessageHistory.description",
+        descriptionKey:
+          "roles.permissions.flags.ReadMessageHistory.description",
       },
     ],
   },
@@ -224,7 +225,8 @@ export const channelPermissionGroups: ChannelPermissionGroupDef[] = [
       {
         flag: "MentionEveryone",
         labelKey: "channels.permissions.flags.MentionEveryone.label",
-        descriptionKey: "channels.permissions.flags.MentionEveryone.description",
+        descriptionKey:
+          "channels.permissions.flags.MentionEveryone.description",
       },
       {
         flag: "AddReactions",
