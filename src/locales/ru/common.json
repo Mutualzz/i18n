@@ -1,63 +1,221 @@
 {
-  "cancel": "Отмена",
-  "save": "Сохранить",
-  "saveChanges": "Сохранить изменения",
-  "close": "Закрыть",
-  "create": "Создать",
-  "delete": "Удалить",
-  "add": "Добавить",
-  "remove": "Убрать",
-  "reset": "Сбросить",
-  "back": "Назад",
-  "clear": "Очистить",
-  "finish": "Готово",
-  "retry": "Повторить",
-  "apply": "Применить",
-  "undo": "Отменить",
-  "redo": "Повторить",
-  "open": "Открыть",
-  "proceed": "Продолжить",
-  "gotIt": "Понятно",
-  "seo": {
-    "defaultTitle": "Mutualzz (ранний доступ)",
-    "defaultDescription": "Общайтесь с людьми, которые разделяют ваши интересы. Сейчас активно разрабатывается"
+  "a11y": {
+    "allowPermission": "Разрешить {{label}}",
+    "closeModal": "Закрыть окно",
+    "closeProfile": "Закрыть профиль",
+    "createChannelInCategory": "Создать канал в категории",
+    "decrement": "Уменьшить",
+    "deleteExpression": "Удалить :{{name}}:",
+    "deleteInvite": "Удалить приглашение",
+    "deleteNamed": "Удалить {{name}}",
+    "denyPermission": "Запретить {{label}}",
+    "editWidgetHint": "Открывает редактор виджета. Долгое нажатие — чтобы переставить виджеты.",
+    "expandWidget": "Развернуть виджет {{type}}",
+    "expandWidgetHint": "Открывает полное содержимое виджета",
+    "fileAttachment": "Вложение файла",
+    "imageAttachment": "Вложение изображения",
+    "increment": "Увеличить",
+    "moreOptions": "Больше параметров",
+    "neutralPermission": "Нейтрально {{label}}",
+    "openColorPicker": "Открыть выбор цвета",
+    "pauseVideo": "Приостановить видео",
+    "playVideo": "Воспроизвести видео",
+    "randomColor": "Случайный цвет",
+    "randomColorHint": "Выбирает случайный цвет",
+    "rangeSliderHint": "Ползунок диапазона. Перетащите для настройки.",
+    "removeColorStop": "Удалить точку цвета",
+    "removeMemberFromRole": "Убрать {{member}} из {{role}}",
+    "reorder": "Изменить порядок",
+    "sent": "Отправлено",
+    "settings": "Настройки",
+    "tapToOpen": "Нажмите, чтобы открыть",
+    "time": "Время"
   },
-  "reload": "Перезагрузить приложение",
-  "download": "Скачать Mutualzz",
   "accept": "Принять",
-  "decline": "Отклонить",
-  "restore": "Восстановить",
-  "uploadCustomFont": "Загрузить свой шрифт",
-  "language": {
-    "title": "Язык",
-    "description": "Выберите язык интерфейса Mutualzz.",
-    "systemDefault": "Язык устройства"
+  "activity": {
+    "elapsed": "Прошло {{time}}",
+    "listened": "Прослушано",
+    "listening": "Слушает",
+    "openInSpotify": "Открыть в Spotify",
+    "played": "Играл(а)",
+    "playing": "Играет",
+    "showLess": "Показать меньше"
   },
+  "add": "Добавить",
+  "apply": "Применить",
+  "back": "Назад",
   "calendar": {
-    "sameDay": "[Сегодня в] H:mm",
-    "nextDay": "[Завтра в] H:mm",
     "lastDay": "[Вчера в] H:mm",
     "lastWeek": "[В прошлый] dddd [в] H:mm",
+    "nextDay": "[Завтра в] H:mm",
+    "sameDay": "[Сегодня в] H:mm",
     "sameElse": "DD.MM.YYYY H:mm"
   },
+  "cancel": "Отмена",
+  "clear": "Очистить",
+  "close": "Закрыть",
+  "connection": {
+    "audioBlocked": "Браузер заблокировал воспроизведение голосового аудио",
+    "enableAudio": "Нажмите, чтобы включить звук",
+    "offlineBanner": "Вы сейчас офлайн",
+    "reconnect": "Переподключиться"
+  },
+  "crash": {
+    "bodyDesktop": "В Mutualzz произошла непредвиденная ошибка. Перезагрузите приложение и попробуйте снова.",
+    "bodyMobile": "В Mutualzz произошла непредвиденная ошибка. Полностью закройте приложение и откройте снова.",
+    "hintAndroid": "Откройте список недавних приложений и смахните Mutualzz, пока оно не закроется.",
+    "hintIos": "Проведите вверх от нижнего края экрана, чтобы открыть переключатель приложений, затем смахните Mutualzz.",
+    "orPressShortcut": "Или нажмите {{shortcut}}",
+    "title": "Что-то пошло не так"
+  },
+  "create": "Создать",
+  "customStatus": {
+    "addEmoji": "Добавить эмодзи статуса",
+    "changeEmoji": "Сменить эмодзи статуса",
+    "changeStatus": "Изменить статус",
+    "chooseEmoji": "Выбрать эмодзи статуса",
+    "clearA11y": "Сбросить статус",
+    "editA11y": "Изменить статус",
+    "heading": "Свой статус",
+    "label": "Статус",
+    "pickEmoji": "Выбрать эмодзи",
+    "placeholder": "Введите статус...",
+    "removeEmoji": "Убрать эмодзи",
+    "setPlaceholder": "Установить статус...",
+    "setShort": "Установить статус...",
+    "title": "Установить статус",
+    "whatsOnYourMind": "О чём вы думаете?"
+  },
+  "decline": "Отклонить",
+  "delete": "Удалить",
+  "download": "Скачать Mutualzz",
   "duration": {
     "clearOnDateAt": "Сбросить {{date}} в {{time}}",
     "clearTodayAt": "Сбросить сегодня в {{time}}",
     "clearTomorrowAt": "Сбросить завтра в {{time}}",
     "days_one": "{{count}} день",
+    "days_few": "{{count}} дней",
+    "days_many": "{{count}} дней",
     "days_other": "{{count}} дней",
     "dontClear": "Не сбрасывать",
     "forever": "Навсегда",
     "hours_one": "{{count}} час",
-    "hours_other": "{{count}} часов",
-    "minutes_one": "{{count}} минута",
-    "minutes_other": "{{count}} минут",
-    "days_few": "{{count}} дней",
-    "days_many": "{{count}} дней",
     "hours_few": "{{count}} часов",
     "hours_many": "{{count}} часов",
+    "hours_other": "{{count}} часов",
+    "minutes_one": "{{count}} минута",
     "minutes_few": "{{count}} минут",
-    "minutes_many": "{{count}} минут"
+    "minutes_many": "{{count}} минут",
+    "minutes_other": "{{count}} минут"
+  },
+  "editable": {
+    "addToDictionary": "Добавить в словарь",
+    "copy": "Копировать",
+    "cut": "Вырезать",
+    "paste": "Вставить",
+    "spellcheck": "Проверка орфографии"
+  },
+  "errors": {
+    "requestFailed": "Запрос не выполнен",
+    "requestFailedWithStatus": "Запрос не выполнен ({{status}})",
+    "unknown": "Неизвестная ошибка"
+  },
+  "externalLink": {
+    "aboutToOpen": "Вы собираетесь открыть внешнюю ссылку:",
+    "blockedInApp": "В целях безопасности мы не открываем небезопасные ссылки прямо в приложении. Скопируйте ссылку и откройте её в браузере.",
+    "close": "Закрыть",
+    "confirmProceed": "Вы уверены, что хотите продолжить?",
+    "dontShowAgain": "Больше не показывать это предупреждение",
+    "proceed": "Продолжить",
+    "title": "Открыть внешнюю ссылку",
+    "unsafeHttpBody": "Ссылка использует незащищённое HTTP-соединение. Это может подвергнуть ваши данные риску.",
+    "unsafeTitle": "Эта ссылка выглядит небезопасной"
+  },
+  "finish": "Готово",
+  "gotIt": "Понятно",
+  "language": {
+    "description": "Выберите язык интерфейса Mutualzz.",
+    "systemDefault": "Язык устройства",
+    "title": "Язык"
+  },
+  "logout": "Выйти",
+  "markdown": {
+    "blockquote": "Цитата",
+    "bold": "Жирный",
+    "code": "Код",
+    "color": "Цвет",
+    "italic": "Курсив",
+    "spoiler": "Спойлер",
+    "strikethrough": "Зачёркивание",
+    "underline": "Подчёркивание"
+  },
+  "media": {
+    "download": "Скачать",
+    "pause": "Пауза",
+    "play": "Воспроизвести",
+    "volume": "Громкость"
+  },
+  "minecraft": {
+    "skinAlt": "Скин Minecraft",
+    "skinAltNamed": "Скин Minecraft игрока {{name}}"
+  },
+  "nav": {
+    "goBack": "Назад",
+    "goForward": "Вперёд"
+  },
+  "notifications": {
+    "acceptedFriend": "{{name}} принял(а) ваш запрос в друзья",
+    "groupDmChannel": "Групповой ЛС",
+    "markAllAsRead": "Отметить всё прочитанным",
+    "mentions": "Упоминания",
+    "messagePlaceholder": "Сообщение",
+    "messagesChannel": "Сообщения",
+    "noMentions": "Нет новых упоминаний",
+    "noMessagesYet": "Пока нет сообщений",
+    "noUnreads": "Нет непрочитанных сообщений",
+    "recentlyAccepted": "Недавно принятые",
+    "reply": "Ответить",
+    "requests": "Запросы",
+    "send": "Отправить",
+    "sentAttachment": "Отправлено вложение",
+    "unreads": "Непрочитанные",
+    "youWereMentioned": "Вас упомянули"
+  },
+  "open": "Открыть",
+  "proceed": "Продолжить",
+  "redo": "Повторить",
+  "reload": "Перезагрузить приложение",
+  "remove": "Убрать",
+  "report": {
+    "action": "Пожаловаться",
+    "description": "Жалобы рассматривает команда. Выберите наиболее подходящую причину.",
+    "detailsPlaceholder": "Добавьте подробности (необязательно)",
+    "reasons": {
+      "harassment": "Домогательства или оскорбления",
+      "hate_speech": "Разжигание ненависти",
+      "impersonation": "Выдача себя за другого",
+      "misinformation": "Дезинформация",
+      "nsfw": "NSFW / неприемлемый контент",
+      "other": "Другое",
+      "self_harm": "Самоповреждение или суицид",
+      "spam": "Спам"
+    },
+    "submit": "Отправить жалобу",
+    "submitting": "Отправка...",
+    "success": "Жалоба отправлена. Спасибо, что помогаете поддерживать безопасность.",
+    "title": "Пожаловаться на {{label}}"
+  },
+  "reset": "Сбросить",
+  "restore": "Восстановить",
+  "retry": "Повторить",
+  "save": "Сохранить",
+  "saveChanges": "Сохранить изменения",
+  "select": {
+    "placeholder": "Выберите вариант"
+  },
+  "seo": {
+    "defaultDescription": "Общайтесь с людьми, которые разделяют ваши интересы. Сейчас активно разрабатывается",
+    "defaultTitle": "Mutualzz (ранний доступ)"
   },
   "status": {
     "clearCustomAfter": "Сбросить статус через",
@@ -72,194 +230,7 @@
     "online": "В сети",
     "saveCustom": "Сохранить статус"
   },
-  "report": {
-    "title": "Пожаловаться на {{label}}",
-    "description": "Жалобы рассматривает команда. Выберите наиболее подходящую причину.",
-    "detailsPlaceholder": "Добавьте подробности (необязательно)",
-    "submit": "Отправить жалобу",
-    "submitting": "Отправка...",
-    "success": "Жалоба отправлена. Спасибо, что помогаете поддерживать безопасность.",
-    "action": "Пожаловаться",
-    "reasons": {
-      "spam": "Спам",
-      "harassment": "Домогательства или оскорбления",
-      "hate_speech": "Разжигание ненависти",
-      "nsfw": "NSFW / неприемлемый контент",
-      "self_harm": "Самоповреждение или суицид",
-      "impersonation": "Выдача себя за другого",
-      "misinformation": "Дезинформация",
-      "other": "Другое"
-    }
-  },
-  "editable": {
-    "addToDictionary": "Добавить в словарь",
-    "spellcheck": "Проверка орфографии",
-    "cut": "Вырезать",
-    "copy": "Копировать",
-    "paste": "Вставить"
-  },
-  "customStatus": {
-    "title": "Установить статус",
-    "heading": "Свой статус",
-    "label": "Статус",
-    "placeholder": "Введите статус...",
-    "setPlaceholder": "Установить статус...",
-    "setShort": "Установить статус...",
-    "editA11y": "Изменить статус",
-    "clearA11y": "Сбросить статус",
-    "changeEmoji": "Сменить эмодзи статуса",
-    "addEmoji": "Добавить эмодзи статуса",
-    "chooseEmoji": "Выбрать эмодзи статуса",
-    "pickEmoji": "Выбрать эмодзи",
-    "removeEmoji": "Убрать эмодзи",
-    "changeStatus": "Изменить статус",
-    "whatsOnYourMind": "О чём вы думаете?"
-  },
-  "externalLink": {
-    "proceed": "Продолжить",
-    "close": "Закрыть",
-    "title": "Открыть внешнюю ссылку",
-    "aboutToOpen": "Вы собираетесь открыть внешнюю ссылку:",
-    "unsafeTitle": "Эта ссылка выглядит небезопасной",
-    "unsafeHttpBody": "Ссылка использует незащищённое HTTP-соединение. Это может подвергнуть ваши данные риску.",
-    "confirmProceed": "Вы уверены, что хотите продолжить?",
-    "blockedInApp": "В целях безопасности мы не открываем небезопасные ссылки прямо в приложении. Скопируйте ссылку и откройте её в браузере.",
-    "dontShowAgain": "Больше не показывать это предупреждение"
-  },
-  "connection": {
-    "reconnect": "Переподключиться",
-    "enableAudio": "Нажмите, чтобы включить звук",
-    "offlineBanner": "Вы сейчас офлайн",
-    "audioBlocked": "Браузер заблокировал воспроизведение голосового аудио"
-  },
-  "nav": {
-    "goBack": "Назад",
-    "goForward": "Вперёд"
-  },
-  "updater": {
-    "pleaseWait": "Обновление… подождите",
-    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
-    "downloadedOnly": "{{downloaded}} MB",
-    "etaHoursMinutes": "Осталось {{hours}}ч {{minutes}}м",
-    "etaMinutesSeconds": "Осталось {{minutes}}м {{seconds}}с",
-    "etaSeconds": "Осталось {{seconds}}с",
-    "installUpdate": "Установить обновление",
-    "installing": "Установка обновления…",
-    "updateReady": "Обновление {{version}} готово",
-    "restartToUpdate": "Перезапустить для обновления",
-    "restarting": "Перезапуск…"
-  },
-  "crash": {
-    "title": "Что-то пошло не так",
-    "bodyDesktop": "В Mutualzz произошла непредвиденная ошибка. Перезагрузите приложение и попробуйте снова.",
-    "orPressShortcut": "Или нажмите {{shortcut}}",
-    "bodyMobile": "В Mutualzz произошла непредвиденная ошибка. Полностью закройте приложение и откройте снова.",
-    "hintIos": "Проведите вверх от нижнего края экрана, чтобы открыть переключатель приложений, затем смахните Mutualzz.",
-    "hintAndroid": "Откройте список недавних приложений и смахните Mutualzz, пока оно не закроется."
-  },
-  "a11y": {
-    "closeProfile": "Закрыть профиль",
-    "settings": "Настройки",
-    "deleteInvite": "Удалить приглашение",
-    "deleteNamed": "Удалить {{name}}",
-    "deleteExpression": "Удалить :{{name}}:",
-    "removeMemberFromRole": "Убрать {{member}} из {{role}}",
-    "allowPermission": "Разрешить {{label}}",
-    "neutralPermission": "Нейтрально {{label}}",
-    "denyPermission": "Запретить {{label}}",
-    "expandWidget": "Развернуть виджет {{type}}",
-    "expandWidgetHint": "Открывает полное содержимое виджета",
-    "editWidgetHint": "Открывает редактор виджета. Долгое нажатие — чтобы переставить виджеты.",
-    "playVideo": "Воспроизвести видео",
-    "pauseVideo": "Приостановить видео",
-    "tapToOpen": "Нажмите, чтобы открыть",
-    "imageAttachment": "Вложение изображения",
-    "fileAttachment": "Вложение файла",
-    "sent": "Отправлено",
-    "createChannelInCategory": "Создать канал в категории",
-    "reorder": "Изменить порядок",
-    "time": "Время",
-    "closeModal": "Закрыть окно",
-    "increment": "Увеличить",
-    "decrement": "Уменьшить",
-    "openColorPicker": "Открыть выбор цвета",
-    "randomColor": "Случайный цвет",
-    "randomColorHint": "Выбирает случайный цвет",
-    "removeColorStop": "Удалить точку цвета",
-    "rangeSliderHint": "Ползунок диапазона. Перетащите для настройки.",
-    "moreOptions": "Больше параметров"
-  },
-  "errors": {
-    "unknown": "Неизвестная ошибка",
-    "requestFailed": "Запрос не выполнен",
-    "requestFailedWithStatus": "Запрос не выполнен ({{status}})"
-  },
-  "select": {
-    "placeholder": "Выберите вариант"
-  },
-  "media": {
-    "play": "Воспроизвести",
-    "pause": "Пауза",
-    "download": "Скачать",
-    "volume": "Громкость"
-  },
-  "notifications": {
-    "unreads": "Непрочитанные",
-    "mentions": "Упоминания",
-    "requests": "Запросы",
-    "markAllAsRead": "Отметить всё прочитанным",
-    "acceptedFriend": "{{name}} принял(а) ваш запрос в друзья",
-    "sentAttachment": "Отправлено вложение",
-    "noMessagesYet": "Пока нет сообщений",
-    "youWereMentioned": "Вас упомянули",
-    "noUnreads": "Нет непрочитанных сообщений",
-    "noMentions": "Нет новых упоминаний",
-    "recentlyAccepted": "Недавно принятые",
-    "groupDmChannel": "Групповой ЛС",
-    "messagesChannel": "Сообщения",
-    "reply": "Ответить",
-    "messagePlaceholder": "Сообщение",
-    "send": "Отправить"
-  },
-  "markdown": {
-    "bold": "Жирный",
-    "italic": "Курсив",
-    "underline": "Подчёркивание",
-    "strikethrough": "Зачёркивание",
-    "blockquote": "Цитата",
-    "code": "Код",
-    "spoiler": "Спойлер",
-    "color": "Цвет"
-  },
   "support": {
-    "myTickets": "Мои обращения",
-    "contactSupport": "Связаться с поддержкой",
-    "loginToContact": "Войдите, чтобы связаться с поддержкой",
-    "privacyPolicy": "Политика конфиденциальности",
-    "faq": "Часто задаваемые вопросы",
-    "quickLinks": "Быстрые ссылки",
-    "contactUs": "Связаться с нами",
-    "openHelpCenter": "Открыть центр помощи",
-    "describeIssue": "Опишите проблему",
-    "newTicket": "Новое обращение",
-    "writeReply": "Написать ответ",
-    "loading": "Загрузка...",
-    "loadingTickets": "Загрузка обращений...",
-    "loadMore": "Загрузить ещё",
-    "sendReply": "Отправить ответ",
-    "sendReplyFailed": "Не удалось отправить ответ",
-    "staffLabel": "Поддержка",
-    "ticketClosed": "Это обращение закрыто.",
-    "ticketClosedHint": "Это обращение закрыто. Откройте новое, если помощь всё ещё нужна.",
-    "updatedAt": "обновлено {{date}}",
-    "pageIntro": "Нужна помощь с Mutualzz? Посмотрите ответы ниже или свяжитесь с командой.",
-    "mobileIntro": "Справка на mutualzz.com/support или напишите нам ниже.",
-    "subjectPlaceholder": "Тема",
-    "submitTicket": "Отправить обращение",
-    "createFailed": "Не удалось создать обращение",
-    "noTickets": "Пока нет обращений",
-    "contactEmailLoggedIn": "Напишите на {{email}} или откройте обращение на этой странице.",
-    "contactEmailGuest": "Напишите нам на {{email}}.",
     "categories": {
       "account": "Аккаунт и вход",
       "bug": "Ошибка или сбой",
@@ -267,56 +238,85 @@
       "feature": "Предложение функции",
       "other": "Другое"
     },
+    "contactEmailGuest": "Напишите нам на {{email}}.",
+    "contactEmailLoggedIn": "Напишите на {{email}} или откройте обращение на этой странице.",
+    "contactSupport": "Связаться с поддержкой",
+    "contactUs": "Связаться с нами",
+    "createFailed": "Не удалось создать обращение",
+    "describeIssue": "Опишите проблему",
+    "faq": "Часто задаваемые вопросы",
     "faqItems": {
-      "report": {
-        "q": "Как пожаловаться на пользователя или контент?",
-        "a": "Откройте профиль пользователя или меню контента и выберите «Пожаловаться». Команда рассмотрит обращение."
-      },
       "appeal": {
-        "q": "Как обжаловать бан?",
-        "a": "Если вы получили письмо о бане, используйте ссылку для апелляции в нём. Команда рассмотрит апелляцию."
-      },
-      "delete": {
-        "q": "Как удалить аккаунт?",
-        "a": "Перейдите в Настройки → Мой аккаунт → Удалить аккаунт."
+        "a": "Если вы получили письмо о бане, используйте ссылку для апелляции в нём. Команда рассмотрит апелляцию.",
+        "q": "Как обжаловать бан?"
       },
       "block": {
-        "q": "Как заблокировать кого-то?",
-        "a": "Откройте их профиль и выберите «Заблокировать». Разблокировать можно позже в настройках."
-      }
-    },
-    "quickLinkItems": {
-      "report": {
-        "label": "Пожаловаться на контент или пользователя",
-        "hint": "Доступно в меню профиля и действиях с контентом"
-      },
-      "appeals": {
-        "label": "Апелляции по бану",
-        "hint": "Используйте ссылку из письма о бане"
+        "a": "Откройте их профиль и выберите «Заблокировать». Разблокировать можно позже в настройках.",
+        "q": "Как заблокировать кого-то?"
       },
       "delete": {
-        "label": "Удалить аккаунт",
-        "hint": "Настройки → Мой аккаунт → Удалить аккаунт"
+        "a": "Перейдите в Настройки → Мой аккаунт → Удалить аккаунт.",
+        "q": "Как удалить аккаунт?"
+      },
+      "report": {
+        "a": "Откройте профиль пользователя или меню контента и выберите «Пожаловаться». Команда рассмотрит обращение.",
+        "q": "Как пожаловаться на пользователя или контент?"
       }
     },
+    "loading": "Загрузка...",
+    "loadingTickets": "Загрузка обращений...",
+    "loadMore": "Загрузить ещё",
+    "loginToContact": "Войдите, чтобы связаться с поддержкой",
+    "mobileIntro": "Справка на mutualzz.com/support или напишите нам ниже.",
+    "myTickets": "Мои обращения",
+    "newTicket": "Новое обращение",
+    "noTickets": "Пока нет обращений",
+    "openHelpCenter": "Открыть центр помощи",
+    "pageIntro": "Нужна помощь с Mutualzz? Посмотрите ответы ниже или свяжитесь с командой.",
+    "pendingTicketExists": "У вас уже есть открытый тикет. Ответьте там или дождитесь его закрытия, прежде чем открывать новый.",
+    "privacyPolicy": "Политика конфиденциальности",
+    "quickLinkItems": {
+      "appeals": {
+        "hint": "Используйте ссылку из письма о бане",
+        "label": "Апелляции по бану"
+      },
+      "delete": {
+        "hint": "Настройки → Мой аккаунт → Удалить аккаунт",
+        "label": "Удалить аккаунт"
+      },
+      "report": {
+        "hint": "Доступно в меню профиля и действиях с контентом",
+        "label": "Пожаловаться на контент или пользователя"
+      }
+    },
+    "quickLinks": "Быстрые ссылки",
+    "sendReply": "Отправить ответ",
+    "sendReplyFailed": "Не удалось отправить ответ",
+    "staffLabel": "Поддержка",
+    "subjectPlaceholder": "Тема",
+    "submitTicket": "Отправить обращение",
     "termsOfService": "Условия использования",
-    "pendingTicketExists": "У вас уже есть открытый тикет. Ответьте там или дождитесь его закрытия, прежде чем открывать новый."
+    "ticketClosed": "Это обращение закрыто.",
+    "ticketClosedHint": "Это обращение закрыто. Откройте новое, если помощь всё ещё нужна.",
+    "updatedAt": "обновлено {{date}}",
+    "writeReply": "Написать ответ"
   },
-  "activity": {
-    "playing": "Играет",
-    "listening": "Слушает",
-    "elapsed": "Прошло {{time}}",
-    "showLess": "Показать меньше",
-    "played": "Играл(а)",
-    "listened": "Прослушано",
-    "openInSpotify": "Открыть в Spotify"
+  "undo": "Отменить",
+  "updater": {
+    "downloadedOnly": "{{downloaded}} MB",
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "etaHoursMinutes": "Осталось {{hours}}ч {{minutes}}м",
+    "etaMinutesSeconds": "Осталось {{minutes}}м {{seconds}}с",
+    "etaSeconds": "Осталось {{seconds}}с",
+    "installing": "Установка обновления…",
+    "installUpdate": "Установить обновление",
+    "pleaseWait": "Обновление… подождите",
+    "restarting": "Перезапуск…",
+    "restartToUpdate": "Перезапустить для обновления",
+    "updateReady": "Обновление {{version}} готово"
   },
+  "uploadCustomFont": "Загрузить свой шрифт",
   "whatsNew": {
     "title": "Что нового"
-  },
-  "logout": "Выйти",
-  "minecraft": {
-    "skinAlt": "Скин Minecraft",
-    "skinAltNamed": "Скин Minecraft игрока {{name}}"
   }
 }

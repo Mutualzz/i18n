@@ -1,45 +1,94 @@
 {
-  "cancel": "Avbryt",
-  "save": "Spara",
-  "saveChanges": "Spara ändringar",
-  "close": "Stäng",
-  "create": "Skapa",
-  "delete": "Ta bort",
-  "add": "Lägg till",
-  "remove": "Ta bort",
-  "reset": "Återställ",
-  "back": "Tillbaka",
-  "clear": "Rensa",
-  "finish": "Slutför",
-  "retry": "Försök igen",
-  "apply": "Tillämpa",
-  "undo": "Ångra",
-  "redo": "Gör om",
-  "open": "Öppna",
-  "proceed": "Fortsätt",
-  "gotIt": "Uppfattat",
-  "seo": {
-    "defaultTitle": "Mutualzz (tidig åtkomst)",
-    "defaultDescription": "Anslut med andra som delar dina intressen. Under intensiv utveckling just nu"
+  "a11y": {
+    "allowPermission": "Tillåt {{label}}",
+    "closeModal": "Stäng dialog",
+    "closeProfile": "Stäng profil",
+    "createChannelInCategory": "Skapa kanal i kategori",
+    "decrement": "Minska",
+    "deleteExpression": "Ta bort :{{name}}:",
+    "deleteInvite": "Ta bort inbjudan",
+    "deleteNamed": "Ta bort {{name}}",
+    "denyPermission": "Neka {{label}}",
+    "editWidgetHint": "Öppnar widgetredigeraren. Tryck länge för att ordna om widgets.",
+    "expandWidget": "Expandera {{type}}-widget",
+    "expandWidgetHint": "Öppnar widgetens fulla innehåll",
+    "fileAttachment": "Filbilaga",
+    "imageAttachment": "Bildbilaga",
+    "increment": "Öka",
+    "moreOptions": "Fler alternativ",
+    "neutralPermission": "Neutral {{label}}",
+    "openColorPicker": "Öppna färgväljare",
+    "pauseVideo": "Pausa video",
+    "playVideo": "Spela video",
+    "randomColor": "Slumpmässig färg",
+    "randomColorHint": "Väljer en slumpmässig färg",
+    "rangeSliderHint": "Intervallreglage. Justera genom att dra.",
+    "removeColorStop": "Ta bort färgpunkt",
+    "removeMemberFromRole": "Ta bort {{member}} från {{role}}",
+    "reorder": "Ordna om",
+    "sent": "Skickat",
+    "settings": "Inställningar",
+    "tapToOpen": "Tryck för att öppna",
+    "time": "Tid"
   },
-  "reload": "Ladda om appen",
-  "download": "Ladda ner Mutualzz",
   "accept": "Acceptera",
-  "decline": "Avböj",
-  "restore": "Återställ",
-  "uploadCustomFont": "Ladda upp eget typsnitt",
-  "language": {
-    "title": "Språk",
-    "description": "Välj språket som används i Mutualzz.",
-    "systemDefault": "Enhetens språk"
+  "activity": {
+    "elapsed": "{{time}} förflutit",
+    "listened": "Lyssnat",
+    "listening": "Lyssnar",
+    "openInSpotify": "Öppna i Spotify",
+    "played": "Spelat",
+    "playing": "Spelar",
+    "showLess": "Visa mindre"
   },
+  "add": "Lägg till",
+  "apply": "Tillämpa",
+  "back": "Tillbaka",
   "calendar": {
-    "sameDay": "[Idag kl.] HH:mm",
-    "nextDay": "[Imorgon kl.] HH:mm",
     "lastDay": "[Igår kl.] HH:mm",
     "lastWeek": "[Förra] dddd [kl.] HH:mm",
+    "nextDay": "[Imorgon kl.] HH:mm",
+    "sameDay": "[Idag kl.] HH:mm",
     "sameElse": "YYYY-MM-DD HH:mm"
   },
+  "cancel": "Avbryt",
+  "clear": "Rensa",
+  "close": "Stäng",
+  "connection": {
+    "audioBlocked": "Din webbläsare blockerade uppspelning av röstljud",
+    "enableAudio": "Klicka för att aktivera ljud",
+    "offlineBanner": "Du är för närvarande offline",
+    "reconnect": "Återanslut"
+  },
+  "crash": {
+    "bodyDesktop": "Mutualzz stötte på ett oväntat fel. Ladda om appen för att försöka igen.",
+    "bodyMobile": "Mutualzz stötte på ett oväntat fel. Stäng appen helt och öppna den igen.",
+    "hintAndroid": "Öppna översikten över senaste appar och svep bort Mutualzz tills appen stängs.",
+    "hintIos": "Svep uppåt från skärmens nederkant för att öppna appväxlaren, svep sedan bort Mutualzz.",
+    "orPressShortcut": "Eller tryck {{shortcut}}",
+    "title": "Något gick fel"
+  },
+  "create": "Skapa",
+  "customStatus": {
+    "addEmoji": "Lägg till statusemoji",
+    "changeEmoji": "Byt statusemoji",
+    "changeStatus": "Byt status",
+    "chooseEmoji": "Välj statusemoji",
+    "clearA11y": "Rensa anpassad status",
+    "editA11y": "Redigera anpassad status",
+    "heading": "Anpassad status",
+    "label": "Status",
+    "pickEmoji": "Välj en emoji",
+    "placeholder": "Ange din status...",
+    "removeEmoji": "Ta bort emoji",
+    "setPlaceholder": "Ställ in anpassad status...",
+    "setShort": "Ställ in en anpassad status...",
+    "title": "Ställ in din status",
+    "whatsOnYourMind": "Vad tänker du på?"
+  },
+  "decline": "Avböj",
+  "delete": "Ta bort",
+  "download": "Ladda ner Mutualzz",
   "duration": {
     "clearOnDateAt": "Rensa {{date}} kl. {{time}}",
     "clearTodayAt": "Rensa idag kl. {{time}}",
@@ -52,6 +101,115 @@
     "hours_other": "{{count}} timmar",
     "minutes_one": "{{count}} minut",
     "minutes_other": "{{count}} minuter"
+  },
+  "editable": {
+    "addToDictionary": "Lägg till i ordlista",
+    "copy": "Kopiera",
+    "cut": "Klipp ut",
+    "paste": "Klistra in",
+    "spellcheck": "Stavningskontroll"
+  },
+  "errors": {
+    "requestFailed": "Begäran misslyckades",
+    "requestFailedWithStatus": "Begäran misslyckades ({{status}})",
+    "unknown": "Okänt fel"
+  },
+  "externalLink": {
+    "aboutToOpen": "Du är på väg att öppna en extern länk:",
+    "blockedInApp": "Vi tillåter inte att osäkra länkar öppnas direkt i appen av säkerhetsskäl. Kopiera länken och öppna den i din webbläsare.",
+    "close": "Stäng",
+    "confirmProceed": "Är du säker på att du vill fortsätta?",
+    "dontShowAgain": "Visa inte den här varningen igen",
+    "proceed": "Fortsätt",
+    "title": "Öppna extern länk",
+    "unsafeHttpBody": "Länken du försöker öppna använder en osäker HTTP-anslutning. Det kan exponera dina data för tredje part.",
+    "unsafeTitle": "Den här länken verkar osäker"
+  },
+  "finish": "Slutför",
+  "gotIt": "Uppfattat",
+  "language": {
+    "description": "Välj språket som används i Mutualzz.",
+    "systemDefault": "Enhetens språk",
+    "title": "Språk"
+  },
+  "logout": "Logga ut",
+  "markdown": {
+    "blockquote": "Citatblock",
+    "bold": "Fet",
+    "code": "Kod",
+    "color": "Färg",
+    "italic": "Kursiv",
+    "spoiler": "Spoiler",
+    "strikethrough": "Genomstruken",
+    "underline": "Understruken"
+  },
+  "media": {
+    "download": "Ladda ner",
+    "pause": "Pausa",
+    "play": "Spela",
+    "volume": "Volym"
+  },
+  "minecraft": {
+    "skinAlt": "Minecraft-skin",
+    "skinAltNamed": "{{name}}s Minecraft-skin"
+  },
+  "nav": {
+    "goBack": "Gå tillbaka",
+    "goForward": "Gå framåt"
+  },
+  "notifications": {
+    "acceptedFriend": "{{name}} accepterade din vänförfrågan",
+    "groupDmChannel": "Grupp-DM-kanal",
+    "markAllAsRead": "Markera alla som lästa",
+    "mentions": "Omnämnanden",
+    "messagePlaceholder": "Meddelande",
+    "messagesChannel": "Meddelanden",
+    "noMentions": "Inga nya omnämnanden",
+    "noMessagesYet": "Inga meddelanden ännu",
+    "noUnreads": "Inga olästa meddelanden",
+    "recentlyAccepted": "Nyligen accepterade",
+    "reply": "Svara",
+    "requests": "Förfrågningar",
+    "send": "Skicka",
+    "sentAttachment": "Skickade en bilaga",
+    "unreads": "Olästa",
+    "youWereMentioned": "Du blev omnämnd"
+  },
+  "open": "Öppna",
+  "proceed": "Fortsätt",
+  "redo": "Gör om",
+  "reload": "Ladda om appen",
+  "remove": "Ta bort",
+  "report": {
+    "action": "Anmäl",
+    "description": "Anmälningar granskas av personal. Välj den orsak som passar bäst.",
+    "detailsPlaceholder": "Lägg till mer detaljer (valfritt)",
+    "reasons": {
+      "harassment": "Trakasserier eller missbruk",
+      "hate_speech": "Hatpropaganda",
+      "impersonation": "Imitation",
+      "misinformation": "Desinformation",
+      "nsfw": "NSFW / olämpligt innehåll",
+      "other": "Annat",
+      "self_harm": "Självskada eller självmord",
+      "spam": "Spam"
+    },
+    "submit": "Skicka anmälan",
+    "submitting": "Skickar...",
+    "success": "Anmälan skickad. Tack för att du hjälper till att hålla miljön säker.",
+    "title": "Anmäl {{label}}"
+  },
+  "reset": "Återställ",
+  "restore": "Återställ",
+  "retry": "Försök igen",
+  "save": "Spara",
+  "saveChanges": "Spara ändringar",
+  "select": {
+    "placeholder": "Välj ett alternativ"
+  },
+  "seo": {
+    "defaultDescription": "Anslut med andra som delar dina intressen. Under intensiv utveckling just nu",
+    "defaultTitle": "Mutualzz (tidig åtkomst)"
   },
   "status": {
     "clearCustomAfter": "Rensa anpassad status efter",
@@ -66,194 +224,7 @@
     "online": "Online",
     "saveCustom": "Spara anpassad status"
   },
-  "report": {
-    "title": "Anmäl {{label}}",
-    "description": "Anmälningar granskas av personal. Välj den orsak som passar bäst.",
-    "detailsPlaceholder": "Lägg till mer detaljer (valfritt)",
-    "submit": "Skicka anmälan",
-    "submitting": "Skickar...",
-    "success": "Anmälan skickad. Tack för att du hjälper till att hålla miljön säker.",
-    "action": "Anmäl",
-    "reasons": {
-      "spam": "Spam",
-      "harassment": "Trakasserier eller missbruk",
-      "hate_speech": "Hatpropaganda",
-      "nsfw": "NSFW / olämpligt innehåll",
-      "self_harm": "Självskada eller självmord",
-      "impersonation": "Imitation",
-      "misinformation": "Desinformation",
-      "other": "Annat"
-    }
-  },
-  "editable": {
-    "addToDictionary": "Lägg till i ordlista",
-    "spellcheck": "Stavningskontroll",
-    "cut": "Klipp ut",
-    "copy": "Kopiera",
-    "paste": "Klistra in"
-  },
-  "customStatus": {
-    "title": "Ställ in din status",
-    "heading": "Anpassad status",
-    "label": "Status",
-    "placeholder": "Ange din status...",
-    "setPlaceholder": "Ställ in anpassad status...",
-    "setShort": "Ställ in en anpassad status...",
-    "editA11y": "Redigera anpassad status",
-    "clearA11y": "Rensa anpassad status",
-    "changeEmoji": "Byt statusemoji",
-    "addEmoji": "Lägg till statusemoji",
-    "chooseEmoji": "Välj statusemoji",
-    "pickEmoji": "Välj en emoji",
-    "removeEmoji": "Ta bort emoji",
-    "changeStatus": "Byt status",
-    "whatsOnYourMind": "Vad tänker du på?"
-  },
-  "externalLink": {
-    "proceed": "Fortsätt",
-    "close": "Stäng",
-    "title": "Öppna extern länk",
-    "aboutToOpen": "Du är på väg att öppna en extern länk:",
-    "unsafeTitle": "Den här länken verkar osäker",
-    "unsafeHttpBody": "Länken du försöker öppna använder en osäker HTTP-anslutning. Det kan exponera dina data för tredje part.",
-    "confirmProceed": "Är du säker på att du vill fortsätta?",
-    "blockedInApp": "Vi tillåter inte att osäkra länkar öppnas direkt i appen av säkerhetsskäl. Kopiera länken och öppna den i din webbläsare.",
-    "dontShowAgain": "Visa inte den här varningen igen"
-  },
-  "connection": {
-    "reconnect": "Återanslut",
-    "enableAudio": "Klicka för att aktivera ljud",
-    "offlineBanner": "Du är för närvarande offline",
-    "audioBlocked": "Din webbläsare blockerade uppspelning av röstljud"
-  },
-  "nav": {
-    "goBack": "Gå tillbaka",
-    "goForward": "Gå framåt"
-  },
-  "updater": {
-    "pleaseWait": "Uppdaterar… vänta",
-    "downloadProgress": "{{pct}} % · {{downloaded}}/{{total}} MB{{eta}}",
-    "downloadedOnly": "{{downloaded}} MB",
-    "etaHoursMinutes": "{{hours}}t {{minutes}}m kvar",
-    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s kvar",
-    "etaSeconds": "{{seconds}}s kvar",
-    "installUpdate": "Installera uppdatering",
-    "installing": "Installerar uppdatering…",
-    "updateReady": "Uppdatering {{version}} redo",
-    "restartToUpdate": "Starta om för att uppdatera",
-    "restarting": "Startar om…"
-  },
-  "crash": {
-    "title": "Något gick fel",
-    "bodyDesktop": "Mutualzz stötte på ett oväntat fel. Ladda om appen för att försöka igen.",
-    "orPressShortcut": "Eller tryck {{shortcut}}",
-    "bodyMobile": "Mutualzz stötte på ett oväntat fel. Stäng appen helt och öppna den igen.",
-    "hintIos": "Svep uppåt från skärmens nederkant för att öppna appväxlaren, svep sedan bort Mutualzz.",
-    "hintAndroid": "Öppna översikten över senaste appar och svep bort Mutualzz tills appen stängs."
-  },
-  "a11y": {
-    "closeProfile": "Stäng profil",
-    "settings": "Inställningar",
-    "deleteInvite": "Ta bort inbjudan",
-    "deleteNamed": "Ta bort {{name}}",
-    "deleteExpression": "Ta bort :{{name}}:",
-    "removeMemberFromRole": "Ta bort {{member}} från {{role}}",
-    "allowPermission": "Tillåt {{label}}",
-    "neutralPermission": "Neutral {{label}}",
-    "denyPermission": "Neka {{label}}",
-    "expandWidget": "Expandera {{type}}-widget",
-    "expandWidgetHint": "Öppnar widgetens fulla innehåll",
-    "editWidgetHint": "Öppnar widgetredigeraren. Tryck länge för att ordna om widgets.",
-    "playVideo": "Spela video",
-    "pauseVideo": "Pausa video",
-    "tapToOpen": "Tryck för att öppna",
-    "imageAttachment": "Bildbilaga",
-    "fileAttachment": "Filbilaga",
-    "sent": "Skickat",
-    "createChannelInCategory": "Skapa kanal i kategori",
-    "reorder": "Ordna om",
-    "time": "Tid",
-    "closeModal": "Stäng dialog",
-    "increment": "Öka",
-    "decrement": "Minska",
-    "openColorPicker": "Öppna färgväljare",
-    "randomColor": "Slumpmässig färg",
-    "randomColorHint": "Väljer en slumpmässig färg",
-    "removeColorStop": "Ta bort färgpunkt",
-    "rangeSliderHint": "Intervallreglage. Justera genom att dra.",
-    "moreOptions": "Fler alternativ"
-  },
-  "errors": {
-    "unknown": "Okänt fel",
-    "requestFailed": "Begäran misslyckades",
-    "requestFailedWithStatus": "Begäran misslyckades ({{status}})"
-  },
-  "select": {
-    "placeholder": "Välj ett alternativ"
-  },
-  "media": {
-    "play": "Spela",
-    "pause": "Pausa",
-    "download": "Ladda ner",
-    "volume": "Volym"
-  },
-  "notifications": {
-    "unreads": "Olästa",
-    "mentions": "Omnämnanden",
-    "requests": "Förfrågningar",
-    "markAllAsRead": "Markera alla som lästa",
-    "acceptedFriend": "{{name}} accepterade din vänförfrågan",
-    "sentAttachment": "Skickade en bilaga",
-    "noMessagesYet": "Inga meddelanden ännu",
-    "youWereMentioned": "Du blev omnämnd",
-    "noUnreads": "Inga olästa meddelanden",
-    "noMentions": "Inga nya omnämnanden",
-    "recentlyAccepted": "Nyligen accepterade",
-    "groupDmChannel": "Grupp-DM-kanal",
-    "messagesChannel": "Meddelanden",
-    "reply": "Svara",
-    "messagePlaceholder": "Meddelande",
-    "send": "Skicka"
-  },
-  "markdown": {
-    "bold": "Fet",
-    "italic": "Kursiv",
-    "underline": "Understruken",
-    "strikethrough": "Genomstruken",
-    "blockquote": "Citatblock",
-    "code": "Kod",
-    "spoiler": "Spoiler",
-    "color": "Färg"
-  },
   "support": {
-    "myTickets": "Mina ärenden",
-    "contactSupport": "Kontakta support",
-    "loginToContact": "Logga in för att kontakta support",
-    "privacyPolicy": "Integritetspolicy",
-    "faq": "Vanliga frågor",
-    "quickLinks": "Snabblänkar",
-    "contactUs": "Kontakta oss",
-    "openHelpCenter": "Öppna hjälpcenter",
-    "describeIssue": "Beskriv ditt problem",
-    "newTicket": "Nytt ärende",
-    "writeReply": "Skriv ett svar",
-    "loading": "Laddar...",
-    "loadingTickets": "Laddar ärenden...",
-    "loadMore": "Ladda mer",
-    "sendReply": "Skicka svar",
-    "sendReplyFailed": "Kunde inte skicka svar",
-    "staffLabel": "Support",
-    "ticketClosed": "Det här ärendet är stängt.",
-    "ticketClosedHint": "Det här ärendet är stängt. Öppna ett nytt ärende om du fortfarande behöver hjälp.",
-    "updatedAt": "uppdaterad {{date}}",
-    "pageIntro": "Behöver du hjälp med Mutualzz? Bläddra bland vanliga svar nedan eller kontakta vårt team.",
-    "mobileIntro": "Bläddra bland hjälp på mutualzz.com/support eller kontakta oss nedan.",
-    "subjectPlaceholder": "Ämne",
-    "submitTicket": "Skicka ärende",
-    "createFailed": "Kunde inte skapa ärende",
-    "noTickets": "Inga ärenden ännu",
-    "contactEmailLoggedIn": "Mejla oss på {{email}} eller öppna ett supportärende från den här sidan.",
-    "contactEmailGuest": "Mejla oss på {{email}}.",
     "categories": {
       "account": "Konto och inloggning",
       "bug": "Bugg eller krasch",
@@ -261,56 +232,85 @@
       "feature": "Funktionsönskemål",
       "other": "Annat"
     },
+    "contactEmailGuest": "Mejla oss på {{email}}.",
+    "contactEmailLoggedIn": "Mejla oss på {{email}} eller öppna ett supportärende från den här sidan.",
+    "contactSupport": "Kontakta support",
+    "contactUs": "Kontakta oss",
+    "createFailed": "Kunde inte skapa ärende",
+    "describeIssue": "Beskriv ditt problem",
+    "faq": "Vanliga frågor",
     "faqItems": {
-      "report": {
-        "q": "Hur anmäler jag en användare eller innehåll?",
-        "a": "Öppna en användarprofil eller innehållsmenyn och välj Anmäl. Vår personal granskar det."
-      },
       "appeal": {
-        "q": "Hur överklagar jag en avstängning?",
-        "a": "Om du fick ett avstängningsmejl, använd överklagandelänken i det meddelandet. Personalen granskar din överklagan."
-      },
-      "delete": {
-        "q": "Hur tar jag bort mitt konto?",
-        "a": "Gå till Inställningar → Mitt konto → Ta bort konto."
+        "a": "Om du fick ett avstängningsmejl, använd överklagandelänken i det meddelandet. Personalen granskar din överklagan.",
+        "q": "Hur överklagar jag en avstängning?"
       },
       "block": {
-        "q": "Hur blockerar jag någon?",
-        "a": "Öppna deras profil och välj Blockera. Du kan avblockera dem senare från inställningarna."
-      }
-    },
-    "quickLinkItems": {
-      "report": {
-        "label": "Anmäl innehåll eller en användare",
-        "hint": "Tillgängligt från profilmenyer och innehållsåtgärder"
-      },
-      "appeals": {
-        "label": "Överklaganden av avstängning",
-        "hint": "Använd överklagandelänken från ditt avstängningsmejl"
+        "a": "Öppna deras profil och välj Blockera. Du kan avblockera dem senare från inställningarna.",
+        "q": "Hur blockerar jag någon?"
       },
       "delete": {
-        "label": "Ta bort ditt konto",
-        "hint": "Inställningar → Mitt konto → Ta bort konto"
+        "a": "Gå till Inställningar → Mitt konto → Ta bort konto.",
+        "q": "Hur tar jag bort mitt konto?"
+      },
+      "report": {
+        "a": "Öppna en användarprofil eller innehållsmenyn och välj Anmäl. Vår personal granskar det.",
+        "q": "Hur anmäler jag en användare eller innehåll?"
       }
     },
+    "loading": "Laddar...",
+    "loadingTickets": "Laddar ärenden...",
+    "loadMore": "Ladda mer",
+    "loginToContact": "Logga in för att kontakta support",
+    "mobileIntro": "Bläddra bland hjälp på mutualzz.com/support eller kontakta oss nedan.",
+    "myTickets": "Mina ärenden",
+    "newTicket": "Nytt ärende",
+    "noTickets": "Inga ärenden ännu",
+    "openHelpCenter": "Öppna hjälpcenter",
+    "pageIntro": "Behöver du hjälp med Mutualzz? Bläddra bland vanliga svar nedan eller kontakta vårt team.",
+    "pendingTicketExists": "Du har redan ett öppet ärende. Svara där eller vänta tills det är stängt innan du öppnar ett nytt.",
+    "privacyPolicy": "Integritetspolicy",
+    "quickLinkItems": {
+      "appeals": {
+        "hint": "Använd överklagandelänken från ditt avstängningsmejl",
+        "label": "Överklaganden av avstängning"
+      },
+      "delete": {
+        "hint": "Inställningar → Mitt konto → Ta bort konto",
+        "label": "Ta bort ditt konto"
+      },
+      "report": {
+        "hint": "Tillgängligt från profilmenyer och innehållsåtgärder",
+        "label": "Anmäl innehåll eller en användare"
+      }
+    },
+    "quickLinks": "Snabblänkar",
+    "sendReply": "Skicka svar",
+    "sendReplyFailed": "Kunde inte skicka svar",
+    "staffLabel": "Support",
+    "subjectPlaceholder": "Ämne",
+    "submitTicket": "Skicka ärende",
     "termsOfService": "Användarvillkor",
-    "pendingTicketExists": "Du har redan ett öppet ärende. Svara där eller vänta tills det är stängt innan du öppnar ett nytt."
+    "ticketClosed": "Det här ärendet är stängt.",
+    "ticketClosedHint": "Det här ärendet är stängt. Öppna ett nytt ärende om du fortfarande behöver hjälp.",
+    "updatedAt": "uppdaterad {{date}}",
+    "writeReply": "Skriv ett svar"
   },
-  "activity": {
-    "playing": "Spelar",
-    "listening": "Lyssnar",
-    "elapsed": "{{time}} förflutit",
-    "showLess": "Visa mindre",
-    "played": "Spelat",
-    "listened": "Lyssnat",
-    "openInSpotify": "Öppna i Spotify"
+  "undo": "Ångra",
+  "updater": {
+    "downloadedOnly": "{{downloaded}} MB",
+    "downloadProgress": "{{pct}} % · {{downloaded}}/{{total}} MB{{eta}}",
+    "etaHoursMinutes": "{{hours}}t {{minutes}}m kvar",
+    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s kvar",
+    "etaSeconds": "{{seconds}}s kvar",
+    "installing": "Installerar uppdatering…",
+    "installUpdate": "Installera uppdatering",
+    "pleaseWait": "Uppdaterar… vänta",
+    "restarting": "Startar om…",
+    "restartToUpdate": "Starta om för att uppdatera",
+    "updateReady": "Uppdatering {{version}} redo"
   },
+  "uploadCustomFont": "Ladda upp eget typsnitt",
   "whatsNew": {
     "title": "Nyheter"
-  },
-  "logout": "Logga ut",
-  "minecraft": {
-    "skinAlt": "Minecraft-skin",
-    "skinAltNamed": "{{name}}s Minecraft-skin"
   }
 }

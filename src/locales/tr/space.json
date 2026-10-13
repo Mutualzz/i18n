@@ -1,567 +1,567 @@
 {
-  "title": "Alan ayarları",
-  "titleShort": "Alan ayarları",
-  "overviewDescription": "Rolleri, davetleri, ifadeleri ve moderasyonu yönet.",
-  "nav": {
-    "categories": {
-      "general": "Genel",
-      "people": "Kişiler",
-      "moderation": "Moderasyon",
-      "integrations": "Entegrasyonlar"
-    },
-    "pages": {
-      "profile": "Profil",
-      "theme": "Tema",
-      "roles": "Roller",
-      "channels": "Kanallar",
-      "invites": "Davetler",
-      "expressions": "İfadeler",
-      "bans": "Yasaklar",
-      "minecraftBridge": "Minecraft Köprü"
-    }
-  },
   "actions": {
-    "deleteSpace": "Alanı sil",
-    "leaveSpace": "Alandan ayrıl",
-    "createRole": "Rol oluştur",
-    "deleteRole": "Rolü sil",
-    "createInvite": "Davet oluştur",
-    "createInviteLink": "Davet bağlantısı oluştur",
-    "deleteAllInvites": "Tüm davetleri sil",
-    "editInviteLink": "Davet bağlantısını düzenle",
-    "revokeBan": "Yasağı kaldır",
-    "unbanMember": "Üyenin yasağını kaldır",
-    "unbanning": "Yasak kaldırılıyor...",
-    "kick": "At",
-    "ban": "Yasakla",
     "addMembers": "Üye ekle",
     "addMembersCount_one": "Ekle ({{count}})",
     "addMembersCount_other": "Ekle ({{count}})",
-    "markAllAsRead": "Tümünü okundu işaretle",
+    "ban": "Yasakla",
     "clearPermissions": "İzinleri temizle",
-    "working": "İşleniyor...",
-    "creating": "Oluşturuluyor..."
-  },
-  "profile": {
-    "spaceIcon": "Alan simgesi",
-    "name": "Ad",
-    "description": "Açıklama",
-    "descriptionPlaceholder": "Alan hakkında bir şeyler yaz...",
-    "updatedSuccess": "Alan başarıyla güncellendi.",
-    "genericError": "Bir hata oluştu"
-  },
-  "invites": {
-    "activeLinks": "Aktif davet bağlantıları",
-    "createTitle": "Davet bağlantısı oluştur",
-    "createDescriptionChannel": "#{{channel}} için bir bağlantı oluşturur.",
-    "createDescriptionDefault": "Bu alanın varsayılan metin kanalına bir bağlantı oluşturur.",
-    "createFailed": "Davet oluşturulamadı",
-    "empty": "Bu alan için henüz davet oluşturulmadı.",
-    "columns": {
-      "inviter": "Davet eden",
-      "inviteCode": "Davet kodu",
-      "uses": "Kullanımlar",
-      "expires": "Bitiş"
-    },
-    "usesLabel": "Kullanımlar: {{uses}}{{max}}",
-    "usesMax": "/ {{max}}",
-    "neverExpires": "Hiç bitmez",
-    "expired": "Süresi dolmuş",
-    "copyInviteUrl": "Davet URL'sini kopyala",
-    "copiedToClipboard": "Panoya kopyalandı",
-    "tapToCopy": "Kopyalamak için bağlantıya dokun",
-    "modal": {
-      "title": "{{spaceName}} alanına arkadaş davet et",
-      "landingChannel": "Alıcılar #{{channelName}} kanalına düşecek",
-      "searchFriends": "Arkadaş ara",
-      "noResults": "Sonuç yok.",
-      "noFriends": "Davet edilecek arkadaş yok. Bunun yerine aşağıdaki bağlantıyı paylaş.",
-      "inviteLink": "Davet bağlantısı",
-      "expiresPrefix": "Bu bağlantının süresi ",
-      "expiresNever": "hiç dolmaz",
-      "expiresAfterUses_one": " veya {{count}} kullanımdan sonra",
-      "expiresAfterUses_other": " veya {{count}} kullanımdan sonra",
-      "editTitle": "Mevcut davet bağlantısı düzenleniyor",
-      "expireAfter": "Şundan sonra sona ersin",
-      "maxUses": "Maks. kullanım"
-    },
-    "expiry": {
-      "30minutes": "30 dakika",
-      "1hour": "1 saat",
-      "6hours": "6 saat",
-      "12hours": "12 saat",
-      "1day": "1 gün",
-      "7days": "7 gün",
-      "never": "Asla"
-    },
-    "maxUses": {
-      "noLimit": "Sınırsız",
-      "1use": "1 kullanım",
-      "5uses": "5 kullanım",
-      "10uses": "10 kullanım",
-      "25uses": "25 kullanım",
-      "50uses": "50 kullanım",
-      "100uses": "100 kullanım"
-    }
-  },
-  "roles": {
-    "defaultPermissions": "Varsayılan izinler",
-    "everyoneSubtitle": "@everyone - tüm alan üyelerine uygulanır",
-    "everyoneSuffix": "(@herkes)",
-    "searchPlaceholder": "Rol ara",
-    "listTitle_one": "Roller - {{count}}",
-    "listTitle_other": "Roller - {{count}}",
-    "membersColumn": "Üyeler",
-    "actionsColumn": "Eylemler",
-    "hierarchyHint": "Listedeki daha yüksek roller daha fazla yetkiye sahiptir. Hiyerarşiyi değiştirmek için rolleri sürükle.",
-    "empty": "Bu alan için henüz rol oluşturulmadı.",
-    "emptySearch": "Aramanızla eşleşen rol yok.",
-    "memberCount_one": "{{count}} üye",
-    "memberCount_other": "{{count}} üye",
-    "editTitle": "Rolü düzenle - {{name}}",
-    "tabs": {
-      "display": "Görünüm",
-      "permissions": "İzinler",
-      "manageMembers": "Üyeleri yönet",
-      "members": "Üyeler"
-    },
-    "unsavedChanges": "Kaydedilmemiş değişikliklerin var!",
-    "saveFailed": "Rol kaydedilemedi",
-    "display": {
-      "roleName": "Rol adı",
-      "roleColor": "Rol rengi",
-      "hoist": "Rol üyelerini çevrimiçi üyelerden ayrı göster",
-      "mentionable": "Herkesin bu role @mention yapmasına izin ver",
-      "mentionableHint": "\"@everyone, @here ve Tüm Rollerden Bahset\" iznine sahip üyeler bu ayardan bağımsız olarak bu rolden bahsedebilir.",
-      "mentionableHintShort": "Herkesten bahsetme iznine sahip üyeler yine de bu rolden bahsedebilir."
-    },
-    "members": {
-      "title": "Rol üyeleri",
-      "description": "Bu role atanan üyeleri görüntüle ve yönet.",
-      "searchPlaceholder": "Üye ara",
-      "emptyAssigned": "Bu role henüz üye atanmadı.",
-      "emptySearch": "Aramanızla eşleşen üye yok.",
-      "addTitle": "Üye ekle",
-      "addDescription": "{{roleName}} rolüne en fazla {{max}} üye ekle",
-      "selectedCount": "{{selected}}/{{max}} seçildi",
-      "noEligible": "Bu role eklenebilecek üye yok.",
-      "addSuccess_one": "{{roleName}} rolüne {{count}} üye eklendi",
-      "addSuccess_other": "{{roleName}} rolüne {{count}} üye eklendi",
-      "addFailed": "Üyeler role eklenemedi"
-    },
-    "hierarchy": {
-      "cantReorder": "En yüksek rolünüzdeki veya üzerindeki rolleri yeniden sıralayamazsınız",
-      "cantAssign": "Bu rolü atayamaz veya kaldıramazsınız",
-      "cantEditRole": "Bu rol en yüksek rolünüzde veya üzerinde olduğu için düzenleyemezsiniz.",
-      "cantManageMembers": "Bu role üye atayamaz veya kaldıramazsınız.",
-      "dragToReorder": "Yeniden sıralamak için sürükle",
-      "dragToReorderHierarchy": "Hiyerarşiyi yeniden sıralamak için sürükle",
-      "failedReorder": "Roller yeniden sıralanamadı",
-      "failedUpdateRole": "Rol güncellenemedi",
-      "cantManageMember": "Bu üyeyi yönetme izniniz yok"
-    },
-    "delete": {
-      "title": "Rolü sil",
-      "confirm": "{{name}} rolünü silmek istediğinden emin misin? Bu işlem geri alınamaz."
-    },
-    "permissions": {
-      "searchPlaceholder": "İzin ara...",
-      "jumpToCategory": "Kategoriye atla…",
-      "emptySearch": "Aramanızla eşleşen izin yok",
-      "clear": "İzinleri temizle",
-      "groups": {
-        "general": "Genel alan izinleri",
-        "membership": "Üyelik izinleri",
-        "text": "Metin kanalı izinleri",
-        "voice": "Ses kanalı izinleri",
-        "advanced": "Gelişmiş izinler"
-      },
-      "flags": {
-        "ViewChannel": {
-          "label": "Kanalları görüntüle",
-          "description": "Üyelerin varsayılan olarak kanalları görmesine izin ver"
-        },
-        "ManageChannels": {
-          "label": "Kanalları yönet",
-          "description": "Üyelerin kanal oluşturmasına, düzenlemesine veya silmesine izin ver"
-        },
-        "ManageRoles": {
-          "label": "Rolleri yönet",
-          "description": "Üyelerin yeni roller oluşturmasına ve en yüksek rollerinden düşük rolleri düzenlemesine veya silmesine izin verir"
-        },
-        "CreateExpressions": {
-          "label": "İfade oluştur",
-          "description": "Üyelerin bu alanda emoji ve çıkartma oluşturmasına izin ver."
-        },
-        "ManageExpressions": {
-          "label": "İfadeleri yönet",
-          "description": "Üyelerin bu alandaki emoji ve çıkartmaları düzenlemesine veya silmesine izin ver."
-        },
-        "ManageSpace": {
-          "label": "Alanı yönet",
-          "description": "Üyelerin bu alanı değiştirmesine izin ver"
-        },
-        "CreateInvites": {
-          "label": "Davet oluştur",
-          "description": "Üyelerin bu alana yeni kişiler davet etmesine izin ver"
-        },
-        "KickMembers": {
-          "label": "Üye at",
-          "description": "Atma, diğer üyeleri bu alandan çıkarır. Atılan üyeler başka bir davetleri varsa yeniden katılabilir."
-        },
-        "BanMembers": {
-          "label": "Üye yasakla",
-          "description": "Yasaklama, üyeleri bu alandan çıkarır ve yasakları kaldırılana kadar yeniden katılmalarını engeller."
-        },
-        "SendMessages": {
-          "label": "Mesaj gönder",
-          "description": "Üyelerin metin kanallarında mesaj göndermesine izin ver"
-        },
-        "EmbedLinks": {
-          "label": "Bağlantı yerleştir",
-          "description": "Üyelerin mesajlarda bağlantı yerleştirmesine izin ver"
-        },
-        "AttachFiles": {
-          "label": "Dosya ekle",
-          "description": "Üyelerin mesajlara dosya eklemesine izin ver"
-        },
-        "AddReactions": {
-          "label": "Tepki Ekle",
-          "description": "Üyelerin mesajlara emoji tepkileri eklemesine izin ver"
-        },
-        "MentionEveryone": {
-          "label": "Herkesten bahset",
-          "description": "Üyelerin mesajlarda @everyone ve @here demesine izin ver"
-        },
-        "UseExternalEmojis": {
-          "label": "Harici emoji kullan",
-          "description": "Üyelerin diğer alanlardan veya kendi emojilerini mesajlarında kullanmasına izin ver"
-        },
-        "UseExternalStickers": {
-          "label": "Harici Çıkartmaları Kullan",
-          "description": "Üyelerin mesajlarında diğer alanlardaki çıkartmaları kullanmasına izin ver"
-        },
-        "ManageMessages": {
-          "label": "Mesajları yönet",
-          "description": "Üyelerin diğer üyelerin mesajlarını silmesine izin ver"
-        },
-        "ReadMessageHistory": {
-          "label": "Mesaj geçmişini oku",
-          "description": "Üyelerin mesaj geçmişini okumasına izin ver"
-        },
-        "Connect": {
-          "label": "Bağlan",
-          "description": "Üyelerin ses kanallarına bağlanmasına izin ver"
-        },
-        "Speak": {
-          "label": "Konuş",
-          "description": "Üyelerin ses kanallarında konuşmasına izin ver"
-        },
-        "UseVAD": {
-          "label": "Ses Etkinliğini Kullan",
-          "description": "Üyelerin ses etkinliği algılamayı kullanarak konuşmasına izin verin. Bu izin olmadan üyelerin bas-konuş özelliğini kullanması gerekir."
-        },
-        "MuteMembers": {
-          "label": "Üyeleri Sessize Al",
-          "description": "Üyelerin, ses kanallarında diğer üyelerin sesini kapatmasına izin ver"
-        },
-        "DeafenMembers": {
-          "label": "Sağır Üyeler",
-          "description": "Üyelerin ses kanallarında diğer üyeleri sağır etmesine izin ver"
-        },
-        "MoveMembers": {
-          "label": "Üyeleri Taşı",
-          "description": "Üyelerin diğer üyeleri ses kanalları arasında taşımasına ve bağlantılarının kesilmesine izin ver"
-        },
-        "Administrator": {
-          "label": "Yönetici",
-          "description": "Bu izne sahip üyeler her izne sahip olur. Bu tehlikeli bir izindir.",
-          "descriptionBefore": "Bu izne sahip üyeler her izne sahip olur.",
-          "descriptionDanger": "Bu tehlikeli bir izindir"
-        }
-      }
-    }
-  },
-  "expressions": {
-    "pageTitle": "Alan ifadeleri",
-    "pageDescription": "Bu alan için özel emoji ve çıkartmaları yükle ve yönet.",
-    "emojiLimit": "Maalesef yükleyebileceğin emoji limiti şu an 100, çünkü uygulama beta aşamasında ve depolama şu an sorun",
-    "stickerLimit": "Maalesef yükleyebileceğin çıkartma limiti şu an 100, çünkü uygulama beta aşamasında ve depolama şu an sorun",
-    "emojiLimitMobile": "Beta limiti: alan başına {{limit}} emoji.",
-    "stickerLimitMobile": "Beta limiti: alan başına {{limit}} çıkartma.",
-    "emptyEmojis": "Henüz alan emojisi yok",
-    "emptyStickers": "Henüz alan çıkartması yok"
+    "createInvite": "Davet oluştur",
+    "createInviteLink": "Davet bağlantısı oluştur",
+    "createRole": "Rol oluştur",
+    "creating": "Oluşturuluyor...",
+    "deleteAllInvites": "Tüm davetleri sil",
+    "deleteRole": "Rolü sil",
+    "deleteSpace": "Alanı sil",
+    "editInviteLink": "Davet bağlantısını düzenle",
+    "kick": "At",
+    "leaveSpace": "Alandan ayrıl",
+    "markAllAsRead": "Tümünü okundu işaretle",
+    "revokeBan": "Yasağı kaldır",
+    "unbanMember": "Üyenin yasağını kaldır",
+    "unbanning": "Yasak kaldırılıyor...",
+    "working": "İşleniyor..."
   },
   "bans": {
-    "title": "Alan yasak listesi",
+    "bannedAt": "Yasaklanma zamanı",
+    "bannedBy": "Yasaklayan",
     "description": "Bu alandaki yasaklı kullanıcıları görüntüle ve yönet. Şu an yasak hesap tabanlıdır; gelecekte IP yasakları ekleyeceğiz.",
     "descriptionShort": "Bu alandaki yasaklı kullanıcıları görüntüle ve yönet.",
+    "empty": "Henüz kimse yasaklanmadı",
+    "noReason": "Neden belirtilmedi",
+    "reason": "Neden",
     "searchPlaceholder": "Kullanıcı kimliği, kullanıcı adı veya görünen ada göre yasak ara",
     "searchPlaceholderShort": "Kullanıcı adı veya kullanıcı kimliğine göre ara",
-    "empty": "Henüz kimse yasaklanmadı",
-    "reason": "Neden",
-    "noReason": "Neden belirtilmedi",
-    "bannedBy": "Yasaklayan",
-    "bannedAt": "Yasaklanma zamanı",
+    "title": "Alan yasak listesi",
     "unbanSuccess": "{{name}} kullanıcısının yasağı başarıyla kaldırıldı",
     "unbanTitle": "{{name}} yasağı kaldırılsın mı?"
   },
-  "moderation": {
-    "banTitle": "{{name}} yasaklansın mı?",
-    "kickTitle": "{{name}} atılsın mı?",
-    "kickFromSpaceTitle": "{{name}} alanından at",
-    "kickBody": "@{{name}} kullanıcısını alandan atmak istediğinden emin misin? Yeniden katılmak için davete ihtiyaçları olacak.",
-    "kickSuccess": "{{name}} alandan atıldı",
-    "reason": "Neden",
-    "reasonOptional": "Neden (isteğe bağlı)",
-    "reasonForKick": "Atma nedeni",
-    "reasonForBan": "Yasaklama nedeni *",
-    "deleteRecentMessages": "Son mesajları sil",
-    "banReasons": {
-      "suspicious": "Şüpheli veya spam hesap",
-      "compromised": "Ele geçirilmiş veya hacklenmiş hesap",
-      "breakingRules": "Alan kurallarını ihlal",
-      "other": "Diğer"
-    },
-    "deleteMessages": {
-      "dontDelete": "Silme",
-      "dontDeleteMessages": "Mesajları silme",
-      "previousHour": "Önceki saat",
-      "lastHour": "Son saat",
-      "previousDay": "Önceki gün",
-      "last24Hours": "Son 24 saat",
-      "previousWeek": "Önceki hafta",
-      "last7Days": "Son 7 gün",
-      "allMessages": "Tüm mesajlar",
-      "deleteAllMessages": "Tüm mesajları sil"
-    },
-    "youWereBanned": "{{name}} alanından yasaklandın",
-    "youWereKicked": "{{name}} alanından atıldın"
-  },
   "channels": {
-    "noCategory": "Kategori yok",
-    "empty": "Yeniden sıralanacak kanal yok.",
-    "reorderHint": "Kanalları yeniden sıralamak için sürükle. Bir kanalı doğrudan bir kategorinin altına yerleştirerek o gruba ekle. Gruptan çıkarmak için kategorinin üstüne sürükle.",
-    "overwrites": "Üst yazımlar",
-    "searchTargets": "Rol veya üye ara…",
-    "topic": "Kanal konusu",
-    "topicHint": "Üyelere kanalın üstünde gösterilir.",
-    "topicPlaceholder": "Konu",
-    "settingsTitle": "Kanal ayarları",
-    "namePlaceholder": "Kanal adı",
-    "permissionOverwrites": "İzin üst yazımları",
     "channelInvites": "Kanal davetleri",
-    "noChannelInvites": "#{{channel}} için henüz davet oluşturulmadı.",
-    "selectOverwriteTarget": "Kanala özel izinleri düzenlemek için bir üst yazım hedefi seç.",
-    "nameEmpty": "Kanal adı boş olamaz.",
-    "failedMoveMember": "Üye taşınamadı",
     "create": {
-      "title": "Kanal oluştur",
+      "clear": "Temizle",
+      "icon": "Kanal simgesi",
       "name": "Kanal adı",
       "namePlaceholder": "yeni-kanal",
-      "type": "Kanal türü",
+      "rotate": "Döndür",
+      "rounded": "Yuvarlak",
+      "submit": "Kanal oluştur",
       "text": "Metin kanalı",
       "textDescription": "Mesaj, görsel ve daha fazlasını gönder",
-      "voice": "Ses kanalı",
-      "voiceDescription": "Ses ve video ile takıl",
-      "submit": "Kanal oluştur",
-      "icon": "Kanal simgesi",
+      "title": "Kanal oluştur",
+      "type": "Kanal türü",
       "upload": "Yükle",
-      "rounded": "Yuvarlak",
-      "rotate": "Döndür",
-      "clear": "Temizle"
+      "voice": "Ses kanalı",
+      "voiceDescription": "Ses ve video ile takıl"
     },
     "createCategory": {
-      "title": "Kategori oluştur",
       "name": "Kategori adı",
       "namePlaceholder": "Yeni kategori",
-      "submit": "Kategori oluştur"
+      "submit": "Kategori oluştur",
+      "title": "Kategori oluştur"
     },
-    "delete": {
-      "title": "Kanalı sil",
-      "body": "{{name}} kanalını silmek istediğinden emin misin? Bu işlem geri alınamaz.",
-      "confirm": "Kanalı sil"
-    },
-    "deleteCategory": {
-      "title": "\"{{name}}\" kategorisi silinsin mi?",
-      "body": "Bu kategoriyi silmek ister misin?",
-      "categoryOnly": "Yalnızca kategori",
-      "categoryAndChannels": "Kategori ve ilgili tüm kanallar",
-      "confirm": "Kategoriyi sil"
-    },
-    "saveOverwrite": "Üst yazımı kaydet",
-    "deleteChannelAction": "Kanalı sil",
     "createInvite": "Davet oluştur",
     "createInviteLink": "Davet bağlantısı oluştur",
-    "removeIcon": "Simgeyi kaldır",
-    "restoreIcon": "Simgeyi geri yükle",
-    "uploadEmoji": "Emoji yükle",
-    "uploadSticker": "Çıkartma yükle",
-    "noSpaceEmojis": "Henüz alan emojisi yok",
-    "pages": {
-      "overview": "Genel bakış",
-      "permissions": "İzinler",
-      "invites": "Davetler"
+    "delete": {
+      "body": "{{name}} kanalını silmek istediğinden emin misin? Bu işlem geri alınamaz.",
+      "confirm": "Kanalı sil",
+      "title": "Kanalı sil"
     },
+    "deleteCategory": {
+      "body": "Bu kategoriyi silmek ister misin?",
+      "categoryAndChannels": "Kategori ve ilgili tüm kanallar",
+      "categoryOnly": "Yalnızca kategori",
+      "confirm": "Kategoriyi sil",
+      "title": "\"{{name}}\" kategorisi silinsin mi?"
+    },
+    "deleteChannelAction": "Kanalı sil",
+    "empty": "Yeniden sıralanacak kanal yok.",
+    "failedMoveMember": "Üye taşınamadı",
+    "nameEmpty": "Kanal adı boş olamaz.",
+    "namePlaceholder": "Kanal adı",
+    "noCategory": "Kategori yok",
+    "noChannelInvites": "#{{channel}} için henüz davet oluşturulmadı.",
+    "noSpaceEmojis": "Henüz alan emojisi yok",
+    "overwrites": "Üst yazımlar",
+    "pages": {
+      "invites": "Davetler",
+      "overview": "Genel bakış",
+      "permissions": "İzinler"
+    },
+    "permissionOverwrites": "İzin üst yazımları",
     "permissions": {
       "addOverwrite": "İzin üst yazımı ekle",
-      "roles": "ROLLER",
-      "members": "ÜYELER",
-      "noResults": "Sonuç yok",
-      "noOverwritesYet": "Henüz üst yazım yok",
-      "selectTargetHint": "Kanala özel izinleri yapılandırmak için bir rol veya üye seç.",
-      "selectTargetHintLeft": "Bu kanal için izinlerini düzenlemek üzere soldan bir rol veya üye seç, ya da eklemek için + düğmesine tıkla.",
+      "flags": {
+        "AddReactions": {
+          "description": "Üyelerin mesajlara emoji tepkileri eklemesine izin ver",
+          "label": "Tepki Ekle"
+        },
+        "AttachFiles": {
+          "description": "Üyelerin dosya eklemesine izin ver",
+          "label": "Dosya ekle"
+        },
+        "Connect": {
+          "description": "Üyelerin bu ses kanalına bağlanmasına izin ver",
+          "label": "Bağlan"
+        },
+        "DeafenMembers": {
+          "description": "Üyelerin bu ses kanalındaki diğer üyeleri sağır etmesine izin ver",
+          "label": "Sağır Üyeler"
+        },
+        "EmbedLinks": {
+          "description": "Üyelerin bağlantı yerleştirmesine izin ver",
+          "label": "Bağlantı yerleştir"
+        },
+        "ManageChannels": {
+          "description": "Üyelerin bu kanalı düzenlemesine veya silmesine izin ver",
+          "label": "Kanalı yönet"
+        },
+        "ManageMessages": {
+          "description": "Üyelerin başkalarının mesajlarını silmesine izin ver",
+          "label": "Mesajları yönet"
+        },
+        "ManageRoles": {
+          "description": "Üyelerin bu kanalın izin üst yazımlarını düzenlemesine izin ver",
+          "label": "İzinleri yönet"
+        },
+        "MentionEveryone": {
+          "description": "Üyelerin @everyone ve @here demesine izin ver",
+          "label": "Herkesten bahset"
+        },
+        "MoveMembers": {
+          "description": "Üyelerin diğer üyeleri ses kanalları arasında taşımasına ve bağlantılarının kesilmesine izin ver",
+          "label": "Üyeleri Taşı"
+        },
+        "MuteMembers": {
+          "description": "Üyelerin bu ses kanalındaki diğer üyeleri susturmasına izin ver",
+          "label": "Üyeleri Sessize Al"
+        },
+        "ReadMessageHistory": {
+          "description": "Üyelerin geçmiş mesajları okumasına izin ver",
+          "label": "Mesaj geçmişini oku"
+        },
+        "SendMessages": {
+          "description": "Üyelerin bu kanalda mesaj göndermesine izin ver",
+          "label": "Mesaj gönder"
+        },
+        "Speak": {
+          "description": "Üyelerin bu ses kanalında konuşmasına izin ver",
+          "label": "Konuş"
+        },
+        "UseExternalEmojis": {
+          "description": "Üyelerin diğer alanlardan emoji kullanmasına izin ver",
+          "label": "Harici emoji kullan"
+        },
+        "UseExternalStickers": {
+          "description": "Üyelerin diğer alanlardaki çıkartmaları kullanmasına izin ver",
+          "label": "Harici Çıkartmaları Kullan"
+        },
+        "UseVAD": {
+          "description": "Üyelerin ses etkinliği algılamayı kullanarak konuşmasına izin verin. Bu izin olmadan üyelerin bas-konuş özelliğini kullanması gerekir.",
+          "label": "Ses Etkinliğini Kullan"
+        },
+        "ViewChannel": {
+          "description": "Üyelerin bu kanalı görmesine izin ver",
+          "label": "Kanalı görüntüle"
+        }
+      },
       "groups": {
         "general": "Genel kanal izinleri",
         "text": "Metin kanalı izinleri",
         "voice": "Ses kanalı izinleri"
       },
-      "flags": {
-        "ViewChannel": {
-          "label": "Kanalı görüntüle",
-          "description": "Üyelerin bu kanalı görmesine izin ver"
-        },
-        "ManageChannels": {
-          "label": "Kanalı yönet",
-          "description": "Üyelerin bu kanalı düzenlemesine veya silmesine izin ver"
-        },
-        "ManageRoles": {
-          "label": "İzinleri yönet",
-          "description": "Üyelerin bu kanalın izin üst yazımlarını düzenlemesine izin ver"
-        },
-        "SendMessages": {
-          "label": "Mesaj gönder",
-          "description": "Üyelerin bu kanalda mesaj göndermesine izin ver"
-        },
-        "EmbedLinks": {
-          "label": "Bağlantı yerleştir",
-          "description": "Üyelerin bağlantı yerleştirmesine izin ver"
-        },
-        "AttachFiles": {
-          "label": "Dosya ekle",
-          "description": "Üyelerin dosya eklemesine izin ver"
-        },
-        "AddReactions": {
-          "label": "Tepki Ekle",
-          "description": "Üyelerin mesajlara emoji tepkileri eklemesine izin ver"
-        },
-        "MentionEveryone": {
-          "label": "Herkesten bahset",
-          "description": "Üyelerin @everyone ve @here demesine izin ver"
-        },
-        "UseExternalEmojis": {
-          "label": "Harici emoji kullan",
-          "description": "Üyelerin diğer alanlardan emoji kullanmasına izin ver"
-        },
-        "UseExternalStickers": {
-          "label": "Harici Çıkartmaları Kullan",
-          "description": "Üyelerin diğer alanlardaki çıkartmaları kullanmasına izin ver"
-        },
-        "ManageMessages": {
-          "label": "Mesajları yönet",
-          "description": "Üyelerin başkalarının mesajlarını silmesine izin ver"
-        },
-        "ReadMessageHistory": {
-          "label": "Mesaj geçmişini oku",
-          "description": "Üyelerin geçmiş mesajları okumasına izin ver"
-        },
-        "Connect": {
-          "label": "Bağlan",
-          "description": "Üyelerin bu ses kanalına bağlanmasına izin ver"
-        },
-        "Speak": {
-          "label": "Konuş",
-          "description": "Üyelerin bu ses kanalında konuşmasına izin ver"
-        },
-        "UseVAD": {
-          "label": "Ses Etkinliğini Kullan",
-          "description": "Üyelerin ses etkinliği algılamayı kullanarak konuşmasına izin verin. Bu izin olmadan üyelerin bas-konuş özelliğini kullanması gerekir."
-        },
-        "MuteMembers": {
-          "label": "Üyeleri Sessize Al",
-          "description": "Üyelerin bu ses kanalındaki diğer üyeleri susturmasına izin ver"
-        },
-        "DeafenMembers": {
-          "label": "Sağır Üyeler",
-          "description": "Üyelerin bu ses kanalındaki diğer üyeleri sağır etmesine izin ver"
-        },
-        "MoveMembers": {
-          "label": "Üyeleri Taşı",
-          "description": "Üyelerin diğer üyeleri ses kanalları arasında taşımasına ve bağlantılarının kesilmesine izin ver"
-        }
-      }
-    }
-  },
-  "confirm": {
-    "deleteSpaceTitle": "\"{{name}}\" silinsin mi?",
-    "leaveSpaceTitle": "\"{{name}}\" alanından ayrılınsın mı?",
-    "deleteSpaceBody": "{{name}} alanını silmek istediğinden emin misin? Bu işlem geri alınamaz.",
-    "leaveSpaceBody": "{{name}} alanından ayrılmak istediğinden emin misin? Bu işlem geri alınamaz.",
-    "cannotUndo": "Bu işlem geri alınamaz."
-  },
-  "menu": {
-    "spaceSettings": "Alan ayarları",
-    "reportSpace": "Alanı bildir",
-    "leaveSpace": "Alandan ayrıl",
-    "deleteSpace": "Alanı sil"
+      "members": "ÜYELER",
+      "noOverwritesYet": "Henüz üst yazım yok",
+      "noResults": "Sonuç yok",
+      "roles": "ROLLER",
+      "selectTargetHint": "Kanala özel izinleri yapılandırmak için bir rol veya üye seç.",
+      "selectTargetHintLeft": "Bu kanal için izinlerini düzenlemek üzere soldan bir rol veya üye seç, ya da eklemek için + düğmesine tıkla."
+    },
+    "removeIcon": "Simgeyi kaldır",
+    "reorderHint": "Kanalları yeniden sıralamak için sürükle. Bir kanalı doğrudan bir kategorinin altına yerleştirerek o gruba ekle. Gruptan çıkarmak için kategorinin üstüne sürükle.",
+    "restoreIcon": "Simgeyi geri yükle",
+    "saveOverwrite": "Üst yazımı kaydet",
+    "searchTargets": "Rol veya üye ara…",
+    "selectOverwriteTarget": "Kanala özel izinleri düzenlemek için bir üst yazım hedefi seç.",
+    "settingsTitle": "Kanal ayarları",
+    "topic": "Kanal konusu",
+    "topicHint": "Üyelere kanalın üstünde gösterilir.",
+    "topicPlaceholder": "Konu",
+    "uploadEmoji": "Emoji yükle",
+    "uploadSticker": "Çıkartma yükle"
   },
   "chrome": {
-    "spaceSettings": "Alan ayarları",
-    "inviteToSpace": "Alana davet et",
-    "createInviteA11y": "Davet oluştur",
     "createCategoryA11y": "Kategori oluştur",
-    "spaceMenuA11y": "Alan menüsü"
+    "createInviteA11y": "Davet oluştur",
+    "inviteToSpace": "Alana davet et",
+    "spaceMenuA11y": "Alan menüsü",
+    "spaceSettings": "Alan ayarları"
   },
-  "sidebar": {
-    "createSpace": "Alan oluştur",
-    "switchToSpaces": "Alanlara geç",
-    "switchToDirectMessages": "Doğrudan mesajlara geç",
-    "switchToFeed": "Akışa geç",
-    "switchTo": "Geç",
-    "directMessages": "Doğrudan mesajlar",
-    "friends": "Arkadaşlar",
-    "spaces": "Alanlar",
-    "channels": "Kanallar",
-    "bridges": "Köprüler",
-    "moreOptions": "Daha fazla seçenek",
-    "reorder": "Yeniden sırala",
-    "doneReordering": "Tamamlamak",
-    "reorderA11y": "Alanları yeniden sıralayın",
-    "doneReorderingA11y": "Alanların yeniden düzenlenmesi tamamlandı"
+  "confirm": {
+    "cannotUndo": "Bu işlem geri alınamaz.",
+    "deleteSpaceBody": "{{name}} alanını silmek istediğinden emin misin? Bu işlem geri alınamaz.",
+    "deleteSpaceTitle": "\"{{name}}\" silinsin mi?",
+    "leaveSpaceBody": "{{name}} alanından ayrılmak istediğinden emin misin? Bu işlem geri alınamaz.",
+    "leaveSpaceTitle": "\"{{name}}\" alanından ayrılınsın mı?"
+  },
+  "expressions": {
+    "emojiLimit": "Maalesef yükleyebileceğin emoji limiti şu an 100, çünkü uygulama beta aşamasında ve depolama şu an sorun",
+    "emojiLimitMobile": "Beta limiti: alan başına {{limit}} emoji.",
+    "emptyEmojis": "Henüz alan emojisi yok",
+    "emptyStickers": "Henüz alan çıkartması yok",
+    "pageDescription": "Bu alan için özel emoji ve çıkartmaları yükle ve yönet.",
+    "pageTitle": "Alan ifadeleri",
+    "stickerLimit": "Maalesef yükleyebileceğin çıkartma limiti şu an 100, çünkü uygulama beta aşamasında ve depolama şu an sorun",
+    "stickerLimitMobile": "Beta limiti: alan başına {{limit}} çıkartma."
+  },
+  "invites": {
+    "activeLinks": "Aktif davet bağlantıları",
+    "columns": {
+      "expires": "Bitiş",
+      "inviteCode": "Davet kodu",
+      "inviter": "Davet eden",
+      "uses": "Kullanımlar"
+    },
+    "copiedToClipboard": "Panoya kopyalandı",
+    "copyInviteUrl": "Davet URL'sini kopyala",
+    "createDescriptionChannel": "#{{channel}} için bir bağlantı oluşturur.",
+    "createDescriptionDefault": "Bu alanın varsayılan metin kanalına bir bağlantı oluşturur.",
+    "createFailed": "Davet oluşturulamadı",
+    "createTitle": "Davet bağlantısı oluştur",
+    "empty": "Bu alan için henüz davet oluşturulmadı.",
+    "expired": "Süresi dolmuş",
+    "expiry": {
+      "12hours": "12 saat",
+      "1day": "1 gün",
+      "1hour": "1 saat",
+      "30minutes": "30 dakika",
+      "6hours": "6 saat",
+      "7days": "7 gün",
+      "never": "Asla"
+    },
+    "maxUses": {
+      "100uses": "100 kullanım",
+      "10uses": "10 kullanım",
+      "1use": "1 kullanım",
+      "25uses": "25 kullanım",
+      "50uses": "50 kullanım",
+      "5uses": "5 kullanım",
+      "noLimit": "Sınırsız"
+    },
+    "modal": {
+      "editTitle": "Mevcut davet bağlantısı düzenleniyor",
+      "expireAfter": "Şundan sonra sona ersin",
+      "expiresAfterUses_one": " veya {{count}} kullanımdan sonra",
+      "expiresAfterUses_other": " veya {{count}} kullanımdan sonra",
+      "expiresNever": "hiç dolmaz",
+      "expiresPrefix": "Bu bağlantının süresi ",
+      "inviteLink": "Davet bağlantısı",
+      "landingChannel": "Alıcılar #{{channelName}} kanalına düşecek",
+      "maxUses": "Maks. kullanım",
+      "noFriends": "Davet edilecek arkadaş yok. Bunun yerine aşağıdaki bağlantıyı paylaş.",
+      "noResults": "Sonuç yok.",
+      "searchFriends": "Arkadaş ara",
+      "title": "{{spaceName}} alanına arkadaş davet et"
+    },
+    "neverExpires": "Hiç bitmez",
+    "tapToCopy": "Kopyalamak için bağlantıya dokun",
+    "usesLabel": "Kullanımlar: {{uses}}{{max}}",
+    "usesMax": "/ {{max}}"
   },
   "lockdown": {
-    "title": "Bu alan kilitli",
-    "ownerMessage": "Mesajlaşma ve değişiklikler devre dışı. Bunun bir hata olduğunu düşünüyorsan e-postandaki itiraz bağlantısını kontrol et.",
     "memberMessage": "Personel bu alanı incelerken mesajlaşma ve değişiklikler devre dışı.",
+    "ownerMessage": "Mesajlaşma ve değişiklikler devre dışı. Bunun bir hata olduğunu düşünüyorsan e-postandaki itiraz bağlantısını kontrol et.",
+    "title": "Bu alan kilitli",
     "toast": "Bu alan kilitli. Mesajlaşma ve değişiklikler devre dışı."
   },
-  "theme": {
-    "description": "Kanal listesini kaplayın ve bu alandaki herkesle sohbet edin. Kişisel temanız başka yerde kalır.",
-    "clear": "Kişisel temayı kullan",
-    "createCustom": "Uzay teması oluştur",
-    "spaceThemes": "Bu alan",
-    "noCustomThemes": "Henüz özel tema yok. Bu alanı markalamak için bir tane oluşturun."
+  "menu": {
+    "deleteSpace": "Alanı sil",
+    "leaveSpace": "Alandan ayrıl",
+    "reportSpace": "Alanı bildir",
+    "spaceSettings": "Alan ayarları"
+  },
+  "moderation": {
+    "banReasons": {
+      "breakingRules": "Alan kurallarını ihlal",
+      "compromised": "Ele geçirilmiş veya hacklenmiş hesap",
+      "other": "Diğer",
+      "suspicious": "Şüpheli veya spam hesap"
+    },
+    "banTitle": "{{name}} yasaklansın mı?",
+    "deleteMessages": {
+      "allMessages": "Tüm mesajlar",
+      "deleteAllMessages": "Tüm mesajları sil",
+      "dontDelete": "Silme",
+      "dontDeleteMessages": "Mesajları silme",
+      "last24Hours": "Son 24 saat",
+      "last7Days": "Son 7 gün",
+      "lastHour": "Son saat",
+      "previousDay": "Önceki gün",
+      "previousHour": "Önceki saat",
+      "previousWeek": "Önceki hafta"
+    },
+    "deleteRecentMessages": "Son mesajları sil",
+    "kickBody": "@{{name}} kullanıcısını alandan atmak istediğinden emin misin? Yeniden katılmak için davete ihtiyaçları olacak.",
+    "kickFromSpaceTitle": "{{name}} alanından at",
+    "kickSuccess": "{{name}} alandan atıldı",
+    "kickTitle": "{{name}} atılsın mı?",
+    "reason": "Neden",
+    "reasonForBan": "Yasaklama nedeni *",
+    "reasonForKick": "Atma nedeni",
+    "reasonOptional": "Neden (isteğe bağlı)",
+    "youWereBanned": "{{name}} alanından yasaklandın",
+    "youWereKicked": "{{name}} alanından atıldın"
+  },
+  "nav": {
+    "categories": {
+      "general": "Genel",
+      "integrations": "Entegrasyonlar",
+      "moderation": "Moderasyon",
+      "people": "Kişiler"
+    },
+    "pages": {
+      "bans": "Yasaklar",
+      "channels": "Kanallar",
+      "expressions": "İfadeler",
+      "invites": "Davetler",
+      "minecraftBridge": "Minecraft Köprü",
+      "profile": "Profil",
+      "roles": "Roller",
+      "theme": "Tema"
+    }
+  },
+  "overviewDescription": "Rolleri, davetleri, ifadeleri ve moderasyonu yönet.",
+  "profile": {
+    "description": "Açıklama",
+    "descriptionPlaceholder": "Alan hakkında bir şeyler yaz...",
+    "genericError": "Bir hata oluştu",
+    "name": "Ad",
+    "spaceIcon": "Alan simgesi",
+    "updatedSuccess": "Alan başarıyla güncellendi."
+  },
+  "roles": {
+    "actionsColumn": "Eylemler",
+    "defaultPermissions": "Varsayılan izinler",
+    "delete": {
+      "confirm": "{{name}} rolünü silmek istediğinden emin misin? Bu işlem geri alınamaz.",
+      "title": "Rolü sil"
+    },
+    "display": {
+      "hoist": "Rol üyelerini çevrimiçi üyelerden ayrı göster",
+      "mentionable": "Herkesin bu role @mention yapmasına izin ver",
+      "mentionableHint": "\"@everyone, @here ve Tüm Rollerden Bahset\" iznine sahip üyeler bu ayardan bağımsız olarak bu rolden bahsedebilir.",
+      "mentionableHintShort": "Herkesten bahsetme iznine sahip üyeler yine de bu rolden bahsedebilir.",
+      "roleColor": "Rol rengi",
+      "roleName": "Rol adı"
+    },
+    "editTitle": "Rolü düzenle - {{name}}",
+    "empty": "Bu alan için henüz rol oluşturulmadı.",
+    "emptySearch": "Aramanızla eşleşen rol yok.",
+    "everyoneSubtitle": "@everyone - tüm alan üyelerine uygulanır",
+    "everyoneSuffix": "(@herkes)",
+    "hierarchy": {
+      "cantAssign": "Bu rolü atayamaz veya kaldıramazsınız",
+      "cantEditRole": "Bu rol en yüksek rolünüzde veya üzerinde olduğu için düzenleyemezsiniz.",
+      "cantManageMember": "Bu üyeyi yönetme izniniz yok",
+      "cantManageMembers": "Bu role üye atayamaz veya kaldıramazsınız.",
+      "cantReorder": "En yüksek rolünüzdeki veya üzerindeki rolleri yeniden sıralayamazsınız",
+      "dragToReorder": "Yeniden sıralamak için sürükle",
+      "dragToReorderHierarchy": "Hiyerarşiyi yeniden sıralamak için sürükle",
+      "failedReorder": "Roller yeniden sıralanamadı",
+      "failedUpdateRole": "Rol güncellenemedi"
+    },
+    "hierarchyHint": "Listedeki daha yüksek roller daha fazla yetkiye sahiptir. Hiyerarşiyi değiştirmek için rolleri sürükle.",
+    "listTitle_one": "Roller - {{count}}",
+    "listTitle_other": "Roller - {{count}}",
+    "memberCount_one": "{{count}} üye",
+    "memberCount_other": "{{count}} üye",
+    "members": {
+      "addDescription": "{{roleName}} rolüne en fazla {{max}} üye ekle",
+      "addFailed": "Üyeler role eklenemedi",
+      "addSuccess_one": "{{roleName}} rolüne {{count}} üye eklendi",
+      "addSuccess_other": "{{roleName}} rolüne {{count}} üye eklendi",
+      "addTitle": "Üye ekle",
+      "description": "Bu role atanan üyeleri görüntüle ve yönet.",
+      "emptyAssigned": "Bu role henüz üye atanmadı.",
+      "emptySearch": "Aramanızla eşleşen üye yok.",
+      "noEligible": "Bu role eklenebilecek üye yok.",
+      "searchPlaceholder": "Üye ara",
+      "selectedCount": "{{selected}}/{{max}} seçildi",
+      "title": "Rol üyeleri"
+    },
+    "membersColumn": "Üyeler",
+    "permissions": {
+      "clear": "İzinleri temizle",
+      "emptySearch": "Aramanızla eşleşen izin yok",
+      "flags": {
+        "AddReactions": {
+          "description": "Üyelerin mesajlara emoji tepkileri eklemesine izin ver",
+          "label": "Tepki Ekle"
+        },
+        "Administrator": {
+          "description": "Bu izne sahip üyeler her izne sahip olur. Bu tehlikeli bir izindir.",
+          "descriptionBefore": "Bu izne sahip üyeler her izne sahip olur.",
+          "descriptionDanger": "Bu tehlikeli bir izindir",
+          "label": "Yönetici"
+        },
+        "AttachFiles": {
+          "description": "Üyelerin mesajlara dosya eklemesine izin ver",
+          "label": "Dosya ekle"
+        },
+        "BanMembers": {
+          "description": "Yasaklama, üyeleri bu alandan çıkarır ve yasakları kaldırılana kadar yeniden katılmalarını engeller.",
+          "label": "Üye yasakla"
+        },
+        "Connect": {
+          "description": "Üyelerin ses kanallarına bağlanmasına izin ver",
+          "label": "Bağlan"
+        },
+        "CreateExpressions": {
+          "description": "Üyelerin bu alanda emoji ve çıkartma oluşturmasına izin ver.",
+          "label": "İfade oluştur"
+        },
+        "CreateInvites": {
+          "description": "Üyelerin bu alana yeni kişiler davet etmesine izin ver",
+          "label": "Davet oluştur"
+        },
+        "DeafenMembers": {
+          "description": "Üyelerin ses kanallarında diğer üyeleri sağır etmesine izin ver",
+          "label": "Sağır Üyeler"
+        },
+        "EmbedLinks": {
+          "description": "Üyelerin mesajlarda bağlantı yerleştirmesine izin ver",
+          "label": "Bağlantı yerleştir"
+        },
+        "KickMembers": {
+          "description": "Atma, diğer üyeleri bu alandan çıkarır. Atılan üyeler başka bir davetleri varsa yeniden katılabilir.",
+          "label": "Üye at"
+        },
+        "ManageChannels": {
+          "description": "Üyelerin kanal oluşturmasına, düzenlemesine veya silmesine izin ver",
+          "label": "Kanalları yönet"
+        },
+        "ManageExpressions": {
+          "description": "Üyelerin bu alandaki emoji ve çıkartmaları düzenlemesine veya silmesine izin ver.",
+          "label": "İfadeleri yönet"
+        },
+        "ManageMessages": {
+          "description": "Üyelerin diğer üyelerin mesajlarını silmesine izin ver",
+          "label": "Mesajları yönet"
+        },
+        "ManageRoles": {
+          "description": "Üyelerin yeni roller oluşturmasına ve en yüksek rollerinden düşük rolleri düzenlemesine veya silmesine izin verir",
+          "label": "Rolleri yönet"
+        },
+        "ManageSpace": {
+          "description": "Üyelerin bu alanı değiştirmesine izin ver",
+          "label": "Alanı yönet"
+        },
+        "MentionEveryone": {
+          "description": "Üyelerin mesajlarda @everyone ve @here demesine izin ver",
+          "label": "Herkesten bahset"
+        },
+        "MoveMembers": {
+          "description": "Üyelerin diğer üyeleri ses kanalları arasında taşımasına ve bağlantılarının kesilmesine izin ver",
+          "label": "Üyeleri Taşı"
+        },
+        "MuteMembers": {
+          "description": "Üyelerin, ses kanallarında diğer üyelerin sesini kapatmasına izin ver",
+          "label": "Üyeleri Sessize Al"
+        },
+        "ReadMessageHistory": {
+          "description": "Üyelerin mesaj geçmişini okumasına izin ver",
+          "label": "Mesaj geçmişini oku"
+        },
+        "SendMessages": {
+          "description": "Üyelerin metin kanallarında mesaj göndermesine izin ver",
+          "label": "Mesaj gönder"
+        },
+        "Speak": {
+          "description": "Üyelerin ses kanallarında konuşmasına izin ver",
+          "label": "Konuş"
+        },
+        "UseExternalEmojis": {
+          "description": "Üyelerin diğer alanlardan veya kendi emojilerini mesajlarında kullanmasına izin ver",
+          "label": "Harici emoji kullan"
+        },
+        "UseExternalStickers": {
+          "description": "Üyelerin mesajlarında diğer alanlardaki çıkartmaları kullanmasına izin ver",
+          "label": "Harici Çıkartmaları Kullan"
+        },
+        "UseVAD": {
+          "description": "Üyelerin ses etkinliği algılamayı kullanarak konuşmasına izin verin. Bu izin olmadan üyelerin bas-konuş özelliğini kullanması gerekir.",
+          "label": "Ses Etkinliğini Kullan"
+        },
+        "ViewChannel": {
+          "description": "Üyelerin varsayılan olarak kanalları görmesine izin ver",
+          "label": "Kanalları görüntüle"
+        }
+      },
+      "groups": {
+        "advanced": "Gelişmiş izinler",
+        "general": "Genel alan izinleri",
+        "membership": "Üyelik izinleri",
+        "text": "Metin kanalı izinleri",
+        "voice": "Ses kanalı izinleri"
+      },
+      "jumpToCategory": "Kategoriye atla…",
+      "searchPlaceholder": "İzin ara..."
+    },
+    "saveFailed": "Rol kaydedilemedi",
+    "searchPlaceholder": "Rol ara",
+    "tabs": {
+      "display": "Görünüm",
+      "manageMembers": "Üyeleri yönet",
+      "members": "Üyeler",
+      "permissions": "İzinler"
+    },
+    "unsavedChanges": "Kaydedilmemiş değişikliklerin var!"
   },
   "sheet": {
+    "membersCount_one": "{{count}} Üye",
+    "membersCount_other": "{{count}} Üyeler",
+    "mutedStatus": "Bu alanı sessize aldınız",
+    "muteHelper": "Bir alanı sessize almak, sizden bahsedilmediği sürece okunmamış rozetleri ve bildirim seslerini önler.",
+    "muteSpace": "Sessize al {{spaceName}}",
+    "notificationSettingsTitle": "Bildirim ayarları",
+    "onlineCount_one": "{{count}} Çevrimiçi",
+    "onlineCount_other": "{{count}} Çevrimiçi",
     "quickActions": {
       "invite": "Davet etmek",
       "notifications": "Bildirimler",
       "settings": "Ayarlar"
     },
-    "onlineCount_one": "{{count}} Çevrimiçi",
-    "onlineCount_other": "{{count}} Çevrimiçi",
-    "membersCount_one": "{{count}} Üye",
-    "membersCount_other": "{{count}} Üyeler",
-    "spaceEmojis": "Uzay emojisi",
-    "notificationSettingsTitle": "Bildirim ayarları",
-    "serverSettingsTitle": "Alan ayarları",
-    "unmuteSpace": "{{spaceName}}'ın sesini aç",
-    "muteSpace": "Sessize al {{spaceName}}",
-    "mutedStatus": "Bu alanı sessize aldınız",
-    "muteHelper": "Bir alanı sessize almak, sizden bahsedilmediği sürece okunmamış rozetleri ve bildirim seslerini önler.",
     "serverNotificationSettings": "Sunucu bildirim ayarları",
-    "suppressSettings": "Bastır",
+    "serverSettingsTitle": "Alan ayarları",
     "settingsSection": "Ayarlar",
+    "spaceEmojis": "Uzay emojisi",
+    "suppressSettings": "Bastır",
+    "unmuteSpace": "{{spaceName}}'ın sesini aç",
     "userManagementSection": "Kullanıcı yönetimi"
-  }
+  },
+  "sidebar": {
+    "bridges": "Köprüler",
+    "channels": "Kanallar",
+    "createSpace": "Alan oluştur",
+    "directMessages": "Doğrudan mesajlar",
+    "doneReordering": "Tamamlamak",
+    "doneReorderingA11y": "Alanların yeniden düzenlenmesi tamamlandı",
+    "friends": "Arkadaşlar",
+    "moreOptions": "Daha fazla seçenek",
+    "reorder": "Yeniden sırala",
+    "reorderA11y": "Alanları yeniden sıralayın",
+    "spaces": "Alanlar",
+    "switchTo": "Geç",
+    "switchToDirectMessages": "Doğrudan mesajlara geç",
+    "switchToFeed": "Akışa geç",
+    "switchToSpaces": "Alanlara geç"
+  },
+  "theme": {
+    "clear": "Kişisel temayı kullan",
+    "createCustom": "Uzay teması oluştur",
+    "description": "Kanal listesini kaplayın ve bu alandaki herkesle sohbet edin. Kişisel temanız başka yerde kalır.",
+    "noCustomThemes": "Henüz özel tema yok. Bu alanı markalamak için bir tane oluşturun.",
+    "spaceThemes": "Bu alan"
+  },
+  "title": "Alan ayarları",
+  "titleShort": "Alan ayarları"
 }

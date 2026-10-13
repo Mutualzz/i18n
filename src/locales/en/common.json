@@ -1,49 +1,94 @@
 {
-  "cancel": "Cancel",
-  "save": "Save",
-  "saveChanges": "Save Changes",
-  "close": "Close",
-  "create": "Create",
-  "delete": "Delete",
-  "add": "Add",
-  "remove": "Remove",
-  "reset": "Reset",
-  "back": "Back",
-  "clear": "Clear",
-  "finish": "Finish",
-  "retry": "Retry",
-  "apply": "Apply",
-  "undo": "Undo",
-  "redo": "Redo",
-  "open": "Open",
-  "proceed": "Proceed",
-  "gotIt": "Got it",
-  "whatsNew": {
-    "title": "What's New"
+  "a11y": {
+    "allowPermission": "Allow {{label}}",
+    "closeModal": "Close modal",
+    "closeProfile": "Close profile",
+    "createChannelInCategory": "Create channel in category",
+    "decrement": "Decrement",
+    "deleteExpression": "Delete :{{name}}:",
+    "deleteInvite": "Delete invite",
+    "deleteNamed": "Delete {{name}}",
+    "denyPermission": "Deny {{label}}",
+    "editWidgetHint": "Opens the widget editor. Long press to rearrange widgets.",
+    "expandWidget": "Expand {{type}} widget",
+    "expandWidgetHint": "Opens the full widget content",
+    "fileAttachment": "File attachment",
+    "imageAttachment": "Image attachment",
+    "increment": "Increment",
+    "moreOptions": "More options",
+    "neutralPermission": "Neutral {{label}}",
+    "openColorPicker": "Open color picker",
+    "pauseVideo": "Pause video",
+    "playVideo": "Play video",
+    "randomColor": "Random color",
+    "randomColorHint": "Picks a random color",
+    "rangeSliderHint": "Range slider. Adjust by dragging.",
+    "removeColorStop": "Remove color stop",
+    "removeMemberFromRole": "Remove {{member}} from {{role}}",
+    "reorder": "Reorder",
+    "sent": "Sent",
+    "settings": "Settings",
+    "tapToOpen": "Tap to open",
+    "time": "Time"
   },
-  "seo": {
-    "defaultTitle": "Mutualzz (Early Access)",
-    "defaultDescription": "Connect with other people who share your interests. Currently under heavy development"
-  },
-  "reload": "Reload app",
-  "logout": "Sign out",
-  "download": "Download Mutualzz",
   "accept": "Accept",
-  "decline": "Decline",
-  "restore": "Restore",
-  "uploadCustomFont": "Upload custom font",
-  "language": {
-    "title": "Language",
-    "description": "Choose the language used across Mutualzz.",
-    "systemDefault": "Device language"
+  "activity": {
+    "elapsed": "{{time}} elapsed",
+    "listened": "Listened",
+    "listening": "Listening",
+    "openInSpotify": "Open in Spotify",
+    "played": "Played",
+    "playing": "Playing",
+    "showLess": "Show less"
   },
+  "add": "Add",
+  "apply": "Apply",
+  "back": "Back",
   "calendar": {
-    "sameDay": "[Today at] h:mm A",
-    "nextDay": "[Tomorrow at] h:mm A",
     "lastDay": "[Yesterday at] h:mm A",
     "lastWeek": "[Last] dddd [at] h:mm A",
+    "nextDay": "[Tomorrow at] h:mm A",
+    "sameDay": "[Today at] h:mm A",
     "sameElse": "MM/DD/YYYY h:mm A"
   },
+  "cancel": "Cancel",
+  "clear": "Clear",
+  "close": "Close",
+  "connection": {
+    "audioBlocked": "Your browser blocked voice audio playback",
+    "enableAudio": "Click to enable audio",
+    "offlineBanner": "You are currently offline",
+    "reconnect": "Reconnect"
+  },
+  "crash": {
+    "bodyDesktop": "Mutualzz ran into an unexpected error. Reload the app to try again.",
+    "bodyMobile": "Mutualzz ran into an unexpected error. Close the app completely, then open it again.",
+    "hintAndroid": "Open your recent apps overview, then swipe Mutualzz away until the app closes.",
+    "hintIos": "Swipe up from the bottom of the screen to open the app switcher, then swipe Mutualzz away.",
+    "orPressShortcut": "Or press {{shortcut}}",
+    "title": "Something went wrong"
+  },
+  "create": "Create",
+  "customStatus": {
+    "addEmoji": "Add status emoji",
+    "changeEmoji": "Change status emoji",
+    "changeStatus": "Change Status",
+    "chooseEmoji": "Choose status emoji",
+    "clearA11y": "Clear custom status",
+    "editA11y": "Edit custom status",
+    "heading": "Custom status",
+    "label": "Status",
+    "pickEmoji": "Pick an emoji",
+    "placeholder": "Enter your status...",
+    "removeEmoji": "Remove emoji",
+    "setPlaceholder": "Set Custom Status...",
+    "setShort": "Set a custom status...",
+    "title": "Set your status",
+    "whatsOnYourMind": "What's on your mind?"
+  },
+  "decline": "Decline",
+  "delete": "Delete",
+  "download": "Download Mutualzz",
   "duration": {
     "clearOnDateAt": "Clear {{date}} at {{time}}",
     "clearTodayAt": "Clear today at {{time}}",
@@ -57,14 +102,114 @@
     "minutes_one": "{{count}} minute",
     "minutes_other": "{{count}} minutes"
   },
-  "activity": {
-    "playing": "Playing",
-    "listening": "Listening",
-    "played": "Played",
-    "listened": "Listened",
-    "elapsed": "{{time}} elapsed",
-    "showLess": "Show less",
-    "openInSpotify": "Open in Spotify"
+  "editable": {
+    "addToDictionary": "Add to Dictionary",
+    "copy": "Copy",
+    "cut": "Cut",
+    "paste": "Paste",
+    "spellcheck": "Spellcheck"
+  },
+  "errors": {
+    "requestFailed": "Request failed",
+    "requestFailedWithStatus": "Request failed ({{status}})",
+    "unknown": "Unknown error"
+  },
+  "externalLink": {
+    "aboutToOpen": "You are about to open an external link:",
+    "blockedInApp": "We do not allow opening unsafe links directly in the app for your security. Please copy the link and open it in your web browser.",
+    "close": "Close",
+    "confirmProceed": "Are you sure you want to proceed?",
+    "dontShowAgain": "Don't show this warning again",
+    "proceed": "Proceed",
+    "title": "Open External Link",
+    "unsafeHttpBody": "The link you are trying to open uses an insecure HTTP connection. This could potentially expose your data to third parties.",
+    "unsafeTitle": "This link seems to be unsafe"
+  },
+  "finish": "Finish",
+  "gotIt": "Got it",
+  "language": {
+    "description": "Choose the language used across Mutualzz.",
+    "systemDefault": "Device language",
+    "title": "Language"
+  },
+  "logout": "Sign out",
+  "markdown": {
+    "blockquote": "Blockquote",
+    "bold": "Bold",
+    "code": "Code",
+    "color": "Color",
+    "italic": "Italic",
+    "spoiler": "Spoiler",
+    "strikethrough": "Strikethrough",
+    "underline": "Underline"
+  },
+  "media": {
+    "download": "Download",
+    "pause": "Pause",
+    "play": "Play",
+    "volume": "Volume"
+  },
+  "minecraft": {
+    "skinAlt": "Minecraft skin",
+    "skinAltNamed": "{{name}}'s Minecraft skin"
+  },
+  "nav": {
+    "goBack": "Go Back",
+    "goForward": "Go Forward"
+  },
+  "notifications": {
+    "acceptedFriend": "{{name}} accepted your friend request",
+    "groupDmChannel": "Group DM Channel",
+    "markAllAsRead": "Mark all as read",
+    "mentions": "Mentions",
+    "messagePlaceholder": "Message",
+    "messagesChannel": "Messages",
+    "noMentions": "No new mentions",
+    "noMessagesYet": "No messages yet",
+    "noUnreads": "No unread messages",
+    "recentlyAccepted": "Recently Accepted",
+    "reply": "Reply",
+    "requests": "Requests",
+    "send": "Send",
+    "sentAttachment": "Sent an attachment",
+    "unreads": "Unreads",
+    "youWereMentioned": "You were mentioned"
+  },
+  "open": "Open",
+  "proceed": "Proceed",
+  "redo": "Redo",
+  "reload": "Reload app",
+  "remove": "Remove",
+  "report": {
+    "action": "Report",
+    "description": "Reports are reviewed by staff. Choose the reason that best fits.",
+    "detailsPlaceholder": "Add more detail (optional)",
+    "reasons": {
+      "harassment": "Harassment or Abuse",
+      "hate_speech": "Hate Speech",
+      "impersonation": "Impersonation",
+      "misinformation": "Misinformation",
+      "nsfw": "NSFW / Inappropriate Content",
+      "other": "Other",
+      "self_harm": "Self-Harm or Suicide",
+      "spam": "Spam"
+    },
+    "submit": "Submit Report",
+    "submitting": "Submitting...",
+    "success": "Report submitted. Thank you for helping keep things safe.",
+    "title": "Report {{label}}"
+  },
+  "reset": "Reset",
+  "restore": "Restore",
+  "retry": "Retry",
+  "save": "Save",
+  "saveChanges": "Save Changes",
+  "select": {
+    "placeholder": "Select an option"
+  },
+  "seo": {
+    "defaultDescription": "Connect with other people who share your interests. Currently under heavy development",
+    "defaultTitle": "Mutualzz (Early Access)"
   },
   "status": {
     "clearCustomAfter": "Clear custom status after",
@@ -79,200 +224,7 @@
     "online": "Online",
     "saveCustom": "Save custom status"
   },
-  "report": {
-    "title": "Report {{label}}",
-    "description": "Reports are reviewed by staff. Choose the reason that best fits.",
-    "detailsPlaceholder": "Add more detail (optional)",
-    "submit": "Submit Report",
-    "submitting": "Submitting...",
-    "success": "Report submitted. Thank you for helping keep things safe.",
-    "action": "Report",
-    "reasons": {
-      "spam": "Spam",
-      "harassment": "Harassment or Abuse",
-      "hate_speech": "Hate Speech",
-      "nsfw": "NSFW / Inappropriate Content",
-      "self_harm": "Self-Harm or Suicide",
-      "impersonation": "Impersonation",
-      "misinformation": "Misinformation",
-      "other": "Other"
-    }
-  },
-  "editable": {
-    "addToDictionary": "Add to Dictionary",
-    "spellcheck": "Spellcheck",
-    "cut": "Cut",
-    "copy": "Copy",
-    "paste": "Paste"
-  },
-  "customStatus": {
-    "title": "Set your status",
-    "heading": "Custom status",
-    "label": "Status",
-    "placeholder": "Enter your status...",
-    "setPlaceholder": "Set Custom Status...",
-    "setShort": "Set a custom status...",
-    "editA11y": "Edit custom status",
-    "clearA11y": "Clear custom status",
-    "changeEmoji": "Change status emoji",
-    "addEmoji": "Add status emoji",
-    "chooseEmoji": "Choose status emoji",
-    "pickEmoji": "Pick an emoji",
-    "removeEmoji": "Remove emoji",
-    "changeStatus": "Change Status",
-    "whatsOnYourMind": "What's on your mind?"
-  },
-  "externalLink": {
-    "proceed": "Proceed",
-    "close": "Close",
-    "title": "Open External Link",
-    "aboutToOpen": "You are about to open an external link:",
-    "unsafeTitle": "This link seems to be unsafe",
-    "unsafeHttpBody": "The link you are trying to open uses an insecure HTTP connection. This could potentially expose your data to third parties.",
-    "confirmProceed": "Are you sure you want to proceed?",
-    "blockedInApp": "We do not allow opening unsafe links directly in the app for your security. Please copy the link and open it in your web browser.",
-    "dontShowAgain": "Don't show this warning again"
-  },
-  "connection": {
-    "reconnect": "Reconnect",
-    "enableAudio": "Click to enable audio",
-    "offlineBanner": "You are currently offline",
-    "audioBlocked": "Your browser blocked voice audio playback"
-  },
-  "nav": {
-    "goBack": "Go Back",
-    "goForward": "Go Forward"
-  },
-  "updater": {
-    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
-    "downloadedOnly": "{{downloaded}} MB",
-    "etaHoursMinutes": "{{hours}}h {{minutes}}m left",
-    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s left",
-    "etaSeconds": "{{seconds}}s left",
-    "installUpdate": "Install update",
-    "installing": "Installing update…",
-    "restartToUpdate": "Restart to update",
-    "restarting": "Restarting…",
-    "pleaseWait": "Updating… please wait",
-    "updateReady": "Update {{version}} ready"
-  },
-  "crash": {
-    "title": "Something went wrong",
-    "bodyDesktop": "Mutualzz ran into an unexpected error. Reload the app to try again.",
-    "orPressShortcut": "Or press {{shortcut}}",
-    "bodyMobile": "Mutualzz ran into an unexpected error. Close the app completely, then open it again.",
-    "hintIos": "Swipe up from the bottom of the screen to open the app switcher, then swipe Mutualzz away.",
-    "hintAndroid": "Open your recent apps overview, then swipe Mutualzz away until the app closes."
-  },
-  "a11y": {
-    "closeProfile": "Close profile",
-    "settings": "Settings",
-    "deleteInvite": "Delete invite",
-    "deleteNamed": "Delete {{name}}",
-    "deleteExpression": "Delete :{{name}}:",
-    "removeMemberFromRole": "Remove {{member}} from {{role}}",
-    "allowPermission": "Allow {{label}}",
-    "neutralPermission": "Neutral {{label}}",
-    "denyPermission": "Deny {{label}}",
-    "expandWidget": "Expand {{type}} widget",
-    "expandWidgetHint": "Opens the full widget content",
-    "editWidgetHint": "Opens the widget editor. Long press to rearrange widgets.",
-    "playVideo": "Play video",
-    "pauseVideo": "Pause video",
-    "tapToOpen": "Tap to open",
-    "imageAttachment": "Image attachment",
-    "fileAttachment": "File attachment",
-    "moreOptions": "More options",
-    "sent": "Sent",
-    "createChannelInCategory": "Create channel in category",
-    "reorder": "Reorder",
-    "time": "Time",
-    "closeModal": "Close modal",
-    "increment": "Increment",
-    "decrement": "Decrement",
-    "openColorPicker": "Open color picker",
-    "randomColor": "Random color",
-    "randomColorHint": "Picks a random color",
-    "removeColorStop": "Remove color stop",
-    "rangeSliderHint": "Range slider. Adjust by dragging."
-  },
-  "errors": {
-    "requestFailed": "Request failed",
-    "requestFailedWithStatus": "Request failed ({{status}})",
-    "unknown": "Unknown error"
-  },
-  "minecraft": {
-    "skinAlt": "Minecraft skin",
-    "skinAltNamed": "{{name}}'s Minecraft skin"
-  },
-  "select": {
-    "placeholder": "Select an option"
-  },
-  "media": {
-    "play": "Play",
-    "pause": "Pause",
-    "download": "Download",
-    "volume": "Volume"
-  },
-  "notifications": {
-    "unreads": "Unreads",
-    "mentions": "Mentions",
-    "requests": "Requests",
-    "markAllAsRead": "Mark all as read",
-    "acceptedFriend": "{{name}} accepted your friend request",
-    "sentAttachment": "Sent an attachment",
-    "noMessagesYet": "No messages yet",
-    "youWereMentioned": "You were mentioned",
-    "noUnreads": "No unread messages",
-    "noMentions": "No new mentions",
-    "recentlyAccepted": "Recently Accepted",
-    "groupDmChannel": "Group DM Channel",
-    "messagesChannel": "Messages",
-    "reply": "Reply",
-    "messagePlaceholder": "Message",
-    "send": "Send"
-  },
-  "markdown": {
-    "bold": "Bold",
-    "italic": "Italic",
-    "underline": "Underline",
-    "strikethrough": "Strikethrough",
-    "blockquote": "Blockquote",
-    "code": "Code",
-    "spoiler": "Spoiler",
-    "color": "Color"
-  },
   "support": {
-    "myTickets": "My tickets",
-    "contactSupport": "Contact support",
-    "loginToContact": "Log in to contact support",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "faq": "Frequently asked questions",
-    "quickLinks": "Quick links",
-    "contactUs": "Contact us",
-    "openHelpCenter": "Open help center",
-    "describeIssue": "Describe your issue",
-    "newTicket": "New ticket",
-    "writeReply": "Write a reply",
-    "loading": "Loading...",
-    "loadingTickets": "Loading tickets...",
-    "loadMore": "Load more",
-    "sendReply": "Send reply",
-    "sendReplyFailed": "Failed to send reply",
-    "staffLabel": "Support",
-    "ticketClosed": "This ticket is closed.",
-    "ticketClosedHint": "This ticket is closed. Open a new ticket if you still need help.",
-    "updatedAt": "updated {{date}}",
-    "pageIntro": "Need help with Mutualzz? Browse common answers below or contact our team.",
-    "mobileIntro": "Browse help at mutualzz.com/support or contact us below.",
-    "subjectPlaceholder": "Subject",
-    "submitTicket": "Submit ticket",
-    "createFailed": "Failed to create ticket",
-    "pendingTicketExists": "You already have an open ticket. Reply there or wait until it's closed before opening a new one.",
-    "noTickets": "No tickets yet",
-    "contactEmailLoggedIn": "Email us at {{email}} or open a support ticket from this page.",
-    "contactEmailGuest": "Email us at {{email}}.",
     "categories": {
       "account": "Account & login",
       "bug": "Bug or crash",
@@ -280,37 +232,85 @@
       "feature": "Feature request",
       "other": "Other"
     },
+    "contactEmailGuest": "Email us at {{email}}.",
+    "contactEmailLoggedIn": "Email us at {{email}} or open a support ticket from this page.",
+    "contactSupport": "Contact support",
+    "contactUs": "Contact us",
+    "createFailed": "Failed to create ticket",
+    "describeIssue": "Describe your issue",
+    "faq": "Frequently asked questions",
     "faqItems": {
-      "report": {
-        "q": "How do I report a user or content?",
-        "a": "Open a user profile or the content menu and choose Report. Our staff will review it."
-      },
       "appeal": {
-        "q": "How do I appeal a ban?",
-        "a": "If you received a ban email, use the appeal link in that message. Staff will review your appeal."
-      },
-      "delete": {
-        "q": "How do I delete my account?",
-        "a": "Go to Settings → My Account → Delete Account."
+        "a": "If you received a ban email, use the appeal link in that message. Staff will review your appeal.",
+        "q": "How do I appeal a ban?"
       },
       "block": {
-        "q": "How do I block someone?",
-        "a": "Open their profile and choose Block. You can unblock them later from settings."
-      }
-    },
-    "quickLinkItems": {
-      "report": {
-        "label": "Report content or a user",
-        "hint": "Available from profile menus and content actions"
-      },
-      "appeals": {
-        "label": "Ban appeals",
-        "hint": "Use the appeal link from your ban email"
+        "a": "Open their profile and choose Block. You can unblock them later from settings.",
+        "q": "How do I block someone?"
       },
       "delete": {
-        "label": "Delete your account",
-        "hint": "Settings → My Account → Delete Account"
+        "a": "Go to Settings → My Account → Delete Account.",
+        "q": "How do I delete my account?"
+      },
+      "report": {
+        "a": "Open a user profile or the content menu and choose Report. Our staff will review it.",
+        "q": "How do I report a user or content?"
       }
-    }
+    },
+    "loading": "Loading...",
+    "loadingTickets": "Loading tickets...",
+    "loadMore": "Load more",
+    "loginToContact": "Log in to contact support",
+    "mobileIntro": "Browse help at mutualzz.com/support or contact us below.",
+    "myTickets": "My tickets",
+    "newTicket": "New ticket",
+    "noTickets": "No tickets yet",
+    "openHelpCenter": "Open help center",
+    "pageIntro": "Need help with Mutualzz? Browse common answers below or contact our team.",
+    "pendingTicketExists": "You already have an open ticket. Reply there or wait until it's closed before opening a new one.",
+    "privacyPolicy": "Privacy Policy",
+    "quickLinkItems": {
+      "appeals": {
+        "hint": "Use the appeal link from your ban email",
+        "label": "Ban appeals"
+      },
+      "delete": {
+        "hint": "Settings → My Account → Delete Account",
+        "label": "Delete your account"
+      },
+      "report": {
+        "hint": "Available from profile menus and content actions",
+        "label": "Report content or a user"
+      }
+    },
+    "quickLinks": "Quick links",
+    "sendReply": "Send reply",
+    "sendReplyFailed": "Failed to send reply",
+    "staffLabel": "Support",
+    "subjectPlaceholder": "Subject",
+    "submitTicket": "Submit ticket",
+    "termsOfService": "Terms of Service",
+    "ticketClosed": "This ticket is closed.",
+    "ticketClosedHint": "This ticket is closed. Open a new ticket if you still need help.",
+    "updatedAt": "updated {{date}}",
+    "writeReply": "Write a reply"
+  },
+  "undo": "Undo",
+  "updater": {
+    "downloadedOnly": "{{downloaded}} MB",
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "etaHoursMinutes": "{{hours}}h {{minutes}}m left",
+    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s left",
+    "etaSeconds": "{{seconds}}s left",
+    "installing": "Installing update…",
+    "installUpdate": "Install update",
+    "pleaseWait": "Updating… please wait",
+    "restarting": "Restarting…",
+    "restartToUpdate": "Restart to update",
+    "updateReady": "Update {{version}} ready"
+  },
+  "uploadCustomFont": "Upload custom font",
+  "whatsNew": {
+    "title": "What's New"
   }
 }

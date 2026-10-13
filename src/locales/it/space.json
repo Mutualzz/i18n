@@ -1,567 +1,567 @@
 {
-  "title": "Impostazioni dello spazio",
-  "titleShort": "Impostazioni dello spazio",
-  "overviewDescription": "Gestisci ruoli, inviti, espressioni e moderazione.",
-  "nav": {
-    "categories": {
-      "general": "Generale",
-      "people": "Persone",
-      "moderation": "Moderazione",
-      "integrations": "Integrazioni"
-    },
-    "pages": {
-      "profile": "Profilo",
-      "theme": "Tema",
-      "roles": "Ruoli",
-      "channels": "Canali",
-      "invites": "Inviti",
-      "expressions": "Espressioni",
-      "bans": "Ban",
-      "minecraftBridge": "Minecraft Ponte"
-    }
-  },
   "actions": {
-    "deleteSpace": "Elimina spazio",
-    "leaveSpace": "Lascia lo spazio",
-    "createRole": "Crea ruolo",
-    "deleteRole": "Elimina ruolo",
-    "createInvite": "Crea invito",
-    "createInviteLink": "Crea collegamento di invito",
-    "deleteAllInvites": "Elimina tutti gli inviti",
-    "editInviteLink": "Modifica il collegamento di invito",
-    "revokeBan": "Revoca il divieto",
-    "unbanMember": "Membro sbloccato",
-    "unbanning": "Sblocco...",
-    "kick": "Espelli",
-    "ban": "Banna",
     "addMembers": "Aggiungi membri",
     "addMembersCount_one": "Aggiungi ({{count}})",
     "addMembersCount_other": "Aggiungi ({{count}})",
-    "markAllAsRead": "Segna tutto come letto",
+    "ban": "Banna",
     "clearPermissions": "Cancella autorizzazioni",
-    "working": "Elaborazione...",
-    "creating": "Creazione..."
-  },
-  "profile": {
-    "spaceIcon": "Icona dello spazio",
-    "name": "Nome",
-    "description": "Descrizione",
-    "descriptionPlaceholder": "Scrivi qualcosa sul tuo spazio...",
-    "updatedSuccess": "Spazio aggiornato correttamente.",
-    "genericError": "Si è verificato un errore"
-  },
-  "invites": {
-    "activeLinks": "Collegamenti di invito attivi",
-    "createTitle": "Crea collegamento di invito",
-    "createDescriptionChannel": "Crea un collegamento a #{{channel}}.",
-    "createDescriptionDefault": "Crea un collegamento al canale di testo predefinito per questo spazio.",
-    "createFailed": "Impossibile creare l'invito",
-    "empty": "Nessun invito è stato ancora creato per questo spazio.",
-    "columns": {
-      "inviter": "Invitante",
-      "inviteCode": "Codice invito",
-      "uses": "Usi",
-      "expires": "Scade"
-    },
-    "usesLabel": "Usi: {{uses}}{{max}}",
-    "usesMax": " / {{max}}",
-    "neverExpires": "Non scade mai",
-    "expired": "Scaduto",
-    "copyInviteUrl": "Copia l'URL di invito",
-    "copiedToClipboard": "Copiato negli appunti",
-    "tapToCopy": "Tocca il collegamento per copiare",
-    "modal": {
-      "title": "Invita gli amici su {{spaceName}}",
-      "landingChannel": "I destinatari arriveranno a #{{channelName}}",
-      "searchFriends": "Cerca amici",
-      "noResults": "Nessun risultato.",
-      "noFriends": "Nessun amico da invitare. Condividi invece il link qui sotto.",
-      "inviteLink": "Link di invito",
-      "expiresPrefix": "Questo collegamento scadrà",
-      "expiresNever": "Mai",
-      "expiresAfterUses_one": "o dopo l'uso di {{count}}",
-      "expiresAfterUses_other": "o dopo l'utilizzo di {{count}}",
-      "editTitle": "Modifica del collegamento di invito corrente",
-      "expireAfter": "Scade dopo",
-      "maxUses": "Usi massimi"
-    },
-    "expiry": {
-      "30minutes": "30 minuti",
-      "1hour": "1 ora",
-      "6hours": "6 ore",
-      "12hours": "12 ore",
-      "1day": "1 giorno",
-      "7days": "7 giorni",
-      "never": "Mai"
-    },
-    "maxUses": {
-      "noLimit": "Nessun limite",
-      "1use": "1 utilizzo",
-      "5uses": "5 usi",
-      "10uses": "10 usi",
-      "25uses": "25 usi",
-      "50uses": "50 usi",
-      "100uses": "100 usi"
-    }
-  },
-  "roles": {
-    "defaultPermissions": "Autorizzazioni predefinite",
-    "everyoneSubtitle": "@everyone: si applica a tutti i membri dello spazio",
-    "everyoneSuffix": " (@everyone)",
-    "searchPlaceholder": "Cerca ruoli",
-    "listTitle_one": "Ruoli - {{count}}",
-    "listTitle_other": "Ruoli - {{count}}",
-    "membersColumn": "Membri",
-    "actionsColumn": "Azioni",
-    "hierarchyHint": "I ruoli più in alto nell'elenco hanno più autorità. Trascina i ruoli per modificarne la gerarchia.",
-    "empty": "Nessun ruolo è stato ancora creato per questo spazio.",
-    "emptySearch": "Nessun ruolo corrisponde alla tua ricerca.",
-    "memberCount_one": "Membro {{count}}",
-    "memberCount_other": "Membri {{count}}",
-    "editTitle": "Modifica ruolo - {{name}}",
-    "tabs": {
-      "display": "Visualizzazione",
-      "permissions": "Permessi",
-      "manageMembers": "Gestisci membri",
-      "members": "Membri"
-    },
-    "unsavedChanges": "Hai modifiche non salvate!",
-    "saveFailed": "Impossibile salvare il ruolo",
-    "display": {
-      "roleName": "Nome del ruolo",
-      "roleColor": "Colore del ruolo",
-      "hoist": "Visualizza i membri del ruolo separatamente dai membri online",
-      "mentionable": "Consenti a chiunque di @mention questo ruolo",
-      "mentionableHint": "I membri con l'autorizzazione \"Menziona @everyone, @here e tutti i ruoli\" possono menzionare questo ruolo indipendentemente da questa impostazione.",
-      "mentionableHintShort": "I membri con l'autorizzazione Menziona tutti possono comunque menzionare questo ruolo."
-    },
-    "members": {
-      "title": "Membri del ruolo",
-      "description": "Visualizza e gestisci i membri assegnati a questo ruolo.",
-      "searchPlaceholder": "Cerca membri",
-      "emptyAssigned": "A nessun membro è stato assegnato questo ruolo.",
-      "emptySearch": "Nessun membro corrisponde alla tua ricerca.",
-      "addTitle": "Aggiungi membri",
-      "addDescription": "Aggiungi fino a membri {{max}} a {{roleName}}",
-      "selectedCount": "{{selected}}/{{max}} selezionato",
-      "noEligible": "Nessun membro disponibile da aggiungere a questo ruolo.",
-      "addSuccess_one": "Aggiunto membro {{count}} a {{roleName}}",
-      "addSuccess_other": "Aggiunti membri {{count}} a {{roleName}}",
-      "addFailed": "Impossibile aggiungere membri al ruolo"
-    },
-    "hierarchy": {
-      "cantReorder": "Non puoi riordinare i ruoli pari o superiori al tuo ruolo più alto",
-      "cantAssign": "Non puoi assegnare o rimuovere questo ruolo",
-      "cantEditRole": "Non puoi modificare questo ruolo perché è pari o superiore al tuo ruolo più alto.",
-      "cantManageMembers": "Non puoi assegnare o rimuovere membri da questo ruolo.",
-      "dragToReorder": "Trascina per riordinare",
-      "dragToReorderHierarchy": "Trascina per riordinare la gerarchia",
-      "failedReorder": "Impossibile riordinare i ruoli",
-      "failedUpdateRole": "Impossibile aggiornare il ruolo",
-      "cantManageMember": "Non hai l'autorizzazione per gestire questo membro"
-    },
-    "delete": {
-      "title": "Elimina ruolo",
-      "confirm": "Sei sicuro di voler eliminare il ruolo {{name}}? Questa azione non può essere annullata."
-    },
-    "permissions": {
-      "searchPlaceholder": "Cerca permessi...",
-      "jumpToCategory": "Vai alla categoria...",
-      "emptySearch": "Nessuna autorizzazione corrisponde alla tua ricerca",
-      "clear": "Cancella autorizzazioni",
-      "groups": {
-        "general": "Autorizzazioni spaziali generali",
-        "membership": "Autorizzazioni di adesione",
-        "text": "Autorizzazioni del canale di testo",
-        "voice": "Autorizzazioni del canale vocale",
-        "advanced": "Autorizzazioni avanzate"
-      },
-      "flags": {
-        "ViewChannel": {
-          "label": "Visualizza canali",
-          "description": "Consenti ai membri di visualizzare i canali per impostazione predefinita"
-        },
-        "ManageChannels": {
-          "label": "Gestisci canali",
-          "description": "Consenti ai membri di creare, modificare o eliminare canali"
-        },
-        "ManageRoles": {
-          "label": "Gestisci ruoli",
-          "description": "Consente ai membri di creare nuovi ruoli e modificare o eliminare i ruoli inferiori al loro ruolo più alto"
-        },
-        "CreateExpressions": {
-          "label": "Crea espressioni",
-          "description": "Consenti ai membri di creare emoji e adesivi in ​​questo spazio."
-        },
-        "ManageExpressions": {
-          "label": "Gestisci espressioni",
-          "description": "Consenti ai membri di modificare o eliminare emoji e adesivi in ​​questo spazio."
-        },
-        "ManageSpace": {
-          "label": "Gestisci lo spazio",
-          "description": "Consenti ai membri di modificare questo spazio"
-        },
-        "CreateInvites": {
-          "label": "Crea inviti",
-          "description": "Consenti ai membri di invitare nuove persone in questo spazio"
-        },
-        "KickMembers": {
-          "label": "Calci i membri",
-          "description": "Kick rimuoverà gli altri membri da questo spazio. I membri espulsi possono ricongiungersi se hanno un altro invito."
-        },
-        "BanMembers": {
-          "label": "Membri vietati",
-          "description": "Il ban rimuoverà i membri da questo spazio e impedirà loro di rientrare finché non verranno riattivati."
-        },
-        "SendMessages": {
-          "label": "Invia messaggi",
-          "description": "Consenti ai membri di inviare messaggi nei canali di testo"
-        },
-        "EmbedLinks": {
-          "label": "Incorpora collegamenti",
-          "description": "Consenti ai membri di incorporare collegamenti nei messaggi"
-        },
-        "AttachFiles": {
-          "label": "Allega file",
-          "description": "Consenti ai membri di allegare file ai messaggi"
-        },
-        "AddReactions": {
-          "label": "Aggiungi reazioni",
-          "description": "Consenti ai membri di aggiungere reazioni emoji ai messaggi"
-        },
-        "MentionEveryone": {
-          "label": "Menziona tutti",
-          "description": "Consenti ai membri di menzionare @everyone e @here nei messaggi"
-        },
-        "UseExternalEmojis": {
-          "label": "Usa emoji esterni",
-          "description": "Consenti ai membri di utilizzare emoji di altri spazi o i propri nei loro messaggi"
-        },
-        "UseExternalStickers": {
-          "label": "Usa sticker esterni",
-          "description": "Consenti ai membri di usare sticker da altri spazi nei loro messaggi"
-        },
-        "ManageMessages": {
-          "label": "Gestisci i messaggi",
-          "description": "Consenti ai membri di eliminare i messaggi di altri membri"
-        },
-        "ReadMessageHistory": {
-          "label": "Leggi la cronologia dei messaggi",
-          "description": "Consenti ai membri di leggere la cronologia dei messaggi"
-        },
-        "Connect": {
-          "label": "Collegare",
-          "description": "Consenti ai membri di connettersi ai canali vocali"
-        },
-        "Speak": {
-          "label": "Parlare",
-          "description": "Consenti ai membri di parlare nei canali vocali"
-        },
-        "UseVAD": {
-          "label": "Usa attività vocale",
-          "description": "Consenti ai membri di parlare usando il rilevamento attività vocale. Senza questo permesso, i membri devono usare push-to-talk."
-        },
-        "MuteMembers": {
-          "label": "Silenzia membri",
-          "description": "Consenti ai membri di silenziare altri membri nei canali vocali"
-        },
-        "DeafenMembers": {
-          "label": "Assorda membri",
-          "description": "Consenti ai membri di assordare altri membri nei canali vocali"
-        },
-        "MoveMembers": {
-          "label": "Sposta membri",
-          "description": "Consenti ai membri di spostare altri membri tra canali vocali e disconnetterli"
-        },
-        "Administrator": {
-          "label": "Amministratore",
-          "description": "I membri con questa autorizzazione avranno tutte le autorizzazioni. Questo è un permesso pericoloso da concedere.",
-          "descriptionBefore": "I membri con questa autorizzazione avranno tutte le autorizzazioni.",
-          "descriptionDanger": "Questo è un permesso pericoloso da concedere"
-        }
-      }
-    }
-  },
-  "expressions": {
-    "pageTitle": "Espressioni spaziali",
-    "pageDescription": "Carica e gestisci emoji e adesivi personalizzati per questo spazio.",
-    "emojiLimit": "Purtroppo il limite attuale di emoji che puoi caricare è 100, dato che l'app è in versione beta e per ora lo spazio di archiviazione è un problema",
-    "stickerLimit": "Purtroppo il limite attuale di adesivi che puoi caricare è 100, poiché l'app è in versione beta e per ora lo spazio di archiviazione è un problema",
-    "emojiLimitMobile": "Limite beta: emoji {{limit}} per spazio.",
-    "stickerLimitMobile": "Limite beta: adesivi {{limit}} per spazio.",
-    "emptyEmojis": "Nessun emoji spaziale ancora",
-    "emptyStickers": "Nessun adesivo spaziale ancora"
+    "createInvite": "Crea invito",
+    "createInviteLink": "Crea collegamento di invito",
+    "createRole": "Crea ruolo",
+    "creating": "Creazione...",
+    "deleteAllInvites": "Elimina tutti gli inviti",
+    "deleteRole": "Elimina ruolo",
+    "deleteSpace": "Elimina spazio",
+    "editInviteLink": "Modifica il collegamento di invito",
+    "kick": "Espelli",
+    "leaveSpace": "Lascia lo spazio",
+    "markAllAsRead": "Segna tutto come letto",
+    "revokeBan": "Revoca il divieto",
+    "unbanMember": "Membro sbloccato",
+    "unbanning": "Sblocco...",
+    "working": "Elaborazione..."
   },
   "bans": {
-    "title": "Elenco dei divieti spaziali",
+    "bannedAt": "Vietato a",
+    "bannedBy": "Bandito da",
     "description": "Visualizza e gestisci l'elenco degli utenti esclusi in questo spazio. A partire da ora il divieto è basato sull'account, introdurremo divieti IP in futuro.",
     "descriptionShort": "Visualizza e gestisci gli utenti esclusi in questo spazio.",
+    "empty": "Nessuno è stato ancora bannato",
+    "noReason": "Nessun motivo fornito",
+    "reason": "Motivo",
     "searchPlaceholder": "Cerca i divieti per ID utente, nome utente o nome visualizzato",
     "searchPlaceholderShort": "Cerca per nome utente o ID utente",
-    "empty": "Nessuno è stato ancora bannato",
-    "reason": "Motivo",
-    "noReason": "Nessun motivo fornito",
-    "bannedBy": "Bandito da",
-    "bannedAt": "Vietato a",
+    "title": "Elenco dei divieti spaziali",
     "unbanSuccess": "{{name}} sbloccato con successo",
     "unbanTitle": "Sbloccare {{name}}?"
   },
-  "moderation": {
-    "banTitle": "Divieto di {{name}}?",
-    "kickTitle": "Calcia {{name}}?",
-    "kickFromSpaceTitle": "Calcia {{name}} dallo spazio",
-    "kickBody": "Sei sicuro di voler cacciare @{{name}} dallo spazio? Avranno bisogno di un invito per ricongiungersi.",
-    "kickSuccess": "Cacciato {{name}} dallo spazio",
-    "reason": "Motivo",
-    "reasonOptional": "Motivo (facoltativo)",
-    "reasonForKick": "Motivo del calcio",
-    "reasonForBan": "Motivo del divieto *",
-    "deleteRecentMessages": "Elimina i messaggi recenti",
-    "banReasons": {
-      "suspicious": "Account sospetto o spam",
-      "compromised": "Account compromesso o violato",
-      "breakingRules": "Infrangere le regole dello spazio",
-      "other": "Altro"
-    },
-    "deleteMessages": {
-      "dontDelete": "Non eliminare",
-      "dontDeleteMessages": "Non eliminare i messaggi",
-      "previousHour": "Ora precedente",
-      "lastHour": "L'ultima ora",
-      "previousDay": "Il giorno precedente",
-      "last24Hours": "Ultime 24 ore",
-      "previousWeek": "La settimana precedente",
-      "last7Days": "Ultimi 7 giorni",
-      "allMessages": "Tutti i messaggi",
-      "deleteAllMessages": "Elimina tutti i messaggi"
-    },
-    "youWereBanned": "Sei stato bannato da {{name}}",
-    "youWereKicked": "Sei stato espulso da {{name}}"
-  },
   "channels": {
-    "noCategory": "Nessuna categoria",
-    "empty": "Nessun canale da riordinare.",
-    "reorderHint": "Trascina i canali per riordinarli. Posiziona un canale direttamente sotto una categoria per aggiungerlo a quel gruppo. Trascina sopra una categoria per rimuoverla dal gruppo.",
-    "overwrites": "Sovrascrive",
-    "searchTargets": "Cerca ruoli o membri...",
-    "topic": "Argomento del canale",
-    "topicHint": "Mostrato ai membri nella parte superiore del canale.",
-    "topicPlaceholder": "Argomento",
-    "settingsTitle": "Impostazioni del canale",
-    "namePlaceholder": "Nome del canale",
-    "permissionOverwrites": "L'autorizzazione viene sovrascritta",
     "channelInvites": "Inviti al canale",
-    "noChannelInvites": "Nessun invito è stato ancora creato per #{{channel}}.",
-    "selectOverwriteTarget": "Seleziona una destinazione di sovrascrittura per modificare le autorizzazioni specifiche del canale.",
-    "nameEmpty": "Il nome del canale non può essere vuoto.",
-    "failedMoveMember": "Impossibile spostare il membro",
     "create": {
-      "title": "Crea canale",
+      "clear": "Cancella",
+      "icon": "Icona del canale",
       "name": "Nome del canale",
       "namePlaceholder": "nuovo-canale",
-      "type": "Tipo di canale",
+      "rotate": "Ruotare",
+      "rounded": "Arrotondato",
+      "submit": "Crea canale",
       "text": "Canale di testo",
       "textDescription": "Invia messaggi, immagini e altro ancora",
-      "voice": "Canale vocale",
-      "voiceDescription": "Esci con voce e video",
-      "submit": "Crea canale",
-      "icon": "Icona del canale",
+      "title": "Crea canale",
+      "type": "Tipo di canale",
       "upload": "Carica",
-      "rounded": "Arrotondato",
-      "rotate": "Ruotare",
-      "clear": "Cancella"
+      "voice": "Canale vocale",
+      "voiceDescription": "Esci con voce e video"
     },
     "createCategory": {
-      "title": "Crea categoria",
       "name": "Nome della categoria",
       "namePlaceholder": "Nuova categoria",
-      "submit": "Crea categoria"
+      "submit": "Crea categoria",
+      "title": "Crea categoria"
     },
-    "delete": {
-      "title": "Elimina canale",
-      "body": "Sei sicuro di voler eliminare {{name}}? Questa azione non può essere annullata.",
-      "confirm": "Elimina canale"
-    },
-    "deleteCategory": {
-      "title": "Eliminare la categoria \"{{name}}\"?",
-      "body": "Vuoi eliminare questa categoria?",
-      "categoryOnly": "Solo la categoria",
-      "categoryAndChannels": "Categoria e tutti i canali correlati",
-      "confirm": "Elimina categoria"
-    },
-    "saveOverwrite": "Salva sovrascrivi",
-    "deleteChannelAction": "Elimina canale",
     "createInvite": "Crea invito",
     "createInviteLink": "Crea collegamento di invito",
-    "removeIcon": "Rimuovi icona",
-    "restoreIcon": "Ripristina icona",
-    "uploadEmoji": "Carica emoji",
-    "uploadSticker": "Carica adesivo",
-    "noSpaceEmojis": "Nessun emoji spaziale ancora",
-    "pages": {
-      "overview": "Panoramica",
-      "permissions": "Permessi",
-      "invites": "Inviti"
+    "delete": {
+      "body": "Sei sicuro di voler eliminare {{name}}? Questa azione non può essere annullata.",
+      "confirm": "Elimina canale",
+      "title": "Elimina canale"
     },
+    "deleteCategory": {
+      "body": "Vuoi eliminare questa categoria?",
+      "categoryAndChannels": "Categoria e tutti i canali correlati",
+      "categoryOnly": "Solo la categoria",
+      "confirm": "Elimina categoria",
+      "title": "Eliminare la categoria \"{{name}}\"?"
+    },
+    "deleteChannelAction": "Elimina canale",
+    "empty": "Nessun canale da riordinare.",
+    "failedMoveMember": "Impossibile spostare il membro",
+    "nameEmpty": "Il nome del canale non può essere vuoto.",
+    "namePlaceholder": "Nome del canale",
+    "noCategory": "Nessuna categoria",
+    "noChannelInvites": "Nessun invito è stato ancora creato per #{{channel}}.",
+    "noSpaceEmojis": "Nessun emoji spaziale ancora",
+    "overwrites": "Sovrascrive",
+    "pages": {
+      "invites": "Inviti",
+      "overview": "Panoramica",
+      "permissions": "Permessi"
+    },
+    "permissionOverwrites": "L'autorizzazione viene sovrascritta",
     "permissions": {
       "addOverwrite": "Aggiungi sovrascrittura autorizzazione",
-      "roles": "RUOLI",
-      "members": "MEMBRI",
-      "noResults": "Nessun risultato",
-      "noOverwritesYet": "Nessuna sovrascrittura ancora",
-      "selectTargetHint": "Seleziona un ruolo o un membro per configurare le autorizzazioni specifiche del canale.",
-      "selectTargetHintLeft": "Seleziona un ruolo o un membro a sinistra per modificare le relative autorizzazioni per questo canale oppure fai clic su + per aggiungerne uno.",
+      "flags": {
+        "AddReactions": {
+          "description": "Consenti ai membri di aggiungere reazioni emoji ai messaggi",
+          "label": "Aggiungi reazioni"
+        },
+        "AttachFiles": {
+          "description": "Consenti ai membri di allegare file",
+          "label": "Allega file"
+        },
+        "Connect": {
+          "description": "Consenti ai membri di connettersi a questo canale vocale",
+          "label": "Collegare"
+        },
+        "DeafenMembers": {
+          "description": "Consenti ai membri di assordare altri membri in questo canale vocale",
+          "label": "Assorda membri"
+        },
+        "EmbedLinks": {
+          "description": "Consenti ai membri di incorporare collegamenti",
+          "label": "Incorpora collegamenti"
+        },
+        "ManageChannels": {
+          "description": "Consenti ai membri di modificare o eliminare questo canale",
+          "label": "Gestisci canale"
+        },
+        "ManageMessages": {
+          "description": "Consenti ai membri di eliminare i messaggi degli altri",
+          "label": "Gestisci i messaggi"
+        },
+        "ManageRoles": {
+          "description": "Consenti ai membri di modificare le sovrascritture delle autorizzazioni di questo canale",
+          "label": "Gestisci autorizzazioni"
+        },
+        "MentionEveryone": {
+          "description": "Consenti ai membri di @mention @everyone e @here",
+          "label": "Menziona tutti"
+        },
+        "MoveMembers": {
+          "description": "Consenti ai membri di spostare altri membri tra canali vocali e disconnetterli",
+          "label": "Sposta membri"
+        },
+        "MuteMembers": {
+          "description": "Consenti ai membri di silenziare altri membri in questo canale vocale",
+          "label": "Silenzia membri"
+        },
+        "ReadMessageHistory": {
+          "description": "Consenti ai membri di leggere i messaggi precedenti",
+          "label": "Leggi la cronologia dei messaggi"
+        },
+        "SendMessages": {
+          "description": "Consenti ai membri di inviare messaggi in questo canale",
+          "label": "Invia messaggi"
+        },
+        "Speak": {
+          "description": "Consenti ai membri di parlare in questo canale vocale",
+          "label": "Parlare"
+        },
+        "UseExternalEmojis": {
+          "description": "Consenti ai membri di utilizzare emoji da altri spazi",
+          "label": "Usa emoji esterni"
+        },
+        "UseExternalStickers": {
+          "description": "Consenti ai membri di usare sticker da altri spazi",
+          "label": "Usa sticker esterni"
+        },
+        "UseVAD": {
+          "description": "Consenti ai membri di parlare usando il rilevamento attività vocale. Senza questo permesso, i membri devono usare push-to-talk.",
+          "label": "Usa attività vocale"
+        },
+        "ViewChannel": {
+          "description": "Consenti ai membri di visualizzare questo canale",
+          "label": "Visualizza canale"
+        }
+      },
       "groups": {
         "general": "Autorizzazioni generali del canale",
         "text": "Autorizzazioni del canale di testo",
         "voice": "Autorizzazioni del canale vocale"
       },
-      "flags": {
-        "ViewChannel": {
-          "label": "Visualizza canale",
-          "description": "Consenti ai membri di visualizzare questo canale"
-        },
-        "ManageChannels": {
-          "label": "Gestisci canale",
-          "description": "Consenti ai membri di modificare o eliminare questo canale"
-        },
-        "ManageRoles": {
-          "label": "Gestisci autorizzazioni",
-          "description": "Consenti ai membri di modificare le sovrascritture delle autorizzazioni di questo canale"
-        },
-        "SendMessages": {
-          "label": "Invia messaggi",
-          "description": "Consenti ai membri di inviare messaggi in questo canale"
-        },
-        "EmbedLinks": {
-          "label": "Incorpora collegamenti",
-          "description": "Consenti ai membri di incorporare collegamenti"
-        },
-        "AttachFiles": {
-          "label": "Allega file",
-          "description": "Consenti ai membri di allegare file"
-        },
-        "AddReactions": {
-          "label": "Aggiungi reazioni",
-          "description": "Consenti ai membri di aggiungere reazioni emoji ai messaggi"
-        },
-        "MentionEveryone": {
-          "label": "Menziona tutti",
-          "description": "Consenti ai membri di @mention @everyone e @here"
-        },
-        "UseExternalEmojis": {
-          "label": "Usa emoji esterni",
-          "description": "Consenti ai membri di utilizzare emoji da altri spazi"
-        },
-        "UseExternalStickers": {
-          "label": "Usa sticker esterni",
-          "description": "Consenti ai membri di usare sticker da altri spazi"
-        },
-        "ManageMessages": {
-          "label": "Gestisci i messaggi",
-          "description": "Consenti ai membri di eliminare i messaggi degli altri"
-        },
-        "ReadMessageHistory": {
-          "label": "Leggi la cronologia dei messaggi",
-          "description": "Consenti ai membri di leggere i messaggi precedenti"
-        },
-        "Connect": {
-          "label": "Collegare",
-          "description": "Consenti ai membri di connettersi a questo canale vocale"
-        },
-        "Speak": {
-          "label": "Parlare",
-          "description": "Consenti ai membri di parlare in questo canale vocale"
-        },
-        "UseVAD": {
-          "label": "Usa attività vocale",
-          "description": "Consenti ai membri di parlare usando il rilevamento attività vocale. Senza questo permesso, i membri devono usare push-to-talk."
-        },
-        "MuteMembers": {
-          "label": "Silenzia membri",
-          "description": "Consenti ai membri di silenziare altri membri in questo canale vocale"
-        },
-        "DeafenMembers": {
-          "label": "Assorda membri",
-          "description": "Consenti ai membri di assordare altri membri in questo canale vocale"
-        },
-        "MoveMembers": {
-          "label": "Sposta membri",
-          "description": "Consenti ai membri di spostare altri membri tra canali vocali e disconnetterli"
-        }
-      }
-    }
-  },
-  "confirm": {
-    "deleteSpaceTitle": "Eliminare \"{{name}}\"?",
-    "leaveSpaceTitle": "Lasciare \"{{name}}\"?",
-    "deleteSpaceBody": "Sei sicuro di voler eliminare {{name}}? Questa azione non può essere annullata.",
-    "leaveSpaceBody": "Sei sicuro di voler lasciare {{name}}? Questa azione non può essere annullata.",
-    "cannotUndo": "Questa azione non può essere annullata."
-  },
-  "menu": {
-    "spaceSettings": "Impostazioni dello spazio",
-    "reportSpace": "Segnala spazio",
-    "leaveSpace": "Lascia spazio",
-    "deleteSpace": "Elimina spazio"
+      "members": "MEMBRI",
+      "noOverwritesYet": "Nessuna sovrascrittura ancora",
+      "noResults": "Nessun risultato",
+      "roles": "RUOLI",
+      "selectTargetHint": "Seleziona un ruolo o un membro per configurare le autorizzazioni specifiche del canale.",
+      "selectTargetHintLeft": "Seleziona un ruolo o un membro a sinistra per modificare le relative autorizzazioni per questo canale oppure fai clic su + per aggiungerne uno."
+    },
+    "removeIcon": "Rimuovi icona",
+    "reorderHint": "Trascina i canali per riordinarli. Posiziona un canale direttamente sotto una categoria per aggiungerlo a quel gruppo. Trascina sopra una categoria per rimuoverla dal gruppo.",
+    "restoreIcon": "Ripristina icona",
+    "saveOverwrite": "Salva sovrascrivi",
+    "searchTargets": "Cerca ruoli o membri...",
+    "selectOverwriteTarget": "Seleziona una destinazione di sovrascrittura per modificare le autorizzazioni specifiche del canale.",
+    "settingsTitle": "Impostazioni del canale",
+    "topic": "Argomento del canale",
+    "topicHint": "Mostrato ai membri nella parte superiore del canale.",
+    "topicPlaceholder": "Argomento",
+    "uploadEmoji": "Carica emoji",
+    "uploadSticker": "Carica adesivo"
   },
   "chrome": {
-    "spaceSettings": "Impostazioni dello spazio",
-    "inviteToSpace": "Invita nello spazio",
-    "createInviteA11y": "Crea invito",
     "createCategoryA11y": "Crea categoria",
-    "spaceMenuA11y": "Menù spaziale"
+    "createInviteA11y": "Crea invito",
+    "inviteToSpace": "Invita nello spazio",
+    "spaceMenuA11y": "Menù spaziale",
+    "spaceSettings": "Impostazioni dello spazio"
   },
-  "sidebar": {
-    "createSpace": "Crea uno spazio",
-    "switchToSpaces": "Passa a Spazi",
-    "switchToDirectMessages": "Passa ai Messaggi Diretti",
-    "switchToFeed": "Passa a Feed",
-    "switchTo": "Passa a",
-    "directMessages": "Messaggi diretti",
-    "friends": "Amici",
-    "spaces": "Spazi",
-    "channels": "Canali",
-    "bridges": "Ponti",
-    "moreOptions": "Altre opzioni",
-    "reorder": "Riordina",
-    "doneReordering": "Fatto",
-    "reorderA11y": "Riordina spazi",
-    "doneReorderingA11y": "Riordino spazi completato"
+  "confirm": {
+    "cannotUndo": "Questa azione non può essere annullata.",
+    "deleteSpaceBody": "Sei sicuro di voler eliminare {{name}}? Questa azione non può essere annullata.",
+    "deleteSpaceTitle": "Eliminare \"{{name}}\"?",
+    "leaveSpaceBody": "Sei sicuro di voler lasciare {{name}}? Questa azione non può essere annullata.",
+    "leaveSpaceTitle": "Lasciare \"{{name}}\"?"
+  },
+  "expressions": {
+    "emojiLimit": "Purtroppo il limite attuale di emoji che puoi caricare è 100, dato che l'app è in versione beta e per ora lo spazio di archiviazione è un problema",
+    "emojiLimitMobile": "Limite beta: emoji {{limit}} per spazio.",
+    "emptyEmojis": "Nessun emoji spaziale ancora",
+    "emptyStickers": "Nessun adesivo spaziale ancora",
+    "pageDescription": "Carica e gestisci emoji e adesivi personalizzati per questo spazio.",
+    "pageTitle": "Espressioni spaziali",
+    "stickerLimit": "Purtroppo il limite attuale di adesivi che puoi caricare è 100, poiché l'app è in versione beta e per ora lo spazio di archiviazione è un problema",
+    "stickerLimitMobile": "Limite beta: adesivi {{limit}} per spazio."
+  },
+  "invites": {
+    "activeLinks": "Collegamenti di invito attivi",
+    "columns": {
+      "expires": "Scade",
+      "inviteCode": "Codice invito",
+      "inviter": "Invitante",
+      "uses": "Usi"
+    },
+    "copiedToClipboard": "Copiato negli appunti",
+    "copyInviteUrl": "Copia l'URL di invito",
+    "createDescriptionChannel": "Crea un collegamento a #{{channel}}.",
+    "createDescriptionDefault": "Crea un collegamento al canale di testo predefinito per questo spazio.",
+    "createFailed": "Impossibile creare l'invito",
+    "createTitle": "Crea collegamento di invito",
+    "empty": "Nessun invito è stato ancora creato per questo spazio.",
+    "expired": "Scaduto",
+    "expiry": {
+      "12hours": "12 ore",
+      "1day": "1 giorno",
+      "1hour": "1 ora",
+      "30minutes": "30 minuti",
+      "6hours": "6 ore",
+      "7days": "7 giorni",
+      "never": "Mai"
+    },
+    "maxUses": {
+      "100uses": "100 usi",
+      "10uses": "10 usi",
+      "1use": "1 utilizzo",
+      "25uses": "25 usi",
+      "50uses": "50 usi",
+      "5uses": "5 usi",
+      "noLimit": "Nessun limite"
+    },
+    "modal": {
+      "editTitle": "Modifica del collegamento di invito corrente",
+      "expireAfter": "Scade dopo",
+      "expiresAfterUses_one": "o dopo l'uso di {{count}}",
+      "expiresAfterUses_other": "o dopo l'utilizzo di {{count}}",
+      "expiresNever": "Mai",
+      "expiresPrefix": "Questo collegamento scadrà",
+      "inviteLink": "Link di invito",
+      "landingChannel": "I destinatari arriveranno a #{{channelName}}",
+      "maxUses": "Usi massimi",
+      "noFriends": "Nessun amico da invitare. Condividi invece il link qui sotto.",
+      "noResults": "Nessun risultato.",
+      "searchFriends": "Cerca amici",
+      "title": "Invita gli amici su {{spaceName}}"
+    },
+    "neverExpires": "Non scade mai",
+    "tapToCopy": "Tocca il collegamento per copiare",
+    "usesLabel": "Usi: {{uses}}{{max}}",
+    "usesMax": " / {{max}}"
   },
   "lockdown": {
-    "title": "Questo spazio è bloccato",
-    "ownerMessage": "Messaggi e modifiche sono disabilitati. Controlla la tua email per trovare un link per il ricorso se ritieni che si sia trattato di un errore.",
     "memberMessage": "Messaggi e modifiche sono disabilitati mentre lo staff esamina questo spazio.",
+    "ownerMessage": "Messaggi e modifiche sono disabilitati. Controlla la tua email per trovare un link per il ricorso se ritieni che si sia trattato di un errore.",
+    "title": "Questo spazio è bloccato",
     "toast": "Questo spazio è bloccato. Messaggi e modifiche sono disabilitati."
   },
-  "theme": {
-    "description": "Personalizza l'elenco canali e la chat per tutti in questo spazio. Il tuo tema personale resta altrove.",
-    "clear": "Usa tema personale",
-    "createCustom": "Crea tema spazio",
-    "spaceThemes": "Questo spazio",
-    "noCustomThemes": "Nessun tema personalizzato ancora. Creane uno per personalizzare questo spazio."
+  "menu": {
+    "deleteSpace": "Elimina spazio",
+    "leaveSpace": "Lascia spazio",
+    "reportSpace": "Segnala spazio",
+    "spaceSettings": "Impostazioni dello spazio"
+  },
+  "moderation": {
+    "banReasons": {
+      "breakingRules": "Infrangere le regole dello spazio",
+      "compromised": "Account compromesso o violato",
+      "other": "Altro",
+      "suspicious": "Account sospetto o spam"
+    },
+    "banTitle": "Divieto di {{name}}?",
+    "deleteMessages": {
+      "allMessages": "Tutti i messaggi",
+      "deleteAllMessages": "Elimina tutti i messaggi",
+      "dontDelete": "Non eliminare",
+      "dontDeleteMessages": "Non eliminare i messaggi",
+      "last24Hours": "Ultime 24 ore",
+      "last7Days": "Ultimi 7 giorni",
+      "lastHour": "L'ultima ora",
+      "previousDay": "Il giorno precedente",
+      "previousHour": "Ora precedente",
+      "previousWeek": "La settimana precedente"
+    },
+    "deleteRecentMessages": "Elimina i messaggi recenti",
+    "kickBody": "Sei sicuro di voler cacciare @{{name}} dallo spazio? Avranno bisogno di un invito per ricongiungersi.",
+    "kickFromSpaceTitle": "Calcia {{name}} dallo spazio",
+    "kickSuccess": "Cacciato {{name}} dallo spazio",
+    "kickTitle": "Calcia {{name}}?",
+    "reason": "Motivo",
+    "reasonForBan": "Motivo del divieto *",
+    "reasonForKick": "Motivo del calcio",
+    "reasonOptional": "Motivo (facoltativo)",
+    "youWereBanned": "Sei stato bannato da {{name}}",
+    "youWereKicked": "Sei stato espulso da {{name}}"
+  },
+  "nav": {
+    "categories": {
+      "general": "Generale",
+      "integrations": "Integrazioni",
+      "moderation": "Moderazione",
+      "people": "Persone"
+    },
+    "pages": {
+      "bans": "Ban",
+      "channels": "Canali",
+      "expressions": "Espressioni",
+      "invites": "Inviti",
+      "minecraftBridge": "Minecraft Ponte",
+      "profile": "Profilo",
+      "roles": "Ruoli",
+      "theme": "Tema"
+    }
+  },
+  "overviewDescription": "Gestisci ruoli, inviti, espressioni e moderazione.",
+  "profile": {
+    "description": "Descrizione",
+    "descriptionPlaceholder": "Scrivi qualcosa sul tuo spazio...",
+    "genericError": "Si è verificato un errore",
+    "name": "Nome",
+    "spaceIcon": "Icona dello spazio",
+    "updatedSuccess": "Spazio aggiornato correttamente."
+  },
+  "roles": {
+    "actionsColumn": "Azioni",
+    "defaultPermissions": "Autorizzazioni predefinite",
+    "delete": {
+      "confirm": "Sei sicuro di voler eliminare il ruolo {{name}}? Questa azione non può essere annullata.",
+      "title": "Elimina ruolo"
+    },
+    "display": {
+      "hoist": "Visualizza i membri del ruolo separatamente dai membri online",
+      "mentionable": "Consenti a chiunque di @mention questo ruolo",
+      "mentionableHint": "I membri con l'autorizzazione \"Menziona @everyone, @here e tutti i ruoli\" possono menzionare questo ruolo indipendentemente da questa impostazione.",
+      "mentionableHintShort": "I membri con l'autorizzazione Menziona tutti possono comunque menzionare questo ruolo.",
+      "roleColor": "Colore del ruolo",
+      "roleName": "Nome del ruolo"
+    },
+    "editTitle": "Modifica ruolo - {{name}}",
+    "empty": "Nessun ruolo è stato ancora creato per questo spazio.",
+    "emptySearch": "Nessun ruolo corrisponde alla tua ricerca.",
+    "everyoneSubtitle": "@everyone: si applica a tutti i membri dello spazio",
+    "everyoneSuffix": " (@everyone)",
+    "hierarchy": {
+      "cantAssign": "Non puoi assegnare o rimuovere questo ruolo",
+      "cantEditRole": "Non puoi modificare questo ruolo perché è pari o superiore al tuo ruolo più alto.",
+      "cantManageMember": "Non hai l'autorizzazione per gestire questo membro",
+      "cantManageMembers": "Non puoi assegnare o rimuovere membri da questo ruolo.",
+      "cantReorder": "Non puoi riordinare i ruoli pari o superiori al tuo ruolo più alto",
+      "dragToReorder": "Trascina per riordinare",
+      "dragToReorderHierarchy": "Trascina per riordinare la gerarchia",
+      "failedReorder": "Impossibile riordinare i ruoli",
+      "failedUpdateRole": "Impossibile aggiornare il ruolo"
+    },
+    "hierarchyHint": "I ruoli più in alto nell'elenco hanno più autorità. Trascina i ruoli per modificarne la gerarchia.",
+    "listTitle_one": "Ruoli - {{count}}",
+    "listTitle_other": "Ruoli - {{count}}",
+    "memberCount_one": "Membro {{count}}",
+    "memberCount_other": "Membri {{count}}",
+    "members": {
+      "addDescription": "Aggiungi fino a membri {{max}} a {{roleName}}",
+      "addFailed": "Impossibile aggiungere membri al ruolo",
+      "addSuccess_one": "Aggiunto membro {{count}} a {{roleName}}",
+      "addSuccess_other": "Aggiunti membri {{count}} a {{roleName}}",
+      "addTitle": "Aggiungi membri",
+      "description": "Visualizza e gestisci i membri assegnati a questo ruolo.",
+      "emptyAssigned": "A nessun membro è stato assegnato questo ruolo.",
+      "emptySearch": "Nessun membro corrisponde alla tua ricerca.",
+      "noEligible": "Nessun membro disponibile da aggiungere a questo ruolo.",
+      "searchPlaceholder": "Cerca membri",
+      "selectedCount": "{{selected}}/{{max}} selezionato",
+      "title": "Membri del ruolo"
+    },
+    "membersColumn": "Membri",
+    "permissions": {
+      "clear": "Cancella autorizzazioni",
+      "emptySearch": "Nessuna autorizzazione corrisponde alla tua ricerca",
+      "flags": {
+        "AddReactions": {
+          "description": "Consenti ai membri di aggiungere reazioni emoji ai messaggi",
+          "label": "Aggiungi reazioni"
+        },
+        "Administrator": {
+          "description": "I membri con questa autorizzazione avranno tutte le autorizzazioni. Questo è un permesso pericoloso da concedere.",
+          "descriptionBefore": "I membri con questa autorizzazione avranno tutte le autorizzazioni.",
+          "descriptionDanger": "Questo è un permesso pericoloso da concedere",
+          "label": "Amministratore"
+        },
+        "AttachFiles": {
+          "description": "Consenti ai membri di allegare file ai messaggi",
+          "label": "Allega file"
+        },
+        "BanMembers": {
+          "description": "Il ban rimuoverà i membri da questo spazio e impedirà loro di rientrare finché non verranno riattivati.",
+          "label": "Membri vietati"
+        },
+        "Connect": {
+          "description": "Consenti ai membri di connettersi ai canali vocali",
+          "label": "Collegare"
+        },
+        "CreateExpressions": {
+          "description": "Consenti ai membri di creare emoji e adesivi in ​​questo spazio.",
+          "label": "Crea espressioni"
+        },
+        "CreateInvites": {
+          "description": "Consenti ai membri di invitare nuove persone in questo spazio",
+          "label": "Crea inviti"
+        },
+        "DeafenMembers": {
+          "description": "Consenti ai membri di assordare altri membri nei canali vocali",
+          "label": "Assorda membri"
+        },
+        "EmbedLinks": {
+          "description": "Consenti ai membri di incorporare collegamenti nei messaggi",
+          "label": "Incorpora collegamenti"
+        },
+        "KickMembers": {
+          "description": "Kick rimuoverà gli altri membri da questo spazio. I membri espulsi possono ricongiungersi se hanno un altro invito.",
+          "label": "Calci i membri"
+        },
+        "ManageChannels": {
+          "description": "Consenti ai membri di creare, modificare o eliminare canali",
+          "label": "Gestisci canali"
+        },
+        "ManageExpressions": {
+          "description": "Consenti ai membri di modificare o eliminare emoji e adesivi in ​​questo spazio.",
+          "label": "Gestisci espressioni"
+        },
+        "ManageMessages": {
+          "description": "Consenti ai membri di eliminare i messaggi di altri membri",
+          "label": "Gestisci i messaggi"
+        },
+        "ManageRoles": {
+          "description": "Consente ai membri di creare nuovi ruoli e modificare o eliminare i ruoli inferiori al loro ruolo più alto",
+          "label": "Gestisci ruoli"
+        },
+        "ManageSpace": {
+          "description": "Consenti ai membri di modificare questo spazio",
+          "label": "Gestisci lo spazio"
+        },
+        "MentionEveryone": {
+          "description": "Consenti ai membri di menzionare @everyone e @here nei messaggi",
+          "label": "Menziona tutti"
+        },
+        "MoveMembers": {
+          "description": "Consenti ai membri di spostare altri membri tra canali vocali e disconnetterli",
+          "label": "Sposta membri"
+        },
+        "MuteMembers": {
+          "description": "Consenti ai membri di silenziare altri membri nei canali vocali",
+          "label": "Silenzia membri"
+        },
+        "ReadMessageHistory": {
+          "description": "Consenti ai membri di leggere la cronologia dei messaggi",
+          "label": "Leggi la cronologia dei messaggi"
+        },
+        "SendMessages": {
+          "description": "Consenti ai membri di inviare messaggi nei canali di testo",
+          "label": "Invia messaggi"
+        },
+        "Speak": {
+          "description": "Consenti ai membri di parlare nei canali vocali",
+          "label": "Parlare"
+        },
+        "UseExternalEmojis": {
+          "description": "Consenti ai membri di utilizzare emoji di altri spazi o i propri nei loro messaggi",
+          "label": "Usa emoji esterni"
+        },
+        "UseExternalStickers": {
+          "description": "Consenti ai membri di usare sticker da altri spazi nei loro messaggi",
+          "label": "Usa sticker esterni"
+        },
+        "UseVAD": {
+          "description": "Consenti ai membri di parlare usando il rilevamento attività vocale. Senza questo permesso, i membri devono usare push-to-talk.",
+          "label": "Usa attività vocale"
+        },
+        "ViewChannel": {
+          "description": "Consenti ai membri di visualizzare i canali per impostazione predefinita",
+          "label": "Visualizza canali"
+        }
+      },
+      "groups": {
+        "advanced": "Autorizzazioni avanzate",
+        "general": "Autorizzazioni spaziali generali",
+        "membership": "Autorizzazioni di adesione",
+        "text": "Autorizzazioni del canale di testo",
+        "voice": "Autorizzazioni del canale vocale"
+      },
+      "jumpToCategory": "Vai alla categoria...",
+      "searchPlaceholder": "Cerca permessi..."
+    },
+    "saveFailed": "Impossibile salvare il ruolo",
+    "searchPlaceholder": "Cerca ruoli",
+    "tabs": {
+      "display": "Visualizzazione",
+      "manageMembers": "Gestisci membri",
+      "members": "Membri",
+      "permissions": "Permessi"
+    },
+    "unsavedChanges": "Hai modifiche non salvate!"
   },
   "sheet": {
+    "membersCount_one": "{{count}} membro",
+    "membersCount_other": "{{count}} membri",
+    "mutedStatus": "Hai silenziato questo spazio",
+    "muteHelper": "Silenziare uno spazio impedisce badge non letti e suoni di notifica, a meno che non vieni menzionato.",
+    "muteSpace": "Silenzia {{spaceName}}",
+    "notificationSettingsTitle": "Impostazioni notifiche",
+    "onlineCount_one": "{{count}} online",
+    "onlineCount_other": "{{count}} online",
     "quickActions": {
       "invite": "Invita",
       "notifications": "Notifiche",
       "settings": "Impostazioni"
     },
-    "onlineCount_one": "{{count}} online",
-    "onlineCount_other": "{{count}} online",
-    "membersCount_one": "{{count}} membro",
-    "membersCount_other": "{{count}} membri",
-    "spaceEmojis": "Emoji dello spazio",
-    "notificationSettingsTitle": "Impostazioni notifiche",
-    "serverSettingsTitle": "Impostazioni spazio",
-    "unmuteSpace": "Riattiva audio {{spaceName}}",
-    "muteSpace": "Silenzia {{spaceName}}",
-    "mutedStatus": "Hai silenziato questo spazio",
-    "muteHelper": "Silenziare uno spazio impedisce badge non letti e suoni di notifica, a meno che non vieni menzionato.",
     "serverNotificationSettings": "Impostazioni notifiche server",
-    "suppressSettings": "Sopprimi",
+    "serverSettingsTitle": "Impostazioni spazio",
     "settingsSection": "Impostazioni",
+    "spaceEmojis": "Emoji dello spazio",
+    "suppressSettings": "Sopprimi",
+    "unmuteSpace": "Riattiva audio {{spaceName}}",
     "userManagementSection": "Gestione utenti"
-  }
+  },
+  "sidebar": {
+    "bridges": "Ponti",
+    "channels": "Canali",
+    "createSpace": "Crea uno spazio",
+    "directMessages": "Messaggi diretti",
+    "doneReordering": "Fatto",
+    "doneReorderingA11y": "Riordino spazi completato",
+    "friends": "Amici",
+    "moreOptions": "Altre opzioni",
+    "reorder": "Riordina",
+    "reorderA11y": "Riordina spazi",
+    "spaces": "Spazi",
+    "switchTo": "Passa a",
+    "switchToDirectMessages": "Passa ai Messaggi Diretti",
+    "switchToFeed": "Passa a Feed",
+    "switchToSpaces": "Passa a Spazi"
+  },
+  "theme": {
+    "clear": "Usa tema personale",
+    "createCustom": "Crea tema spazio",
+    "description": "Personalizza l'elenco canali e la chat per tutti in questo spazio. Il tuo tema personale resta altrove.",
+    "noCustomThemes": "Nessun tema personalizzato ancora. Creane uno per personalizzare questo spazio.",
+    "spaceThemes": "Questo spazio"
+  },
+  "title": "Impostazioni dello spazio",
+  "titleShort": "Impostazioni dello spazio"
 }

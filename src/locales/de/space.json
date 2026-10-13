@@ -1,567 +1,567 @@
 {
-  "title": "Space-Einstellungen",
-  "titleShort": "Space-Einstellungen",
-  "overviewDescription": "Verwalte Rollen, Einladungen, Ausdrücke und Moderation.",
-  "nav": {
-    "categories": {
-      "general": "Allgemein",
-      "people": "Personen",
-      "moderation": "Moderation",
-      "integrations": "Integrationen"
-    },
-    "pages": {
-      "profile": "Profil",
-      "theme": "Design",
-      "roles": "Rollen",
-      "channels": "Kanäle",
-      "invites": "Einladungen",
-      "expressions": "Ausdrücke",
-      "bans": "Banns",
-      "minecraftBridge": "Minecraft-Bridge"
-    }
-  },
   "actions": {
-    "deleteSpace": "Space löschen",
-    "leaveSpace": "Space verlassen",
-    "createRole": "Rolle erstellen",
-    "deleteRole": "Rolle löschen",
+    "addMembers": "Mitglieder hinzufügen",
+    "addMembersCount_one": "Hinzufügen ({{count}})",
+    "addMembersCount_other": "Hinzufügen ({{count}})",
+    "ban": "Bannen",
+    "clearPermissions": "Berechtigungen löschen",
     "createInvite": "Einladung erstellen",
     "createInviteLink": "Einladungslink erstellen",
+    "createRole": "Rolle erstellen",
+    "creating": "Wird erstellt...",
     "deleteAllInvites": "Alle Einladungen löschen",
+    "deleteRole": "Rolle löschen",
+    "deleteSpace": "Space löschen",
     "editInviteLink": "Einladungslink bearbeiten",
+    "kick": "Kicken",
+    "leaveSpace": "Space verlassen",
+    "markAllAsRead": "Alle als gelesen markieren",
     "revokeBan": "Bann aufheben",
     "unbanMember": "Mitglied entbannen",
     "unbanning": "Entbannen...",
-    "kick": "Kicken",
-    "ban": "Bannen",
-    "addMembers": "Mitglieder hinzufügen",
-    "markAllAsRead": "Alle als gelesen markieren",
-    "clearPermissions": "Berechtigungen löschen",
-    "working": "Wird bearbeitet...",
-    "creating": "Wird erstellt...",
-    "addMembersCount_one": "Hinzufügen ({{count}})",
-    "addMembersCount_other": "Hinzufügen ({{count}})"
-  },
-  "profile": {
-    "spaceIcon": "Space-Symbol",
-    "name": "Name",
-    "description": "Beschreibung",
-    "descriptionPlaceholder": "Schreibe etwas über deinen Space...",
-    "updatedSuccess": "Space erfolgreich aktualisiert.",
-    "genericError": "Ein Fehler ist aufgetreten"
-  },
-  "invites": {
-    "activeLinks": "Aktive Einladungslinks",
-    "createTitle": "Einladungslink erstellen",
-    "createDescriptionChannel": "Erstellt einen Link zu #{{channel}}.",
-    "createDescriptionDefault": "Erstellt einen Link zum Standard-Textkanal dieses Spaces.",
-    "createFailed": "Einladung konnte nicht erstellt werden",
-    "empty": "Für diesen Space wurden noch keine Einladungen erstellt.",
-    "columns": {
-      "inviter": "Einladender",
-      "inviteCode": "Einladungscode",
-      "uses": "Nutzungen",
-      "expires": "Läuft ab"
-    },
-    "usesLabel": "Nutzungen: {{uses}}{{max}}",
-    "usesMax": " / {{max}}",
-    "neverExpires": "Läuft nie ab",
-    "expired": "Abgelaufen",
-    "copyInviteUrl": "Einladungs-URL kopieren",
-    "copiedToClipboard": "In die Zwischenablage kopiert",
-    "tapToCopy": "Tippe auf den Link zum Kopieren",
-    "modal": {
-      "title": "Freunde zu {{spaceName}} einladen",
-      "landingChannel": "Empfänger landen in #{{channelName}}",
-      "searchFriends": "Freunde suchen",
-      "noResults": "Keine Ergebnisse.",
-      "noFriends": "Keine Freunde zum Einladen. Teile stattdessen den Link unten.",
-      "inviteLink": "Einladungslink",
-      "expiresPrefix": "Dieser Link läuft ab ",
-      "expiresNever": "nie",
-      "editTitle": "Aktuellen Einladungslink bearbeiten",
-      "expireAfter": "Ablaufen nach",
-      "maxUses": "Max. Nutzungen",
-      "expiresAfterUses_one": " oder nach {{count}} Nutzung",
-      "expiresAfterUses_other": " oder nach {{count}} Nutzungen"
-    },
-    "expiry": {
-      "30minutes": "30 Minuten",
-      "1hour": "1 Stunde",
-      "6hours": "6 Stunden",
-      "12hours": "12 Stunden",
-      "1day": "1 Tag",
-      "7days": "7 Tage",
-      "never": "Nie"
-    },
-    "maxUses": {
-      "noLimit": "Kein Limit",
-      "1use": "1 Nutzung",
-      "5uses": "5 Nutzungen",
-      "10uses": "10 Nutzungen",
-      "25uses": "25 Nutzungen",
-      "50uses": "50 Nutzungen",
-      "100uses": "100 Nutzungen"
-    }
-  },
-  "roles": {
-    "defaultPermissions": "Standardberechtigungen",
-    "everyoneSubtitle": "@everyone - gilt für alle Space-Mitglieder",
-    "searchPlaceholder": "Rollen suchen",
-    "membersColumn": "Mitglieder",
-    "actionsColumn": "Aktionen",
-    "hierarchyHint": "Rollen weiter oben in der Liste haben mehr Autorität. Ziehe Rollen, um ihre Hierarchie zu ändern.",
-    "empty": "Für diesen Space wurden noch keine Rollen erstellt.",
-    "emptySearch": "Keine Rollen entsprechen deiner Suche.",
-    "memberCount_one": "{{count}} Mitglied",
-    "memberCount_other": "{{count}} Mitglieder",
-    "editTitle": "Rolle bearbeiten - {{name}}",
-    "tabs": {
-      "display": "Anzeige",
-      "permissions": "Berechtigungen",
-      "manageMembers": "Mitglieder verwalten",
-      "members": "Mitglieder"
-    },
-    "unsavedChanges": "Du hast ungespeicherte Änderungen!",
-    "saveFailed": "Rolle konnte nicht gespeichert werden",
-    "display": {
-      "roleName": "Rollenname",
-      "roleColor": "Rollenfarbe",
-      "hoist": "Rollenmitglieder getrennt von Online-Mitgliedern anzeigen",
-      "mentionable": "Allen erlauben, diese Rolle zu @erwähnen",
-      "mentionableHint": "Mitglieder mit der Berechtigung „@everyone, @here und alle Rollen erwähnen“ können diese Rolle unabhängig von dieser Einstellung erwähnen.",
-      "mentionableHintShort": "Mitglieder mit der Berechtigung zum Erwähnen aller können diese Rolle trotzdem erwähnen."
-    },
-    "members": {
-      "title": "Rollenmitglieder",
-      "description": "Mitglieder anzeigen und verwalten, die dieser Rolle zugewiesen sind.",
-      "searchPlaceholder": "Mitglieder suchen",
-      "emptyAssigned": "Dieser Rolle wurden keine Mitglieder zugewiesen.",
-      "emptySearch": "Keine Mitglieder entsprechen deiner Suche.",
-      "addTitle": "Mitglieder hinzufügen",
-      "addDescription": "Bis zu {{max}} Mitglieder zu {{roleName}} hinzufügen",
-      "selectedCount": "{{selected}}/{{max}} ausgewählt",
-      "noEligible": "Keine Mitglieder verfügbar, die dieser Rolle hinzugefügt werden können.",
-      "addSuccess_one": "{{count}} Mitglied zu {{roleName}} hinzugefügt",
-      "addSuccess_other": "{{count}} Mitglieder zu {{roleName}} hinzugefügt",
-      "addFailed": "Mitglieder konnten der Rolle nicht hinzugefügt werden"
-    },
-    "hierarchy": {
-      "cantReorder": "Du kannst Rollen auf oder über deiner höchsten Rolle nicht neu anordnen",
-      "cantAssign": "Du kannst diese Rolle nicht zuweisen oder entfernen",
-      "cantEditRole": "Du kannst diese Rolle nicht bearbeiten, weil sie auf oder über deiner höchsten Rolle liegt.",
-      "cantManageMembers": "Du kannst dieser Rolle keine Mitglieder zuweisen oder entfernen.",
-      "dragToReorder": "Ziehen zum Neuordnen",
-      "dragToReorderHierarchy": "Ziehen, um die Hierarchie neu anzuordnen",
-      "failedReorder": "Rollen konnten nicht neu angeordnet werden",
-      "failedUpdateRole": "Rolle konnte nicht aktualisiert werden",
-      "cantManageMember": "Du hast keine Berechtigung, dieses Mitglied zu verwalten"
-    },
-    "delete": {
-      "title": "Rolle löschen",
-      "confirm": "Möchtest du die Rolle {{name}} wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden."
-    },
-    "permissions": {
-      "searchPlaceholder": "Berechtigungen suchen...",
-      "jumpToCategory": "Zur Kategorie springen…",
-      "emptySearch": "Keine Berechtigungen entsprechen deiner Suche",
-      "clear": "Berechtigungen löschen",
-      "groups": {
-        "general": "Allgemeine Space-Berechtigungen",
-        "membership": "Mitgliedschaftsberechtigungen",
-        "text": "Textkanal-Berechtigungen",
-        "voice": "Sprachkanal-Berechtigungen",
-        "advanced": "Erweiterte Berechtigungen"
-      },
-      "flags": {
-        "ViewChannel": {
-          "label": "Kanäle ansehen",
-          "description": "Erlaubt Mitgliedern, Kanäle standardmäßig anzusehen"
-        },
-        "ManageChannels": {
-          "label": "Kanäle verwalten",
-          "description": "Erlaubt Mitgliedern, Kanäle zu erstellen, zu bearbeiten oder zu löschen"
-        },
-        "ManageRoles": {
-          "label": "Rollen verwalten",
-          "description": "Erlaubt Mitgliedern, neue Rollen zu erstellen und Rollen unterhalb ihrer höchsten Rolle zu bearbeiten oder zu löschen"
-        },
-        "CreateExpressions": {
-          "label": "Ausdrücke erstellen",
-          "description": "Erlaubt Mitgliedern, Emojis und Sticker in diesem Space zu erstellen."
-        },
-        "ManageExpressions": {
-          "label": "Ausdrücke verwalten",
-          "description": "Erlaubt Mitgliedern, Emojis und Sticker in diesem Space zu bearbeiten oder zu löschen."
-        },
-        "ManageSpace": {
-          "label": "Space verwalten",
-          "description": "Erlaubt Mitgliedern, diesen Space zu ändern"
-        },
-        "CreateInvites": {
-          "label": "Einladungen erstellen",
-          "description": "Erlaubt Mitgliedern, neue Personen in diesen Space einzuladen"
-        },
-        "KickMembers": {
-          "label": "Mitglieder kicken",
-          "description": "Kicken entfernt andere Mitglieder aus diesem Space. Gekickte Mitglieder können wieder beitreten, wenn sie eine andere Einladung haben."
-        },
-        "BanMembers": {
-          "label": "Mitglieder bannen",
-          "description": "Bannen entfernt Mitglieder aus diesem Space und verhindert den Wiedereintritt, bis sie entbannt werden."
-        },
-        "SendMessages": {
-          "label": "Nachrichten senden",
-          "description": "Erlaubt Mitgliedern, Nachrichten in Textkanälen zu senden"
-        },
-        "EmbedLinks": {
-          "label": "Links einbetten",
-          "description": "Erlaubt Mitgliedern, Links in Nachrichten einzubetten"
-        },
-        "AttachFiles": {
-          "label": "Dateien anhängen",
-          "description": "Erlaubt Mitgliedern, Dateien an Nachrichten anzuhängen"
-        },
-        "AddReactions": {
-          "label": "Reaktionen hinzufügen",
-          "description": "Mitgliedern erlauben, Emoji-Reaktionen zu Nachrichten hinzuzufügen"
-        },
-        "MentionEveryone": {
-          "label": "Everyone erwähnen",
-          "description": "Erlaubt Mitgliedern, @everyone und @here in Nachrichten zu erwähnen"
-        },
-        "UseExternalEmojis": {
-          "label": "Externe Emojis verwenden",
-          "description": "Erlaubt Mitgliedern, Emojis aus anderen Spaces oder eigene in ihren Nachrichten zu verwenden"
-        },
-        "UseExternalStickers": {
-          "label": "Externe Sticker verwenden",
-          "description": "Mitgliedern erlauben, Sticker aus anderen Spaces in ihren Nachrichten zu verwenden"
-        },
-        "ManageMessages": {
-          "label": "Nachrichten verwalten",
-          "description": "Erlaubt Mitgliedern, Nachrichten anderer Mitglieder zu löschen"
-        },
-        "ReadMessageHistory": {
-          "label": "Nachrichtenverlauf lesen",
-          "description": "Erlaubt Mitgliedern, den Nachrichtenverlauf zu lesen"
-        },
-        "Connect": {
-          "label": "Verbinden",
-          "description": "Erlaubt Mitgliedern, sich mit Sprachkanälen zu verbinden"
-        },
-        "Speak": {
-          "label": "Sprechen",
-          "description": "Erlaubt Mitgliedern, in Sprachkanälen zu sprechen"
-        },
-        "UseVAD": {
-          "label": "Sprachaktivität verwenden",
-          "description": "Mitgliedern erlauben, mit Sprachaktivitätserkennung zu sprechen. Ohne diese Berechtigung müssen Mitglieder Push-to-Talk verwenden."
-        },
-        "MuteMembers": {
-          "label": "Mitglieder stummschalten",
-          "description": "Mitgliedern erlauben, andere Mitglieder in Sprachkanälen stummzuschalten"
-        },
-        "DeafenMembers": {
-          "label": "Mitglieder taubschalten",
-          "description": "Mitgliedern erlauben, andere Mitglieder in Sprachkanälen taubzuschalten"
-        },
-        "MoveMembers": {
-          "label": "Mitglieder verschieben",
-          "description": "Mitgliedern erlauben, andere Mitglieder zwischen Sprachkanälen zu verschieben und die Verbindung zu trennen"
-        },
-        "Administrator": {
-          "label": "Administrator",
-          "description": "Mitglieder mit dieser Berechtigung haben alle Berechtigungen. Dies ist eine gefährliche Berechtigung.",
-          "descriptionBefore": "Mitglieder mit dieser Berechtigung haben alle Berechtigungen.",
-          "descriptionDanger": "Dies ist eine gefährliche Berechtigung"
-        }
-      }
-    },
-    "listTitle_one": "Rollen - {{count}}",
-    "listTitle_other": "Rollen - {{count}}",
-    "everyoneSuffix": " (@everyone)"
-  },
-  "expressions": {
-    "pageTitle": "Space-Ausdrücke",
-    "pageDescription": "Lade benutzerdefinierte Emojis und Sticker für diesen Space hoch und verwalte sie.",
-    "emojiLimit": "Leider liegt das aktuelle Limit für hochladbare Emojis bei 100, da die App noch in der Beta ist und Speicherplatz derzeit ein Problem darstellt",
-    "stickerLimit": "Leider liegt das aktuelle Limit für hochladbare Sticker bei 100, da die App noch in der Beta ist und Speicherplatz derzeit ein Problem darstellt",
-    "emojiLimitMobile": "Beta-Limit: {{limit}} Emojis pro Space.",
-    "stickerLimitMobile": "Beta-Limit: {{limit}} Sticker pro Space.",
-    "emptyEmojis": "Noch keine Space-Emojis",
-    "emptyStickers": "Noch keine Space-Sticker"
+    "working": "Wird bearbeitet..."
   },
   "bans": {
-    "title": "Space-Bannliste",
+    "bannedAt": "Gebannt am",
+    "bannedBy": "Gebannt von",
     "description": "Zeige und verwalte die Liste der gebannten Nutzer in diesem Space. Derzeit basiert der Bann auf dem Konto; IP-Banns werden in Zukunft eingeführt.",
     "descriptionShort": "Gebannte Nutzer in diesem Space anzeigen und verwalten.",
+    "empty": "Noch niemand wurde gebannt",
+    "noReason": "Kein Grund angegeben",
+    "reason": "Grund",
     "searchPlaceholder": "Banns nach Nutzer-ID, Benutzername oder Anzeigename suchen",
     "searchPlaceholderShort": "Nach Benutzername oder Nutzer-ID suchen",
-    "empty": "Noch niemand wurde gebannt",
-    "reason": "Grund",
-    "noReason": "Kein Grund angegeben",
-    "bannedBy": "Gebannt von",
-    "bannedAt": "Gebannt am",
+    "title": "Space-Bannliste",
     "unbanSuccess": "{{name}} erfolgreich entbannt",
     "unbanTitle": "{{name}} entbannen?"
   },
-  "moderation": {
-    "banTitle": "{{name}} bannen?",
-    "kickTitle": "{{name}} kicken?",
-    "kickFromSpaceTitle": "{{name}} aus dem Space kicken",
-    "kickBody": "Möchtest du @{{name}} wirklich aus dem Space kicken? Zum erneuten Beitreten ist eine Einladung nötig.",
-    "kickSuccess": "{{name}} aus dem Space gekickt",
-    "reason": "Grund",
-    "reasonOptional": "Grund (optional)",
-    "reasonForKick": "Grund für den Kick",
-    "reasonForBan": "Grund für den Bann *",
-    "deleteRecentMessages": "Aktuelle Nachrichten löschen",
-    "banReasons": {
-      "suspicious": "Verdächtiges oder Spam-Konto",
-      "compromised": "Kompromittiertes oder gehacktes Konto",
-      "breakingRules": "Verstoß gegen die Space-Regeln",
-      "other": "Sonstiges"
-    },
-    "deleteMessages": {
-      "dontDelete": "Nicht löschen",
-      "dontDeleteMessages": "Nachrichten nicht löschen",
-      "previousHour": "Letzte Stunde",
-      "lastHour": "Letzte Stunde",
-      "previousDay": "Letzter Tag",
-      "last24Hours": "Letzte 24 Stunden",
-      "previousWeek": "Letzte Woche",
-      "last7Days": "Letzte 7 Tage",
-      "allMessages": "Alle Nachrichten",
-      "deleteAllMessages": "Alle Nachrichten löschen"
-    },
-    "youWereBanned": "Du wurdest von {{name}} gebannt",
-    "youWereKicked": "Du wurdest aus {{name}} gekickt"
-  },
   "channels": {
-    "noCategory": "Keine Kategorie",
+    "channelInvites": "Kanaleinladungen",
+    "create": {
+      "clear": "Löschen",
+      "icon": "Kanalsymbol",
+      "name": "Kanalname",
+      "namePlaceholder": "neuer-kanal",
+      "rotate": "Drehen",
+      "rounded": "Abgerundet",
+      "submit": "Kanal erstellen",
+      "text": "Textkanal",
+      "textDescription": "Sende Nachrichten, Bilder und mehr",
+      "title": "Kanal erstellen",
+      "type": "Kanaltyp",
+      "upload": "Hochladen",
+      "voice": "Sprachkanal",
+      "voiceDescription": "Hänge mit Sprache und Video ab"
+    },
+    "createCategory": {
+      "name": "Kategoriename",
+      "namePlaceholder": "Neue Kategorie",
+      "submit": "Kategorie erstellen",
+      "title": "Kategorie erstellen"
+    },
+    "createInvite": "Einladung erstellen",
+    "createInviteLink": "Einladungslink erstellen",
+    "delete": {
+      "body": "Möchtest du {{name}} wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirm": "Kanal löschen",
+      "title": "Kanal löschen"
+    },
+    "deleteCategory": {
+      "body": "Möchtest du diese Kategorie löschen?",
+      "categoryAndChannels": "Kategorie und alle zugehörigen Kanäle",
+      "categoryOnly": "Nur die Kategorie",
+      "confirm": "Kategorie löschen",
+      "title": "Kategorie „{{name}}“ löschen?"
+    },
+    "deleteChannelAction": "Kanal löschen",
     "empty": "Keine Kanäle zum Neuordnen.",
-    "reorderHint": "Ziehe Kanäle, um sie neu anzuordnen. Platziere einen Kanal direkt unter einer Kategorie, um ihn dieser Gruppe hinzuzufügen. Ziehe ihn über eine Kategorie, um ihn aus der Gruppe zu entfernen.",
+    "failedMoveMember": "Mitglied konnte nicht verschoben werden",
+    "nameEmpty": "Kanalname darf nicht leer sein.",
+    "namePlaceholder": "Kanalname",
+    "noCategory": "Keine Kategorie",
+    "noChannelInvites": "Für #{{channel}} wurden noch keine Einladungen erstellt.",
+    "noSpaceEmojis": "Noch keine Space-Emojis",
     "overwrites": "Überschreibungen",
-    "searchTargets": "Rollen oder Mitglieder suchen…",
+    "pages": {
+      "invites": "Einladungen",
+      "overview": "Übersicht",
+      "permissions": "Berechtigungen"
+    },
+    "permissionOverwrites": "Berechtigungsüberschreibungen",
     "permissions": {
+      "addOverwrite": "Berechtigungsüberschreibung hinzufügen",
+      "flags": {
+        "AddReactions": {
+          "description": "Mitgliedern erlauben, Emoji-Reaktionen zu Nachrichten hinzuzufügen",
+          "label": "Reaktionen hinzufügen"
+        },
+        "AttachFiles": {
+          "description": "Erlaubt Mitgliedern, Dateien anzuhängen",
+          "label": "Dateien anhängen"
+        },
+        "Connect": {
+          "description": "Erlaubt Mitgliedern, sich mit diesem Sprachkanal zu verbinden",
+          "label": "Verbinden"
+        },
+        "DeafenMembers": {
+          "description": "Mitgliedern erlauben, andere Mitglieder in diesem Sprachkanal taubzuschalten",
+          "label": "Mitglieder taubschalten"
+        },
+        "EmbedLinks": {
+          "description": "Erlaubt Mitgliedern, Links einzubetten",
+          "label": "Links einbetten"
+        },
+        "ManageChannels": {
+          "description": "Erlaubt Mitgliedern, diesen Kanal zu bearbeiten oder zu löschen",
+          "label": "Kanal verwalten"
+        },
+        "ManageMessages": {
+          "description": "Erlaubt Mitgliedern, Nachrichten anderer zu löschen",
+          "label": "Nachrichten verwalten"
+        },
+        "ManageRoles": {
+          "description": "Erlaubt Mitgliedern, die Berechtigungsüberschreibungen dieses Kanals zu bearbeiten",
+          "label": "Berechtigungen verwalten"
+        },
+        "MentionEveryone": {
+          "description": "Erlaubt Mitgliedern, @everyone und @here zu erwähnen",
+          "label": "Everyone erwähnen"
+        },
+        "MoveMembers": {
+          "description": "Mitgliedern erlauben, andere Mitglieder zwischen Sprachkanälen zu verschieben und die Verbindung zu trennen",
+          "label": "Mitglieder verschieben"
+        },
+        "MuteMembers": {
+          "description": "Mitgliedern erlauben, andere Mitglieder in diesem Sprachkanal stummzuschalten",
+          "label": "Mitglieder stummschalten"
+        },
+        "ReadMessageHistory": {
+          "description": "Erlaubt Mitgliedern, frühere Nachrichten zu lesen",
+          "label": "Nachrichtenverlauf lesen"
+        },
+        "SendMessages": {
+          "description": "Erlaubt Mitgliedern, Nachrichten in diesem Kanal zu senden",
+          "label": "Nachrichten senden"
+        },
+        "Speak": {
+          "description": "Erlaubt Mitgliedern, in diesem Sprachkanal zu sprechen",
+          "label": "Sprechen"
+        },
+        "UseExternalEmojis": {
+          "description": "Erlaubt Mitgliedern, Emojis aus anderen Spaces zu verwenden",
+          "label": "Externe Emojis verwenden"
+        },
+        "UseExternalStickers": {
+          "description": "Mitgliedern erlauben, Sticker aus anderen Spaces zu verwenden",
+          "label": "Externe Sticker verwenden"
+        },
+        "UseVAD": {
+          "description": "Mitgliedern erlauben, mit Sprachaktivitätserkennung zu sprechen. Ohne diese Berechtigung müssen Mitglieder Push-to-Talk verwenden.",
+          "label": "Sprachaktivität verwenden"
+        },
+        "ViewChannel": {
+          "description": "Erlaubt Mitgliedern, diesen Kanal anzusehen",
+          "label": "Kanal ansehen"
+        }
+      },
       "groups": {
         "general": "Allgemeine Kanalberechtigungen",
         "text": "Textkanal-Berechtigungen",
         "voice": "Sprachkanal-Berechtigungen"
       },
-      "flags": {
-        "ViewChannel": {
-          "label": "Kanal ansehen",
-          "description": "Erlaubt Mitgliedern, diesen Kanal anzusehen"
-        },
-        "ManageChannels": {
-          "label": "Kanal verwalten",
-          "description": "Erlaubt Mitgliedern, diesen Kanal zu bearbeiten oder zu löschen"
-        },
-        "ManageRoles": {
-          "label": "Berechtigungen verwalten",
-          "description": "Erlaubt Mitgliedern, die Berechtigungsüberschreibungen dieses Kanals zu bearbeiten"
-        },
-        "SendMessages": {
-          "label": "Nachrichten senden",
-          "description": "Erlaubt Mitgliedern, Nachrichten in diesem Kanal zu senden"
-        },
-        "EmbedLinks": {
-          "label": "Links einbetten",
-          "description": "Erlaubt Mitgliedern, Links einzubetten"
-        },
-        "AttachFiles": {
-          "label": "Dateien anhängen",
-          "description": "Erlaubt Mitgliedern, Dateien anzuhängen"
-        },
-        "AddReactions": {
-          "label": "Reaktionen hinzufügen",
-          "description": "Mitgliedern erlauben, Emoji-Reaktionen zu Nachrichten hinzuzufügen"
-        },
-        "MentionEveryone": {
-          "label": "Everyone erwähnen",
-          "description": "Erlaubt Mitgliedern, @everyone und @here zu erwähnen"
-        },
-        "UseExternalEmojis": {
-          "label": "Externe Emojis verwenden",
-          "description": "Erlaubt Mitgliedern, Emojis aus anderen Spaces zu verwenden"
-        },
-        "UseExternalStickers": {
-          "label": "Externe Sticker verwenden",
-          "description": "Mitgliedern erlauben, Sticker aus anderen Spaces zu verwenden"
-        },
-        "ManageMessages": {
-          "label": "Nachrichten verwalten",
-          "description": "Erlaubt Mitgliedern, Nachrichten anderer zu löschen"
-        },
-        "ReadMessageHistory": {
-          "label": "Nachrichtenverlauf lesen",
-          "description": "Erlaubt Mitgliedern, frühere Nachrichten zu lesen"
-        },
-        "Connect": {
-          "label": "Verbinden",
-          "description": "Erlaubt Mitgliedern, sich mit diesem Sprachkanal zu verbinden"
-        },
-        "Speak": {
-          "label": "Sprechen",
-          "description": "Erlaubt Mitgliedern, in diesem Sprachkanal zu sprechen"
-        },
-        "UseVAD": {
-          "label": "Sprachaktivität verwenden",
-          "description": "Mitgliedern erlauben, mit Sprachaktivitätserkennung zu sprechen. Ohne diese Berechtigung müssen Mitglieder Push-to-Talk verwenden."
-        },
-        "MuteMembers": {
-          "label": "Mitglieder stummschalten",
-          "description": "Mitgliedern erlauben, andere Mitglieder in diesem Sprachkanal stummzuschalten"
-        },
-        "DeafenMembers": {
-          "label": "Mitglieder taubschalten",
-          "description": "Mitgliedern erlauben, andere Mitglieder in diesem Sprachkanal taubzuschalten"
-        },
-        "MoveMembers": {
-          "label": "Mitglieder verschieben",
-          "description": "Mitgliedern erlauben, andere Mitglieder zwischen Sprachkanälen zu verschieben und die Verbindung zu trennen"
-        }
-      },
-      "addOverwrite": "Berechtigungsüberschreibung hinzufügen",
-      "roles": "ROLLEN",
       "members": "MITGLIEDER",
+      "noOverwritesYet": "Noch keine Überschreibungen",
       "noResults": "Keine Ergebnisse",
+      "roles": "ROLLEN",
       "selectTargetHint": "Wähle eine Rolle oder ein Mitglied aus, um kanalspezifische Berechtigungen zu konfigurieren.",
-      "selectTargetHintLeft": "Wähle links eine Rolle oder ein Mitglied aus, um deren Berechtigungen für diesen Kanal zu bearbeiten, oder klicke auf +, um eine hinzuzufügen.",
-      "noOverwritesYet": "Noch keine Überschreibungen"
+      "selectTargetHintLeft": "Wähle links eine Rolle oder ein Mitglied aus, um deren Berechtigungen für diesen Kanal zu bearbeiten, oder klicke auf +, um eine hinzuzufügen."
     },
-    "create": {
-      "title": "Kanal erstellen",
-      "name": "Kanalname",
-      "namePlaceholder": "neuer-kanal",
-      "type": "Kanaltyp",
-      "text": "Textkanal",
-      "textDescription": "Sende Nachrichten, Bilder und mehr",
-      "voice": "Sprachkanal",
-      "voiceDescription": "Hänge mit Sprache und Video ab",
-      "submit": "Kanal erstellen",
-      "icon": "Kanalsymbol",
-      "upload": "Hochladen",
-      "rounded": "Abgerundet",
-      "rotate": "Drehen",
-      "clear": "Löschen"
-    },
-    "createCategory": {
-      "title": "Kategorie erstellen",
-      "name": "Kategoriename",
-      "namePlaceholder": "Neue Kategorie",
-      "submit": "Kategorie erstellen"
-    },
-    "delete": {
-      "title": "Kanal löschen",
-      "body": "Möchtest du {{name}} wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
-      "confirm": "Kanal löschen"
-    },
-    "deleteCategory": {
-      "title": "Kategorie „{{name}}“ löschen?",
-      "body": "Möchtest du diese Kategorie löschen?",
-      "categoryOnly": "Nur die Kategorie",
-      "categoryAndChannels": "Kategorie und alle zugehörigen Kanäle",
-      "confirm": "Kategorie löschen"
-    },
-    "saveOverwrite": "Überschreibung speichern",
-    "deleteChannelAction": "Kanal löschen",
-    "createInvite": "Einladung erstellen",
-    "createInviteLink": "Einladungslink erstellen",
     "removeIcon": "Symbol entfernen",
+    "reorderHint": "Ziehe Kanäle, um sie neu anzuordnen. Platziere einen Kanal direkt unter einer Kategorie, um ihn dieser Gruppe hinzuzufügen. Ziehe ihn über eine Kategorie, um ihn aus der Gruppe zu entfernen.",
     "restoreIcon": "Symbol wiederherstellen",
-    "uploadEmoji": "Emoji hochladen",
-    "uploadSticker": "Sticker hochladen",
+    "saveOverwrite": "Überschreibung speichern",
+    "searchTargets": "Rollen oder Mitglieder suchen…",
+    "selectOverwriteTarget": "Wähle ein Überschreibungsziel aus, um kanalspezifische Berechtigungen zu bearbeiten.",
+    "settingsTitle": "Kanaleinstellungen",
     "topic": "Kanalthema",
     "topicHint": "Wird Mitgliedern oben im Kanal angezeigt.",
     "topicPlaceholder": "Thema",
-    "settingsTitle": "Kanaleinstellungen",
-    "namePlaceholder": "Kanalname",
-    "permissionOverwrites": "Berechtigungsüberschreibungen",
-    "channelInvites": "Kanaleinladungen",
-    "noChannelInvites": "Für #{{channel}} wurden noch keine Einladungen erstellt.",
-    "selectOverwriteTarget": "Wähle ein Überschreibungsziel aus, um kanalspezifische Berechtigungen zu bearbeiten.",
-    "nameEmpty": "Kanalname darf nicht leer sein.",
-    "failedMoveMember": "Mitglied konnte nicht verschoben werden",
-    "noSpaceEmojis": "Noch keine Space-Emojis",
-    "pages": {
-      "overview": "Übersicht",
-      "permissions": "Berechtigungen",
-      "invites": "Einladungen"
-    }
-  },
-  "confirm": {
-    "deleteSpaceTitle": "„{{name}}“ löschen?",
-    "leaveSpaceTitle": "„{{name}}“ verlassen?",
-    "deleteSpaceBody": "Möchtest du {{name}} wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
-    "leaveSpaceBody": "Möchtest du {{name}} wirklich verlassen? Diese Aktion kann nicht rückgängig gemacht werden.",
-    "cannotUndo": "Diese Aktion kann nicht rückgängig gemacht werden."
-  },
-  "menu": {
-    "spaceSettings": "Space-Einstellungen",
-    "reportSpace": "Space melden",
-    "leaveSpace": "Space verlassen",
-    "deleteSpace": "Space löschen"
-  },
-  "sidebar": {
-    "createSpace": "Space erstellen",
-    "switchToSpaces": "Zu Spaces wechseln",
-    "switchToDirectMessages": "Zu Direktnachrichten wechseln",
-    "switchTo": "Wechseln zu",
-    "directMessages": "Direktnachrichten",
-    "friends": "Freunde",
-    "spaces": "Spaces",
-    "switchToFeed": "Zum Feed wechseln",
-    "channels": "Kanäle",
-    "bridges": "Bridges",
-    "moreOptions": "Weitere Optionen",
-    "reorder": "Neu anordnen",
-    "doneReordering": "Fertig",
-    "reorderA11y": "Spaces neu anordnen",
-    "doneReorderingA11y": "Neuanordnung der Spaces abgeschlossen"
-  },
-  "lockdown": {
-    "title": "Dieser Space ist im Lockdown",
-    "ownerMessage": "Nachrichten und Änderungen sind deaktiviert. Prüfe deine E-Mail auf einen Einspruchslink, wenn du glaubst, dass dies ein Fehler war.",
-    "memberMessage": "Nachrichten und Änderungen sind deaktiviert, während das Team diesen Space überprüft.",
-    "toast": "Dieser Space ist im Lockdown. Nachrichten und Änderungen sind deaktiviert."
+    "uploadEmoji": "Emoji hochladen",
+    "uploadSticker": "Sticker hochladen"
   },
   "chrome": {
-    "spaceSettings": "Space-Einstellungen",
-    "inviteToSpace": "Zum Space einladen",
-    "createInviteA11y": "Einladung erstellen",
     "createCategoryA11y": "Kategorie erstellen",
-    "spaceMenuA11y": "Space-Menü"
+    "createInviteA11y": "Einladung erstellen",
+    "inviteToSpace": "Zum Space einladen",
+    "spaceMenuA11y": "Space-Menü",
+    "spaceSettings": "Space-Einstellungen"
   },
-  "theme": {
-    "description": "Gestalte die Kanalliste und den Chat für alle in diesem Space. Dein persönliches Theme bleibt anderswo erhalten.",
-    "clear": "Persönliches Theme verwenden",
-    "createCustom": "Space-Theme erstellen",
-    "spaceThemes": "Dieser Space",
-    "noCustomThemes": "Noch keine benutzerdefinierten Themes. Erstelle eines, um diesen Space zu branden."
+  "confirm": {
+    "cannotUndo": "Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteSpaceBody": "Möchtest du {{name}} wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteSpaceTitle": "„{{name}}“ löschen?",
+    "leaveSpaceBody": "Möchtest du {{name}} wirklich verlassen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "leaveSpaceTitle": "„{{name}}“ verlassen?"
+  },
+  "expressions": {
+    "emojiLimit": "Leider liegt das aktuelle Limit für hochladbare Emojis bei 100, da die App noch in der Beta ist und Speicherplatz derzeit ein Problem darstellt",
+    "emojiLimitMobile": "Beta-Limit: {{limit}} Emojis pro Space.",
+    "emptyEmojis": "Noch keine Space-Emojis",
+    "emptyStickers": "Noch keine Space-Sticker",
+    "pageDescription": "Lade benutzerdefinierte Emojis und Sticker für diesen Space hoch und verwalte sie.",
+    "pageTitle": "Space-Ausdrücke",
+    "stickerLimit": "Leider liegt das aktuelle Limit für hochladbare Sticker bei 100, da die App noch in der Beta ist und Speicherplatz derzeit ein Problem darstellt",
+    "stickerLimitMobile": "Beta-Limit: {{limit}} Sticker pro Space."
+  },
+  "invites": {
+    "activeLinks": "Aktive Einladungslinks",
+    "columns": {
+      "expires": "Läuft ab",
+      "inviteCode": "Einladungscode",
+      "inviter": "Einladender",
+      "uses": "Nutzungen"
+    },
+    "copiedToClipboard": "In die Zwischenablage kopiert",
+    "copyInviteUrl": "Einladungs-URL kopieren",
+    "createDescriptionChannel": "Erstellt einen Link zu #{{channel}}.",
+    "createDescriptionDefault": "Erstellt einen Link zum Standard-Textkanal dieses Spaces.",
+    "createFailed": "Einladung konnte nicht erstellt werden",
+    "createTitle": "Einladungslink erstellen",
+    "empty": "Für diesen Space wurden noch keine Einladungen erstellt.",
+    "expired": "Abgelaufen",
+    "expiry": {
+      "12hours": "12 Stunden",
+      "1day": "1 Tag",
+      "1hour": "1 Stunde",
+      "30minutes": "30 Minuten",
+      "6hours": "6 Stunden",
+      "7days": "7 Tage",
+      "never": "Nie"
+    },
+    "maxUses": {
+      "100uses": "100 Nutzungen",
+      "10uses": "10 Nutzungen",
+      "1use": "1 Nutzung",
+      "25uses": "25 Nutzungen",
+      "50uses": "50 Nutzungen",
+      "5uses": "5 Nutzungen",
+      "noLimit": "Kein Limit"
+    },
+    "modal": {
+      "editTitle": "Aktuellen Einladungslink bearbeiten",
+      "expireAfter": "Ablaufen nach",
+      "expiresAfterUses_one": " oder nach {{count}} Nutzung",
+      "expiresAfterUses_other": " oder nach {{count}} Nutzungen",
+      "expiresNever": "nie",
+      "expiresPrefix": "Dieser Link läuft ab ",
+      "inviteLink": "Einladungslink",
+      "landingChannel": "Empfänger landen in #{{channelName}}",
+      "maxUses": "Max. Nutzungen",
+      "noFriends": "Keine Freunde zum Einladen. Teile stattdessen den Link unten.",
+      "noResults": "Keine Ergebnisse.",
+      "searchFriends": "Freunde suchen",
+      "title": "Freunde zu {{spaceName}} einladen"
+    },
+    "neverExpires": "Läuft nie ab",
+    "tapToCopy": "Tippe auf den Link zum Kopieren",
+    "usesLabel": "Nutzungen: {{uses}}{{max}}",
+    "usesMax": " / {{max}}"
+  },
+  "lockdown": {
+    "memberMessage": "Nachrichten und Änderungen sind deaktiviert, während das Team diesen Space überprüft.",
+    "ownerMessage": "Nachrichten und Änderungen sind deaktiviert. Prüfe deine E-Mail auf einen Einspruchslink, wenn du glaubst, dass dies ein Fehler war.",
+    "title": "Dieser Space ist im Lockdown",
+    "toast": "Dieser Space ist im Lockdown. Nachrichten und Änderungen sind deaktiviert."
+  },
+  "menu": {
+    "deleteSpace": "Space löschen",
+    "leaveSpace": "Space verlassen",
+    "reportSpace": "Space melden",
+    "spaceSettings": "Space-Einstellungen"
+  },
+  "moderation": {
+    "banReasons": {
+      "breakingRules": "Verstoß gegen die Space-Regeln",
+      "compromised": "Kompromittiertes oder gehacktes Konto",
+      "other": "Sonstiges",
+      "suspicious": "Verdächtiges oder Spam-Konto"
+    },
+    "banTitle": "{{name}} bannen?",
+    "deleteMessages": {
+      "allMessages": "Alle Nachrichten",
+      "deleteAllMessages": "Alle Nachrichten löschen",
+      "dontDelete": "Nicht löschen",
+      "dontDeleteMessages": "Nachrichten nicht löschen",
+      "last24Hours": "Letzte 24 Stunden",
+      "last7Days": "Letzte 7 Tage",
+      "lastHour": "Letzte Stunde",
+      "previousDay": "Letzter Tag",
+      "previousHour": "Letzte Stunde",
+      "previousWeek": "Letzte Woche"
+    },
+    "deleteRecentMessages": "Aktuelle Nachrichten löschen",
+    "kickBody": "Möchtest du @{{name}} wirklich aus dem Space kicken? Zum erneuten Beitreten ist eine Einladung nötig.",
+    "kickFromSpaceTitle": "{{name}} aus dem Space kicken",
+    "kickSuccess": "{{name}} aus dem Space gekickt",
+    "kickTitle": "{{name}} kicken?",
+    "reason": "Grund",
+    "reasonForBan": "Grund für den Bann *",
+    "reasonForKick": "Grund für den Kick",
+    "reasonOptional": "Grund (optional)",
+    "youWereBanned": "Du wurdest von {{name}} gebannt",
+    "youWereKicked": "Du wurdest aus {{name}} gekickt"
+  },
+  "nav": {
+    "categories": {
+      "general": "Allgemein",
+      "integrations": "Integrationen",
+      "moderation": "Moderation",
+      "people": "Personen"
+    },
+    "pages": {
+      "bans": "Banns",
+      "channels": "Kanäle",
+      "expressions": "Ausdrücke",
+      "invites": "Einladungen",
+      "minecraftBridge": "Minecraft-Bridge",
+      "profile": "Profil",
+      "roles": "Rollen",
+      "theme": "Design"
+    }
+  },
+  "overviewDescription": "Verwalte Rollen, Einladungen, Ausdrücke und Moderation.",
+  "profile": {
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Schreibe etwas über deinen Space...",
+    "genericError": "Ein Fehler ist aufgetreten",
+    "name": "Name",
+    "spaceIcon": "Space-Symbol",
+    "updatedSuccess": "Space erfolgreich aktualisiert."
+  },
+  "roles": {
+    "actionsColumn": "Aktionen",
+    "defaultPermissions": "Standardberechtigungen",
+    "delete": {
+      "confirm": "Möchtest du die Rolle {{name}} wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "title": "Rolle löschen"
+    },
+    "display": {
+      "hoist": "Rollenmitglieder getrennt von Online-Mitgliedern anzeigen",
+      "mentionable": "Allen erlauben, diese Rolle zu @erwähnen",
+      "mentionableHint": "Mitglieder mit der Berechtigung „@everyone, @here und alle Rollen erwähnen“ können diese Rolle unabhängig von dieser Einstellung erwähnen.",
+      "mentionableHintShort": "Mitglieder mit der Berechtigung zum Erwähnen aller können diese Rolle trotzdem erwähnen.",
+      "roleColor": "Rollenfarbe",
+      "roleName": "Rollenname"
+    },
+    "editTitle": "Rolle bearbeiten - {{name}}",
+    "empty": "Für diesen Space wurden noch keine Rollen erstellt.",
+    "emptySearch": "Keine Rollen entsprechen deiner Suche.",
+    "everyoneSubtitle": "@everyone - gilt für alle Space-Mitglieder",
+    "everyoneSuffix": " (@everyone)",
+    "hierarchy": {
+      "cantAssign": "Du kannst diese Rolle nicht zuweisen oder entfernen",
+      "cantEditRole": "Du kannst diese Rolle nicht bearbeiten, weil sie auf oder über deiner höchsten Rolle liegt.",
+      "cantManageMember": "Du hast keine Berechtigung, dieses Mitglied zu verwalten",
+      "cantManageMembers": "Du kannst dieser Rolle keine Mitglieder zuweisen oder entfernen.",
+      "cantReorder": "Du kannst Rollen auf oder über deiner höchsten Rolle nicht neu anordnen",
+      "dragToReorder": "Ziehen zum Neuordnen",
+      "dragToReorderHierarchy": "Ziehen, um die Hierarchie neu anzuordnen",
+      "failedReorder": "Rollen konnten nicht neu angeordnet werden",
+      "failedUpdateRole": "Rolle konnte nicht aktualisiert werden"
+    },
+    "hierarchyHint": "Rollen weiter oben in der Liste haben mehr Autorität. Ziehe Rollen, um ihre Hierarchie zu ändern.",
+    "listTitle_one": "Rollen - {{count}}",
+    "listTitle_other": "Rollen - {{count}}",
+    "memberCount_one": "{{count}} Mitglied",
+    "memberCount_other": "{{count}} Mitglieder",
+    "members": {
+      "addDescription": "Bis zu {{max}} Mitglieder zu {{roleName}} hinzufügen",
+      "addFailed": "Mitglieder konnten der Rolle nicht hinzugefügt werden",
+      "addSuccess_one": "{{count}} Mitglied zu {{roleName}} hinzugefügt",
+      "addSuccess_other": "{{count}} Mitglieder zu {{roleName}} hinzugefügt",
+      "addTitle": "Mitglieder hinzufügen",
+      "description": "Mitglieder anzeigen und verwalten, die dieser Rolle zugewiesen sind.",
+      "emptyAssigned": "Dieser Rolle wurden keine Mitglieder zugewiesen.",
+      "emptySearch": "Keine Mitglieder entsprechen deiner Suche.",
+      "noEligible": "Keine Mitglieder verfügbar, die dieser Rolle hinzugefügt werden können.",
+      "searchPlaceholder": "Mitglieder suchen",
+      "selectedCount": "{{selected}}/{{max}} ausgewählt",
+      "title": "Rollenmitglieder"
+    },
+    "membersColumn": "Mitglieder",
+    "permissions": {
+      "clear": "Berechtigungen löschen",
+      "emptySearch": "Keine Berechtigungen entsprechen deiner Suche",
+      "flags": {
+        "AddReactions": {
+          "description": "Mitgliedern erlauben, Emoji-Reaktionen zu Nachrichten hinzuzufügen",
+          "label": "Reaktionen hinzufügen"
+        },
+        "Administrator": {
+          "description": "Mitglieder mit dieser Berechtigung haben alle Berechtigungen. Dies ist eine gefährliche Berechtigung.",
+          "descriptionBefore": "Mitglieder mit dieser Berechtigung haben alle Berechtigungen.",
+          "descriptionDanger": "Dies ist eine gefährliche Berechtigung",
+          "label": "Administrator"
+        },
+        "AttachFiles": {
+          "description": "Erlaubt Mitgliedern, Dateien an Nachrichten anzuhängen",
+          "label": "Dateien anhängen"
+        },
+        "BanMembers": {
+          "description": "Bannen entfernt Mitglieder aus diesem Space und verhindert den Wiedereintritt, bis sie entbannt werden.",
+          "label": "Mitglieder bannen"
+        },
+        "Connect": {
+          "description": "Erlaubt Mitgliedern, sich mit Sprachkanälen zu verbinden",
+          "label": "Verbinden"
+        },
+        "CreateExpressions": {
+          "description": "Erlaubt Mitgliedern, Emojis und Sticker in diesem Space zu erstellen.",
+          "label": "Ausdrücke erstellen"
+        },
+        "CreateInvites": {
+          "description": "Erlaubt Mitgliedern, neue Personen in diesen Space einzuladen",
+          "label": "Einladungen erstellen"
+        },
+        "DeafenMembers": {
+          "description": "Mitgliedern erlauben, andere Mitglieder in Sprachkanälen taubzuschalten",
+          "label": "Mitglieder taubschalten"
+        },
+        "EmbedLinks": {
+          "description": "Erlaubt Mitgliedern, Links in Nachrichten einzubetten",
+          "label": "Links einbetten"
+        },
+        "KickMembers": {
+          "description": "Kicken entfernt andere Mitglieder aus diesem Space. Gekickte Mitglieder können wieder beitreten, wenn sie eine andere Einladung haben.",
+          "label": "Mitglieder kicken"
+        },
+        "ManageChannels": {
+          "description": "Erlaubt Mitgliedern, Kanäle zu erstellen, zu bearbeiten oder zu löschen",
+          "label": "Kanäle verwalten"
+        },
+        "ManageExpressions": {
+          "description": "Erlaubt Mitgliedern, Emojis und Sticker in diesem Space zu bearbeiten oder zu löschen.",
+          "label": "Ausdrücke verwalten"
+        },
+        "ManageMessages": {
+          "description": "Erlaubt Mitgliedern, Nachrichten anderer Mitglieder zu löschen",
+          "label": "Nachrichten verwalten"
+        },
+        "ManageRoles": {
+          "description": "Erlaubt Mitgliedern, neue Rollen zu erstellen und Rollen unterhalb ihrer höchsten Rolle zu bearbeiten oder zu löschen",
+          "label": "Rollen verwalten"
+        },
+        "ManageSpace": {
+          "description": "Erlaubt Mitgliedern, diesen Space zu ändern",
+          "label": "Space verwalten"
+        },
+        "MentionEveryone": {
+          "description": "Erlaubt Mitgliedern, @everyone und @here in Nachrichten zu erwähnen",
+          "label": "Everyone erwähnen"
+        },
+        "MoveMembers": {
+          "description": "Mitgliedern erlauben, andere Mitglieder zwischen Sprachkanälen zu verschieben und die Verbindung zu trennen",
+          "label": "Mitglieder verschieben"
+        },
+        "MuteMembers": {
+          "description": "Mitgliedern erlauben, andere Mitglieder in Sprachkanälen stummzuschalten",
+          "label": "Mitglieder stummschalten"
+        },
+        "ReadMessageHistory": {
+          "description": "Erlaubt Mitgliedern, den Nachrichtenverlauf zu lesen",
+          "label": "Nachrichtenverlauf lesen"
+        },
+        "SendMessages": {
+          "description": "Erlaubt Mitgliedern, Nachrichten in Textkanälen zu senden",
+          "label": "Nachrichten senden"
+        },
+        "Speak": {
+          "description": "Erlaubt Mitgliedern, in Sprachkanälen zu sprechen",
+          "label": "Sprechen"
+        },
+        "UseExternalEmojis": {
+          "description": "Erlaubt Mitgliedern, Emojis aus anderen Spaces oder eigene in ihren Nachrichten zu verwenden",
+          "label": "Externe Emojis verwenden"
+        },
+        "UseExternalStickers": {
+          "description": "Mitgliedern erlauben, Sticker aus anderen Spaces in ihren Nachrichten zu verwenden",
+          "label": "Externe Sticker verwenden"
+        },
+        "UseVAD": {
+          "description": "Mitgliedern erlauben, mit Sprachaktivitätserkennung zu sprechen. Ohne diese Berechtigung müssen Mitglieder Push-to-Talk verwenden.",
+          "label": "Sprachaktivität verwenden"
+        },
+        "ViewChannel": {
+          "description": "Erlaubt Mitgliedern, Kanäle standardmäßig anzusehen",
+          "label": "Kanäle ansehen"
+        }
+      },
+      "groups": {
+        "advanced": "Erweiterte Berechtigungen",
+        "general": "Allgemeine Space-Berechtigungen",
+        "membership": "Mitgliedschaftsberechtigungen",
+        "text": "Textkanal-Berechtigungen",
+        "voice": "Sprachkanal-Berechtigungen"
+      },
+      "jumpToCategory": "Zur Kategorie springen…",
+      "searchPlaceholder": "Berechtigungen suchen..."
+    },
+    "saveFailed": "Rolle konnte nicht gespeichert werden",
+    "searchPlaceholder": "Rollen suchen",
+    "tabs": {
+      "display": "Anzeige",
+      "manageMembers": "Mitglieder verwalten",
+      "members": "Mitglieder",
+      "permissions": "Berechtigungen"
+    },
+    "unsavedChanges": "Du hast ungespeicherte Änderungen!"
   },
   "sheet": {
+    "membersCount_one": "{{count}} Mitglied",
+    "membersCount_other": "{{count}} Mitglieder",
+    "mutedStatus": "Du hast diesen Space stummgeschaltet",
+    "muteHelper": "Das Stummschalten eines Space verhindert Ungelesen-Abzeichen und Benachrichtigungstöne, außer du wirst erwähnt.",
+    "muteSpace": "{{spaceName}} stummschalten",
+    "notificationSettingsTitle": "Benachrichtigungseinstellungen",
+    "onlineCount_one": "{{count}} online",
+    "onlineCount_other": "{{count}} online",
     "quickActions": {
       "invite": "Einladen",
       "notifications": "Benachrichtigungen",
       "settings": "Einstellungen"
     },
-    "onlineCount_one": "{{count}} online",
-    "onlineCount_other": "{{count}} online",
-    "membersCount_one": "{{count}} Mitglied",
-    "membersCount_other": "{{count}} Mitglieder",
-    "spaceEmojis": "Space-Emoji",
-    "notificationSettingsTitle": "Benachrichtigungseinstellungen",
-    "serverSettingsTitle": "Space-Einstellungen",
-    "unmuteSpace": "Stummschaltung von {{spaceName}} aufheben",
-    "muteSpace": "{{spaceName}} stummschalten",
-    "mutedStatus": "Du hast diesen Space stummgeschaltet",
-    "muteHelper": "Das Stummschalten eines Space verhindert Ungelesen-Abzeichen und Benachrichtigungstöne, außer du wirst erwähnt.",
     "serverNotificationSettings": "Servereinstellungen für Benachrichtigungen",
-    "suppressSettings": "Unterdrücken",
+    "serverSettingsTitle": "Space-Einstellungen",
     "settingsSection": "Einstellungen",
+    "spaceEmojis": "Space-Emoji",
+    "suppressSettings": "Unterdrücken",
+    "unmuteSpace": "Stummschaltung von {{spaceName}} aufheben",
     "userManagementSection": "Nutzerverwaltung"
-  }
+  },
+  "sidebar": {
+    "bridges": "Bridges",
+    "channels": "Kanäle",
+    "createSpace": "Space erstellen",
+    "directMessages": "Direktnachrichten",
+    "doneReordering": "Fertig",
+    "doneReorderingA11y": "Neuanordnung der Spaces abgeschlossen",
+    "friends": "Freunde",
+    "moreOptions": "Weitere Optionen",
+    "reorder": "Neu anordnen",
+    "reorderA11y": "Spaces neu anordnen",
+    "spaces": "Spaces",
+    "switchTo": "Wechseln zu",
+    "switchToDirectMessages": "Zu Direktnachrichten wechseln",
+    "switchToFeed": "Zum Feed wechseln",
+    "switchToSpaces": "Zu Spaces wechseln"
+  },
+  "theme": {
+    "clear": "Persönliches Theme verwenden",
+    "createCustom": "Space-Theme erstellen",
+    "description": "Gestalte die Kanalliste und den Chat für alle in diesem Space. Dein persönliches Theme bleibt anderswo erhalten.",
+    "noCustomThemes": "Noch keine benutzerdefinierten Themes. Erstelle eines, um diesen Space zu branden.",
+    "spaceThemes": "Dieser Space"
+  },
+  "title": "Space-Einstellungen",
+  "titleShort": "Space-Einstellungen"
 }

@@ -1,567 +1,567 @@
 {
-  "title": "スペース設定",
-  "titleShort": "スペース設定",
-  "overviewDescription": "ロール、招待、エクスプレッション、モデレーションを管理します。",
-  "nav": {
-    "categories": {
-      "general": "一般",
-      "people": "メンバー",
-      "moderation": "モデレーション",
-      "integrations": "統合"
-    },
-    "pages": {
-      "profile": "プロフィール",
-      "theme": "テーマ",
-      "roles": "ロール",
-      "channels": "チャンネル",
-      "invites": "招待",
-      "expressions": "エクスプレッション",
-      "bans": "BAN",
-      "minecraftBridge": "Minecraft ブリッジ"
-    }
-  },
   "actions": {
-    "deleteSpace": "スペースを削除",
-    "leaveSpace": "スペースを退出",
-    "createRole": "ロールを作成",
-    "deleteRole": "ロールを削除",
+    "addMembers": "メンバーを追加",
+    "addMembersCount_one": "追加 ({{count}})",
+    "addMembersCount_other": "追加 ({{count}})",
+    "ban": "BAN",
+    "clearPermissions": "権限をクリア",
     "createInvite": "招待を作成",
     "createInviteLink": "招待リンクを作成",
+    "createRole": "ロールを作成",
+    "creating": "作成中...",
     "deleteAllInvites": "すべての招待を削除",
+    "deleteRole": "ロールを削除",
+    "deleteSpace": "スペースを削除",
     "editInviteLink": "招待リンクを編集",
+    "kick": "キック",
+    "leaveSpace": "スペースを退出",
+    "markAllAsRead": "すべて既読にする",
     "revokeBan": "BANを解除",
     "unbanMember": "メンバーのBANを解除",
     "unbanning": "BAN解除中...",
-    "kick": "キック",
-    "ban": "BAN",
-    "addMembers": "メンバーを追加",
-    "markAllAsRead": "すべて既読にする",
-    "clearPermissions": "権限をクリア",
-    "working": "処理中...",
-    "creating": "作成中...",
-    "addMembersCount_one": "追加 ({{count}})",
-    "addMembersCount_other": "追加 ({{count}})"
-  },
-  "profile": {
-    "spaceIcon": "スペースアイコン",
-    "name": "名前",
-    "description": "説明",
-    "descriptionPlaceholder": "スペースについて何か書いてみましょう...",
-    "updatedSuccess": "スペースを更新しました。",
-    "genericError": "エラーが発生しました"
-  },
-  "invites": {
-    "activeLinks": "有効な招待リンク",
-    "createTitle": "招待リンクを作成",
-    "createDescriptionChannel": "#{{channel}} へのリンクを作成します。",
-    "createDescriptionDefault": "このスペースのデフォルトのテキストチャンネルへのリンクを作成します。",
-    "createFailed": "招待の作成に失敗しました",
-    "empty": "このスペースにはまだ招待が作成されていません。",
-    "columns": {
-      "inviter": "招待者",
-      "inviteCode": "招待コード",
-      "uses": "使用回数",
-      "expires": "有効期限"
-    },
-    "usesLabel": "使用回数: {{uses}}{{max}}",
-    "usesMax": "/ {{max}}",
-    "neverExpires": "期限なし",
-    "expired": "期限切れ",
-    "copyInviteUrl": "招待URLをコピー",
-    "copiedToClipboard": "クリップボードにコピーしました",
-    "tapToCopy": "リンクをタップしてコピー",
-    "modal": {
-      "title": "{{spaceName}} に友達を招待",
-      "landingChannel": "受信者は #{{channelName}} に参加します",
-      "searchFriends": "友達を検索",
-      "noResults": "結果がありません。",
-      "noFriends": "招待できる友達がいません。下のリンクを共有してください。",
-      "inviteLink": "招待リンク",
-      "expiresPrefix": "このリンクは ",
-      "expiresNever": "期限なし",
-      "editTitle": "現在の招待リンクを編集",
-      "expireAfter": "有効期限",
-      "maxUses": "最大使用回数",
-      "expiresAfterUses_one": "、または {{count}} 回使用後",
-      "expiresAfterUses_other": "、または {{count}} 回使用後"
-    },
-    "expiry": {
-      "30minutes": "30分",
-      "1hour": "1時間",
-      "6hours": "6時間",
-      "12hours": "12時間",
-      "1day": "1日",
-      "7days": "7日",
-      "never": "なし"
-    },
-    "maxUses": {
-      "noLimit": "制限なし",
-      "1use": "1回",
-      "5uses": "5回",
-      "10uses": "10回",
-      "25uses": "25回",
-      "50uses": "50回",
-      "100uses": "100回"
-    }
-  },
-  "roles": {
-    "defaultPermissions": "デフォルトの権限",
-    "everyoneSubtitle": "@everyone - すべてのスペースメンバーに適用",
-    "searchPlaceholder": "ロールを検索",
-    "membersColumn": "メンバー",
-    "actionsColumn": "操作",
-    "hierarchyHint": "リストの上位にあるロールほど権限が高くなります。ロールをドラッグして階層を変更できます。",
-    "empty": "このスペースにはまだロールが作成されていません。",
-    "emptySearch": "検索に一致するロールがありません。",
-    "memberCount_one": "{{count}} 人のメンバー",
-    "memberCount_other": "{{count}} 人のメンバー",
-    "editTitle": "ロールを編集 - {{name}}",
-    "tabs": {
-      "display": "表示",
-      "permissions": "権限",
-      "manageMembers": "メンバー管理",
-      "members": "メンバー"
-    },
-    "unsavedChanges": "未保存の変更があります！",
-    "saveFailed": "ロールの保存に失敗しました",
-    "display": {
-      "roleName": "ロール名",
-      "roleColor": "ロールの色",
-      "hoist": "ロールメンバーをオンラインメンバーから分けて表示",
-      "mentionable": "誰でもこのロールを @メンションできるようにする",
-      "mentionableHint": "「@everyone、@here、すべてのロールをメンション」権限を持つメンバーは、この設定に関係なくこのロールをメンションできます。",
-      "mentionableHintShort": "全員メンション権限を持つメンバーは、このロールをメンションできます。"
-    },
-    "members": {
-      "title": "ロールメンバー",
-      "description": "このロールに割り当てられたメンバーを表示・管理します。",
-      "searchPlaceholder": "メンバーを検索",
-      "emptyAssigned": "このロールに割り当てられたメンバーはいません。",
-      "emptySearch": "検索に一致するメンバーがいません。",
-      "addTitle": "メンバーを追加",
-      "addDescription": "{{roleName}} に最大 {{max}} 人のメンバーを追加",
-      "selectedCount": "{{selected}}/{{max}} 選択中",
-      "noEligible": "このロールに追加できるメンバーがいません。",
-      "addSuccess_one": "{{roleName}} に {{count}} 人のメンバーを追加しました",
-      "addSuccess_other": "{{roleName}} に {{count}} 人のメンバーを追加しました",
-      "addFailed": "ロールへのメンバー追加に失敗しました"
-    },
-    "hierarchy": {
-      "cantReorder": "自分の最高ロールと同じかそれ以上のロールは並べ替えできません",
-      "cantAssign": "このロールを割り当てたり削除したりできません",
-      "cantEditRole": "このロールは自分の最高ロールと同じかそれ以上にあるため、編集できません。",
-      "cantManageMembers": "このロールのメンバーを割り当てたり削除したりできません。",
-      "dragToReorder": "ドラッグして並べ替え",
-      "dragToReorderHierarchy": "ドラッグして階層を並べ替え",
-      "failedReorder": "ロールの並べ替えに失敗しました",
-      "failedUpdateRole": "ロールの更新に失敗しました",
-      "cantManageMember": "このメンバーを管理する権限がありません"
-    },
-    "delete": {
-      "title": "ロールを削除",
-      "confirm": "{{name}} ロールを削除してもよろしいですか？この操作は元に戻せません。"
-    },
-    "permissions": {
-      "searchPlaceholder": "権限を検索...",
-      "jumpToCategory": "カテゴリに移動…",
-      "emptySearch": "検索に一致する権限がありません",
-      "clear": "権限をクリア",
-      "groups": {
-        "general": "一般スペース権限",
-        "membership": "メンバーシップ権限",
-        "text": "テキストチャンネル権限",
-        "voice": "ボイスチャンネル権限",
-        "advanced": "高度な権限"
-      },
-      "flags": {
-        "ViewChannel": {
-          "label": "チャンネルを見る",
-          "description": "メンバーがデフォルトでチャンネルを見られるようにします"
-        },
-        "ManageChannels": {
-          "label": "チャンネルの管理",
-          "description": "メンバーがチャンネルを作成・編集・削除できるようにします"
-        },
-        "ManageRoles": {
-          "label": "ロールの管理",
-          "description": "メンバーが新しいロールを作成し、自身の最上位ロールより下のロールを編集・削除できるようにします"
-        },
-        "CreateExpressions": {
-          "label": "エクスプレッションの作成",
-          "description": "メンバーがこのスペースで絵文字とスタンプを作成できるようにします。"
-        },
-        "ManageExpressions": {
-          "label": "エクスプレッションの管理",
-          "description": "メンバーがこのスペースの絵文字とスタンプを編集・削除できるようにします。"
-        },
-        "ManageSpace": {
-          "label": "スペースの管理",
-          "description": "メンバーがこのスペースを変更できるようにします"
-        },
-        "CreateInvites": {
-          "label": "招待の作成",
-          "description": "メンバーがこのスペースに新しい人を招待できるようにします"
-        },
-        "KickMembers": {
-          "label": "メンバーのキック",
-          "description": "キックすると、他のメンバーをこのスペースから退出させます。キックされたメンバーは別の招待があれば再参加できます。"
-        },
-        "BanMembers": {
-          "label": "メンバーのBAN",
-          "description": "BANすると、メンバーをこのスペースから退出させ、BAN解除されるまで再参加できなくします。"
-        },
-        "SendMessages": {
-          "label": "メッセージの送信",
-          "description": "メンバーがテキストチャンネルでメッセージを送信できるようにします"
-        },
-        "EmbedLinks": {
-          "label": "埋め込みリンク",
-          "description": "メンバーがメッセージにリンクを埋め込めるようにします"
-        },
-        "AttachFiles": {
-          "label": "ファイルの添付",
-          "description": "メンバーがメッセージにファイルを添付できるようにします"
-        },
-        "AddReactions": {
-          "label": "リアクションの追加",
-          "description": "メンバーがメッセージに絵文字リアクションを追加できるようにする"
-        },
-        "MentionEveryone": {
-          "label": "Everyoneのメンション",
-          "description": "メンバーがメッセージで@everyoneと@hereをメンションできるようにします"
-        },
-        "UseExternalEmojis": {
-          "label": "外部絵文字の使用",
-          "description": "メンバーが他のスペースや自分の絵文字をメッセージで使えるようにします"
-        },
-        "UseExternalStickers": {
-          "label": "外部ステッカーを使用する",
-          "description": "メンバーがメッセージ内で他のスペースのステッカーを使用できるようにする"
-        },
-        "ManageMessages": {
-          "label": "メッセージの管理",
-          "description": "メンバーが他のメンバーのメッセージを削除できるようにします"
-        },
-        "ReadMessageHistory": {
-          "label": "メッセージ履歴の閲覧",
-          "description": "メンバーがメッセージ履歴を読めるようにします"
-        },
-        "Connect": {
-          "label": "接続",
-          "description": "メンバーがボイスチャンネルに接続できるようにします"
-        },
-        "Speak": {
-          "label": "発言",
-          "description": "メンバーがボイスチャンネルで話せるようにします"
-        },
-        "UseVAD": {
-          "label": "音声アクティビティを使用する",
-          "description": "音声アクティビティ検出を使用してメンバーが発言できるようにします。この許可がない場合、メンバーはプッシュ トゥ トークを使用する必要があります。"
-        },
-        "MuteMembers": {
-          "label": "メンバーをミュートする",
-          "description": "メンバーが音声チャネルで他のメンバーをミュートできるようにする"
-        },
-        "DeafenMembers": {
-          "label": "ろう者会員",
-          "description": "メンバーが音声チャンネルで他のメンバーの耳をつんざくことができるようにする"
-        },
-        "MoveMembers": {
-          "label": "メンバーの移動",
-          "description": "メンバーが音声チャネル間で他のメンバーを移動したり、切断したりできるようにする"
-        },
-        "Administrator": {
-          "label": "管理者",
-          "description": "この権限を持つメンバーはすべての権限を持ちます。付与するには危険な権限です。",
-          "descriptionBefore": "この権限を持つメンバーはすべての権限を持ちます。",
-          "descriptionDanger": "付与するには危険な権限です"
-        }
-      }
-    },
-    "listTitle_one": "ロール - {{count}}",
-    "listTitle_other": "ロール - {{count}}",
-    "everyoneSuffix": "（@みんな）"
-  },
-  "expressions": {
-    "pageTitle": "スペースのエクスプレッション",
-    "pageDescription": "このスペース用のカスタム絵文字とスタンプをアップロードして管理します。",
-    "emojiLimit": "残念ながら、現在アップロードできる絵文字の上限は100個です。アプリがベータ版のため、ストレージの問題があるためです",
-    "stickerLimit": "残念ながら、現在アップロードできるスタンプの上限は100個です。アプリがベータ版のため、ストレージの問題があるためです",
-    "emojiLimitMobile": "ベータ制限：スペースあたり絵文字 {{limit}} 個。",
-    "stickerLimitMobile": "ベータ制限：スペースあたりスタンプ {{limit}} 個。",
-    "emptyEmojis": "スペースの絵文字はまだありません",
-    "emptyStickers": "スペースのスタンプはまだありません"
+    "working": "処理中..."
   },
   "bans": {
-    "title": "スペースBANリスト",
+    "bannedAt": "BAN日時",
+    "bannedBy": "BANした人",
     "description": "このスペースでBANされたユーザーのリストを表示・管理します。現在のBANはアカウントベースです。将来的にIP BANを導入予定です。",
     "descriptionShort": "このスペースでBANされたユーザーを表示・管理します。",
+    "empty": "まだ誰もBANされていません",
+    "noReason": "理由は入力されていません",
+    "reason": "理由",
     "searchPlaceholder": "ユーザーID、ユーザー名、表示名でBANを検索",
     "searchPlaceholderShort": "ユーザー名またはユーザーIDで検索",
-    "empty": "まだ誰もBANされていません",
-    "reason": "理由",
-    "noReason": "理由は入力されていません",
-    "bannedBy": "BANした人",
-    "bannedAt": "BAN日時",
+    "title": "スペースBANリスト",
     "unbanSuccess": "{{name}} のBANを解除しました",
     "unbanTitle": "{{name}} のBANを解除しますか？"
   },
-  "moderation": {
-    "banTitle": "{{name}} をBANしますか？",
-    "kickTitle": "{{name}} をキックしますか？",
-    "kickFromSpaceTitle": "{{name}} をスペースからキック",
-    "kickBody": "@{{name}} をスペースからキックしますか？再参加には招待が必要です。",
-    "kickSuccess": "{{name}} をスペースからキックしました",
-    "reason": "理由",
-    "reasonOptional": "理由（任意）",
-    "reasonForKick": "キックの理由",
-    "reasonForBan": "BANの理由 *",
-    "deleteRecentMessages": "最近のメッセージを削除",
-    "banReasons": {
-      "suspicious": "不審またはスパムアカウント",
-      "compromised": "乗っ取りまたはハッキングされたアカウント",
-      "breakingRules": "スペースのルール違反",
-      "other": "その他"
-    },
-    "deleteMessages": {
-      "dontDelete": "削除しない",
-      "dontDeleteMessages": "メッセージを削除しない",
-      "previousHour": "過去1時間",
-      "lastHour": "過去1時間",
-      "previousDay": "過去1日",
-      "last24Hours": "過去24時間",
-      "previousWeek": "過去1週間",
-      "last7Days": "過去7日間",
-      "allMessages": "すべてのメッセージ",
-      "deleteAllMessages": "すべてのメッセージを削除"
-    },
-    "youWereBanned": "{{name}} からBANされました",
-    "youWereKicked": "{{name}} からキックされました"
-  },
   "channels": {
-    "noCategory": "カテゴリなし",
+    "channelInvites": "チャンネルの招待",
+    "create": {
+      "clear": "クリア",
+      "icon": "チャンネルアイコン",
+      "name": "チャンネル名",
+      "namePlaceholder": "新しいチャンネル",
+      "rotate": "回転",
+      "rounded": "丸くする",
+      "submit": "チャンネルを作成",
+      "text": "テキストチャンネル",
+      "textDescription": "メッセージや画像などを送信",
+      "title": "チャンネルを作成",
+      "type": "チャンネルの種類",
+      "upload": "アップロード",
+      "voice": "ボイスチャンネル",
+      "voiceDescription": "音声とビデオで交流"
+    },
+    "createCategory": {
+      "name": "カテゴリ名",
+      "namePlaceholder": "新しいカテゴリ",
+      "submit": "カテゴリを作成",
+      "title": "カテゴリを作成"
+    },
+    "createInvite": "招待を作成",
+    "createInviteLink": "招待リンクを作成",
+    "delete": {
+      "body": "{{name}} を削除してもよろしいですか？この操作は取り消せません。",
+      "confirm": "チャンネルを削除",
+      "title": "チャンネルを削除"
+    },
+    "deleteCategory": {
+      "body": "このカテゴリを削除しますか？",
+      "categoryAndChannels": "カテゴリと関連するすべてのチャンネル",
+      "categoryOnly": "カテゴリのみ",
+      "confirm": "カテゴリを削除",
+      "title": "カテゴリ「{{name}}」を削除しますか？"
+    },
+    "deleteChannelAction": "チャンネルを削除",
     "empty": "並べ替えるチャンネルがありません。",
-    "reorderHint": "チャンネルをドラッグして並べ替えます。カテゴリの直下にチャンネルを置くと、そのグループに追加されます。カテゴリの上にドラッグすると、グループから削除されます。",
+    "failedMoveMember": "メンバーの移動に失敗しました",
+    "nameEmpty": "チャンネル名を空にすることはできません。",
+    "namePlaceholder": "チャンネル名",
+    "noCategory": "カテゴリなし",
+    "noChannelInvites": "#{{channel}} にはまだ招待が作成されていません。",
+    "noSpaceEmojis": "スペースの絵文字はまだありません",
     "overwrites": "上書き",
-    "searchTargets": "ロールまたはメンバーを検索…",
+    "pages": {
+      "invites": "招待",
+      "overview": "概要",
+      "permissions": "権限"
+    },
+    "permissionOverwrites": "権限の上書き",
     "permissions": {
+      "addOverwrite": "権限の上書きを追加",
+      "flags": {
+        "AddReactions": {
+          "description": "メンバーがメッセージに絵文字リアクションを追加できるようにする",
+          "label": "リアクションの追加"
+        },
+        "AttachFiles": {
+          "description": "メンバーがファイルを添付できるようにします",
+          "label": "ファイルの添付"
+        },
+        "Connect": {
+          "description": "メンバーがこのボイスチャンネルに接続できるようにします",
+          "label": "接続"
+        },
+        "DeafenMembers": {
+          "description": "メンバーがこの音声チャンネルで他のメンバーの耳をつんざくことができるようにする",
+          "label": "ろう者会員"
+        },
+        "EmbedLinks": {
+          "description": "メンバーがリンクを埋め込めるようにします",
+          "label": "埋め込みリンク"
+        },
+        "ManageChannels": {
+          "description": "メンバーがこのチャンネルを編集・削除できるようにします",
+          "label": "チャンネルの管理"
+        },
+        "ManageMessages": {
+          "description": "メンバーが他の人のメッセージを削除できるようにします",
+          "label": "メッセージの管理"
+        },
+        "ManageRoles": {
+          "description": "メンバーがこのチャンネルの権限上書きを編集できるようにします",
+          "label": "権限の管理"
+        },
+        "MentionEveryone": {
+          "description": "メンバーが@everyoneと@hereをメンションできるようにします",
+          "label": "Everyoneのメンション"
+        },
+        "MoveMembers": {
+          "description": "メンバーが音声チャネル間で他のメンバーを移動したり、切断したりできるようにする",
+          "label": "メンバーの移動"
+        },
+        "MuteMembers": {
+          "description": "メンバーがこの音声チャネルで他のメンバーをミュートできるようにする",
+          "label": "メンバーをミュートする"
+        },
+        "ReadMessageHistory": {
+          "description": "メンバーが過去のメッセージを読めるようにします",
+          "label": "メッセージ履歴の閲覧"
+        },
+        "SendMessages": {
+          "description": "メンバーがこのチャンネルでメッセージを送信できるようにします",
+          "label": "メッセージの送信"
+        },
+        "Speak": {
+          "description": "メンバーがこのボイスチャンネルで話せるようにします",
+          "label": "発言"
+        },
+        "UseExternalEmojis": {
+          "description": "メンバーが他のスペースの絵文字を使えるようにします",
+          "label": "外部絵文字の使用"
+        },
+        "UseExternalStickers": {
+          "description": "メンバーが他のスペースのステッカーを使用できるようにする",
+          "label": "外部ステッカーを使用する"
+        },
+        "UseVAD": {
+          "description": "音声アクティビティ検出を使用してメンバーが発言できるようにします。この許可がない場合、メンバーはプッシュ トゥ トークを使用する必要があります。",
+          "label": "音声アクティビティを使用する"
+        },
+        "ViewChannel": {
+          "description": "メンバーがこのチャンネルを見られるようにします",
+          "label": "チャンネルを見る"
+        }
+      },
       "groups": {
         "general": "一般チャンネル権限",
         "text": "テキストチャンネル権限",
         "voice": "ボイスチャンネル権限"
       },
-      "flags": {
-        "ViewChannel": {
-          "label": "チャンネルを見る",
-          "description": "メンバーがこのチャンネルを見られるようにします"
-        },
-        "ManageChannels": {
-          "label": "チャンネルの管理",
-          "description": "メンバーがこのチャンネルを編集・削除できるようにします"
-        },
-        "ManageRoles": {
-          "label": "権限の管理",
-          "description": "メンバーがこのチャンネルの権限上書きを編集できるようにします"
-        },
-        "SendMessages": {
-          "label": "メッセージの送信",
-          "description": "メンバーがこのチャンネルでメッセージを送信できるようにします"
-        },
-        "EmbedLinks": {
-          "label": "埋め込みリンク",
-          "description": "メンバーがリンクを埋め込めるようにします"
-        },
-        "AttachFiles": {
-          "label": "ファイルの添付",
-          "description": "メンバーがファイルを添付できるようにします"
-        },
-        "AddReactions": {
-          "label": "リアクションの追加",
-          "description": "メンバーがメッセージに絵文字リアクションを追加できるようにする"
-        },
-        "MentionEveryone": {
-          "label": "Everyoneのメンション",
-          "description": "メンバーが@everyoneと@hereをメンションできるようにします"
-        },
-        "UseExternalEmojis": {
-          "label": "外部絵文字の使用",
-          "description": "メンバーが他のスペースの絵文字を使えるようにします"
-        },
-        "UseExternalStickers": {
-          "label": "外部ステッカーを使用する",
-          "description": "メンバーが他のスペースのステッカーを使用できるようにする"
-        },
-        "ManageMessages": {
-          "label": "メッセージの管理",
-          "description": "メンバーが他の人のメッセージを削除できるようにします"
-        },
-        "ReadMessageHistory": {
-          "label": "メッセージ履歴の閲覧",
-          "description": "メンバーが過去のメッセージを読めるようにします"
-        },
-        "Connect": {
-          "label": "接続",
-          "description": "メンバーがこのボイスチャンネルに接続できるようにします"
-        },
-        "Speak": {
-          "label": "発言",
-          "description": "メンバーがこのボイスチャンネルで話せるようにします"
-        },
-        "UseVAD": {
-          "label": "音声アクティビティを使用する",
-          "description": "音声アクティビティ検出を使用してメンバーが発言できるようにします。この許可がない場合、メンバーはプッシュ トゥ トークを使用する必要があります。"
-        },
-        "MuteMembers": {
-          "label": "メンバーをミュートする",
-          "description": "メンバーがこの音声チャネルで他のメンバーをミュートできるようにする"
-        },
-        "DeafenMembers": {
-          "label": "ろう者会員",
-          "description": "メンバーがこの音声チャンネルで他のメンバーの耳をつんざくことができるようにする"
-        },
-        "MoveMembers": {
-          "label": "メンバーの移動",
-          "description": "メンバーが音声チャネル間で他のメンバーを移動したり、切断したりできるようにする"
-        }
-      },
-      "addOverwrite": "権限の上書きを追加",
-      "roles": "ロール",
       "members": "メンバー",
+      "noOverwritesYet": "まだ上書きがありません",
       "noResults": "結果なし",
+      "roles": "ロール",
       "selectTargetHint": "ロールまたはメンバーを選択して、チャンネル固有の権限を設定します。",
-      "selectTargetHintLeft": "左側でロールまたはメンバーを選択して、このチャンネルの権限を編集するか、+ をクリックして追加してください。",
-      "noOverwritesYet": "まだ上書きがありません"
+      "selectTargetHintLeft": "左側でロールまたはメンバーを選択して、このチャンネルの権限を編集するか、+ をクリックして追加してください。"
     },
-    "create": {
-      "title": "チャンネルを作成",
-      "name": "チャンネル名",
-      "namePlaceholder": "新しいチャンネル",
-      "type": "チャンネルの種類",
-      "text": "テキストチャンネル",
-      "textDescription": "メッセージや画像などを送信",
-      "voice": "ボイスチャンネル",
-      "voiceDescription": "音声とビデオで交流",
-      "submit": "チャンネルを作成",
-      "icon": "チャンネルアイコン",
-      "upload": "アップロード",
-      "rounded": "丸くする",
-      "rotate": "回転",
-      "clear": "クリア"
-    },
-    "createCategory": {
-      "title": "カテゴリを作成",
-      "name": "カテゴリ名",
-      "namePlaceholder": "新しいカテゴリ",
-      "submit": "カテゴリを作成"
-    },
-    "delete": {
-      "title": "チャンネルを削除",
-      "body": "{{name}} を削除してもよろしいですか？この操作は取り消せません。",
-      "confirm": "チャンネルを削除"
-    },
-    "deleteCategory": {
-      "title": "カテゴリ「{{name}}」を削除しますか？",
-      "body": "このカテゴリを削除しますか？",
-      "categoryOnly": "カテゴリのみ",
-      "categoryAndChannels": "カテゴリと関連するすべてのチャンネル",
-      "confirm": "カテゴリを削除"
-    },
-    "saveOverwrite": "上書きを保存",
-    "deleteChannelAction": "チャンネルを削除",
-    "createInvite": "招待を作成",
-    "createInviteLink": "招待リンクを作成",
     "removeIcon": "アイコンを削除",
+    "reorderHint": "チャンネルをドラッグして並べ替えます。カテゴリの直下にチャンネルを置くと、そのグループに追加されます。カテゴリの上にドラッグすると、グループから削除されます。",
     "restoreIcon": "アイコンを復元",
-    "uploadEmoji": "絵文字をアップロード",
-    "uploadSticker": "スタンプをアップロード",
+    "saveOverwrite": "上書きを保存",
+    "searchTargets": "ロールまたはメンバーを検索…",
+    "selectOverwriteTarget": "上書き対象を選択して、チャンネル固有の権限を編集します。",
+    "settingsTitle": "チャンネル設定",
     "topic": "チャンネルトピック",
     "topicHint": "チャンネル上部でメンバーに表示されます。",
     "topicPlaceholder": "トピック",
-    "settingsTitle": "チャンネル設定",
-    "namePlaceholder": "チャンネル名",
-    "permissionOverwrites": "権限の上書き",
-    "channelInvites": "チャンネルの招待",
-    "noChannelInvites": "#{{channel}} にはまだ招待が作成されていません。",
-    "selectOverwriteTarget": "上書き対象を選択して、チャンネル固有の権限を編集します。",
-    "nameEmpty": "チャンネル名を空にすることはできません。",
-    "failedMoveMember": "メンバーの移動に失敗しました",
-    "noSpaceEmojis": "スペースの絵文字はまだありません",
-    "pages": {
-      "overview": "概要",
-      "permissions": "権限",
-      "invites": "招待"
-    }
-  },
-  "confirm": {
-    "deleteSpaceTitle": "「{{name}}」を削除しますか？",
-    "leaveSpaceTitle": "「{{name}}」を退出しますか？",
-    "deleteSpaceBody": "{{name}} を削除してもよろしいですか？この操作は元に戻せません。",
-    "leaveSpaceBody": "{{name}} から退出してもよろしいですか？この操作は元に戻せません。",
-    "cannotUndo": "この操作は元に戻せません。"
-  },
-  "menu": {
-    "spaceSettings": "スペース設定",
-    "reportSpace": "スペースを報告",
-    "leaveSpace": "スペースを退出",
-    "deleteSpace": "スペースを削除"
-  },
-  "sidebar": {
-    "createSpace": "スペースを作成",
-    "switchToSpaces": "スペースに切り替え",
-    "switchToDirectMessages": "ダイレクトメッセージに切り替え",
-    "switchTo": "切り替え",
-    "directMessages": "ダイレクトメッセージ",
-    "friends": "フレンド",
-    "spaces": "スペース",
-    "switchToFeed": "フィードに切り替え",
-    "channels": "チャンネル",
-    "bridges": "橋",
-    "moreOptions": "その他のオプション",
-    "reorder": "再注文",
-    "doneReordering": "終わり",
-    "reorderA11y": "スペースを並べ替える",
-    "doneReorderingA11y": "スペースの並べ替えが完了しました"
-  },
-  "lockdown": {
-    "title": "このスペースはロックダウン中です",
-    "ownerMessage": "メッセージと変更は無効になっています。誤りだと思われる場合は、メールで異議申し立てリンクをご確認ください。",
-    "memberMessage": "スタッフがこのスペースを確認している間、メッセージと変更は無効になっています。",
-    "toast": "このスペースはロックダウン中です。メッセージと変更は無効になっています。"
+    "uploadEmoji": "絵文字をアップロード",
+    "uploadSticker": "スタンプをアップロード"
   },
   "chrome": {
-    "spaceSettings": "スペース設定",
-    "inviteToSpace": "スペースに招待",
-    "createInviteA11y": "招待を作成",
     "createCategoryA11y": "カテゴリを作成",
-    "spaceMenuA11y": "スペースメニュー"
+    "createInviteA11y": "招待を作成",
+    "inviteToSpace": "スペースに招待",
+    "spaceMenuA11y": "スペースメニュー",
+    "spaceSettings": "スペース設定"
   },
-  "theme": {
-    "description": "チャンネル リストをスキンして、このスペースにいる全員とチャットします。あなたの個人的なテーマは別の場所にあります。",
-    "clear": "個人的なテーマを使用する",
-    "createCustom": "宇宙テーマの作成",
-    "spaceThemes": "この空間",
-    "noCustomThemes": "カスタムテーマはまだありません。このスペースをブランド化するために作成します。"
+  "confirm": {
+    "cannotUndo": "この操作は元に戻せません。",
+    "deleteSpaceBody": "{{name}} を削除してもよろしいですか？この操作は元に戻せません。",
+    "deleteSpaceTitle": "「{{name}}」を削除しますか？",
+    "leaveSpaceBody": "{{name}} から退出してもよろしいですか？この操作は元に戻せません。",
+    "leaveSpaceTitle": "「{{name}}」を退出しますか？"
+  },
+  "expressions": {
+    "emojiLimit": "残念ながら、現在アップロードできる絵文字の上限は100個です。アプリがベータ版のため、ストレージの問題があるためです",
+    "emojiLimitMobile": "ベータ制限：スペースあたり絵文字 {{limit}} 個。",
+    "emptyEmojis": "スペースの絵文字はまだありません",
+    "emptyStickers": "スペースのスタンプはまだありません",
+    "pageDescription": "このスペース用のカスタム絵文字とスタンプをアップロードして管理します。",
+    "pageTitle": "スペースのエクスプレッション",
+    "stickerLimit": "残念ながら、現在アップロードできるスタンプの上限は100個です。アプリがベータ版のため、ストレージの問題があるためです",
+    "stickerLimitMobile": "ベータ制限：スペースあたりスタンプ {{limit}} 個。"
+  },
+  "invites": {
+    "activeLinks": "有効な招待リンク",
+    "columns": {
+      "expires": "有効期限",
+      "inviteCode": "招待コード",
+      "inviter": "招待者",
+      "uses": "使用回数"
+    },
+    "copiedToClipboard": "クリップボードにコピーしました",
+    "copyInviteUrl": "招待URLをコピー",
+    "createDescriptionChannel": "#{{channel}} へのリンクを作成します。",
+    "createDescriptionDefault": "このスペースのデフォルトのテキストチャンネルへのリンクを作成します。",
+    "createFailed": "招待の作成に失敗しました",
+    "createTitle": "招待リンクを作成",
+    "empty": "このスペースにはまだ招待が作成されていません。",
+    "expired": "期限切れ",
+    "expiry": {
+      "12hours": "12時間",
+      "1day": "1日",
+      "1hour": "1時間",
+      "30minutes": "30分",
+      "6hours": "6時間",
+      "7days": "7日",
+      "never": "なし"
+    },
+    "maxUses": {
+      "100uses": "100回",
+      "10uses": "10回",
+      "1use": "1回",
+      "25uses": "25回",
+      "50uses": "50回",
+      "5uses": "5回",
+      "noLimit": "制限なし"
+    },
+    "modal": {
+      "editTitle": "現在の招待リンクを編集",
+      "expireAfter": "有効期限",
+      "expiresAfterUses_one": "、または {{count}} 回使用後",
+      "expiresAfterUses_other": "、または {{count}} 回使用後",
+      "expiresNever": "期限なし",
+      "expiresPrefix": "このリンクは ",
+      "inviteLink": "招待リンク",
+      "landingChannel": "受信者は #{{channelName}} に参加します",
+      "maxUses": "最大使用回数",
+      "noFriends": "招待できる友達がいません。下のリンクを共有してください。",
+      "noResults": "結果がありません。",
+      "searchFriends": "友達を検索",
+      "title": "{{spaceName}} に友達を招待"
+    },
+    "neverExpires": "期限なし",
+    "tapToCopy": "リンクをタップしてコピー",
+    "usesLabel": "使用回数: {{uses}}{{max}}",
+    "usesMax": "/ {{max}}"
+  },
+  "lockdown": {
+    "memberMessage": "スタッフがこのスペースを確認している間、メッセージと変更は無効になっています。",
+    "ownerMessage": "メッセージと変更は無効になっています。誤りだと思われる場合は、メールで異議申し立てリンクをご確認ください。",
+    "title": "このスペースはロックダウン中です",
+    "toast": "このスペースはロックダウン中です。メッセージと変更は無効になっています。"
+  },
+  "menu": {
+    "deleteSpace": "スペースを削除",
+    "leaveSpace": "スペースを退出",
+    "reportSpace": "スペースを報告",
+    "spaceSettings": "スペース設定"
+  },
+  "moderation": {
+    "banReasons": {
+      "breakingRules": "スペースのルール違反",
+      "compromised": "乗っ取りまたはハッキングされたアカウント",
+      "other": "その他",
+      "suspicious": "不審またはスパムアカウント"
+    },
+    "banTitle": "{{name}} をBANしますか？",
+    "deleteMessages": {
+      "allMessages": "すべてのメッセージ",
+      "deleteAllMessages": "すべてのメッセージを削除",
+      "dontDelete": "削除しない",
+      "dontDeleteMessages": "メッセージを削除しない",
+      "last24Hours": "過去24時間",
+      "last7Days": "過去7日間",
+      "lastHour": "過去1時間",
+      "previousDay": "過去1日",
+      "previousHour": "過去1時間",
+      "previousWeek": "過去1週間"
+    },
+    "deleteRecentMessages": "最近のメッセージを削除",
+    "kickBody": "@{{name}} をスペースからキックしますか？再参加には招待が必要です。",
+    "kickFromSpaceTitle": "{{name}} をスペースからキック",
+    "kickSuccess": "{{name}} をスペースからキックしました",
+    "kickTitle": "{{name}} をキックしますか？",
+    "reason": "理由",
+    "reasonForBan": "BANの理由 *",
+    "reasonForKick": "キックの理由",
+    "reasonOptional": "理由（任意）",
+    "youWereBanned": "{{name}} からBANされました",
+    "youWereKicked": "{{name}} からキックされました"
+  },
+  "nav": {
+    "categories": {
+      "general": "一般",
+      "integrations": "統合",
+      "moderation": "モデレーション",
+      "people": "メンバー"
+    },
+    "pages": {
+      "bans": "BAN",
+      "channels": "チャンネル",
+      "expressions": "エクスプレッション",
+      "invites": "招待",
+      "minecraftBridge": "Minecraft ブリッジ",
+      "profile": "プロフィール",
+      "roles": "ロール",
+      "theme": "テーマ"
+    }
+  },
+  "overviewDescription": "ロール、招待、エクスプレッション、モデレーションを管理します。",
+  "profile": {
+    "description": "説明",
+    "descriptionPlaceholder": "スペースについて何か書いてみましょう...",
+    "genericError": "エラーが発生しました",
+    "name": "名前",
+    "spaceIcon": "スペースアイコン",
+    "updatedSuccess": "スペースを更新しました。"
+  },
+  "roles": {
+    "actionsColumn": "操作",
+    "defaultPermissions": "デフォルトの権限",
+    "delete": {
+      "confirm": "{{name}} ロールを削除してもよろしいですか？この操作は元に戻せません。",
+      "title": "ロールを削除"
+    },
+    "display": {
+      "hoist": "ロールメンバーをオンラインメンバーから分けて表示",
+      "mentionable": "誰でもこのロールを @メンションできるようにする",
+      "mentionableHint": "「@everyone、@here、すべてのロールをメンション」権限を持つメンバーは、この設定に関係なくこのロールをメンションできます。",
+      "mentionableHintShort": "全員メンション権限を持つメンバーは、このロールをメンションできます。",
+      "roleColor": "ロールの色",
+      "roleName": "ロール名"
+    },
+    "editTitle": "ロールを編集 - {{name}}",
+    "empty": "このスペースにはまだロールが作成されていません。",
+    "emptySearch": "検索に一致するロールがありません。",
+    "everyoneSubtitle": "@everyone - すべてのスペースメンバーに適用",
+    "everyoneSuffix": "（@みんな）",
+    "hierarchy": {
+      "cantAssign": "このロールを割り当てたり削除したりできません",
+      "cantEditRole": "このロールは自分の最高ロールと同じかそれ以上にあるため、編集できません。",
+      "cantManageMember": "このメンバーを管理する権限がありません",
+      "cantManageMembers": "このロールのメンバーを割り当てたり削除したりできません。",
+      "cantReorder": "自分の最高ロールと同じかそれ以上のロールは並べ替えできません",
+      "dragToReorder": "ドラッグして並べ替え",
+      "dragToReorderHierarchy": "ドラッグして階層を並べ替え",
+      "failedReorder": "ロールの並べ替えに失敗しました",
+      "failedUpdateRole": "ロールの更新に失敗しました"
+    },
+    "hierarchyHint": "リストの上位にあるロールほど権限が高くなります。ロールをドラッグして階層を変更できます。",
+    "listTitle_one": "ロール - {{count}}",
+    "listTitle_other": "ロール - {{count}}",
+    "memberCount_one": "{{count}} 人のメンバー",
+    "memberCount_other": "{{count}} 人のメンバー",
+    "members": {
+      "addDescription": "{{roleName}} に最大 {{max}} 人のメンバーを追加",
+      "addFailed": "ロールへのメンバー追加に失敗しました",
+      "addSuccess_one": "{{roleName}} に {{count}} 人のメンバーを追加しました",
+      "addSuccess_other": "{{roleName}} に {{count}} 人のメンバーを追加しました",
+      "addTitle": "メンバーを追加",
+      "description": "このロールに割り当てられたメンバーを表示・管理します。",
+      "emptyAssigned": "このロールに割り当てられたメンバーはいません。",
+      "emptySearch": "検索に一致するメンバーがいません。",
+      "noEligible": "このロールに追加できるメンバーがいません。",
+      "searchPlaceholder": "メンバーを検索",
+      "selectedCount": "{{selected}}/{{max}} 選択中",
+      "title": "ロールメンバー"
+    },
+    "membersColumn": "メンバー",
+    "permissions": {
+      "clear": "権限をクリア",
+      "emptySearch": "検索に一致する権限がありません",
+      "flags": {
+        "AddReactions": {
+          "description": "メンバーがメッセージに絵文字リアクションを追加できるようにする",
+          "label": "リアクションの追加"
+        },
+        "Administrator": {
+          "description": "この権限を持つメンバーはすべての権限を持ちます。付与するには危険な権限です。",
+          "descriptionBefore": "この権限を持つメンバーはすべての権限を持ちます。",
+          "descriptionDanger": "付与するには危険な権限です",
+          "label": "管理者"
+        },
+        "AttachFiles": {
+          "description": "メンバーがメッセージにファイルを添付できるようにします",
+          "label": "ファイルの添付"
+        },
+        "BanMembers": {
+          "description": "BANすると、メンバーをこのスペースから退出させ、BAN解除されるまで再参加できなくします。",
+          "label": "メンバーのBAN"
+        },
+        "Connect": {
+          "description": "メンバーがボイスチャンネルに接続できるようにします",
+          "label": "接続"
+        },
+        "CreateExpressions": {
+          "description": "メンバーがこのスペースで絵文字とスタンプを作成できるようにします。",
+          "label": "エクスプレッションの作成"
+        },
+        "CreateInvites": {
+          "description": "メンバーがこのスペースに新しい人を招待できるようにします",
+          "label": "招待の作成"
+        },
+        "DeafenMembers": {
+          "description": "メンバーが音声チャンネルで他のメンバーの耳をつんざくことができるようにする",
+          "label": "ろう者会員"
+        },
+        "EmbedLinks": {
+          "description": "メンバーがメッセージにリンクを埋め込めるようにします",
+          "label": "埋め込みリンク"
+        },
+        "KickMembers": {
+          "description": "キックすると、他のメンバーをこのスペースから退出させます。キックされたメンバーは別の招待があれば再参加できます。",
+          "label": "メンバーのキック"
+        },
+        "ManageChannels": {
+          "description": "メンバーがチャンネルを作成・編集・削除できるようにします",
+          "label": "チャンネルの管理"
+        },
+        "ManageExpressions": {
+          "description": "メンバーがこのスペースの絵文字とスタンプを編集・削除できるようにします。",
+          "label": "エクスプレッションの管理"
+        },
+        "ManageMessages": {
+          "description": "メンバーが他のメンバーのメッセージを削除できるようにします",
+          "label": "メッセージの管理"
+        },
+        "ManageRoles": {
+          "description": "メンバーが新しいロールを作成し、自身の最上位ロールより下のロールを編集・削除できるようにします",
+          "label": "ロールの管理"
+        },
+        "ManageSpace": {
+          "description": "メンバーがこのスペースを変更できるようにします",
+          "label": "スペースの管理"
+        },
+        "MentionEveryone": {
+          "description": "メンバーがメッセージで@everyoneと@hereをメンションできるようにします",
+          "label": "Everyoneのメンション"
+        },
+        "MoveMembers": {
+          "description": "メンバーが音声チャネル間で他のメンバーを移動したり、切断したりできるようにする",
+          "label": "メンバーの移動"
+        },
+        "MuteMembers": {
+          "description": "メンバーが音声チャネルで他のメンバーをミュートできるようにする",
+          "label": "メンバーをミュートする"
+        },
+        "ReadMessageHistory": {
+          "description": "メンバーがメッセージ履歴を読めるようにします",
+          "label": "メッセージ履歴の閲覧"
+        },
+        "SendMessages": {
+          "description": "メンバーがテキストチャンネルでメッセージを送信できるようにします",
+          "label": "メッセージの送信"
+        },
+        "Speak": {
+          "description": "メンバーがボイスチャンネルで話せるようにします",
+          "label": "発言"
+        },
+        "UseExternalEmojis": {
+          "description": "メンバーが他のスペースや自分の絵文字をメッセージで使えるようにします",
+          "label": "外部絵文字の使用"
+        },
+        "UseExternalStickers": {
+          "description": "メンバーがメッセージ内で他のスペースのステッカーを使用できるようにする",
+          "label": "外部ステッカーを使用する"
+        },
+        "UseVAD": {
+          "description": "音声アクティビティ検出を使用してメンバーが発言できるようにします。この許可がない場合、メンバーはプッシュ トゥ トークを使用する必要があります。",
+          "label": "音声アクティビティを使用する"
+        },
+        "ViewChannel": {
+          "description": "メンバーがデフォルトでチャンネルを見られるようにします",
+          "label": "チャンネルを見る"
+        }
+      },
+      "groups": {
+        "advanced": "高度な権限",
+        "general": "一般スペース権限",
+        "membership": "メンバーシップ権限",
+        "text": "テキストチャンネル権限",
+        "voice": "ボイスチャンネル権限"
+      },
+      "jumpToCategory": "カテゴリに移動…",
+      "searchPlaceholder": "権限を検索..."
+    },
+    "saveFailed": "ロールの保存に失敗しました",
+    "searchPlaceholder": "ロールを検索",
+    "tabs": {
+      "display": "表示",
+      "manageMembers": "メンバー管理",
+      "members": "メンバー",
+      "permissions": "権限"
+    },
+    "unsavedChanges": "未保存の変更があります！"
   },
   "sheet": {
+    "membersCount_one": "{{count}} メンバー",
+    "membersCount_other": "{{count}} メンバー",
+    "mutedStatus": "このスペースをミュートにしました",
+    "muteHelper": "スペースをミュートすると、メンションされない限り未読のバッジや通知音が鳴らなくなります。",
+    "muteSpace": "{{spaceName}} をミュートします",
+    "notificationSettingsTitle": "通知設定",
+    "onlineCount_one": "{{count}} オンライン",
+    "onlineCount_other": "{{count}} オンライン",
     "quickActions": {
       "invite": "招待する",
       "notifications": "通知",
       "settings": "設定"
     },
-    "onlineCount_one": "{{count}} オンライン",
-    "onlineCount_other": "{{count}} オンライン",
-    "membersCount_one": "{{count}} メンバー",
-    "membersCount_other": "{{count}} メンバー",
-    "spaceEmojis": "スペース絵文字",
-    "notificationSettingsTitle": "通知設定",
-    "serverSettingsTitle": "スペース設定",
-    "unmuteSpace": "{{spaceName}} のミュートを解除",
-    "muteSpace": "{{spaceName}} をミュートします",
-    "mutedStatus": "このスペースをミュートにしました",
-    "muteHelper": "スペースをミュートすると、メンションされない限り未読のバッジや通知音が鳴らなくなります。",
     "serverNotificationSettings": "サーバー通知設定",
-    "suppressSettings": "抑制する",
+    "serverSettingsTitle": "スペース設定",
     "settingsSection": "設定",
+    "spaceEmojis": "スペース絵文字",
+    "suppressSettings": "抑制する",
+    "unmuteSpace": "{{spaceName}} のミュートを解除",
     "userManagementSection": "ユーザー管理"
-  }
+  },
+  "sidebar": {
+    "bridges": "橋",
+    "channels": "チャンネル",
+    "createSpace": "スペースを作成",
+    "directMessages": "ダイレクトメッセージ",
+    "doneReordering": "終わり",
+    "doneReorderingA11y": "スペースの並べ替えが完了しました",
+    "friends": "フレンド",
+    "moreOptions": "その他のオプション",
+    "reorder": "再注文",
+    "reorderA11y": "スペースを並べ替える",
+    "spaces": "スペース",
+    "switchTo": "切り替え",
+    "switchToDirectMessages": "ダイレクトメッセージに切り替え",
+    "switchToFeed": "フィードに切り替え",
+    "switchToSpaces": "スペースに切り替え"
+  },
+  "theme": {
+    "clear": "個人的なテーマを使用する",
+    "createCustom": "宇宙テーマの作成",
+    "description": "チャンネル リストをスキンして、このスペースにいる全員とチャットします。あなたの個人的なテーマは別の場所にあります。",
+    "noCustomThemes": "カスタムテーマはまだありません。このスペースをブランド化するために作成します。",
+    "spaceThemes": "この空間"
+  },
+  "title": "スペース設定",
+  "titleShort": "スペース設定"
 }

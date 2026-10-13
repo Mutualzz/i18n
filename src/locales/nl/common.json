@@ -1,45 +1,94 @@
 {
-  "cancel": "Annuleren",
-  "save": "Opslaan",
-  "saveChanges": "Wijzigingen opslaan",
-  "close": "Sluiten",
-  "create": "Creëren",
-  "delete": "Verwijderen",
-  "add": "Toevoegen",
-  "remove": "Verwijderen",
-  "reset": "Resetten",
-  "back": "Terug",
-  "clear": "Wissen",
-  "finish": "Voltooien",
-  "retry": "Opnieuw",
-  "apply": "Toepassen",
-  "undo": "Ongedaan maken",
-  "redo": "Opnieuw doen",
-  "open": "Openen",
-  "proceed": "Doorgaan",
-  "gotIt": "Begrepen",
-  "seo": {
-    "defaultTitle": "Mutualzz (vroege toegang)",
-    "defaultDescription": "Maak contact met andere mensen die uw interesses delen. Momenteel volop in ontwikkeling"
+  "a11y": {
+    "allowPermission": "{{label}} toestaan",
+    "closeModal": "Sluit modaal",
+    "closeProfile": "Sluit profiel",
+    "createChannelInCategory": "Kanaal in categorie maken",
+    "decrement": "Verlagen",
+    "deleteExpression": "Verwijder :{{name}}:",
+    "deleteInvite": "Uitnodiging verwijderen",
+    "deleteNamed": "{{name}} verwijderen",
+    "denyPermission": "{{label}} weigeren",
+    "editWidgetHint": "Opent de widget-editor. Druk lang om widgets opnieuw te rangschikken.",
+    "expandWidget": "Vouw de {{type}}-widget uit",
+    "expandWidgetHint": "Opent de volledige widgetinhoud",
+    "fileAttachment": "Bestandsbijlage",
+    "imageAttachment": "Afbeeldingsbijlage",
+    "increment": "Verhogen",
+    "moreOptions": "Meer opties",
+    "neutralPermission": "Neutraal {{label}}",
+    "openColorPicker": "Kleurkiezer openen",
+    "pauseVideo": "Pauzeer video",
+    "playVideo": "Speel video af",
+    "randomColor": "Willekeurige kleur",
+    "randomColorHint": "Kiest een willekeurige kleur",
+    "rangeSliderHint": "Bereikschuifregelaar. Aanpassen door te slepen.",
+    "removeColorStop": "Kleurstop verwijderen",
+    "removeMemberFromRole": "Verwijder {{member}} uit {{role}}",
+    "reorder": "Opnieuw ordenen",
+    "sent": "Verstuurd",
+    "settings": "Instellingen",
+    "tapToOpen": "Tik om te openen",
+    "time": "Tijd"
   },
-  "reload": "App opnieuw laden",
-  "download": "Mutualzz downloaden",
   "accept": "Accepteren",
-  "decline": "Weigeren",
-  "restore": "Herstellen",
-  "uploadCustomFont": "Upload een aangepast lettertype",
-  "language": {
-    "title": "Taal",
-    "description": "Kies de taal die in Mutualzz wordt gebruikt.",
-    "systemDefault": "Apparaattaal"
+  "activity": {
+    "elapsed": "{{time}} verstreken",
+    "listened": "Geluisterd",
+    "listening": "Luisteren",
+    "openInSpotify": "Openen in Spotify",
+    "played": "Gespeeld",
+    "playing": "Speelt",
+    "showLess": "Minder tonen"
   },
+  "add": "Toevoegen",
+  "apply": "Toepassen",
+  "back": "Terug",
   "calendar": {
-    "sameDay": "[Vandaag om] HH:mm",
-    "nextDay": "[Morgen om] HH:mm",
     "lastDay": "[Gisteren om] HH:mm",
     "lastWeek": "[Afgelopen] dddd [om] HH:mm",
+    "nextDay": "[Morgen om] HH:mm",
+    "sameDay": "[Vandaag om] HH:mm",
     "sameElse": "DD-MM-YYYY HH:mm"
   },
+  "cancel": "Annuleren",
+  "clear": "Wissen",
+  "close": "Sluiten",
+  "connection": {
+    "audioBlocked": "Uw browser heeft het afspelen van gesproken audio geblokkeerd",
+    "enableAudio": "Klik om audio in te schakelen",
+    "offlineBanner": "Je bent momenteel offline",
+    "reconnect": "Maak opnieuw verbinding"
+  },
+  "crash": {
+    "bodyDesktop": "Mutualzz is een onverwachte fout tegengekomen. Laad de app opnieuw om het opnieuw te proberen.",
+    "bodyMobile": "Mutualzz is een onverwachte fout tegengekomen. Sluit de app volledig en open hem vervolgens opnieuw.",
+    "hintAndroid": "Open je recente apps-overzicht en veeg Mutualzz weg totdat de app sluit.",
+    "hintIos": "Veeg omhoog vanaf de onderkant van het scherm om de app-switcher te openen en veeg vervolgens Mutualzz weg.",
+    "orPressShortcut": "Of druk op {{shortcut}}",
+    "title": "Er is iets misgegaan"
+  },
+  "create": "Creëren",
+  "customStatus": {
+    "addEmoji": "Status-emoji toevoegen",
+    "changeEmoji": "Status-emoji wijzigen",
+    "changeStatus": "Wijzig status",
+    "chooseEmoji": "Kies status-emoji",
+    "clearA11y": "Aangepaste status wissen",
+    "editA11y": "Aangepaste status bewerken",
+    "heading": "Aangepaste status",
+    "label": "Status",
+    "pickEmoji": "Kies een emoji",
+    "placeholder": "Voer uw status in...",
+    "removeEmoji": "Emoji verwijderen",
+    "setPlaceholder": "Aangepaste status instellen...",
+    "setShort": "Een aangepaste status instellen...",
+    "title": "Stel uw status in",
+    "whatsOnYourMind": "Waar denk je aan?"
+  },
+  "decline": "Weigeren",
+  "delete": "Verwijderen",
+  "download": "Mutualzz downloaden",
   "duration": {
     "clearOnDateAt": "Wis {{date}} bij {{time}}",
     "clearTodayAt": "Vandaag helder bij {{time}}",
@@ -52,6 +101,115 @@
     "hours_other": "{{count}} uur",
     "minutes_one": "{{count}} minuut",
     "minutes_other": "{{count}} minuten"
+  },
+  "editable": {
+    "addToDictionary": "Toevoegen aan woordenboek",
+    "copy": "Kopiëren",
+    "cut": "Knippen",
+    "paste": "Plakken",
+    "spellcheck": "Spellingcontrole"
+  },
+  "errors": {
+    "requestFailed": "Verzoek mislukt",
+    "requestFailedWithStatus": "Verzoek mislukt ({{status}})",
+    "unknown": "Onbekende fout"
+  },
+  "externalLink": {
+    "aboutToOpen": "U staat op het punt een externe link te openen:",
+    "blockedInApp": "Voor uw veiligheid staan ​​wij niet toe dat onveilige links rechtstreeks in de app worden geopend. Kopieer de link en open deze in uw webbrowser.",
+    "close": "Sluiten",
+    "confirmProceed": "Weet u zeker dat u verder wilt gaan?",
+    "dontShowAgain": "Deze waarschuwing niet meer tonen",
+    "proceed": "Doorgaan",
+    "title": "Externe link openen",
+    "unsafeHttpBody": "De link die u probeert te openen maakt gebruik van een onveilige HTTP-verbinding. Hierdoor kunnen uw gegevens mogelijk aan derden worden blootgesteld.",
+    "unsafeTitle": "Deze link lijkt onveilig"
+  },
+  "finish": "Voltooien",
+  "gotIt": "Begrepen",
+  "language": {
+    "description": "Kies de taal die in Mutualzz wordt gebruikt.",
+    "systemDefault": "Apparaattaal",
+    "title": "Taal"
+  },
+  "logout": "Afmelden",
+  "markdown": {
+    "blockquote": "Citaatblok",
+    "bold": "Vet",
+    "code": "Code",
+    "color": "Kleur",
+    "italic": "Cursief",
+    "spoiler": "Spoiler",
+    "strikethrough": "Doorhalen",
+    "underline": "Onderstrepen"
+  },
+  "media": {
+    "download": "Downloaden",
+    "pause": "Pauzeren",
+    "play": "Afspelen",
+    "volume": "Volume"
+  },
+  "minecraft": {
+    "skinAlt": "Minecraft-skin",
+    "skinAltNamed": "Minecraft-skin van {{name}}"
+  },
+  "nav": {
+    "goBack": "Ga terug",
+    "goForward": "Ga vooruit"
+  },
+  "notifications": {
+    "acceptedFriend": "{{name}} heeft je vriendschapsverzoek geaccepteerd",
+    "groupDmChannel": "Groep DM-kanaal",
+    "markAllAsRead": "Alles markeren als gelezen",
+    "mentions": "Vermeldingen",
+    "messagePlaceholder": "Bericht",
+    "messagesChannel": "Berichten",
+    "noMentions": "Geen nieuwe vermeldingen",
+    "noMessagesYet": "Nog geen berichten",
+    "noUnreads": "Geen ongelezen berichten",
+    "recentlyAccepted": "Onlangs geaccepteerd",
+    "reply": "Beantwoorden",
+    "requests": "Verzoeken",
+    "send": "Verzenden",
+    "sentAttachment": "Een bijlage verzonden",
+    "unreads": "Ongelezen",
+    "youWereMentioned": "Je werd genoemd"
+  },
+  "open": "Openen",
+  "proceed": "Doorgaan",
+  "redo": "Opnieuw doen",
+  "reload": "App opnieuw laden",
+  "remove": "Verwijderen",
+  "report": {
+    "action": "Rapporteren",
+    "description": "De meldingen worden beoordeeld door het personeel. Kies de reden die het beste past.",
+    "detailsPlaceholder": "Voeg meer details toe (optioneel)",
+    "reasons": {
+      "harassment": "Intimidatie of misbruik",
+      "hate_speech": "Haatzaaien",
+      "impersonation": "Impersonatie",
+      "misinformation": "Desinformatie",
+      "nsfw": "NSFW / Ongepaste inhoud",
+      "other": "Overig",
+      "self_harm": "Zelfbeschadiging of zelfmoord",
+      "spam": "Spam"
+    },
+    "submit": "Rapport indienen",
+    "submitting": "Verzenden...",
+    "success": "Rapport ingediend. Bedankt dat je helpt de zaken veilig te houden.",
+    "title": "Rapporteer {{label}}"
+  },
+  "reset": "Resetten",
+  "restore": "Herstellen",
+  "retry": "Opnieuw",
+  "save": "Opslaan",
+  "saveChanges": "Wijzigingen opslaan",
+  "select": {
+    "placeholder": "Selecteer een optie"
+  },
+  "seo": {
+    "defaultDescription": "Maak contact met andere mensen die uw interesses delen. Momenteel volop in ontwikkeling",
+    "defaultTitle": "Mutualzz (vroege toegang)"
   },
   "status": {
     "clearCustomAfter": "Aangepaste status wissen daarna",
@@ -66,194 +224,7 @@
     "online": "Online",
     "saveCustom": "Aangepaste status opslaan"
   },
-  "report": {
-    "title": "Rapporteer {{label}}",
-    "description": "De meldingen worden beoordeeld door het personeel. Kies de reden die het beste past.",
-    "detailsPlaceholder": "Voeg meer details toe (optioneel)",
-    "submit": "Rapport indienen",
-    "submitting": "Verzenden...",
-    "success": "Rapport ingediend. Bedankt dat je helpt de zaken veilig te houden.",
-    "action": "Rapporteren",
-    "reasons": {
-      "spam": "Spam",
-      "harassment": "Intimidatie of misbruik",
-      "hate_speech": "Haatzaaien",
-      "nsfw": "NSFW / Ongepaste inhoud",
-      "self_harm": "Zelfbeschadiging of zelfmoord",
-      "impersonation": "Impersonatie",
-      "misinformation": "Desinformatie",
-      "other": "Overig"
-    }
-  },
-  "editable": {
-    "addToDictionary": "Toevoegen aan woordenboek",
-    "spellcheck": "Spellingcontrole",
-    "cut": "Knippen",
-    "copy": "Kopiëren",
-    "paste": "Plakken"
-  },
-  "customStatus": {
-    "title": "Stel uw status in",
-    "heading": "Aangepaste status",
-    "label": "Status",
-    "placeholder": "Voer uw status in...",
-    "setPlaceholder": "Aangepaste status instellen...",
-    "setShort": "Een aangepaste status instellen...",
-    "editA11y": "Aangepaste status bewerken",
-    "clearA11y": "Aangepaste status wissen",
-    "changeEmoji": "Status-emoji wijzigen",
-    "addEmoji": "Status-emoji toevoegen",
-    "chooseEmoji": "Kies status-emoji",
-    "pickEmoji": "Kies een emoji",
-    "removeEmoji": "Emoji verwijderen",
-    "changeStatus": "Wijzig status",
-    "whatsOnYourMind": "Waar denk je aan?"
-  },
-  "externalLink": {
-    "proceed": "Doorgaan",
-    "close": "Sluiten",
-    "title": "Externe link openen",
-    "aboutToOpen": "U staat op het punt een externe link te openen:",
-    "unsafeTitle": "Deze link lijkt onveilig",
-    "unsafeHttpBody": "De link die u probeert te openen maakt gebruik van een onveilige HTTP-verbinding. Hierdoor kunnen uw gegevens mogelijk aan derden worden blootgesteld.",
-    "confirmProceed": "Weet u zeker dat u verder wilt gaan?",
-    "blockedInApp": "Voor uw veiligheid staan ​​wij niet toe dat onveilige links rechtstreeks in de app worden geopend. Kopieer de link en open deze in uw webbrowser.",
-    "dontShowAgain": "Deze waarschuwing niet meer tonen"
-  },
-  "connection": {
-    "reconnect": "Maak opnieuw verbinding",
-    "enableAudio": "Klik om audio in te schakelen",
-    "offlineBanner": "Je bent momenteel offline",
-    "audioBlocked": "Uw browser heeft het afspelen van gesproken audio geblokkeerd"
-  },
-  "nav": {
-    "goBack": "Ga terug",
-    "goForward": "Ga vooruit"
-  },
-  "updater": {
-    "pleaseWait": "Bijwerken... even geduld a.u.b",
-    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
-    "downloadedOnly": "{{downloaded}} MB",
-    "etaHoursMinutes": "{{hours}}u {{minutes}}m resterend",
-    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s resterend",
-    "etaSeconds": "{{seconds}}s resterend",
-    "installUpdate": "Update installeren",
-    "installing": "Update installeren…",
-    "updateReady": "Update {{version}} gereed",
-    "restartToUpdate": "Herstart om bij te werken",
-    "restarting": "Bezig met herstarten…"
-  },
-  "crash": {
-    "title": "Er is iets misgegaan",
-    "bodyDesktop": "Mutualzz is een onverwachte fout tegengekomen. Laad de app opnieuw om het opnieuw te proberen.",
-    "orPressShortcut": "Of druk op {{shortcut}}",
-    "bodyMobile": "Mutualzz is een onverwachte fout tegengekomen. Sluit de app volledig en open hem vervolgens opnieuw.",
-    "hintIos": "Veeg omhoog vanaf de onderkant van het scherm om de app-switcher te openen en veeg vervolgens Mutualzz weg.",
-    "hintAndroid": "Open je recente apps-overzicht en veeg Mutualzz weg totdat de app sluit."
-  },
-  "a11y": {
-    "closeProfile": "Sluit profiel",
-    "settings": "Instellingen",
-    "deleteInvite": "Uitnodiging verwijderen",
-    "deleteNamed": "{{name}} verwijderen",
-    "deleteExpression": "Verwijder :{{name}}:",
-    "removeMemberFromRole": "Verwijder {{member}} uit {{role}}",
-    "allowPermission": "{{label}} toestaan",
-    "neutralPermission": "Neutraal {{label}}",
-    "denyPermission": "{{label}} weigeren",
-    "expandWidget": "Vouw de {{type}}-widget uit",
-    "expandWidgetHint": "Opent de volledige widgetinhoud",
-    "editWidgetHint": "Opent de widget-editor. Druk lang om widgets opnieuw te rangschikken.",
-    "playVideo": "Speel video af",
-    "pauseVideo": "Pauzeer video",
-    "tapToOpen": "Tik om te openen",
-    "imageAttachment": "Afbeeldingsbijlage",
-    "fileAttachment": "Bestandsbijlage",
-    "sent": "Verstuurd",
-    "createChannelInCategory": "Kanaal in categorie maken",
-    "reorder": "Opnieuw ordenen",
-    "time": "Tijd",
-    "closeModal": "Sluit modaal",
-    "increment": "Verhogen",
-    "decrement": "Verlagen",
-    "openColorPicker": "Kleurkiezer openen",
-    "randomColor": "Willekeurige kleur",
-    "randomColorHint": "Kiest een willekeurige kleur",
-    "removeColorStop": "Kleurstop verwijderen",
-    "rangeSliderHint": "Bereikschuifregelaar. Aanpassen door te slepen.",
-    "moreOptions": "Meer opties"
-  },
-  "errors": {
-    "unknown": "Onbekende fout",
-    "requestFailed": "Verzoek mislukt",
-    "requestFailedWithStatus": "Verzoek mislukt ({{status}})"
-  },
-  "select": {
-    "placeholder": "Selecteer een optie"
-  },
-  "media": {
-    "play": "Afspelen",
-    "pause": "Pauzeren",
-    "download": "Downloaden",
-    "volume": "Volume"
-  },
-  "notifications": {
-    "unreads": "Ongelezen",
-    "mentions": "Vermeldingen",
-    "requests": "Verzoeken",
-    "markAllAsRead": "Alles markeren als gelezen",
-    "acceptedFriend": "{{name}} heeft je vriendschapsverzoek geaccepteerd",
-    "sentAttachment": "Een bijlage verzonden",
-    "noMessagesYet": "Nog geen berichten",
-    "youWereMentioned": "Je werd genoemd",
-    "noUnreads": "Geen ongelezen berichten",
-    "noMentions": "Geen nieuwe vermeldingen",
-    "recentlyAccepted": "Onlangs geaccepteerd",
-    "groupDmChannel": "Groep DM-kanaal",
-    "messagesChannel": "Berichten",
-    "reply": "Beantwoorden",
-    "messagePlaceholder": "Bericht",
-    "send": "Verzenden"
-  },
-  "markdown": {
-    "bold": "Vet",
-    "italic": "Cursief",
-    "underline": "Onderstrepen",
-    "strikethrough": "Doorhalen",
-    "blockquote": "Citaatblok",
-    "code": "Code",
-    "spoiler": "Spoiler",
-    "color": "Kleur"
-  },
   "support": {
-    "myTickets": "Mijn kaartjes",
-    "contactSupport": "Neem contact op met ondersteuning",
-    "loginToContact": "Log in om contact op te nemen met ondersteuning",
-    "privacyPolicy": "Privacybeleid",
-    "faq": "Veelgestelde vragen",
-    "quickLinks": "Snelle koppelingen",
-    "contactUs": "Neem contact met ons op",
-    "openHelpCenter": "Helpcentrum openen",
-    "describeIssue": "Beschrijf uw probleem",
-    "newTicket": "Nieuw kaartje",
-    "writeReply": "Schrijf een antwoord",
-    "loading": "Laden...",
-    "loadingTickets": "Kaartjes laden...",
-    "loadMore": "Laad meer",
-    "sendReply": "Antwoord verzenden",
-    "sendReplyFailed": "Kan antwoord niet verzenden",
-    "staffLabel": "Ondersteuning",
-    "ticketClosed": "Dit kaartje is gesloten.",
-    "ticketClosedHint": "Dit kaartje is gesloten. Open een nieuw ticket als je nog steeds hulp nodig hebt.",
-    "updatedAt": "bijgewerkte {{date}}",
-    "pageIntro": "Hulp nodig met Mutualzz? Bekijk hieronder veelvoorkomende antwoorden of neem contact op met ons team.",
-    "mobileIntro": "Bekijk de hulp op mutualzz.com/support of neem hieronder contact met ons op.",
-    "subjectPlaceholder": "Onderwerp",
-    "submitTicket": "Ticket indienen",
-    "createFailed": "Kan ticket niet maken",
-    "noTickets": "Nog geen kaartjes",
-    "contactEmailLoggedIn": "E-mail ons op {{email}} of open een supportticket vanaf deze pagina.",
-    "contactEmailGuest": "E-mail ons op {{email}}.",
     "categories": {
       "account": "Account & inloggen",
       "bug": "Bug of crash",
@@ -261,56 +232,85 @@
       "feature": "Functieverzoek",
       "other": "Overig"
     },
+    "contactEmailGuest": "E-mail ons op {{email}}.",
+    "contactEmailLoggedIn": "E-mail ons op {{email}} of open een supportticket vanaf deze pagina.",
+    "contactSupport": "Neem contact op met ondersteuning",
+    "contactUs": "Neem contact met ons op",
+    "createFailed": "Kan ticket niet maken",
+    "describeIssue": "Beschrijf uw probleem",
+    "faq": "Veelgestelde vragen",
     "faqItems": {
-      "report": {
-        "q": "Hoe rapporteer ik een gebruiker of inhoud?",
-        "a": "Open een gebruikersprofiel of het inhoudsmenu en kies Rapporteren. Onze medewerkers zullen het beoordelen."
-      },
       "appeal": {
-        "q": "Hoe kan ik bezwaar maken tegen een verbod?",
-        "a": "Als je een ban-e-mail hebt ontvangen, gebruik dan de bezwaarlink in dat bericht. Het personeel zal uw bezwaar beoordelen."
-      },
-      "delete": {
-        "q": "Hoe verwijder ik mijn account?",
-        "a": "Ga naar Instellingen → Mijn account → Account verwijderen."
+        "a": "Als je een ban-e-mail hebt ontvangen, gebruik dan de bezwaarlink in dat bericht. Het personeel zal uw bezwaar beoordelen.",
+        "q": "Hoe kan ik bezwaar maken tegen een verbod?"
       },
       "block": {
-        "q": "Hoe blokkeer ik iemand?",
-        "a": "Open hun profiel en kies Blokkeren. Je kunt ze later deblokkeren via de instellingen."
-      }
-    },
-    "quickLinkItems": {
-      "report": {
-        "label": "Rapporteer inhoud of een gebruiker",
-        "hint": "Beschikbaar via profielmenu's en inhoudsacties"
-      },
-      "appeals": {
-        "label": "Beroep tegen verbod",
-        "hint": "Gebruik de bezwaarlink uit uw ban-e-mail"
+        "a": "Open hun profiel en kies Blokkeren. Je kunt ze later deblokkeren via de instellingen.",
+        "q": "Hoe blokkeer ik iemand?"
       },
       "delete": {
-        "label": "Verwijder uw account",
-        "hint": "Instellingen → Mijn account → Account verwijderen"
+        "a": "Ga naar Instellingen → Mijn account → Account verwijderen.",
+        "q": "Hoe verwijder ik mijn account?"
+      },
+      "report": {
+        "a": "Open een gebruikersprofiel of het inhoudsmenu en kies Rapporteren. Onze medewerkers zullen het beoordelen.",
+        "q": "Hoe rapporteer ik een gebruiker of inhoud?"
       }
     },
+    "loading": "Laden...",
+    "loadingTickets": "Kaartjes laden...",
+    "loadMore": "Laad meer",
+    "loginToContact": "Log in om contact op te nemen met ondersteuning",
+    "mobileIntro": "Bekijk de hulp op mutualzz.com/support of neem hieronder contact met ons op.",
+    "myTickets": "Mijn kaartjes",
+    "newTicket": "Nieuw kaartje",
+    "noTickets": "Nog geen kaartjes",
+    "openHelpCenter": "Helpcentrum openen",
+    "pageIntro": "Hulp nodig met Mutualzz? Bekijk hieronder veelvoorkomende antwoorden of neem contact op met ons team.",
+    "pendingTicketExists": "Je hebt al een open ticket. Reageer daar of wacht tot het gesloten is voordat je een nieuw ticket opent.",
+    "privacyPolicy": "Privacybeleid",
+    "quickLinkItems": {
+      "appeals": {
+        "hint": "Gebruik de bezwaarlink uit uw ban-e-mail",
+        "label": "Beroep tegen verbod"
+      },
+      "delete": {
+        "hint": "Instellingen → Mijn account → Account verwijderen",
+        "label": "Verwijder uw account"
+      },
+      "report": {
+        "hint": "Beschikbaar via profielmenu's en inhoudsacties",
+        "label": "Rapporteer inhoud of een gebruiker"
+      }
+    },
+    "quickLinks": "Snelle koppelingen",
+    "sendReply": "Antwoord verzenden",
+    "sendReplyFailed": "Kan antwoord niet verzenden",
+    "staffLabel": "Ondersteuning",
+    "subjectPlaceholder": "Onderwerp",
+    "submitTicket": "Ticket indienen",
     "termsOfService": "Servicevoorwaarden",
-    "pendingTicketExists": "Je hebt al een open ticket. Reageer daar of wacht tot het gesloten is voordat je een nieuw ticket opent."
+    "ticketClosed": "Dit kaartje is gesloten.",
+    "ticketClosedHint": "Dit kaartje is gesloten. Open een nieuw ticket als je nog steeds hulp nodig hebt.",
+    "updatedAt": "bijgewerkte {{date}}",
+    "writeReply": "Schrijf een antwoord"
   },
-  "activity": {
-    "playing": "Speelt",
-    "listening": "Luisteren",
-    "elapsed": "{{time}} verstreken",
-    "showLess": "Minder tonen",
-    "played": "Gespeeld",
-    "listened": "Geluisterd",
-    "openInSpotify": "Openen in Spotify"
+  "undo": "Ongedaan maken",
+  "updater": {
+    "downloadedOnly": "{{downloaded}} MB",
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "etaHoursMinutes": "{{hours}}u {{minutes}}m resterend",
+    "etaMinutesSeconds": "{{minutes}}m {{seconds}}s resterend",
+    "etaSeconds": "{{seconds}}s resterend",
+    "installing": "Update installeren…",
+    "installUpdate": "Update installeren",
+    "pleaseWait": "Bijwerken... even geduld a.u.b",
+    "restarting": "Bezig met herstarten…",
+    "restartToUpdate": "Herstart om bij te werken",
+    "updateReady": "Update {{version}} gereed"
   },
+  "uploadCustomFont": "Upload een aangepast lettertype",
   "whatsNew": {
     "title": "Wat is nieuw"
-  },
-  "logout": "Afmelden",
-  "minecraft": {
-    "skinAlt": "Minecraft-skin",
-    "skinAltNamed": "Minecraft-skin van {{name}}"
   }
 }

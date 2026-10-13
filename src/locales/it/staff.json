@@ -1,319 +1,319 @@
 {
-  "title": "Pannello staff",
+  "activity": {
+    "empty": "Nessuna azione da parte dello staff ancora",
+    "removedUser": "un utente rimosso",
+    "removedUserNamed": "@{{name}} (rimosso)"
+  },
+  "appeals": {
+    "accept": "Accetta",
+    "anyStatus": "Qualsiasi stato",
+    "decidedBy": "{{status}} da {{name}}",
+    "empty": "Nessun ricorso trovato",
+    "errorUpdate": "Impossibile aggiornare il ricorso",
+    "reject": "Rifiuta",
+    "responsePlaceholder": "Risposta all'utente (facoltativo)",
+    "spaceLockdownAppeal": "Appello al lockdown spaziale",
+    "staffResponse": "Risposta del personale: {{text}}",
+    "status": {
+      "accepted": "Accettato",
+      "pending": "In sospeso",
+      "rejected": "Rifiutato"
+    },
+    "viewAccount": "Vedi account",
+    "viewUser": "Vedi utente"
+  },
+  "auditActions": {
+    "addedNote": "ha aggiunto una nota personale",
+    "disabledAccount": "disabilitato questo account",
+    "enabledAccount": "abilitato questo account",
+    "forcedLogout": "ha forzato la disconnessione per questo account",
+    "global": {
+      "addedNote": "{{actor}} ha aggiunto una nota dello staff su {{target}}",
+      "deletedChangelog": "{{actor}} ha eliminato un changelog",
+      "disabled": "{{actor}} disabilitato {{target}}",
+      "enabled": "{{actor}} ha abilitato {{target}}",
+      "forcedLogout": "{{actor}} ha forzato il logout per {{target}}",
+      "grantedFlag": "{{actor}} ha concesso il flag {{flag}} a {{target}}",
+      "hardDeleted": "{{actor}} {{target}} eliminato definitivamente",
+      "liftedRestriction": "{{actor}} ha revocato la restrizione su {{target}}",
+      "lockedDownSpace": "{{actor}} ha bloccato uno spazio",
+      "publishedChangelog": "{{actor}} ha pubblicato un changelog",
+      "restricted": "{{actor}} limitato {{target}}",
+      "revokedFlag": "{{actor}} ha revocato il flag {{flag}} da {{target}}",
+      "revokedSession": "{{actor}} ha revocato una sessione per {{target}}",
+      "shutDownSpace": "{{actor}} ha chiuso uno spazio segnalato",
+      "softDeleted": "{{actor}} eliminato gradualmente {{target}}",
+      "tookDownContent": "{{actor}} ha abbattuto un {{type}} segnalato",
+      "updatedProfile": "{{actor}} ha aggiornato il profilo di {{target}}",
+      "warned": "{{actor}} ha avvisato {{target}}"
+    },
+    "grantedFlag": "concesso il flag {{flag}}",
+    "hardDeletedAccount": "eliminato definitivamente questo account",
+    "liftedRestriction": "revocato la restrizione per questo utente",
+    "lockedDownSpace": "bloccato uno spazio",
+    "restrictedUser": "limitato questo utente",
+    "revokedFlag": "revocato il flag {{flag}}",
+    "revokedSession": "revocato una sessione",
+    "shutDownSpace": "chiudere uno spazio segnalato",
+    "softDeletedAccount": "ho eliminato temporaneamente questo account",
+    "tookDownContent": "ha eliminato un {{type}} segnalato",
+    "updatedProfile": "aggiornato il profilo di questo utente",
+    "warnedUser": "ha avvisato questo utente"
+  },
+  "changelogs": {
+    "bodyLabel": "Corpo (markdown)",
+    "bodyPlaceholder": "Descrivi le modifiche…",
+    "delete": "Elimina",
+    "deleted": "Changelog eliminato",
+    "description": "Pubblica popup Novità per gli utenti che aggiornano a una versione target dell'app.",
+    "desktop": "Desktop {{version}}",
+    "desktopVersion": "Versione desktop",
+    "developerRequired": "Solo gli sviluppatori possono gestire i changelog",
+    "empty": "Nessun changelog ancora",
+    "errors": {
+      "delete": "Impossibile eliminare il changelog",
+      "publish": "Impossibile pubblicare il changelog",
+      "versionRequired": "Fornisci una versione desktop e/o mobile"
+    },
+    "imageUrlLabel": "URL immagine (facoltativo)",
+    "imageUrlPlaceholder": "https://…",
+    "mobile": "Mobile {{version}}",
+    "mobileVersion": "Versione mobile",
+    "preview": "Anteprima",
+    "publish": "Pubblica",
+    "published": "Pubblicato con successo",
+    "publishing": "Pubblicazione…",
+    "title": "Changelog",
+    "titleLabel": "Titolo",
+    "titlePlaceholder": "Novità di questa versione",
+    "versionPlaceholder": "es. 6.21.0"
+  },
   "exit": "Esci",
-  "working": "Elaborazione...",
+  "home": {
+    "anyFlag": "Qualsiasi flag",
+    "exactIdLookup": "Ricerca dell'ID esatto",
+    "findUser": "Trova un utente",
+    "findUserDescription": "Cerca per nome utente o filtra per contrassegno per visualizzare un account e le azioni dello staff disponibili.",
+    "goToUserId": "Vai all'ID utente {{id}}",
+    "loading": "Caricamento...",
+    "loadMore": "Carica altro",
+    "noUsers": "Nessun utente trovato",
+    "searching": "Ricerca...",
+    "searchPlaceholder": "Cerca per nome utente o incolla un ID utente"
+  },
   "nav": {
-    "reports": "Segnalazioni",
     "activity": "Attività",
     "appeals": "Ricorsi",
-    "support": "Supporto",
-    "changelogs": "Changelog"
+    "changelogs": "Changelog",
+    "reports": "Segnalazioni",
+    "support": "Supporto"
   },
   "pages": {
     "activity": "Attività del personale",
-    "reportDetails": "Dettagli del rapporto",
-    "changelogs": "Changelog"
-  },
-  "home": {
-    "findUser": "Trova un utente",
-    "findUserDescription": "Cerca per nome utente o filtra per contrassegno per visualizzare un account e le azioni dello staff disponibili.",
-    "searchPlaceholder": "Cerca per nome utente o incolla un ID utente",
-    "anyFlag": "Qualsiasi flag",
-    "searching": "Ricerca...",
-    "noUsers": "Nessun utente trovato",
-    "goToUserId": "Vai all'ID utente {{id}}",
-    "exactIdLookup": "Ricerca dell'ID esatto",
-    "loadMore": "Carica altro",
-    "loading": "Caricamento..."
-  },
-  "sections": {
-    "info": "Informazioni",
-    "flags": "Bandiere",
-    "actions": "Azioni",
-    "sessions": "Sessioni attive",
-    "notes": "Note dello staff",
-    "audit": "Registro di audit"
-  },
-  "user": {
-    "info": {
-      "username": "Nome utente",
-      "displayName": "Nome visualizzato",
-      "noDisplayName": "Nessun nome visualizzato impostato",
-      "saveChanges": "Salva modifiche",
-      "accountDetails": "Dettagli dell'account",
-      "email": "E-mail",
-      "emailVerified": "E-mail verificata",
-      "yes": "Sì",
-      "no": "No",
-      "sendReminder": "Invia promemoria",
-      "verifyReminderSent": "Promemoria di verifica inviato",
-      "userId": "ID utente",
-      "dateOfBirth": "Data di nascita",
-      "created": "Creato",
-      "restrictedUntil": "Limitato fino al"
-    },
-    "flags": {
-      "current": "Bandiere attuali",
-      "manage": "Gestisci flag",
-      "none": "Nessuna bandiera impostata"
-    },
-    "actions": {
-      "enableAccount": "Abilita account",
-      "disableAccount": "Disabilita account",
-      "forceLogout": "Forza disconnessione",
-      "warnUser": "Avverti utente",
-      "restrictUser": "Limita utente",
-      "liftRestriction": "Rimuovi limitazione",
-      "softDeleteAccount": "Eliminazione soft dell'account",
-      "hardDeleteAccount": "Eliminazione definitiva dell'account",
-      "softDeletedBanner": "Questo account è stato eliminato temporaneamente. L'utente non può accedere, ma i suoi dati vengono conservati.",
-      "errors": {
-        "liftRestriction": "Impossibile rimuovere la restrizione",
-        "updateUser": "Impossibile aggiornare l'utente",
-        "forceLogout": "Impossibile forzare la disconnessione dell'utente",
-        "warnUser": "Impossibile avvisare l'utente",
-        "deleteAccount": "Impossibile eliminare l'account",
-        "restrictUser": "Impossibile limitare l'utente"
-      },
-      "founderProtectedBanner": "Gli account dei fondatori sono protetti. Lo staff non può avvisarli, limitarli, disabilitarli, eliminarli o intraprendere altre azioni contro di loro."
-    },
-    "modals": {
-      "reasonRequired": "Motivo (obbligatorio)",
-      "reasonOptional": "Motivo (facoltativo)",
-      "placeholderAudit": "Aggiungi contesto per il registro di controllo",
-      "disable": {
-        "title": "Disabilita account",
-        "enableTitle": "Abilita account",
-        "bodyDisable": "Sei sicuro di voler disabilitare l'account di @{{username}}? Verranno disconnessi e non potranno accedere nuovamente fino alla riattivazione.",
-        "bodyEnable": "Sei sicuro di voler riattivare l'account di @{{username}}?",
-        "placeholder": "Spiega perché questo account è stato disabilitato"
-      },
-      "forceLogout": {
-        "title": "Forza disconnessione",
-        "body": "Sei sicuro di voler disconnettere @{{username}} da ogni sessione? Dovranno effettuare nuovamente l'accesso, ma l'account rimarrà abilitato."
-      },
-      "warn": {
-        "title": "Avverti utente",
-        "body": "Questo invia a @{{username}} un'e-mail di avviso e la registra nel loro percorso di controllo. Non cambia lo stato del loro account.",
-        "placeholder": "Spiegare a cosa serve l'avvertimento",
-        "submit": "Invia avviso",
-        "toastSent": "Avviso inviato e inviato via email all'utente",
-        "toastEmailFailed": "Avviso registrato, ma l'invio dell'e-mail non è riuscito"
-      },
-      "restrict": {
-        "title": "Limita utente",
-        "body": "Gli utenti con restrizioni non possono inviare messaggi o creare post fino al termine della restrizione.",
-        "duration": "Durata",
-        "submit": "Limitare",
-        "placeholder": "Spiegare a cosa serve la restrizione",
-        "durations": {
-          "1h": "1 ora",
-          "6h": "6 ore",
-          "1d": "1 giorno",
-          "3d": "3 giorni",
-          "7d": "7 giorni",
-          "30d": "30 giorni"
-        }
-      },
-      "delete": {
-        "softTitle": "Eliminazione soft dell'account",
-        "hardTitle": "Eliminazione definitiva dell'account",
-        "softBody": "Questo software elimina l'account di @{{username}}. Verranno disconnessi e non potranno accedere nuovamente, ma i loro dati verranno conservati per scopi di moderazione e controllo.",
-        "hardBody": "Ciò rimuove permanentemente l'account di @ {{username}} e i dati associati dal database. Verranno eliminati anche tutti gli spazi di loro proprietà. Questa operazione non può essere annullata.",
-        "type": "Tipo di eliminazione",
-        "softOption": "Eliminazione temporanea (consigliata)",
-        "hardOption": "Eliminazione definitiva (irreversibile)",
-        "confirmUsername": "Digita @{{username}} per confermare",
-        "placeholderSoft": "Spiega perché questo account verrà eliminato temporaneamente",
-        "placeholderHard": "Spiega perché questo account deve essere rimosso definitivamente"
-      }
-    },
-    "sessions": {
-      "empty": "Nessuna sessione attiva",
-      "created": "Creato {{relative}}",
-      "lastUsed": "{{relative}} utilizzato per ultimo",
-      "revoke": "Revoca",
-      "errorRevoke": "Impossibile revocare la sessione"
-    },
-    "notes": {
-      "placeholder": "Lascia una nota per gli altri membri dello staff: non visibile all'utente",
-      "add": "Aggiungi nota",
-      "adding": "Aggiunta...",
-      "empty": "Nessuna nota dello staff ancora",
-      "errorAdd": "Impossibile aggiungere la nota"
-    },
-    "audit": {
-      "empty": "Nessuna azione da parte dello staff ancora"
-    }
+    "changelogs": "Changelog",
+    "reportDetails": "Dettagli del rapporto"
   },
   "report": {
-    "status": {
-      "pending": "In sospeso",
-      "reviewed": "Esaminato",
-      "dismissed": "Archiviato",
-      "actioned": "Gestito"
-    },
+    "actionedShort": "Gestito",
     "actions": {
+      "lockDownSpace": "Metti spazio in lockdown",
       "shutDownSpace": "Chiudi spazio",
-      "takeDownContent": "Rimuovi contenuto",
-      "lockDownSpace": "Metti spazio in lockdown"
+      "takeDownContent": "Rimuovi contenuto"
     },
-    "detailsTitle": "Dettagli del rapporto",
-    "backToReports": "Torniamo ai resoconti",
     "anyStatus": "Qualsiasi stato",
     "anyType": "Qualsiasi tipo",
+    "backToReports": "Torniamo ai resoconti",
+    "content": {
+      "dmContext": "Contesto del messaggio diretto",
+      "dmContextHint": "I messaggi circostanti limitati vengono visualizzati per motivi di privacy.",
+      "membersOwnedBy_one": "Membro {{count}} · di proprietà di {{owner}}",
+      "membersOwnedBy_other": "Membri {{count}} · di proprietà di {{owner}}",
+      "messageContext": "Contesto del messaggio",
+      "noText": "(nessun contenuto testuale)",
+      "reported": "SEGNALATO",
+      "unknown": "Sconosciuto"
+    },
+    "detailsTitle": "Dettagli del rapporto",
+    "dismiss": "Ignora",
+    "empty": "Nessuna segnalazione trovata",
+    "errors": {
+      "action": "Impossibile completare l'azione",
+      "lockdown": "Impossibile bloccare lo spazio",
+      "update": "Impossibile aggiornare il rapporto"
+    },
+    "loadFailed": "Impossibile caricare il rapporto",
+    "loadingReport": "Caricamento rapporto...",
+    "markActioned": "Segna come gestito",
+    "markReviewed": "Segna come esaminato",
+    "openUserPanel": "Apri il pannello utente dello staff",
+    "reportedBy": "Segnalato da {{name}}",
+    "reportedContent": "Contenuti segnalati",
+    "reporterNotes": "Note del giornalista",
+    "reviewedBy": "{{status}} da {{name}}",
+    "reviewedShort": "Esaminato",
+    "status": {
+      "actioned": "Gestito",
+      "dismissed": "Archiviato",
+      "pending": "In sospeso",
+      "reviewed": "Esaminato"
+    },
     "targetTypes": {
+      "comment": "Commento",
       "message": "Messaggio",
       "post": "Pubblica",
-      "comment": "Commento",
-      "user": "Utente",
-      "space": "Spazio"
+      "space": "Spazio",
+      "user": "Utente"
     },
-    "reportedBy": "Segnalato da {{name}}",
-    "reporterNotes": "Note del giornalista",
-    "reportedContent": "Contenuti segnalati",
-    "viewDetails": "Vedi dettagli",
-    "openUserPanel": "Apri il pannello utente dello staff",
-    "markReviewed": "Segna come esaminato",
-    "markActioned": "Segna come gestito",
-    "dismiss": "Ignora",
-    "reviewedShort": "Esaminato",
-    "actionedShort": "Gestito",
-    "reviewedBy": "{{status}} da {{name}}",
-    "empty": "Nessuna segnalazione trovata",
-    "loadingReport": "Caricamento rapporto...",
-    "loadFailed": "Impossibile caricare il rapporto",
     "toasts": {
       "actionCompleted": "Azione completata",
       "actionCompletedMarked": "Azione completata e report contrassegnato come \"Azionato\".",
       "alreadyRemoved": "Il target era già stato rimosso",
       "lockdownSuccess": "Spazio bloccato e proprietario avvisato"
     },
-    "errors": {
-      "update": "Impossibile aggiornare il rapporto",
-      "action": "Impossibile completare l'azione",
-      "lockdown": "Impossibile bloccare lo spazio"
-    },
-    "content": {
-      "dmContext": "Contesto del messaggio diretto",
-      "messageContext": "Contesto del messaggio",
-      "dmContextHint": "I messaggi circostanti limitati vengono visualizzati per motivi di privacy.",
-      "reported": "SEGNALATO",
-      "noText": "(nessun contenuto testuale)",
-      "unknown": "Sconosciuto",
-      "membersOwnedBy_one": "Membro {{count}} · di proprietà di {{owner}}",
-      "membersOwnedBy_other": "Membri {{count}} · di proprietà di {{owner}}"
-    }
+    "viewDetails": "Vedi dettagli"
   },
-  "appeals": {
-    "anyStatus": "Qualsiasi stato",
-    "status": {
-      "pending": "In sospeso",
-      "accepted": "Accettato",
-      "rejected": "Rifiutato"
-    },
-    "spaceLockdownAppeal": "Appello al lockdown spaziale",
-    "responsePlaceholder": "Risposta all'utente (facoltativo)",
-    "accept": "Accetta",
-    "reject": "Rifiuta",
-    "viewAccount": "Vedi account",
-    "viewUser": "Vedi utente",
-    "staffResponse": "Risposta del personale: {{text}}",
-    "empty": "Nessun ricorso trovato",
-    "errorUpdate": "Impossibile aggiornare il ricorso",
-    "decidedBy": "{{status}} da {{name}}"
+  "sections": {
+    "actions": "Azioni",
+    "audit": "Registro di audit",
+    "flags": "Bandiere",
+    "info": "Informazioni",
+    "notes": "Note dello staff",
+    "sessions": "Sessioni attive"
   },
   "support": {
     "anyStatus": "Qualsiasi stato",
-    "status": {
-      "open": "Aperto",
-      "awaiting_reply": "In attesa di risposta",
-      "resolved": "Risolto",
-      "closed": "Chiuso"
-    },
-    "empty": "Nessun ticket trovato",
-    "selectTicket": "Seleziona un ticket",
-    "loadingTicket": "Caricamento biglietto...",
-    "resolve": "Risolvi",
     "close": "Chiudi",
-    "staff": "Staff",
-    "replyPlaceholder": "Rispondi all'utente",
-    "sendReply": "Invia risposta",
-    "sending": "Invio…",
+    "empty": "Nessun ticket trovato",
     "errors": {
       "send": "Impossibile inviare la risposta",
       "update": "Impossibile aggiornare il biglietto"
-    }
-  },
-  "activity": {
-    "empty": "Nessuna azione da parte dello staff ancora",
-    "removedUser": "un utente rimosso",
-    "removedUserNamed": "@{{name}} (rimosso)"
-  },
-  "auditActions": {
-    "disabledAccount": "disabilitato questo account",
-    "enabledAccount": "abilitato questo account",
-    "softDeletedAccount": "ho eliminato temporaneamente questo account",
-    "hardDeletedAccount": "eliminato definitivamente questo account",
-    "forcedLogout": "ha forzato la disconnessione per questo account",
-    "warnedUser": "ha avvisato questo utente",
-    "restrictedUser": "limitato questo utente",
-    "liftedRestriction": "revocato la restrizione per questo utente",
-    "grantedFlag": "concesso il flag {{flag}}",
-    "revokedFlag": "revocato il flag {{flag}}",
-    "updatedProfile": "aggiornato il profilo di questo utente",
-    "addedNote": "ha aggiunto una nota personale",
-    "revokedSession": "revocato una sessione",
-    "tookDownContent": "ha eliminato un {{type}} segnalato",
-    "lockedDownSpace": "bloccato uno spazio",
-    "shutDownSpace": "chiudere uno spazio segnalato",
-    "global": {
-      "disabled": "{{actor}} disabilitato {{target}}",
-      "enabled": "{{actor}} ha abilitato {{target}}",
-      "softDeleted": "{{actor}} eliminato gradualmente {{target}}",
-      "hardDeleted": "{{actor}} {{target}} eliminato definitivamente",
-      "forcedLogout": "{{actor}} ha forzato il logout per {{target}}",
-      "warned": "{{actor}} ha avvisato {{target}}",
-      "restricted": "{{actor}} limitato {{target}}",
-      "liftedRestriction": "{{actor}} ha revocato la restrizione su {{target}}",
-      "grantedFlag": "{{actor}} ha concesso il flag {{flag}} a {{target}}",
-      "revokedFlag": "{{actor}} ha revocato il flag {{flag}} da {{target}}",
-      "updatedProfile": "{{actor}} ha aggiornato il profilo di {{target}}",
-      "addedNote": "{{actor}} ha aggiunto una nota dello staff su {{target}}",
-      "revokedSession": "{{actor}} ha revocato una sessione per {{target}}",
-      "tookDownContent": "{{actor}} ha abbattuto un {{type}} segnalato",
-      "lockedDownSpace": "{{actor}} ha bloccato uno spazio",
-      "shutDownSpace": "{{actor}} ha chiuso uno spazio segnalato",
-      "publishedChangelog": "{{actor}} ha pubblicato un changelog",
-      "deletedChangelog": "{{actor}} ha eliminato un changelog"
-    }
-  },
-  "changelogs": {
-    "title": "Changelog",
-    "description": "Pubblica popup Novità per gli utenti che aggiornano a una versione target dell'app.",
-    "titleLabel": "Titolo",
-    "titlePlaceholder": "Novità di questa versione",
-    "bodyLabel": "Corpo (markdown)",
-    "bodyPlaceholder": "Descrivi le modifiche…",
-    "imageUrlLabel": "URL immagine (facoltativo)",
-    "imageUrlPlaceholder": "https://…",
-    "desktopVersion": "Versione desktop",
-    "mobileVersion": "Versione mobile",
-    "versionPlaceholder": "es. 6.21.0",
-    "publish": "Pubblica",
-    "publishing": "Pubblicazione…",
-    "preview": "Anteprima",
-    "empty": "Nessun changelog ancora",
-    "delete": "Elimina",
-    "desktop": "Desktop {{version}}",
-    "mobile": "Mobile {{version}}",
-    "published": "Pubblicato con successo",
-    "deleted": "Changelog eliminato",
-    "errors": {
-      "publish": "Impossibile pubblicare il changelog",
-      "delete": "Impossibile eliminare il changelog",
-      "versionRequired": "Fornisci una versione desktop e/o mobile"
     },
-    "developerRequired": "Solo gli sviluppatori possono gestire i changelog"
-  }
+    "loadingTicket": "Caricamento biglietto...",
+    "replyPlaceholder": "Rispondi all'utente",
+    "resolve": "Risolvi",
+    "selectTicket": "Seleziona un ticket",
+    "sending": "Invio…",
+    "sendReply": "Invia risposta",
+    "staff": "Staff",
+    "status": {
+      "awaiting_reply": "In attesa di risposta",
+      "closed": "Chiuso",
+      "open": "Aperto",
+      "resolved": "Risolto"
+    }
+  },
+  "title": "Pannello staff",
+  "user": {
+    "actions": {
+      "disableAccount": "Disabilita account",
+      "enableAccount": "Abilita account",
+      "errors": {
+        "deleteAccount": "Impossibile eliminare l'account",
+        "forceLogout": "Impossibile forzare la disconnessione dell'utente",
+        "liftRestriction": "Impossibile rimuovere la restrizione",
+        "restrictUser": "Impossibile limitare l'utente",
+        "updateUser": "Impossibile aggiornare l'utente",
+        "warnUser": "Impossibile avvisare l'utente"
+      },
+      "forceLogout": "Forza disconnessione",
+      "founderProtectedBanner": "Gli account dei fondatori sono protetti. Lo staff non può avvisarli, limitarli, disabilitarli, eliminarli o intraprendere altre azioni contro di loro.",
+      "hardDeleteAccount": "Eliminazione definitiva dell'account",
+      "liftRestriction": "Rimuovi limitazione",
+      "restrictUser": "Limita utente",
+      "softDeleteAccount": "Eliminazione soft dell'account",
+      "softDeletedBanner": "Questo account è stato eliminato temporaneamente. L'utente non può accedere, ma i suoi dati vengono conservati.",
+      "warnUser": "Avverti utente"
+    },
+    "audit": {
+      "empty": "Nessuna azione da parte dello staff ancora"
+    },
+    "flags": {
+      "current": "Bandiere attuali",
+      "manage": "Gestisci flag",
+      "none": "Nessuna bandiera impostata"
+    },
+    "info": {
+      "accountDetails": "Dettagli dell'account",
+      "created": "Creato",
+      "dateOfBirth": "Data di nascita",
+      "displayName": "Nome visualizzato",
+      "email": "E-mail",
+      "emailVerified": "E-mail verificata",
+      "no": "No",
+      "noDisplayName": "Nessun nome visualizzato impostato",
+      "restrictedUntil": "Limitato fino al",
+      "saveChanges": "Salva modifiche",
+      "sendReminder": "Invia promemoria",
+      "userId": "ID utente",
+      "username": "Nome utente",
+      "verifyReminderSent": "Promemoria di verifica inviato",
+      "yes": "Sì"
+    },
+    "modals": {
+      "delete": {
+        "confirmUsername": "Digita @{{username}} per confermare",
+        "hardBody": "Ciò rimuove permanentemente l'account di @ {{username}} e i dati associati dal database. Verranno eliminati anche tutti gli spazi di loro proprietà. Questa operazione non può essere annullata.",
+        "hardOption": "Eliminazione definitiva (irreversibile)",
+        "hardTitle": "Eliminazione definitiva dell'account",
+        "placeholderHard": "Spiega perché questo account deve essere rimosso definitivamente",
+        "placeholderSoft": "Spiega perché questo account verrà eliminato temporaneamente",
+        "softBody": "Questo software elimina l'account di @{{username}}. Verranno disconnessi e non potranno accedere nuovamente, ma i loro dati verranno conservati per scopi di moderazione e controllo.",
+        "softOption": "Eliminazione temporanea (consigliata)",
+        "softTitle": "Eliminazione soft dell'account",
+        "type": "Tipo di eliminazione"
+      },
+      "disable": {
+        "bodyDisable": "Sei sicuro di voler disabilitare l'account di @{{username}}? Verranno disconnessi e non potranno accedere nuovamente fino alla riattivazione.",
+        "bodyEnable": "Sei sicuro di voler riattivare l'account di @{{username}}?",
+        "enableTitle": "Abilita account",
+        "placeholder": "Spiega perché questo account è stato disabilitato",
+        "title": "Disabilita account"
+      },
+      "forceLogout": {
+        "body": "Sei sicuro di voler disconnettere @{{username}} da ogni sessione? Dovranno effettuare nuovamente l'accesso, ma l'account rimarrà abilitato.",
+        "title": "Forza disconnessione"
+      },
+      "placeholderAudit": "Aggiungi contesto per il registro di controllo",
+      "reasonOptional": "Motivo (facoltativo)",
+      "reasonRequired": "Motivo (obbligatorio)",
+      "restrict": {
+        "body": "Gli utenti con restrizioni non possono inviare messaggi o creare post fino al termine della restrizione.",
+        "duration": "Durata",
+        "durations": {
+          "1d": "1 giorno",
+          "1h": "1 ora",
+          "30d": "30 giorni",
+          "3d": "3 giorni",
+          "6h": "6 ore",
+          "7d": "7 giorni"
+        },
+        "placeholder": "Spiegare a cosa serve la restrizione",
+        "submit": "Limitare",
+        "title": "Limita utente"
+      },
+      "warn": {
+        "body": "Questo invia a @{{username}} un'e-mail di avviso e la registra nel loro percorso di controllo. Non cambia lo stato del loro account.",
+        "placeholder": "Spiegare a cosa serve l'avvertimento",
+        "submit": "Invia avviso",
+        "title": "Avverti utente",
+        "toastEmailFailed": "Avviso registrato, ma l'invio dell'e-mail non è riuscito",
+        "toastSent": "Avviso inviato e inviato via email all'utente"
+      }
+    },
+    "notes": {
+      "add": "Aggiungi nota",
+      "adding": "Aggiunta...",
+      "empty": "Nessuna nota dello staff ancora",
+      "errorAdd": "Impossibile aggiungere la nota",
+      "placeholder": "Lascia una nota per gli altri membri dello staff: non visibile all'utente"
+    },
+    "sessions": {
+      "created": "Creato {{relative}}",
+      "empty": "Nessuna sessione attiva",
+      "errorRevoke": "Impossibile revocare la sessione",
+      "lastUsed": "{{relative}} utilizzato per ultimo",
+      "revoke": "Revoca"
+    }
+  },
+  "working": "Elaborazione..."
 }

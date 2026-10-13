@@ -1,63 +1,221 @@
 {
-  "cancel": "Anuluj",
-  "save": "Zapisz",
-  "saveChanges": "Zapisz zmiany",
-  "close": "Zamknij",
-  "create": "Tworzyć",
-  "delete": "Usuń",
-  "add": "Dodać",
-  "remove": "Usuń",
-  "reset": "Resetuj",
-  "back": "Wstecz",
-  "clear": "Wyczyść",
-  "finish": "Zakończ",
-  "retry": "Spróbuj ponownie",
-  "apply": "Zastosuj",
-  "undo": "Cofnij",
-  "redo": "Ponów",
-  "open": "Otwórz",
-  "proceed": "Kontynuuj",
-  "gotIt": "Rozumiem",
-  "seo": {
-    "defaultTitle": "Mutualzz (wczesny dostęp)",
-    "defaultDescription": "Nawiąż kontakt z innymi ludźmi, którzy podzielają Twoje zainteresowania. Obecnie w fazie intensywnego rozwoju"
+  "a11y": {
+    "allowPermission": "Zezwól na {{label}}",
+    "closeModal": "Zamknij moduł",
+    "closeProfile": "Zamknij profil",
+    "createChannelInCategory": "Utwórz kanał w kategorii",
+    "decrement": "Zmniejszenie",
+    "deleteExpression": "Usuń :{{name}}:",
+    "deleteInvite": "Usuń zaproszenie",
+    "deleteNamed": "Usuń {{name}}",
+    "denyPermission": "Odrzuć {{label}}",
+    "editWidgetHint": "Otwiera edytor widżetów. Naciśnij długo, aby zmienić kolejność widżetów.",
+    "expandWidget": "Rozwiń widżet {{type}}",
+    "expandWidgetHint": "Otwiera pełną zawartość widżetu",
+    "fileAttachment": "Załącznik pliku",
+    "imageAttachment": "Załącznik obrazu",
+    "increment": "Przyrost",
+    "moreOptions": "Więcej opcji",
+    "neutralPermission": "Neutralny {{label}}",
+    "openColorPicker": "Otwórz selektor kolorów",
+    "pauseVideo": "Wstrzymaj wideo",
+    "playVideo": "Odtwórz wideo",
+    "randomColor": "Losowy kolor",
+    "randomColorHint": "Wybiera losowy kolor",
+    "rangeSliderHint": "Suwak zakresu. Dostosuj, przeciągając.",
+    "removeColorStop": "Usuń blokadę koloru",
+    "removeMemberFromRole": "Usuń {{member}} z {{role}}",
+    "reorder": "Zmień kolejność",
+    "sent": "Wysłano",
+    "settings": "Ustawienia",
+    "tapToOpen": "Kliknij, aby otworzyć",
+    "time": "Czas"
   },
-  "reload": "Załaduj ponownie aplikację",
-  "download": "Pobierz Mutualzz",
   "accept": "Zaakceptuj",
-  "decline": "Odrzuć",
-  "restore": "Przywrócić",
-  "uploadCustomFont": "Prześlij niestandardową czcionkę",
-  "language": {
-    "title": "Język",
-    "description": "Wybierz język używany w Mutualzz.",
-    "systemDefault": "Język urządzenia"
+  "activity": {
+    "elapsed": "Upłynęło {{time}}",
+    "listened": "Słuchano",
+    "listening": "Słucha",
+    "openInSpotify": "Otwórz w Spotify",
+    "played": "Grano",
+    "playing": "Gra",
+    "showLess": "Pokaż mniej"
   },
+  "add": "Dodać",
+  "apply": "Zastosuj",
+  "back": "Wstecz",
   "calendar": {
-    "sameDay": "[Dzisiaj o] HH:mm",
-    "nextDay": "[Jutro o] HH:mm",
     "lastDay": "[Wczoraj o] HH:mm",
     "lastWeek": "[W zeszły] dddd [o] HH:mm",
+    "nextDay": "[Jutro o] HH:mm",
+    "sameDay": "[Dzisiaj o] HH:mm",
     "sameElse": "DD.MM.YYYY HH:mm"
   },
+  "cancel": "Anuluj",
+  "clear": "Wyczyść",
+  "close": "Zamknij",
+  "connection": {
+    "audioBlocked": "Twoja przeglądarka zablokowała odtwarzanie głosu",
+    "enableAudio": "Kliknij, aby włączyć dźwięk",
+    "offlineBanner": "Aktualnie jesteś offline",
+    "reconnect": "Na nowo połączyć"
+  },
+  "crash": {
+    "bodyDesktop": "Mutualzz napotkał nieoczekiwany błąd. Załaduj ponownie aplikację, aby spróbować ponownie.",
+    "bodyMobile": "Mutualzz napotkał nieoczekiwany błąd. Zamknij całkowicie aplikację, a następnie otwórz ją ponownie.",
+    "hintAndroid": "Otwórz przegląd ostatnich aplikacji, a następnie przesuń Mutualzz, aż aplikacja się zamknie.",
+    "hintIos": "Przesuń palcem w górę od dołu ekranu, aby otworzyć przełącznik aplikacji, a następnie przesuń Mutualzz w bok.",
+    "orPressShortcut": "Lub naciśnij {{shortcut}}",
+    "title": "Coś poszło nie tak"
+  },
+  "create": "Tworzyć",
+  "customStatus": {
+    "addEmoji": "Dodaj emoji stanu",
+    "changeEmoji": "Zmień emoji stanu",
+    "changeStatus": "Zmień stan",
+    "chooseEmoji": "Wybierz emoji stanu",
+    "clearA11y": "Wyczyść status niestandardowy",
+    "editA11y": "Edytuj status niestandardowy",
+    "heading": "Stan niestandardowy",
+    "label": "Status",
+    "pickEmoji": "Wybierz emoji",
+    "placeholder": "Podaj swój status...",
+    "removeEmoji": "Usuń emoji",
+    "setPlaceholder": "Ustaw status niestandardowy...",
+    "setShort": "Ustaw niestandardowy status...",
+    "title": "Ustaw swój status",
+    "whatsOnYourMind": "Co masz na myśli?"
+  },
+  "decline": "Odrzuć",
+  "delete": "Usuń",
+  "download": "Pobierz Mutualzz",
   "duration": {
     "clearOnDateAt": "Wyczyść {{date}} w {{time}}",
     "clearTodayAt": "Wyczyść dzisiaj o {{time}}",
     "clearTomorrowAt": "Jutro będzie jasno o {{time}}",
     "days_one": "Dzień {{count}}",
+    "days_few": "{{count}} dni",
+    "days_many": "{{count}} dni",
     "days_other": "{{count}} dni",
     "dontClear": "Nie czyść",
     "forever": "Na zawsze",
     "hours_one": "{{count}} godzina",
-    "hours_other": "{{count}} godz",
-    "minutes_one": "Minuta {{count}}",
-    "minutes_other": "{{count}} minut",
-    "days_few": "{{count}} dni",
-    "days_many": "{{count}} dni",
     "hours_few": "{{count}} godz",
     "hours_many": "{{count}} godz",
+    "hours_other": "{{count}} godz",
+    "minutes_one": "Minuta {{count}}",
     "minutes_few": "{{count}} minut",
-    "minutes_many": "{{count}} minut"
+    "minutes_many": "{{count}} minut",
+    "minutes_other": "{{count}} minut"
+  },
+  "editable": {
+    "addToDictionary": "Dodaj do słownika",
+    "copy": "Kopiuj",
+    "cut": "Wytnij",
+    "paste": "Wklej",
+    "spellcheck": "Sprawdzanie pisowni"
+  },
+  "errors": {
+    "requestFailed": "Żądanie nie powiodło się",
+    "requestFailedWithStatus": "Żądanie nie powiodło się ({{status}})",
+    "unknown": "Nieznany błąd"
+  },
+  "externalLink": {
+    "aboutToOpen": "Zamierzasz otworzyć link zewnętrzny:",
+    "blockedInApp": "Ze względów bezpieczeństwa nie zezwalamy na otwieranie niebezpiecznych linków bezpośrednio w aplikacji. Proszę skopiować link i otworzyć go w swojej przeglądarce internetowej.",
+    "close": "Zamknij",
+    "confirmProceed": "Czy na pewno chcesz kontynuować?",
+    "dontShowAgain": "Nie pokazuj tego ostrzeżenia ponownie",
+    "proceed": "Kontynuuj",
+    "title": "Otwórz łącze zewnętrzne",
+    "unsafeHttpBody": "Link, który próbujesz otworzyć, korzysta z niezabezpieczonego połączenia HTTP. Może to potencjalnie narazić Twoje dane na kontakt z osobami trzecimi.",
+    "unsafeTitle": "Ten link wydaje się niebezpieczny"
+  },
+  "finish": "Zakończ",
+  "gotIt": "Rozumiem",
+  "language": {
+    "description": "Wybierz język używany w Mutualzz.",
+    "systemDefault": "Język urządzenia",
+    "title": "Język"
+  },
+  "logout": "Wyloguj się",
+  "markdown": {
+    "blockquote": "Cytat",
+    "bold": "Pogrubienie",
+    "code": "Kod",
+    "color": "Kolor",
+    "italic": "Kursywa",
+    "spoiler": "Spoiler",
+    "strikethrough": "Przekreślenie",
+    "underline": "Podkreślenie"
+  },
+  "media": {
+    "download": "Pobierz",
+    "pause": "Wstrzymaj",
+    "play": "Odtwórz",
+    "volume": "Głośność"
+  },
+  "minecraft": {
+    "skinAlt": "Skórka Minecraft",
+    "skinAltNamed": "Skórka Minecraft gracza {{name}}"
+  },
+  "nav": {
+    "goBack": "Wracać",
+    "goForward": "Idź naprzód"
+  },
+  "notifications": {
+    "acceptedFriend": "{{name}} zaakceptował Twoje zaproszenie do grona znajomych",
+    "groupDmChannel": "Grupowy kanał DM",
+    "markAllAsRead": "Oznacz wszystko jako przeczytane",
+    "mentions": "Wzmianki",
+    "messagePlaceholder": "Wiadomość",
+    "messagesChannel": "Wiadomości",
+    "noMentions": "Żadnych nowych wzmianek",
+    "noMessagesYet": "Nie ma jeszcze żadnych wiadomości",
+    "noUnreads": "Brak nieprzeczytanych wiadomości",
+    "recentlyAccepted": "Ostatnio zaakceptowane",
+    "reply": "Odpowiedz",
+    "requests": "Prośby",
+    "send": "Wyślij",
+    "sentAttachment": "Wysłałem załącznik",
+    "unreads": "Nieprzeczytane",
+    "youWereMentioned": "Wspomniano o Tobie"
+  },
+  "open": "Otwórz",
+  "proceed": "Kontynuuj",
+  "redo": "Ponów",
+  "reload": "Załaduj ponownie aplikację",
+  "remove": "Usuń",
+  "report": {
+    "action": "Zgłoś",
+    "description": "Raporty są przeglądane przez pracowników. Wybierz powód, który najlepiej pasuje.",
+    "detailsPlaceholder": "Dodaj więcej szczegółów (opcjonalnie)",
+    "reasons": {
+      "harassment": "Nękanie lub nadużycia",
+      "hate_speech": "Mowa nienawiści",
+      "impersonation": "Podszywanie się",
+      "misinformation": "Dezinformacja",
+      "nsfw": "NSFW / Nieodpowiednie treści",
+      "other": "Inne",
+      "self_harm": "Samookaleczenie lub samobójstwo",
+      "spam": "Spam"
+    },
+    "submit": "Wyślij zgłoszenie",
+    "submitting": "Przedkładający...",
+    "success": "Raport przesłany. Dziękujemy za pomoc w zapewnieniu bezpieczeństwa.",
+    "title": "Zgłoś {{label}}"
+  },
+  "reset": "Resetuj",
+  "restore": "Przywrócić",
+  "retry": "Spróbuj ponownie",
+  "save": "Zapisz",
+  "saveChanges": "Zapisz zmiany",
+  "select": {
+    "placeholder": "Wybierz opcję"
+  },
+  "seo": {
+    "defaultDescription": "Nawiąż kontakt z innymi ludźmi, którzy podzielają Twoje zainteresowania. Obecnie w fazie intensywnego rozwoju",
+    "defaultTitle": "Mutualzz (wczesny dostęp)"
   },
   "status": {
     "clearCustomAfter": "Wyczyść status niestandardowy po",
@@ -72,194 +230,7 @@
     "online": "Online",
     "saveCustom": "Zapisz status niestandardowy"
   },
-  "report": {
-    "title": "Zgłoś {{label}}",
-    "description": "Raporty są przeglądane przez pracowników. Wybierz powód, który najlepiej pasuje.",
-    "detailsPlaceholder": "Dodaj więcej szczegółów (opcjonalnie)",
-    "submit": "Wyślij zgłoszenie",
-    "submitting": "Przedkładający...",
-    "success": "Raport przesłany. Dziękujemy za pomoc w zapewnieniu bezpieczeństwa.",
-    "action": "Zgłoś",
-    "reasons": {
-      "spam": "Spam",
-      "harassment": "Nękanie lub nadużycia",
-      "hate_speech": "Mowa nienawiści",
-      "nsfw": "NSFW / Nieodpowiednie treści",
-      "self_harm": "Samookaleczenie lub samobójstwo",
-      "impersonation": "Podszywanie się",
-      "misinformation": "Dezinformacja",
-      "other": "Inne"
-    }
-  },
-  "editable": {
-    "addToDictionary": "Dodaj do słownika",
-    "spellcheck": "Sprawdzanie pisowni",
-    "cut": "Wytnij",
-    "copy": "Kopiuj",
-    "paste": "Wklej"
-  },
-  "customStatus": {
-    "title": "Ustaw swój status",
-    "heading": "Stan niestandardowy",
-    "label": "Status",
-    "placeholder": "Podaj swój status...",
-    "setPlaceholder": "Ustaw status niestandardowy...",
-    "setShort": "Ustaw niestandardowy status...",
-    "editA11y": "Edytuj status niestandardowy",
-    "clearA11y": "Wyczyść status niestandardowy",
-    "changeEmoji": "Zmień emoji stanu",
-    "addEmoji": "Dodaj emoji stanu",
-    "chooseEmoji": "Wybierz emoji stanu",
-    "pickEmoji": "Wybierz emoji",
-    "removeEmoji": "Usuń emoji",
-    "changeStatus": "Zmień stan",
-    "whatsOnYourMind": "Co masz na myśli?"
-  },
-  "externalLink": {
-    "proceed": "Kontynuuj",
-    "close": "Zamknij",
-    "title": "Otwórz łącze zewnętrzne",
-    "aboutToOpen": "Zamierzasz otworzyć link zewnętrzny:",
-    "unsafeTitle": "Ten link wydaje się niebezpieczny",
-    "unsafeHttpBody": "Link, który próbujesz otworzyć, korzysta z niezabezpieczonego połączenia HTTP. Może to potencjalnie narazić Twoje dane na kontakt z osobami trzecimi.",
-    "confirmProceed": "Czy na pewno chcesz kontynuować?",
-    "blockedInApp": "Ze względów bezpieczeństwa nie zezwalamy na otwieranie niebezpiecznych linków bezpośrednio w aplikacji. Proszę skopiować link i otworzyć go w swojej przeglądarce internetowej.",
-    "dontShowAgain": "Nie pokazuj tego ostrzeżenia ponownie"
-  },
-  "connection": {
-    "reconnect": "Na nowo połączyć",
-    "enableAudio": "Kliknij, aby włączyć dźwięk",
-    "offlineBanner": "Aktualnie jesteś offline",
-    "audioBlocked": "Twoja przeglądarka zablokowała odtwarzanie głosu"
-  },
-  "nav": {
-    "goBack": "Wracać",
-    "goForward": "Idź naprzód"
-  },
-  "updater": {
-    "pleaseWait": "Aktualizowanie… proszę czekać",
-    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
-    "downloadedOnly": "{{downloaded}} MB",
-    "etaHoursMinutes": "Pozostało {{hours}}h {{minutes}}m",
-    "etaMinutesSeconds": "Pozostało {{minutes}}m {{seconds}}s",
-    "etaSeconds": "Pozostało {{seconds}}s",
-    "installUpdate": "Zainstaluj aktualizację",
-    "installing": "Instalowanie aktualizacji…",
-    "updateReady": "Aktualizacja {{version}} gotowa",
-    "restartToUpdate": "Uruchom ponownie, aby zaktualizować",
-    "restarting": "Ponowne uruchamianie…"
-  },
-  "crash": {
-    "title": "Coś poszło nie tak",
-    "bodyDesktop": "Mutualzz napotkał nieoczekiwany błąd. Załaduj ponownie aplikację, aby spróbować ponownie.",
-    "orPressShortcut": "Lub naciśnij {{shortcut}}",
-    "bodyMobile": "Mutualzz napotkał nieoczekiwany błąd. Zamknij całkowicie aplikację, a następnie otwórz ją ponownie.",
-    "hintIos": "Przesuń palcem w górę od dołu ekranu, aby otworzyć przełącznik aplikacji, a następnie przesuń Mutualzz w bok.",
-    "hintAndroid": "Otwórz przegląd ostatnich aplikacji, a następnie przesuń Mutualzz, aż aplikacja się zamknie."
-  },
-  "a11y": {
-    "closeProfile": "Zamknij profil",
-    "settings": "Ustawienia",
-    "deleteInvite": "Usuń zaproszenie",
-    "deleteNamed": "Usuń {{name}}",
-    "deleteExpression": "Usuń :{{name}}:",
-    "removeMemberFromRole": "Usuń {{member}} z {{role}}",
-    "allowPermission": "Zezwól na {{label}}",
-    "neutralPermission": "Neutralny {{label}}",
-    "denyPermission": "Odrzuć {{label}}",
-    "expandWidget": "Rozwiń widżet {{type}}",
-    "expandWidgetHint": "Otwiera pełną zawartość widżetu",
-    "editWidgetHint": "Otwiera edytor widżetów. Naciśnij długo, aby zmienić kolejność widżetów.",
-    "playVideo": "Odtwórz wideo",
-    "pauseVideo": "Wstrzymaj wideo",
-    "tapToOpen": "Kliknij, aby otworzyć",
-    "imageAttachment": "Załącznik obrazu",
-    "fileAttachment": "Załącznik pliku",
-    "sent": "Wysłano",
-    "createChannelInCategory": "Utwórz kanał w kategorii",
-    "reorder": "Zmień kolejność",
-    "time": "Czas",
-    "closeModal": "Zamknij moduł",
-    "increment": "Przyrost",
-    "decrement": "Zmniejszenie",
-    "openColorPicker": "Otwórz selektor kolorów",
-    "randomColor": "Losowy kolor",
-    "randomColorHint": "Wybiera losowy kolor",
-    "removeColorStop": "Usuń blokadę koloru",
-    "rangeSliderHint": "Suwak zakresu. Dostosuj, przeciągając.",
-    "moreOptions": "Więcej opcji"
-  },
-  "errors": {
-    "unknown": "Nieznany błąd",
-    "requestFailed": "Żądanie nie powiodło się",
-    "requestFailedWithStatus": "Żądanie nie powiodło się ({{status}})"
-  },
-  "select": {
-    "placeholder": "Wybierz opcję"
-  },
-  "media": {
-    "play": "Odtwórz",
-    "pause": "Wstrzymaj",
-    "download": "Pobierz",
-    "volume": "Głośność"
-  },
-  "notifications": {
-    "unreads": "Nieprzeczytane",
-    "mentions": "Wzmianki",
-    "requests": "Prośby",
-    "markAllAsRead": "Oznacz wszystko jako przeczytane",
-    "acceptedFriend": "{{name}} zaakceptował Twoje zaproszenie do grona znajomych",
-    "sentAttachment": "Wysłałem załącznik",
-    "noMessagesYet": "Nie ma jeszcze żadnych wiadomości",
-    "youWereMentioned": "Wspomniano o Tobie",
-    "noUnreads": "Brak nieprzeczytanych wiadomości",
-    "noMentions": "Żadnych nowych wzmianek",
-    "recentlyAccepted": "Ostatnio zaakceptowane",
-    "groupDmChannel": "Grupowy kanał DM",
-    "messagesChannel": "Wiadomości",
-    "reply": "Odpowiedz",
-    "messagePlaceholder": "Wiadomość",
-    "send": "Wyślij"
-  },
-  "markdown": {
-    "bold": "Pogrubienie",
-    "italic": "Kursywa",
-    "underline": "Podkreślenie",
-    "strikethrough": "Przekreślenie",
-    "blockquote": "Cytat",
-    "code": "Kod",
-    "spoiler": "Spoiler",
-    "color": "Kolor"
-  },
   "support": {
-    "myTickets": "Moje bilety",
-    "contactSupport": "Skontaktuj się z pomocą techniczną",
-    "loginToContact": "Zaloguj się, aby skontaktować się z obsługą",
-    "privacyPolicy": "Polityka prywatności",
-    "faq": "Często zadawane pytania",
-    "quickLinks": "Szybkie linki",
-    "contactUs": "Skontaktuj się z nami",
-    "openHelpCenter": "Otwórz centrum pomocy",
-    "describeIssue": "Opisz swój problem",
-    "newTicket": "Nowy bilet",
-    "writeReply": "Napisz odpowiedź",
-    "loading": "Ładowanie...",
-    "loadingTickets": "Ładowanie biletów...",
-    "loadMore": "Załaduj więcej",
-    "sendReply": "Wyślij odpowiedź",
-    "sendReplyFailed": "Nie udało się wysłać odpowiedzi",
-    "staffLabel": "Wsparcie",
-    "ticketClosed": "Ten bilet jest zamknięty.",
-    "ticketClosedHint": "Ten bilet jest zamknięty. Otwórz nowe zgłoszenie, jeśli nadal potrzebujesz pomocy.",
-    "updatedAt": "zaktualizowano {{date}}",
-    "pageIntro": "Potrzebujesz pomocy z Mutualzz? Przejrzyj typowe odpowiedzi poniżej lub skontaktuj się z naszym zespołem.",
-    "mobileIntro": "Przeglądaj pomoc na stronie mutualzz.com/support lub skontaktuj się z nami poniżej.",
-    "subjectPlaceholder": "Temat",
-    "submitTicket": "Wyślij zgłoszenie",
-    "createFailed": "Nie udało się utworzyć biletu",
-    "noTickets": "Nie ma jeszcze biletów",
-    "contactEmailLoggedIn": "Wyślij do nas e-mail na adres {{email}} lub otwórz zgłoszenie do pomocy technicznej z tej strony.",
-    "contactEmailGuest": "Napisz do nas na adres {{email}}.",
     "categories": {
       "account": "Konto i logowanie",
       "bug": "Błąd lub awaria",
@@ -267,56 +238,85 @@
       "feature": "Żądanie funkcji",
       "other": "Inne"
     },
+    "contactEmailGuest": "Napisz do nas na adres {{email}}.",
+    "contactEmailLoggedIn": "Wyślij do nas e-mail na adres {{email}} lub otwórz zgłoszenie do pomocy technicznej z tej strony.",
+    "contactSupport": "Skontaktuj się z pomocą techniczną",
+    "contactUs": "Skontaktuj się z nami",
+    "createFailed": "Nie udało się utworzyć biletu",
+    "describeIssue": "Opisz swój problem",
+    "faq": "Często zadawane pytania",
     "faqItems": {
-      "report": {
-        "q": "Jak zgłosić użytkownika lub treść?",
-        "a": "Otwórz profil użytkownika lub menu treści i wybierz opcję Zgłoś. Nasi pracownicy to sprawdzą."
-      },
       "appeal": {
-        "q": "Jak odwołać się od bana?",
-        "a": "Jeśli otrzymałeś e-mail z banem, skorzystaj z linku do odwołania zawartego w tej wiadomości. Personel rozpatrzy Twoje odwołanie."
-      },
-      "delete": {
-        "q": "Jak usunąć swoje konto?",
-        "a": "Przejdź do Ustawienia → Moje konto → Usuń konto."
+        "a": "Jeśli otrzymałeś e-mail z banem, skorzystaj z linku do odwołania zawartego w tej wiadomości. Personel rozpatrzy Twoje odwołanie.",
+        "q": "Jak odwołać się od bana?"
       },
       "block": {
-        "q": "Jak kogoś zablokować?",
-        "a": "Otwórz ich profil i wybierz Zablokuj. Możesz je później odblokować w ustawieniach."
-      }
-    },
-    "quickLinkItems": {
-      "report": {
-        "label": "Zgłoś treść lub użytkownika",
-        "hint": "Dostępne z menu profilu i działań związanych z treścią"
-      },
-      "appeals": {
-        "label": "Zakaz odwołań",
-        "hint": "Skorzystaj z linku do odwołania znajdującego się w wiadomości e-mail dotyczącej zakazu"
+        "a": "Otwórz ich profil i wybierz Zablokuj. Możesz je później odblokować w ustawieniach.",
+        "q": "Jak kogoś zablokować?"
       },
       "delete": {
-        "label": "Usuń swoje konto",
-        "hint": "Ustawienia → Moje konto → Usuń konto"
+        "a": "Przejdź do Ustawienia → Moje konto → Usuń konto.",
+        "q": "Jak usunąć swoje konto?"
+      },
+      "report": {
+        "a": "Otwórz profil użytkownika lub menu treści i wybierz opcję Zgłoś. Nasi pracownicy to sprawdzą.",
+        "q": "Jak zgłosić użytkownika lub treść?"
       }
     },
+    "loading": "Ładowanie...",
+    "loadingTickets": "Ładowanie biletów...",
+    "loadMore": "Załaduj więcej",
+    "loginToContact": "Zaloguj się, aby skontaktować się z obsługą",
+    "mobileIntro": "Przeglądaj pomoc na stronie mutualzz.com/support lub skontaktuj się z nami poniżej.",
+    "myTickets": "Moje bilety",
+    "newTicket": "Nowy bilet",
+    "noTickets": "Nie ma jeszcze biletów",
+    "openHelpCenter": "Otwórz centrum pomocy",
+    "pageIntro": "Potrzebujesz pomocy z Mutualzz? Przejrzyj typowe odpowiedzi poniżej lub skontaktuj się z naszym zespołem.",
+    "pendingTicketExists": "Masz już otwarte zgłoszenie. Odpowiedz tam lub poczekaj, aż zostanie zamknięte, zanim otworzysz nowe.",
+    "privacyPolicy": "Polityka prywatności",
+    "quickLinkItems": {
+      "appeals": {
+        "hint": "Skorzystaj z linku do odwołania znajdującego się w wiadomości e-mail dotyczącej zakazu",
+        "label": "Zakaz odwołań"
+      },
+      "delete": {
+        "hint": "Ustawienia → Moje konto → Usuń konto",
+        "label": "Usuń swoje konto"
+      },
+      "report": {
+        "hint": "Dostępne z menu profilu i działań związanych z treścią",
+        "label": "Zgłoś treść lub użytkownika"
+      }
+    },
+    "quickLinks": "Szybkie linki",
+    "sendReply": "Wyślij odpowiedź",
+    "sendReplyFailed": "Nie udało się wysłać odpowiedzi",
+    "staffLabel": "Wsparcie",
+    "subjectPlaceholder": "Temat",
+    "submitTicket": "Wyślij zgłoszenie",
     "termsOfService": "Warunki korzystania",
-    "pendingTicketExists": "Masz już otwarte zgłoszenie. Odpowiedz tam lub poczekaj, aż zostanie zamknięte, zanim otworzysz nowe."
+    "ticketClosed": "Ten bilet jest zamknięty.",
+    "ticketClosedHint": "Ten bilet jest zamknięty. Otwórz nowe zgłoszenie, jeśli nadal potrzebujesz pomocy.",
+    "updatedAt": "zaktualizowano {{date}}",
+    "writeReply": "Napisz odpowiedź"
   },
-  "activity": {
-    "playing": "Gra",
-    "listening": "Słucha",
-    "elapsed": "Upłynęło {{time}}",
-    "showLess": "Pokaż mniej",
-    "played": "Grano",
-    "listened": "Słuchano",
-    "openInSpotify": "Otwórz w Spotify"
+  "undo": "Cofnij",
+  "updater": {
+    "downloadedOnly": "{{downloaded}} MB",
+    "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "etaHoursMinutes": "Pozostało {{hours}}h {{minutes}}m",
+    "etaMinutesSeconds": "Pozostało {{minutes}}m {{seconds}}s",
+    "etaSeconds": "Pozostało {{seconds}}s",
+    "installing": "Instalowanie aktualizacji…",
+    "installUpdate": "Zainstaluj aktualizację",
+    "pleaseWait": "Aktualizowanie… proszę czekać",
+    "restarting": "Ponowne uruchamianie…",
+    "restartToUpdate": "Uruchom ponownie, aby zaktualizować",
+    "updateReady": "Aktualizacja {{version}} gotowa"
   },
+  "uploadCustomFont": "Prześlij niestandardową czcionkę",
   "whatsNew": {
     "title": "Co nowego"
-  },
-  "logout": "Wyloguj się",
-  "minecraft": {
-    "skinAlt": "Skórka Minecraft",
-    "skinAltNamed": "Skórka Minecraft gracza {{name}}"
   }
 }
