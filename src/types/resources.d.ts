@@ -2929,7 +2929,7 @@ export default interface Resources {
       "switchToSpaces": "Switch to Spaces"
     },
     "theme": {
-      "clear": "Use personal theme",
+      "clear": "Revert to default",
       "createCustom": "Create space theme",
       "description": "Skin the channel list and chat for everyone in this space. Your personal theme stays elsewhere.",
       "noCustomThemes": "No custom themes yet. Create one to brand this space.",
