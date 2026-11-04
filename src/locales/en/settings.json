@@ -94,8 +94,34 @@
     "yourIcons": "Your Icons",
     "yourThemes": "Your Themes"
   },
+  "applications": {
+    "applicationId": "Application ID",
+    "applicationIdDescription": "Pass this as clientId to @mutualzz/rpc (or the C++ / C# libraries).",
+    "copied": "Copied",
+    "copyId": "Copy ID",
+    "create": "New Application",
+    "createDescription": "Give your game or app a name. You can change it later.",
+    "created": "Application created",
+    "delete": "Delete",
+    "deleteConfirm": "Delete {{name}}? Games using this ID will fall back to the name they send.",
+    "deleted": "Application deleted",
+    "description": "Description",
+    "descriptionPlaceholder": "Optional, only you can see this",
+    "empty": "You haven't created any applications yet.",
+    "error": "Something went wrong. Please try again.",
+    "icon": "Icon",
+    "iconHint": "Square image, at least 256×256. Shown next to your activity.",
+    "intro": "Create an application to show Rich Presence from your game. Your activity uses the name and icon you set here.",
+    "limit": "{{count}} of {{max}} applications used",
+    "name": "Name",
+    "removeIcon": "Remove icon",
+    "save": "Save",
+    "saved": "Saved",
+    "uploadIcon": "Upload icon"
+  },
   "categories": {
     "appSettings": "App Settings",
+    "desktopSettings": "Desktop",
     "userSettings": "User Settings"
   },
   "composer": {
@@ -316,6 +342,9 @@
       "toggleMemberList": "Toggle member list"
     },
     "title": "Keybinds"
+  },
+  "languageInput": {
+    "inputTitle": "Typing"
   },
   "layout": {
     "defaultMemberListVisible": "Show member list by default",
@@ -546,7 +575,28 @@
     "voiceSpaceIdPlaceholder": "Space snowflake ID",
     "voiceSpacePlaceholder": "Select a space",
     "yourBridges": "Your bridges",
-    "yourCode": "Run this in Minecraft"
+    "yourCode": "Run this in Minecraft",
+    "inventoryButton": "Inventory",
+    "inventoryTitle": "{{name}}'s inventory",
+    "inventoryLive": "Live",
+    "inventoryLastSeen": "Last updated {{time}}",
+    "inventoryArmor": "Armor",
+    "inventoryMain": "Inventory",
+    "inventoryEnderChest": "Ender chest",
+    "inventoryNotLinked": "Link your Minecraft account to see your inventory.",
+    "inventoryEmpty": "No inventory yet. Join the server once and it will show up here.",
+    "inventoryDisclaimer": "Item textures © Mojang. Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.",
+    "inventoryView": "View inventory",
+    "inventoryEmptyPlayer": "No inventory saved for {{name}} yet.",
+    "offlineCount": "{{count}} offline",
+    "playersLastSeen": "Last seen {{time}}",
+    "inventoryDelete": "Delete saved inventory",
+    "inventoryDeleteConfirm": "Click again to delete",
+    "serverCardPlayers": "{{online}}/{{max}} players",
+    "serverCardPlayersLabel": "Players",
+    "serverCardPlayersHint": "Players online / player slots",
+    "serverCardTpsHint": "Ticks per second. 20 means no lag.",
+    "serverCardMsptHint": "Milliseconds per tick. Under 50 means the server keeps up."
   },
   "notifications": {
     "clearRecentActivity": "Clear recent activity",
@@ -604,6 +654,7 @@
   "pages": {
     "accessibility": "Accessibility",
     "appearance": "Appearance",
+    "applications": "Applications",
     "avatarAndProfile": "Avatar & profile",
     "composer": "Composer",
     "connections": "Connections",
@@ -611,6 +662,7 @@
     "discordImport": "Import from Discord",
     "expressions": "Expressions",
     "keybinds": "Keybinds",
+    "languageAndInput": "Language & Input",
     "layout": "Layout",
     "messages": "Messages",
     "minecraftBridge": "Minecraft Bridge",
@@ -1056,8 +1108,10 @@
   "textAndChat": {
     "chatFontScale": "Chat font size",
     "chatFontScaleDescription": "Scale message text size in channels and DMs",
+    "displayTitle": "Display",
     "gifAutoplay": "Autoplay GIFs",
     "gifAutoplayDescription": "Play animated GIFs automatically when they appear in chat",
+    "mediaTitle": "Media",
     "messageDisplay": "Message display",
     "messageDisplayCompact": "Compact",
     "messageDisplayDefault": "Default",
