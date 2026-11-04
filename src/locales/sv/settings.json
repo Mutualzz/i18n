@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "Appinställningar",
+    "desktopSettings": "Skrivbord",
     "userSettings": "Användarinställningar"
   },
   "composer": {
@@ -316,6 +317,9 @@
       "toggleMemberList": "Växla medlemslista"
     },
     "title": "Tangentbindningar"
+  },
+  "languageInput": {
+    "inputTitle": "Skrivande"
   },
   "layout": {
     "defaultMemberListVisible": "Visa medlemslistan som standard",
@@ -611,6 +615,7 @@
     "discordImport": "Importera från Discord",
     "expressions": "Uttryck",
     "keybinds": "Tangentbindningar",
+    "languageAndInput": "Språk och inmatning",
     "layout": "Layout",
     "messages": "Meddelanden",
     "minecraftBridge": "Minecraft-bridge",
@@ -1056,8 +1061,10 @@
   "textAndChat": {
     "chatFontScale": "Chattens teckenstorlek",
     "chatFontScaleDescription": "Skala meddelandetextens storlek i kanaler och DM",
+    "displayTitle": "Visning",
     "gifAutoplay": "Spela upp GIF:er automatiskt",
     "gifAutoplayDescription": "Spela upp animerade GIF:er automatiskt när de visas i chatten",
+    "mediaTitle": "Media",
     "messageDisplay": "Meddelandevisning",
     "messageDisplayCompact": "Kompakt",
     "messageDisplayDefault": "Standard",

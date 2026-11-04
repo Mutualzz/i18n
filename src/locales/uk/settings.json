@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "Налаштування застосунку",
+    "desktopSettings": "Комп'ютер",
     "userSettings": "Налаштування користувача"
   },
   "composer": {
@@ -318,6 +319,9 @@
       "toggleMemberList": "Перемкнути список учасників"
     },
     "title": "Гарячі клавіші"
+  },
+  "languageInput": {
+    "inputTitle": "Введення тексту"
   },
   "layout": {
     "defaultMemberListVisible": "За замовчуванням показувати список учасників",
@@ -617,6 +621,7 @@
     "discordImport": "Імпорт з Discord",
     "expressions": "Вирази",
     "keybinds": "Гарячі клавіші",
+    "languageAndInput": "Мова та введення",
     "layout": "Макет",
     "messages": "Повідомлення",
     "minecraftBridge": "Міст Minecraft",
@@ -1086,8 +1091,10 @@
   "textAndChat": {
     "chatFontScale": "Розмір шрифту чату",
     "chatFontScaleDescription": "Масштабувати розмір тексту повідомлень у каналах і DM",
+    "displayTitle": "Відображення",
     "gifAutoplay": "Автовідтворення GIF",
     "gifAutoplayDescription": "Автоматично відтворювати анімовані GIF, коли вони з'являються в чаті",
+    "mediaTitle": "Медіа",
     "messageDisplay": "Відображення повідомлень",
     "messageDisplayCompact": "Компактний",
     "messageDisplayDefault": "За замовчуванням",

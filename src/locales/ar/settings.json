@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "إعدادات التطبيق",
+    "desktopSettings": "سطح المكتب",
     "userSettings": "إعدادات المستخدم"
   },
   "composer": {
@@ -320,6 +321,9 @@
       "toggleMemberList": "تبديل قائمة الأعضاء"
     },
     "title": "روابط المفاتيح"
+  },
+  "languageInput": {
+    "inputTitle": "الكتابة"
   },
   "layout": {
     "defaultMemberListVisible": "عرض قائمة الأعضاء بشكل افتراضي",
@@ -623,6 +627,7 @@
     "discordImport": "استيراد من ديسكورد",
     "expressions": "التعابير",
     "keybinds": "روابط المفاتيح",
+    "languageAndInput": "اللغة والإدخال",
     "layout": "المخطط",
     "messages": "[ترجمة المصطلح: Messages]",
     "minecraftBridge": "جسر ماين كرافت",
@@ -1116,8 +1121,10 @@
   "textAndChat": {
     "chatFontScale": "حجم خط الدردشة",
     "chatFontScaleDescription": "تغيير حجم نص الرسالة في القنوات والرسائل المباشرة",
+    "displayTitle": "العرض",
     "gifAutoplay": "التشغيل التلقائي لصور GIF",
     "gifAutoplayDescription": "تشغيل صور GIF المتحركة تلقائيًا عند ظهورها في الدردشة",
+    "mediaTitle": "الوسائط",
     "messageDisplay": "الرسالة معروضة",
     "messageDisplayCompact": "تصميم صغير الحجم",
     "messageDisplayDefault": "تقصير",

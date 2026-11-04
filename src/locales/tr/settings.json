@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "Uygulama Ayarları",
+    "desktopSettings": "Masaüstü",
     "userSettings": "Kullanıcı Ayarları"
   },
   "composer": {
@@ -316,6 +317,9 @@
       "toggleMemberList": "Üye listesini değiştir"
     },
     "title": "Tuş bağlantıları"
+  },
+  "languageInput": {
+    "inputTitle": "Yazma"
   },
   "layout": {
     "defaultMemberListVisible": "Üye listesini varsayılan olarak göster",
@@ -611,6 +615,7 @@
     "discordImport": "Discord'dan içe aktar",
     "expressions": "İfadeler",
     "keybinds": "Tuş bağlantıları",
+    "languageAndInput": "Dil ve Giriş",
     "layout": "Düzen",
     "messages": "Mesajlar",
     "minecraftBridge": "Minecraft Köprü",
@@ -1056,8 +1061,10 @@
   "textAndChat": {
     "chatFontScale": "Sohbet yazı tipi boyutu",
     "chatFontScaleDescription": "Kanallarda ve DM'lerde mesaj metni boyutunu ölçeklendirin",
+    "displayTitle": "Görünüm",
     "gifAutoplay": "Otomatik oynatılan GIF'ler",
     "gifAutoplayDescription": "Animasyonlu GIF'ler sohbette göründüklerinde otomatik olarak oynatılır",
+    "mediaTitle": "Medya",
     "messageDisplay": "Mesaj ekranı",
     "messageDisplayCompact": "Kompakt",
     "messageDisplayDefault": "Varsayılan",

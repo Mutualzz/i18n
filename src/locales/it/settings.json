@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "Impostazioni app",
+    "desktopSettings": "Desktop",
     "userSettings": "Impostazioni utente"
   },
   "composer": {
@@ -316,6 +317,9 @@
       "toggleMemberList": "Attiva/disattiva l'elenco dei membri"
     },
     "title": "Combinazioni di tasti"
+  },
+  "languageInput": {
+    "inputTitle": "Digitazione"
   },
   "layout": {
     "defaultMemberListVisible": "Mostra l'elenco dei membri per impostazione predefinita",
@@ -611,6 +615,7 @@
     "discordImport": "Importa da Discord",
     "expressions": "Espressioni",
     "keybinds": "Combinazioni di tasti",
+    "languageAndInput": "Lingua e input",
     "layout": "Disposizione",
     "messages": "Messaggi",
     "minecraftBridge": "Minecraft Ponte",
@@ -1056,8 +1061,10 @@
   "textAndChat": {
     "chatFontScale": "Dimensione del carattere della chat",
     "chatFontScaleDescription": "Ridimensiona la dimensione del testo del messaggio nei canali e nei DM",
+    "displayTitle": "Visualizzazione",
     "gifAutoplay": "GIF a riproduzione automatica",
     "gifAutoplayDescription": "Riproduci automaticamente le GIF animate quando appaiono nella chat",
+    "mediaTitle": "Contenuti multimediali",
     "messageDisplay": "Visualizzazione dei messaggi",
     "messageDisplayCompact": "Compatto",
     "messageDisplayDefault": "Predefinito",

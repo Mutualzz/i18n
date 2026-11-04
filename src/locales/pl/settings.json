@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "Ustawienia aplikacji",
+    "desktopSettings": "Pulpit",
     "userSettings": "Ustawienia użytkownika"
   },
   "composer": {
@@ -318,6 +319,9 @@
       "toggleMemberList": "Przełącz listę członków"
     },
     "title": "Skróty klawiszowe"
+  },
+  "languageInput": {
+    "inputTitle": "Pisanie"
   },
   "layout": {
     "defaultMemberListVisible": "Domyślnie pokazuj listę członków",
@@ -617,6 +621,7 @@
     "discordImport": "Importuj z Discord",
     "expressions": "Wyrażenia",
     "keybinds": "Skróty klawiszowe",
+    "languageAndInput": "Język i wprowadzanie",
     "layout": "Układ",
     "messages": "Wiadomości",
     "minecraftBridge": "Most Minecraft",
@@ -1086,8 +1091,10 @@
   "textAndChat": {
     "chatFontScale": "Rozmiar czcionki czatu",
     "chatFontScaleDescription": "Skaluj rozmiar tekstu wiadomości na kanałach i w DM",
+    "displayTitle": "Wyświetlanie",
     "gifAutoplay": "Autoodtwarzanie GIF",
     "gifAutoplayDescription": "Automatycznie odtwarzaj animowane GIF-y, gdy pojawią się na czacie",
+    "mediaTitle": "Multimedia",
     "messageDisplay": "Wyświetlanie wiadomości",
     "messageDisplayCompact": "Kompaktowy",
     "messageDisplayDefault": "Domyślny",

@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "应用设置",
+    "desktopSettings": "桌面",
     "userSettings": "用户设置"
   },
   "composer": {
@@ -316,6 +317,9 @@
       "toggleMemberList": "切换成员列表"
     },
     "title": "按键绑定"
+  },
+  "languageInput": {
+    "inputTitle": "输入"
   },
   "layout": {
     "defaultMemberListVisible": "默认显示成员列表",
@@ -611,6 +615,7 @@
     "discordImport": "从 Discord 导入",
     "expressions": "表情",
     "keybinds": "按键绑定",
+    "languageAndInput": "语言与输入",
     "layout": "布局",
     "messages": "留言",
     "minecraftBridge": "Minecraft 桥",
@@ -1056,8 +1061,10 @@
   "textAndChat": {
     "chatFontScale": "聊天字体大小",
     "chatFontScaleDescription": "缩放频道和 DM 中的消息文本大小",
+    "displayTitle": "显示",
     "gifAutoplay": "自动播放 GIF",
     "gifAutoplayDescription": "当动画 GIF 出现在聊天中时自动播放",
+    "mediaTitle": "媒体",
     "messageDisplay": "消息显示",
     "messageDisplayCompact": "袖珍的",
     "messageDisplayDefault": "默认",

@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "앱 설정",
+    "desktopSettings": "데스크톱",
     "userSettings": "사용자 설정"
   },
   "composer": {
@@ -316,6 +317,9 @@
       "toggleMemberList": "회원 목록 전환"
     },
     "title": "키 바인딩"
+  },
+  "languageInput": {
+    "inputTitle": "입력"
   },
   "layout": {
     "defaultMemberListVisible": "기본적으로 회원 목록 표시",
@@ -611,6 +615,7 @@
     "discordImport": "Discord에서 가져오기",
     "expressions": "표현",
     "keybinds": "키 바인딩",
+    "languageAndInput": "언어 및 입력",
     "layout": "공들여 나열한 것",
     "messages": "메시지",
     "minecraftBridge": "Minecraft 다리",
@@ -1056,8 +1061,10 @@
   "textAndChat": {
     "chatFontScale": "채팅 글꼴 크기",
     "chatFontScaleDescription": "채널 및 DM의 메시지 텍스트 크기 조정",
+    "displayTitle": "표시",
     "gifAutoplay": "GIF 자동재생",
     "gifAutoplayDescription": "채팅에 애니메이션 GIF가 표시되면 자동으로 재생",
+    "mediaTitle": "미디어",
     "messageDisplay": "메시지 표시",
     "messageDisplayCompact": "콤팩트",
     "messageDisplayDefault": "기본",

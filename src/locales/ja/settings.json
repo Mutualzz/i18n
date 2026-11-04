@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "アプリ設定",
+    "desktopSettings": "デスクトップ",
     "userSettings": "ユーザー設定"
   },
   "composer": {
@@ -316,6 +317,9 @@
       "toggleMemberList": "メンバーリストの切り替え"
     },
     "title": "キーバインド"
+  },
+  "languageInput": {
+    "inputTitle": "入力"
   },
   "layout": {
     "defaultMemberListVisible": "デフォルトでメンバーリストを表示",
@@ -611,6 +615,7 @@
     "discordImport": "Discord からインポート",
     "expressions": "エクスプレッション",
     "keybinds": "キーバインド",
+    "languageAndInput": "言語と入力",
     "layout": "レイアウト",
     "messages": "メッセージ",
     "minecraftBridge": "Minecraft ブリッジ",
@@ -1056,8 +1061,10 @@
   "textAndChat": {
     "chatFontScale": "チャットのフォントサイズ",
     "chatFontScaleDescription": "チャネルと DM のメッセージ テキスト サイズを調整する",
+    "displayTitle": "表示",
     "gifAutoplay": "GIFの自動再生",
     "gifAutoplayDescription": "アニメーション GIF がチャットに表示されると自動的に再生されます",
+    "mediaTitle": "メディア",
     "messageDisplay": "メッセージ表示",
     "messageDisplayCompact": "コンパクト",
     "messageDisplayDefault": "デフォルト",

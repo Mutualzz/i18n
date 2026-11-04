@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "Настройки приложения",
+    "desktopSettings": "Компьютер",
     "userSettings": "Настройки пользователя"
   },
   "composer": {
@@ -318,6 +319,9 @@
       "toggleMemberList": "Переключить список участников"
     },
     "title": "Горячие клавиши"
+  },
+  "languageInput": {
+    "inputTitle": "Ввод текста"
   },
   "layout": {
     "defaultMemberListVisible": "Показывать список участников по умолчанию",
@@ -617,6 +621,7 @@
     "discordImport": "Импорт из Discord",
     "expressions": "Выражения",
     "keybinds": "Горячие клавиши",
+    "languageAndInput": "Язык и ввод",
     "layout": "Макет",
     "messages": "Сообщения",
     "minecraftBridge": "Мост Minecraft",
@@ -1086,8 +1091,10 @@
   "textAndChat": {
     "chatFontScale": "Размер шрифта чата",
     "chatFontScaleDescription": "Масштабировать размер текста сообщений в каналах и ЛС",
+    "displayTitle": "Отображение",
     "gifAutoplay": "Автовоспроизведение GIF",
     "gifAutoplayDescription": "Автоматически воспроизводить анимированные GIF, когда они появляются в чате",
+    "mediaTitle": "Медиа",
     "messageDisplay": "Отображение сообщений",
     "messageDisplayCompact": "Компактный",
     "messageDisplayDefault": "По умолчанию",

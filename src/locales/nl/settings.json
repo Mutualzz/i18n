@@ -96,6 +96,7 @@
   },
   "categories": {
     "appSettings": "App-instellingen",
+    "desktopSettings": "Desktop",
     "userSettings": "Gebruikersinstellingen"
   },
   "composer": {
@@ -316,6 +317,9 @@
       "toggleMemberList": "Ledenlijst in-/uitschakelen"
     },
     "title": "Sneltoetsen"
+  },
+  "languageInput": {
+    "inputTitle": "Typen"
   },
   "layout": {
     "defaultMemberListVisible": "Ledenlijst standaard tonen",
@@ -611,6 +615,7 @@
     "discordImport": "Importeren vanuit Discord",
     "expressions": "Expressies",
     "keybinds": "Sneltoetsen",
+    "languageAndInput": "Taal en invoer",
     "layout": "Lay-out",
     "messages": "Berichten",
     "minecraftBridge": "Minecraft-bridge",
@@ -1056,8 +1061,10 @@
   "textAndChat": {
     "chatFontScale": "Chatlettergrootte",
     "chatFontScaleDescription": "Berichttekstgrootte schalen in kanalen en DM's",
+    "displayTitle": "Weergave",
     "gifAutoplay": "GIF's automatisch afspelen",
     "gifAutoplayDescription": "Geanimeerde GIF's automatisch afspelen wanneer ze in de chat verschijnen",
+    "mediaTitle": "Media",
     "messageDisplay": "Berichtweergave",
     "messageDisplayCompact": "Compact",
     "messageDisplayDefault": "Standaard",

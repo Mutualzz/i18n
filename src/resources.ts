@@ -296,6 +296,7 @@ export const settingsPageTitleKeys = {
   profile: "pages.profile",
   expressions: "pages.expressions",
   appearance: "pages.appearance",
+  language: "pages.languageAndInput",
   messages: "pages.messages",
   notifications: "pages.notifications",
   "registered-games": "pages.registeredGames",
@@ -310,12 +311,14 @@ export const settingsPageTitleKeys = {
   keybinds: "pages.keybinds",
   "minecraft-bridge": "pages.minecraftBridge",
   "discord-import": "pages.discordImport",
+  applications: "pages.applications",
   support: "helpAndSupport",
 } as const;
 
 export const settingsCategoryTitleKeys = {
   "user-settings": "categories.userSettings",
   "app-settings": "categories.appSettings",
+  "desktop-settings": "categories.desktopSettings",
 } as const;
 
 export const spacePageTitleKeys = {
