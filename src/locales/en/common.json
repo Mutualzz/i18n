@@ -36,7 +36,6 @@
     "elapsed": "{{time}} elapsed",
     "listened": "Listened",
     "listening": "Listening",
-    "openInSpotify": "Open in Spotify",
     "played": "Played",
     "playing": "Playing",
     "showLess": "Show less"
@@ -83,6 +82,7 @@
     "removeEmoji": "Remove emoji",
     "setPlaceholder": "Set Custom Status...",
     "setShort": "Set a custom status...",
+    "syncLyrics": "Show song lyrics as my status while listening",
     "title": "Set your status",
     "whatsOnYourMind": "What's on your mind?"
   },
@@ -257,9 +257,9 @@
         "q": "How do I report a user or content?"
       }
     },
+    "loadMore": "Load more",
     "loading": "Loading...",
     "loadingTickets": "Loading tickets...",
-    "loadMore": "Load more",
     "loginToContact": "Log in to contact support",
     "mobileIntro": "Browse help at mutualzz.com/support or contact us below.",
     "myTickets": "My tickets",
@@ -297,16 +297,16 @@
   },
   "undo": "Undo",
   "updater": {
-    "downloadedOnly": "{{downloaded}} MB",
     "downloadProgress": "{{pct}}% · {{downloaded}}/{{total}} MB{{eta}}",
+    "downloadedOnly": "{{downloaded}} MB",
     "etaHoursMinutes": "{{hours}}h {{minutes}}m left",
     "etaMinutesSeconds": "{{minutes}}m {{seconds}}s left",
     "etaSeconds": "{{seconds}}s left",
-    "installing": "Installing update…",
     "installUpdate": "Install update",
+    "installing": "Installing update…",
     "pleaseWait": "Updating… please wait",
-    "restarting": "Restarting…",
     "restartToUpdate": "Restart to update",
+    "restarting": "Restarting…",
     "updateReady": "Update {{version}} ready"
   },
   "uploadCustomFont": "Upload custom font",
