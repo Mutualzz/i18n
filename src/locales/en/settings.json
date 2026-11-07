@@ -450,10 +450,6 @@
     "joinedBridges_other": "Joined {{count}} bridges",
     "joinedToast": "Joined {{name}}",
     "joinedViaMinecraft": "Joined via Minecraft",
-    "kickingMember": "Removing…",
-    "kickMember": "Remove",
-    "kickMemberConfirm": "Remove {{name}} from this bridge? They can rejoin by connecting to the Minecraft server while linked.",
-    "kickMemberTitle": "Remove {{name}}?",
     "lastSeen": "Last seen {{when}}",
     "lastSeenNever": "Never connected",
     "leave": "Leave bridge",
@@ -650,7 +646,13 @@
     "unbanDone": "Unbanned",
     "unbanPartial": "Unbanned in Mutualzz, but not on: {{servers}}",
     "playersSearch": "Search players",
-    "playersNoResults": "No players match your search."
+    "playersNoResults": "No players match your search.",
+    "playersTitle": "Players",
+    "inventoryMoveHint": "Tap another slot to move this item there. Tap it again to deselect.",
+    "inventoryRemoveConfirmTap": "Tap again to remove",
+    "inventoryCancelAllConfirmTap": "Tap again to cancel all",
+    "inventoryDeleteConfirmTap": "Tap again to delete",
+    "membersLoadMore": "Load more"
   },
   "notifications": {
     "clearRecentActivity": "Clear recent activity",
