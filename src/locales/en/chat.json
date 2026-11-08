@@ -9,6 +9,7 @@
   },
   "actions": {
     "addReaction": "Add reaction",
+    "bookmark": "Bookmark",
     "copyText": "Copy Text",
     "delete": "Delete",
     "deleteMessage": "Delete Message",
@@ -16,6 +17,9 @@
     "editMessage": "Edit Message",
     "pinMessage": "Pin Message",
     "reactWith": "React with {{emoji}}",
+    "remindMe": "Remind Me",
+    "removeReminder": "Remove Reminder",
+    "removeBookmark": "Remove Bookmark",
     "reply": "Reply",
     "reportMessage": "Report Message",
     "unpinMessage": "Unpin Message"
@@ -453,9 +457,54 @@
     "previous": "Previous pinned message"
   },
   "privateSpace": "Private Space",
+  "reminders": {
+    "custom": "Custom…",
+    "customInvalid": "Pick a time at least a minute from now and within a year.",
+    "customTitle": "Remind me at…",
+    "presets": {
+      "1h": "In 1 hour",
+      "1w": "In 1 week",
+      "20m": "In 20 minutes",
+      "3h": "In 3 hours",
+      "tomorrow": "Tomorrow"
+    },
+    "set": "Set reminder"
+  },
   "reply": {
     "banner": "Replying to {{name}}",
     "replyPreviewMissing": "Could not find the replied message"
+  },
+  "scheduledMessages": {
+    "attachmentCount_one": "{{count}} attachment",
+    "attachmentCount_other": "{{count}} attachments",
+    "cancel": "Cancel",
+    "cancelScheduling": "Stop scheduling",
+    "channelNotice_one": "You have {{count}} scheduled message in this channel.",
+    "channelNotice_other": "You have {{count}} scheduled messages in this channel.",
+    "dayAt": "{{day}} at {{time}}",
+    "editText": "Edit text",
+    "editTitle": "Edit scheduled message",
+    "empty": "Nothing scheduled yet.",
+    "failed": "Couldn't send: {{reason}}",
+    "menuTitle": "Schedule Message",
+    "messages": "Messages",
+    "pickDateTime": "Pick a date and time",
+    "pickTitle": "Schedule message",
+    "plusMenu": "More options",
+    "posts": "Posts",
+    "reschedule": "Reschedule",
+    "rescheduleTitle": "Reschedule message",
+    "retry": "Retry now",
+    "save": "Save",
+    "schedule": "Schedule",
+    "scheduledToast": "Message scheduled for {{time}}.",
+    "schedulingBanner": "Scheduling message for {{time}}",
+    "sending": "Sending…",
+    "sendNow": "Send now",
+    "sendsAt": "Sends {{time}}",
+    "setTime": "Set time",
+    "tomorrowAt": "Tomorrow at {{time}}",
+    "uploadFile": "Upload a File"
   },
   "report": {
     "thisMessage": "this message"
