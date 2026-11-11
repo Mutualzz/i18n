@@ -210,19 +210,9 @@
     "username": "Nazwa użytkownika"
   },
   "discordImport": {
-    "botInvite": "Zaproś bota Mutualzz",
-    "botInviteHint": "Dodaj bota na swój serwer Discord przed importem.",
-    "guildId": "ID serwera Discord",
-    "guildIdHint": "Kliknij prawym przyciskiem nazwę serwera Discord → Copy Server ID (Developer Mode włączony).",
-    "guildIdPlaceholder": "np. 123456789012345678",
     "import": "Importuj",
     "intro": "Importuj układ kanałów, role i emoji z serwera Discord. Historia wiadomości nie jest importowana.",
     "inviteReady": "Przestrzeń utworzona. Kod zaproszenia: {{code}}",
-    "linkedStatus": "Konto Discord połączone",
-    "linkHint": "Połącz konto Discord, aby zaimportować serwer.",
-    "preview": "Podgląd",
-    "previewSummary": "{{channels}} kanałów, {{roles}} ról, {{emojis}} emoji (pominięto {{skipped}})",
-    "previewTitle": "Podgląd importu",
     "spaceName": "Nazwa nowej przestrzeni",
     "spaceNamePlaceholder": "Moja społeczność"
   },

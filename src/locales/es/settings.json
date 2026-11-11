@@ -210,19 +210,9 @@
     "username": "Nombre de usuario"
   },
   "discordImport": {
-    "botInvite": "Invitar bot de Mutualzz",
-    "botInviteHint": "Añade el bot a tu servidor de Discord antes de importar.",
-    "guildId": "ID del servidor de Discord",
-    "guildIdHint": "Clic derecho en el nombre del servidor → Copiar ID del servidor (Modo desarrollador activado).",
-    "guildIdPlaceholder": "p. ej. 123456789012345678",
     "import": "Importar",
     "intro": "Importa la estructura de canales, roles y emojis de un servidor de Discord. El historial de mensajes no se importa.",
     "inviteReady": "Espacio creado. Código de invitación: {{code}}",
-    "linkedStatus": "Cuenta de Discord vinculada",
-    "linkHint": "Vincula tu cuenta de Discord para importar un servidor.",
-    "preview": "Vista previa",
-    "previewSummary": "{{channels}} canales, {{roles}} roles, {{emojis}} emojis ({{skipped}} omitidos)",
-    "previewTitle": "Vista previa de importación",
     "spaceName": "Nombre del nuevo espacio",
     "spaceNamePlaceholder": "Mi comunidad"
   },

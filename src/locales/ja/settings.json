@@ -210,19 +210,9 @@
     "username": "ユーザー名"
   },
   "discordImport": {
-    "botInvite": "Mutualzz ボットを招待する",
-    "botInviteHint": "インポートする前に、ボットを Discord サーバーに追加します。",
-    "guildId": "Discord サーバー ID",
-    "guildIdHint": "Discord サーバー名を右クリック → サーバー ID をコピー (開発者モードがオン)。",
-    "guildIdPlaceholder": "例えば123456789012345678",
     "import": "輸入",
     "intro": "Discord サーバーからチャネル レイアウト、役割、絵文字をインポートします。メッセージ履歴はインポートされません。",
     "inviteReady": "空間が生まれました。招待コード: {{code}}",
-    "linkedStatus": "Discord アカウントがリンクされました",
-    "linkHint": "Discord アカウントをリンクしてサーバーをインポートします。",
-    "preview": "プレビュー",
-    "previewSummary": "{{channels}} チャンネル、{{roles}} 役割、{{emojis}} 絵文字 ({{skipped}} はスキップ)",
-    "previewTitle": "インポートプレビュー",
     "spaceName": "新しいスペース名",
     "spaceNamePlaceholder": "私のコミュニティ"
   },

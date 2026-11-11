@@ -1,4 +1,11 @@
 {
+  "announce": {
+    "deafened": "Deafened",
+    "muted": "Muted",
+    "noUnread": "No unread channels",
+    "undeafened": "Undeafened",
+    "unmuted": "Unmuted"
+  },
   "a11y": {
     "allowPermission": "Allow {{label}}",
     "closeModal": "Close modal",
@@ -185,8 +192,8 @@
     "friendRequests": "Friend requests",
     "groupDmChannel": "Group DM Channel",
     "inbox": "Inbox",
-    "loading": "Loading…",
     "loadMore": "Load more",
+    "loading": "Loading…",
     "markAllAsRead": "Mark all as read",
     "markReminderDone": "Mark as done",
     "mentions": "Mentions",
@@ -219,6 +226,12 @@
   },
   "open": "Open",
   "proceed": "Proceed",
+  "quickSwitcher": {
+    "empty": "No channels found",
+    "label": "Search channels and direct messages",
+    "placeholder": "Where would you like to go? (# for channels, @ for DMs)",
+    "unknown": "Unknown"
+  },
   "redo": "Redo",
   "reload": "Reload app",
   "remove": "Remove",

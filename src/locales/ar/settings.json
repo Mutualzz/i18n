@@ -210,19 +210,9 @@
     "username": "[ترجمة المصطلح: Username]"
   },
   "discordImport": {
-    "botInvite": "دعوة روبوت Mutualzz",
-    "botInviteHint": "أضف الروبوت إلى خادم ديسكورد الخاص بك قبل الاستيراد.",
-    "guildId": "معرف خادم ديسكورد",
-    "guildIdHint": "انقر بزر الماوس الأيمن فوق اسم خادم ديسكورد → Copy Server ID (وضع المطور قيد التشغيل).",
-    "guildIdPlaceholder": "على سبيل المثال 123456789012345678",
     "import": "استيراد",
     "intro": "استيراد تخطيط القناة والأدوار والرموز التعبيرية من خادم ديسكورد. لم يتم استيراد محفوظات الرسائل.",
     "inviteReady": "تم إنشاء المساحة. رمز الدعوة: {{code}}",
-    "linkedStatus": "تم ربط حساب ديسكورد",
-    "linkHint": "اربط حساب Discord الخاص بك لاستيراد خادم.",
-    "preview": "معاينة",
-    "previewSummary": "{{channels}} قنوات، {{roles}} أدوار، {{emojis}} رموز تعبيرية ({{skipped}} تم تخطيها)",
-    "previewTitle": "معاينة الاستيراد",
     "spaceName": "اسم المساحة الآمنة",
     "spaceNamePlaceholder": "\"مجتمعي\""
   },

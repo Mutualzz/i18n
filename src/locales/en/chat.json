@@ -1,4 +1,12 @@
 {
+  "announce": {
+    "bookmarkRemoved": "Bookmark removed",
+    "bookmarked": "Message bookmarked",
+    "deleted": "Message deleted",
+    "pinned": "Message pinned",
+    "replyingTo": "Replying to {{name}}",
+    "unpinned": "Message unpinned"
+  },
   "a11y": {
     "embedImage": "Embed image",
     "embedTitle": "Embed title",
@@ -18,8 +26,8 @@
     "pinMessage": "Pin Message",
     "reactWith": "React with {{emoji}}",
     "remindMe": "Remind Me",
-    "removeReminder": "Remove Reminder",
     "removeBookmark": "Remove Bookmark",
+    "removeReminder": "Remove Reminder",
     "reply": "Reply",
     "reportMessage": "Report Message",
     "unpinMessage": "Unpin Message"
@@ -96,9 +104,9 @@
     "editChannel": "Edit Channel",
     "editGroup": "Edit Group",
     "editProfile": "Edit Profile",
-    "inviteToChannel": "Invite to Channel",
     "inviteSendFailed": "Couldn't send invite",
     "inviteSent": "Invite sent to {{displayName}}",
+    "inviteToChannel": "Invite to Channel",
     "inviteToSpace": "Invite to Space",
     "kickMember": "Kick {{username}}",
     "leaveGroup": "Leave Group",
@@ -211,9 +219,9 @@
     "comments": {
       "close": "Close comments",
       "hideReplies": "Hide replies",
+      "loadMore": "Load more comments",
       "loading": "Loading comments…",
       "loadingMore": "Loading more…",
-      "loadMore": "Load more comments",
       "placeholder": "Write a comment…",
       "reply": "Reply",
       "replyFallback": "comment",
@@ -244,8 +252,8 @@
     },
     "empty": {
       "comments": "No comments yet.",
-      "posts": "No posts yet.",
       "postUnavailable": "This post doesn't exist, or is no longer available.",
+      "posts": "No posts yet.",
       "saved": "No saved posts yet.",
       "scheduled": "You have no scheduled posts.",
       "shareTargets": "You don't have any conversations or friends to share with yet."
@@ -401,6 +409,9 @@
     "edited": "(edited)",
     "scrollToLatestA11y": "Scroll to latest messages"
   },
+  "messageList": {
+    "label": "Messages in {{name}}"
+  },
   "messageTooLong": "Message cannot exceed 2000 characters",
   "noMembersToShow": "No members to show.",
   "offline": "Offline",
@@ -443,8 +454,8 @@
       "stickers": "Stickers"
     },
     "yourEmojis": "Your emojis",
-    "yours": "Yours",
-    "yourStickers": "Your stickers"
+    "yourStickers": "Your stickers",
+    "yours": "Yours"
   },
   "pins": {
     "count_one": "{{count}} pinned message in this channel.",
@@ -474,6 +485,9 @@
     "banner": "Replying to {{name}}",
     "replyPreviewMissing": "Could not find the replied message"
   },
+  "report": {
+    "thisMessage": "this message"
+  },
   "scheduledMessages": {
     "attachmentCount_one": "{{count}} attachment",
     "attachmentCount_other": "{{count}} attachments",
@@ -499,15 +513,12 @@
     "schedule": "Schedule",
     "scheduledToast": "Message scheduled for {{time}}.",
     "schedulingBanner": "Scheduling message for {{time}}",
-    "sending": "Sending…",
     "sendNow": "Send now",
+    "sending": "Sending…",
     "sendsAt": "Sends {{time}}",
     "setTime": "Set time",
     "tomorrowAt": "Tomorrow at {{time}}",
     "uploadFile": "Upload a File"
-  },
-  "report": {
-    "thisMessage": "this message"
   },
   "search": {
     "activeAfter": "After {{date}}",
@@ -546,10 +557,10 @@
     "placeholder": "Search {{space}}",
     "placeholderShort": "Search {{space}}",
     "removeFilter": "Remove filter",
-    "results_one": "{{count}} result",
-    "results_other": "{{count}} results",
     "resultsTitle_one": "{{count}} Result",
     "resultsTitle_other": "{{count}} Results",
+    "results_one": "{{count}} result",
+    "results_other": "{{count}} results",
     "searching": "Searching…",
     "sort": "Sort",
     "sortNewest": "Newest first",
@@ -606,11 +617,11 @@
       "holdToTalkA11y": "Hold to talk",
       "live": "LIVE",
       "mute": "Mute",
-      "muted": "Muted",
       "muteStream": "Mute Stream",
       "muteStreamAudio": "Mute stream audio",
       "muteUser": "Mute User",
       "muteUserLocally": "Mute this user locally",
+      "muted": "Muted",
       "noiseSuppression": "Noise Suppression",
       "noiseSuppressionA11y": "Noise suppression",
       "noiseSuppressionApplying": "Applying…",

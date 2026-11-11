@@ -210,19 +210,9 @@
     "username": "使用者名稱"
   },
   "discordImport": {
-    "botInvite": "邀請 Mutualzz 機器人",
-    "botInviteHint": "在匯入之前將機器人新增至您的 Discord 伺服器。",
-    "guildId": "Discord 伺服器 ID",
-    "guildIdHint": "右鍵點選 Discord 伺服器名稱 → 複製伺服器 ID（開發人員模式開啟）。",
-    "guildIdPlaceholder": "例如123456789012345678",
     "import": "進口",
     "intro": "從 Discord 伺服器匯入頻道佈局、角色和表情符號。訊息歷史記錄未匯入。",
     "inviteReady": "空間被創造。邀請碼：{{code}}",
-    "linkedStatus": "Discord 帳戶已關聯",
-    "linkHint": "連結您的 Discord 帳戶以匯入伺服器。",
-    "preview": "預覽",
-    "previewSummary": "{{channels}} 頻道、{{roles}} 角色、{{emojis}} 表情符號（{{skipped}} 已跳過）",
-    "previewTitle": "導入預覽",
     "spaceName": "新空間名稱",
     "spaceNamePlaceholder": "我的社區"
   },

@@ -210,19 +210,9 @@
     "username": "Имя пользователя"
   },
   "discordImport": {
-    "botInvite": "Пригласить бота Mutualzz",
-    "botInviteHint": "Добавьте бота на свой сервер Discord перед импортом.",
-    "guildId": "ID сервера Discord",
-    "guildIdHint": "Щёлкните правой кнопкой по названию сервера Discord → Copy Server ID (Developer Mode включён).",
-    "guildIdPlaceholder": "напр. 123456789012345678",
     "import": "Импорт",
     "intro": "Импортируйте структуру каналов, роли и emoji с сервера Discord. История сообщений не импортируется.",
     "inviteReady": "Пространство создано. Код приглашения: {{code}}",
-    "linkedStatus": "Аккаунт Discord привязан",
-    "linkHint": "Привяжите аккаунт Discord, чтобы импортировать сервер.",
-    "preview": "Предпросмотр",
-    "previewSummary": "{{channels}} каналов, {{roles}} ролей, {{emojis}} эмодзи (пропущено {{skipped}})",
-    "previewTitle": "Предпросмотр импорта",
     "spaceName": "Название нового пространства",
     "spaceNamePlaceholder": "Моё сообщество"
   },

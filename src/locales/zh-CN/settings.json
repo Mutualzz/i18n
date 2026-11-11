@@ -210,19 +210,9 @@
     "username": "用户名"
   },
   "discordImport": {
-    "botInvite": "邀请 Mutualzz 机器人",
-    "botInviteHint": "在导入之前将机器人添加到您的 Discord 服务器。",
-    "guildId": "Discord 服务器 ID",
-    "guildIdHint": "右键单击 Discord 服务器名称 → 复制服务器 ID（开发人员模式打开）。",
-    "guildIdPlaceholder": "例如123456789012345678",
     "import": "进口",
     "intro": "从 Discord 服务器导入频道布局、角色和表情符号。消息历史记录未导入。",
     "inviteReady": "空间被创造。邀请码：{{code}}",
-    "linkedStatus": "Discord 帐户已关联",
-    "linkHint": "链接您的 Discord 帐户以导入服务器。",
-    "preview": "预览",
-    "previewSummary": "{{channels}} 频道、{{roles}} 角色、{{emojis}} 表情符号（{{skipped}} 已跳过）",
-    "previewTitle": "导入预览",
     "spaceName": "新空间名称",
     "spaceNamePlaceholder": "我的社区"
   },

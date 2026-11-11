@@ -210,19 +210,9 @@
     "username": "Gebruikersnaam"
   },
   "discordImport": {
-    "botInvite": "Mutualzz-bot uitnodigen",
-    "botInviteHint": "Voeg de bot toe aan je Discord-server voordat je importeert.",
-    "guildId": "Discord-server-ID",
-    "guildIdHint": "Klik met de rechtermuisknop op de Discord-servernaam → Server-ID kopiëren (Ontwikkelaarsmodus aan).",
-    "guildIdPlaceholder": "bijv. 123456789012345678",
     "import": "Importeren",
     "intro": "Importeer kanaalindeling, rollen en emoji van een Discord-server. Berichtgeschiedenis wordt niet geïmporteerd.",
     "inviteReady": "Space aangemaakt. Uitnodigingscode: {{code}}",
-    "linkedStatus": "Discord-account gekoppeld",
-    "linkHint": "Koppel je Discord-account om een server te importeren.",
-    "preview": "Voorbeeld",
-    "previewSummary": "{{channels}} kanalen, {{roles}} rollen, {{emojis}} emoji ({{skipped}} overgeslagen)",
-    "previewTitle": "Importvoorbeeld",
     "spaceName": "Nieuwe Space-naam",
     "spaceNamePlaceholder": "Mijn community"
   },

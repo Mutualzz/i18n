@@ -210,19 +210,9 @@
     "username": "Användarnamn"
   },
   "discordImport": {
-    "botInvite": "Bjud in Mutualzz-bot",
-    "botInviteHint": "Lägg till boten på din Discord-server innan du importerar.",
-    "guildId": "Discord-server-ID",
-    "guildIdHint": "Högerklicka på Discord-serverns namn → Kopiera server-ID (Utvecklarläge på).",
-    "guildIdPlaceholder": "t.ex. 123456789012345678",
     "import": "Importera",
     "intro": "Importera kanalstruktur, roller och emoji från en Discord-server. Meddelandehistorik importeras inte.",
     "inviteReady": "Space skapad. Inbjudningskod: {{code}}",
-    "linkedStatus": "Discord-konto länkat",
-    "linkHint": "Länka ditt Discord-konto för att importera en server.",
-    "preview": "Förhandsvisning",
-    "previewSummary": "{{channels}} kanaler, {{roles}} roller, {{emojis}} emoji ({{skipped}} överhoppade)",
-    "previewTitle": "Importförhandsvisning",
     "spaceName": "Nytt Space-namn",
     "spaceNamePlaceholder": "Min gemenskap"
   },

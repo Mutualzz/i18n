@@ -210,19 +210,9 @@
     "username": "Ім'я користувача"
   },
   "discordImport": {
-    "botInvite": "Запросити бота Mutualzz",
-    "botInviteHint": "Додайте бота на свій сервер Discord перед імпортом.",
-    "guildId": "ID сервера Discord",
-    "guildIdHint": "Клацніть правою кнопкою назву сервера Discord → Copy Server ID (Developer Mode увімкнено).",
-    "guildIdPlaceholder": "напр. 123456789012345678",
     "import": "Імпорт",
     "intro": "Імпортуйте розкладку каналів, ролі та emoji з сервера Discord. Історію повідомлень не імпортується.",
     "inviteReady": "Простір створено. Код запрошення: {{code}}",
-    "linkedStatus": "Обліковий запис Discord прив’язано",
-    "linkHint": "Прив’яжіть обліковий запис Discord, щоб імпортувати сервер.",
-    "preview": "Попередній перегляд",
-    "previewSummary": "{{channels}} каналів, {{roles}} ролей, {{emojis}} емодзі (пропущено {{skipped}})",
-    "previewTitle": "Попередній перегляд імпорту",
     "spaceName": "Назва нового простору",
     "spaceNamePlaceholder": "Моя спільнота"
   },

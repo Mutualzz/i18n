@@ -210,19 +210,9 @@
     "username": "Kullanıcı adı"
   },
   "discordImport": {
-    "botInvite": "Mutualzz botu davet et",
-    "botInviteHint": "İçe aktarmadan önce botu Discord sunucunuza ekleyin.",
-    "guildId": "Discord sunucu kimliği",
-    "guildIdHint": "Discord sunucu adına sağ tıklayın → Sunucu Kimliğini Kopyala (Geliştirici Modu açık).",
-    "guildIdPlaceholder": "örneğin 123456789012345678",
     "import": "İçe aktarmak",
     "intro": "Bir Discord sunucusundan kanal düzenini, rolleri ve emojileri içe aktarın. Mesaj geçmişi içe aktarılmaz.",
     "inviteReady": "Uzay oluşturuldu. Davet kodu: {{code}}",
-    "linkedStatus": "Discord hesabı bağlandı",
-    "linkHint": "Bir sunucuyu içe aktarmak için Discord hesabınızı bağlayın.",
-    "preview": "Önizleme",
-    "previewSummary": "{{channels}} kanalları, {{roles}} rolleri, {{emojis}} emojileri ({{skipped}} atlandı)",
-    "previewTitle": "Önizlemeyi içe aktar",
     "spaceName": "Yeni alan adı",
     "spaceNamePlaceholder": "Topluluğum"
   },

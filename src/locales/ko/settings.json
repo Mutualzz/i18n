@@ -210,19 +210,9 @@
     "username": "사용자 이름"
   },
   "discordImport": {
-    "botInvite": "Mutualzz 봇 초대",
-    "botInviteHint": "가져오기 전에 Discord 서버에 봇을 추가하세요.",
-    "guildId": "Discord 서버 ID",
-    "guildIdHint": "Discord 서버 이름을 마우스 오른쪽 버튼으로 클릭 → 서버 ID 복사(개발자 모드 켜짐).",
-    "guildIdPlaceholder": "예를 들어 123456789012345678",
     "import": "수입",
     "intro": "Discord 서버에서 채널 레이아웃, 역할 및 이모티콘을 가져옵니다. 메시지 기록을 가져오지 않습니다.",
     "inviteReady": "공간이 생성되었습니다. 초대 코드: {{code}}",
-    "linkedStatus": "Discord 계정이 연결되었습니다",
-    "linkHint": "Discord 계정을 연결하여 서버를 가져오세요.",
-    "preview": "시사",
-    "previewSummary": "{{channels}} 채널, {{roles}} 역할, {{emojis}} 이모티콘({{skipped}} 건너뛰기)",
-    "previewTitle": "가져오기 미리보기",
     "spaceName": "새 스페이스 이름",
     "spaceNamePlaceholder": "내 커뮤니티"
   },

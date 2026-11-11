@@ -210,19 +210,9 @@
     "username": "Benutzername"
   },
   "discordImport": {
-    "botInvite": "Mutualzz-Bot einladen",
-    "botInviteHint": "Füge den Bot deinem Discord-Server hinzu, bevor du importierst.",
-    "guildId": "Discord-Server-ID",
-    "guildIdHint": "Rechtsklick auf den Discord-Servernamen → Server-ID kopieren (Entwicklermodus aktiviert).",
-    "guildIdPlaceholder": "z. B. 123456789012345678",
     "import": "Importieren",
     "intro": "Importiere Kanalstruktur, Rollen und Emojis von einem Discord-Server. Der Nachrichtenverlauf wird nicht importiert.",
     "inviteReady": "Space erstellt. Einladungscode: {{code}}",
-    "linkedStatus": "Discord-Konto verknüpft",
-    "linkHint": "Verknüpfe dein Discord-Konto, um einen Server zu importieren.",
-    "preview": "Vorschau",
-    "previewSummary": "{{channels}} Kanäle, {{roles}} Rollen, {{emojis}} Emojis ({{skipped}} übersprungen)",
-    "previewTitle": "Importvorschau",
     "spaceName": "Neuer Space-Name",
     "spaceNamePlaceholder": "Meine Community"
   },
