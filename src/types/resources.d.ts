@@ -155,6 +155,14 @@ export default interface Resources {
       "reportMessage": "Report Message",
       "unpinMessage": "Unpin Message"
     },
+    "announce": {
+      "bookmarkRemoved": "Bookmark removed",
+      "bookmarked": "Message bookmarked",
+      "deleted": "Message deleted",
+      "pinned": "Message pinned",
+      "replyingTo": "Replying to {{name}}",
+      "unpinned": "Message unpinned"
+    },
     "blocked": "Blocked",
     "call": {
       "accept": "Accept",
@@ -509,9 +517,7 @@ export default interface Resources {
     "home": "Home",
     "loading": "Loading…",
     "loadingChannel": "Loading channel...",
-    "loadingMembers": "Loading members…",
     "loadingMembersEllipsis": "Loading members...",
-    "loadingMoreMembers": "Loading more…",
     "mentions": {
       "members": "Members",
       "membersMatching": "Members matching \"{{query}}\"",
@@ -523,6 +529,9 @@ export default interface Resources {
     "message": {
       "edited": "(edited)",
       "scrollToLatestA11y": "Scroll to latest messages"
+    },
+    "messageList": {
+      "label": "Messages in {{name}}"
     },
     "messageTooLong": "Message cannot exceed 2000 characters",
     "noMembersToShow": "No members to show.",
@@ -872,6 +881,13 @@ export default interface Resources {
       "showLess": "Show less"
     },
     "add": "Add",
+    "announce": {
+      "deafened": "Deafened",
+      "muted": "Muted",
+      "noUnread": "No unread channels",
+      "undeafened": "Undeafened",
+      "unmuted": "Unmuted"
+    },
     "apply": "Apply",
     "back": "Back",
     "calendar": {
@@ -1047,6 +1063,12 @@ export default interface Resources {
     },
     "open": "Open",
     "proceed": "Proceed",
+    "quickSwitcher": {
+      "empty": "No channels found",
+      "label": "Search channels and direct messages",
+      "placeholder": "Where would you like to go? (# for channels, @ for DMs)",
+      "unknown": "Unknown"
+    },
     "redo": "Redo",
     "reload": "Reload app",
     "remove": "Remove",
@@ -1537,17 +1559,57 @@ export default interface Resources {
       "cancel": "Cancel",
       "clearHint": "While editing, press Backspace or Delete to disable a shortcut, or Escape to cancel.",
       "conflict": "Already used by \"{{action}}\"",
-      "description": "Global keyboard shortcuts for desktop navigation. Push-to-talk is configured in Voice & Video settings.",
+      "description": "Keyboard shortcuts for navigating the app. Press Ctrl+/ anywhere to see them all. Push-to-talk is configured in Voice & Video settings.",
       "disabled": "Disabled",
       "edit": "Edit",
+      "globalTaken": "Another app is already using this shortcut. Pick a different one.",
+      "help": {
+        "customizeHint": "You can change these in Settings → Keybinds.",
+        "fixed": "Always available",
+        "fixedShortcuts": {
+          "closeOrCancel": "Close dialog or cancel editing",
+          "editLastMessage": "Edit your last message (empty message box)",
+          "messageBookmark": "Bookmark the focused message",
+          "messageDelete": "Delete the focused message",
+          "messageEdit": "Edit the focused message (yours)",
+          "messageMenu": "Open the menu for the focused message",
+          "messageNavigate": "Move between messages (after tabbing into the message list)",
+          "messagePin": "Pin or unpin the focused message",
+          "messageReact": "Add a reaction to the focused message",
+          "messageReply": "Reply to the focused message",
+          "newLine": "New line in message",
+          "sendMessage": "Send message",
+          "switcherNavigate": "Move through lists and the quick switcher",
+          "zoomIn": "Zoom in",
+          "zoomOut": "Zoom out",
+          "zoomReset": "Reset zoom"
+        },
+        "title": "Keyboard shortcuts",
+        "yours": "Your shortcuts"
+      },
       "pressKey": "Press keys…",
       "reset": "Reset",
       "resetAll": "Reset all to defaults",
       "shortcuts": {
+        "disconnectVoice": "Disconnect from voice",
+        "nextUnreadChannel": "Next unread channel",
         "openSettings": "Open settings",
-        "toggleMemberList": "Toggle member list"
+        "previousUnreadChannel": "Previous unread channel",
+        "quickSwitcher": "Open quick switcher",
+        "showShortcuts": "Show keyboard shortcuts",
+        "toggleDeafen": "Toggle deafen",
+        "toggleMemberList": "Toggle member list",
+        "toggleMute": "Toggle mute"
       },
-      "title": "Keybinds"
+      "systemWarning": {
+        "keyboardLayout": "Windows may use Alt+Shift to switch keyboard layout, so this might not work.",
+        "reserved": "Your operating system may use this shortcut, so this might not work."
+      },
+      "title": "Keybinds",
+      "voiceEverywhere": {
+        "description": "Your mute and deafen shortcuts also work while you're in another app.",
+        "title": "Mute and deafen shortcuts work in other apps"
+      }
     },
     "languageInput": {
       "inputTitle": "Typing"

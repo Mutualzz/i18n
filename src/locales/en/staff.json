@@ -95,22 +95,24 @@
     "findUser": "Find a user",
     "findUserDescription": "Search by username, or filter by flag, to view an account and its available staff actions.",
     "goToUserId": "Go to user ID {{id}}",
-    "loading": "Loading...",
     "loadMore": "Load more",
+    "loading": "Loading...",
     "noUsers": "No users found",
-    "searching": "Searching...",
-    "searchPlaceholder": "Search by username, or paste a user ID"
+    "searchPlaceholder": "Search by username, or paste a user ID",
+    "searching": "Searching..."
   },
   "nav": {
     "activity": "Activity",
     "appeals": "Appeals",
     "changelogs": "Changelogs",
+    "playground": "UI Playground",
     "reports": "Reports",
     "support": "Support"
   },
   "pages": {
     "activity": "Staff Activity",
     "changelogs": "Changelogs",
+    "playground": "UI Playground",
     "reportDetails": "Report Details"
   },
   "report": {
@@ -192,8 +194,8 @@
     "replyPlaceholder": "Reply to user",
     "resolve": "Resolve",
     "selectTicket": "Select a ticket",
-    "sending": "Sending…",
     "sendReply": "Send reply",
+    "sending": "Sending…",
     "staff": "Staff",
     "status": {
       "awaiting_reply": "Awaiting reply",
@@ -212,6 +214,7 @@
         "forceLogout": "Failed to force logout user",
         "liftRestriction": "Failed to lift restriction",
         "restrictUser": "Failed to restrict user",
+        "setPassword": "Failed to set password",
         "updateUser": "Failed to update user",
         "warnUser": "Failed to warn user"
       },
@@ -220,6 +223,7 @@
       "hardDeleteAccount": "Hard Delete Account",
       "liftRestriction": "Lift Restriction",
       "restrictUser": "Restrict User",
+      "setPassword": "Set Password",
       "softDeleteAccount": "Soft Delete Account",
       "softDeletedBanner": "This account is soft deleted. The user cannot log in, but their data is retained.",
       "warnUser": "Warn User"
@@ -290,6 +294,14 @@
         "placeholder": "Explain what the restriction is for",
         "submit": "Restrict",
         "title": "Restrict User"
+      },
+      "setPassword": {
+        "body": "Set a new password for @{{username}}. They will be signed out everywhere and must log in with the new password.",
+        "confirmPassword": "Confirm new password",
+        "newPassword": "New password",
+        "submit": "Set Password",
+        "success": "Password updated for @{{username}}",
+        "title": "Set Password"
       },
       "warn": {
         "body": "This sends @{{username}} a warning email and logs it to their audit trail. It doesn't change their account state.",

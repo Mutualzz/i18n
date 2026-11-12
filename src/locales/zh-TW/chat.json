@@ -379,9 +379,7 @@
   "home": "首頁",
   "loading": "載入中…",
   "loadingChannel": "正在載入頻道...",
-  "loadingMembers": "正在載入成員…",
   "loadingMembersEllipsis": "正在載入成員...",
-  "loadingMoreMembers": "載入更多…",
   "mentions": {
     "members": "成員",
     "membersMatching": "符合「{{query}}」的成員",

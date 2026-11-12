@@ -379,9 +379,7 @@
   "home": "Ana Sayfa",
   "loading": "Yükleniyor…",
   "loadingChannel": "Kanal yükleniyor...",
-  "loadingMembers": "Üyeler yükleniyor…",
   "loadingMembersEllipsis": "Üyeler yükleniyor...",
-  "loadingMoreMembers": "Daha fazla yükleniyor…",
   "mentions": {
     "members": "Üyeler",
     "membersMatching": "\"{{query}}\" ile eşleşen üyeler",

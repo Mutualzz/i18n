@@ -395,9 +395,7 @@
   "home": "Главная",
   "loading": "Загрузка…",
   "loadingChannel": "Загрузка канала...",
-  "loadingMembers": "Загрузка участников…",
   "loadingMembersEllipsis": "Загрузка участников...",
-  "loadingMoreMembers": "Загрузка ещё…",
   "mentions": {
     "members": "Участники",
     "membersMatching": "Участники по запросу «{{query}}»",

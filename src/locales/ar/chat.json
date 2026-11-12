@@ -411,9 +411,7 @@
   "home": "الرئيسية",
   "loading": "جارٍ التحميل…",
   "loadingChannel": "جارٍ تحميل القناة...",
-  "loadingMembers": "جارٍ تحميل الأعضاء…",
   "loadingMembersEllipsis": "جارٍ تحميل الأعضاء...",
-  "loadingMoreMembers": "جارٍ تحميل المزيد…",
   "mentions": {
     "members": "الأعضاء",
     "membersMatching": "أعضاء يطابقون \"{{query}}\"",

@@ -379,9 +379,7 @@
   "home": "首页",
   "loading": "加载中…",
   "loadingChannel": "正在加载频道...",
-  "loadingMembers": "正在加载成员…",
   "loadingMembersEllipsis": "正在加载成员...",
-  "loadingMoreMembers": "加载更多…",
   "mentions": {
     "members": "成员",
     "membersMatching": "匹配「{{query}}」的成员",

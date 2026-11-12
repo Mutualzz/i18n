@@ -379,9 +379,7 @@
   "home": "Hem",
   "loading": "Laddar…",
   "loadingChannel": "Laddar kanal...",
-  "loadingMembers": "Laddar medlemmar…",
   "loadingMembersEllipsis": "Laddar medlemmar...",
-  "loadingMoreMembers": "Laddar fler…",
   "mentions": {
     "members": "Medlemmar",
     "membersMatching": "Medlemmar som matchar \"{{query}}\"",

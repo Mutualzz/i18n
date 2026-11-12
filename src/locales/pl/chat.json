@@ -395,9 +395,7 @@
   "home": "Strona główna",
   "loading": "Ładowanie…",
   "loadingChannel": "Ładowanie kanału...",
-  "loadingMembers": "Ładowanie członków…",
   "loadingMembersEllipsis": "Ładowanie członków...",
-  "loadingMoreMembers": "Ładowanie więcej…",
   "mentions": {
     "members": "Członkowie",
     "membersMatching": "Członkowie pasujący do „{{query}}”",

@@ -379,9 +379,7 @@
   "home": "ホーム",
   "loading": "読み込み中…",
   "loadingChannel": "チャンネルを読み込み中...",
-  "loadingMembers": "メンバーを読み込み中…",
   "loadingMembersEllipsis": "メンバーを読み込み中...",
-  "loadingMoreMembers": "読み込み中…",
   "mentions": {
     "members": "メンバー",
     "membersMatching": "「{{query}}」に一致するメンバー",

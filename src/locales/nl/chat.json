@@ -379,9 +379,7 @@
   "home": "Home",
   "loading": "Laden…",
   "loadingChannel": "Kanaal laden...",
-  "loadingMembers": "Leden laden…",
   "loadingMembersEllipsis": "Leden laden...",
-  "loadingMoreMembers": "Meer laden…",
   "mentions": {
     "members": "Leden",
     "membersMatching": "Leden die overeenkomen met '{{query}}'",

@@ -395,9 +395,7 @@
   "home": "Головна",
   "loading": "Завантаження…",
   "loadingChannel": "Завантаження каналу...",
-  "loadingMembers": "Завантаження учасників…",
   "loadingMembersEllipsis": "Завантаження учасників...",
-  "loadingMoreMembers": "Завантаження ще…",
   "mentions": {
     "members": "Учасники",
     "membersMatching": "Учасники за запитом «{{query}}»",

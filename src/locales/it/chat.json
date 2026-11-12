@@ -379,9 +379,7 @@
   "home": "Home",
   "loading": "Caricamento…",
   "loadingChannel": "Caricamento canale...",
-  "loadingMembers": "Caricamento membri…",
   "loadingMembersEllipsis": "Caricamento membri...",
-  "loadingMoreMembers": "Caricamento altro...",
   "mentions": {
     "members": "Membri",
     "membersMatching": "Membri corrispondenti a \"{{query}}\"",

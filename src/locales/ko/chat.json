@@ -379,9 +379,7 @@
   "home": "홈",
   "loading": "로딩 중…",
   "loadingChannel": "채널 로딩 중...",
-  "loadingMembers": "멤버 로딩 중…",
   "loadingMembersEllipsis": "멤버 로딩 중...",
-  "loadingMoreMembers": "더 불러오는 중…",
   "mentions": {
     "members": "멤버",
     "membersMatching": "\"{{query}}\"와(과) 일치하는 멤버",

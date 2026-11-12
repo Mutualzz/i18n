@@ -379,9 +379,7 @@
   "home": "Accueil",
   "loading": "Chargement…",
   "loadingChannel": "Chargement du canal...",
-  "loadingMembers": "Chargement des membres…",
   "loadingMembersEllipsis": "Chargement des membres...",
-  "loadingMoreMembers": "Chargement…",
   "mentions": {
     "members": "Membres",
     "membersMatching": "Membres correspondant à « {{query}} »",
